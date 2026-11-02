@@ -4,7 +4,8 @@ import { h, fmtRun, fmtDelta, isTyping, toast, fill } from '../lib/util.js';
 import { SplitTimer, recordAttempt, segmentsOf } from '../lib/timer.js';
 import { Reel } from '../lib/reel.js';
 import { keepAwake } from '../lib/pwa.js';
-import { SPLITS } from '../data/raid.js';
+import { SPLITS, RUNS, communityBest } from '../data/raid.js';
+import { model } from '../lib/sync.js';
 import { ROUTE, REQUIREMENTS, GEAR } from '../data/route.js';
 import { comparisons } from './timer.js';
 import * as store from '../lib/store.js';
@@ -45,10 +46,69 @@ export function mount(root) {
         h('div', { class: 'card' }, h('h2', {}, 'Pre-flight'), h('div', { class: 'grid', style: { gap: '6px' } }, items),
           h('div', { class: 'row', style: { marginTop: '12px' } }, h('label', { class: 'note' }, 'Race against ', cmpSel)),
           h('button', { class: 'btn pri big', style: { width: '100%', marginTop: '12px', justifyContent: 'center' }, onclick: () => { timer.start(); } }, '▶ Start run  ', h('kbd', {}, 'Space')),
-          h('p', { class: 'note' }, 'Start on the first frame the loading icon disappears entering the raid.')),
+          h('p', { class: 'note' }, 'Start on the first frame the loading icon disappears entering the raid.'),
+          h('h3', { style: { marginTop: '16px' } }, 'Segment practice'),
+          h('p', { class: 'note' }, 'Time one split on its own: start when you leave the previous extraction point, split on the next.'),
+          h('div', { class: 'grid', style: { gap: '6px' } }, SPLITS.map((sp, k) => { const st = segStats(k); return h('button', { class: 'btn', style: { justifyContent: 'space-between' }, onclick: () => paintSeg(k) }, h('span', {}, `${k + 1}. ${sp.name}`), h('small', { class: 'mono muted' }, st.n ? `best ${fmtRun(st.best, 1)} · ${st.n} tries` : 'not practised')); }))),
         h('div', { class: 'card' }, h('h2', {}, 'Route at a glance'),
           h('ol', { class: 'glance' }, ROUTE.map((sp, k) => h('li', {}, h('b', {}, SPLITS[k].name), h('div', { class: 'note' }, sp.skips.filter(s => s.status !== 'patched').map(s => s.name).join(' → '))))),
           h('h3', {}, 'Requirements'), h('div', { class: 'chips' }, REQUIREMENTS.map(r => h('a', { class: 'chip', href: `#/wiki?id=${r.wiki}` }, r.name, h('small', {}, r.need.split(' · ')[0])))))));
+  }
+
+  // ------------------------------------------------------------ segment practice
+  function segStats(k) {
+    const log = ((store.get().segPractice || {})[k]) || [];
+    const times = log.map(x => x.t);
+    const last10 = times.slice(-10);
+    return { n: times.length, best: times.length ? Math.min(...times) : null, avg: last10.length ? last10.reduce((a, b) => a + b, 0) / last10.length : null, last: times.slice(-12) };
+  }
+  let segTimer = null;
+  function paintSeg(k) {
+    phase = 'seg'; keepAwake(true);
+    const c = cmp(), ref = c.splits[k] - (k ? c.splits[k - 1] : 0);
+    const cname = c.name.replace(' (WR)', '');
+    const sk = skipsFor(k);
+    const clock = h('div', { class: 'rn-clock mono' }, '0:00.00');
+    const hist = h('div', { class: 'rn-list' });
+    const big = h('button', { class: 'rn-big' });
+    const paintHist = () => {
+      const st = segStats(k);
+      fill(hist, h('div', { class: 'rn-row cur' }, h('span', {}, 'Best'), h('span', { class: 'mono' }, fmtRun(st.best, 2)), h('span', { class: 'mono ' + (st.best != null && st.best <= ref ? 'good' : 'bad') }, st.best != null ? fmtDelta(st.best - ref) : '')),
+        h('div', { class: 'rn-row' }, h('span', {}, 'Avg last 10'), h('span', { class: 'mono' }, fmtRun(st.avg, 2)), h('span', {})),
+        h('div', { class: 'rn-row' }, h('span', {}, cname), h('span', { class: 'mono' }, fmtRun(ref, 2)), h('span', {})),
+        ...st.last.slice().reverse().map(t => h('div', { class: 'rn-row done' }, h('span', {}, ''), h('span', { class: 'mono' }, fmtRun(t, 2)), h('span', { class: 'mono ' + (t <= ref ? 'good' : 'bad') }, fmtDelta(t - ref)))));
+    };
+    const cue = k === N - 1 ? 'on the cut to black' : 'on Extraction point unlocked';
+    const paintBig = () => fill(big, h('b', {}, segTimer.phase === 'idle' ? 'START' : segTimer.phase === 'done' ? 'AGAIN' : 'SPLIT'), h('span', {}, segTimer.phase === 'running' ? cue : `${SPLITS[k].name}: leave the previous extraction point`));
+    segTimer = new SplitTimer(1, { onChange: type => {
+      if (type === 'finish') {
+        const t = segTimer.splits[0];
+        const prevBest = segStats(k).best;
+        store.update(s => { s.segPractice ||= {}; (s.segPractice[k] ||= []).push({ t, at: Date.now() }); });
+        const pb = prevBest == null || t < prevBest;
+        toast(pb ? `Practice best ${fmtRun(t, 2)}` : `${fmtRun(t, 2)} (${fmtDelta(t - ref)} vs ${cname})`, pb ? 'gold' : t <= ref ? 'good' : '');
+        if (navigator.vibrate) navigator.vibrate(40);
+        paintHist();
+      }
+      paintBig();
+    } });
+    big.addEventListener('click', () => { if (segTimer.phase === 'done') segTimer.reset(); else segTimer.split(); });
+    const s0 = sk[0];
+    fill(wrap, h('div', { class: 'rn' },
+      h('div', { class: 'rn-head' }, h('div', {}, h('div', { class: 'rn-split' }, h('span', { class: 'pill' }, 'Segment practice'), ' ', h('b', {}, SPLITS[k].name)), h('div', { class: 'rn-delta mono muted' }, `${cname} did it in ${fmtRun(ref, 1)}`)), clock),
+      h('div', { class: 'rn-body' },
+        h('div', { class: 'rn-main' }, h('div', { class: 'rn-skip' }, h('div', { class: 'note' }, 'Skips in this split'), h('ol', {}, sk.map(x => h('li', {}, h('a', { href: `#/practice?skip=${x.id}` }, x.name))))),
+          h('div', { class: 'row', style: { marginTop: '8px' } }, h('button', { class: 'btn', onclick: () => { segTimer = null; paintPre(); } }, '‹ Back'), k > 0 ? h('button', { class: 'btn', onclick: () => paintSeg(k - 1) }, '‹ Prev split') : null, k < N - 1 ? h('button', { class: 'btn', onclick: () => paintSeg(k + 1) }, 'Next split ›') : null)),
+        h('div', { class: 'rn-side' }, el.clipHost = h('div', { class: 'rn-clip' + (showClip ? '' : ' hidden') }), hist)),
+      big));
+    paintHist(); paintBig();
+    // reference = the fastest recorded version of this split
+    const best = communityBest(RUNS.map(r => model(r, store.get().runs[r.key])))[k];
+    const br = model(RUNS.find(r => r.key === best.run), store.get().runs[best.run]);
+    if (showClip) { destroyClip(); playClip({ vid: br.vid, in: +(br.offset + best.from).toFixed(2), out: +(br.offset + best.to).toFixed(2), label: `${best.runner} ${SPLITS[k].short}` }); }
+    void s0;
+    const f = () => { if (phase !== 'seg' || !segTimer) return; const t = segTimer.now(); clock.textContent = fmtRun(t, 2); clock.classList.toggle('behind', t > ref); raf = requestAnimationFrame(f); };
+    cancelAnimationFrame(raf); raf = requestAnimationFrame(f);
   }
 
   // ------------------------------------------------------------ running
@@ -123,6 +183,7 @@ export function mount(root) {
   function moveSkip(d) { const sk = skipsFor(Math.min(timer.index, N - 1)); skipIdx = Math.max(0, Math.min(sk.length - 1, skipIdx + d)); paintSplit(); }
   function toggleClip() { showClip = !showClip; store.update(s => (s.prefs.runClip = showClip)); el.clipHost.classList.toggle('hidden', !showClip); if (!showClip) destroyClip(); else paintSplit(); }
   function playClip(c) {
+    if (reel && !el.clipHost.contains(reel.stage)) destroyClip();
     if (!reel) { reel = new Reel(el.clipHost); reel.decks.forEach(d => (d.muteLock = true)); reel.loopClip = true; }
     if (reel.clip && reel.clip.vid === c.vid && reel.clip.in === c.in) return;
     reel.setClips([{ ...c }], { keepPosition: false }); reel.i = -1; reel.playClip(0);
@@ -164,6 +225,8 @@ export function mount(root) {
   const onKey = e => {
     if (isTyping(e) || e.ctrlKey || e.metaKey || e.altKey || document.querySelector('dialog[open]')) return;
     const k = e.code;
+    if (phase === 'seg' && (k === 'Space' || k === 'Numpad1')) { e.preventDefault(); if (segTimer.phase === 'done') segTimer.reset(); else segTimer.split(); return; }
+    if (phase === 'seg' && (k === 'KeyR' || k === 'Numpad3')) { segTimer.reset(); return; }
     if (k === 'Space' || k === 'Numpad1') { e.preventDefault(); if (phase === 'done') { timer.reset(); paintPre(); } else timer.split(); }
     else if (phase !== 'run') return;
     else if (k === 'KeyN' || k === 'ArrowRight') moveSkip(1);

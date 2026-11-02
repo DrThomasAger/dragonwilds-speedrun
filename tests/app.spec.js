@@ -250,3 +250,15 @@ test('command palette jumps to a skip drill', async ({ page }) => {
   await expect(page).toHaveURL(/practice\?skip=s-thane/);
   await expect(page.locator('.drill.cur')).toContainText('Garou Thane');
 });
+
+test('segment practice times one split and keeps history', async ({ page }) => {
+  await page.setViewportSize({ width: 884, height: 1000 });
+  await page.goto(`${M}#/run`);
+  await page.getByRole('button', { name: /3\. The Shattered Stronghold/ }).click();
+  await expect(page.locator('.rn-split')).toContainText('Segment practice');
+  for (const _ of [0, 1]) { await page.locator('.rn-big').click(); await page.waitForTimeout(200); await page.locator('.rn-big').click(); await page.waitForTimeout(100); await page.locator('.rn-big').click(); }
+  await page.waitForTimeout(200);
+  const log = await page.evaluate(() => JSON.parse(localStorage.getItem('dw_lab_v2')).segPractice[2]);
+  expect(log.length).toBe(2);
+  await page.screenshot({ path: 'docs/screens/fold/run-segment.png' });
+});

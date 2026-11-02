@@ -10,6 +10,7 @@ const defaults = () => ({
   customRuns: [],    // your own run videos: { key, runner, label, vid, offset, splits, time }
   clips: {},         // clipKey -> { in, out } user corrections to library / route clips
   reels: [],         // user reels: { id, name, clips:[{vid,in,out,label}] }
+  segPractice: {},   // splitIndex -> [{t, at}] single-segment practice times
   practice: {},      // skipId -> { log:[{t, ok}], lost: seconds lost when it fails (user estimate) }
   timer: { pb: null, best: [], attempts: [], comparison: 'tp650', runs: 0, resets: 0, imported: null },
   hardcore: { done: {}, phase: 'p0' },
@@ -31,12 +32,11 @@ export function load() {
   try {
     const raw = localStorage.getItem(KEY);
     if (raw) state = migrate(JSON.parse(raw));
-    else {
-      const old = localStorage.getItem(LEGACY);
-      if (old) {
-        const o = JSON.parse(old);
-        state.hardcore = { done: o.done || {}, phase: o.phase || 'p0' };
-      }
+    // v1 checklist progress: import whenever the new store has none of its own.
+    const old = localStorage.getItem(LEGACY);
+    if (old && !Object.keys(state.hardcore.done || {}).length) {
+      const o = JSON.parse(old);
+      state.hardcore = { done: o.done || {}, phase: o.phase || 'p0' };
     }
   } catch { state = defaults(); }
   return state;

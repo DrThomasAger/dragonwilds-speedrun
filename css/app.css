@@ -425,3 +425,6 @@ dialog.palette input { width: 100%; font-size: 16px; padding: 12px; }
   .wide-only { display: none !important; }
   .narrow-only { display: grid !important; margin-top: 14px; }
 }
+#toast { top: 62px; bottom: auto !important; transform: translate(-50%, -20px); }
+#toast.show { transform: translate(-50%, 0); }
+.rn-body { align-items: start; }
