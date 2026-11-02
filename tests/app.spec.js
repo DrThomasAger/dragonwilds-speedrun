@@ -176,3 +176,27 @@ test('hardcore checklist progress persists (and migrates v1 data)', async ({ pag
   await page.keyboard.press('d');
   await expect(page.locator('#hctext')).toContainText('2 of');
 });
+
+test('in-game Run mode uses shared data and shares progress with the lab', async ({ page }) => {
+  const errs = watchErrors(page);
+  await page.goto(`${M}#/hardcore`);
+  await page.evaluate(() => localStorage.clear());
+  await page.goto('/hardcore-run.html');
+  await expect(page.locator('#body')).not.toBeEmpty();
+  await page.waitForTimeout(500);
+  await page.screenshot({ path: 'docs/screens/hardcore-run.png' });
+  const html = await page.content();
+  expect(html).not.toContain('Tgp1BYFv5nw');
+  await page.locator('#bottom button, #bottom').first().click();
+  await page.waitForTimeout(300);
+  await page.keyboard.press('n');
+  await page.waitForTimeout(400);
+  await page.screenshot({ path: 'docs/screens/hardcore-run-step.png' });
+  const done = await page.evaluate(() => JSON.parse(localStorage.getItem('dw_hc_v3') || '{}').done || {});
+  expect(Object.values(done).filter(Boolean).length).toBe(1);
+  await page.goto(`${M}#/hardcore`);
+  await expect(page.locator('#hctext')).toContainText('1 of');
+  await page.getByRole('link', { name: /In-game Run mode/ }).click();
+  await expect(page).toHaveURL(/hardcore-run\.html/);
+  expect(errs.filter(e => !/youtube|postMessage/i.test(e))).toEqual([]);
+});

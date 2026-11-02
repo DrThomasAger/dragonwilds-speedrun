@@ -24,7 +24,8 @@ The site has no build step and nothing to bundle. It has to be served over http,
 | **Practice** | Loop a skip's reference clip and log made (J) or missed (K). Consistency is tracked per skip, and the weakest skip is suggested next. |
 | **Timer** | A split timer with LiveSplit behaviour, golds and PB. It exports a `.lss` with the WR, Nanobit and the community sum of best as LiveSplit comparisons, and imports `.lss` history to analyse where your runs die. |
 | **Library** | 45 videos with verified ids, durations and creator chapters, playable as clips. |
-| **Hardcore 1→Max** | The original account route checklist, with clips re-timed to real chapters. |
+| **Hardcore 1→Max** | The account route checklist, with clips re-timed to real chapters. |
+| **Hardcore Run mode** (`hardcore-run.html`) | The in-game companion: one step at a time, prep / run / review, pre-flight checklists, full-screen danger rules, undo. It uses the same data and progress as the checklist. |
 
 Press `?` on any page to see its keyboard shortcuts.
 
@@ -35,7 +36,7 @@ Every run's splits sit on the same trigger: the first frame showing the "EXTRACT
 ## Tests
 
 ```bash
-npm test               # 11 end-to-end tests on a deterministic mock player + screenshots → docs/screens
+npm test               # 12 end-to-end tests on a deterministic mock player + screenshots → docs/screens
 npm run test:youtube   # real YouTube embeds: cross-video cut + 2-video race sync
 npm run check          # re-verify every video id is still live
 ```

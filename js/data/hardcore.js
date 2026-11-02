@@ -230,3 +230,17 @@ export const PHASES = [
   ]
 }
 ];
+
+// Danger segments for the in-game run mode (hardcore-run.html): one hero line,
+// a decision rule, and a pre-flight checklist, matched by segment title.
+export const DANGER = {
+ 'Vertentis Kara':{line:'Rat King, then Plague King. Burst in the stun.',rule:'Poison tick + any hit = death pattern. <b>Poisoned → Tempest Shield, step out, burst in his stun window.</b>',chk:[['Cooked fish in pack','≥ 6'],['Antidote brew','≥ 1 or accept the tick'],['Cores from vaults 1–2','banked, not carried'],['Rest','full']]},
+ 'General Velgar':{line:'Dive the spikes. Hit only on landing.',rule:'<b>Spike volley → dive through it.</b> Pools → Double Jump. Attack only on landing. One hit taken → Tempest Shield.',chk:[['Lodestone outside arena','placed'],['Food','×8'],['Tempest Shield runes (Air)','≥ 45'],['Backpack','food + runes only'],['Bed at base','full Rest']]},
+ 'Imaru the Soul-Eater':{line:'Fade starts → Windstep. Never two hits.',rule:'<b>She starts to fade → cast Windstep NOW.</b> Two hits in a row = dead. One hit → Tempest Shield → reset.',chk:[['Internal Alchemy cast at door','buffs up'],['Food in spirit realm','disabled — none'],['Crossbow + Tempest runes','ready'],['Confuse runes (Astral)','≥ 25'],['Gravestone','empty']]},
+ 'Black Knight Titan':{line:'Parry overhead. Roll the slam.',rule:'<b>Overhead → parry.</b> Ground slam → roll. Everything else, stand and punish.',chk:[['Mithril weapon + armour','worn'],['Mage Hat','worn if owned'],['Food','×8'],['Recall tether','cast']]},
+ 'Fight Caves':{line:'30 waves. Shield fire. Surge the lava.',rule:'<b>Fire phase → Tempest Shield. Lava ring → Surge out.</b> Attack in the stagger only.',chk:[['Stamina Potion','≥ 2'],['Water enchant on weapon','applied'],['Food','×12'],['Recall tether','cast']]},
+ 'Nightmare Crucibles':{line:'Snare one. Kill one at a time.',rule:'<b>Three dragons → Snare one, Windstep from the breath, kill one at a time.</b> Reactive Recall on.',chk:[['Reactive Recall (Agility 70)','learned'],['Snare runes','≥ 2 casts'],['Confuse / Greater Confuse','ready'],['Food','×12'],['Gravestone','empty']]},
+ 'Follow-along route':{line:'Dodge, then dodge again on the push-back.',rule:'<b>At the invisible wall: dodge, then second dodge the instant it pushes back.</b> Missed → take the long path, do not retry mid-air.',chk:[['Bed / respawn point','placed at raid entrance'],['Phase Dash runes (Air/Astral)','≥ 3 casts'],['Reactive Recall','on'],['Food','×10'],['Patch of clip','1.0.1 — fog barriers active']]},
+ 'Kuldra':{line:'Shield the sweep. Dash the rest. Enfeeble, then Heart.',rule:'<b>Laser sweep you cannot dodge → Tempest Shield. Everything else → Phase Dash.</b> Heart phase: Enfeeble first, then all-in.',chk:[['Reactive Recall','on'],['Food','full stack'],['Tempest Shield runes','≥ 60 Air'],['Enfeeble runes','≥ 2 casts'],['Gravestone','empty']]}
+};
+export const dangerFor = seg => { for (const k in DANGER) if (seg.t.includes(k)) return DANGER[k]; return null; };

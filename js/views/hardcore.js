@@ -16,7 +16,8 @@ export function mount(root) {
   const total = order.length;
 
   root.append(h('div', { class: 'pagehead' }, h('div', {}, h('h1', {}, 'Hardcore 1 → Max'),
-    h('p', {}, 'The full account route that ends at the raid. Tick steps as you go — progress saves in this browser. For the raid itself use the Route and Race the WR pages.'))));
+    h('p', {}, 'The full account route that ends at the raid. Tick steps as you go — progress saves in this browser and is shared with Run mode.')),
+    h('a', { class: 'btn pri big', href: 'hardcore-run.html', title: 'One step at a time: prep, run, pre-flight checklists, danger screens, review' }, '▶ In-game Run mode')));
   const layout = h('div', { class: 'hc-layout' });
   const nav = h('nav', { class: 'hc-nav', 'aria-label': 'Phases' });
   const right = h('div');
@@ -29,7 +30,12 @@ export function mount(root) {
   right.prepend(next); right.append(content);
 
   const nextStep = () => order.find(o => !hc.done[o.key]);
-  function save() { store.update(s => (s.hardcore = hc)); }
+  // Keep the in-game run mode (hardcore-run.html, key dw_hc_v3) on the same progress.
+  try { const rm = JSON.parse(localStorage.getItem('dw_hc_v3') || 'null'); if (rm && rm.done) Object.assign(hc.done, rm.done); } catch { /* none */ }
+  function save() {
+    store.update(s => (s.hardcore = hc));
+    try { const rm = JSON.parse(localStorage.getItem('dw_hc_v3') || '{}'); rm.done = hc.done; localStorage.setItem('dw_hc_v3', JSON.stringify(rm)); } catch { /* blocked */ }
+  }
   function paintProgress() {
     const d = order.filter(o => hc.done[o.key]).length;
     root.querySelector('#hcbar').style.width = (100 * d / total) + '%';
