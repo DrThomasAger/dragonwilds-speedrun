@@ -138,7 +138,7 @@ export class Deck {
   async load(vid, start = 0, { play = true, muted = false } = {}) {
     await this.ready;
     this.primed = null; this._pauseOnPlay = false;
-    muted ? this.p.mute() : this.p.unMute();
+    muted || this.muteLock ? this.p.mute() : this.p.unMute();
     this.vid = vid; this.el.dataset.vid = vid;
     if (play) this.p.loadVideoById({ videoId: vid, startSeconds: start });
     else this.p.cueVideoById({ videoId: vid, startSeconds: start });
@@ -166,7 +166,7 @@ export class Deck {
     return true;
   }
   isPrimed(vid, start) { return this.primed && this.primed.vid === vid && Math.abs(this.primed.start - start) < 0.05; }
-  play() { this._pauseOnPlay = false; this.p && this.p.unMute(); this.p && this.p.playVideo(); }
+  play() { this._pauseOnPlay = false; if (this.p && !this.muteLock) this.p.unMute(); this.p && this.p.playVideo(); }
   pause() { this.p && this.p.pauseVideo(); }
   toggle() { this.playing ? this.pause() : this.play(); }
   seek(t, exact = true) {

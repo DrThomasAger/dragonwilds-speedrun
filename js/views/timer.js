@@ -1,5 +1,5 @@
 // Split timer + LiveSplit bridge + attempt analytics.
-import { h, fmtRun, fmtDelta, isTyping, toast, download, pickFile } from '../lib/util.js';
+import { h, fmtRun, fmtDelta, isTyping, toast, download, pickFile, fill } from '../lib/util.js';
 import { SplitTimer, recordAttempt, segmentsOf, sumOfBest } from '../lib/timer.js';
 import { exportLss, importLss } from '../lib/lss.js';
 import { SPLITS, RUNS, RUN, RULES, communityBest } from '../data/raid.js';
@@ -68,17 +68,17 @@ export function mount(root) {
     if (timer.phase === 'running' && k < N) {
       const segStart = k ? timer.splits[k - 1] : 0;
       const live = segStart == null ? null : t - segStart;
-      segNow.replaceChildren(`Segment ${k + 1}: `, h('b', { class: 'mono' }, fmtRun(live, 1)), ' · best ', h('span', { class: 'mono gold' }, fmtRun(rec.best[k], 1)), ' · ', c.name, ' ', h('span', { class: 'mono' }, fmtRun(c.splits[k] - (k ? c.splits[k - 1] : 0), 1)));
+      fill(segNow, `Segment ${k + 1}: `, h('b', { class: 'mono' }, fmtRun(live, 1)), ' · best ', h('span', { class: 'mono gold' }, fmtRun(rec.best[k], 1)), ' · ', c.name, ' ', h('span', { class: 'mono' }, fmtRun(c.splits[k] - (k ? c.splits[k - 1] : 0), 1)));
       const row = table.querySelectorAll('tbody tr')[k];
       if (row && c.splits[k] != null) { const d = t - c.splits[k]; const cell = row.querySelector('.delta'); if (d > -10) { cell.textContent = fmtDelta(d); cell.className = 'num delta ' + (d > 0 ? 'behind' : 'ahead'); } }
     } else segNow.textContent = timer.phase === 'idle' ? 'Press Space or Numpad1 to start.' : '';
   }
   function paint() {
     const list = comparisons();
-    cmpSel.replaceChildren(...list.map(c => h('option', { value: c.id, selected: c.id === cmpId }, c.name)));
+    fill(cmpSel, ...list.map(c => h('option', { value: c.id, selected: c.id === cmpId }, c.name)));
     const c = cmp();
     const segs = segmentsOf(timer.splits);
-    table.replaceChildren(h('thead', {}, h('tr', {}, h('th', {}, 'Split'), h('th', { class: 'num' }, 'Δ'), h('th', { class: 'num' }, c.name.split(' ')[0]), h('th', { class: 'num' }, 'Time'))),
+    fill(table, h('thead', {}, h('tr', {}, h('th', {}, 'Split'), h('th', { class: 'num' }, 'Δ'), h('th', { class: 'num' }, c.name.split(' ')[0]), h('th', { class: 'num' }, 'Time'))),
       h('tbody', {}, SPLITS.map((s, k) => {
         const mine = timer.splits[k];
         const d = mine != null && c.splits[k] != null ? mine - c.splits[k] : null;
@@ -94,7 +94,7 @@ export function mount(root) {
   function paintStats() {
     const sob = sumOfBest(rec.best);
     const cb = communityBest(RUNS.map(r => refModel(r.key)));
-    stats.replaceChildren(h('h2', {}, 'Where your time is'),
+    fill(stats, h('h2', {}, 'Where your time is'),
       h('div', { class: 'stats', style: { marginTop: 0 } },
         h('div', { class: 'stat' }, h('b', {}, rec.pb ? fmtRun(rec.pb.time, 2) : '—'), h('span', {}, 'Personal best')),
         h('div', { class: 'stat' }, h('b', {}, sob ? fmtRun(sob, 2) : '—'), h('span', {}, 'Your sum of best')),
@@ -110,14 +110,14 @@ export function mount(root) {
     const at = rec.attempts.slice(-12).reverse();
     const done = rec.attempts.filter(a => a.done).map(a => a.time);
     const reach = SPLITS.map((_, k) => rec.attempts.filter(a => a.splits[k] != null).length);
-    history.replaceChildren(h('h2', {}, 'Attempts'),
+    fill(history, h('h2', {}, 'Attempts'),
       rec.attempts.length ? h('div', { class: 'bars' }, SPLITS.map((s, k) => h('div', { class: 'b' }, h('span', {}, s.short), h('div', { class: 'meter' }, h('i', { style: { width: (100 * reach[k] / rec.attempts.length) + '%', '--c': 'var(--info)' } })), h('span', { class: 'num' }, `${Math.round(100 * reach[k] / rec.attempts.length)}%`)))) : null,
       rec.attempts.length ? h('p', { class: 'note' }, 'Share of attempts that reached each split — where runs die. ', done.length ? `Median finish ${fmtRun(done.sort((a, b) => a - b)[Math.floor(done.length / 2)], 1)}.` : '') : null,
       at.length ? h('table', {}, h('tbody', {}, at.map(a => h('tr', {}, h('td', { class: 'note' }, new Date(a.at).toLocaleString()), h('td', {}, a.done ? 'finished' : `reset in ${SPLITS[Math.min(a.splits.length, N - 1)].short}`), h('td', { class: 'num' }, a.done ? fmtRun(a.time, 2) : '—'))))) : h('div', { class: 'empty' }, 'No attempts yet. Run the timer or import your LiveSplit file.'),
       rec.attempts.length ? h('button', { class: 'btn sm', style: { marginTop: '10px' }, onclick: () => { if (confirm('Clear all attempts, PB and golds?')) { store.update(s => (s.timer = { ...s.timer, pb: null, best: [], attempts: [], runs: 0, resets: 0 })); Object.assign(rec, store.get().timer); paint(); } } }, 'Clear history') : null);
   }
   function paintBridge() {
-    bridge.replaceChildren(h('h2', {}, 'LiveSplit'),
+    fill(bridge, h('h2', {}, 'LiveSplit'),
       h('p', { class: 'note' }, 'Export: your PB, golds, history, plus every record run and the community sum of best as comparisons — right-click LiveSplit → Compare Against → TexasPete 6:50 (WR).'),
       h('div', { class: 'row' },
         h('button', { class: 'btn pri', onclick: exportFile }, '⬇ Export .lss'),

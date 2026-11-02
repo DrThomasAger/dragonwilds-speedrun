@@ -1,5 +1,5 @@
 // Shared UI components: clip timeline editor, generic scrubber, reel player panel.
-import { h, fmtClock, fmtRun, clamp, parseTime } from './util.js';
+import { h, fmtClock, fmtRun, clamp, parseTime, fill } from './util.js';
 import { RATES, ytUrl, thumb } from './player.js';
 import { Reel } from './reel.js';
 import { BY_ID } from '../data/videos.js';
@@ -35,11 +35,11 @@ export function timeline({ duration, clip, chapters = [], onScrub, onChange, onC
     hin.setAttribute('aria-valuenow', clip.in.toFixed(1)); hout.setAttribute('aria-valuenow', clip.out.toFixed(1));
     phEl.style.left = t2p(ph) + '%';
     phEl.style.display = ph >= view.a && ph <= view.b ? '' : 'none';
-    chapEls.replaceChildren(...chapters.filter(([t]) => t >= view.a && t <= view.b).map(([t, l]) => h('div', { class: 'chap', style: { left: t2p(t) + '%' }, title: l }, h('i', {}, l))));
+    fill(chapEls, ...chapters.filter(([t]) => t >= view.a && t <= view.b).map(([t, l]) => h('div', { class: 'chap', style: { left: t2p(t) + '%' }, title: l }, h('i', {}, l))));
     const span = view.b - view.a, step = [1, 2, 5, 10, 15, 30, 60, 120, 300, 600].find(s => span / s <= 10) || 1200;
     const out = [];
     for (let t = Math.ceil(view.a / step) * step; t <= view.b; t += step) out.push(h('span', { style: { left: t2p(t) + '%' } }, fmtClock(t)));
-    ticks.replaceChildren(...out);
+    fill(ticks, ...out);
   }
   function drag(which, e) {
     e.preventDefault(); e.stopPropagation();
@@ -91,14 +91,14 @@ export function nudgeRow(label, get, set, now) {
 // Generic horizontal scrubber with coloured markers. value/length in seconds.
 export function scrubber({ length, onSeek, marks = [], bands = [], label = fmtRun }) {
   const el = h('div', { class: 'scrub', role: 'slider', tabindex: 0, 'aria-label': 'Seek' });
-  const fill = h('div', { class: 'fill' }), head = h('div', { class: 'head' }), tip = h('div', { class: 'tip' });
+  const fillEl = h('div', { class: 'fill' }), head = h('div', { class: 'head' }), tip = h('div', { class: 'tip' });
   const markEl = h('div'), bandEl = h('div');
-  el.append(h('div', { class: 'rail' }), bandEl, fill, markEl, head, tip);
+  el.append(h('div', { class: 'rail' }), bandEl, fillEl, markEl, head, tip);
   let L = length, v = 0, dragging = false;
   const pct = t => (100 * clamp(t, 0, L) / (L || 1)) + '%';
   function paintMarks() {
-    markEl.replaceChildren(...marks.map(m => h('div', { class: 'mark', style: { left: pct(m.t), '--c': m.c || 'var(--gold)' }, title: m.title || '' }, m.label ? h('i', {}, m.label) : null)));
-    bandEl.replaceChildren(...bands.map(b => h('div', { class: 'seg-band', style: { left: pct(b.a), width: `calc(${pct(b.b)} - ${pct(b.a)})`, background: b.c } })));
+    fill(markEl, ...marks.map(m => h('div', { class: 'mark', style: { left: pct(m.t), '--c': m.c || 'var(--gold)' }, title: m.title || '' }, m.label ? h('i', {}, m.label) : null)));
+    fill(bandEl, ...bands.map(b => h('div', { class: 'seg-band', style: { left: pct(b.a), width: `calc(${pct(b.b)} - ${pct(b.a)})`, background: b.c } })));
   }
   const at = e => { const r = el.getBoundingClientRect(); return clamp((e.clientX - r.left) / r.width, 0, 1) * L; };
   el.addEventListener('pointerdown', e => { dragging = true; el.setPointerCapture(e.pointerId); onSeek(at(e), false); });
@@ -108,7 +108,7 @@ export function scrubber({ length, onSeek, marks = [], bands = [], label = fmtRu
   paintMarks();
   return {
     el,
-    set(val) { v = val; fill.style.width = pct(val); head.style.left = pct(val); el.setAttribute('aria-valuenow', val.toFixed(1)); },
+    set(val) { v = val; fillEl.style.width = pct(val); head.style.left = pct(val); el.setAttribute('aria-valuenow', val.toFixed(1)); },
     setLength(len) { L = len; paintMarks(); },
     setMarks(m, b = bands) { marks = m; bands = b; paintMarks(); },
   };
@@ -153,13 +153,13 @@ export function reelPlayer(host, { sticky = false, onClip, onTime } = {}) {
 
   function paintBar() {
     const L = reel.totalLength() || 1;
-    bar.replaceChildren(...clips.map((c, i) => h('span', { style: { width: (100 * (c.out - c.in) / L) + '%', background: i === reel.i ? 'var(--accent)' : `hsl(${(i * 47) % 360} 30% 45%)` }, title: c.label }, clips.length < 12 ? String(i + 1) : '')), barHead);
+    fill(bar, ...clips.map((c, i) => h('span', { style: { width: (100 * (c.out - c.in) / L) + '%', background: i === reel.i ? 'var(--accent)' : `hsl(${(i * 47) % 360} 30% 45%)` }, title: c.label }, clips.length < 12 ? String(i + 1) : '')), barHead);
     bar.style.display = clips.length > 1 ? '' : 'none';
     tlen.textContent = fmtClock(L, true);
   }
   function paintNow(i, c) {
     const v = BY_ID[c.vid] || {};
-    nowbar.replaceChildren(
+    fill(nowbar, 
       clips.length > 1 ? h('span', { class: 'pill' }, `${i + 1}/${clips.length}`) : null,
       h('b', {}, c.label || v.title),
       h('span', {}, `· ${v.author || ''} · ${fmtClock(c.in, true)} → ${fmtClock(c.out, true)}`),

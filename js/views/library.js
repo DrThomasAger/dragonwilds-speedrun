@@ -1,5 +1,5 @@
 // Library — every verified video, its chapters as playable clips.
-import { h, fmtClock, isTyping } from '../lib/util.js';
+import { h, fmtClock, isTyping, fill } from '../lib/util.js';
 import { reelPlayer, thumb } from '../lib/ui.js';
 import { VIDEOS, KIND_LABEL, chapterClips } from '../data/videos.js';
 import { RUNS, SPLITS } from '../data/raid.js';
@@ -22,13 +22,13 @@ export function mount(root, { params }) {
   left.append(h('div', { class: 'row' }, search, tabs), grid);
 
   function paintTabs() {
-    tabs.replaceChildren(...[['all', 'All'], ...Object.entries(KIND_LABEL)].map(([k, l]) => h('button', { class: k === kind ? 'on' : '', onclick: () => { kind = k; paint(); } }, l)));
+    fill(tabs, ...[['all', 'All'], ...Object.entries(KIND_LABEL)].map(([k, l]) => h('button', { class: k === kind ? 'on' : '', onclick: () => { kind = k; paint(); } }, l)));
   }
   function paint() {
     paintTabs();
     const ql = q.toLowerCase();
     const vs = VIDEOS.filter(v => (kind === 'all' || v.kind === kind) && (!ql || `${v.title} ${v.author} ${v.patch} ${v.note || ''}`.toLowerCase().includes(ql)));
-    grid.replaceChildren(...(vs.length ? vs.map(card) : [h('div', { class: 'empty' }, 'Nothing matches.')]));
+    fill(grid, ...(vs.length ? vs.map(card) : [h('div', { class: 'empty' }, 'Nothing matches.')]));
   }
   function programme(v) {
     const run = RUNS.find(r => r.vid === v.id);

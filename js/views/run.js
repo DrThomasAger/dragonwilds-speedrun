@@ -1,0 +1,180 @@
+// Run navigator — the in-raid companion. Pre-flight → run (split by split, skip by
+// skip, live delta) → summary. Shares the timer record with the Timer page.
+import { h, fmtRun, fmtDelta, isTyping, toast, fill } from '../lib/util.js';
+import { SplitTimer, recordAttempt, segmentsOf } from '../lib/timer.js';
+import { Reel } from '../lib/reel.js';
+import { keepAwake } from '../lib/pwa.js';
+import { SPLITS } from '../data/raid.js';
+import { ROUTE, REQUIREMENTS, GEAR } from '../data/route.js';
+import { comparisons } from './timer.js';
+import * as store from '../lib/store.js';
+
+export const title = 'Run navigator';
+export const keys = [['Space / Numpad1', 'Start / split'], ['N / →', 'Next skip'], ['B / ←', 'Previous skip'], ['Backspace', 'Undo split'], ['R', 'Reset'], ['V', 'Toggle reference clip']];
+
+const N = SPLITS.length;
+const PREFLIGHT = [
+  ['Fleet Foot Infusion active', 'halves sprint stamina cost'],
+  ['Mace + 2H mage staff + mage armour', 'Thane kill and the Heart'],
+  ['Air Garou Thane respawned', 'slept through a night since the last attempt (~15 min respawn)'],
+  ['Spell ring: Windstep, Surge, a targeted AoE', 'dive cancel and flight need the AoE'],
+  ['LiveSplit / recording running', 'video is required on speedrun.com'],
+];
+
+export function mount(root) {
+  const rec = store.get().timer;
+  const prefs = store.get().prefs;
+  let cmpId = rec.comparison || 'tp650';
+  let skipIdx = 0, showClip = prefs.runClip !== false, checks = new Set();
+  const timer = new SplitTimer(N, { onChange: onTimer });
+  let reel = null, raf = 0, phase = 'pre';
+
+  const wrap = h('div', { class: 'runnav' });
+  root.append(wrap);
+
+  // ------------------------------------------------------------ pre-flight
+  function paintPre() {
+    phase = 'pre'; keepAwake(false); destroyClip();
+    const cmpSel = h('select', { 'aria-label': 'Compare against', onchange: () => { cmpId = cmpSel.value; store.update(s => (s.timer.comparison = cmpId)); } }, comparisons().map(c => h('option', { value: c.id, selected: c.id === cmpId }, c.name)));
+    const items = PREFLIGHT.map(([t, d], i) => h('label', { class: 'pf' + (checks.has(i) ? ' ok' : '') },
+      h('input', { type: 'checkbox', checked: checks.has(i), onchange: e => { e.target.checked ? checks.add(i) : checks.delete(i); e.target.closest('label').classList.toggle('ok', e.target.checked); } }),
+      h('span', {}, h('b', {}, t), h('small', {}, d))));
+    fill(wrap, 
+      h('div', { class: 'pagehead' }, h('div', {}, h('h1', {}, 'Run navigator'), h('p', {}, 'Your in-raid second screen. Put it on the Fold or a second monitor: one giant split button, the skip you are on, how to do it, and where you stand against the record.'))),
+      h('div', { class: 'grid g2' },
+        h('div', { class: 'card' }, h('h2', {}, 'Pre-flight'), h('div', { class: 'grid', style: { gap: '6px' } }, items),
+          h('div', { class: 'row', style: { marginTop: '12px' } }, h('label', { class: 'note' }, 'Race against ', cmpSel)),
+          h('button', { class: 'btn pri big', style: { width: '100%', marginTop: '12px', justifyContent: 'center' }, onclick: () => { timer.start(); } }, '▶ Start run  ', h('kbd', {}, 'Space')),
+          h('p', { class: 'note' }, 'Start on the first frame the loading icon disappears entering the raid.')),
+        h('div', { class: 'card' }, h('h2', {}, 'Route at a glance'),
+          h('ol', { class: 'glance' }, ROUTE.map((sp, k) => h('li', {}, h('b', {}, SPLITS[k].name), h('div', { class: 'note' }, sp.skips.filter(s => s.status !== 'patched').map(s => s.name).join(' → '))))),
+          h('h3', {}, 'Requirements'), h('div', { class: 'chips' }, REQUIREMENTS.map(r => h('a', { class: 'chip', href: `#/wiki?id=${r.wiki}` }, r.name, h('small', {}, r.need.split(' · ')[0])))))));
+  }
+
+  // ------------------------------------------------------------ running
+  const el = {};
+  function paintRun() {
+    phase = 'run'; keepAwake(true);
+    el.clock = h('div', { class: 'rn-clock mono' }, '0:00.00');
+    el.delta = h('div', { class: 'rn-delta mono' });
+    el.split = h('div', { class: 'rn-split' });
+    el.skip = h('div', { class: 'rn-skip' });
+    el.list = h('div', { class: 'rn-list' });
+    el.clipHost = h('div', { class: 'rn-clip' + (showClip ? '' : ' hidden') });
+    el.big = h('button', { class: 'rn-big', onclick: () => timer.split() });
+    el.next = h('div', { class: 'rn-next note' });
+    fill(wrap, 
+      h('div', { class: 'rn' },
+        h('div', { class: 'rn-head' }, h('div', {}, el.split, el.delta), el.clock),
+        h('div', { class: 'rn-body' },
+          h('div', { class: 'rn-main' }, el.skip, el.next,
+            h('div', { class: 'row', style: { marginTop: '8px' } },
+              h('button', { class: 'btn', onclick: () => moveSkip(-1) }, '‹ Prev skip'),
+              h('button', { class: 'btn', onclick: () => moveSkip(1) }, 'Next skip ›'),
+              h('button', { class: 'btn', onclick: () => toggleClip() }, '🎬 Clip'),
+              h('span', { class: 'spacer' }),
+              h('button', { class: 'btn', onclick: () => timer.undo() }, '↶ Undo'),
+              h('button', { class: 'btn', onclick: () => reset() }, 'Reset'))),
+          h('div', { class: 'rn-side' }, el.clipHost, el.list)),
+        el.big));
+    skipIdx = 0; paintSplit(); loop();
+  }
+  function skipsFor(k) { return (ROUTE[k] || { skips: [] }).skips.filter(s => s.status !== 'patched'); }
+  function paintSplit() {
+    const k = Math.min(timer.index, N - 1), sk = skipsFor(k), s = sk[skipIdx];
+    fill(el.split, h('span', { class: 'pill' }, `Split ${k + 1}/${N}`), ' ', h('b', {}, SPLITS[k].name));
+    fill(el.skip, s ? h('div', {},
+      h('div', { class: 'note' }, `Skip ${skipIdx + 1} of ${sk.length}`),
+      h('h2', {}, s.name),
+      s.how && s.how.length ? h('ol', {}, s.how.map(x => h('li', {}, x))) : s.text ? h('p', {}, s.text) : h('p', { class: 'note' }, 'Watch the clip for the line.')) : h('h2', {}, 'Run it out'));
+    el.next.textContent = sk[skipIdx + 1] ? `Next: ${sk[skipIdx + 1].name}` : k < N - 1 ? `Then: split on “Extraction point unlocked” → ${SPLITS[k + 1].name}` : 'Then: the Heart — split on the cut to black';
+    fill(el.list, ...SPLITS.map((sp, j) => h('div', { class: 'rn-row' + (j === k ? ' cur' : j < timer.index ? ' done' : '') },
+      h('span', {}, sp.short), h('span', { class: 'mono' }, timer.splits[j] != null ? fmtRun(timer.splits[j], 1) : ''), h('span', { class: 'mono dl', dataset: { k: j } }))));
+    paintDeltas();
+    fill(el.big, h('b', {}, k === N - 1 ? 'FINISH' : 'SPLIT'), h('span', {}, k === N - 1 ? 'on the cut to black' : `on “Extraction point unlocked” → ${SPLITS[k + 1].name}`));
+    if (showClip && s && s.clips.length) playClip(s.clips[0]);
+  }
+  function paintDeltas() {
+    const c = cmp();
+    el.list.querySelectorAll('.dl').forEach(d => {
+      const j = +d.dataset.k, t = timer.splits[j];
+      if (t == null || c.splits[j] == null) { d.textContent = ''; return; }
+      const v = t - c.splits[j]; d.textContent = fmtDelta(v); d.className = 'mono dl ' + (v > 0 ? 'bad' : 'good');
+    });
+  }
+  function cmp() { return comparisons().find(c => c.id === cmpId) || comparisons()[0]; }
+  function loop() {
+    cancelAnimationFrame(raf);
+    const f = () => {
+      if (phase !== 'run') return;
+      const t = timer.now(), k = timer.index, c = cmp();
+      el.clock.textContent = fmtRun(t, 2);
+      const target = c.splits[Math.min(k, N - 1)];
+      if (target != null) {
+        const d = t - target;
+        el.delta.textContent = d > -30 ? `${fmtDelta(d)} vs ${c.name.replace(/ \(WR\)/, '')} at ${SPLITS[Math.min(k, N - 1)].short}` : `${c.name.replace(/ \(WR\)/, '')} splits at ${fmtRun(target, 1)}`;
+        el.delta.className = 'rn-delta mono ' + (d > 0 ? 'bad' : d > -30 ? 'good' : 'muted');
+        el.clock.classList.toggle('behind', d > 0);
+      }
+      raf = requestAnimationFrame(f);
+    };
+    raf = requestAnimationFrame(f);
+  }
+  function moveSkip(d) { const sk = skipsFor(Math.min(timer.index, N - 1)); skipIdx = Math.max(0, Math.min(sk.length - 1, skipIdx + d)); paintSplit(); }
+  function toggleClip() { showClip = !showClip; store.update(s => (s.prefs.runClip = showClip)); el.clipHost.classList.toggle('hidden', !showClip); if (!showClip) destroyClip(); else paintSplit(); }
+  function playClip(c) {
+    if (!reel) { reel = new Reel(el.clipHost); reel.decks.forEach(d => (d.muteLock = true)); reel.loopClip = true; }
+    if (reel.clip && reel.clip.vid === c.vid && reel.clip.in === c.in) return;
+    reel.setClips([{ ...c }], { keepPosition: false }); reel.i = -1; reel.playClip(0);
+  }
+  function destroyClip() { if (reel) { reel.destroy(); reel = null; } }
+
+  // ------------------------------------------------------------ summary
+  let last = null;
+  function paintDone() {
+    phase = 'done'; keepAwake(false); destroyClip();
+    const c = cmp(), segs = segmentsOf(timer.splits);
+    fill(wrap, h('div', { class: 'card' },
+      h('div', { class: 'row' }, h('h1', { style: { margin: 0 } }, last.isPB ? '🏆 New PB' : 'Run complete'), h('span', { class: 'spacer' }), h('span', { class: 'bigclock ' + (last.isPB ? 'gold' : '') }, fmtRun(timer.splits[N - 1], 2))),
+      h('table', { style: { marginTop: '10px' } }, h('thead', {}, h('tr', {}, h('th', {}, 'Split'), h('th', { class: 'num' }, 'Segment'), h('th', { class: 'num' }, 'Split'), h('th', { class: 'num' }, 'vs ' + c.name.split(' ')[0]))),
+        h('tbody', {}, SPLITS.map((s, k) => h('tr', {}, h('td', {}, s.name, last.golds.includes(k) ? h('span', { class: 'pill warn', style: { marginLeft: '6px' } }, 'gold') : null),
+          h('td', { class: 'num' }, fmtRun(segs[k], 2)), h('td', { class: 'num' }, fmtRun(timer.splits[k], 2)),
+          h('td', { class: 'num ' + (timer.splits[k] > c.splits[k] ? 'bad' : 'good') }, fmtDelta(timer.splits[k] - c.splits[k])))))),
+      h('div', { class: 'row', style: { marginTop: '14px' } },
+        h('button', { class: 'btn pri big', onclick: () => { timer.reset(); paintPre(); } }, '↻ Next attempt'),
+        h('a', { class: 'btn', href: '#/timer' }, 'Timer & LiveSplit export'),
+        h('a', { class: 'btn', href: '#/compare' }, 'Race your splits'))));
+  }
+
+  // ------------------------------------------------------------ timer events
+  function onTimer(type) {
+    if (type === 'start') { paintRun(); return; }
+    if (type === 'finish') { last = recordAttempt(rec, timer.splits, { done: true }); store.update(s => (s.timer = rec)); if (last.isPB) toast('New PB!', 'gold'); paintDone(); return; }
+    if (type === 'reset') return;
+    if (type === 'split' || type === 'undo' || type === 'skip') {
+      skipIdx = 0;
+      if (type === 'split') { const k = timer.index - 1; const segs = segmentsOf(timer.splits); if (rec.best[k] == null || segs[k] < rec.best[k]) toast(`Gold! ${SPLITS[k].short} ${fmtRun(segs[k], 1)}`, 'gold'); if (navigator.vibrate) navigator.vibrate(40); }
+      if (phase === 'run') paintSplit();
+    }
+  }
+  function reset() {
+    if (timer.splits.length && timer.phase !== 'done') { recordAttempt(rec, timer.splits, { done: false }); store.update(s => (s.timer = rec)); toast(`Reset in ${SPLITS[Math.min(timer.index, N - 1)].short} — logged`); }
+    timer.reset(); paintPre();
+  }
+  const onKey = e => {
+    if (isTyping(e) || e.ctrlKey || e.metaKey || e.altKey || document.querySelector('dialog[open]')) return;
+    const k = e.code;
+    if (k === 'Space' || k === 'Numpad1') { e.preventDefault(); if (phase === 'done') { timer.reset(); paintPre(); } else timer.split(); }
+    else if (phase !== 'run') return;
+    else if (k === 'KeyN' || k === 'ArrowRight') moveSkip(1);
+    else if (k === 'KeyB' || k === 'ArrowLeft') moveSkip(-1);
+    else if (k === 'Backspace' || k === 'Numpad8') { e.preventDefault(); timer.undo(); }
+    else if (k === 'KeyR' || k === 'Numpad3') reset();
+    else if (k === 'KeyV') toggleClip();
+  };
+  document.addEventListener('keydown', onKey);
+  paintPre();
+  window.__run = timer;
+  return () => { phase = 'gone'; cancelAnimationFrame(raf); keepAwake(false); destroyClip(); document.removeEventListener('keydown', onKey); };
+}
+export { GEAR };

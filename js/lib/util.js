@@ -24,6 +24,9 @@ function append(el, kids) {
   }
 }
 
+// Replace an element's children; skips null/false and flattens arrays like h().
+export function fill(el, ...kids) { el.textContent = ''; append(el, kids); return el; }
+
 export const $ = (sel, root = document) => root.querySelector(sel);
 export const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
 export const clamp = (x, a, b) => Math.min(b, Math.max(a, x));

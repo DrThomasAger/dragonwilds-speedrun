@@ -10,7 +10,8 @@
     "test:youtube": "node scripts/yt-test.mjs",
     "test:ui": "playwright test --ui",
     "shots": "playwright test tests/screens.spec.js",
-    "check": "node scripts/check-data.mjs"
+    "check": "node scripts/check-data.mjs",
+    "patchnotes": "node scripts/fetch-patchnotes.mjs"
   },
   "devDependencies": {
     "@playwright/test": "1.64.1"

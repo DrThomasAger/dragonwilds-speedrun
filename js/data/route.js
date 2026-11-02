@@ -71,3 +71,25 @@ export const TECH = [
   { id: 'tech-infjump', name: 'Infinite double jump', status: 'works', credit: 'Dotxy', how: ['Windstep.', 'Jump attack → Q (spell ring) → targeted AoE → Esc → Jump.', 'Repeat from Jump attack. Faster inputs gain height instead of hovering.'], clips: [C('goKfbT19nkk', 0, 45, 'Infinite double jump (Dotxy)'), C('U0_KPXu28qw', 0, 241, 'Infinite jump tutorial (FastTipsGaming)')] },
   { id: 'tech-surge', name: 'Phase Dash + Surge combo', status: 'works', credit: 'SamFPlays', how: ['Surge first (longer, further dodges).', 'Chain Phase Dash in the air for the extra distance.'], clips: [C(SAMF_GUIDE, 0, 103, 'Phase Dash & Surge combo (SamFPlays)')] },
 ];
+
+// Everything the raid route needs, in the order the Hardcore 1→Max route picks it up.
+// phase = js/data/hardcore.js phase id where it is acquired. Values are from the
+// route text and wiki pages cited there; `used` lists the skips that need it.
+export const REQUIREMENTS = [
+  { id: 'req-windstep', kind: 'spell', name: 'Windstep', need: 'Runecrafting 8 · 5 Air runes', phase: 'p0', used: ['s-airvent', 's-thane', 's-flight', 'tech-infjump'], wiki: 'windstep' },
+  { id: 'req-djump', kind: 'skill', name: 'Double Jump', need: 'Agility 10', phase: 'p0', used: ['tech-infjump', 's-necro'], wiki: 'double-jump' },
+  { id: 'req-tempest', kind: 'spell', name: 'Tempest Shield', need: 'Attack 11 · 15 Air runes', phase: 'p2', used: [], wiki: 'tempest-shield', note: 'Panic button; blocks all damage while held.' },
+  { id: 'req-surge', kind: 'spell', name: 'Surge', need: 'Magic 11 · 10 Astral + 10 Law · Runecrafting 13 / 16 for the runes', phase: 'p2', used: ['s-demon', 'tech-surge'], wiki: 'surge' },
+  { id: 'req-airdash', kind: 'skill', name: 'Air Dash', need: 'Agility 32', phase: 'p2', used: ['s-necro', 's-soul'], wiki: 'air-dash' },
+  { id: 'req-phasedash', kind: 'skill', name: 'Phase Dash', need: 'Agility 44', phase: 'p3', used: ['s-soul', 's-demon', 'tech-surge'], wiki: 'phase-dash' },
+  { id: 'req-recall', kind: 'spell', name: 'Recall', need: 'Agility 57 · 30 Air + 15 Law', phase: 'p4', used: [], wiki: 'recall', note: 'Practice safety net for vertical skips.' },
+  { id: 'req-rrecall', kind: 'skill', name: 'Reactive Recall', need: 'Agility 70', phase: 'p5', used: [], wiki: 'recall', note: 'Fatal falls stop being run-enders.' },
+  { id: 'req-enfeeble', kind: 'spell', name: 'Enfeeble', need: 'Magic 61', phase: 'p5', used: ['s-heart'], wiki: 'enfeeble' },
+  { id: 'req-aoe', kind: 'spell', name: 'Any targeted AoE spell', need: 'on the spell ring (Q)', phase: 'p2', used: ['tech-dive', 'tech-infjump', 's-flight'], wiki: 'jump-attack', note: 'Powers the dive / jump-attack cancel.' },
+  { id: 'req-quest', kind: 'quest', name: "Icthlarin's Little Helper → Regicide started", need: 'gates the raid entrance (NW Fractured Plains)', phase: 'p6', used: [], wiki: 'scorned-wilderness' },
+  { id: 'req-fleet', kind: 'item', name: 'Fleet Foot Infusion', need: 'must bring — halves sprint stamina cost', phase: 'p6', used: ['*'], wiki: 'fleet-foot-infusion' },
+  { id: 'req-tea', kind: 'item', name: 'Strong Tea', need: '+20 Rest', phase: 'p6', used: [], wiki: 'rest' },
+  { id: 'req-mace', kind: 'item', name: 'Best mace (melee)', need: 'kills the air Garou Thane through the gate', phase: 'p6', used: ['s-thane'], wiki: 'garou-thane' },
+  { id: 'req-staff', kind: 'item', name: '2H mage staff', need: "burns Kuldra's Heart", phase: 'p6', used: ['s-heart'], wiki: 'kuldra' },
+  { id: 'req-armour', kind: 'item', name: 'Best mage armour', need: 'heart phase DPS', phase: 'p6', used: ['s-heart'], wiki: 'kuldra' },
+];

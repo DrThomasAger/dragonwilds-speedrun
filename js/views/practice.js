@@ -1,5 +1,5 @@
 // Practice — drill one skip at a time against its reference clip and track consistency.
-import { h, fmtRun, isTyping, toast } from '../lib/util.js';
+import { h, fmtRun, isTyping, toast, fill } from '../lib/util.js';
 import { reelPlayer } from '../lib/ui.js';
 import { ROUTE, DRILLS } from '../data/route.js';
 import { SPLITS } from '../data/raid.js';
@@ -52,10 +52,10 @@ export function mount(root, { params }) {
   function paintPanel() {
     const c = consistency((prac[cur.id] || {}).log);
     const last = ((prac[cur.id] || {}).log || []).slice(-30);
-    panel.replaceChildren(
+    fill(panel, 
       h('div', { class: 'row' }, h('h2', { style: { margin: 0 } }, cur.name), cur.split != null ? h('span', { class: 'pill' }, `Split ${cur.split + 1} · ${SPLITS[cur.split].short}`) : h('span', { class: 'pill new' }, 'movement tech'),
         cur.status ? h('span', { class: 'pill ' + ({ works: 'ok', new: 'new', patched: 'dead', check: 'warn' }[cur.status] || '') }, cur.status) : null),
-      cur.how && cur.how.length ? h('ol', {}, cur.how.map(x => h('li', {}, x))) : null,
+      cur.how && cur.how.length ? h('ol', {}, cur.how.map(x => h('li', {}, x))) : cur.text ? h('p', {}, cur.text) : h('p', { class: 'note' }, 'Watch the reference clip for the line, then try it in game.'),
       h('div', { class: 'row', style: { margin: '14px 0 8px' } },
         h('button', { class: 'btn pri big', style: { background: 'var(--good)', borderColor: 'var(--good)' }, onclick: () => log(true) }, '✓ Made it  ', h('kbd', {}, 'J')),
         h('button', { class: 'btn big', style: { background: '#3a1c1a', borderColor: 'var(--bad)' }, onclick: () => log(false) }, '✗ Missed  ', h('kbd', {}, 'K')),
@@ -71,7 +71,7 @@ export function mount(root, { params }) {
     const scored = drills.map(d => ({ d, c: consistency((prac[d.id] || {}).log) }));
     const groups = [...SPLITS.map((s, k) => [`${k + 1}. ${s.name}`, scored.filter(x => x.d.split === k)]), ['Movement tech', scored.filter(x => x.d.split == null)]];
     const sug = suggest();
-    right.replaceChildren(h('div', { class: 'row' }, h('h2', { style: { margin: 0 } }, 'Drills'), h('span', { class: 'spacer' }), h('button', { class: 'btn sm', onclick: () => select(suggest()) }, 'Next suggested ', h('kbd', {}, 'N'))),
+    fill(right, h('div', { class: 'row' }, h('h2', { style: { margin: 0 } }, 'Drills'), h('span', { class: 'spacer' }), h('button', { class: 'btn sm', onclick: () => select(suggest()) }, 'Next suggested ', h('kbd', {}, 'N'))),
       ...groups.filter(g => g[1].length).map(([name, items]) => h('div', { style: { marginTop: '12px' } }, h('div', { class: 'note' }, name),
         h('div', { class: 'grid', style: { gap: '6px', marginTop: '4px' } }, items.map(({ d, c }) => h('div', { class: 'drill' + (d === cur ? ' cur' : ''), role: 'button', tabindex: 0, onclick: () => select(d), onkeydown: e => e.key === 'Enter' && select(d) },
           h('div', {}, h('div', { class: 'name' }, d.name, d === sug ? h('span', { class: 'pill warn', style: { marginLeft: '6px' } }, 'next') : null),

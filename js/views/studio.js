@@ -1,5 +1,5 @@
 // Reel Studio — build, trim and play seamless multi-video clip reels.
-import { h, fmtClock, fmtRun, clamp, isTyping, toast, download, pickFile, uid, enc, dec } from '../lib/util.js';
+import { h, fmtClock, fmtRun, clamp, isTyping, toast, download, pickFile, uid, enc, dec, fill } from '../lib/util.js';
 import { reelPlayer, timeline, nudgeRow, thumb } from '../lib/ui.js';
 import { VIDEOS, BY_ID, chapterClips, KIND_LABEL } from '../data/videos.js';
 import { SPLITS, RUNS, RUN, communityBest } from '../data/raid.js';
@@ -66,11 +66,11 @@ export function mount(root, { params }) {
   function slug(s) { return s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40) || 'reel'; }
   function paintSelect() {
     const ps = presets(), mine = store.get().reels;
-    reelSel.replaceChildren(
+    fill(reelSel, 
       cur.shared ? h('option', { value: 'shared', selected: true }, '🔗 ' + cur.name) : null,
       h('optgroup', { label: 'Presets' }, ps.map(r => h('option', { value: r.id, selected: r.id === cur.id }, r.name))),
       mine.length ? h('optgroup', { label: 'My reels' }, mine.map(r => h('option', { value: r.id, selected: r.id === cur.id }, r.name))) : null);
-    desc.replaceChildren(cur.desc || (cur.id.startsWith('p-') ? '' : 'Your reel — every edit saves automatically.'),
+    fill(desc, cur.desc || (cur.id.startsWith('p-') ? '' : 'Your reel — every edit saves automatically.'),
       cur.shared ? h('button', { class: 'btn sm', style: { marginLeft: '8px' }, onclick: () => { const r = { ...cur, id: 'r-' + uid(), shared: false }; delete r.shared; store.update(s => s.reels.push(r)); open(r); toast('Saved to My reels', 'good'); } }, 'Save to my reels') : null,
       !cur.id.startsWith('p-') && !cur.shared ? h('span', {}, ' ', h('button', { class: 'btn xs', onclick: rename }, 'Rename'), ' ', h('button', { class: 'btn xs', onclick: delReel }, 'Delete reel')) : null);
   }
@@ -93,14 +93,14 @@ export function mount(root, { params }) {
       it.addEventListener('drop', e => { e.preventDefault(); it.classList.remove('dropbefore'); move(+e.dataTransfer.getData('text/plain'), i); });
       return it;
     });
-    list.replaceChildren(...(items.length ? items : [h('div', { class: 'empty' }, 'No clips yet — add one below.')]));
+    fill(list, ...(items.length ? items : [h('div', { class: 'empty' }, 'No clips yet — add one below.')]));
     total.textContent = `${cur.clips.length} clips · ${fmtRun(cur.clips.reduce((a, c) => a + c.out - c.in, 0), 1)}`;
   }
 
   // ---------------------------------------------------------------- editor
   function paintEditor() {
     const c = cur.clips[sel];
-    if (!c) { editor.replaceChildren(h('div', { class: 'empty' }, 'Select a clip to trim it.')); tl = null; inRow = outRow = null; return; }
+    if (!c) { fill(editor, h('div', { class: 'empty' }, 'Select a clip to trim it.')); tl = null; inRow = outRow = null; return; }
     const v = BY_ID[c.vid] || { dur: Math.max(c.out + 30, 600), title: c.vid };
     const ensureLoaded = () => { if (P.clips !== cur.clips || P.reel.i !== sel) P.play(cur.clips, { start: sel, name: cur.name, autoplay: false }); };
     tl = timeline({
@@ -117,7 +117,7 @@ export function mount(root, { params }) {
     outRow = nudgeRow('Out', () => c.out, t => { setOut(t); P.reel.scrub(c.out, true); }, now);
     const label = h('input', { type: 'text', value: c.label || '', 'aria-label': 'Clip label', style: { flex: 1 }, oninput: () => { c.label = label.value; edited(); }, onchange: () => paintList() });
     const zoomBtn = h('button', { class: 'btn sm', onclick: () => { tl.setZoom(!tl.zoom); zoomBtn.classList.toggle('on', tl.zoom); } }, '🔍 Zoom to clip');
-    editor.replaceChildren(
+    fill(editor, 
       h('div', { class: 'row' }, h('h2', { style: { margin: 0 } }, `Clip ${sel + 1}`), h('span', { class: 'note' }, `${v.author || ''} — ${v.title}`), h('span', { class: 'spacer' }),
         h('span', { class: 'mono' }, 'length ', h('b', { class: 'mono' }, fmtRun(c.out - c.in, 1)))),
       h('div', { class: 'row', style: { marginTop: '8px' } }, label, zoomBtn),
@@ -175,16 +175,16 @@ export function mount(root, { params }) {
     const vsel = h('select', { 'aria-label': 'Video', style: { width: '100%' } },
       Object.entries(KIND_LABEL).map(([k, l]) => h('optgroup', { label: l }, VIDEOS.filter(v => v.kind === k).map(v => h('option', { value: v.id }, `${v.author} — ${v.title}`)))));
     const csel = h('select', { 'aria-label': 'Chapter', style: { width: '100%' } });
-    const fill = () => {
+    const fillChapters = () => {
       const v = BY_ID[vsel.value];
       const opts = [['whole', `Whole video (${fmtClock(v.dur)})`]];
       chapterClips(v).forEach((c, i) => opts.push(['c' + i, `${fmtClock(c.in)} ${c.label}`]));
       const run = RUNS.find(r => r.vid === v.id);
       if (run) SPLITS.forEach((s, k) => opts.push(['s' + k, `Split ${k + 1}: ${s.name}`]));
       opts.push(['here', 'From the current frame (+10 s)']);
-      csel.replaceChildren(...opts.map(([v2, l]) => h('option', { value: v2 }, l)));
+      fill(csel, ...opts.map(([v2, l]) => h('option', { value: v2 }, l)));
     };
-    vsel.addEventListener('change', fill); fill();
+    vsel.addEventListener('change', fillChapters); fillChapters();
     const add = () => {
       const v = BY_ID[vsel.value], k = csel.value;
       let c;

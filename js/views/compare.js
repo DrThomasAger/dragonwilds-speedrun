@@ -1,5 +1,5 @@
 // Race the WR — up to four runs on one run clock, race or split-aligned.
-import { h, $, fmtRun, fmtDelta, fmtClock, clamp, isTyping, toast, download, uid, parseTime } from '../lib/util.js';
+import { h, $, fmtRun, fmtDelta, fmtClock, clamp, isTyping, toast, download, uid, parseTime, fill } from '../lib/util.js';
 import { Deck, ytUrl } from '../lib/player.js';
 import { SyncGroup, model, progressAt, timeAtProgress } from '../lib/sync.js';
 import { scrubber, rateSelect, nudgeRow } from '../lib/ui.js';
@@ -59,7 +59,7 @@ export function mount(root, { params }) {
 
   // ---------------------------------------------------------------- build
   function paintPicker() {
-    picker.replaceChildren(h('span', { class: 'note' }, 'Runs (max 4):'), ...allRuns().map(r => {
+    fill(picker, h('span', { class: 'note' }, 'Runs (max 4):'), ...allRuns().map(r => {
       const i = selected.indexOf(r.key);
       return h('button', { class: 'chip' + (i >= 0 ? ' cur' : ''), 'aria-pressed': String(i >= 0), onclick: () => toggleRun(r.key) },
         i >= 0 ? h('span', { class: 'dot', style: { '--c': COLORS[i] } }) : '+', r.label, h('small', {}, fmtRun(runModel(r).time)));
@@ -77,7 +77,7 @@ export function mount(root, { params }) {
     const X = keepX ?? (group ? group.X : -2);
     if (group) group.destroy();
     cells.forEach(c => c.deck.destroy());
-    grid.replaceChildren(); grid.className = 'cmp-grid n' + selected.length;
+    fill(grid); grid.className = 'cmp-grid n' + selected.length;
     cells = selected.map((k, i) => {
       const run = allRuns().find(r => r.key === k);
       const cell = h('div', { class: 'cmp-cell', style: { '--c': COLORS[i] } });
@@ -160,7 +160,7 @@ export function mount(root, { params }) {
           h('small', { class: seg === best[k] ? 'gold' : 'muted' }, fmtRun(seg, 1)));
       })));
     const sob = best.reduce((a, b) => a + b, 0);
-    table.replaceChildren(h('table', {},
+    fill(table, h('table', {},
       h('thead', {}, h('tr', {}, h('th', {}, 'Split'), ...cells.map((c, i) => h('th', { class: 'num' }, h('span', { class: 'dot', style: { '--c': COLORS[i] } }), ' ', c.run.runner)))),
       h('tbody', {}, rows,
         h('tr', { class: 'hl' }, h('td', {}, h('b', {}, 'Sum of best (these runs)')), h('td', { class: 'num', colspan: cells.length }, h('b', { class: 'gold' }, fmtRun(sob, 1)))))));
@@ -190,7 +190,7 @@ export function mount(root, { params }) {
       adjustRefresh.push(() => r.refresh());
       return r.el;
     });
-    adjust.replaceChildren(
+    fill(adjust, 
       h('h2', {}, 'Adjust split marks'),
       h('p', { class: 'note' }, 'Every change re-syncs the videos instantly. “Zero” is the video second where the run timer reads 0:00.00. “= now” takes the current frame of that run\'s video. Pause and use , . to step 0.1 s.'),
       h('div', { class: 'row', style: { margin: '6px 0' } },
@@ -207,7 +207,7 @@ export function mount(root, { params }) {
     const url = h('input', { type: 'url', placeholder: 'YouTube link to your run', style: { flex: 1, minWidth: '200px' } });
     const name = h('input', { type: 'text', placeholder: 'Runner', value: 'You', style: { width: '110px' } });
     const splitsIn = h('input', { type: 'text', placeholder: 'Splits e.g. 1:25.3 2:31 3:30 5:01 7:05 (optional)', style: { flex: 1, minWidth: '220px' } });
-    addCard.replaceChildren(h('h2', {}, 'Race your own run'),
+    fill(addCard, h('h2', {}, 'Race your own run'),
       h('p', { class: 'note' }, 'Paste the video, then either type your LiveSplit split times or mark them while watching: press Z at the frame the timer starts, then S each time “EXTRACTION POINT UNLOCKED” appears and at the final cut to black.'),
       h('div', { class: 'row' }, url, name),
       h('div', { class: 'row', style: { marginTop: '6px' } }, splitsIn, h('button', { class: 'btn pri', onclick: () => addRun(url.value, name.value, splitsIn.value) }, 'Add run')),
@@ -241,7 +241,7 @@ export function mount(root, { params }) {
     const c = cells.find(x => x.run.key === marking.key);
     if (!c) { marking = null; return; }
     const labels = ['timer start (Z)', ...SPLITS.map(s => s.name + ' (S)')];
-    markingPanel.replaceChildren(h('b', {}, 'Marking ', c.run.runner, '’s run — '), `next: ${labels[marking.step] || 'done'} · video ${fmtClock(c.deck.time(), true)}`,
+    fill(markingPanel, h('b', {}, 'Marking ', c.run.runner, '’s run — '), `next: ${labels[marking.step] || 'done'} · video ${fmtClock(c.deck.time(), true)}`,
       h('div', { class: 'note' }, 'Tip: in marking mode only your video needs to play — pause the others by deselecting them, or use , and . to step frames while paused.'));
   }
   function markNow(kind) {

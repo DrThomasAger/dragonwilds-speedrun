@@ -42,12 +42,9 @@ export function load() {
   return state;
 }
 
-let saveTimer;
+// Written synchronously: an installed app can be closed at any moment.
 export function save() {
-  clearTimeout(saveTimer);
-  saveTimer = setTimeout(() => {
-    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch { /* storage full or blocked */ }
-  }, 60);
+  try { localStorage.setItem(KEY, JSON.stringify(state)); } catch { /* storage full or blocked */ }
   subs.forEach(f => f(state));
 }
 

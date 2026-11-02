@@ -2,33 +2,31 @@
 import { test, expect } from '@playwright/test';
 
 const M = '/?player=mock';
-const VIEWS = ['hq', 'compare', 'route', 'studio', 'practice', 'timer', 'library', 'hardcore'];
+const VIEWS = ['hq', 'run', 'compare', 'route', 'studio', 'practice', 'timer', 'wiki', 'patches', 'library', 'hardcore'];
 
 function watchErrors(page) {
   const errs = [];
   page.on('pageerror', e => errs.push(String(e)));
-  page.on('console', m => { if (m.type() === 'error' && !/speedrun\.com|ERR_|Failed to load resource/.test(m.text())) errs.push(m.text()); });
+  page.on('console', m => { if (m.type() === 'error' && !/speedrun\.com|ERR_|Failed to load resource|raw\.githubusercontent/.test(m.text())) errs.push(m.text()); });
   return errs;
 }
 
-test('every view renders with no errors, desktop + mobile screenshots', async ({ page }) => {
-  const errs = watchErrors(page);
-  for (const v of VIEWS) {
-    await page.goto(`${M}#/${v}`);
-    await expect(page.locator('#view h1, #view .target-card').first()).toBeVisible();
-    await page.waitForTimeout(700);
-    await page.screenshot({ path: `docs/screens/${v}.png` });
-  }
-  await page.setViewportSize({ width: 390, height: 844 });
-  for (const v of ['hq', 'compare', 'studio']) {
-    await page.goto(`${M}#/${v}`);
-    await page.waitForTimeout(700);
-    const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
-    expect(overflow, `${v} has horizontal scroll on mobile`).toBeLessThanOrEqual(1);
-    await page.screenshot({ path: `docs/screens/mobile-${v}.png` });
-  }
-  expect(errs).toEqual([]);
-});
+const SIZES = { phone: { width: 412, height: 915 }, fold: { width: 884, height: 1000 }, desktop: { width: 1440, height: 900 } };
+for (const [size, vp] of Object.entries(SIZES)) {
+  test(`every view at ${size} size: renders, no errors, no sideways scroll`, async ({ page }) => {
+    const errs = watchErrors(page);
+    await page.setViewportSize(vp);
+    for (const v of VIEWS) {
+      await page.goto(`${M}#/${v}`);
+      await expect(page.locator('#view h1, #view .target-card').first()).toBeVisible();
+      await page.waitForTimeout(600);
+      const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
+      expect(overflow, `${v} scrolls sideways at ${size}`).toBeLessThanOrEqual(1);
+      await page.screenshot({ path: `docs/screens/${size}/${v}.png` });
+    }
+    expect(errs).toEqual([]);
+  });
+}
 
 test('reel cuts seamlessly across videos at the exact out-points', async ({ page }) => {
   const errs = watchErrors(page);
@@ -199,4 +197,47 @@ test('in-game Run mode uses shared data and shares progress with the lab', async
   await page.getByRole('link', { name: /In-game Run mode/ }).click();
   await expect(page).toHaveURL(/hardcore-run\.html/);
   expect(errs.filter(e => !/youtube|postMessage/i.test(e))).toEqual([]);
+});
+
+test('run navigator: pre-flight → split through every split → summary saved to timer', async ({ page }) => {
+  await page.setViewportSize(SIZES.phone);
+  await page.goto(`${M}#/run`);
+  await page.getByRole('button', { name: /Start run/ }).click();
+  await expect(page.locator('.rn-split')).toContainText('Dragontail Vines');
+  await expect(page.locator('.rn-skip h2')).toHaveText(/.+/);
+  await page.keyboard.press('n');
+  await expect(page.locator('.rn-skip .note').first()).toContainText('Skip 2');
+  await page.screenshot({ path: 'docs/screens/phone/run-live.png' });
+  for (let i = 0; i < 5; i++) { await page.waitForTimeout(120); await page.locator('.rn-big').click(); }
+  await expect(page.locator('#view h1')).toHaveText(/New PB|Run complete/);
+  const t = await page.evaluate(() => JSON.parse(localStorage.getItem('dw_lab_v2')).timer);
+  expect(t.pb.splits).toHaveLength(5);
+  await page.screenshot({ path: 'docs/screens/phone/run-done.png' });
+});
+
+test('patch notes load, flag raid lines, and the route banner reflects the latest version', async ({ page }) => {
+  await page.goto(`${M}#/patches`);
+  await expect(page.locator('.patch').first()).toBeVisible();
+  await expect(page.getByText('Fixed several Windstep-related skips').first()).toBeVisible();
+  await expect(page.locator('.callout').first()).toContainText('1.0.1.2');
+});
+
+test('installable: manifest, icons and service worker', async ({ page, request }) => {
+  const m = await (await request.get('/manifest.webmanifest')).json();
+  expect(m.display).toBe('standalone');
+  for (const i of m.icons) expect((await request.get('/' + i.src)).ok()).toBe(true);
+  await page.goto(`${M}#/hq`);
+  const sw = await page.evaluate(async () => { const r = await navigator.serviceWorker.ready; return !!r.active; });
+  expect(sw).toBe(true);
+});
+
+test('phone: bottom tab bar + More sheet reach every section', async ({ page }) => {
+  await page.setViewportSize(SIZES.phone);
+  await page.goto(`${M}#/hq`);
+  await expect(page.locator('#nav a[data-r="run"]')).toBeVisible();
+  await expect(page.locator('#nav a[data-r="wiki"]')).toBeHidden();
+  await page.locator('#moreBtn').click();
+  await page.locator('#moreGrid a[data-r="wiki"]').click();
+  await expect(page).toHaveURL(/#\/wiki/);
+  await expect(page.locator('#more')).not.toHaveAttribute('open', '');
 });

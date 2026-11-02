@@ -1,13 +1,31 @@
 // Route — the current-patch raid route, split by split, every skip with its clips.
 import { h, fmtRun, isTyping } from '../lib/util.js';
 import { reelPlayer, videoChip } from '../lib/ui.js';
-import { ROUTE, GEAR } from '../data/route.js';
+import { ROUTE, GEAR, REQUIREMENTS } from '../data/route.js';
+import { PHASES } from '../data/hardcore.js';
 import { SPLITS, RUNS, COLORS, communityBest } from '../data/raid.js';
 import { model } from '../lib/sync.js';
 import * as store from '../lib/store.js';
 
 export const title = 'Route';
 export const keys = [['Space', 'Play / pause'], ['[ ]', 'Previous / next clip'], ['L', 'Loop clip']];
+
+// Requirements timeline: every skill / spell / item / quest, grouped by the
+// Hardcore phase that unlocks it, with a "have it" tick saved per browser.
+export function requirementsCard() {
+  const have = store.get().prefs.have || {};
+  const count = h('span', { class: 'pill' });
+  const paintCount = () => { const n = REQUIREMENTS.filter(r => have[r.id]).length; count.textContent = `${n}/${REQUIREMENTS.length} ready`; count.className = 'pill ' + (n === REQUIREMENTS.length ? 'ok' : 'warn'); };
+  const groups = PHASES.filter(p => REQUIREMENTS.some(r => r.phase === p.id)).map(p => h('div', { class: 'reqgroup' },
+    h('a', { class: 'note', href: '#/hardcore' }, p.title.replace(/ — .*/, ''), ' · ', p.title.split(' — ')[1] || ''),
+    REQUIREMENTS.filter(r => r.phase === p.id).map(r => h('label', { class: 'req' + (have[r.id] ? ' ok' : '') },
+      h('input', { type: 'checkbox', checked: !!have[r.id], 'aria-label': 'I have ' + r.name, onchange: e => { have[r.id] = e.target.checked; e.target.closest('label').classList.toggle('ok', e.target.checked); store.update(s => (s.prefs.have = have)); paintCount(); } }),
+      h('span', {}, h('b', {}, r.name), h('span', { class: 'pill', style: { marginLeft: '6px' } }, r.kind), h('small', {}, r.need, r.note ? ' — ' + r.note : '')),
+      h('a', { class: 'btn xs ghost', href: `#/wiki?id=${r.wiki}`, title: 'Wiki' }, '§')))));
+  paintCount();
+  return h('div', { class: 'card' }, h('div', { class: 'row' }, h('h2', { style: { margin: 0 } }, 'Requirements timeline'), h('span', { class: 'spacer' }), count),
+    h('p', { class: 'note' }, 'Everything the route needs, in the order the Hardcore route unlocks it.'), groups);
+}
 
 export function mount(root, { params }) {
   const st = store.get();
@@ -19,7 +37,7 @@ export function mount(root, { params }) {
   const left = h('div'), right = h('div', { class: 'grid' });
   layout.append(left, right); root.append(layout);
   const P = reelPlayer(right, { sticky: true });
-  right.append(h('div', { class: 'card' }, h('h2', {}, 'Bring'), h('ul', { style: { margin: 0, paddingLeft: '18px', fontSize: '13.5px' } }, GEAR.map(([g, why]) => h('li', {}, h('b', {}, g), ' — ', h('span', { class: 'muted' }, why))))));
+  right.append(requirementsCard(), h('div', { class: 'card' }, h('h2', {}, 'Bring'), h('ul', { style: { margin: 0, paddingLeft: '18px', fontSize: '13.5px' } }, GEAR.map(([g, why]) => h('li', {}, h('b', {}, g), ' — ', h('span', { class: 'muted' }, why))))));
 
   ROUTE.forEach((sp, k) => {
     const open = params.split != null ? +params.split === k : k === 0;

@@ -1,0 +1,25 @@
+{
+  "name": "Dragonwilds Raid Lab",
+  "short_name": "DW Raid Lab",
+  "description": "Scorned Wilderness raid speedrun lab: race the WR split by split, run navigator, seamless clip reels, split timer, mechanics wiki and live patch notes.",
+  "id": "./",
+  "start_url": "./#/hq",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#0d0c0b",
+  "theme_color": "#0d0c0b",
+  "categories": ["games", "utilities"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Run navigator", "url": "./#/run", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Race the WR", "url": "./#/compare", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Split timer", "url": "./#/timer", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Patch notes", "url": "./#/patches", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

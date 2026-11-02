@@ -1,5 +1,5 @@
 // HQ — what it takes to be #1, with live leaderboard and the gap analysis.
-import { h, fmtRun, fmtDelta } from '../lib/util.js';
+import { h, fmtRun, fmtDelta, fill } from '../lib/util.js';
 import { SPLITS, RUNS, RUN, RULES, PATCHES, COLORS, SRC, communityBest } from '../data/raid.js';
 import { BY_KEY } from '../data/videos.js';
 import { leaderboard } from '../lib/src.js';
@@ -8,6 +8,7 @@ import { sumOfBest } from '../lib/timer.js';
 import { ytUrl } from '../lib/player.js';
 import { OPPORTUNITIES } from '../data/route.js';
 import * as store from '../lib/store.js';
+import * as patches from '../lib/patches.js';
 
 export const title = 'HQ';
 
@@ -30,12 +31,13 @@ export function mount(root) {
       h('div', { class: 'stat' }, h('b', {}, mySob ? fmtRun(mySob, 1) : '—'), h('span', {}, mySob ? `Your sum of best · ${fmtDelta(mySob - wr.time)} vs #1` : 'Your sum of best'))));
 
   const actions = h('div', { class: 'actions' },
+    action('#/run', '▶ Run navigator', 'In-raid second screen: split button, current skip, live delta.'),
     action('#/compare', 'Race the WR', 'TexasPete 6:50 vs Nanobit 7:01, synced to the run timer — add your own run.'),
     action('#/studio?id=p-sob', `Watch the ${fmtRun(csob, 0)} composite`, 'Best segment from every record, cut together with no gaps.'),
     action('#/route', 'Current route', 'Every skip on 1.0.1.2, split by split, with the clip for each.'),
     action('#/practice', 'Drill skips', 'Loop a skip, log made / missed, see your consistency.'),
     action('#/timer', 'Split timer + LiveSplit', 'Export a .lss with the WR as a comparison.'),
-    action('#/compare?mode=split', 'Split-aligned study', 'Every run starts each segment together.'));
+    action('#/wiki', 'Mechanics wiki', 'Movement kit, spells, raid zones and engine behaviour, sourced.'));
 
   // Where the time is: segment bars per record + community best.
   const maxSeg = Math.max(...SPLITS.map((_, k) => Math.max(...models.map(m => m.segs[k]))));
@@ -54,7 +56,17 @@ export function mount(root) {
   const opp = h('div', { class: 'card' }, h('h2', {}, 'Where #1 is won'), h('div', { class: 'feed' }, OPPORTUNITIES.map(o => h('div', { class: 'callout ' + (o.kind || '') },
     h('b', {}, o.title), h('div', { class: 'note', style: { marginTop: '4px', color: 'var(--ink)' } }, o.text),
     o.src ? h('div', { class: 'row tight', style: { marginTop: '6px' } }, o.src.map(k => { const v = BY_KEY[k]; return v ? h('a', { class: 'pill', href: ytUrl(v.id), target: '_blank', rel: 'noopener' }, '↗ ', v.author) : null; }), o.go ? h('a', { class: 'btn xs', href: o.go[0] }, o.go[1]) : null) : null))));
-  const patches = h('div', { class: 'card' }, h('h2', {}, 'Patch timeline'), h('div', { class: 'feed' }, [...PATCHES].reverse().map(p => h('div', { class: 'item' }, h('time', {}, p.v, h('br'), p.date.slice(5)), h('div', {}, p.text, ' ', (p.src || []).map(k => BY_KEY[k] ? h('a', { href: ytUrl(BY_KEY[k].id), target: '_blank', rel: 'noopener', class: 'note' }, ` ↗${BY_KEY[k].author}`) : null))))));
+  const patchesCard = h('div', { class: 'card' }, h('h2', {}, 'Raid patch timeline'), h('div', { class: 'feed' }, [...PATCHES].reverse().map(p => h('div', { class: 'item' }, h('time', {}, p.v, h('br'), p.date.slice(5)), h('div', {}, p.text, ' ', (p.src || []).map(k => BY_KEY[k] ? h('a', { href: ytUrl(BY_KEY[k].id), target: '_blank', rel: 'noopener', class: 'note' }, ` ↗${BY_KEY[k].author}`) : null))))));
+  const patchCard = h('div', { class: 'card' }, h('h2', {}, 'Latest patch'), h('div', { class: 'note' }, 'Checking…'));
+  const unsub = patches.subscribe(() => {
+    const lp = patches.latestPatch(); if (!lp) return;
+    const hot = lp.lines.filter(l => l.raid || l.move);
+    const newer = patches.cmpVersion(lp.version, patches.ROUTE_VERIFIED_ON) > 0;
+    fill(patchCard, h('div', { class: 'row' }, h('h2', { style: { margin: 0 } }, 'Latest patch'), h('span', { class: 'pill ' + (newer ? 'dead' : 'ok') }, lp.version), h('span', { class: 'spacer' }), h('a', { class: 'btn xs', href: '#/patches' }, 'All notes')),
+      h('p', { class: 'note' }, lp.date, ' · ', lp.title),
+      newer ? h('div', { class: 'callout' }, `Newer than the route (verified on ${patches.ROUTE_VERIFIED_ON}) — re-check skips.`) : h('div', { class: 'callout good' }, 'Route verified on this patch.'),
+      hot.length ? h('ul', { class: 'plines', style: { marginTop: '8px' } }, hot.slice(0, 5).map(l => h('li', { class: l.raid ? 'raid' : 'move' }, l.text))) : h('p', { class: 'note' }, 'No raid or movement changes in this patch.'));
+  });
   const rules = h('div', { class: 'card' }, h('h2', {}, 'Timing rules'), h('p', { class: 'note' }, h('b', {}, 'Start: '), RULES.start), h('p', { class: 'note' }, h('b', {}, 'End: '), RULES.end), h('p', { class: 'note' }, RULES.video, ' ', h('a', { href: RULES.link, target: '_blank', rel: 'noopener' }, 'speedrun.com rules ↗')));
 
   root.append(
@@ -63,17 +75,19 @@ export function mount(root) {
       h('div', { class: 'card' }, h('h2', {}, 'Where the record’s time goes'), h('div', { class: 'tablewrap' }, segTable), bars,
         h('p', { class: 'note' }, 'Segment times measured from each runner\'s on-screen LiveSplit. Click a split to watch it in every run side by side.')),
       opp),
-    h('div', { class: 'grid g3', style: { marginTop: '16px' } }, board, patches, rules));
+    h('div', { class: 'grid g2', style: { marginTop: '16px' } }, board, patchCard),
+    h('div', { class: 'grid g2', style: { marginTop: '16px' } }, patchesCard, rules));
 
   leaderboard().then(d => {
     const top = d.rows[0];
     if (top) { root.querySelector('#wrTime').textContent = fmtRun(top.t, 2); root.querySelector('#wrWho').textContent = `${top.players.join(' & ')} · ${top.date} · speedrun.com ${d.source === 'live' ? '(live)' : d.source === 'cache' ? '(cached)' : '(snapshot)'}`; }
-    board.replaceChildren(h('div', { class: 'row' }, h('h2', { style: { margin: 0 } }, 'Leaderboard'), h('span', { class: 'pill ' + (d.source === 'live' ? 'ok' : 'warn') }, d.source), h('span', { class: 'spacer' }), h('a', { class: 'btn xs', href: SRC.board, target: '_blank', rel: 'noopener' }, 'speedrun.com ↗')),
+    fill(board, h('div', { class: 'row' }, h('h2', { style: { margin: 0 } }, 'Leaderboard'), h('span', { class: 'pill ' + (d.source === 'live' ? 'ok' : 'warn') }, d.source), h('span', { class: 'spacer' }), h('a', { class: 'btn xs', href: SRC.board, target: '_blank', rel: 'noopener' }, 'speedrun.com ↗')),
       h('table', { style: { marginTop: '8px' } }, h('tbody', {}, d.rows.slice(0, 10).map(r => h('tr', {},
         h('td', { class: 'num' }, '#' + r.place), h('td', {}, r.players.join(' & ')), h('td', { class: 'num' }, fmtRun(r.t, 2)), h('td', { class: 'note' }, r.date),
         h('td', {}, r.video ? h('a', { href: r.video, target: '_blank', rel: 'noopener' }, '▶') : ''))))),
       h('p', { class: 'note' }, 'Version 1.0.0.6+ bracket (the current game). ', d.error ? `Live fetch failed: ${d.error}.` : ''));
   });
+  return unsub;
 }
 
 function action(href, title, text) { return h('a', { class: 'action', href }, h('b', {}, title), h('span', {}, text)); }

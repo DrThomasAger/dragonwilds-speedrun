@@ -1,7 +1,8 @@
 // Hardcore 1 → Max route checklist with clip player (ported from v1).
-import { h, isTyping } from '../lib/util.js';
+import { h, isTyping, fill } from '../lib/util.js';
 import { reelPlayer, videoChip } from '../lib/ui.js';
 import { PHASES } from '../data/hardcore.js';
+import { REQUIREMENTS } from '../data/route.js';
 import * as store from '../lib/store.js';
 
 export const title = 'Hardcore 1→Max';
@@ -41,10 +42,10 @@ export function mount(root) {
     root.querySelector('#hcbar').style.width = (100 * d / total) + '%';
     root.querySelector('#hctext').textContent = `${d} of ${total} steps`;
     const n = nextStep();
-    next.replaceChildren(...(n ? [h('div', { class: 'note' }, 'Next step · ', n.p.title.replace(/ — .*/, ''), ' · ', n.s.t), h('div', { class: 'row' }, h('b', { style: { flex: 1 } }, n.st[0]),
+    fill(next, ...(n ? [h('div', { class: 'note' }, 'Next step · ', n.p.title.replace(/ — .*/, ''), ' · ', n.s.t), h('div', { class: 'row' }, h('b', { style: { flex: 1 } }, n.st[0]),
       n.s.clips.length ? h('button', { class: 'btn sm', onclick: () => { go(n.p.id); P.play(n.s.clips); } }, '▶ Clip') : null,
       h('button', { class: 'btn pri sm', onclick: () => markNext() }, 'Done ✓'))] : [h('b', {}, 'Every step complete. Go take the raid record.')]));
-    nav.replaceChildren(...PHASES.map(p => {
+    fill(nav, ...PHASES.map(p => {
       let n2 = 0, d2 = 0; p.segs.forEach((s, si) => s.steps.forEach((_, ti) => { n2++; if (hc.done[`${p.id}.${si}.${ti}`]) d2++; }));
       return h('button', { class: p.id === hc.phase ? 'on' : '', onclick: () => go(p.id) }, h('span', {}, p.title.replace(/ — .*/, '')), h('small', {}, `${d2}/${n2}`));
     }));
@@ -55,9 +56,11 @@ export function mount(root) {
     paintProgress();
     const p = PHASES.find(x => x.id === hc.phase) || PHASES[0];
     const n = nextStep();
-    content.replaceChildren(
+    fill(content, 
       h('div', { class: 'card', style: { marginBottom: '14px' } }, h('h2', { style: { fontFamily: 'var(--serif)', fontSize: '22px' } }, p.title), h('p', { class: 'muted' }, p.sub), h('p', {}, p.intro),
-        h('div', { class: 'kv' }, p.kv.map(([k, v]) => h('div', {}, k, h('b', {}, v))))),
+        h('div', { class: 'kv' }, p.kv.map(([k, v]) => h('div', {}, k, h('b', {}, v)))),
+        REQUIREMENTS.some(r => r.phase === p.id) ? h('div', { style: { marginTop: '10px' } }, h('div', { class: 'note' }, 'Raid unlocks in this phase'),
+          h('div', { class: 'chips' }, REQUIREMENTS.filter(r => r.phase === p.id).map(r => h('a', { class: 'chip', href: `#/wiki?id=${r.wiki}` }, r.name, h('small', {}, r.need.split(' · ')[0]))))) : null),
       ...p.segs.map((s, si) => {
         const open = (n && n.p.id === p.id && n.s === s) || (!(n && n.p.id === p.id) && si === 0);
         const card = h('section', { class: 'splitcard' + (open ? ' open' : '') });

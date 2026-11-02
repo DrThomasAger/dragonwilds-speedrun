@@ -2,11 +2,16 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Dragonwilds Raid Lab</title>
-<meta name="description" content="Scorned Wilderness raid speedrun lab for RuneScape: Dragonwilds — race the world record split by split, watch seamless clip reels, drill skips, and track your splits.">
+<meta name="description" content="Scorned Wilderness raid speedrun lab for RuneScape: Dragonwilds — run navigator, race the world record split by split, seamless clip reels, split timer, mechanics wiki and live patch notes.">
 <meta name="theme-color" content="#0d0c0b">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23e8813a'/%3E%3Cpath d='M9 22l7-13 7 13h-4l-3-6-3 6z' fill='%23140a02'/%3E%3C/svg%3E">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="DW Raid Lab">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="preconnect" href="https://www.youtube.com">
 <link rel="preconnect" href="https://i.ytimg.com">
 <link rel="stylesheet" href="css/app.css">
@@ -14,24 +19,31 @@
 <body>
 <header class="top">
   <a class="brand" href="#/hq"><span class="sig">DW</span><span class="txt">Raid Lab</span></a>
-  <nav class="nav" id="nav" aria-label="Sections">
-    <a href="#/hq" data-r="hq">HQ</a>
-    <a href="#/compare" data-r="compare">Race the WR</a>
-    <a href="#/route" data-r="route">Route</a>
-    <a href="#/studio" data-r="studio">Reel Studio</a>
-    <a href="#/practice" data-r="practice">Practice</a>
-    <a href="#/timer" data-r="timer">Timer</a>
-    <a href="#/library" data-r="library">Library</a>
-    <a href="#/hardcore" data-r="hardcore">Hardcore 1→Max</a>
-  </nav>
+  <span class="viewtitle" id="viewTitle"></span>
   <span class="target" id="topTarget"></span>
-  <button class="help" id="helpBtn" title="Keyboard shortcuts (?)" aria-label="Keyboard shortcuts">?</button>
+  <span id="installSlot"></span>
+  <a class="iconbtn" href="#/patches" id="patchBtn" title="Patch notes" aria-label="Patch notes">⟳<i class="badge hidden" id="patchBadge"></i></a>
+  <button class="iconbtn" id="helpBtn" title="Keyboard shortcuts (?)" aria-label="Keyboard shortcuts">?</button>
 </header>
+<nav class="nav" id="nav" aria-label="Sections">
+  <a href="#/hq" data-r="hq" data-p="1"><b>⌂</b><span>HQ</span></a>
+  <a href="#/run" data-r="run" data-p="1"><b>▶</b><span>Run</span></a>
+  <a href="#/compare" data-r="compare" data-p="1"><b>⇆</b><span>Race WR</span></a>
+  <a href="#/route" data-r="route" data-p="1"><b>☰</b><span>Route</span></a>
+  <a href="#/studio" data-r="studio"><b>✂</b><span>Reels</span></a>
+  <a href="#/practice" data-r="practice"><b>◎</b><span>Practice</span></a>
+  <a href="#/timer" data-r="timer"><b>⏱</b><span>Timer</span></a>
+  <a href="#/wiki" data-r="wiki"><b>§</b><span>Wiki</span></a>
+  <a href="#/patches" data-r="patches"><b>⟳</b><span>Patches</span></a>
+  <a href="#/library" data-r="library"><b>▤</b><span>Library</span></a>
+  <a href="#/hardcore" data-r="hardcore"><b>☠</b><span>Hardcore</span></a>
+  <button class="more" id="moreBtn" aria-haspopup="dialog" aria-label="More sections"><b>⋯</b><span>More</span></button>
+</nav>
 <main id="view" tabindex="-1"></main>
 <footer class="site">
-  Clips are YouTube videos played from their creators' channels at the in/out points set here; every run, skip and technique credits its source. Split marks for record runs were read frame-by-frame from the runners' own LiveSplit overlays. Leaderboard data from speedrun.com. Not affiliated with Jagex.
-  <span id="ver"></span>
+  Clips play from their creators' YouTube channels at the in/out points set here; every run, skip and technique credits its source. Split marks were measured frame by frame on the in-game extraction banner. Leaderboard from speedrun.com, patch notes from Steam. Not affiliated with Jagex.
 </footer>
+<dialog id="more" class="sheet" aria-label="All sections"><div class="sheetgrid" id="moreGrid"></div><form method="dialog"><button class="btn" style="width:100%">Close</button></form></dialog>
 <dialog id="help">
   <h2>Keyboard</h2>
   <div class="keys" id="keys"></div>

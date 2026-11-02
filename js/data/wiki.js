@@ -1,0 +1,802 @@
+// Mechanics reference for Scorned Wilderness (Kuldra) raid speedrunning.
+//
+// Researched 2026-11-02 against game patch 1.0.1.2 (23 October 2026).
+// Sources:
+//   - RuneScape: Dragonwilds Wiki, https://dragonwilds.runescape.wiki (pages cited per entry)
+//   - Official patch notes as mirrored on the wiki (Update: pages, cited per entry)
+//   - Steam store page, https://store.steampowered.com/app/1374490/
+//   - speedrun.com API v1 for game 2689lo91 (Raid category xd19vy4k: rules text and run comments)
+//   - Jagex announcement, https://www.jagex.com/news/jagex-announces-new-open-world-survival-game-runescape-dragonwilds
+//   - mp1st.com report on the console Kuldra hotfix
+// Rules: every value below is quoted or paraphrased from a cited source. Where the
+// wiki is a stub, contradicts itself, or a value comes only from runner comments,
+// the text says so. Nothing here is measured in-game by us. Reddit and the
+// speedrun.com forum/guides pages could not be read (speedrun.com returned 403 to
+// the page fetcher; only the public API was readable).
+
+const W = 'https://dragonwilds.runescape.wiki/w/';
+const SRC_API = 'https://www.speedrun.com/api/v1/games/2689lo91/categories';
+const P = {
+  v0121: W + 'Update:0.12.1_is_now_live!',
+  v10: W + 'Update:Our_1.0_Release_is_live!',
+  v1005: W + 'Update:1.0.0.5_Patch_Notes:_Releasing_Friday',
+  v101: W + 'Update:Eye_on_Ashenfall_-_1.0.1_Update',
+  v1012: W + 'Update:1.0.1.2_is_now_live!_-_Eye_on_Ashenfall',
+};
+const RUN = (id) => 'https://www.speedrun.com/Runescape_Dragonwilds/runs/' + id;
+
+export const STEAM_APP_ID = 1374490;
+
+export const ENGINE = {
+  name: 'Unreal Engine',
+  version: '5 (wiki infobox says 5.6; not confirmed by Jagex)',
+  notes: [
+    'Jagex describes the game as "powered by Unreal Engine 5".',
+    'The wiki infobox requirements line reads "... to run Unreal Engine 5.6". No Jagex source seen states the minor version.',
+    'The Steam store page carries the "Unreal Engine, Copyright 1998 - 2026, Epic Games, Inc." credit.',
+    'No source states a server tick rate, physics step or fixed frame rate. A runner suspects that zoop strength depends on framerate (lower framerate gives a stronger zoop). This is a guess from run notes and has not been tested.',
+  ],
+  sources: [
+    'https://www.jagex.com/news/jagex-announces-new-open-world-survival-game-runescape-dragonwilds',
+    W + 'RuneScape:_Dragonwilds',
+    'https://store.steampowered.com/app/1374490/',
+    RUN('zpe5n1xy'),
+  ],
+};
+
+export const WIKI = [
+  // ---------------------------------------------------------------- Movement
+  {
+    id: 'agility', cat: 'Movement', title: 'Agility (skill)',
+    summary: 'Agility was added in 0.12.1 (29 July 2026). It unlocks the whole movement kit: Windstep, Double Jump, Air Dash, Phase Dash and Recall, plus passive perks that cut stamina costs.',
+    facts: [
+      ['Released', '29 July 2026 (0.12.1)'],
+      ['Passive', 'Sprint stamina cost -0.085% per level (8.415% at 99)'],
+      ['5', 'Windstep'], ['10', 'Double Jump'], ['22', 'Hopper (cheaper jumps)'], ['32', 'Air Dash'],
+      ['35', 'Breakfall'], ['40', 'Windstomp'], ['44', 'Phase Dash'], ['54', 'Greater Breakfall'],
+      ['57', 'Recall'], ['70', 'Reactive Recall'],
+      ['Agility Cape', 'Small chance to avoid stamina use when jumping, dashing or evading'],
+      ['XP sources', 'Foot travel, courses, dodging vault traps, dodging enemy attacks'],
+    ],
+    speedrun: [
+      'Every raid skip in the current route needs some of these unlocks. Level the character before attempting runs.',
+      'The 0.12.1 patch notes say Agility was built "to make you faster, leaner and meaner"; jumping cost dropped from 20 to 10 stamina in the same patch.',
+    ],
+    patches: [['0.12.1', 'Agility skill added; Windstep moved from Runecrafting to Agility; jump cost 20 -> 10 stamina.']],
+    related: ['windstep', 'double-jump', 'air-dash', 'phase-dash', 'recall', 'hopper', 'breakfall', 'stamina'],
+    sources: [W + 'Agility', P.v0121],
+  },
+  {
+    id: 'windstep', cat: 'Movement', title: 'Windstep',
+    summary: 'An Agility spell that makes you jump much higher and fall more slowly. It is the main movement tool in every raid route.',
+    facts: [
+      ['Unlock', 'Agility 5 (Agility unlock table). The Windstep infobox shows level 8; disputed'],
+      ['Cost', '5 Air runes (0 while Leggings of Lightness are equipped, since 1.0)'],
+      ['Cooldown', '3 seconds'],
+      ['Jump height', 'Up to 16 metres'],
+      ['Window', '7 seconds to use it after casting'],
+      ['Fall', 'Cuts fall damage sharply but not to zero ("splat-limit")'],
+      ['Agility 40', 'Windstomp: landing staggers nearby enemies'],
+      ['Cast while moving', 'Yes, since 1.0'],
+    ],
+    speedrun: [
+      'The quick guide uses Windstep for intended routing in Fragments of Ghornfell (bridge drops, archer parkour), The Shattered Stronghold (barrels to the air gate) and Cataclysm Keep (platforms).',
+      'The Kuldra strategy page lists an optional Phase 3 gate skip: Windstep on the broken pillar, then jump the wall. You must already have Fire anima.',
+      'In 1.0.1 Jagex "Fixed several Windstep-related skips in the Scorned Wilderness Raid". Some pre-1.0.1 routes may no longer work.',
+      'Runners use "Windjump" (Windstep jump) in raid run notes, for example reaching the second rock near Kuldra without a double jump.',
+      'Windstep height counts for Jump Attack (Death From Above!), according to the 1.0.1 notes.',
+    ],
+    patches: [
+      ['0.12.1', 'Runecrafting requirement raised from 7 to 8, then Windstep became an Agility spell (level 5, 5 Air runes).'],
+      ['1.0', 'Castable while moving. Leggings of Lightness make it cost zero runes.'],
+      ['1.0.1', 'Several Windstep-related skips in the Scorned Wilderness raid fixed.'],
+    ],
+    related: ['double-jump', 'leggings-of-lightness', 'windstomp', 'jump-attack', 'community-tech'],
+    sources: [W + 'Windstep', W + 'Agility', P.v0121, P.v10, P.v101, W + 'Scorned_Wilderness/Quick_guide', W + 'Kuldra/Strategies', RUN('zxr5djkz')],
+  },
+  {
+    id: 'double-jump', cat: 'Movement', title: 'Double Jump',
+    summary: 'Press jump again in mid-air for a second jump. It has no cooldown and costs the same stamina as a normal jump.',
+    facts: [
+      ['Unlock', 'Agility 10'],
+      ['Height', 'Up to 4 metres if timed correctly'],
+      ['Cooldown', 'None'],
+      ['Stamina', 'Same as a regular jump (10, reduced by Hopper)'],
+      ['Chains into', 'Air Dash'],
+      ['Released', '29 July 2026 (0.12.1)'],
+    ],
+    speedrun: [
+      'TexasPete\'s 1.0.0.6+ run notes say his run came "prior to the windstep double jump and some other new routing strats". Windstep combined with Double Jump is a newer route element.',
+      'Nanobit\'s run notes say cleaner Windsteps in the out-of-bounds section can save 2 Double Jumps.',
+    ],
+    related: ['windstep', 'air-dash', 'phase-dash', 'hopper', 'jump-attack'],
+    sources: [W + 'Double_Jump', W + 'Agility', RUN('m74jw34m'), RUN('zpe5n1xy')],
+  },
+  {
+    id: 'air-dash', cat: 'Movement', title: 'Air Dash',
+    summary: 'Pressing evade while airborne does a short horizontal dash. Use it to cross gaps or avoid attacks.',
+    facts: [
+      ['Unlock', 'Agility 32'],
+      ['Distance', '10 metres'],
+      ['Input', 'Evade button while airborne'],
+      ['Stamina', 'Not listed on the wiki'],
+      ['Cooldown', 'Not listed on the wiki'],
+      ['Released', '29 July 2026 (0.12.1)'],
+    ],
+    speedrun: [
+      'Runners chain Air Dash after a zoop to stretch long gaps, for example Stronghold to Keep and the approach to Kuldra. Nanobit notes that a strong enough zoop needs no dashes.',
+    ],
+    related: ['double-jump', 'phase-dash', 'surge', 'community-tech'],
+    sources: [W + 'Air_Dash', W + 'Agility', RUN('zpe5n1xy'), RUN('zxr5djkz')],
+  },
+  {
+    id: 'phase-dash', cat: 'Movement', title: 'Phase Dash',
+    summary: 'An Agility spell that adds extra Air Dashes while you are airborne, up to 3 per cast.',
+    facts: [
+      ['Unlock', 'Agility 44'],
+      ['Cost', '20 Air runes + 10 Astral runes'],
+      ['Cooldown', '45 seconds'],
+      ['Effect', 'Second Air Dash while airborne, up to 3 times per cast'],
+      ['Run + dash', 'Running and phase dashing reach up to 12 metres in a straight line (Double Jump page)'],
+      ['Duration', 'Not stated on the wiki'],
+      ['Released', '29 July 2026 (0.12.1)'],
+    ],
+    speedrun: [
+      'Used to recover a weak zoop. Nanobit has made the Stronghold-to-Keep and Kuldra zoops "with 0 Air/Phase Dash", so a good zoop can make Phase Dash unnecessary.',
+      'The 45 s cooldown means you only get about one cast per segment. Plan where it is spent.',
+    ],
+    related: ['air-dash', 'double-jump', 'surge'],
+    sources: [W + 'Phase_Dash', W + 'Double_Jump', RUN('zpe5n1xy')],
+  },
+  {
+    id: 'recall', cat: 'Movement', title: 'Recall',
+    summary: 'Places a temporary runic marker. Recast to teleport back to it. At Agility 70 it fires automatically when you take a fatal fall.',
+    facts: [
+      ['Unlock', 'Agility 57'],
+      ['Cost', '30 Air runes + 15 Law runes'],
+      ['Cooldown', '75 seconds'],
+      ['Marker lifetime', '"within a limited time" (no number on the wiki)'],
+      ['Range', 'Not stated'],
+      ['Agility 70', 'Reactive Recall: auto-triggers on fatal fall damage and consumes the tether'],
+      ['Released', '29 July 2026 (0.12.1)'],
+    ],
+    speedrun: [
+      'In practice, Reactive Recall makes a missed vertical skip a teleport back instead of a death and a walk from Rasthin\'s Rest.',
+      'The 75 s cooldown and rune cost make it a safety net, not a route tool. No source shows it used in a verified run.',
+    ],
+    related: ['reactive-recall', 'breakfall', 'checkpoints'],
+    sources: [W + 'Recall', W + 'Reactive_Recall', W + 'Agility', P.v0121],
+  },
+  {
+    id: 'reactive-recall', cat: 'Movement', title: 'Reactive Recall',
+    summary: 'An Agility 70 upgrade to Recall. Taking fatal fall damage while tethered teleports you to the Recall marker instead of killing you.',
+    facts: [
+      ['Unlock', 'Agility 70'],
+      ['Trigger', 'Fatal fall damage only'],
+      ['Effect', 'Teleports to the Recall cast location, consuming the tether'],
+      ['Cost / cooldown', 'Not listed separately on the wiki'],
+    ],
+    speedrun: ['Only fall deaths trigger it. Dying to Kuldra\'s attacks or poison still sends you to your gravestone and respawn.'],
+    related: ['recall', 'breakfall'],
+    sources: [W + 'Reactive_Recall', W + 'Agility'],
+  },
+  {
+    id: 'hopper', cat: 'Movement', title: 'Hopper',
+    summary: 'An Agility 22 passive that lowers the stamina cost of jumping.',
+    facts: [['Unlock', 'Agility 22'], ['Effect', 'Reduces jump stamina cost (amount not stated)'], ['Released', '29 July 2026 (0.12.1)']],
+    speedrun: ['Base jump cost is 10 stamina. Cheaper jumps and double jumps mean more sprinting between rests.'],
+    related: ['stamina', 'double-jump'],
+    sources: [W + 'Hopper', W + 'Stamina'],
+  },
+  {
+    id: 'breakfall', cat: 'Movement', title: 'Breakfall',
+    summary: 'An Agility 35 passive that makes you roll out of high falls automatically, taking less landing damage. Fatal falls still kill.',
+    facts: [
+      ['Unlock', 'Agility 35 (Greater Breakfall at 54)'],
+      ['Effect', 'Automatic roll on high falls reduces landing damage'],
+      ['Numbers', 'None published'],
+      ['Released', '29 July 2026 (0.12.1)'],
+    ],
+    speedrun: ['The 0.12.1 notes warn: "Fatal falls will still kill you though." Breakfall does not replace Windstep slow-fall or Reactive Recall on big drops.'],
+    related: ['windstep', 'reactive-recall'],
+    sources: [W + 'Breakfall', W + 'Agility', P.v0121],
+  },
+  {
+    id: 'windstomp', cat: 'Movement', title: 'Windstomp',
+    summary: 'An Agility 40 perk: landing from Windstep sends out an air blast that staggers nearby enemies.',
+    facts: [['Unlock', 'Agility 40'], ['Effect', 'Stagger nearby enemies on Windstep landing'], ['Radius / duration', 'Not stated']],
+    speedrun: ['Can make room on landing among raid mobs, but no source quantifies it.'],
+    related: ['windstep'],
+    sources: [W + 'Windstomp', P.v0121],
+  },
+  {
+    id: 'jump-attack', cat: 'Movement', title: 'Jump Attack (Death From Above!)',
+    summary: 'An Attack perk that lets you make an area-of-effect melee attack while airborne, from roughly 5 metres up or at the peak of a Windstep jump.',
+    facts: [
+      ['Unlock', 'Attack 25 perk "Death From Above!"'],
+      ['Height', 'At least 5 metres, or at the peak of a Windstep jump'],
+      ['Stamina', '15'],
+      ['Knockdown', '3 seconds (not on mini-bosses)'],
+      ['Damage', 'Scales with the equipped weapon; no multiplier published'],
+      ['Released', 'Wiki says 1.0 (15 Sep 2026); the 1.0.1 notes introduce it as new. Disputed'],
+    ],
+    speedrun: [
+      'The 1.0.1 notes say it triggers "any time you are slightly above the max height of the double jump\'s arc" and "Windstep counts here".',
+      'Nanobit credits "plunge-cancel tech" in his 7:01 run. The name suggests cancelling the jump-attack (plunge) animation, but no source explains how it works.',
+    ],
+    patches: [['1.0.1.2', 'Fixed Dragon Scimitar sometimes not allowing a Jump Attack.']],
+    related: ['windstep', 'double-jump', 'community-tech'],
+    sources: [W + 'Death_From_Above!', P.v101, P.v1012, RUN('m74v4p4m')],
+  },
+  {
+    id: 'leggings-of-lightness', cat: 'Items', title: 'Leggings of Lightness',
+    summary: 'Power level 1 legs that add 50 carry weight. Since 1.0 they also make Windstep cost zero runes.',
+    facts: [
+      ['Effect', 'Windstep costs 0 runes while equipped; +50 carry weight'],
+      ['Removed', '"Feather Fall" ability (removed in 1.0)'],
+      ['Recipe', '6 Coarse Animal Fur + 6 Rune Essence at a Crafting Table'],
+      ['Unlock', 'Suspiciously Light Tattered Boots vestige, from a chest atop the Temple Woods windmill'],
+      ['Defence', '+0 melee / ranged / magic'],
+    ],
+    speedrun: [
+      'With these equipped, the run does not need Air runes for Windstep, which is cast many times per run. The trade-off is zero leg armour.',
+      'The wiki intro still says they reduce fall damage. The 1.0 changelog removed Feather Fall, so that line is likely outdated.',
+    ],
+    patches: [['1.0', 'Feather Fall removed; zero-rune Windstep added.']],
+    related: ['windstep'],
+    sources: [W + 'Leggings_of_Lightness', P.v10],
+  },
+
+  // ------------------------------------------------------------------ Spells
+  {
+    id: 'surge', cat: 'Spells', title: 'Surge',
+    summary: 'A Magic spell that gives three long dodges of 8 metres each in the facing direction. The charges last two minutes.',
+    facts: [
+      ['Unlock', 'Magic 11'],
+      ['Cost', '10 Astral runes + 10 Law runes'],
+      ['Cooldown', '45 seconds'],
+      ['Charges', '3 Surge dodges, shown with a 2-minute countdown'],
+      ['Distance', '8 metres per charge; walls can block or shorten it'],
+      ['Stamina', 'None per Surge dodge (Kuldra strategy page)'],
+      ['Magic 25', 'Afterimage: decoy draws aggro for 10 s after the first charge'],
+      ['Cast while moving', 'Yes, since 1.0'],
+    ],
+    speedrun: [
+      'Nanobit used leftover Surge charges to cross to Kuldra. He suggests casting earlier and recasting at the top to save charges for the bridge-to-face and throat sections.',
+      'Charges last 2 minutes, so one cast can cover a whole sanctum approach.',
+    ],
+    patches: [['0.8.1', 'Astral cost raised from 5 to 10.'], ['1.0', 'Castable while moving.']],
+    related: ['air-dash', 'phase-dash', 'kuldra'],
+    sources: [W + 'Surge', W + 'Kuldra/Strategies', P.v10, RUN('zxr5djkz')],
+  },
+  {
+    id: 'tempest-shield', cat: 'Spells', title: 'Tempest Shield',
+    summary: 'A one-minute wind shield that acts as an equipped shield and blocks all damage while raised, even unarmed. When it expires with the shield up, it knocks nearby foes down.',
+    facts: [
+      ['Unlock', 'Attack 11'],
+      ['Cost', '15 Air runes'],
+      ['Cooldown', '45 seconds (60 before 1.0)'],
+      ['Duration', 'One minute; Attack level extends it (amount not stated)'],
+      ['Block', 'Prevents all damage while blocking, including normally unblockable attacks'],
+      ['Expiry', 'Wind burst knocks nearby foes down if raised'],
+    ],
+    speedrun: [
+      'Panic button for Kuldra phase transitions and the Phase 3 landing, where all main attacks fire at once.',
+      'Cast it before a fight. The wiki notes there is rarely time to cast mid-fight.',
+    ],
+    patches: [['1.0', 'Base cooldown 60 s -> 45 s; Tempest Shield Upgrade added to increase duration.']],
+    related: ['parry', 'kuldra'],
+    sources: [W + 'Tempest_Shield', W + 'Kuldra/Strategies', P.v10],
+  },
+  {
+    id: 'enfeeble', cat: 'Spells', title: 'Enfeeble',
+    summary: 'A Magic spell that weakens the target\'s attacks. The wiki page is a stub.',
+    facts: [
+      ['Unlock', 'Magic 61'],
+      ['Cost', '20 Water runes + 20 Astral runes'],
+      ['Cooldown', '75 seconds'],
+      ['Effect size / duration', 'Not listed (stub)'],
+      ['Released', '15 September 2026 (1.0)'],
+    ],
+    speedrun: ['No source quantifies the damage reduction, so its value against Kuldra or Heartworms is unknown.'],
+    related: ['kuldras-heart'],
+    sources: [W + 'Enfeeble'],
+  },
+
+  // ----------------------------------------------------------------- Survival
+  {
+    id: 'stamina', cat: 'Survival', title: 'Stamina',
+    summary: 'A 100-point pool spent on sprinting, jumping, dodging and attacks. It regenerates after 3 seconds of rest, faster at higher hydration.',
+    facts: [
+      ['Max', '100 (80 / 60 / 40 at Tired / Knackered / Exhausted rest)'],
+      ['Regen delay', '3 s after the last stamina action'],
+      ['Regen rate', '0.75/s at 0 hydration up to 6.0/s at 100'],
+      ['Sprint', '4 per second'],
+      ['Jump', '10'],
+      ['Dodge', '20'],
+      ['Shield block', '17 per successful block; holding is free'],
+      ['Parry', 'Restores 50% of max stamina (since 1.0)'],
+      ['Modifiers', 'Fleet Footed -20% sprint (stamina page; perk page says 50%); Evasion -33% dodge'],
+    ],
+    speedrun: [
+      'Low rest caps max stamina, so arrive rested. A runner lost time at Kuldra because he had to rest midway with no tea.',
+      'Keep hydration high. Regen at 100 hydration is 8x the regen at 0.',
+    ],
+    patches: [['0.12.1', 'Jump cost 20 -> 10.'], ['1.0', 'Parrying restores 50% max stamina.']],
+    related: ['rest', 'hydration', 'fleet-foot-infusion', 'evasion', 'hopper', 'parry'],
+    sources: [W + 'Stamina', W + 'Hydration', P.v0121, P.v10, RUN('z146x3jz')],
+  },
+  {
+    id: 'rest', cat: 'Survival', title: 'Rest',
+    summary: 'A sleep meter that caps max stamina when low. You cannot rest during combat or inside a raid, so restore it with tea or arrive rested.',
+    facts: [
+      ['Thresholds', '50 Tired (stamina max 80), 25 Knackered (60), 0 Exhausted (40)'],
+      ['Dwindle', '1 point / 72 s from 100 to 26; 1 / 144 s from 25 to 0'],
+      ['Nap', '+1 per second (0 -> 100 in at most 100 s)'],
+      ['Night sleep', 'Full refill; clears Bleed, Poison, Shocked, Burning, Soulscourge'],
+      ['Fresh Start', '180 s buff after a full night: rest, hydration and sustenance stop dwindling'],
+      ['Death', '-15 rest, not below 25'],
+      ['Raid', '"Resting cannot be performed during combat or a raid"'],
+      ['Day length', '24 minutes, about 5 of them night'],
+    ],
+    speedrun: [
+      'Sleep at Rasthin\'s Rest right before a run so Fresh Start (180 s) covers the opening segments.',
+      'A 7-minute run loses about 6 rest points to dwindling, so starting at 100 avoids Tired (50) easily. Deaths cost 15 each.',
+      '1.0.0.5 made Summon Shelter usable in the Scorned Wilderness hub.',
+    ],
+    patches: [['0.8.0', 'Cosiness perk added.'], ['1.0.0.5', 'Summon Shelter usable in the Scorned Wilderness hub.']],
+    related: ['strong-tea', 'stamina', 'hydration', 'rasthins-rest'],
+    sources: [W + 'Rest', P.v1005],
+  },
+  {
+    id: 'hydration', cat: 'Survival', title: 'Hydration',
+    summary: 'A 100-point water meter. It sets stamina regen speed, and at 0 it drains HP down to 1.',
+    facts: [
+      ['Stamina regen', '100: 6.0/s, 75: 4.5/s, 50: 3.0/s, 25: 1.5/s, 0: 0.75/s'],
+      ['Dwindle', '1 / 11 s above 25, 1 / 22 s at or below 25 (100 -> 0 in 1,375 s)'],
+      ['Drink buff', 'About 60 s with no hydration decay after any drink'],
+      ['At 0', '-1 HP/s (stops at 1 HP)'],
+      ['Death', '-10, or reset to 25 if at or below 35'],
+    ],
+    speedrun: ['Drink before entering. A drink pauses decay for about 60 s, and full hydration gives the fastest stamina regen.'],
+    related: ['stamina', 'strong-tea', 'fleet-foot-infusion'],
+    sources: [W + 'Hydration'],
+  },
+  {
+    id: 'strong-tea', cat: 'Survival', title: 'Strong Tea',
+    summary: 'A drink that restores 20 rest and 10 hydration. It is the only way listed to restore rest inside the raid, where sleeping is not allowed.',
+    facts: [
+      ['Effect', '+20 Rest, +10 Hydration'],
+      ['Recipe', '1 Ground Tea Leaves + 3 Clean Water at a Cooking Range (20 Cooking XP)'],
+      ['Variant', 'Strong Sweet Tea adds Sugar Rush (25% slower rest drain, 300 s)'],
+      ['Stack', '99'],
+      ['Released', '23 June 2026 (0.12.0)'],
+    ],
+    speedrun: ['The Scorned Wilderness quick guide lists it as recommended. KawaiiXO\'s run notes regret not bringing tea when he had to rest midway at Kuldra.'],
+    related: ['rest', 'stamina'],
+    sources: [W + 'Strong_Tea', W + 'Rest', W + 'Scorned_Wilderness/Quick_guide', RUN('z146x3jz')],
+  },
+  {
+    id: 'fleet-foot-infusion', cat: 'Survival', title: 'Fleet-footed Infusion',
+    summary: 'A cheap drink that grants Fleet Footed: sprinting costs 50% less stamina for 300 seconds.',
+    facts: [
+      ['Effect', 'Fleet Footed perk: -50% sprint stamina cost'],
+      ['Duration', '300 s (Cooling variant also grants it)'],
+      ['Hydration', '+40'],
+      ['Recipe', '1 Clean Water + 1 Feathers at a Stone or Cooking Range'],
+      ['Stack', '50'],
+    ],
+    speedrun: [
+      'With base sprint at 4 stamina/s, a 50% cut roughly doubles sprint time. 300 s covers most of a sub-7 raid run.',
+      'Infusions do not stack with each other (Kuldra strategy page). Choose between this and Pumpkin Spice.',
+      'The Stamina page still lists Fleet Footed as -20%. The perk and infusion pages say 50% since 0.11. Trust the patch-history value.',
+    ],
+    patches: [['0.9.1', 'Sprint reduction 20% -> 33%.'], ['0.11', 'Sprint reduction 33% -> 50%.'], ['0.12.0', 'Cooling fleet-footed infusion added.']],
+    related: ['stamina', 'pumpkin-spice-infusion', 'hydration'],
+    sources: [W + 'Fleet-footed_infusion', W + 'Fleet_Footed', W + 'Stamina', W + 'Kuldra/Strategies'],
+  },
+  {
+    id: 'pumpkin-spice-infusion', cat: 'Survival', title: 'Pumpkin Spice Infusion',
+    summary: 'A drink that gives 80 hydration and Soul Food, which heals 8 HP every 5 seconds for 300 seconds. Recommended for the raid.',
+    facts: [
+      ['Effect', '+80 hydration; Soul Food: 8 HP / 5 s for 300 s'],
+      ['Recipe', '1 Clean Water + 1 Roast Pumpkin + 1 Irit at a Cooking Range'],
+      ['Duration caveat', 'Wiki trivia: a dev called a 150 s duration unintended; the duration may change'],
+      ['Raid chests', 'Drops 1-2 from Scorned Wilderness chests (1/8)'],
+    ],
+    speedrun: ['Listed as recommended in the quick guide. It does not stack with other infusions or with other food buffs.'],
+    related: ['fleet-foot-infusion', 'kuldras-heart'],
+    sources: [W + 'Pumpkin_Spice_Infusion', W + 'Scorned_Wilderness/Quick_guide', W + 'Kuldra/Strategies'],
+  },
+  {
+    id: 'soulscourge', cat: 'Survival', title: 'Soulscourge',
+    summary: 'A status effect that triggers when the Toxicity bar fills, mainly from dirty water or burnt food. It deals 50 damage over 5 seconds.',
+    facts: [
+      ['Trigger', '6 dirty waters from empty, or more than 6 burnt food'],
+      ['Damage', '10 per second for 5 s (50 total)'],
+      ['Prevention', 'Boil water at a campfire'],
+      ['Cleared by', 'Night sleep (Rest page); buildup also fades naturally'],
+    ],
+    speedrun: ['Bring clean water only. A Soulscourge tick mid-run is pure lost HP, and you cannot sleep it off inside the raid.'],
+    patches: [['0.12.0', 'No longer applied from Wardstones.'], ['1.0', 'Icon changed.']],
+    related: ['hydration', 'rest'],
+    sources: [W + 'Soulscourge', W + 'Rest'],
+  },
+
+  // ------------------------------------------------------------------ Combat
+  {
+    id: 'parry', cat: 'Combat', title: 'Parry',
+    summary: 'Block at the last moment to cancel the hit and stagger the attacker for roughly 3 seconds. Since 1.0 a parry also restores half your stamina.',
+    facts: [
+      ['Unlock', 'Attack 5'],
+      ['Stagger', 'About 3 s (varies by enemy; bosses such as Velgar are exceptions)'],
+      ['Recovery', '0.550 s minimum before you can attack again'],
+      ['Stamina', 'Restores 50% of max stamina (1.0)'],
+      ['Timing window', 'Not published'],
+    ],
+    speedrun: [
+      'A parry refills stamina without waiting for regen. Useful when a sprint is interrupted by a raid mob.',
+      'Garou Thanes block everything until their stance breaks. Parry and crush damage are the intended answers, but skipping them is faster.',
+    ],
+    patches: [['1.0', 'Parrying restores 50% of max stamina.']],
+    related: ['tempest-shield', 'stamina', 'evasion', 'garou-thane'],
+    sources: [W + 'Parry', P.v10],
+  },
+  {
+    id: 'evasion', cat: 'Combat', title: 'Dodge / Evade',
+    summary: 'Dodging costs 20 stamina. Since 1.0, dodging or blocking cancels attacks, gathering and spell casting. The Evasion perk cuts dodge cost by 33%.',
+    facts: [
+      ['Stamina', '20 per dodge'],
+      ['Evasion perk', '-33% dodge cost for 300 or 600 s (Evasive / Cooling evasive infusion)'],
+      ['Cancels', 'Dodge or block cancels attacks, gathering and spell-casting (1.0)'],
+      ['I-frames / distance', 'Not published'],
+      ['Agility XP', 'Dodging enemy attacks and vault traps grants Agility XP'],
+    ],
+    speedrun: [
+      'Since 1.0, a dodge ends any recovery animation early. Dodge out of a cast or swing once its effect has started.',
+      'The wiki has no Dodge page; the "Dodge" link redirects to the Evasion perk.',
+    ],
+    patches: [['1.0', 'Dodge and block can cancel attacks, gathering and spell-casting.']],
+    related: ['stamina', 'air-dash', 'surge', 'parry'],
+    sources: [W + 'Evasion', W + 'Stamina', W + 'Agility', P.v10],
+  },
+
+  // -------------------------------------------------------------------- Raid
+  {
+    id: 'scorned-wilderness', cat: 'Raid', title: 'Scorned Wilderness',
+    summary: 'The game\'s first raid, released with 1.0 on 15 September 2026. It is a chain of floating islands ending at Kuldra. Each segment is unlocked by attuning to elements at Crystallised Anima and charging pylons.',
+    facts: [
+      ['Released', '15 September 2026 (1.0)'],
+      ['Requirement', 'Complete Icthlarin\'s Little Helper; start Regicide'],
+      ['Entrance', 'North-western Fractured Plains, Ghornfell'],
+      ['Zones', 'Rasthin\'s Rest -> Dragontail Vines -> Fragments of Ghornfell -> The Shattered Stronghold -> Cataclysm Keep -> Kuldra\'s Sanctum'],
+      ['Building', 'Only allowed at Rasthin\'s Rest'],
+      ['Gear tier', 'Discordant Residue from raid mobs crafts power level 8 gear'],
+      ['Enemies', 'Optional per the quick guide'],
+    ],
+    speedrun: [
+      'Category rule (speedrun.com Raid): timer starts on the first frame the loading icon disappears going into the raid and ends when the screen goes black after the "Get out now!" timer, after Kuldra\'s Heart dies.',
+      'Board is split into "1.0.0.6+" and "Pre 1.0.0.6" version ranges.',
+      '1.0.1 made obstacles and enemies respawn on reset or next run-through, so every attempt is a fresh instance.',
+      '1.0.1.2 added "Additional fixes for Kuldra Skips". Which skips were removed is not documented.',
+    ],
+    patches: [
+      ['1.0.0.5', 'AI respawns on the second attempt; dying no longer skips a respawn point; Summon Shelter allowed in hub.'],
+      ['1.0.1', 'Obstacles and enemies respawn on reset; instant ore respawn on teleport fixed; several Windstep skips fixed; clipping through floor when teleporting to Cataclysm Keep fixed.'],
+      ['1.0.1.2', 'Additional fixes for Kuldra Skips.'],
+    ],
+    related: ['rasthins-rest', 'dragontail-vines', 'fragments-of-ghornfell', 'shattered-stronghold', 'cataclysm-keep', 'kuldras-sanctum', 'crystallized-anima', 'speedrun-rules'],
+    sources: [W + 'Scorned_Wilderness', W + 'Scorned_Wilderness/Quick_guide', SRC_API, P.v1005, P.v101, P.v1012],
+  },
+  {
+    id: 'rasthins-rest', cat: 'Raid', title: 'Rasthin\'s Rest',
+    summary: 'The raid hub and the only buildable area. Commander Zilyana starts or resumes runs here, and raid deaths place your gravestone near her.',
+    facts: [
+      ['Function', 'Safe hub for resting, crafting, repairs'],
+      ['Bed', 'Setting spawn here avoids Warband Raids'],
+      ['Zilyana', 'Starts a new run or resumes the current one'],
+      ['Gravestone', 'Raid deaths place it near Zilyana, not at the death spot'],
+      ['Wiki page', 'Redirects to Scorned Wilderness'],
+    ],
+    speedrun: ['Set your bed spawn here and sleep for Fresh Start before starting a run. Deaths cost a walk back from here (see Checkpoints).'],
+    related: ['scorned-wilderness', 'checkpoints', 'rest'],
+    sources: [W + 'Rasthin%27s_Rest', W + 'Scorned_Wilderness'],
+  },
+  {
+    id: 'dragontail-vines', cat: 'Raid', title: 'Dragontail Vines',
+    summary: 'The first raid segment. Charge an air pylon, shelter under Zilyana\'s dome while Kuldra passes, then work through air, earth and water gates to the first teleporter.',
+    facts: [
+      ['Intended route', 'Attune air -> charge Pylon 1 -> shelter in Zilyana dome -> air gate -> earth gate -> water Pylon 2 (kill air skeleton, orb from dispenser, lever, charge)'],
+      ['Enemies', 'Black Dragon, Zombies, Skeletal Archers, Skeletal Warriors (elemental variants)'],
+      ['Resources', 'Runite ore, Luminite ore, Magic trees'],
+      ['Ends at', 'Zilyana Teleporter / extraction point'],
+    ],
+    speedrun: [
+      'Run notes describe zoops from the Air Anima pillar toward the first wooden bridge, and from vines onto the wall where the vine breaks through.',
+      'This page redirects to the Scorned Wilderness article; there is no separate zone page.',
+    ],
+    related: ['scorned-wilderness', 'crystallized-anima', 'anima-pylon', 'black-dragon', 'community-tech'],
+    sources: [W + 'Scorned_Wilderness/Quick_guide', W + 'Dragontail_Vines', RUN('zxr5djkz')],
+  },
+  {
+    id: 'fragments-of-ghornfell', cat: 'Raid', title: 'Fragments of Ghornfell',
+    summary: 'The second segment: a Garou courtyard and a fragmented toxic castle. The intended route is mostly Windstep parkour, past an Abyssal Demon.',
+    facts: [
+      ['Start', 'Zilyana Teleporter'],
+      ['Intended route', 'Garou courtyard -> west castle gate -> south doorway -> ledges -> toxic castle Windstep drops -> archer parkour -> past Abyssal Demon uphill'],
+      ['Enemies', 'Garou Hunters/Berserkers/Thanes, Goblin Bruisers/Archers, Skeletal Necromancer, Putrid Rat, Plague King, Abyssal Demon, Black Dragon (guarding urn)'],
+      ['Sanguine Urns', '2 (optional)'],
+    ],
+    speedrun: ['Nanobit credits SectorTSWG (via Sir_Rebral) with "the new skip to Fragments". The skip itself is not written up anywhere we could read.'],
+    related: ['scorned-wilderness', 'abyssal-demon', 'garou-thane', 'sanguine-urn'],
+    sources: [W + 'Scorned_Wilderness/Quick_guide', W + 'Scorned_Wilderness', W + 'Fragments_of_Ghornfell', RUN('m74v4p4m')],
+  },
+  {
+    id: 'shattered-stronghold', cat: 'Raid', title: 'The Shattered Stronghold',
+    summary: 'The third segment. Collect water, air, earth and fire attunements, partly from a Garou Thane or the Rat King, to charge two pylons, then cross a bridge past a Black Dragon.',
+    facts: [
+      ['Start', 'Zilyana Teleporter'],
+      ['Air attunement', 'Kill the air-attuned Garou Thane, or mine the foyer wall to the Rat King\'s Crystallised Anima'],
+      ['Earth attunement', 'Mine damaged wall behind fallen tower (Rat King + earth anima)'],
+      ['Fire', 'Fire Crystallised Anima past the earth gate; deliver to SW pylon'],
+      ['Exit', 'Bridge past the Black Dragon'],
+      ['Enemies', 'Garou Berserkers, Giant Rats (elemental), Garou Thane, Rat King, Black Dragon'],
+    ],
+    speedrun: [
+      'The quick guide says to run along the stair parapet to avoid the fire.',
+      'Nanobit notes the zoop from Stronghold to Keep can be done without any dashes when it is strong enough.',
+    ],
+    related: ['scorned-wilderness', 'garou-thane', 'black-dragon', 'community-tech'],
+    sources: [W + 'Scorned_Wilderness/Quick_guide', W + 'Scorned_Wilderness', RUN('zxr5djkz')],
+  },
+  {
+    id: 'cataclysm-keep', cat: 'Raid', title: 'Cataclysm Keep',
+    summary: 'The fourth segment: a Dragonkin vault-style keep with valve platforms, four pylons and a pressure-pad puzzle (Air, Water, Earth, Fire) that opens the way to the final teleporter.',
+    facts: [
+      ['Puzzle order', 'Air, Water, Earth, Fire pressure pads (step on all to reset)'],
+      ['Valves', 'Water pylon valve must route power to the pads; second valve stops the platforms'],
+      ['Enemies', 'Vault Guardian Hulks and Sentinel (dormant), Black Dragon, Wild Jade Vines, Garou Hunter'],
+      ['Sanguine Urns', '1 (Windstep NW from highest eastern platform)'],
+    ],
+    speedrun: [
+      'TexasPete ran a sub-9 while "completing the Cataclysm Keep puzzle" before learning the skip. Current runs skip the puzzle.',
+      'Nanobit credits notmusty1 (via IINo1goodII) with "a lovely hole in Keep". Runners also describe an OOB (out-of-bounds) section.',
+      '1.0.1 fixed clipping through the floor when teleporting to Cataclysm Keep from Zilyana.',
+    ],
+    patches: [['1.0.1', 'Floor clip on teleport to Cataclysm Keep fixed; final-puzzle light glitch fixed.']],
+    related: ['scorned-wilderness', 'kuldras-sanctum', 'community-tech'],
+    sources: [W + 'Scorned_Wilderness/Quick_guide', W + 'Scorned_Wilderness', P.v101, RUN('zg0641nm'), RUN('m74v4p4m'), RUN('zpe5n1xy')],
+  },
+  {
+    id: 'kuldras-sanctum', cat: 'Raid', title: 'Kuldra\'s Sanctum',
+    summary: 'The final area. It has runite and luminite next to the Dragon Gate, which opens onto Kuldra\'s boss arena.',
+    facts: [['Resources', 'Runite ore, Luminite rocks near the Dragon Gate'], ['Leads to', 'Kuldra boss arena']],
+    speedrun: ['Run notes mention a zoop to Kuldra and a "Rib Clip" that can clip you through quickly with a lucky Windjump. Nanobit also asks whether clipping back through the ground at Kuldra beats respawning.'],
+    related: ['kuldra', 'kuldras-heart', 'community-tech'],
+    sources: [W + 'Scorned_Wilderness', RUN('zxr5djkz'), RUN('zpe5n1xy')],
+  },
+  {
+    id: 'crystallized-anima', cat: 'Raid', title: 'Crystallised Anima',
+    summary: 'Raid scenery you touch to attune to an element for 30 seconds. Attunement opens elemental gates, charges pylons and buys orbs.',
+    facts: [
+      ['Attunement', '30 seconds'],
+      ['Uses', 'Pass an elemental gate; charge an Anima Pylon; request an orb from an Anima Orb Dispenser'],
+      ['Alternate sources', 'Killing elemental-attuned mobs or Kuldra\'s hatchlings grants their element'],
+      ['Spelling', 'Wiki title uses "Crystallised"; "Crystallized" redirects'],
+    ],
+    speedrun: [
+      'The 30 s window is the clock for every gate sequence. Routes are timed so you attune, then gate, without wasting time.',
+      'This repo\'s split file uses Crystallized Anima pickups as fallback split markers when no LiveSplit panel is on screen.',
+    ],
+    related: ['anima-pylon', 'anima-orb-dispenser', 'scorned-wilderness'],
+    sources: [W + 'Crystallized_Anima', W + 'Scorned_Wilderness/Quick_guide', W + 'Kuldra/Strategies'],
+  },
+  {
+    id: 'anima-pylon', cat: 'Raid', title: 'Anima Pylon',
+    summary: 'Raid scenery that needs an anima charge of the matching element to activate. Some pylons first need an orb inserted.',
+    facts: [['Activation', 'Requires sufficient anima charge of the matching type'], ['Numbers', 'None published (stub)']],
+    speedrun: ['Pylons open paths and power Kuldra\'s cannon. The Phase 3 fire pylon already holds an orb.'],
+    related: ['crystallized-anima', 'anima-orb-dispenser', 'kuldra'],
+    sources: [W + 'Anima_Pylon', W + 'Kuldra/Strategies'],
+  },
+  {
+    id: 'anima-orb-dispenser', cat: 'Raid', title: 'Anima Orb Dispenser',
+    summary: 'Charge it with any elemental attunement to get an Anima Orb. Orbs repair pylons and load Kuldra\'s Anima Cannon.',
+    facts: [
+      ['Input', 'Any elemental attunement'],
+      ['Output', 'Anima Orb'],
+      ['Orb uses', 'Repair pylons; ammo for the Anima Cannon against Kuldra'],
+      ['Carry', 'You can hold an Anima Charge and an Orb at once (Kuldra strategy page)'],
+    ],
+    speedrun: ['Carrying a charge and an orb together means one trip can cover a dispenser and a pylon.'],
+    related: ['crystallized-anima', 'anima-pylon', 'kuldra'],
+    sources: [W + 'Anima_Orb_Dispenser', W + 'Scorned_Wilderness/Quick_guide', W + 'Kuldra/Strategies'],
+  },
+  {
+    id: 'checkpoints', cat: 'Raid', title: 'Checkpoints, Zilyana Teleporters and extraction points',
+    summary: 'Each segment ends at a Zilyana Teleporter. Reaching one shows "Extraction Point Reached" and keeps your progress if you go back to Rasthin\'s Rest. Finishing a run resets all progress.',
+    facts: [
+      ['Activation', 'Come within range; banner "Extraction Point Reached"'],
+      ['Progress', 'Kept between trips to Rasthin\'s Rest within a run'],
+      ['After Kuldra', 'Progress resets; Zilyana can only send you to Dragontail Vines'],
+      ['Count', 'One after each of the four segments (quick guide)'],
+      ['Death', 'Respawn at bed; gravestone near Zilyana'],
+    ],
+    speedrun: [
+      'The community split file splits on the extraction-point banner for segments 1-4.',
+      'Before 1.0.0.5, dying could skip a respawn point. That was fixed.',
+      'The wiki has no "Extraction point" page; the facts come from the Zilyana Teleporter page.',
+    ],
+    patches: [['1.0.0.5', 'Dying no longer skips a respawn point.'], ['1.0.1', 'Floor clip when teleporting to Cataclysm Keep fixed.']],
+    related: ['rasthins-rest', 'scorned-wilderness', 'recall'],
+    sources: [W + 'Zilyana_Teleporter', W + 'Scorned_Wilderness/Quick_guide', W + 'Scorned_Wilderness', W + 'Death', P.v1005, P.v101],
+  },
+  {
+    id: 'sanguine-urn', cat: 'Raid', title: 'Sanguine Urn',
+    summary: 'Scenery that permanently adds 10 max health. There are 21 in the world, 3 of them inside the raid.',
+    facts: [
+      ['Effect', '+10 health, permanent and cross-world'],
+      ['Total', '21 urns, up to 310 health'],
+      ['In raid', 'Fragments of Ghornfell (2), Cataclysm Keep (1)'],
+    ],
+    speedrun: ['Optional. Collect them on a practice run so the extra HP carries into real attempts. Never take them during a timed run.'],
+    related: ['fragments-of-ghornfell', 'cataclysm-keep'],
+    sources: [W + 'Sanguine_Urn'],
+  },
+
+  // ----------------------------------------------------------- Raid enemies
+  {
+    id: 'kuldra', cat: 'Raid', title: 'Kuldra, the God-Eater',
+    summary: 'A five-headed, power level 9 dragon queen. You cannot damage her directly: over three phases you hit her with the Anima Cannon six times each, then go inside her to kill her heart.',
+    facts: [
+      ['Power level', '9'],
+      ['Health', '240,000 (infobox). Trivia mentions 9,999 cannon hits; disputed'],
+      ['Phases 1-3', '6 Anima Cannon hits each (two orb deposits = 6 blasts in phase 1)'],
+      ['Phase 4', 'Enter the main head\'s mouth; kill Kuldra\'s Heart'],
+      ['Heads', 'Green poison, red fireballs (5; 7 in P2), white ice shard, blue lightning'],
+      ['Hatchlings', 'One per phase 1-3; killing one grants its element'],
+      ['Transition', 'Stay in Zilyana\'s barrier or take rapid damage'],
+      ['Needs', 'Anti-dragon shield or Super Antifire; antipoison'],
+    ],
+    speedrun: [
+      'Phase 3 gate skip: with Fire anima, Windstep on the broken pillar and jump the wall to skip the water-pylon gate.',
+      'On the Phase 3 landing all main attacks fire at once. Dodge first, then set up the cannon.',
+      '1.0.1.2: "Additional fixes for Kuldra Skips". Some boss skips seen in pre-patch runs may be gone.',
+      'A separate console hotfix (reported by mp1st as 1.001.003, 23 Oct 2026) fixed players falling through the platform Zilyana teleports them to.',
+    ],
+    patches: [
+      ['1.0', 'Added as the end-game boss.'],
+      ['1.0.1', 'Ascension Core drop fix; Regicide achievement fix; camera lock-on inside Kuldra fixed.'],
+      ['1.0.1.2', 'Additional fixes for Kuldra Skips.'],
+    ],
+    related: ['kuldras-heart', 'heartworm', 'anima-orb-dispenser', 'surge', 'tempest-shield'],
+    sources: [W + 'Kuldra', W + 'Kuldra/Strategies', P.v10, P.v101, P.v1012, 'https://mp1st.com/?p=317376'],
+  },
+  {
+    id: 'kuldras-heart', cat: 'Raid', title: 'Kuldra\'s Heart',
+    summary: 'The Phase 4 target inside Kuldra. It stays in the middle of the chamber, sets off poison explosions that hit harder as its HP drops, and is guarded by respawning Heartworms.',
+    facts: [
+      ['Power level', '9'],
+      ['Health', 'Unknown on the wiki'],
+      ['Hazards', 'Poison AoE explosions scaling with lost HP; Heartworms'],
+      ['Safe spot', 'Entrance tunnel (ranged/magic): avoids most explosions, few worm spawns'],
+      ['After kill', 'Run to the exit ("Get out now!" timer); timer length not documented'],
+    ],
+    speedrun: [
+      'The run timer stops when the screen goes black after the "Get out now!" timer, so the escape is part of the run.',
+      'Nanobit says the melee safespot inside the heart "could probably be entered faster".',
+      'Antipoison is required. The strategy page suggests a 300 s Antipoison.',
+    ],
+    related: ['kuldra', 'heartworm', 'speedrun-rules'],
+    sources: [W + 'Kuldra%27s_Heart', W + 'Kuldra/Strategies', SRC_API, RUN('zxr5djkz')],
+  },
+  {
+    id: 'heartworm', cat: 'Raid', title: 'Heartworm',
+    summary: 'A power level 9 parasite with 753 HP that keeps respawning inside Kuldra during Phase 4. It rarely enters the entrance tunnel.',
+    facts: [['Health', '753'], ['Power level', '9'], ['Respawn', 'After a short duration (not quantified)'], ['Tunnel', 'Rarely paths into or spawns in the entrance tunnel']],
+    speedrun: ['Do not clear them. They respawn. Damage the Heart from a safespot instead.'],
+    related: ['kuldras-heart'],
+    sources: [W + 'Heartworm'],
+  },
+  {
+    id: 'black-dragon', cat: 'Raid', title: 'Black Dragon',
+    summary: 'A power level 8 dragon with 6,000 HP that is immune to fire. Three spawn in the raid, and the route runs past them.',
+    facts: [
+      ['Health', '6,000'], ['Power level', '8'], ['Weakness', 'Water'], ['Immune', 'Fire'],
+      ['Spawns', 'Dragontail Vines, Fragments of Ghornfell, The Shattered Stronghold'],
+      ['Attacks', 'Lunge, tail sweep (behind), fire claw, poison blast, fire breath, wing attack, fly + line breath that can lock you in'],
+      ['Respawn', '12 minutes / each raid reset'],
+    ],
+    speedrun: [
+      'Skipped in every route. The quick guide says "run past or fight".',
+      'The airborne line-breath staggers you and can lock you in for all of its damage. Do not cross its line.',
+      'Nanobit: after the zoop from Keep, a strong enough zoop near the 3rd Black Dragon carries you well past the plant.',
+    ],
+    related: ['dragontail-vines', 'shattered-stronghold', 'community-tech'],
+    sources: [W + 'Black_dragon', W + 'Scorned_Wilderness/Quick_guide', RUN('m74v4p4m')],
+  },
+  {
+    id: 'garou-thane', cat: 'Raid', title: 'Garou Thane',
+    summary: 'A Garou with a tower shield that blocks every attack until its stance breaks. In the Stronghold, one air-attuned Thane is one source of air attunement.',
+    facts: [
+      ['Health', '585 base; variants 810 / 1,485 / 1,710'],
+      ['Power levels', '3, 4, 7, 8 listed'],
+      ['Weakness / resist', 'Crush / Stab'],
+      ['Stance', 'Blocks all attacks until broken; then staggered 3 s and immune to further stagger'],
+    ],
+    speedrun: ['The quick guide offers two air routes in the Stronghold: lure and kill the air-attuned Thane, or mine the foyer wall to the Rat King\'s anima. Which is faster depends on the route.'],
+    patches: [['1.0', 'Drops two Garou Packs instead of one.']],
+    related: ['shattered-stronghold', 'parry'],
+    sources: [W + 'Garou_Thane', W + 'Scorned_Wilderness/Quick_guide'],
+  },
+  {
+    id: 'abyssal-demon', cat: 'Raid', title: 'Abyssal Demon',
+    summary: 'A teleporting demon mini-boss in Fragments of Ghornfell that the route runs past. Since 0.10 it teleports to you if you get too far away or out of reach.',
+    facts: [
+      ['Power levels', '4 / 7 / 9 (HP 1,500 at PL4; 6,250 also listed)'],
+      ['Weakness / resist', 'Slash / Air'],
+      ['Behaviour', 'Teleports, then attacks in quick succession'],
+      ['Leash', 'Teleports to the player if too far away or in an inaccessible area (0.10)'],
+    ],
+    speedrun: [
+      'The quick guide says "run past or fight". Its teleport-to-player leash means it can follow you briefly. Keep moving uphill.',
+      'Route notes in this repo reference a Surge/Phase Dash past the demon (s-demon).',
+    ],
+    patches: [['0.10', 'Teleports to player when too far or in inaccessible area.'], ['1.0', 'Abyssal Spine drop 100% -> 45%.']],
+    related: ['fragments-of-ghornfell', 'surge'],
+    sources: [W + 'Abyssal_Demon', W + 'Scorned_Wilderness/Quick_guide'],
+  },
+
+  // ------------------------------------------------------- Engine / tech
+  {
+    id: 'speedrun-rules', cat: 'Engine', title: 'Raid category rules (speedrun.com)',
+    summary: 'The Raid category (Scorned Wilderness) is timed in real time with milliseconds shown. Video is required and every run is verified by moderators.',
+    facts: [
+      ['Start', 'First frame the loading icon disappears going into the raid'],
+      ['End', 'Frame the screen goes black after the "Get out now!" timer, after Kuldra\'s Heart'],
+      ['Timing', 'Real time, milliseconds shown'],
+      ['Brackets', '1.0.0.6+ and Pre 1.0.0.6'],
+      ['Game id', 'speedrun.com 2689lo91, category xd19vy4k'],
+    ],
+    speedrun: [
+      'The Pre 1.0.0.6 bracket holds 3:27 and 3:57 runs from 25 Sep 2026 ("So glad I got this before the patch").',
+      '1.0.0.6+ runs start around 6:50. The bracket name does not match the patch contents: the 1.0.0.6 notes list no raid changes.',
+    ],
+    related: ['scorned-wilderness', 'kuldras-heart', 'community-tech'],
+    sources: [SRC_API, 'https://www.speedrun.com/api/v1/games/2689lo91/variables', RUN('mkn1pv5m'), W + 'Update:1.0.0.6_is_now_Live!'],
+  },
+  {
+    id: 'community-tech', cat: 'Engine', title: 'Community movement tech (zoops, clips, cancels)',
+    summary: 'Movement tech named in verified raid run notes. None of it is explained in a public written guide we could read, so treat every description here as the runners\' own words.',
+    facts: [
+      ['Zoop', 'Long launch used between islands (vines -> bridge, Stronghold -> Keep, Keep -> Kuldra). How it is triggered is not documented'],
+      ['Windjump', 'Windstep jump used to reach ledges/rocks'],
+      ['Plunge-cancel', 'Credited to Dotxygaming; mechanics not documented'],
+      ['Rib Clip', 'Clip through Kuldra\'s ribs; with a lucky Windjump no crouch/sword swing needed'],
+      ['OOB section', 'Out-of-bounds Windstep section; "hole in Keep" credited to notmusty1'],
+      ['Framerate', 'Runner suspects lower framerate gives stronger zoops; untested'],
+    ],
+    speedrun: [
+      'Patch 1.0.1 fixed "several Windstep-related skips" and 1.0.1.2 added "Additional fixes for Kuldra Skips". Re-test every tech on 1.0.1.2.',
+      'The Agility Course category bans clipping only in Glitchless, which shows the community already treats clipping as a known technique.',
+    ],
+    related: ['windstep', 'air-dash', 'jump-attack', 'cataclysm-keep', 'kuldras-sanctum', 'speedrun-rules'],
+    sources: [RUN('zxr5djkz'), RUN('zpe5n1xy'), RUN('m74v4p4m'), SRC_API, P.v101, P.v1012],
+  },
+  {
+    id: 'unreal-engine', cat: 'Engine', title: 'Unreal Engine 5',
+    summary: 'The game runs on Unreal Engine 5; the wiki says 5.6. Patch notes show collision and floor-clip problems that the engine and level geometry allow and that Jagex patches one at a time.',
+    facts: [
+      ['Engine', 'Unreal Engine 5'],
+      ['Version', '5.6 per the wiki infobox only'],
+      ['Steam app', '1374490'],
+      ['Tick / physics rate', 'Not published by any source found'],
+    ],
+    speedrun: [
+      'Collision fixes in patch notes: floor clip on teleport to Cataclysm Keep (1.0.1); falling indefinitely between rocks in Emberwood (1.0.1); falling through Zilyana\'s teleport platform at Kuldra (console hotfix, 23 Oct 2026).',
+      'Since 1.0 you can cast Windstep, Surge and Enchant Weapon while moving, and dodge or block cancels attacks, gathering and casts. These are designed animation-cancel windows.',
+    ],
+    related: ['community-tech', 'evasion', 'checkpoints'],
+    sources: ['https://www.jagex.com/news/jagex-announces-new-open-world-survival-game-runescape-dragonwilds', W + 'RuneScape:_Dragonwilds', 'https://store.steampowered.com/app/1374490/', P.v10, P.v101, 'https://mp1st.com/?p=317376'],
+  },
+];
