@@ -1,0 +1,18 @@
+{
+  "name": "dragonwilds-speedrun",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Scorned Wilderness raid speedrun lab for RuneScape: Dragonwilds — synced WR comparisons, seamless clip reels, split timer, practice tracker, and the Hardcore 1→Max route.",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "playwright test",
+    "test:youtube": "node scripts/yt-test.mjs",
+    "test:ui": "playwright test --ui",
+    "shots": "playwright test tests/screens.spec.js",
+    "check": "node scripts/check-data.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1"
+  }
+}
