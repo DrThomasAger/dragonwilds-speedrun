@@ -33,11 +33,13 @@ export function mount(root, { params }) {
   const cb = communityBest(models);
   root.append(h('div', { class: 'pagehead' }, h('div', {}, h('h1', {}, 'Raid route — patch 1.0.1.2'),
     h('p', {}, 'The five community splits, each with the skips that make it up, how to do them, whether they still work, and the clip that shows it. Segment times are from the record runs.'))));
-  const layout = h('div', { class: 'split-main' });
+  const layout = h('div', { class: 'split-main route-l' });
   const left = h('div'), right = h('div', { class: 'grid' });
   layout.append(left, right); root.append(layout);
   const P = reelPlayer(right, { sticky: true });
-  right.append(requirementsCard(), h('div', { class: 'card' }, h('h2', {}, 'Bring'), h('ul', { style: { margin: 0, paddingLeft: '18px', fontSize: '13.5px' } }, GEAR.map(([g, why]) => h('li', {}, h('b', {}, g), ' — ', h('span', { class: 'muted' }, why))))));
+  const bring = () => h('div', { class: 'card' }, h('h2', {}, 'Bring'), h('ul', { style: { margin: 0, paddingLeft: '18px', fontSize: '13.5px' } }, GEAR.map(([g, why]) => h('li', {}, h('b', {}, g), ' — ', h('span', { class: 'muted' }, why)))));
+  // Wide screens: beside the player. Narrow: after the splits, so the player stays on top.
+  right.append(h('div', { class: 'grid wide-only' }, requirementsCard(), bring()));
 
   ROUTE.forEach((sp, k) => {
     const open = params.split != null ? +params.split === k : k === 0;
@@ -65,6 +67,7 @@ export function mount(root, { params }) {
     left.append(card);
   });
 
+  left.append(h('div', { class: 'grid narrow-only' }, requirementsCard(), bring()));
   const onKey = e => {
     if (isTyping(e) || e.ctrlKey || e.metaKey || e.altKey || document.querySelector('dialog[open]')) return;
     P.clips.length && P.key(e);

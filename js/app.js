@@ -4,6 +4,7 @@ import { h, $, $$, isTyping, fmtRun, fill } from './lib/util.js';
 import { RECORD } from './data/raid.js';
 import * as patches from './lib/patches.js';
 import { initPWA } from './lib/pwa.js';
+import { initPalette } from './lib/palette.js';
 
 const views = {
   hq: () => import('./views/hq.js'),
@@ -19,7 +20,7 @@ const views = {
   hardcore: () => import('./views/hardcore.js'),
 };
 
-const GLOBAL_KEYS = [['?', 'This help'], ['g h', 'HQ'], ['g n', 'Run navigator'], ['g c', 'Race the WR'], ['g r', 'Route'], ['g s', 'Reel Studio'], ['g p', 'Practice'], ['g t', 'Timer'], ['g w', 'Wiki'], ['g u', 'Patch notes'], ['g l', 'Library']];
+const GLOBAL_KEYS = [['?', 'This help'], ['Ctrl K', 'Search everything'], ['g h', 'HQ'], ['g n', 'Run navigator'], ['g c', 'Race the WR'], ['g r', 'Route'], ['g s', 'Reel Studio'], ['g p', 'Practice'], ['g t', 'Timer'], ['g w', 'Wiki'], ['g u', 'Patch notes'], ['g l', 'Library']];
 
 store.load();
 let cleanup = null, seq = 0;
@@ -77,6 +78,7 @@ $('#helpBtn').addEventListener('click', () => $('#help').showModal());
 
 fill($('#topTarget'), '#1 to beat ', h('b', {}, fmtRun(RECORD.time)), ` · ${RECORD.runner}`);
 initPWA($('#installSlot'));
+initPalette($('#palBtn'));
 patches.subscribe((d, fresh) => {
   const b = $('#patchBadge');
   b.textContent = fresh.length; b.classList.toggle('hidden', !fresh.length);

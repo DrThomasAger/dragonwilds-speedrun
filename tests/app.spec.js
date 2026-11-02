@@ -241,3 +241,12 @@ test('phone: bottom tab bar + More sheet reach every section', async ({ page }) 
   await expect(page).toHaveURL(/#\/wiki/);
   await expect(page.locator('#more')).not.toHaveAttribute('open', '');
 });
+
+test('command palette jumps to a skip drill', async ({ page }) => {
+  await page.goto(`${M}#/hq`);
+  await page.keyboard.press('Control+k');
+  await page.keyboard.type('garou thane');
+  await page.keyboard.press('Enter');
+  await expect(page).toHaveURL(/practice\?skip=s-thane/);
+  await expect(page.locator('.drill.cur')).toContainText('Garou Thane');
+});

@@ -6,6 +6,7 @@ import { scrubber, rateSelect, nudgeRow } from '../lib/ui.js';
 import { SPLITS, RUNS, COLORS, communityBest } from '../data/raid.js';
 import { BY_ID } from '../data/videos.js';
 import * as store from '../lib/store.js';
+import { keepAwake } from '../lib/pwa.js';
 
 export const title = 'Race the WR';
 export const keys = [['Space', 'Play / pause'], ['← →', '∓ 1 s (Shift: 5 s)'], [', .', '∓ 0.1 s (paused)'], ['[ ]', 'Previous / next split'], ['1–5', 'Jump to split'], ['M', 'Race ↔ split-aligned'], ['S', 'Mark split (marking mode)']];
@@ -138,7 +139,7 @@ export function mount(root, { params }) {
     adjustRefresh.forEach(f => f());
     void refT;
   }
-  function toggle() { group.toggle(); }
+  function toggle() { group.toggle(); keepAwake(group.playing); }
   function step(d) { group.seek(group.X + d); }
   function jumpSplit(dir) {
     const bounds = mode === 'split' ? [0, ...group.commonSplits()] : [0, ...cells[0].m.splits];
@@ -281,7 +282,7 @@ export function mount(root, { params }) {
   build(params.seg != null ? null : -2);
   if (params.seg != null) setTimeout(() => group.seekSegment(+params.seg), 50);
   if (params.t != null) setTimeout(() => group.seek(+params.t), 50);
-  return () => { document.removeEventListener('keydown', onKey); group && group.destroy(); cells.forEach(c => c.deck.destroy()); };
+  return () => { keepAwake(false); document.removeEventListener('keydown', onKey); group && group.destroy(); cells.forEach(c => c.deck.destroy()); };
 }
 
 export { ytUrl, communityBest };

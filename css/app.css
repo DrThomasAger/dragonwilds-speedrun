@@ -413,3 +413,15 @@ dialog.sheet { margin: auto auto 0; width: 100%; max-width: 560px; border-radius
 .req input { width: 18px; height: 18px; accent-color: var(--good); }
 .req small { display: block; color: var(--muted); font-size: 12px; }
 .req.ok { border-color: #22573f; background: #12201a; }
+dialog.palette { margin: 10vh auto auto; width: min(640px, calc(100vw - 24px)); padding: 10px; }
+dialog.palette input { width: 100%; font-size: 16px; padding: 12px; }
+.pal-list { display: grid; gap: 2px; margin-top: 8px; max-height: 60vh; overflow: auto; }
+.pal-list a { display: flex; justify-content: space-between; gap: 10px; padding: 9px 10px; border-radius: 8px; color: var(--ink); font-size: 14px; }
+.pal-list a small { color: var(--muted); white-space: nowrap; }
+.pal-list a.on, .pal-list a:hover { background: var(--card2); text-decoration: none; box-shadow: inset 3px 0 0 var(--accent); }
+.narrow-only { display: none !important; }
+@media (max-width: 1099px) {
+  .split-main.route-l > div:last-child { order: -1; }
+  .wide-only { display: none !important; }
+  .narrow-only { display: grid !important; margin-top: 14px; }
+}
