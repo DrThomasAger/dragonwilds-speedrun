@@ -1,0 +1,18 @@
+import { chromium } from '@playwright/test';
+const B = 'https://drthomasager.github.io/dragonwilds-speedrun/';
+const b = await chromium.launch({ channel: 'msedge', args: ['--autoplay-policy=no-user-gesture-required', '--mute-audio'] });
+const p = await b.newPage({ viewport: { width: 412, height: 915 }, isMobile: false });
+const errs = []; p.on('pageerror', e => errs.push(String(e)));
+await p.goto(B + '?t=' + Date.now() + '#/hq'); await p.waitForTimeout(3000);
+console.log('title', await p.title());
+console.log('sw', await p.evaluate(async () => { const r = await navigator.serviceWorker.ready; return !!r.active; }));
+console.log('manifest', await p.evaluate(() => document.querySelector('link[rel=manifest]').href));
+await p.goto(B + '#/compare?runs=tp650,nano701'); 
+await p.waitForFunction(() => window.__cmp && window.__cmp.cells.every(c => c.deck.isReady), null, { timeout: 30000 });
+await p.waitForTimeout(1500);
+await p.evaluate(() => { window.__sync.seek(150); window.__sync.play(); });
+await p.waitForTimeout(8000);
+console.log('race', JSON.stringify(await p.evaluate(() => { const g = window.__sync; return { X: +g.X.toFixed(2), shown: g.entries.map(e => +g.shownT(e).toFixed(2)), states: g.entries.map(e => e.deck.state) }; })));
+await p.screenshot({ path: 'docs/screens/phone/live-race-youtube.png' });
+console.log('errors', errs);
+await b.close();

@@ -68,7 +68,7 @@ html,body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-syst
 .prep .chk{background:var(--dangerbg);border:1px solid #7a2a22;border-radius:8px;padding:8px 10px;font-size:13px;margin-top:6px}
 .prep .chk b{display:block;color:#ffb3a8;font-size:12px;margin-bottom:4px}
 .prepplayer{position:sticky;top:0;z-index:5;background:#000;border-bottom:1px solid var(--line)}
-.prepplayer .frame{position:relative;padding-top:56.25%}.prepplayer .frame>div,.prepplayer .frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.prepplayer .frame{position:relative;padding-top:min(56.25%,42vh);max-width:calc(42vh*16/9);margin:0 auto}.prepplayer .frame>div,.prepplayer .frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .prepplayer .np{padding:6px 12px;font-size:12px;color:var(--muted);background:#141311}
 /* PREFLIGHT */
 .pre{padding:16px;display:flex;flex-direction:column;min-height:100%}
@@ -104,6 +104,7 @@ html,body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-syst
 .btnrow{display:flex;gap:8px;margin-top:10px}.btnrow button{flex:1;background:var(--chip);border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:12px;font:inherit;font-weight:700}
 .btnrow button.p{background:var(--accent);color:#000;border-color:var(--accent)}
 .note{font-size:12px;color:var(--muted);margin-top:10px}
+#bottom:has(.done.compact){height:auto!important;min-height:0!important;flex:none!important}.done.compact{height:auto!important;min-height:76px!important;padding:14px!important}
 </style>
 <script async src="https://www.youtube.com/iframe_api"></script>
 </head><body>
@@ -233,7 +234,9 @@ function renderPrep(body,bottom){const pp=document.createElement('div');pp.class
     cl.appendChild(a);});sg.appendChild(cl);}
    ph.appendChild(sg);});list.appendChild(ph);});
  body.appendChild(list);
- const b=document.createElement('button');b.className='done';b.innerHTML='<span>Start run → Step '+(S.cur+1)+'</span><small>'+STEPS[S.cur].hero+'</small>';b.onclick=()=>{ac();wake();setMode('run');};bottom.appendChild(b);}
+ // Cue the next clip on the route (paused) so the player is never an empty black box.
+ {const nx=STEPS.slice(S.cur).find(x=>x.s.clips.length)||STEPS.find(x=>x.s.clips.length);if(nx){const c=nx.s.clips[0];const tryMount=()=>{if(!YTREADY)return setTimeout(tryMount,300);mountPlayer(document.getElementById('prepframe'),c,{rate:1,autoplay:false});document.getElementById('prepnp').textContent='Up next: '+nx.s.t+' · '+c.label+' — tap any clip below to switch.';};tryMount();}}
+ const b=document.createElement('button');b.className='done compact';b.innerHTML='<span>Start run → Step '+(S.cur+1)+'</span><small>'+STEPS[S.cur].hero+'</small>';b.onclick=()=>{ac();wake();setMode('run');};bottom.appendChild(b);}
 // REVIEW
 function renderReview(body,bottom){const st=STEPS[S.cur];const w=document.createElement('div');w.className='rv';
  w.innerHTML='<h2>Review</h2><div style="font-size:13px;color:#9a9280">Resume marker is at step '+(S.cur+1)+'. Tap "resume here" on any step to move it. Clip for the current segment is open below for comparison.</div>'+(st.s.clips.length?'<div class="clipslot open" style="margin-top:10px"><div class="frame" id="rvframe"></div><div class="pc"><button id="pp">▶</button><button id="pm5">−5s</button><button id="pp5">+5s</button><button id="prate">0.5×</button><span class="t" id="ptime"></span></div></div>':'')+
