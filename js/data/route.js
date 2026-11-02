@@ -43,7 +43,7 @@ export const ROUTE = [
     ] },
   { summary: "Kuldra's Sanctum to the cut to black. The biggest untested save: Dotxy's 1.0.1.2 flight was posted after both record runs.",
     skips: [
-      S('s-kuldra', 'Skip the Kuldra fight', 'works', { clips: [C(SAMF_RUN, 505, 564, 'In the run'), C(SAMF_GUIDE, 558, 637, 'Explained'), C('L-dTDXJyFq0', 0, 330, 'Post-patch skip (FastTipsGaming)')], credit: 'SamFPlays; Zilko (original)' }),
+      S('s-kuldra', 'Skip the Kuldra fight', 'check', { text: 'Official 1.0.1.2 notes: "Additional fixes for Kuldra Skips." FastTipsGaming showed a fight skip working on 27 Oct, after that patch. Test it before you route it.', clips: [C(SAMF_RUN, 505, 564, 'In the run'), C(SAMF_GUIDE, 558, 637, 'Explained'), C('L-dTDXJyFq0', 0, 330, 'Post-patch skip (FastTipsGaming)')], credit: 'SamFPlays; Zilko (original)' }),
       S('s-flight', 'Fly through the Sanctum (1.0.1.2)', 'new', { how: ['Windstep.', 'Jump attack → Q → targeted AoE → Esc → Jump.', 'Repeat. Windstepping up the blocks no longer works on 1.0.1.2 — flying does.'], clips: [C('GeWbo4GpFEg', 0, 90.5, 'Dotxy')], credit: 'Dotxy' }),
       S('s-heart', 'Heart: where to stand (no heartworms)', 'works', { clips: [C(SAMF_RUN, 564, 653.4, 'In the run'), C(SAMF_GUIDE, 637, 758, 'Explained')], credit: 'SamFPlays' }),
     ] },
@@ -54,7 +54,7 @@ export const OPPORTUNITIES = [
   { title: 'Combine the best of both records', text: 'TexasPete is fastest early, Nanobit in the Keep and Sanctum. The fastest segment from each record adds up well under 6:50 — watch the composite reel.', src: ['tp650', 'nano701'], go: ['#/studio?id=p-sob', 'Watch composite'] },
   { title: "Nanobit's own sum of best is 6:51", text: '"Clearly can be done sub 7… needs very clean movement and strong zoops. Especially the 3rd black dragon area after zooping from Keep."', src: ['nano701'] },
   { title: 'The 6:50 used strats that are now patched', kind: 'info', text: "Per Nanobit. The board does not split 1.0.1 off, so the bar on today's patch is still 6:50 — new movement tech is how you get there.", src: ['nano701', 'tp650'] },
-  { title: 'Reset the Air Thane', text: 'The air Garou Thane takes ~15 minutes to respawn. Sleep through a night between attempts or he is not there and the run is dead.', src: ['nano832'] },
+  { title: 'Reset the Air Thane', text: 'Nanobit (1.0.1 day one): the air Garou Thane took ~15 minutes to respawn, so sleep through a night between attempts. The official 1.0.1 notes say enemies now respawn on reset, so check whether this still applies.', src: ['nano832'] },
   { title: 'Ask the mods before using a macro', kind: 'info', text: 'Dotxy suggests a macro for the flight loop. The speedrun.com raid rules do not mention macros — confirm before submitting.', src: ['dotxyflight'] },
 ];
 

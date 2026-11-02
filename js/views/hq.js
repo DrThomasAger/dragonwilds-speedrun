@@ -56,7 +56,7 @@ export function mount(root) {
   const opp = h('div', { class: 'card' }, h('h2', {}, 'Where #1 is won'), h('div', { class: 'feed' }, OPPORTUNITIES.map(o => h('div', { class: 'callout ' + (o.kind || '') },
     h('b', {}, o.title), h('div', { class: 'note', style: { marginTop: '4px', color: 'var(--ink)' } }, o.text),
     o.src ? h('div', { class: 'row tight', style: { marginTop: '6px' } }, o.src.map(k => { const v = BY_KEY[k]; return v ? h('a', { class: 'pill', href: ytUrl(v.id), target: '_blank', rel: 'noopener' }, '↗ ', v.author) : null; }), o.go ? h('a', { class: 'btn xs', href: o.go[0] }, o.go[1]) : null) : null))));
-  const patchesCard = h('div', { class: 'card' }, h('h2', {}, 'Raid patch timeline'), h('div', { class: 'feed' }, [...PATCHES].reverse().map(p => h('div', { class: 'item' }, h('time', {}, p.v, h('br'), p.date.slice(5)), h('div', {}, p.text, ' ', (p.src || []).map(k => BY_KEY[k] ? h('a', { href: ytUrl(BY_KEY[k].id), target: '_blank', rel: 'noopener', class: 'note' }, ` ↗${BY_KEY[k].author}`) : null))))));
+  const patchesCard = h('div', { class: 'card' }, h('h2', {}, 'Raid patch timeline'), h('div', { class: 'feed' }, [...PATCHES].reverse().map(p => h('div', { class: 'item' }, h('time', {}, p.v, h('br'), p.date.slice(5)), h('div', {}, p.quote ? h('div', { class: 'callout info', style: { margin: '0 0 4px', fontSize: '12.5px' } }, '“', p.quote, '” ', p.url ? h('a', { href: p.url, target: '_blank', rel: 'noopener' }, 'Jagex ↗') : null) : null, p.text, ' ', (p.src || []).map(k => BY_KEY[k] ? h('a', { href: ytUrl(BY_KEY[k].id), target: '_blank', rel: 'noopener', class: 'note' }, ` ↗${BY_KEY[k].author}`) : null))))));
   const patchCard = h('div', { class: 'card' }, h('h2', {}, 'Latest patch'), h('div', { class: 'note' }, 'Checking…'));
   const unsub = patches.subscribe(() => {
     const lp = patches.latestPatch(); if (!lp) return;
@@ -79,6 +79,7 @@ export function mount(root) {
     h('div', { class: 'grid g2', style: { marginTop: '16px' } }, patchesCard, rules));
 
   leaderboard().then(d => {
+    if (!root.isConnected || !root.querySelector('#wrTime')) return;   // left HQ before it loaded
     const top = d.rows[0];
     if (top) { root.querySelector('#wrTime').textContent = fmtRun(top.t, 2); root.querySelector('#wrWho').textContent = `${top.players.join(' & ')} · ${top.date} · speedrun.com ${d.source === 'live' ? '(live)' : d.source === 'cache' ? '(cached)' : '(snapshot)'}`; }
     fill(board, h('div', { class: 'row' }, h('h2', { style: { margin: 0 } }, 'Leaderboard'), h('span', { class: 'pill ' + (d.source === 'live' ? 'ok' : 'warn') }, d.source), h('span', { class: 'spacer' }), h('a', { class: 'btn xs', href: SRC.board, target: '_blank', rel: 'noopener' }, 'speedrun.com ↗')),
