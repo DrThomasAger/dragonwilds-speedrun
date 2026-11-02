@@ -23,4 +23,5 @@ jobs:
             git add data/patchnotes.json
             git commit -m "data: official patch notes $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
+            git push origin HEAD:gh-pages   # Pages serves gh-pages; bot pushes don't trigger publish.yml
           fi
