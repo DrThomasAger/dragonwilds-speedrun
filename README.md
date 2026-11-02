@@ -1,5 +1,7 @@
 # Dragonwilds Raid Lab
 
+**Live:** https://drthomasager.github.io/dragonwilds-speedrun/ · install it from there as an app.
+
 Scorned Wilderness raid speedrun lab for RuneScape: Dragonwilds, built to take the #1 spot on the speedrun.com Raid board (1.0.0.6+). The current record is **6:50.00** (TexasPete).
 
 | Phone (Fold folded) | Fold unfolded | Desktop |
@@ -21,7 +23,7 @@ npm install     # dev only: Playwright test runner (uses your installed Edge)
 npm start       # http://localhost:5173
 ```
 
-The site has no build step and nothing to bundle. It has to be served over http, because ES modules and the YouTube iframe API both fail on `file://`. GitHub Pages serves it as-is from `main`.
+The site has no build step and nothing to bundle. It has to be served over http, because ES modules and the YouTube iframe API both fail on `file://`. GitHub Pages serves the `gh-pages` branch. `.github/workflows/publish.yml` copies `main` there on every push, and the hourly patch-notes job publishes too.
 
 ## What's in it
 
