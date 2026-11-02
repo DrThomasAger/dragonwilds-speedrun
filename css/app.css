@@ -428,3 +428,12 @@ dialog.palette input { width: 100%; font-size: 16px; padding: 12px; }
 #toast { top: 62px; bottom: auto !important; transform: translate(-50%, -20px); }
 #toast.show { transform: translate(-50%, 0); }
 .rn-body { align-items: start; }
+/* phone: keep runs side by side so both are visible at once */
+@media (max-width: 719px) {
+  .cmp-grid.n2, .cmp-grid.n3, .cmp-grid.n4 { grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px; }
+  .cmp-cell .hud { padding: 3px 5px; font-size: 10px; flex-wrap: wrap; }
+  .cmp-cell .hud .clock { font-size: 13px; } .cmp-cell .hud .dl { font-size: 11px; }
+  .cmp-cell .flag { font-size: 10px; right: 4px; top: 4px; }
+  .transport { gap: 4px; padding: 8px; }
+  .bigclock { font-size: 22px; }
+}
