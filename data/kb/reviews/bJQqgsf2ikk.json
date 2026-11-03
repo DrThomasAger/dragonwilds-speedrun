@@ -1,11 +1,277 @@
 {
  "id": "bJQqgsf2ikk",
  "url": "https://www.youtube.com/watch?v=bJQqgsf2ikk",
- "reviewedAt": "2026-11-03T07:39:24.802Z",
+ "reviewedAt": "2026-11-03T18:02:08.015Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] bJQqgsf2ikk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "RS Dragonwilds: Scorned Wilderness Raid Speedrun in 3:57 (Former WR) (Patched)"
+ "status": "ok",
+ "title": "RS Dragonwilds: Scorned Wilderness Raid Speedrun in 3:57 (Former WR) (Patched)",
+ "author": "heartlessedly",
+ "date": "2026-09-25",
+ "videoDuration": 272,
+ "kind": "run",
+ "from": [
+  "speedrun.com",
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": 2,
+ "runStatus": "verified",
+ "bracket": "Pre 1.0.0.6",
+ "src": "mkn1pv5m",
+ "statedTime": 237,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [
+  33,
+  66.2,
+  117.7
+ ],
+ "segmentTimes": [
+  null,
+  33.2,
+  51.5,
+  null,
+  null
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 33,
+   "tEnd": 66.2,
+   "segment": 1,
+   "name": "Fragments of Ghornfell",
+   "kind": "faster",
+   "delta": -27.9,
+   "seg": 33.2,
+   "description": "Fragments of Ghornfell: 33.2 s — 27.9 s faster than every reference run (best TexasPete 61.1 s).  Possible skip or route not in the reference set.",
+   "frames": "bJQqgsf2ikk/anomaly-0-seg1.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 38.2,
+   "dur": 1.7,
+   "segment": 1
+  },
+  {
+   "t": 53.6,
+   "dur": 1,
+   "segment": 1
+  },
+  {
+   "t": 60.3,
+   "dur": 1.6,
+   "segment": 1
+  },
+  {
+   "t": 77.2,
+   "dur": 1.4,
+   "segment": 2
+  },
+  {
+   "t": 85,
+   "dur": 2,
+   "segment": 2
+  },
+  {
+   "t": 123.4,
+   "dur": 1.5,
+   "segment": null
+  },
+  {
+   "t": 131,
+   "dur": 1.4,
+   "segment": null
+  },
+  {
+   "t": 144.3,
+   "dur": 0.4,
+   "segment": null
+  },
+  {
+   "t": 184.7,
+   "dur": 0.3,
+   "segment": null
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 33,
+    "score": 0.882
+   },
+   {
+    "t": 66.2,
+    "score": 0.895
+   },
+   {
+    "t": 117.7,
+    "score": 0.893
+   }
+  ],
+  "end": null,
+  "loadEnd": null
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "comment",
+   "author": "@heartlessedly1904",
+   "likes": 1,
+   "text": "well. i'm thinking with current patch strats, it'll take about anywhere from 12-20 minutes. Kuldra doesn't change, but you have to run the whole raid now. No large checkpoint skips, only puzzle skips and such. I haven't finished routing the new run yet, so I can't give an accurate estimate.",
+   "topics": [
+    "skip",
+    "glitch",
+    "trick",
+    "respawn"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@TheSpectorius",
+   "likes": 0,
+   "text": "fixed",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@CoachRyanSpeed",
+   "likes": 0,
+   "text": "This isn't a speed run it's a bug run",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "speedrun.com comment",
+   "text": "So glad I got this before the patch",
+   "topics": [
+    "glitch"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=bJQqgsf2ikk",
+   "quote": "well. i'm thinking with current patch strats, it'll take about anywhere from 12-20 minutes. Kuldra doesn't change, but you have to run the whole raid now. No large checkpoint skips, only puzzle skips and such. I haven't finished routing the new run yet, so I can't give an accurate estimate.",
+   "unseen": [
+    "thinking",
+    "current",
+    "strats",
+    "minutes",
+    "doesn't",
+    "change",
+    "large",
+    "such"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@heartlessedly1904"
+  },
+  {
+   "source": "timing",
+   "t": 33,
+   "link": "https://youtu.be/bJQqgsf2ikk?t=33",
+   "quote": "Fragments of Ghornfell: 33.2 s — 27.9 s faster than every reference run (best TexasPete 61.1 s).  Possible skip or route not in the reference set.",
+   "segment": 1,
+   "frames": "bJQqgsf2ikk/cand-33.png"
+  }
+ ],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 14,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 3,
+  "end": false,
+  "offsetMethod": null,
+  "templateScale": [
+   0.83,
+   0.78
+  ],
+  "templateScore": [
+   0.887,
+   0.881
+  ],
+  "complete": false,
+  "transcript": "whisper:small",
+  "notes": [
+   "No run start found (first banner at 33 s video): split 1 unknown; later segments are measured banner to banner."
+  ]
+ },
+ "curated": null
 }

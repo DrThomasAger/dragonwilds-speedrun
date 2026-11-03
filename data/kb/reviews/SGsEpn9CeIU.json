@@ -1,11 +1,212 @@
 {
  "id": "SGsEpn9CeIU",
  "url": "https://www.youtube.com/watch?v=SGsEpn9CeIU",
- "reviewedAt": "2026-11-03T07:38:39.969Z",
+ "reviewedAt": "2026-11-03T17:46:11.161Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] SGsEpn9CeIU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "RuneScape Dragonwilds: Scorned wilderness raid + Final boss under 36 minutes!"
+ "status": "ok",
+ "title": "RuneScape Dragonwilds: Scorned wilderness raid + Final boss under 36 minutes!",
+ "author": "dekafmusic",
+ "date": "2026-09-17",
+ "videoDuration": 2189,
+ "kind": "run",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": 2126.4,
+ "offset": 6.2,
+ "offsetMethod": "detected: end of the loading screen into the raid",
+ "splits": [
+  389.8,
+  961.2,
+  2126.4
+ ],
+ "videoSplits": [
+  396,
+  967.4,
+  2132.6
+ ],
+ "segmentTimes": [
+  389.8,
+  571.4,
+  null,
+  null,
+  null
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 6.2,
+   "tEnd": 396,
+   "segment": 0,
+   "name": "Dragontail Vines",
+   "kind": "slower",
+   "delta": 269.87,
+   "seg": 389.8,
+   "description": "Dragontail Vines: 389.8 s — 269.9 s slower than every reference run (slowest 119.93 s). Different path, deaths or a puzzle done normally.",
+   "frames": "SGsEpn9CeIU/anomaly-0-seg0.png"
+  },
+  {
+   "t": 396,
+   "tEnd": 967.4,
+   "segment": 1,
+   "name": "Fragments of Ghornfell",
+   "kind": "slower",
+   "delta": 474.1,
+   "seg": 571.4,
+   "description": "Fragments of Ghornfell: 571.4 s — 474.1 s slower than every reference run (slowest 97.3 s). Different path, deaths or a puzzle done normally.",
+   "frames": "SGsEpn9CeIU/anomaly-1-seg1.png"
+  },
+  {
+   "t": 6.2,
+   "tEnd": 2132.6,
+   "segment": null,
+   "kind": "missing-banners",
+   "delta": null,
+   "description": "Only 2 of 4 \"EXTRACTION POINT UNLOCKED\" banners before the end: an extraction point was bypassed (skip/out-of-map route) or the banner was hidden.",
+   "frames": "SGsEpn9CeIU/anomaly-2-segx.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 1217.6,
+   "dur": 1,
+   "segment": 2
+  },
+  {
+   "t": 1985.6,
+   "dur": 0.5,
+   "segment": 2
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 396,
+    "score": 0.904
+   },
+   {
+    "t": 967.4,
+    "score": 0.915
+   }
+  ],
+  "end": {
+   "t": 2132.6,
+   "plate": [
+    2118.5,
+    2132.5
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": 6.2
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "completed the raid for the 3ed time in under 36 minutes! could this be the current world record speed run? @RSDragonwilds #speedrun #dragonwilds #finalboss #queenkuldra #raid",
+   "topics": [
+    "timing"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "timing",
+   "t": 6.2,
+   "link": "https://youtu.be/SGsEpn9CeIU?t=6",
+   "quote": "Only 2 of 4 \"EXTRACTION POINT UNLOCKED\" banners before the end: an extraction point was bypassed (skip/out-of-map route) or the banner was hidden.",
+   "segment": null,
+   "frames": "SGsEpn9CeIU/cand-6.png"
+  }
+ ],
+ "transcriptSource": "none",
+ "transcriptLines": 0,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 2,
+  "end": true,
+  "offsetMethod": "detected: end of the loading screen into the raid",
+  "templateScale": [
+   1.06,
+   0.99
+  ],
+  "templateScore": [
+   0.902,
+   0.926
+  ],
+  "complete": false,
+  "transcript": "none",
+  "notes": []
+ },
+ "curated": null
 }

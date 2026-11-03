@@ -1,11 +1,273 @@
 {
  "id": "WIOk5DxP7kA",
  "url": "https://www.youtube.com/watch?v=WIOk5DxP7kA",
- "reviewedAt": "2026-11-03T07:38:58.846Z",
+ "reviewedAt": "2026-11-03T17:55:12.021Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] WIOk5DxP7kA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Fastest way to Kuldra | 22 min 35 sec to finish dungeon | Patch 1.0.1.2"
+ "status": "ok",
+ "title": "Fastest way to Kuldra | 22 min 35 sec to finish dungeon | Patch 1.0.1.2",
+ "author": "David The Optimist Gaming",
+ "date": "2026-10-26",
+ "videoDuration": 751,
+ "kind": "run",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "register",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": 18,
+ "offsetMethod": "detected: end of the loading screen into the raid",
+ "splits": [
+  104.7,
+  157.6,
+  225.4,
+  324.4
+ ],
+ "videoSplits": [
+  122.7,
+  175.6,
+  243.4,
+  342.4
+ ],
+ "segmentTimes": [
+  104.7,
+  52.9,
+  67.8,
+  99,
+  null
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 122.7,
+   "tEnd": 175.6,
+   "segment": 1,
+   "name": "Fragments of Ghornfell",
+   "kind": "faster",
+   "delta": -8.2,
+   "seg": 52.9,
+   "description": "Fragments of Ghornfell: 52.9 s — 8.2 s faster than every reference run (best TexasPete 61.1 s).  Possible skip or route not in the reference set.",
+   "frames": "WIOk5DxP7kA/anomaly-0-seg1.png"
+  }
+ ],
+ "blackouts": [],
+ "events": {
+  "banners": [
+   {
+    "t": 122.7,
+    "score": 0.89
+   },
+   {
+    "t": 175.6,
+    "score": 0.892
+   },
+   {
+    "t": 243.4,
+    "score": 0.893
+   },
+   {
+    "t": 342.4,
+    "score": 0.89
+   }
+  ],
+  "end": null,
+  "loadEnd": 18
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "It took me 22 min 35 sec to finish the dungeon. You'll find here all the skips I did so you can be more efficient.",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@SvG_Tokez8184",
+   "likes": 1,
+   "text": "same thing for me, that gate just stays open, to be honest its welcomed, i wish we could just skip to the fight and not have to rerun everything to grind items with a low drop rate",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@davidtheoptimistgaming",
+   "likes": 0,
+   "text": "Oh well, maybe the devs will have this in mind for future dungeons. Right now, I would want them to focus on fixing the bugs and leave this dungeon as it is.",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@davidtheoptimistgaming",
+   "likes": 0,
+   "text": "Cast Surge and Phase Dash. Use Surge when you start. Then jump. Then 2x Phase Dash. It should work.",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Anunnaki2522",
+   "likes": 0,
+   "text": "With the recent change that \"fixed\" the other skips whats faster now?",
+   "topics": [
+    "skip",
+    "glitch",
+    "timing"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=WIOk5DxP7kA",
+   "quote": "It took me 22 min 35 sec to finish the dungeon. You'll find here all the skips I did so you can be more efficient.",
+   "unseen": [
+    "finish",
+    "dungeon",
+    "you'll",
+    "efficient"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=WIOk5DxP7kA",
+   "quote": "same thing for me, that gate just stays open, to be honest its welcomed, i wish we could just skip to the fight and not have to rerun everything to grind items with a low drop rate",
+   "unseen": [
+    "stays",
+    "open",
+    "honest",
+    "welcomed",
+    "wish",
+    "rerun",
+    "grind",
+    "rate"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@SvG_Tokez8184"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=WIOk5DxP7kA",
+   "quote": "With the recent change that \"fixed\" the other skips whats faster now?",
+   "unseen": [
+    "recent",
+    "change",
+    "whats"
+   ],
+   "nearestKnown": null,
+   "author": "@Anunnaki2522"
+  },
+  {
+   "source": "timing",
+   "t": 122.7,
+   "link": "https://youtu.be/WIOk5DxP7kA?t=122",
+   "quote": "Fragments of Ghornfell: 52.9 s — 8.2 s faster than every reference run (best TexasPete 61.1 s).  Possible skip or route not in the reference set.",
+   "segment": 1,
+   "frames": "WIOk5DxP7kA/cand-123.png"
+  }
+ ],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 13,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": false,
+  "offsetMethod": "detected: end of the loading screen into the raid",
+  "templateScale": [
+   1.05,
+   0.98
+  ],
+  "templateScore": [
+   0.848,
+   0.909
+  ],
+  "complete": false,
+  "transcript": "whisper:small",
+  "notes": []
+ },
+ "curated": null
 }

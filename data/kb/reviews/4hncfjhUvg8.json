@@ -1,11 +1,191 @@
 {
  "id": "4hncfjhUvg8",
  "url": "https://www.youtube.com/watch?v=4hncfjhUvg8",
- "reviewedAt": "2026-11-03T07:39:18.993Z",
+ "reviewedAt": "2026-11-03T18:01:29.477Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] 4hncfjhUvg8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Kuldra skipped in 4 mins 40 seconds"
+ "status": "ok",
+ "title": "Kuldra skipped in 4 mins 40 seconds",
+ "author": "IINo1GoodII",
+ "date": "2026-10-29",
+ "videoDuration": 45,
+ "kind": "run",
+ "from": [
+  "kb/raw/youtube",
+  "register"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [],
+ "segmentTimes": [],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [],
+ "events": {
+  "banners": [],
+  "end": null,
+  "loadEnd": null
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "Sub 4 mins is possible. I'm confident someone could do it in around 3 minutes flat.",
+   "topics": [
+    "timing"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "Not showing full clip or methods used.. sorry guys.",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@IINo1goodII",
+   "likes": 0,
+   "text": "I launched myself skipping the 3rd checkpoint and some of the parkour area.\nUsed the plunge mech to bypass the rocks on the fight itself since they are patched.\nSurge dashed the bridge.",
+   "topics": [
+    "movement",
+    "skip",
+    "glitch",
+    "respawn"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@ActuallyN8",
+   "likes": 0,
+   "text": "Wheres the guy that said clip or it didnt happen?! 😂",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@IINo1goodII",
+   "likes": 0,
+   "text": "Funny part is i thought i discovered both the mechs and method that i used but in fact was probably the 2nd or 3rd player at most.\nI'm willing to teach people who wont get it patched the same week lol.",
+   "topics": [
+    "glitch"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=4hncfjhUvg8",
+   "quote": "Not showing full clip or methods used.. sorry guys.",
+   "unseen": [
+    "showing",
+    "sorry"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=4hncfjhUvg8",
+   "quote": "Wheres the guy that said clip or it didnt happen?! 😂",
+   "unseen": [
+    "wheres",
+    "didnt",
+    "happen"
+   ],
+   "nearestKnown": null,
+   "author": "@ActuallyN8"
+  }
+ ],
+ "transcriptSource": "none",
+ "transcriptLines": 0,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 0,
+  "end": false,
+  "offsetMethod": null,
+  "templateScale": [
+   0.68,
+   1.23
+  ],
+  "templateScore": [
+   0.573,
+   0.872
+  ],
+  "complete": false,
+  "transcript": "none",
+  "notes": []
+ },
+ "curated": null
 }

@@ -1,11 +1,207 @@
 {
  "id": "sG-Fu_CvvtY",
  "url": "https://www.youtube.com/watch?v=sG-Fu_CvvtY",
- "reviewedAt": "2026-11-03T07:38:39.558Z",
+ "reviewedAt": "2026-11-03T17:41:04.361Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] sG-Fu_CvvtY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Runescape Dragonwilds - Kuldra (Solo, Melee, No Damage)"
+ "status": "ok",
+ "title": "Runescape Dragonwilds - Kuldra (Solo, Melee, No Damage)",
+ "author": "Shadiochao",
+ "date": "2026-09-18",
+ "videoDuration": 932,
+ "kind": "run",
+ "from": [
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": 911.4,
+ "offset": 0.5,
+ "offsetMethod": "detected: end of the loading screen into the raid",
+ "splits": [
+  333.1,
+  355.2,
+  911.4
+ ],
+ "videoSplits": [
+  333.6,
+  355.7,
+  911.9
+ ],
+ "segmentTimes": [
+  333.1,
+  22.1,
+  null,
+  null,
+  null
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 0.5,
+   "tEnd": 333.6,
+   "segment": 0,
+   "name": "Dragontail Vines",
+   "kind": "slower",
+   "delta": 213.17,
+   "seg": 333.1,
+   "description": "Dragontail Vines: 333.1 s — 213.2 s slower than every reference run (slowest 119.93 s). Different path, deaths or a puzzle done normally.",
+   "frames": "sG-Fu_CvvtY/anomaly-0-seg0.png"
+  },
+  {
+   "t": 333.6,
+   "tEnd": 355.7,
+   "segment": 1,
+   "name": "Fragments of Ghornfell",
+   "kind": "faster",
+   "delta": -39,
+   "seg": 22.1,
+   "description": "Fragments of Ghornfell: 22.1 s — 39.0 s faster than every reference run (best TexasPete 61.1 s).  Possible skip or route not in the reference set.",
+   "frames": "sG-Fu_CvvtY/anomaly-1-seg1.png"
+  },
+  {
+   "t": 0.5,
+   "tEnd": 911.9,
+   "segment": null,
+   "kind": "missing-banners",
+   "delta": null,
+   "description": "Only 2 of 4 \"EXTRACTION POINT UNLOCKED\" banners before the end: an extraction point was bypassed (skip/out-of-map route) or the banner was hidden.",
+   "frames": "sG-Fu_CvvtY/anomaly-2-segx.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 668.2,
+   "dur": 0.4,
+   "segment": 2
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 333.6,
+    "score": 0.72
+   },
+   {
+    "t": 355.7,
+    "score": 0.775
+   }
+  ],
+  "end": {
+   "t": 911.9,
+   "plate": [
+    898,
+    911.8
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": 0.5
+ },
+ "commentary": [],
+ "textNotes": [],
+ "candidateMechanics": [
+  {
+   "source": "timing",
+   "t": 333.6,
+   "link": "https://youtu.be/sG-Fu_CvvtY?t=333",
+   "quote": "Fragments of Ghornfell: 22.1 s — 39.0 s faster than every reference run (best TexasPete 61.1 s).  Possible skip or route not in the reference set.",
+   "segment": 1,
+   "frames": "sG-Fu_CvvtY/cand-334.png"
+  },
+  {
+   "source": "timing",
+   "t": 0.5,
+   "link": "https://youtu.be/sG-Fu_CvvtY?t=0",
+   "quote": "Only 2 of 4 \"EXTRACTION POINT UNLOCKED\" banners before the end: an extraction point was bypassed (skip/out-of-map route) or the banner was hidden.",
+   "segment": null,
+   "frames": "sG-Fu_CvvtY/cand-1.png"
+  }
+ ],
+ "transcriptSource": "none",
+ "transcriptLines": 0,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 2,
+  "end": true,
+  "offsetMethod": "detected: end of the loading screen into the raid",
+  "templateScale": [
+   0.68,
+   0.81
+  ],
+  "templateScore": [
+   0.702,
+   0.891
+  ],
+  "complete": false,
+  "transcript": "none",
+  "notes": []
+ },
+ "curated": null
 }

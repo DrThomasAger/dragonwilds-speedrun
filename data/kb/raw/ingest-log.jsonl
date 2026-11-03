@@ -644,3 +644,30 @@
 {"at":"2026-11-03T16:03:16.503Z","source":"youtube","kind":"progress","id":"comments","title":"50/332 videos' comments fetched"}
 {"at":"2026-11-03T16:05:56.330Z","source":"youtube","kind":"progress","id":"comments","title":"60/332 videos' comments fetched"}
 {"at":"2026-11-03T16:16:23.368Z","source":"youtube","kind":"progress","id":"comments","title":"70/332 videos' comments fetched"}
+{"at":"2026-11-03T17:31:21.493Z","source":"youtube","kind":"progress","id":"discover","title":"search found 12 new videos (322 discovered total)"}
+{"at":"2026-11-03T17:31:21.578Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1: 13 videos need transcripts (347 tracked)"}
+{"at":"2026-11-03T17:31:51.121Z","source":"youtube","kind":"transcript","id":"BvI39z_sW3o","title":"Northforge: Runescape Dragonwilds - HARDCORE Takes on the Scorned Wilderness (270 lines, auto:en-orig)"}
+{"at":"2026-11-03T17:31:51.124Z","source":"youtube","kind":"video","id":"BvI39z_sW3o","title":"Runescape Dragonwilds - HARDCORE Takes on the Scorned Wilderness"}
+{"at":"2026-11-03T17:31:56.914Z","source":"youtube","kind":"video","id":"ZrMNapU83Y8","title":"RuneScape Dragonwilds: Dragonwilds scorned wilderness  - Fragments of ghornfell messy walkthrough"}
+{"at":"2026-11-03T17:32:03.773Z","source":"youtube","kind":"transcript","id":"wOF8HgyWj4Q","title":"Questboard Games: Abyssal Battle | Kuldra's End Ep 2 | Runescape: Dragonwilds 1.0 (599 lines, auto:en-orig)"}
+{"at":"2026-11-03T17:32:03.779Z","source":"youtube","kind":"video","id":"wOF8HgyWj4Q","title":"Abyssal Battle | Kuldra's End Ep 2 | Runescape: Dragonwilds 1.0"}
+{"at":"2026-11-03T17:32:09.560Z","source":"youtube","kind":"video","id":"B4t1Vrgt6I8","title":"RuneScape: Dragonwilds kuldra raid boss fight"}
+{"at":"2026-11-03T17:32:15.864Z","source":"youtube","kind":"video","id":"_HjxuyYWoHQ","title":"RuneScape: Dragonwilds kuldra raid boss fight again"}
+{"at":"2026-11-03T17:32:21.553Z","source":"youtube","kind":"video","id":"4C-7swCHEes","title":"RuneScape: Dragonwilds kuldra raid boss"}
+{"at":"2026-11-03T17:32:28.590Z","source":"youtube","kind":"transcript","id":"IAkMHExrEBY","title":"IAmWaved: Weekly Update - New Quests, Activities, Upcoming Patches & More Coming Soon! - RuneScape Dragonwilds (101 lines, auto:en-orig)"}
+{"at":"2026-11-03T17:32:28.593Z","source":"youtube","kind":"video","id":"IAkMHExrEBY","title":"Weekly Update - New Quests, Activities, Upcoming Patches & More Coming Soon! - RuneScape Dragonwilds"}
+{"at":"2026-11-03T17:32:35.613Z","source":"youtube","kind":"transcript","id":"ZMloya-yM_M","title":"Hoppin Hammer: Try THIS before it's patched! Agility l Runescape Dragonwilds (47 lines, auto:en-orig)"}
+{"at":"2026-11-03T17:32:35.615Z","source":"youtube","kind":"video","id":"ZMloya-yM_M","title":"Try THIS before it's patched! Agility l Runescape Dragonwilds"}
+{"at":"2026-11-03T17:32:42.445Z","source":"youtube","kind":"transcript","id":"uF9BfKy61EQ","title":"Friggin Geiger: Pre-Patch DragonWilds was a Friggin Menace! (98 lines, auto:en-orig)"}
+{"at":"2026-11-03T17:32:42.447Z","source":"youtube","kind":"video","id":"uF9BfKy61EQ","title":"Pre-Patch DragonWilds was a Friggin Menace!"}
+{"at":"2026-11-03T17:32:46.380Z","source":"youtube","kind":"progress","id":"transcripts","title":"10/13 processed; 215/343 videos on disk have transcripts"}
+{"at":"2026-11-03T17:32:53.127Z","source":"youtube","kind":"transcript","id":"hlmBJOTDg1M","title":"Soll: RuneScape Dragonwilds: The Ultimate Velgar Boss Guide (Tips & Tricks) (61 lines, auto:en-orig)"}
+{"at":"2026-11-03T17:32:53.128Z","source":"youtube","kind":"video","id":"hlmBJOTDg1M","title":"RuneScape Dragonwilds: The Ultimate Velgar Boss Guide (Tips & Tricks)"}
+{"at":"2026-11-03T17:32:59.261Z","source":"youtube","kind":"transcript","id":"1hXZ12PjuUY","title":"Caffeinated Replays: RuneScape Dragonwilds Tips and Tricks for New Players (1.0 Guide) (93 lines, auto:en-orig)"}
+{"at":"2026-11-03T17:32:59.263Z","source":"youtube","kind":"video","id":"1hXZ12PjuUY","title":"RuneScape Dragonwilds Tips and Tricks for New Players (1.0 Guide)"}
+{"at":"2026-11-03T17:33:08.894Z","source":"youtube","kind":"transcript","id":"x5FuCy1pcqM","title":"ComfyQuesting: RuneScape Dragonwilds 1.0 - Tips I Wish I Knew Before Starting (96 lines, auto:en-orig)"}
+{"at":"2026-11-03T17:33:08.897Z","source":"youtube","kind":"video","id":"x5FuCy1pcqM","title":"RuneScape Dragonwilds 1.0 - Tips I Wish I Knew Before Starting"}
+{"at":"2026-11-03T17:33:10.690Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1 done: 218/346 videos have transcripts"}
+{"at":"2026-11-03T17:37:11.747Z","source":"youtube","kind":"progress","id":"comments","title":"10/267 videos' comments fetched"}
+{"at":"2026-11-03T17:38:53.029Z","source":"youtube","kind":"progress","id":"comments","title":"20/267 videos' comments fetched"}
+{"at":"2026-11-03T17:40:50.697Z","source":"run-all","kind":"run-summary","id":"2026-11-03T17:28:07.536Z","title":"speedrun,youtube,twitch,reddit,discord: 26 new items"}

@@ -1,11 +1,288 @@
 {
  "id": "VrZ5uBZ2meM",
  "url": "https://www.youtube.com/watch?v=VrZ5uBZ2meM",
- "reviewedAt": "2026-11-03T07:38:52.411Z",
+ "reviewedAt": "2026-11-03T17:53:25.172Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] VrZ5uBZ2meM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Runescape Dragonwilds Kuldra Raid 5:07 Glitched Any%"
+ "status": "ok",
+ "title": "Runescape Dragonwilds Kuldra Raid 5:07 Glitched Any%",
+ "author": "Lobsters",
+ "date": "2026-09-21",
+ "videoDuration": 329,
+ "kind": "run",
+ "from": [
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": 307,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [
+  27.8,
+  55.6,
+  81.2,
+  137.1,
+  313.7
+ ],
+ "segmentTimes": [
+  null,
+  27.8,
+  25.6,
+  55.9,
+  176.6
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 27.8,
+   "tEnd": 55.6,
+   "segment": 1,
+   "name": "Fragments of Ghornfell",
+   "kind": "faster",
+   "delta": -33.3,
+   "seg": 27.8,
+   "description": "Fragments of Ghornfell: 27.8 s — 33.3 s faster than every reference run (best TexasPete 61.1 s).  Possible skip or route not in the reference set.",
+   "frames": "VrZ5uBZ2meM/anomaly-0-seg1.png"
+  },
+  {
+   "t": 55.6,
+   "tEnd": 81.2,
+   "segment": 2,
+   "name": "The Shattered Stronghold",
+   "kind": "faster",
+   "delta": -26.1,
+   "seg": 25.6,
+   "description": "The Shattered Stronghold: 25.6 s — 26.1 s faster than every reference run (best TexasPete 51.7 s).  Possible skip or route not in the reference set.",
+   "frames": "VrZ5uBZ2meM/anomaly-1-seg2.png"
+  },
+  {
+   "t": 81.2,
+   "tEnd": 137.1,
+   "segment": 3,
+   "name": "Cataclysm Keep",
+   "kind": "faster",
+   "delta": -31.9,
+   "seg": 55.9,
+   "description": "Cataclysm Keep: 55.9 s — 31.9 s faster than every reference run (best Nanobit 87.8 s).  Possible skip or route not in the reference set.",
+   "frames": "VrZ5uBZ2meM/anomaly-2-seg3.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 37.3,
+   "dur": 1.1,
+   "segment": 1
+  },
+  {
+   "t": 45.9,
+   "dur": 2.4,
+   "segment": 1
+  },
+  {
+   "t": 66.2,
+   "dur": 1.4,
+   "segment": 2
+  },
+  {
+   "t": 73.7,
+   "dur": 1.4,
+   "segment": 2
+  },
+  {
+   "t": 86.9,
+   "dur": 1.3,
+   "segment": 3
+  },
+  {
+   "t": 94.3,
+   "dur": 1.6,
+   "segment": 3
+  },
+  {
+   "t": 146.5,
+   "dur": 1,
+   "segment": 4
+  },
+  {
+   "t": 154.9,
+   "dur": 1.5,
+   "segment": 4
+  },
+  {
+   "t": 169.4,
+   "dur": 0.6,
+   "segment": 4
+  },
+  {
+   "t": 235.6,
+   "dur": 0.3,
+   "segment": 4
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 27.8,
+    "score": 0.879
+   },
+   {
+    "t": 55.6,
+    "score": 0.828
+   },
+   {
+    "t": 81.2,
+    "score": 0.888
+   },
+   {
+    "t": 137.1,
+    "score": 0.881
+   }
+  ],
+  "end": {
+   "t": 313.7,
+   "plate": [
+    300,
+    313.6
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": null
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "The new raid has a couple of exploits.",
+   "topics": [
+    "glitch"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=VrZ5uBZ2meM",
+   "quote": "The new raid has a couple of exploits.",
+   "unseen": [
+    "couple",
+    "exploits"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "timing",
+   "t": 27.8,
+   "link": "https://youtu.be/VrZ5uBZ2meM?t=27",
+   "quote": "Fragments of Ghornfell: 27.8 s — 33.3 s faster than every reference run (best TexasPete 61.1 s).  Possible skip or route not in the reference set.",
+   "segment": 1,
+   "frames": "VrZ5uBZ2meM/cand-28.png"
+  },
+  {
+   "source": "timing",
+   "t": 55.6,
+   "link": "https://youtu.be/VrZ5uBZ2meM?t=55",
+   "quote": "The Shattered Stronghold: 25.6 s — 26.1 s faster than every reference run (best TexasPete 51.7 s).  Possible skip or route not in the reference set.",
+   "segment": 2,
+   "frames": "VrZ5uBZ2meM/cand-56.png"
+  },
+  {
+   "source": "timing",
+   "t": 81.2,
+   "link": "https://youtu.be/VrZ5uBZ2meM?t=81",
+   "quote": "Cataclysm Keep: 55.9 s — 31.9 s faster than every reference run (best Nanobit 87.8 s).  Possible skip or route not in the reference set.",
+   "segment": 3,
+   "frames": "VrZ5uBZ2meM/cand-81.png"
+  }
+ ],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 1,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": true,
+  "offsetMethod": null,
+  "templateScale": [
+   1.02,
+   0.98
+  ],
+  "templateScore": [
+   0.877,
+   0.916
+  ],
+  "complete": false,
+  "transcript": "whisper:small",
+  "notes": [
+   "No run start found (first banner at 27.8 s video): split 1 unknown; later segments are measured banner to banner."
+  ]
+ },
+ "curated": null
 }

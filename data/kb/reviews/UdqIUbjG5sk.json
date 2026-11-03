@@ -1,11 +1,333 @@
 {
  "id": "UdqIUbjG5sk",
  "url": "https://www.youtube.com/watch?v=UdqIUbjG5sk",
- "reviewedAt": "2026-11-03T07:38:46.513Z",
+ "reviewedAt": "2026-11-03T17:50:58.583Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] UdqIUbjG5sk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Runescape dragonwilds - Kuldra Raid - Solo Run #xboxseriesx "
+ "status": "ok",
+ "title": "Runescape dragonwilds - Kuldra Raid - Solo Run #xboxseriesx",
+ "author": "zzxGødspeed",
+ "date": "2026-10-07",
+ "videoDuration": 1232,
+ "kind": "run",
+ "from": [
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": 1191.1,
+ "offset": 11.7,
+ "offsetMethod": "detected: end of the loading screen into the raid",
+ "splits": [
+  196.3,
+  286.1,
+  526.6,
+  684,
+  1191.1
+ ],
+ "videoSplits": [
+  208,
+  297.8,
+  538.3,
+  695.7,
+  1202.8
+ ],
+ "segmentTimes": [
+  196.3,
+  89.8,
+  240.5,
+  157.4,
+  507.1
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 11.7,
+   "tEnd": 208,
+   "segment": 0,
+   "name": "Dragontail Vines",
+   "kind": "slower",
+   "delta": 76.37,
+   "seg": 196.3,
+   "description": "Dragontail Vines: 196.3 s — 76.4 s slower than every reference run (slowest 119.93 s). Different path, deaths or a puzzle done normally.",
+   "frames": "UdqIUbjG5sk/anomaly-0-seg0.png"
+  },
+  {
+   "t": 297.8,
+   "tEnd": 538.3,
+   "segment": 2,
+   "name": "The Shattered Stronghold",
+   "kind": "slower",
+   "delta": 140.2,
+   "seg": 240.5,
+   "description": "The Shattered Stronghold: 240.5 s — 140.2 s slower than every reference run (slowest 100.3 s). Different path, deaths or a puzzle done normally.",
+   "frames": "UdqIUbjG5sk/anomaly-1-seg2.png"
+  },
+  {
+   "t": 695.7,
+   "tEnd": 1202.8,
+   "segment": 4,
+   "name": "Kuldra's Sanctum",
+   "kind": "slower",
+   "delta": 326.6,
+   "seg": 507.1,
+   "description": "Kuldra's Sanctum: 507.1 s — 326.6 s slower than every reference run (slowest 180.5 s). Different path, deaths or a puzzle done normally.",
+   "frames": "UdqIUbjG5sk/anomaly-2-seg4.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 267.2,
+   "dur": 0.3,
+   "segment": 1
+  },
+  {
+   "t": 267.7,
+   "dur": 0.6,
+   "segment": 1
+  },
+  {
+   "t": 278.6,
+   "dur": 0.4,
+   "segment": 1
+  },
+  {
+   "t": 307,
+   "dur": 0.3,
+   "segment": 2
+  },
+  {
+   "t": 733.5,
+   "dur": 0.5,
+   "segment": 4
+  },
+  {
+   "t": 1135.3,
+   "dur": 0.3,
+   "segment": 4
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 208,
+    "score": 0.828
+   },
+   {
+    "t": 297.8,
+    "score": 0.809
+   },
+   {
+    "t": 538.3,
+    "score": 0.8
+   },
+   {
+    "t": 695.7,
+    "score": 0.814
+   }
+  ],
+  "end": {
+   "t": 1202.8,
+   "plate": [
+    1193.5,
+    1202.7
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": 11.7
+ },
+ "commentary": [
+  {
+   "t": 354,
+   "text": "Stretch a [ __ ] [music] Miss is incredible.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/UdqIUbjG5sk?t=354",
+   "known": null
+  },
+  {
+   "t": 371.4,
+   "text": "I'm harder than Wizzy the lane and the pros got me thinking the pains looking to death determined",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/UdqIUbjG5sk?t=371",
+   "known": null
+  },
+  {
+   "t": 376.2,
+   "text": "to die. I reside down [ __ ] [music] the whole scene unless you a part of the team.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/UdqIUbjG5sk?t=376",
+   "known": null
+  },
+  {
+   "t": 410,
+   "text": "[music] with me and I win till the day I die",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/UdqIUbjG5sk?t=410",
+   "known": null
+  },
+  {
+   "t": 425.2,
+   "text": "That's it. Oh, hit no miss.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/UdqIUbjG5sk?t=425",
+   "known": null
+  },
+  {
+   "t": 432.7,
+   "text": "Oh, hit no miss.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/UdqIUbjG5sk?t=432",
+   "known": null
+  },
+  {
+   "t": 452.2,
+   "text": "Always me and [music] I and it be that way to the day I die.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/UdqIUbjG5sk?t=452",
+   "known": null
+  },
+  {
+   "t": 1034.8,
+   "text": "Can't wait for the day that I tell them I made it, but I keep on reaching and missing the stars.",
+   "topics": [
+    "mistake"
+   ],
+   "places": [
+    "keep"
+   ],
+   "link": "https://youtu.be/UdqIUbjG5sk?t=1034",
+   "known": null
+  },
+  {
+   "t": 1043,
+   "text": "I hate the fact that I've been feeling dead.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/UdqIUbjG5sk?t=1043",
+   "known": null
+  },
+  {
+   "t": 1092.2,
+   "text": "But I keep [music] it moving when I'm dead inside.",
+   "topics": [
+    "mistake"
+   ],
+   "places": [
+    "keep"
+   ],
+   "link": "https://youtu.be/UdqIUbjG5sk?t=1092",
+   "known": null
+  },
+  {
+   "t": 1110.6,
+   "text": "Call 911 cuz I'm dead.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/UdqIUbjG5sk?t=1110",
+   "known": null
+  }
+ ],
+ "textNotes": [],
+ "candidateMechanics": [],
+ "transcriptSource": "youtube:en",
+ "transcriptLines": 339,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": true,
+  "offsetMethod": "detected: end of the loading screen into the raid",
+  "templateScale": [
+   1.11,
+   1
+  ],
+  "templateScore": [
+   0.81,
+   0.943
+  ],
+  "complete": true,
+  "transcript": "youtube:en",
+  "notes": []
+ },
+ "curated": null
 }

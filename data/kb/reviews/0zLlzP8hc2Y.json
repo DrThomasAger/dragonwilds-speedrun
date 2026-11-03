@@ -1,11 +1,345 @@
 {
  "id": "0zLlzP8hc2Y",
  "url": "https://www.youtube.com/watch?v=0zLlzP8hc2Y",
- "reviewedAt": "2026-11-03T07:39:23.646Z",
+ "reviewedAt": "2026-11-03T18:01:36.171Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] 0zLlzP8hc2Y: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Dragonwilds Scorned Wilderness Raid Speedrun 3:27"
+ "status": "ok",
+ "title": "Dragonwilds Scorned Wilderness Raid Speedrun 3:27",
+ "author": "ShadowStalkerTM",
+ "date": "2026-09-25",
+ "videoDuration": 232,
+ "kind": "run",
+ "from": [
+  "speedrun.com",
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": 1,
+ "runStatus": "verified",
+ "bracket": "Pre 1.0.0.6",
+ "src": "mkn1ol1m",
+ "statedTime": 207,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [
+  28.9,
+  86,
+  223.8
+ ],
+ "segmentTimes": [
+  null,
+  57.1,
+  null,
+  null,
+  null
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 28.9,
+   "tEnd": 86,
+   "segment": 1,
+   "name": "Fragments of Ghornfell",
+   "kind": "faster",
+   "delta": -4,
+   "seg": 57.1,
+   "description": "Fragments of Ghornfell: 57.1 s — 4.0 s faster than every reference run (best TexasPete 61.1 s).  Possible skip or route not in the reference set.",
+   "frames": "0zLlzP8hc2Y/anomaly-0-seg1.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 34.7,
+   "dur": 2,
+   "segment": 1
+  },
+  {
+   "t": 47.1,
+   "dur": 1.7,
+   "segment": 1
+  },
+  {
+   "t": 54.1,
+   "dur": 1,
+   "segment": 1
+  },
+  {
+   "t": 91.7,
+   "dur": 1.7,
+   "segment": 2
+  },
+  {
+   "t": 99.5,
+   "dur": 1.9,
+   "segment": 2
+  },
+  {
+   "t": 118.4,
+   "dur": 1,
+   "segment": 2
+  },
+  {
+   "t": 149.1,
+   "dur": 0.5,
+   "segment": 2
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 28.9,
+    "score": 0.905
+   },
+   {
+    "t": 86,
+    "score": 0.896
+   }
+  ],
+  "end": {
+   "t": 223.8,
+   "plate": [
+    210,
+    223.7
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": null
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "could be faster but i don't think i'll do more of this",
+   "topics": [
+    "timing"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@ShadowStalkerTM",
+   "likes": 0,
+   "text": "it's patched 😒",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Jamspoon6",
+   "likes": 0,
+   "text": "Sweet run, do you know if the extraction unlock for the keep is patched too or is it just the first one? Cus that one is such a sweet skip",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@ShadowStalkerTM",
+   "likes": 0,
+   "text": "all the extraction skips in my run seems to be patched since it doesn't work for me anymore (only did 3-4 raids since patch)\nthe kuldra skip at 2:07 is the only thing that worked for me in all the runs i did",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@onionknight69",
+   "likes": 0,
+   "text": "People say it's patched. Must have just been on my end but i was able to do the extraction bug on my 2nd run today 9/27. Started off normal farming stuff and left after 1st extraction and when i came back the 2nd one was there and then all the rest after i left.",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@AidantheLengthy",
+   "likes": 0,
+   "text": "Can you explain how the first teleport trick unlocks the 3rd spawn point?",
+   "topics": [
+    "trick",
+    "respawn"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@ShadowStalkerTM",
+   "likes": 0,
+   "text": "it's patched 😥",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@ShadowStalkerTM",
+   "likes": 0,
+   "text": "not for me but one of the commenters said the extraction bug started workeing for him after a normal raid.\nonly thing i can confrm still working is kuldra fight skip (2:07)",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@ricksmith7007",
+   "likes": 0,
+   "text": "is this patched?",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@ShadowStalkerTM",
+   "likes": 0,
+   "text": " @ricksmith7007  my bad, the checkpoint thing is patched now.\nweird that yestarday when i saw your comment i opened the game to test it (post update) and it worked fine but today when i saw your and the other 2 comments i tried again (no update) and now it doesn't work.\n\nthe only thing that did work for me when tested today was kuldra fight skip at 2:07, the other things didn't work. Fragments of …",
+   "topics": [
+    "skip",
+    "glitch",
+    "respawn"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=0zLlzP8hc2Y",
+   "quote": "Sweet run, do you know if the extraction unlock for the keep is patched too or is it just the first one? Cus that one is such a sweet skip",
+   "unseen": [
+    "sweet",
+    "such"
+   ],
+   "nearestKnown": null,
+   "author": "@Jamspoon6"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=0zLlzP8hc2Y",
+   "quote": "all the extraction skips in my run seems to be patched since it doesn't work for me anymore (only did 3-4 raids since patch)\nthe kuldra skip at 2:07 is the only thing that worked for me in all the runs i did",
+   "unseen": [
+    "seems",
+    "doesn't",
+    "anymore"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@ShadowStalkerTM"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=0zLlzP8hc2Y",
+   "quote": "Can you explain how the first teleport trick unlocks the 3rd spawn point?",
+   "unseen": [
+    "explain"
+   ],
+   "nearestKnown": null,
+   "author": "@AidantheLengthy"
+  },
+  {
+   "source": "timing",
+   "t": 28.9,
+   "link": "https://youtu.be/0zLlzP8hc2Y?t=28",
+   "quote": "Fragments of Ghornfell: 57.1 s — 4.0 s faster than every reference run (best TexasPete 61.1 s).  Possible skip or route not in the reference set.",
+   "segment": 1,
+   "frames": "0zLlzP8hc2Y/cand-29.png"
+  }
+ ],
+ "transcriptSource": "none",
+ "transcriptLines": 0,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 2,
+  "end": true,
+  "offsetMethod": null,
+  "templateScale": [
+   1.02,
+   0.98
+  ],
+  "templateScore": [
+   0.892,
+   0.933
+  ],
+  "complete": false,
+  "transcript": "none",
+  "notes": [
+   "No run start found (first banner at 28.9 s video): split 1 unknown; later segments are measured banner to banner."
+  ]
+ },
+ "curated": null
 }

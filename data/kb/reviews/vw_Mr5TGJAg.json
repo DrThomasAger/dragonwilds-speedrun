@@ -1,11 +1,382 @@
 {
  "id": "vw_Mr5TGJAg",
  "url": "https://www.youtube.com/watch?v=vw_Mr5TGJAg",
- "reviewedAt": "2026-11-03T07:38:58.004Z",
+ "reviewedAt": "2026-11-03T17:55:09.689Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] vw_Mr5TGJAg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Runescape: Dragonwilds | 8:32 Kuldra | 1.0.1 Day 1 Strats"
+ "status": "ok",
+ "title": "Runescape: Dragonwilds | 8:32 Kuldra | 1.0.1 Day 1 Strats",
+ "author": "Nano",
+ "date": "2026-10-15",
+ "videoDuration": 543,
+ "kind": "run",
+ "from": [
+  "kb/raw/youtube",
+  "register"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": 512,
+ "patchAtUpload": null,
+ "duration": 512.1,
+ "offset": 17.8,
+ "offsetMethod": "detected: end of the loading screen into the raid",
+ "splits": [
+  90.4,
+  174.8,
+  245.5,
+  397.4,
+  512.1
+ ],
+ "videoSplits": [
+  108.2,
+  192.6,
+  263.3,
+  415.2,
+  529.9
+ ],
+ "segmentTimes": [
+  90.4,
+  84.4,
+  70.7,
+  151.9,
+  114.7
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [
+  {
+   "t": 116.1,
+   "dur": 0.9,
+   "segment": 1
+  },
+  {
+   "t": 122.4,
+   "dur": 2.1,
+   "segment": 1
+  },
+  {
+   "t": 433.5,
+   "dur": 0.6,
+   "segment": 4
+  },
+  {
+   "t": 466.9,
+   "dur": 0.4,
+   "segment": 4
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 108.2,
+    "score": 0.854
+   },
+   {
+    "t": 192.6,
+    "score": 0.853
+   },
+   {
+    "t": 263.3,
+    "score": 0.853
+   },
+   {
+    "t": 415.2,
+    "score": 0.856
+   }
+  ],
+  "end": {
+   "t": 529.9,
+   "plate": [
+    516,
+    529.8
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": 17.8
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "See the new WR here: https://www.youtube.com/watch?v=doVQ9Ph256g",
+   "topics": [
+    "timing"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• Thanks to @Dotxygaming for the plunge-cancel tech!",
+   "topics": [
+    "movement",
+    "cancel",
+    "trick"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• This run could be so much more clean, but I wanted to get the early strats posted so it could develop from here.",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• zoop across to necro land",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• zoop left side off rocks left of bridge towards top of pillar on left, needs decent height, may or may not need both dashes depending on strength of zoop",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• respawn, since this uh... does that.",
+   "topics": [
+    "respawn"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• windjump up to air door, from tip of rubble pile and go through",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• exit through hole in wall above orb dispenser",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• Air Thane takes like 15 minutes to respawn, it's best to just sleep through a night after completing a run... otherwise he doesn't spawn in the next run and ruins your time.",
+   "topics": [
+    "respawn"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Dotxygaming",
+   "likes": 1,
+   "text": "sick run, love to see it\n\nhopefully most of these skips stay alive lol",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@iNanobit",
+   "likes": 0,
+   "text": "I fact yes I did it myself when cutting it because I am stupid. This is fixed in later videos...",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@JacksonHaginPhotography",
+   "likes": 0,
+   "text": "i’m very confused\nhow do you zoop so consistently to get that insane distance from just one surge??",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@restplz11",
+   "likes": 0,
+   "text": "When i phase dash towards kuldra heart its not letting me jump after. Any tips?",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@iNanobit",
+   "likes": 0,
+   "text": "At around 8:10 ish if I understand correctly? I'm touching the ground here before jumping. To get inside the heart you just have to enter it from approximately the top half, but the exact place you stand inside does matter a bit. If I'm misunderstanding sorry, but I might have an explainer video up soon for the whole run, including easier and harder routes. Kinda waiting to see what the next patch…",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Sir_Rebral",
+   "likes": 1,
+   "text": "From the latest reddit post by jagex: \"Fixes for skips in the Scorned Wilderness Raid.\" are incoming...\n\nI've been enjoying speedrunning and watching speed runs of the raid but it looks like they're adamant about forcing us all to do it the intended way.",
+   "topics": [
+    "skip"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=vw_Mr5TGJAg",
+   "quote": "• Thanks to @Dotxygaming for the plunge-cancel tech!",
+   "unseen": [
+    "tech"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=vw_Mr5TGJAg",
+   "quote": "• zoop left side off rocks left of bridge towards top of pillar on left, needs decent height, may or may not need both dashes depending on strength of zoop",
+   "unseen": [
+    "towards",
+    "decent",
+    "strength"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=vw_Mr5TGJAg",
+   "quote": "• exit through hole in wall above orb dispenser",
+   "unseen": [],
+   "nearestKnown": null
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=vw_Mr5TGJAg",
+   "quote": "sick run, love to see it\n\nhopefully most of these skips stay alive lol",
+   "unseen": [
+    "sick",
+    "love",
+    "hopefully",
+    "alive"
+   ],
+   "nearestKnown": null,
+   "author": "@Dotxygaming"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=vw_Mr5TGJAg",
+   "quote": "i’m very confused\nhow do you zoop so consistently to get that insane distance from just one surge??",
+   "unseen": [
+    "confused",
+    "consistently",
+    "insane"
+   ],
+   "nearestKnown": null,
+   "author": "@JacksonHaginPhotography"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=vw_Mr5TGJAg",
+   "quote": "From the latest reddit post by jagex: \"Fixes for skips in the Scorned Wilderness Raid.\" are incoming...\n\nI've been enjoying speedrunning and watching speed runs of the raid but it looks like they're adamant about forcing us all to do it the intended way.",
+   "unseen": [
+    "reddit",
+    "incoming",
+    "i've",
+    "enjoying",
+    "speedrunning",
+    "watching",
+    "speed",
+    "looks"
+   ],
+   "nearestKnown": null,
+   "author": "@Sir_Rebral"
+  }
+ ],
+ "transcriptSource": "youtube:en",
+ "transcriptLines": 12,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": true,
+  "offsetMethod": "detected: end of the loading screen into the raid",
+  "templateScale": [
+   0.91,
+   0.81
+  ],
+  "templateScore": [
+   0.839,
+   0.892
+  ],
+  "complete": true,
+  "statedTime": 512,
+  "statedDiff": 0.1,
+  "transcript": "youtube:en",
+  "notes": []
+ },
+ "curated": null
 }

@@ -1,11 +1,855 @@
 {
  "id": "s9cyeL2c-qg",
  "url": "https://www.youtube.com/watch?v=s9cyeL2c-qg",
- "reviewedAt": "2026-11-03T07:38:33.793Z",
+ "reviewedAt": "2026-11-03T17:40:57.942Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] s9cyeL2c-qg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": " Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!"
+ "status": "ok",
+ "title": "Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!",
+ "author": "That's So Wild Gaming",
+ "date": "2026-10-15",
+ "videoDuration": 668,
+ "kind": "run",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "register",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [],
+ "segmentTimes": [],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [],
+ "events": null,
+ "commentary": [
+  {
+   "t": 8,
+   "text": "The skips that we all know",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=8",
+   "known": null
+  },
+  {
+   "t": 17.2,
+   "text": "today and I found a couple that may really help people if they haven't found them already.",
+   "topics": [
+    "trick"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=17",
+   "known": null
+  },
+  {
+   "t": 43.1,
+   "text": "This skip is basic and it starts worth doing saves a little bit of time.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=43",
+   "known": null
+  },
+  {
+   "t": 88.9,
+   "text": "getting a death.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=88",
+   "known": null
+  },
+  {
+   "t": 95.3,
+   "text": "But yeah, we're coming up to the first skip that's been blocked for the moment.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=95",
+   "known": null
+  },
+  {
+   "t": 104.7,
+   "text": "Um and flying from that gets you through the area.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=104",
+   "known": null
+  },
+  {
+   "t": 113.8,
+   "text": "Yeah, I do. So I literally found this by accident.",
+   "topics": [
+    "trick"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=113",
+   "known": null
+  },
+  {
+   "t": 136.2,
+   "text": "Uh you can kind of phase through that edge and fall and take a death.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=136",
+   "known": null
+  },
+  {
+   "t": 140,
+   "text": "Um but we need to do the first um magic dash uh across this uh gap here.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=140",
+   "known": null
+  },
+  {
+   "t": 148.2,
+   "text": "So we need the surge ability uh from the magic tree and the double dash from the agility tree.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=148",
+   "known": "tech-surge"
+  },
+  {
+   "t": 156.1,
+   "text": "Um and then you do a surge dash into a jump into a double dash and that will get you across",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=156",
+   "known": "tech-infjump"
+  },
+  {
+   "t": 165.2,
+   "text": "You skip that whole puzzle there.",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "puzzle"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=165",
+   "known": null
+  },
+  {
+   "t": 168.3,
+   "text": "I was quite happy to find that little skip there.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=168",
+   "known": null
+  },
+  {
+   "t": 190,
+   "text": "the skip that's still active.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=190",
+   "known": null
+  },
+  {
+   "t": 194.4,
+   "text": "Crouching down to get through the gap and then basically fall and double jump into the right",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=194",
+   "known": "tech-infjump"
+  },
+  {
+   "t": 201.1,
+   "text": "And then yeah, this uh this skip was already there.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=201",
+   "known": null
+  },
+  {
+   "t": 240.3,
+   "text": "Now, it's This is the second skip that's been",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=240",
+   "known": null
+  },
+  {
+   "t": 244,
+   "text": "on the patch.",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=244",
+   "known": null
+  },
+  {
+   "t": 245.6,
+   "text": "It's blocked by an invisible wall.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=245",
+   "known": null
+  },
+  {
+   "t": 247.7,
+   "text": "So, unfortunately, the only way I work I found a work around was to go do a slight bit of the",
+   "topics": [
+    "trick"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=247",
+   "known": null
+  },
+  {
+   "t": 259,
+   "text": "the air cipher or the wall or whatever it is.",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "air"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=259",
+   "known": null
+  },
+  {
+   "t": 289,
+   "text": "Wind dash up to this ledge here.",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "ledge"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=289",
+   "known": null
+  },
+  {
+   "t": 294,
+   "text": "And just skip the previous skip.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=294",
+   "known": null
+  },
+  {
+   "t": 296.1,
+   "text": "Uh I say stupidest door here just in case you do die.",
+   "topics": [
+    "mistake"
+   ],
+   "places": [
+    "door"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=296",
+   "known": null
+  },
+  {
+   "t": 305.7,
+   "text": "this hole in the wall here.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=305",
+   "known": null
+  },
+  {
+   "t": 308.6,
+   "text": "You can go back to doing the original skip.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=308",
+   "known": null
+  },
+  {
+   "t": 313.7,
+   "text": "Air dash up to this rock here.",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "air",
+    "rock"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=313",
+   "known": "zoop"
+  },
+  {
+   "t": 316.6,
+   "text": "Wind step even.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=316",
+   "known": null
+  },
+  {
+   "t": 317.6,
+   "text": "Wind step to that ledge there.",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "ledge"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=317",
+   "known": null
+  },
+  {
+   "t": 320.7,
+   "text": "As you wind step up to this wall.",
+   "topics": [
+    "movement",
+    "skip"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=320",
+   "known": null
+  },
+  {
+   "t": 327.4,
+   "text": "Now, this is where we need to do another dash.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=327",
+   "known": null
+  },
+  {
+   "t": 330.5,
+   "text": "Um do the third dash, do a jump, do a double dash.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=330",
+   "known": "tech-infjump"
+  },
+  {
+   "t": 357.6,
+   "text": "I can't tell you how many times I've died on this bit from rushing, but thankfully I was able",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=357",
+   "known": null
+  },
+  {
+   "t": 371.4,
+   "text": "is where you literally I can't find a way to skip it.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=371",
+   "known": null
+  },
+  {
+   "t": 493.4,
+   "text": "even that much uh longer than the original skip to be fair.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=493",
+   "known": null
+  },
+  {
+   "t": 526.2,
+   "text": "the the skips in this if you've seen them already exactly the same.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=526",
+   "known": null
+  },
+  {
+   "t": 537.6,
+   "text": "Wind stepping up through",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=537",
+   "known": null
+  },
+  {
+   "t": 555.6,
+   "text": "And then wind stepping up to the final area of the puzzle.",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "puzzle"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=555",
+   "known": null
+  },
+  {
+   "t": 561.6,
+   "text": "You can do the dash method and just go straight across the bridge or I just air drop down to",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "bridge",
+    "air"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=561",
+   "known": "zoop"
+  },
+  {
+   "t": 575,
+   "text": "Jumping over these rocks and then wind stepping",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=575",
+   "known": null
+  },
+  {
+   "t": 625,
+   "text": "And once you've done it a couple of times, you can literally fly through it.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=625",
+   "known": "s-flight"
+  },
+  {
+   "t": 657.1,
+   "text": "Um and I thought it was worth sharing because there's a couple of skips that I've not seen people",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s9cyeL2c-qg?t=657",
+   "known": null
+  }
+ ],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "With the launch of the new update today, they have patched some skips in the raid. Thankfully a couple still work including the boss skip, however I've had to find a couple of work arounds. Take a look at the run, and let me know if you've found anything i might have missed.",
+   "topics": [
+    "movement",
+    "skip",
+    "glitch",
+    "trick",
+    "mistake"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@MikeyMadness92",
+   "likes": 1,
+   "text": "In kuldra fight, if you look closely when your doing skips you can see little invisible floating cubes and I think those are death cubes you need to avoid, can confirm kuldra skip harder, but doable as before",
+   "topics": [
+    "skip",
+    "mistake"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@WPWArt",
+   "likes": 0,
+   "text": "On the last bit where the elementals are, you can still jump through the gap at the beginning and get off the map. They’ve added some rocks, but if you time it right, you can still do the original skip there to get to kuldras sanctum",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@haydenjones953",
+   "likes": 2,
+   "text": "The vault guardian part- you can jump on the lower part of the pipe and windstep onto the highest part of the pipe (without having to turn the valve to activate the moving platforms)\nAs for the fire, you can siphon the fire anima without stepping on the centre bit by standing close to it (without having to wake up the vault guardians)",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@iNanobit",
+   "likes": 0,
+   "text": "Thanks for the new skip idea after the first BD, I experimented around in that area for awhile, but clearly not enough! I've credited you in the route :)",
+   "topics": [
+    "skip",
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@TheBoar6767",
+   "likes": 0,
+   "text": "So basically they made this harder and messed up Runecrafting. Welp I'm cheeseing this till Runecrafting is fixed",
+   "topics": [
+    "skip",
+    "glitch",
+    "mistake"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Sir_Rebral",
+   "likes": 1,
+   "text": "Fastest is a bit of a lie but that first skip next to the black dragon is new to me. For the Stronghold, you don't need to mine the wall or kill the rats just let the Thane walk out of the room on the right as you enter (he likes to walk through the metal bars) kill him then windstep up. You also don't need to bother activating the ledges in the elemental room either you can just windstep up on to…",
+   "topics": [
+    "movement",
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Sir_Rebral",
+   "likes": 0,
+   "text": " @SectorTSWG  I uploaded a video with the skips I know of personally including the one I just learned from your video so I've credited you in the description",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@darriangario3447",
+   "likes": 2,
+   "text": "The kuldra skip was bugging for me roday i think they blocked the final platform to get to the heart today",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Sir_Rebral",
+   "likes": 0,
+   "text": "I just did a run and you can still surge+dash across the broken bridge to get to the final platform",
+   "topics": [
+    "movement",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@SectorTSWG",
+   "likes": 0,
+   "text": "​ @Sir_Rebral last night I did a run, and everything that could go wrong went wrong. Felt like I was being messed with. The skips worked, just wasn't as fluid. Gave up after that.",
+   "topics": [
+    "skip",
+    "mistake"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@bnanderson117",
+   "likes": 1,
+   "text": "I cannot do the first phase dash double dash after the first dragon. I can never get far enough",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@SectorTSWG",
+   "likes": 1,
+   "text": "It's all in timing the jump after the magic dash, it kind of propels you. But it is a irritating place to fail at, as the run to that part is so tedious. \n\nI've found an easier way, I'll post it shortly 👍",
+   "topics": [
+    "movement",
+    "trick",
+    "mistake"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@mwsyanks",
+   "likes": 0,
+   "text": " @bnanderson117 I agree. I can’t get that same super boost off the initial dash. Are you just walking before you hit that initial dash or do you sprint into it? Do you jump before it? Does it matter what order you cast the two spells?\n\nOverall, thanks for the run, super helpful!",
+   "topics": [
+    "movement"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "transcript",
+   "t": 43.1,
+   "link": "https://youtu.be/s9cyeL2c-qg?t=43",
+   "quote": "This skip is basic and it starts worth doing saves a little bit of time.",
+   "unseen": [
+    "basic",
+    "worth",
+    "doing"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 95.3,
+   "link": "https://youtu.be/s9cyeL2c-qg?t=95",
+   "quote": "But yeah, we're coming up to the first skip that's been blocked for the moment.",
+   "unseen": [
+    "coming",
+    "moment"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 165.2,
+   "link": "https://youtu.be/s9cyeL2c-qg?t=165",
+   "quote": "You skip that whole puzzle there.",
+   "unseen": [],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 168.3,
+   "link": "https://youtu.be/s9cyeL2c-qg?t=168",
+   "quote": "I was quite happy to find that little skip there.",
+   "unseen": [
+    "quite",
+    "happy"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 294,
+   "link": "https://youtu.be/s9cyeL2c-qg?t=294",
+   "quote": "And just skip the previous skip.",
+   "unseen": [
+    "previous"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 308.6,
+   "link": "https://youtu.be/s9cyeL2c-qg?t=308",
+   "quote": "You can go back to doing the original skip.",
+   "unseen": [
+    "doing"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 493.4,
+   "link": "https://youtu.be/s9cyeL2c-qg?t=493",
+   "quote": "even that much uh longer than the original skip to be fair.",
+   "unseen": [
+    "fair"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 526.2,
+   "link": "https://youtu.be/s9cyeL2c-qg?t=526",
+   "quote": "the the skips in this if you've seen them already exactly the same.",
+   "unseen": [
+    "you've",
+    "seen",
+    "exactly"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 657.1,
+   "link": "https://youtu.be/s9cyeL2c-qg?t=657",
+   "quote": "Um and I thought it was worth sharing because there's a couple of skips that I've not seen people",
+   "unseen": [
+    "thought",
+    "worth",
+    "sharing",
+    "couple",
+    "i've",
+    "seen"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=s9cyeL2c-qg",
+   "quote": "With the launch of the new update today, they have patched some skips in the raid. Thankfully a couple still work including the boss skip, however I've had to find a couple of work arounds. Take a look at the run, and let me know if you've found anything i might have missed.",
+   "unseen": [
+    "today",
+    "thankfully",
+    "couple",
+    "including",
+    "however",
+    "i've",
+    "arounds",
+    "you've"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=s9cyeL2c-qg",
+   "quote": "On the last bit where the elementals are, you can still jump through the gap at the beginning and get off the map. They’ve added some rocks, but if you time it right, you can still do the original skip there to get to kuldras sanctum",
+   "unseen": [
+    "elementals",
+    "beginning",
+    "kuldras"
+   ],
+   "nearestKnown": {
+    "id": "s-flight",
+    "name": "Fly through the Sanctum (1.0.1.2)",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@WPWArt"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=s9cyeL2c-qg",
+   "quote": "Thanks for the new skip idea after the first BD, I experimented around in that area for awhile, but clearly not enough! I've credited you in the route :)",
+   "unseen": [
+    "idea",
+    "experimented",
+    "awhile",
+    "i've",
+    "credited"
+   ],
+   "nearestKnown": null,
+   "author": "@iNanobit"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=s9cyeL2c-qg",
+   "quote": " @SectorTSWG  I uploaded a video with the skips I know of personally including the one I just learned from your video so I've credited you in the description",
+   "unseen": [
+    "uploaded",
+    "personally",
+    "including",
+    "learned",
+    "i've",
+    "credited",
+    "description"
+   ],
+   "nearestKnown": null,
+   "author": "@Sir_Rebral"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=s9cyeL2c-qg",
+   "quote": "The kuldra skip was bugging for me roday i think they blocked the final platform to get to the heart today",
+   "unseen": [
+    "bugging",
+    "roday",
+    "today"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@darriangario3447"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=s9cyeL2c-qg",
+   "quote": "​ @Sir_Rebral last night I did a run, and everything that could go wrong went wrong. Felt like I was being messed with. The skips worked, just wasn't as fluid. Gave up after that.",
+   "unseen": [
+    "wrong",
+    "went",
+    "felt",
+    "messed",
+    "wasn't",
+    "fluid"
+   ],
+   "nearestKnown": null,
+   "author": "@SectorTSWG"
+  }
+ ],
+ "transcriptSource": "youtube:en",
+ "transcriptLines": 180,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "error",
+  "visualReason": "download failed: ERROR: unable to download video data: HTTP Error 416: Requested range not satisfiable",
+  "transcript": "youtube:en",
+  "notes": []
+ },
+ "curated": null
 }

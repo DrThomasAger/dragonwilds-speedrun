@@ -1,11 +1,214 @@
 {
  "id": "RFY6kDdxHOg",
  "url": "https://www.youtube.com/watch?v=RFY6kDdxHOg",
- "reviewedAt": "2026-11-03T07:39:37.888Z",
+ "reviewedAt": "2026-11-03T18:03:39.334Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] RFY6kDdxHOg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Runescape Dragonwilds scorned wilderness speed run WORLD RECORD (9:37)"
+ "status": "ok",
+ "title": "Runescape Dragonwilds scorned wilderness speed run WORLD RECORD (9:37)",
+ "author": "wes",
+ "date": "2026-10-09",
+ "videoDuration": 603,
+ "kind": "run",
+ "from": [
+  "speedrun.com",
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered"
+ ],
+ "reference": true,
+ "rank": 4,
+ "runStatus": "verified",
+ "bracket": "1.0.0.6+",
+ "src": "y2488pjz",
+ "statedTime": 583,
+ "patchAtUpload": null,
+ "duration": 577.33,
+ "offset": 15.27,
+ "offsetMethod": "reference (js/data/raid.js wes937, LiveSplit/frame-read)",
+ "splits": [
+  119.83,
+  209.33,
+  270.93,
+  396.83,
+  577.33
+ ],
+ "videoSplits": [
+  135.1,
+  224.6,
+  286.2,
+  412.1,
+  592.6
+ ],
+ "segmentTimes": [
+  119.83,
+  89.5,
+  61.6,
+  125.9,
+  180.5
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [
+  {
+   "t": 172.9,
+   "dur": 0.3,
+   "segment": 1
+  },
+  {
+   "t": 177.2,
+   "dur": 0.8,
+   "segment": 1
+  },
+  {
+   "t": 184.6,
+   "dur": 1,
+   "segment": 1
+  },
+  {
+   "t": 356,
+   "dur": 0.3,
+   "segment": 3
+  },
+  {
+   "t": 441.3,
+   "dur": 1.3,
+   "segment": 4
+  },
+  {
+   "t": 501.8,
+   "dur": 0.8,
+   "segment": 4
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 135.1,
+    "score": 0.887
+   },
+   {
+    "t": 224.6,
+    "score": 0.874
+   },
+   {
+    "t": 286.2,
+    "score": 0.864
+   },
+   {
+    "t": 412.1,
+    "score": 0.877
+   }
+  ],
+  "end": {
+   "t": 592.6,
+   "plate": [
+    579,
+    592.5
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": 14.9
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "World Record",
+   "topics": [
+    "timing"
+   ]
+  },
+  {
+   "where": "speedrun.com comment",
+   "text": "Will clean up and get better times!",
+   "topics": []
+  }
+ ],
+ "candidateMechanics": [],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 1,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": true,
+  "offsetMethod": "reference (js/data/raid.js wes937, LiveSplit/frame-read)",
+  "templateScale": [
+   1.02,
+   0.98
+  ],
+  "templateScore": [
+   0.879,
+   0.925
+  ],
+  "complete": true,
+  "statedTime": 583,
+  "statedDiff": -5.67,
+  "transcript": "whisper:small",
+  "notes": [
+   "Loading-screen end detected at 14.9 s (reference offset 15.27 s, diff 0.37 s).",
+   "Measured 577.33 s vs stated 583 s (-5.67 s): check the start (offset) or a timer stopped early."
+  ]
+ },
+ "curated": null
 }

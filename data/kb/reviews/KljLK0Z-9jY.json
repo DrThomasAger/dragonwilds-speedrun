@@ -1,11 +1,395 @@
 {
  "id": "KljLK0Z-9jY",
  "url": "https://www.youtube.com/watch?v=KljLK0Z-9jY",
- "reviewedAt": "2026-11-03T07:39:10.959Z",
+ "reviewedAt": "2026-11-03T17:57:26.464Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] KljLK0Z-9jY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Runescape: Dragonwilds | 7:04 Kuldra | 1.0.0.6+ Legacy WR"
+ "status": "ok",
+ "title": "Runescape: Dragonwilds | 7:04 Kuldra | 1.0.0.6+ Legacy WR",
+ "author": "Nano",
+ "date": "2026-10-12",
+ "videoDuration": 464,
+ "kind": "run",
+ "from": [
+  "speedrun.com",
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "register"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "verified",
+ "bracket": "1.0.0.6+",
+ "src": "zxr5djkz",
+ "statedTime": 424,
+ "patchAtUpload": null,
+ "duration": 424.8,
+ "offset": 16.4,
+ "offsetMethod": "detected: end of the loading screen into the raid",
+ "splits": [
+  90,
+  160.7,
+  211.8,
+  306.3,
+  424.8
+ ],
+ "videoSplits": [
+  106.4,
+  177.1,
+  228.2,
+  322.7,
+  441.2
+ ],
+ "segmentTimes": [
+  90,
+  70.7,
+  51.1,
+  94.5,
+  118.5
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [
+  {
+   "t": 150.2,
+   "dur": 0.5,
+   "segment": 1
+  },
+  {
+   "t": 344.7,
+   "dur": 0.6,
+   "segment": 4
+  },
+  {
+   "t": 380.7,
+   "dur": 0.4,
+   "segment": 4
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 106.4,
+    "score": 0.864
+   },
+   {
+    "t": 177.1,
+    "score": 0.864
+   },
+   {
+    "t": 228.2,
+    "score": 0.857
+   },
+   {
+    "t": 322.7,
+    "score": 0.857
+   }
+  ],
+  "end": {
+   "t": 441.2,
+   "plate": [
+    427.5,
+    441.1
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": 16.4
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "Run is Obsolete as of Patch 1.0.1, New Strats Here!: https://www.youtube.com/watch?v=doVQ9Ph256g",
+   "topics": [
+    "glitch",
+    "trick"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "New routing ideas from @texaspete.2173 (Some of the zoops, a new jump at Stronghold, and Melee heart) and @wes7918 (Rib Clip at Kuldra Checkpoint) and some of my own. :)",
+   "topics": [
+    "movement",
+    "skip",
+    "respawn"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• It might be possible to get to the first wooden bridge with a good enough Zoop from the Air Anima Pillar... (After it's activated to remove the wall, of course) (~0:35 - 0:43)",
+   "topics": [
+    "movement",
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• With an insane Zoop from vines it's possible to land on the wall with the vine breaking through instead of having to run and Windjump on to it, but I've only done it once. (~1:24 - 1:38)",
+   "topics": [
+    "movement",
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• Likewise you can make it all the way to the door just past the plant with a good enough Zoop from the wall with mobs on it. (~1:41 - 1:45)",
+   "topics": [
+    "movement",
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• You can get a much better Zoop from the vine to bridge that doesn't require any dashes. (~2:13 - 2:18)",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• You can (again) get a much better Zoop from Stronghold to Keep that doesn't require any dashes. (~3:15 - 3:19)",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• Lost about a second to bonking (~3:44) and accidentally tapping shift cancelling my sprint. (~4:04)",
+   "topics": [
+    "movement",
+    "cancel"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• The Windjump can make it all the way to the second rock (~4:35 - 4:40) instead of having to double-jump up.",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• The Rib Clip can be done much faster, if you're lucky with the Windjump and your placement, it can immediately clip you through without having to crouch/swing sword. (~5:08)",
+   "topics": [
+    "movement",
+    "skip",
+    "timing",
+    "mistake"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• I'm not sure if it's better to save the surge leftover at this point and use it like I did (crossing to Kuldra), or use it earlier before windjumping up. I'd have to recast it at the top but it could still be faster, and save me a surge from the second side of Kuldra's bridge to her face (instead of jump/dashing), as well as one for the throat.",
+   "topics": [
+    "movement",
+    "timing"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• The melee safespot inside the heart could probably be entered faster.",
+   "topics": [
+    "timing"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• Overall just doing things more cleanly will produce a sub 7 considering my sum of best is 6:58.",
+   "topics": [
+    "timing"
+   ]
+  },
+  {
+   "where": "speedrun.com comment",
+   "text": "**Run Notes:**\n\n• It might be possible to get to the first wooden bridge with a good enough Zoop from the Air Anima Pillar... (After it's activated to remove the wall, of course) (~0:35 - 0:43) \n\n• With an insane Zoop from vines it's possible to land on the wall with the vine breaking through instead of having to run and Windjump on to it, but I've only done it once. (~1:24 - 1:38) \n\n• Likewise you can make it all the way to the door just past the plant with a good enough Zoop from the wall with mobs on it. (~1:41 - 1:45) \n\n• You can get a much better Zoop from the vine to bridge that doesn't require any dashes. (~2:13 - 2:18) \n\n• You can (again) get a much better Zoop from Stronghold to Keep that doesn't require any dashes. (~3:15 - 3:19) \n\n• Got stuck here for a second lmao. Don't do that. (~3:26) \n\n• Lost about a second to bonking (~3:44) and accidentally tapping shift cancelling my sprint. (~4:04) \n\n• The Windjump can make it all the way to the second rock (~4:35 - 4:40) instead of having to double-jump up. \n\n• The Rib Clip can be done much faster, if you're lucky with the Windjump and your placement, it can immediately clip you through without having to crouch/swing sword. (~5:08) \n\n• I'm not sure if it's better to save the surge leftover at this point and use it like I did (crossing to Kuldra), or use it earlier before Windjumping up. I'd have to recast it at the top but it could still be faster, and save me a surge from the second side of Kuldra's bridge to her face (instead of jump/dashing), as well as one for the throat. \n\n• The melee safespot inside the heart could probably be entered faster. \n\n• Overall just doing things more cleanly will produce a sub 7 considering my sum of best is 6:58.",
+   "topics": [
+    "movement",
+    "skip",
+    "cancel",
+    "timing",
+    "mistake"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=KljLK0Z-9jY",
+   "quote": "New routing ideas from @texaspete.2173 (Some of the zoops, a new jump at Stronghold, and Melee heart) and @wes7918 (Rib Clip at Kuldra Checkpoint) and some of my own. :)",
+   "unseen": [
+    "ideas",
+    "zoops"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   }
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=KljLK0Z-9jY",
+   "quote": "• With an insane Zoop from vines it's possible to land on the wall with the vine breaking through instead of having to run and Windjump on to it, but I've only done it once. (~1:24 - 1:38)",
+   "unseen": [
+    "insane",
+    "breaking",
+    "having",
+    "i've"
+   ],
+   "nearestKnown": {
+    "id": "s-necro",
+    "name": "Skip the necromancer area (zoop to necro land)",
+    "src": "route.js",
+    "score": 0.5
+   }
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=KljLK0Z-9jY",
+   "quote": "• Likewise you can make it all the way to the door just past the plant with a good enough Zoop from the wall with mobs on it. (~1:41 - 1:45)",
+   "unseen": [
+    "likewise",
+    "plant"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=KljLK0Z-9jY",
+   "quote": "• You can get a much better Zoop from the vine to bridge that doesn't require any dashes. (~2:13 - 2:18)",
+   "unseen": [
+    "better",
+    "doesn't",
+    "require"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=KljLK0Z-9jY",
+   "quote": "• You can (again) get a much better Zoop from Stronghold to Keep that doesn't require any dashes. (~3:15 - 3:19)",
+   "unseen": [
+    "better",
+    "doesn't",
+    "require"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=KljLK0Z-9jY",
+   "quote": "• Lost about a second to bonking (~3:44) and accidentally tapping shift cancelling my sprint. (~4:04)",
+   "unseen": [
+    "lost",
+    "bonking",
+    "accidentally",
+    "tapping",
+    "shift",
+    "cancelling"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=KljLK0Z-9jY",
+   "quote": "• The Rib Clip can be done much faster, if you're lucky with the Windjump and your placement, it can immediately clip you through without having to crouch/swing sword. (~5:08)",
+   "unseen": [
+    "immediately",
+    "having",
+    "sword"
+   ],
+   "nearestKnown": null
+  }
+ ],
+ "transcriptSource": "none",
+ "transcriptLines": 0,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": true,
+  "offsetMethod": "detected: end of the loading screen into the raid",
+  "templateScale": [
+   0.9,
+   0.81
+  ],
+  "templateScore": [
+   0.842,
+   0.891
+  ],
+  "complete": true,
+  "statedTime": 424,
+  "statedDiff": 0.8,
+  "transcript": "none",
+  "notes": []
+ },
+ "curated": null
 }

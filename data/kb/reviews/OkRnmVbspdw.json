@@ -1,11 +1,867 @@
 {
  "id": "OkRnmVbspdw",
  "url": "https://www.youtube.com/watch?v=OkRnmVbspdw",
- "reviewedAt": "2026-11-03T07:38:20.107Z",
+ "reviewedAt": "2026-11-03T17:40:57.941Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] OkRnmVbspdw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "24:16 World Record Scorned Wilderness/Kuldra (Hard Mode)"
+ "status": "ok",
+ "title": "24:16 World Record Scorned Wilderness/Kuldra (Hard Mode)",
+ "author": "Logan",
+ "date": "2026-09-23",
+ "videoDuration": 1529,
+ "kind": "run",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": 1456,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [
+  29.1,
+  134.6,
+  392.2,
+  628.1,
+  1473.2
+ ],
+ "segmentTimes": [
+  null,
+  105.5,
+  257.6,
+  235.9,
+  845.1
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 134.6,
+   "tEnd": 392.2,
+   "segment": 2,
+   "name": "The Shattered Stronghold",
+   "kind": "slower",
+   "delta": 157.3,
+   "seg": 257.6,
+   "description": "The Shattered Stronghold: 257.6 s — 157.3 s slower than every reference run (slowest 100.3 s). Different path, deaths or a puzzle done normally.",
+   "frames": "OkRnmVbspdw/anomaly-0-seg2.png"
+  },
+  {
+   "t": 392.2,
+   "tEnd": 628.1,
+   "segment": 3,
+   "name": "Cataclysm Keep",
+   "kind": "slower",
+   "delta": 67.3,
+   "seg": 235.9,
+   "description": "Cataclysm Keep: 235.9 s — 67.3 s slower than every reference run (slowest 168.6 s). Different path, deaths or a puzzle done normally.",
+   "frames": "OkRnmVbspdw/anomaly-1-seg3.png"
+  },
+  {
+   "t": 628.1,
+   "tEnd": 1473.2,
+   "segment": 4,
+   "name": "Kuldra's Sanctum",
+   "kind": "slower",
+   "delta": 664.6,
+   "seg": 845.1,
+   "description": "Kuldra's Sanctum: 845.1 s — 664.6 s slower than every reference run (slowest 180.5 s). Different path, deaths or a puzzle done normally.",
+   "frames": "OkRnmVbspdw/anomaly-2-seg4.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 183,
+   "dur": 0.7,
+   "segment": 2
+  },
+  {
+   "t": 362,
+   "dur": 6.8,
+   "segment": 2
+  },
+  {
+   "t": 376.4,
+   "dur": 1.8,
+   "segment": 2
+  },
+  {
+   "t": 385.6,
+   "dur": 1.7,
+   "segment": 2
+  },
+  {
+   "t": 672.6,
+   "dur": 7.1,
+   "segment": 4
+  },
+  {
+   "t": 686.4,
+   "dur": 0.5,
+   "segment": 4
+  },
+  {
+   "t": 694.3,
+   "dur": 1.4,
+   "segment": 4
+  },
+  {
+   "t": 715.3,
+   "dur": 0.6,
+   "segment": 4
+  },
+  {
+   "t": 1357.2,
+   "dur": 0.3,
+   "segment": 4
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 29.1,
+    "score": 0.858
+   },
+   {
+    "t": 134.6,
+    "score": 0.855
+   },
+   {
+    "t": 392.2,
+    "score": 0.873
+   },
+   {
+    "t": 628.1,
+    "score": 0.863
+   }
+  ],
+  "end": {
+   "t": 1473.2,
+   "plate": [
+    1459.5,
+    1473.1
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": null
+ },
+ "commentary": [
+  {
+   "t": 51.5,
+   "text": "We're already making kind of bad pace here.",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=51",
+   "known": null
+  },
+  {
+   "t": 61.7,
+   "text": "I wonder if the reduced dodge is better than uh reduced sprint.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=61",
+   "known": null
+  },
+  {
+   "t": 116.5,
+   "text": "if like dashing is considered a dodge.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=116",
+   "known": null
+  },
+  {
+   "t": 125.2,
+   "text": "I also don't know if this is skippable here.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=125",
+   "known": null
+  },
+  {
+   "t": 132.2,
+   "text": "But if it is skippable then definitely better to skip this whole area.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=132",
+   "known": null
+  },
+  {
+   "t": 196.7,
+   "text": "It's really doomed if you don't get to skip this zone.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=196",
+   "known": null
+  },
+  {
+   "t": 205.4,
+   "text": "I'll show you guys like a nice little skip that you can do if you don't feel like doing that.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=205",
+   "known": null
+  },
+  {
+   "t": 265.8,
+   "text": "This is what I'm saying about this being extremely buggy because it says that lever is already",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=265",
+   "known": null
+  },
+  {
+   "t": 312.4,
+   "text": "literally every time the rate is so buggy.",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=312",
+   "known": null
+  },
+  {
+   "t": 315.7,
+   "text": "I don't even know why monsters don't respawn like if it's just something in my game like and",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=315",
+   "known": null
+  },
+  {
+   "t": 329.5,
+   "text": "it's just so randomly buggy and",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=329",
+   "known": null
+  },
+  {
+   "t": 335.8,
+   "text": "now apparently these are already charged and I can just go through the gate so I don't know",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "gate"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=335",
+   "known": null
+  },
+  {
+   "t": 388.3,
+   "text": "skip that whole area if we just suicide there",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=388",
+   "known": null
+  },
+  {
+   "t": 397.9,
+   "text": "then we come into this area I don't I don't think you can actually skip this area or at least",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=397",
+   "known": null
+  },
+  {
+   "t": 407.9,
+   "text": "wall come",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=407",
+   "known": null
+  },
+  {
+   "t": 419.5,
+   "text": "lot of these skips are super consistent though like I've never suicided at that spot or later",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=419",
+   "known": null
+  },
+  {
+   "t": 424.1,
+   "text": "and not been able to just skip to the shatter stronghold I don't know why it's like that but",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "stronghold"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=424",
+   "known": null
+  },
+  {
+   "t": 431.3,
+   "text": "kind of buggy I mean it's nice for like farming the raid because you don't need to redo a bunch",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=431",
+   "known": null
+  },
+  {
+   "t": 447,
+   "text": "you can't redo the content because it's all bugged out now",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=447",
+   "known": null
+  },
+  {
+   "t": 518.9,
+   "text": "come over here I think I could double jump over that I forgot I had like a big skip here that",
+   "topics": [
+    "movement",
+    "skip"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=518",
+   "known": "tech-infjump"
+  },
+  {
+   "t": 558.9,
+   "text": "would be a time skip or time save you know so it's a lot that you can just randomly save time",
+   "topics": [
+    "skip",
+    "timing"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=558",
+   "known": null
+  },
+  {
+   "t": 575.7,
+   "text": "it's never reset because I never actually killed those plants or because I safe spotted the",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=575",
+   "known": null
+  },
+  {
+   "t": 586.6,
+   "text": "some reason the whole raid is bugged and I can just run right through it which probably invalidates",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=586",
+   "known": null
+  },
+  {
+   "t": 592.1,
+   "text": "this speedrun wreck but whatever since this is basically guaranteed to be wreck unless I die",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=592",
+   "known": null
+  },
+  {
+   "t": 601.9,
+   "text": "I've died so many times on that boss it's hard to comprehend it and right here I die a bunch",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=601",
+   "known": null
+  },
+  {
+   "t": 619.2,
+   "text": "here I know for a fact that you can't actually skip to kuldras layer until you get past all",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=619",
+   "known": null
+  },
+  {
+   "t": 659.8,
+   "text": "and you wind step on this pipe and then you wind step up here now",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=659",
+   "known": null
+  },
+  {
+   "t": 664.7,
+   "text": "the actual skip here is that you just suicide and",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=664",
+   "known": null
+  },
+  {
+   "t": 668.4,
+   "text": "when you suicide it's going to respawn you at",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=668",
+   "known": null
+  },
+  {
+   "t": 672.6,
+   "text": "kuldras layer or like that's where you'll be able to go so you get to skip the air and the",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "air"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=672",
+   "known": null
+  },
+  {
+   "t": 803.3,
+   "text": "got really lucky with the timing on that thankfully",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=803",
+   "known": null
+  },
+  {
+   "t": 811.9,
+   "text": "on how the r and g works out or whether the fight bugs out or not for some reason on the second",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=811",
+   "known": "s-kuldra"
+  },
+  {
+   "t": 968.2,
+   "text": "actually making some good pace here",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=968",
+   "known": null
+  },
+  {
+   "t": 992.6,
+   "text": "you can get hit like this though like multiple times in a row and just die so and I really",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=992",
+   "known": null
+  },
+  {
+   "t": 1002.2,
+   "text": "you're on a lower difficulty it's probably faster and easier to kill the dragon than it is",
+   "topics": [
+    "timing"
+   ],
+   "places": [
+    "dragon"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=1002",
+   "known": "s-bd1"
+  },
+  {
+   "t": 1023.2,
+   "text": "have died really dumb how it works but it's how it works because",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=1023",
+   "known": null
+  },
+  {
+   "t": 1028.9,
+   "text": "when I was learning this boss I died a bunch to it now",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=1028",
+   "known": null
+  },
+  {
+   "t": 1081.5,
+   "text": "you can actually wind step up here go over here bait the blue dragon in might",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "dragon"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=1081",
+   "known": "s-bd1"
+  },
+  {
+   "t": 1302.8,
+   "text": "attack and the dragon canceled me but whatever it is what it is and",
+   "topics": [
+    "cancel"
+   ],
+   "places": [
+    "dragon"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=1302",
+   "known": "s-bd1"
+  },
+  {
+   "t": 1331.7,
+   "text": "never double click your e also by the way here you'll cancel yourself getting on the cannon",
+   "topics": [
+    "cancel"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=1331",
+   "known": null
+  },
+  {
+   "t": 1359,
+   "text": "you risk the chance of dying without a bunch of potions and stuff I don't know maybe eventually",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=1359",
+   "known": null
+  },
+  {
+   "t": 1442.7,
+   "text": "yeah melee would definitely be faster you'd kill it like 20 seconds faster than this with melee",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=1442",
+   "known": null
+  },
+  {
+   "t": 1447.7,
+   "text": "you just also risk the chance of dying and you have to just play a lot better which I don't",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/OkRnmVbspdw?t=1447",
+   "known": null
+  }
+ ],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "Could probably be optimized for better speed, who knows. I don't know all of the skips and shortcuts yet.",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@voreez333",
+   "likes": 0,
+   "text": "This ain’t world record cuz u can skip the khuldra phases and go straight to the heart so u lost a big chunk of time",
+   "topics": [
+    "skip",
+    "timing"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "transcript",
+   "t": 125.2,
+   "link": "https://youtu.be/OkRnmVbspdw?t=125",
+   "quote": "I also don't know if this is skippable here.",
+   "unseen": [
+    "skippable"
+   ],
+   "nearestKnown": null,
+   "frames": "OkRnmVbspdw/cand-125.png"
+  },
+  {
+   "source": "transcript",
+   "t": 132.2,
+   "link": "https://youtu.be/OkRnmVbspdw?t=132",
+   "quote": "But if it is skippable then definitely better to skip this whole area.",
+   "unseen": [
+    "skippable",
+    "definitely",
+    "better"
+   ],
+   "nearestKnown": null,
+   "frames": "OkRnmVbspdw/cand-132.png"
+  },
+  {
+   "source": "transcript",
+   "t": 196.7,
+   "link": "https://youtu.be/OkRnmVbspdw?t=196",
+   "quote": "It's really doomed if you don't get to skip this zone.",
+   "unseen": [
+    "doomed"
+   ],
+   "nearestKnown": null,
+   "frames": "OkRnmVbspdw/cand-197.png"
+  },
+  {
+   "source": "transcript",
+   "t": 205.4,
+   "link": "https://youtu.be/OkRnmVbspdw?t=205",
+   "quote": "I'll show you guys like a nice little skip that you can do if you don't feel like doing that.",
+   "unseen": [
+    "show",
+    "feel",
+    "doing"
+   ],
+   "nearestKnown": null,
+   "frames": "OkRnmVbspdw/cand-205.png"
+  },
+  {
+   "source": "transcript",
+   "t": 335.8,
+   "link": "https://youtu.be/OkRnmVbspdw?t=335",
+   "quote": "now apparently these are already charged and I can just go through the gate so I don't know",
+   "unseen": [
+    "apparently"
+   ],
+   "nearestKnown": null,
+   "frames": "OkRnmVbspdw/cand-336.png"
+  },
+  {
+   "source": "transcript",
+   "t": 388.3,
+   "link": "https://youtu.be/OkRnmVbspdw?t=388",
+   "quote": "skip that whole area if we just suicide there",
+   "unseen": [
+    "suicide"
+   ],
+   "nearestKnown": null,
+   "frames": "OkRnmVbspdw/cand-388.png"
+  },
+  {
+   "source": "transcript",
+   "t": 419.5,
+   "link": "https://youtu.be/OkRnmVbspdw?t=419",
+   "quote": "lot of these skips are super consistent though like I've never suicided at that spot or later",
+   "unseen": [
+    "consistent",
+    "though",
+    "i've",
+    "never",
+    "suicided"
+   ],
+   "nearestKnown": null,
+   "frames": "OkRnmVbspdw/cand-420.png"
+  },
+  {
+   "source": "transcript",
+   "t": 424.1,
+   "link": "https://youtu.be/OkRnmVbspdw?t=424",
+   "quote": "and not been able to just skip to the shatter stronghold I don't know why it's like that but",
+   "unseen": [
+    "able",
+    "shatter"
+   ],
+   "nearestKnown": null,
+   "frames": "OkRnmVbspdw/cand-424.png"
+  },
+  {
+   "source": "transcript",
+   "t": 558.9,
+   "link": "https://youtu.be/OkRnmVbspdw?t=558",
+   "quote": "would be a time skip or time save you know so it's a lot that you can just randomly save time",
+   "unseen": [
+    "randomly"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 619.2,
+   "link": "https://youtu.be/OkRnmVbspdw?t=619",
+   "quote": "here I know for a fact that you can't actually skip to kuldras layer until you get past all",
+   "unseen": [
+    "fact",
+    "kuldras",
+    "layer"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 664.7,
+   "link": "https://youtu.be/OkRnmVbspdw?t=664",
+   "quote": "the actual skip here is that you just suicide and",
+   "unseen": [
+    "actual",
+    "suicide"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 672.6,
+   "link": "https://youtu.be/OkRnmVbspdw?t=672",
+   "quote": "kuldras layer or like that's where you'll be able to go so you get to skip the air and the",
+   "unseen": [
+    "kuldras",
+    "layer",
+    "you'll",
+    "able"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 1302.8,
+   "link": "https://youtu.be/OkRnmVbspdw?t=1302",
+   "quote": "attack and the dragon canceled me but whatever it is what it is and",
+   "unseen": [
+    "canceled",
+    "whatever"
+   ],
+   "nearestKnown": {
+    "id": "s-bd1",
+    "name": "Black dragon skip",
+    "src": "route.js",
+    "score": 0.5
+   }
+  },
+  {
+   "source": "transcript",
+   "t": 1331.7,
+   "link": "https://youtu.be/OkRnmVbspdw?t=1331",
+   "quote": "never double click your e also by the way here you'll cancel yourself getting on the cannon",
+   "unseen": [
+    "never",
+    "click",
+    "you'll",
+    "yourself"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=OkRnmVbspdw",
+   "quote": "Could probably be optimized for better speed, who knows. I don't know all of the skips and shortcuts yet.",
+   "unseen": [
+    "optimized",
+    "better",
+    "speed",
+    "knows",
+    "shortcuts"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=OkRnmVbspdw",
+   "quote": "This ain’t world record cuz u can skip the khuldra phases and go straight to the heart so u lost a big chunk of time",
+   "unseen": [
+    "khuldra",
+    "lost",
+    "chunk"
+   ],
+   "nearestKnown": null,
+   "author": "@voreez333"
+  }
+ ],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 226,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": true,
+  "offsetMethod": null,
+  "templateScale": [
+   1.04,
+   0.98
+  ],
+  "templateScore": [
+   0.852,
+   0.906
+  ],
+  "complete": false,
+  "transcript": "whisper:small",
+  "notes": [
+   "No run start found (first banner at 29.1 s video): split 1 unknown; later segments are measured banner to banner."
+  ]
+ },
+ "curated": null
 }

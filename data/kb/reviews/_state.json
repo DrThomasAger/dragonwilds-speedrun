@@ -192,11 +192,10 @@
    "title": "13:30 Scorned Wilderness/Kuldra Hard Mode World Record"
   },
   "OkRnmVbspdw": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:38:20.107Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] OkRnmVbspdw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T17:40:57.941Z",
+   "attempts": 0,
    "title": "24:16 World Record Scorned Wilderness/Kuldra (Hard Mode)"
   },
   "p1i-tSCqRAA": {
@@ -222,179 +221,157 @@
    "title": "Runescape Dragonwilds Scorned Wilderness Raid Cheese [7 MINUTE RAIDS]"
   },
   "rESZ696iKto": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:38:33.554Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] rESZ696iKto: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T17:40:57.942Z",
+   "attempts": 0,
    "title": "KULDRA SPEEDRUN"
   },
   "s9cyeL2c-qg": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:38:33.793Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] s9cyeL2c-qg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
-   "title": " Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!"
+   "reviewedAt": "2026-11-03T17:40:57.942Z",
+   "attempts": 0,
+   "title": "Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!"
   },
   "sG-Fu_CvvtY": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:38:39.558Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] sG-Fu_CvvtY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T17:41:04.361Z",
+   "attempts": 0,
    "title": "Runescape Dragonwilds - Kuldra (Solo, Melee, No Damage)"
   },
   "SGsEpn9CeIU": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:38:39.969Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] SGsEpn9CeIU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T17:46:11.161Z",
+   "attempts": 0,
    "title": "RuneScape Dragonwilds: Scorned wilderness raid + Final boss under 36 minutes!"
   },
   "sNllJ4Qm6RY": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:38:45.689Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] sNllJ4Qm6RY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T17:46:12.854Z",
+   "attempts": 0,
    "title": "Runescape Dragonwilds Kuldra Raid 4:14 Glitched Any%"
   },
   "UdqIUbjG5sk": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:38:46.513Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] UdqIUbjG5sk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
-   "title": "Runescape dragonwilds - Kuldra Raid - Solo Run #xboxseriesx "
+   "reviewedAt": "2026-11-03T17:50:58.583Z",
+   "attempts": 0,
+   "title": "Runescape dragonwilds - Kuldra Raid - Solo Run #xboxseriesx"
   },
   "Ukpwi_w-VcE": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:38:51.690Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] Ukpwi_w-VcE: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T17:52:12.406Z",
+   "attempts": 0,
    "title": "Kuldra Duo World Record (8:31) | Dragonwilds 1.0 release"
   },
   "VrZ5uBZ2meM": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:38:52.411Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] VrZ5uBZ2meM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T17:53:25.172Z",
+   "attempts": 0,
    "title": "Runescape Dragonwilds Kuldra Raid 5:07 Glitched Any%"
   },
   "vw_Mr5TGJAg": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:38:58.004Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] vw_Mr5TGJAg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T17:55:09.689Z",
+   "attempts": 0,
    "title": "Runescape: Dragonwilds | 8:32 Kuldra | 1.0.1 Day 1 Strats"
   },
   "WIOk5DxP7kA": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:38:58.846Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] WIOk5DxP7kA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T17:55:12.021Z",
+   "attempts": 0,
    "title": "Fastest way to Kuldra | 22 min 35 sec to finish dungeon | Patch 1.0.1.2"
   },
   "hDT7if6f9Ug": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:39:04.375Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] hDT7if6f9Ug: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T17:56:48.941Z",
+   "attempts": 0,
    "title": "RS Dragonwilds: Scorned Wilderness Raid Speedrun in 5:02 (Patched)"
   },
   "IspjMuF94Iw": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:39:04.842Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] IspjMuF94Iw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T17:56:52.664Z",
+   "attempts": 0,
    "title": "RuneScape Dragonwilds - Scorched Ruins (SOLO) SPEEDRUN Attempt #3 (26:12)"
   },
   "KljLK0Z-9jY": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:39:10.959Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] KljLK0Z-9jY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T17:57:26.464Z",
+   "attempts": 0,
    "title": "Runescape: Dragonwilds | 7:04 Kuldra | 1.0.0.6+ Legacy WR"
   },
   "Xkrf9b-Ph8U": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:39:11.533Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] Xkrf9b-Ph8U: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T17:58:25.898Z",
+   "attempts": 0,
    "title": "RuneScape Dragonwilds - Scorched Ruins (SOLO) SPEEDRUN Attempt #2 (28:45)"
   },
   "yKDHfkxIrU4": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:39:17.828Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] yKDHfkxIrU4: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T17:59:28.969Z",
+   "attempts": 0,
    "title": "Runescape: Dragonwilds | 8:05 Kuldra | 1.0.0.6+ Legacy Run"
   },
   "4hncfjhUvg8": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:39:18.993Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] 4hncfjhUvg8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T18:01:29.477Z",
+   "attempts": 0,
    "title": "Kuldra skipped in 4 mins 40 seconds"
   },
   "0zLlzP8hc2Y": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:39:23.646Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] 0zLlzP8hc2Y: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T18:01:36.171Z",
+   "attempts": 0,
    "title": "Dragonwilds Scorned Wilderness Raid Speedrun 3:27"
   },
   "bJQqgsf2ikk": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:39:24.802Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] bJQqgsf2ikk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T18:02:08.015Z",
+   "attempts": 0,
    "title": "RS Dragonwilds: Scorned Wilderness Raid Speedrun in 3:57 (Former WR) (Patched)"
   },
   "TkqrNQy8_CQ": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:39:29.841Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] TkqrNQy8_CQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T18:02:39.706Z",
+   "attempts": 0,
    "title": "RuneScape Dragonwilds Kuldra Raid FULL RUN | With Time stamps"
   },
   "6N3NwYA5Zh0": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:39:31.861Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] 6N3NwYA5Zh0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T18:02:44.921Z",
+   "attempts": 0,
    "title": "(7:40) Kuldra RAID Speedrun // RS Dragonwilds Patch 1.0.0.6+"
   },
   "lfl8AtveRJI": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:39:35.459Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] lfl8AtveRJI: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T18:03:25.503Z",
+   "attempts": 0,
    "title": "Dragonwilds WORLD RECORD Sub 8:30 run"
   },
   "RFY6kDdxHOg": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:39:37.888Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] RFY6kDdxHOg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T18:03:39.334Z",
+   "attempts": 0,
    "title": "Runescape Dragonwilds scorned wilderness speed run WORLD RECORD (9:37)"
   },
   "UK2-GwCGhHc": {
@@ -1186,6 +1163,27 @@
    "reviewedAt": "2026-11-03T16:35:54.551Z",
    "attempts": 0,
    "title": "Kuldra fight melee-ranged duo"
+  },
+  "TBjBwM0W8r0": {
+   "status": "ok",
+   "level": "full",
+   "reviewedAt": "2026-11-03T17:47:44.276Z",
+   "attempts": 0,
+   "title": "Dragonwilds Kuldra Speedrun 10 :50"
+  },
+  "ta_fkpX-fz4": {
+   "status": "ok",
+   "level": "full",
+   "reviewedAt": "2026-11-03T17:46:50.850Z",
+   "attempts": 0,
+   "title": "RuneScape: Dragonwilds Kuldra Solo"
+  },
+  "UzrTCZh-TfU": {
+   "status": "ok",
+   "level": "full",
+   "reviewedAt": "2026-11-03T17:53:04.457Z",
+   "attempts": 0,
+   "title": "Runescape Dragonwilds | Can I solo Kuldra?"
   }
  }
 }

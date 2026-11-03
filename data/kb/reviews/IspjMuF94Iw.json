@@ -1,11 +1,318 @@
 {
  "id": "IspjMuF94Iw",
  "url": "https://www.youtube.com/watch?v=IspjMuF94Iw",
- "reviewedAt": "2026-11-03T07:39:04.842Z",
+ "reviewedAt": "2026-11-03T17:56:52.664Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] IspjMuF94Iw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "RuneScape Dragonwilds - Scorched Ruins (SOLO) SPEEDRUN Attempt #3 (26:12)"
+ "status": "ok",
+ "title": "RuneScape Dragonwilds - Scorched Ruins (SOLO) SPEEDRUN Attempt #3 (26:12)",
+ "author": "Mattie Beasinger",
+ "date": "2026-10-07",
+ "videoDuration": 1580,
+ "kind": "run",
+ "from": [
+  "speedrun.com",
+  "sources.json",
+  "kb/raw/youtube"
+ ],
+ "reference": false,
+ "rank": 5,
+ "runStatus": "verified",
+ "bracket": "1.0.0.6+",
+ "src": "z54wpegm",
+ "statedTime": 1572,
+ "patchAtUpload": null,
+ "duration": 1548.3,
+ "offset": 8.4,
+ "offsetMethod": "detected: end of the loading screen into the raid",
+ "splits": [
+  199.7,
+  430.4,
+  658.8,
+  915.8,
+  1548.3
+ ],
+ "videoSplits": [
+  208.1,
+  438.8,
+  667.2,
+  924.2,
+  1556.7
+ ],
+ "segmentTimes": [
+  199.7,
+  230.7,
+  228.4,
+  257,
+  632.5
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 8.4,
+   "tEnd": 208.1,
+   "segment": 0,
+   "name": "Dragontail Vines",
+   "kind": "slower",
+   "delta": 79.77,
+   "seg": 199.7,
+   "description": "Dragontail Vines: 199.7 s — 79.8 s slower than every reference run (slowest 119.93 s). Different path, deaths or a puzzle done normally.",
+   "frames": "IspjMuF94Iw/anomaly-0-seg0.png"
+  },
+  {
+   "t": 208.1,
+   "tEnd": 438.8,
+   "segment": 1,
+   "name": "Fragments of Ghornfell",
+   "kind": "slower",
+   "delta": 133.4,
+   "seg": 230.7,
+   "description": "Fragments of Ghornfell: 230.7 s — 133.4 s slower than every reference run (slowest 97.3 s). Different path, deaths or a puzzle done normally.",
+   "frames": "IspjMuF94Iw/anomaly-1-seg1.png"
+  },
+  {
+   "t": 438.8,
+   "tEnd": 667.2,
+   "segment": 2,
+   "name": "The Shattered Stronghold",
+   "kind": "slower",
+   "delta": 128.1,
+   "seg": 228.4,
+   "description": "The Shattered Stronghold: 228.4 s — 128.1 s slower than every reference run (slowest 100.3 s). Different path, deaths or a puzzle done normally.",
+   "frames": "IspjMuF94Iw/anomaly-2-seg2.png"
+  },
+  {
+   "t": 667.2,
+   "tEnd": 924.2,
+   "segment": 3,
+   "name": "Cataclysm Keep",
+   "kind": "slower",
+   "delta": 88.4,
+   "seg": 257,
+   "description": "Cataclysm Keep: 257.0 s — 88.4 s slower than every reference run (slowest 168.6 s). Different path, deaths or a puzzle done normally.",
+   "frames": "IspjMuF94Iw/anomaly-3-seg3.png"
+  },
+  {
+   "t": 924.2,
+   "tEnd": 1556.7,
+   "segment": 4,
+   "name": "Kuldra's Sanctum",
+   "kind": "slower",
+   "delta": 452,
+   "seg": 632.5,
+   "description": "Kuldra's Sanctum: 632.5 s — 452.0 s slower than every reference run (slowest 180.5 s). Different path, deaths or a puzzle done normally.",
+   "frames": "IspjMuF94Iw/anomaly-4-seg4.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 383.7,
+   "dur": 0.5,
+   "segment": 1
+  },
+  {
+   "t": 398.2,
+   "dur": 0.3,
+   "segment": 1
+  },
+  {
+   "t": 681.3,
+   "dur": 6.2,
+   "segment": 3
+  },
+  {
+   "t": 692.5,
+   "dur": 0.8,
+   "segment": 3
+  },
+  {
+   "t": 701.2,
+   "dur": 2.2,
+   "segment": 3
+  },
+  {
+   "t": 944.2,
+   "dur": 0.6,
+   "segment": 4
+  },
+  {
+   "t": 1477.2,
+   "dur": 0.5,
+   "segment": 4
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 208.1,
+    "score": 0.906
+   },
+   {
+    "t": 438.8,
+    "score": 0.905
+   },
+   {
+    "t": 667.2,
+    "score": 0.903
+   },
+   {
+    "t": 924.2,
+    "score": 0.897
+   }
+  ],
+  "end": {
+   "t": 1556.7,
+   "plate": [
+    1543,
+    1556.6
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": 8.4
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "Cut a couple minutes off, honestly not sure what happened with that \"Green Dragon\" midway through. There aren't any green drags here as far as I know so not even going to try to figure that one out lol. Anyway, one thing I have seen online is people using skips to both defeat Kuldra AND unlock all of the checkpoints way way faster. I personally am trying to see how fast it can be done without any …",
+   "topics": [
+    "skip",
+    "timing",
+    "respawn"
+   ]
+  },
+  {
+   "where": "speedrun.com comment",
+   "text": "As I said in the video description, these runs are with NO skips, I have seen a few strats online to get a whole run down to less than 7 minutes but I personally want to push the intended experience to its minimums. Obviously cutting off 2 minutes means that there are tons more of time savers to be done. I am slowly but surely learning the best routes to get through some of the mid section so I am sure I will be chopping off even more time soon",
+   "topics": [
+    "skip",
+    "trick"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=IspjMuF94Iw",
+   "quote": "Cut a couple minutes off, honestly not sure what happened with that \"Green Dragon\" midway through. There aren't any green drags here as far as I know so not even going to try to figure that one out lol. Anyway, one thing I have seen online is people using skips to both defeat Kuldra AND unlock all of the checkpoints way way faster. I personally am trying to see how fast it can be done without any …",
+   "unseen": [
+    "couple",
+    "minutes",
+    "honestly",
+    "happened",
+    "midway",
+    "aren't",
+    "drags",
+    "figure"
+   ],
+   "nearestKnown": {
+    "id": "s-bd1",
+    "name": "Black dragon skip",
+    "src": "route.js",
+    "score": 0.5
+   }
+  },
+  {
+   "source": "speedrun.com comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=IspjMuF94Iw",
+   "quote": "As I said in the video description, these runs are with NO skips, I have seen a few strats online to get a whole run down to less than 7 minutes but I personally want to push the intended experience to its minimums. Obviously cutting off 2 minutes means that there are tons more of time savers to be done. I am slowly but surely learning the best routes to get through some of the mid section so I am sure I will be chopping off even more time soon",
+   "unseen": [
+    "description",
+    "seen",
+    "strats",
+    "online",
+    "less",
+    "minutes",
+    "personally",
+    "experience"
+   ],
+   "nearestKnown": null
+  }
+ ],
+ "transcriptSource": "none",
+ "transcriptLines": 0,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": true,
+  "offsetMethod": "detected: end of the loading screen into the raid",
+  "templateScale": [
+   1.02,
+   0.98
+  ],
+  "templateScore": [
+   0.902,
+   0.924
+  ],
+  "complete": true,
+  "statedTime": 1572,
+  "statedDiff": -23.7,
+  "transcript": "none",
+  "notes": [
+   "Measured 1548.3 s vs stated 1572 s (-23.7 s): check the start (offset) or a timer stopped early."
+  ]
+ },
+ "curated": null
 }

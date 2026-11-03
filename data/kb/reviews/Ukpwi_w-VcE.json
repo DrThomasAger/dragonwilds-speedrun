@@ -1,11 +1,223 @@
 {
  "id": "Ukpwi_w-VcE",
  "url": "https://www.youtube.com/watch?v=Ukpwi_w-VcE",
- "reviewedAt": "2026-11-03T07:38:51.690Z",
+ "reviewedAt": "2026-11-03T17:52:12.406Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] Ukpwi_w-VcE: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Kuldra Duo World Record (8:31) | Dragonwilds 1.0 release"
+ "status": "ok",
+ "title": "Kuldra Duo World Record (8:31) | Dragonwilds 1.0 release",
+ "author": "Special_Atks",
+ "date": "2026-09-16",
+ "videoDuration": 603,
+ "kind": "run",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": 511,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [
+  529.8
+ ],
+ "segmentTimes": [],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [],
+ "events": {
+  "banners": [],
+  "end": {
+   "t": 529.8,
+   "plate": [
+    516,
+    529.7
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": null
+ },
+ "commentary": [
+  {
+   "t": 146,
+   "text": "right, I'm about to kill it dead got the fire",
+   "topics": [
+    "mistake"
+   ],
+   "places": [
+    "fire"
+   ],
+   "link": "https://youtu.be/Ukpwi_w-VcE?t=146",
+   "known": null
+  },
+  {
+   "t": 191,
+   "text": "Spamming charge shooting head shoot",
+   "topics": [
+    "cancel"
+   ],
+   "link": "https://youtu.be/Ukpwi_w-VcE?t=191",
+   "known": null
+  },
+  {
+   "t": 441.9,
+   "text": "Yeah, I do not want to die to something stupid right here again",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/Ukpwi_w-VcE?t=441",
+   "known": null
+  },
+  {
+   "t": 454,
+   "text": "Just melee it to death and that should be world record",
+   "topics": [
+    "timing",
+    "mistake"
+   ],
+   "link": "https://youtu.be/Ukpwi_w-VcE?t=454",
+   "known": null
+  },
+  {
+   "t": 534.1,
+   "text": "Nice, that's gotta be world record right there",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/Ukpwi_w-VcE?t=534",
+   "known": null
+  },
+  {
+   "t": 549,
+   "text": "Gotta be world record",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/Ukpwi_w-VcE?t=549",
+   "known": null
+  },
+  {
+   "t": 557.3,
+   "text": "Good luck. Come on world record reward D -med.",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/Ukpwi_w-VcE?t=557",
+   "known": null
+  },
+  {
+   "t": 575,
+   "text": "I'm just missing my legs drippy",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/Ukpwi_w-VcE?t=575",
+   "known": null
+  }
+ ],
+ "textNotes": [
+  {
+   "where": "comment",
+   "author": "@SpecialAtks",
+   "likes": 0,
+   "text": "Appreciate it! I wanna say this was close to our tenth run lol. Was trying to beat the fastest we saw which was a tiny bit over 10. The dragon items really help! Sub 10 is zooooming.  We did ours on normal since that’s what the early access world was set on. Idk if they will patch it, but if you run far enough when extraction point unlocks you can yeet off a cliff and keep teleporting to the next …",
+   "topics": [
+    "skip",
+    "glitch",
+    "timing",
+    "respawn"
+   ]
+  }
+ ],
+ "candidateMechanics": [],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 95,
+ "transcriptRetry": false,
+ "subsError": "ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests",
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 0,
+  "end": true,
+  "offsetMethod": null,
+  "templateScale": [
+   0.78,
+   0.9
+  ],
+  "templateScore": [
+   0.628,
+   0.882
+  ],
+  "complete": false,
+  "transcript": "whisper:small",
+  "notes": []
+ },
+ "curated": null
 }

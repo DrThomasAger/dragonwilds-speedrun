@@ -1,11 +1,321 @@
 {
  "id": "yKDHfkxIrU4",
  "url": "https://www.youtube.com/watch?v=yKDHfkxIrU4",
- "reviewedAt": "2026-11-03T07:39:17.828Z",
+ "reviewedAt": "2026-11-03T17:59:28.969Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] yKDHfkxIrU4: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Runescape: Dragonwilds | 8:05 Kuldra | 1.0.0.6+ Legacy Run"
+ "status": "ok",
+ "title": "Runescape: Dragonwilds | 8:05 Kuldra | 1.0.0.6+ Legacy Run",
+ "author": "Nano",
+ "date": "2026-10-10",
+ "videoDuration": 543,
+ "kind": "run",
+ "from": [
+  "speedrun.com",
+  "sources.json",
+  "kb/raw/youtube"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "verified",
+ "bracket": "1.0.0.6+",
+ "src": "zpe5n1xy",
+ "statedTime": 485,
+ "patchAtUpload": null,
+ "duration": 485.2,
+ "offset": 44.6,
+ "offsetMethod": "detected: end of the loading screen into the raid",
+ "splits": [
+  101.4,
+  176.8,
+  235.1,
+  335.4,
+  485.2
+ ],
+ "videoSplits": [
+  146,
+  221.4,
+  279.7,
+  380,
+  529.8
+ ],
+ "segmentTimes": [
+  101.4,
+  75.4,
+  58.3,
+  100.3,
+  149.8
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [
+  {
+   "t": 392.7,
+   "dur": 1.9,
+   "segment": 4
+  },
+  {
+   "t": 400.9,
+   "dur": 1.6,
+   "segment": 4
+  },
+  {
+   "t": 415.6,
+   "dur": 0.6,
+   "segment": 4
+  },
+  {
+   "t": 454.4,
+   "dur": 0.4,
+   "segment": 4
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 146,
+    "score": 0.852
+   },
+   {
+    "t": 221.4,
+    "score": 0.851
+   },
+   {
+    "t": 279.7,
+    "score": 0.844
+   },
+   {
+    "t": 380,
+    "score": 0.862
+   }
+  ],
+  "end": {
+   "t": 529.8,
+   "plate": [
+    516,
+    529.7
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": 44.6
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "Run is Obsolete as of Patch 1.0.1, New Strats Here!: https://www.youtube.com/watch?v=doVQ9Ph256g",
+   "topics": [
+    "glitch",
+    "trick"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "Thanks to @SamFPlays for a large part of the routing (but not all of it :D), check out his sub 10 minute explainer video for some of the skips.",
+   "topics": [
+    "skip",
+    "timing"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• The Zoop from Stronghold to Keep could have been stronger (I've made it with 0 Air/Phase Dash before), as well as the one to Kuldra (same story). I suspect the strength of the zoop is dependent on framerate where lower framerates give stronger zoops.",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• The OOB Section can have cleaner Windsteps, skipping 2 Double Jumps.",
+   "topics": [
+    "movement",
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• Need to test if clipping back through the ground at Kuldra is faster than respawning.",
+   "topics": [
+    "skip",
+    "timing",
+    "respawn"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@texaspete.2173",
+   "likes": 0,
+   "text": "Good stuff brother clipping thru to at kuldra definitely faster i just compared our runs. Sure you know but on the website it stops timer after the 15 second heart timer",
+   "topics": [
+    "skip",
+    "timing"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@iNanobit",
+   "likes": 0,
+   "text": "Yea I compared as well it's definitely faster, and I'll be posting an updated run borrowing some of your tech too, after I farm more stamina pots :( Also, yea I noticed Archy timed it at 8:05, maybe it's posted on the discord? (I'm not in it) But there's no rules posted for timing on the raid category, so I naturally assumed it was first to last input which is pretty standard. I don't think the 15…",
+   "topics": [
+    "cancel",
+    "trick",
+    "timing"
+   ]
+  },
+  {
+   "where": "speedrun.com comment",
+   "text": "• The Zoop from Stronghold to Keep could have been stronger (I've made it with 0 Air/Phase Dash before), as well as the one to Kuldra (same story). I suspect the strength of the zoop is dependent on framerate where lower framerates give stronger zoops.\n\n• The OOB Section can have cleaner Windsteps, skipping 2 Double Jumps.\n\n• Need to test if clipping back through the ground at Kuldra is faster than respawning.\n\n",
+   "topics": [
+    "movement",
+    "skip",
+    "timing",
+    "respawn"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=yKDHfkxIrU4",
+   "quote": "Thanks to @SamFPlays for a large part of the routing (but not all of it :D), check out his sub 10 minute explainer video for some of the skips.",
+   "unseen": [
+    "large",
+    "explainer"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=yKDHfkxIrU4",
+   "quote": "• The OOB Section can have cleaner Windsteps, skipping 2 Double Jumps.",
+   "unseen": [
+    "cleaner",
+    "windsteps",
+    "skipping"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=yKDHfkxIrU4",
+   "quote": "• Need to test if clipping back through the ground at Kuldra is faster than respawning.",
+   "unseen": [
+    "clipping",
+    "respawning"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   }
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=yKDHfkxIrU4",
+   "quote": "Good stuff brother clipping thru to at kuldra definitely faster i just compared our runs. Sure you know but on the website it stops timer after the 15 second heart timer",
+   "unseen": [
+    "brother",
+    "clipping",
+    "thru",
+    "definitely",
+    "compared",
+    "website",
+    "stops"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@texaspete.2173"
+  }
+ ],
+ "transcriptSource": "none",
+ "transcriptLines": 0,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": true,
+  "offsetMethod": "detected: end of the loading screen into the raid",
+  "templateScale": [
+   0.91,
+   0.81
+  ],
+  "templateScore": [
+   0.836,
+   0.892
+  ],
+  "complete": true,
+  "statedTime": 485,
+  "statedDiff": 0.2,
+  "transcript": "none",
+  "notes": []
+ },
+ "curated": null
 }

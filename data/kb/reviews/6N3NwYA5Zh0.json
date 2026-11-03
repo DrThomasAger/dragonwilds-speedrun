@@ -1,11 +1,397 @@
 {
  "id": "6N3NwYA5Zh0",
  "url": "https://www.youtube.com/watch?v=6N3NwYA5Zh0",
- "reviewedAt": "2026-11-03T07:39:31.861Z",
+ "reviewedAt": "2026-11-03T18:02:44.921Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] 6N3NwYA5Zh0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "(7:40) Kuldra RAID Speedrun // RS Dragonwilds Patch 1.0.0.6+"
+ "status": "ok",
+ "title": "(7:40) Kuldra RAID Speedrun // RS Dragonwilds Patch 1.0.0.6+",
+ "author": "TexasPete.21",
+ "date": "2026-10-10",
+ "videoDuration": 526,
+ "kind": "run",
+ "from": [
+  "speedrun.com",
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "register",
+  "youtube-search"
+ ],
+ "reference": true,
+ "rank": null,
+ "runStatus": "verified",
+ "bracket": "1.0.0.6+",
+ "src": "zg0641nm",
+ "statedTime": 460,
+ "patchAtUpload": null,
+ "duration": 460.65,
+ "offset": 29.55,
+ "offsetMethod": "reference (js/data/raid.js tp740, LiveSplit/frame-read)",
+ "splits": [
+  90.25,
+  168.55,
+  222.95,
+  324.75,
+  460.65
+ ],
+ "videoSplits": [
+  119.8,
+  198.1,
+  252.5,
+  354.3,
+  490.2
+ ],
+ "segmentTimes": [
+  90.25,
+  78.3,
+  54.4,
+  101.8,
+  135.9
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [
+  {
+   "t": 52.2,
+   "dur": 0.4,
+   "segment": 0
+  },
+  {
+   "t": 146.1,
+   "dur": 0.5,
+   "segment": 1
+  },
+  {
+   "t": 154.6,
+   "dur": 0.9,
+   "segment": 1
+  },
+  {
+   "t": 295.7,
+   "dur": 1,
+   "segment": 3
+  },
+  {
+   "t": 300.9,
+   "dur": 1,
+   "segment": 3
+  },
+  {
+   "t": 336.6,
+   "dur": 0.6,
+   "segment": 3
+  },
+  {
+   "t": 337.8,
+   "dur": 3.1,
+   "segment": 3
+  },
+  {
+   "t": 381.7,
+   "dur": 0.8,
+   "segment": 4
+  },
+  {
+   "t": 422.7,
+   "dur": 0.4,
+   "segment": 4
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 119.8,
+    "score": 0.964
+   },
+   {
+    "t": 198.1,
+    "score": 0.95
+   },
+   {
+    "t": 252.5,
+    "score": 0.91
+   },
+   {
+    "t": 354.3,
+    "score": 0.97
+   }
+  ],
+  "end": {
+   "t": 490.2,
+   "plate": [
+    476.5,
+    490.1
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": 52.6
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "*Former World Record SpeedRun for version Patch 1.0.0.6+",
+   "topics": [
+    "glitch",
+    "timing"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "This run is a mix of some of my original strats and some borrowed. I was able to pull off a sub 9 run while staying in the map and completing the Cataclysm Keep puzzle before I saw some videos of the skip recently.",
+   "topics": [
+    "skip",
+    "trick",
+    "timing"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "We will see how it evolves if some new strats come into play. Cheers",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@koltplan",
+   "likes": 0,
+   "text": "This is so damn clean, awesome work! I learned so many movement tips and tricks from this too! Been having fun trying to find shortcuts out myself, was satisfying watching this and seeing I was on the right track for some. I almost had that gap skip in the 3rd area figured out, i just had to go farther down to the right!!!",
+   "topics": [
+    "skip",
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@TheAwkwardNugget",
+   "likes": 0,
+   "text": "I wanna see a no skip speed run killing all enemies",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@wes7918",
+   "likes": 1,
+   "text": "wow. first im a big nerd and this is awesome, im the one who found out how to get back in the map from that bone by swinging sword. i think its so cool you used that strat! very good run! cant wait to see future times! im a fan!",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@texaspete.2173",
+   "likes": 1,
+   "text": "You’re my hero. What a time saver. A little tricky to get it first try everytime but worth it! I hadn’t seen other people do it on their runs but I did see one must have been you. Took me a long time to put it all together",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@texaspete.2173",
+   "likes": 0,
+   "text": "try not to get too close to the edge or your surge wont work",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@imeanfrtho5625",
+   "likes": 0,
+   "text": " @texaspete.2173 you could AT LEAST give some credit to SamFPlays for all your skips. Also you should have followed his guide better so you can get from the thane to the abyssal demon quicker.",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "speedrun.com comment",
+   "text": "This run is a mix of some of my original strats and some borrowed. I was able to pull off a sub 9 run while staying in the map and completing the Cataclysm Keep puzzle before I saw some videos of the skip recently. \n\nI accidently stopped the clock less than a second short. Total time was roughly 7.40.84\n\nIf you have tried this, you know there is so many places that one small mistake will blow the run. Very happy to pull this near perfect run out. There is room for improvement but it will take many attempts to replicate. \n\nWe will see how it evolves if some new strats come into play. Cheers",
+   "topics": [
+    "skip",
+    "trick",
+    "timing"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=6N3NwYA5Zh0",
+   "quote": "This run is a mix of some of my original strats and some borrowed. I was able to pull off a sub 9 run while staying in the map and completing the Cataclysm Keep puzzle before I saw some videos of the skip recently.",
+   "unseen": [
+    "strats",
+    "borrowed",
+    "able",
+    "pull",
+    "staying",
+    "completing",
+    "recently"
+   ],
+   "nearestKnown": {
+    "id": "keep-oob-legacy",
+    "name": "Cataclysm Keep OOB (original full elemental puzzle skip)",
+    "src": "glitches.json",
+    "score": 0.57
+   }
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=6N3NwYA5Zh0",
+   "quote": "This is so damn clean, awesome work! I learned so many movement tips and tricks from this too! Been having fun trying to find shortcuts out myself, was satisfying watching this and seeing I was on the right track for some. I almost had that gap skip in the 3rd area figured out, i just had to go farther down to the right!!!",
+   "unseen": [
+    "damn",
+    "awesome",
+    "learned",
+    "many",
+    "tips",
+    "tricks",
+    "having",
+    "shortcuts"
+   ],
+   "nearestKnown": null,
+   "author": "@koltplan"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=6N3NwYA5Zh0",
+   "quote": "I wanna see a no skip speed run killing all enemies",
+   "unseen": [
+    "speed"
+   ],
+   "nearestKnown": null,
+   "author": "@TheAwkwardNugget"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=6N3NwYA5Zh0",
+   "quote": "You’re my hero. What a time saver. A little tricky to get it first try everytime but worth it! I hadn’t seen other people do it on their runs but I did see one must have been you. Took me a long time to put it all together",
+   "unseen": [
+    "hero",
+    "saver",
+    "tricky",
+    "everytime",
+    "worth",
+    "hadn",
+    "seen",
+    "their"
+   ],
+   "nearestKnown": null,
+   "author": "@texaspete.2173"
+  },
+  {
+   "source": "speedrun.com comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=6N3NwYA5Zh0",
+   "quote": "This run is a mix of some of my original strats and some borrowed. I was able to pull off a sub 9 run while staying in the map and completing the Cataclysm Keep puzzle before I saw some videos of the skip recently. \n\nI accidently stopped the clock less than a second short. Total time was roughly 7.40.84\n\nIf you have tried this, you know there is so many places that one small mistake will blow the run. Very happy to pull this near perfect run out. There is room for improvement but it will take many attempts to replicate. \n\nWe will see how it evolves if some new strats come into play. Cheers",
+   "unseen": [
+    "strats",
+    "borrowed",
+    "able",
+    "pull",
+    "staying",
+    "completing",
+    "recently",
+    "accidently"
+   ],
+   "nearestKnown": {
+    "id": "keep-oob-legacy",
+    "name": "Cataclysm Keep OOB (original full elemental puzzle skip)",
+    "src": "glitches.json",
+    "score": 0.57
+   }
+  }
+ ],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 1,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": true,
+  "offsetMethod": "reference (js/data/raid.js tp740, LiveSplit/frame-read)",
+  "templateScale": [
+   1,
+   1
+  ],
+  "templateScore": [
+   0.966,
+   0.989
+  ],
+  "complete": true,
+  "statedTime": 460,
+  "statedDiff": 0.65,
+  "transcript": "whisper:small",
+  "notes": [
+   "Loading-screen end detected at 52.6 s (reference offset 29.55 s, diff -23.05 s)."
+  ]
+ },
+ "curated": null
 }

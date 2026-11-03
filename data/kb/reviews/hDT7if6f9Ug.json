@@ -1,11 +1,263 @@
 {
  "id": "hDT7if6f9Ug",
  "url": "https://www.youtube.com/watch?v=hDT7if6f9Ug",
- "reviewedAt": "2026-11-03T07:39:04.375Z",
+ "reviewedAt": "2026-11-03T17:56:48.941Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] hDT7if6f9Ug: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "RS Dragonwilds: Scorned Wilderness Raid Speedrun in 5:02 (Patched)"
+ "status": "ok",
+ "title": "RS Dragonwilds: Scorned Wilderness Raid Speedrun in 5:02 (Patched)",
+ "author": "heartlessedly",
+ "date": "2026-09-21",
+ "videoDuration": 348,
+ "kind": "run",
+ "from": [
+  "speedrun.com",
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "verified",
+ "bracket": "Pre 1.0.0.6",
+ "src": "y64e2p0m",
+ "statedTime": 302,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [
+  33.5,
+  76.6,
+  152.1
+ ],
+ "segmentTimes": [
+  null,
+  43.1,
+  75.5,
+  null,
+  null
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 33.5,
+   "tEnd": 76.6,
+   "segment": 1,
+   "name": "Fragments of Ghornfell",
+   "kind": "faster",
+   "delta": -18,
+   "seg": 43.1,
+   "description": "Fragments of Ghornfell: 43.1 s — 18.0 s faster than every reference run (best TexasPete 61.1 s).  Possible skip or route not in the reference set.",
+   "frames": "hDT7if6f9Ug/anomaly-0-seg1.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 41,
+   "dur": 1.3,
+   "segment": 1
+  },
+  {
+   "t": 48.7,
+   "dur": 1.6,
+   "segment": 1
+  },
+  {
+   "t": 81.9,
+   "dur": 1.3,
+   "segment": 2
+  },
+  {
+   "t": 89.9,
+   "dur": 1.4,
+   "segment": 2
+  },
+  {
+   "t": 106.8,
+   "dur": 1.3,
+   "segment": 2
+  },
+  {
+   "t": 114.2,
+   "dur": 1.8,
+   "segment": 2
+  },
+  {
+   "t": 159.5,
+   "dur": 1.4,
+   "segment": null
+  },
+  {
+   "t": 167.2,
+   "dur": 1.3,
+   "segment": null
+  },
+  {
+   "t": 183.1,
+   "dur": 0.4,
+   "segment": null
+  },
+  {
+   "t": 230.1,
+   "dur": 0.3,
+   "segment": null
+  },
+  {
+   "t": 339.2,
+   "dur": 2.5,
+   "segment": null
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 33.5,
+    "score": 0.879
+   },
+   {
+    "t": 76.6,
+    "score": 0.893
+   },
+   {
+    "t": 152.1,
+    "score": 0.889
+   }
+  ],
+  "end": null,
+  "loadEnd": null
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "That stupid bed killed my sub 5 minute run hahahaha.",
+   "topics": [
+    "timing"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@BigMyloso",
+   "likes": 0,
+   "text": "I found a route that is 4mins 3 seconds! getting about 15 KPH non-sweat... just missing wand",
+   "topics": [
+    "trick",
+    "mistake"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@bf3773",
+   "likes": 0,
+   "text": "Is this patched out now?",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@heartlessedly1904",
+   "likes": 0,
+   "text": "Yes. Its patched now unfortunately. New rules require one single run as death warps should not work.",
+   "topics": [
+    "glitch",
+    "mistake"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "timing",
+   "t": 33.5,
+   "link": "https://youtu.be/hDT7if6f9Ug?t=33",
+   "quote": "Fragments of Ghornfell: 43.1 s — 18.0 s faster than every reference run (best TexasPete 61.1 s).  Possible skip or route not in the reference set.",
+   "segment": 1,
+   "frames": "hDT7if6f9Ug/cand-34.png"
+  }
+ ],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 6,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 3,
+  "end": false,
+  "offsetMethod": null,
+  "templateScale": [
+   0.83,
+   0.78
+  ],
+  "templateScore": [
+   0.889,
+   0.872
+  ],
+  "complete": false,
+  "transcript": "whisper:small",
+  "notes": [
+   "No run start found (first banner at 33.5 s video): split 1 unknown; later segments are measured banner to banner."
+  ]
+ },
+ "curated": null
 }
