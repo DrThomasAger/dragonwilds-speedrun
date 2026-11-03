@@ -1,11 +1,212 @@
 {
  "id": "1Q21XYSKJgo",
  "url": "https://www.youtube.com/watch?v=1Q21XYSKJgo",
- "reviewedAt": "2026-11-03T07:39:55.197Z",
+ "reviewedAt": "2026-11-03T19:41:45.703Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] 1Q21XYSKJgo: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Kuldra Scorned Wilderness Full Raid Skip Guide (Patch 1.0.1) | Runescape Dragonwilds"
+ "status": "ok",
+ "title": "Kuldra Scorned Wilderness Full Raid Skip Guide (Patch 1.0.1) | Runescape Dragonwilds",
+ "author": "zyneater",
+ "date": "2026-10-16",
+ "videoDuration": 1082,
+ "kind": "guide",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "register",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [],
+ "segmentTimes": [],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [],
+ "events": null,
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "i didnt find any of this shit. there's also a better route directly to the first air anima vent that I did not do in the video. planning on becoming a reactor trackmania player so i can say zoop more often.  zoop zoop zyn",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "6:36 - 0-1 skip",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "7:11 - 1-2 skip",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "9:02 - 2-3 skip",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "14:29 - Kuldra skip and tips",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Sir_Rebral",
+   "likes": 0,
+   "text": "Great video dude :)\n\nAt 8:25 you don't have to go so high, you can go straight from where you are as you crouch through the hole. The video on my channel shows it if you want to see but yeah no need to windstep up higher\n\nat 12:39 the way to not agro them is to just touch the front edge of the circle that gives you charge, you still gain charge on the edge but the enemies wont spawn until you move…",
+   "topics": [
+    "movement",
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@zyneater",
+   "likes": 0,
+   "text": "There's a skip for that puzzle entirely now.",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@loopuleasa",
+   "likes": 1,
+   "text": "zammy staff is bugged, it doesnt increase fire dot\nalso dragon gear (all) dont increase damage vs dragons",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@TheRyosteve",
+   "likes": 1,
+   "text": "Im pretty sure they just fixed this today no longer works",
+   "topics": [
+    "glitch"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=1Q21XYSKJgo",
+   "quote": "Great video dude :)\n\nAt 8:25 you don't have to go so high, you can go straight from where you are as you crouch through the hole. The video on my channel shows it if you want to see but yeah no need to windstep up higher\n\nat 12:39 the way to not agro them is to just touch the front edge of the circle that gives you charge, you still gain charge on the edge but the enemies wont spawn until you move…",
+   "unseen": [
+    "great",
+    "higher",
+    "agro",
+    "touch",
+    "circle",
+    "wont",
+    "move"
+   ],
+   "nearestKnown": null,
+   "author": "@Sir_Rebral"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=1Q21XYSKJgo",
+   "quote": "There's a skip for that puzzle entirely now.",
+   "unseen": [
+    "entirely"
+   ],
+   "nearestKnown": null,
+   "author": "@zyneater"
+  }
+ ],
+ "transcriptSource": "none",
+ "transcriptLines": 0,
+ "transcriptRetry": true,
+ "quality": {
+  "visual": "error",
+  "visualReason": "download failed: ERROR: \r[download] Got error: [Errno 11001] getaddrinfo failed. Giving up after 10 retries",
+  "whisperError": "no audio track could be fetched",
+  "transcript": "none",
+  "notes": []
+ },
+ "curated": null
 }

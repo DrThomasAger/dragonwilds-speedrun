@@ -1,11 +1,810 @@
 {
  "id": "0z93qAiBols",
  "url": "https://www.youtube.com/watch?v=0z93qAiBols",
- "reviewedAt": "2026-11-03T07:39:47.020Z",
+ "reviewedAt": "2026-11-03T19:38:39.611Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] 0z93qAiBols: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Runescape Dragonwilds - Duo Raid Guide - Sub 10 minute Kuldra! (Feat. Special Guest UpperDeck67)"
+ "status": "ok",
+ "title": "Runescape Dragonwilds - Duo Raid Guide - Sub 10 minute Kuldra! (Feat. Special Guest UpperDeck67)",
+ "author": "Northforge",
+ "date": "2026-10-16",
+ "videoDuration": 1836,
+ "kind": "guide",
+ "from": [
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [],
+ "segmentTimes": [],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [],
+ "events": null,
+ "commentary": [
+  {
+   "t": 35.4,
+   "text": "are all the skips that are possible without actually exploiting any bugs We we ignore picking",
+   "topics": [
+    "skip",
+    "glitch"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=35",
+   "known": null
+  },
+  {
+   "t": 51.9,
+   "text": "We'll kind of we split up the tasks 5050 So he'll he'll work on one puzzle while I work on",
+   "topics": [
+    "timing"
+   ],
+   "places": [
+    "puzzle"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=51",
+   "known": null
+  },
+  {
+   "t": 57.2,
+   "text": "the next and if there's any skips we'll just push right through and We have ironed it out to",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=57",
+   "known": null
+  },
+  {
+   "t": 62.9,
+   "text": "be like a sub 10 minute caldra fight So we've got it down to pretty much a science at this",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=62",
+   "known": "s-kuldra"
+  },
+  {
+   "t": 138.4,
+   "text": "but we're gonna show you a skip for that as well Good food and drink.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=138",
+   "known": null
+  },
+  {
+   "t": 168.3,
+   "text": "I'm gonna throw the melee gear on",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=168",
+   "known": null
+  },
+  {
+   "t": 270,
+   "text": "attack a lot faster So it's really preference.",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=270",
+   "known": null
+  },
+  {
+   "t": 284.9,
+   "text": "when you run out It's just a tiny bit faster and a little bit more efficient",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=284",
+   "known": null
+  },
+  {
+   "t": 337.1,
+   "text": "Yeah, like I mentioned in the intro there We're gonna be pretty much skipping all the loot",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=337",
+   "known": null
+  },
+  {
+   "t": 341.8,
+   "text": "and any possible skips that don't exploit the game we're gonna be doing so",
+   "topics": [
+    "skip",
+    "glitch"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=341",
+   "known": null
+  },
+  {
+   "t": 347.4,
+   "text": "Just gonna grab the earth anima to get through the earth wall",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "earth",
+    "anima"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=347",
+   "known": null
+  },
+  {
+   "t": 355.7,
+   "text": "Any chests you see as well if you're not going for world record times or anything just go for",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=355",
+   "known": null
+  },
+  {
+   "t": 419.8,
+   "text": "He's a little faster than I expected, but that's all right",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=419",
+   "known": null
+  },
+  {
+   "t": 429.2,
+   "text": "And then we're just gonna take the bridge down to unlock our first checkpoint",
+   "topics": [
+    "respawn"
+   ],
+   "places": [
+    "bridge"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=429",
+   "known": null
+  },
+  {
+   "t": 434.6,
+   "text": "And this is where the first skip is now if this is your first time raiding Uh, when we get",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=434",
+   "known": null
+  },
+  {
+   "t": 455.4,
+   "text": "Yep, you want to collect all those and i'm still missing",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=455",
+   "known": null
+  },
+  {
+   "t": 462.9,
+   "text": "Okay. I'm missing two of them somewhere",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=462",
+   "known": null
+  },
+  {
+   "t": 475.5,
+   "text": "Yeah, ain't nobody got time for that No, but yeah, it's a pretty easy skip that gate stays",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "gate"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=475",
+   "known": null
+  },
+  {
+   "t": 483.2,
+   "text": "The first time and then don't talk about it online or they'll fix it by the way Yeah, we don't",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=483",
+   "known": null
+  },
+  {
+   "t": 488.6,
+   "text": "we don't call it gonna be our little secret",
+   "topics": [
+    "trick"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=488",
+   "known": null
+  },
+  {
+   "t": 493.3,
+   "text": "And then again another skip by the poison rats.",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "poison"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=493",
+   "known": "s-poison"
+  },
+  {
+   "t": 500.5,
+   "text": "So we're gonna prep a wind step.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=500",
+   "known": null
+  },
+  {
+   "t": 502.1,
+   "text": "That's not wind step",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=502",
+   "known": null
+  },
+  {
+   "t": 506,
+   "text": "Yep, perfect wind step.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=506",
+   "known": null
+  },
+  {
+   "t": 512.1,
+   "text": "and we're gonna continue to skip here",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=512",
+   "known": null
+  },
+  {
+   "t": 518.3,
+   "text": "And get another wind step ready before these guys smack you",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=518",
+   "known": null
+  },
+  {
+   "t": 556.8,
+   "text": "If you uh have the surge spell you can use that to get across as well without using the wind",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=556",
+   "known": null
+  },
+  {
+   "t": 563,
+   "text": "Same with the double dash some",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=563",
+   "known": null
+  },
+  {
+   "t": 590,
+   "text": "and die",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=590",
+   "known": null
+  },
+  {
+   "t": 618,
+   "text": "We can skip here too.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=618",
+   "known": null
+  },
+  {
+   "t": 622.7,
+   "text": "Get your wind step and you're gonna aim for this rock right over here",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "rock"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=622",
+   "known": null
+  },
+  {
+   "t": 689.4,
+   "text": "And if for some reason you happen to die you get your extraction point right here unlocked",
+   "topics": [
+    "mistake"
+   ],
+   "places": [
+    "extraction"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=689",
+   "known": null
+  },
+  {
+   "t": 723,
+   "text": "So all I missed are dank explain",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=723",
+   "known": null
+  },
+  {
+   "t": 733.7,
+   "text": "That's the first door on the left and you're just going to break down this wall and then",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "door"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=733",
+   "known": null
+  },
+  {
+   "t": 779.5,
+   "text": "You actually see them walking towards me through the wall there",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=779",
+   "known": null
+  },
+  {
+   "t": 814.3,
+   "text": "time save jump over that ledge Pop the door open and start fighting the thing you",
+   "topics": [
+    "timing"
+   ],
+   "places": [
+    "ledge",
+    "door"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=814",
+   "known": null
+  },
+  {
+   "t": 836.4,
+   "text": "So and i've tried skipping it before and it's just not worth it You have to kill them all otherwise",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=836",
+   "known": null
+  },
+  {
+   "t": 856.3,
+   "text": "Yep, and then I'll activate the bridge Then we can go to the next skipping technique",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "bridge"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=856",
+   "known": null
+  },
+  {
+   "t": 870.6,
+   "text": "Throw my stamina regen on",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=870",
+   "known": null
+  },
+  {
+   "t": 911.4,
+   "text": "There usually is a Goro thing that spawns there that you skip, but he wasn't there for some",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=911",
+   "known": null
+  },
+  {
+   "t": 958.7,
+   "text": "Not recommended to skip they just follow you and they make the next puzzle Harder than it needs",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "puzzle"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=958",
+   "known": null
+  },
+  {
+   "t": 1087.3,
+   "text": "Don't die to that",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=1087",
+   "known": null
+  },
+  {
+   "t": 1134.5,
+   "text": "I don't know if anyone's done it faster But we've done the full call by under 10 So since I'm",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=1134",
+   "known": null
+  },
+  {
+   "t": 1198.7,
+   "text": "to come out and just go right over the canon And there is a small chance that it bugs out where",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=1198",
+   "known": null
+  },
+  {
+   "t": 1210,
+   "text": "We do an experience of glitch",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=1210",
+   "known": null
+  },
+  {
+   "t": 1268.3,
+   "text": "of them is dead",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=1268",
+   "known": null
+  },
+  {
+   "t": 1314.5,
+   "text": "to be shot I'm gonna kill this dragon for another orb Faster than the anima usually got a second",
+   "topics": [
+    "timing"
+   ],
+   "places": [
+    "dragon",
+    "orb",
+    "anima"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=1314",
+   "known": "s-bd1"
+  },
+  {
+   "t": 1334.5,
+   "text": "and there's the bug okay",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=1334",
+   "known": null
+  },
+  {
+   "t": 1365.5,
+   "text": "Normally we'd be done by now If we didn't get the bug",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/0z93qAiBols?t=1365",
+   "known": null
+  }
+ ],
+ "textNotes": [
+  {
+   "where": "comment",
+   "author": "@nicolomarchillo4451",
+   "likes": 0,
+   "text": "Hey Bro! Question for you - I’ve been doing Solo Raids. Not trying to cheesedick it and use the glitches etc. doing as many skips as possible I’m still at like 30 min per raid.\n\n12:00 - the 3rd puzzle. Do you have any tips to get through this faster solo? Seems to take me by far the longest to complete and I’m having trouble cutting my time down.",
+   "topics": [
+    "skip",
+    "glitch",
+    "timing"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@northforge_survival",
+   "likes": 0,
+   "text": "Check out my solo guide. I cover it without doing skips or cheeses",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@EugeneHaynes-o6q",
+   "likes": 1,
+   "text": "The 4th cast in the air combo is bugged and doesn't register",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Ryski253",
+   "likes": 0,
+   "text": "Its just broken for everyone since the update, gonna have to wait for a hotfix",
+   "topics": [
+    "glitch"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "transcript",
+   "t": 35.4,
+   "link": "https://youtu.be/0z93qAiBols?t=35",
+   "quote": "are all the skips that are possible without actually exploiting any bugs We we ignore picking",
+   "unseen": [
+    "exploiting",
+    "bugs",
+    "ignore",
+    "picking"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 57.2,
+   "link": "https://youtu.be/0z93qAiBols?t=57",
+   "quote": "the next and if there's any skips we'll just push right through and We have ironed it out to",
+   "unseen": [
+    "we'll",
+    "ironed"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 138.4,
+   "link": "https://youtu.be/0z93qAiBols?t=138",
+   "quote": "but we're gonna show you a skip for that as well Good food and drink.",
+   "unseen": [
+    "show"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 337.1,
+   "link": "https://youtu.be/0z93qAiBols?t=337",
+   "quote": "Yeah, like I mentioned in the intro there We're gonna be pretty much skipping all the loot",
+   "unseen": [
+    "mentioned",
+    "intro",
+    "skipping",
+    "loot"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 341.8,
+   "link": "https://youtu.be/0z93qAiBols?t=341",
+   "quote": "and any possible skips that don't exploit the game we're gonna be doing so",
+   "unseen": [
+    "doing"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 434.6,
+   "link": "https://youtu.be/0z93qAiBols?t=434",
+   "quote": "And this is where the first skip is now if this is your first time raiding Uh, when we get",
+   "unseen": [
+    "raiding"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 475.5,
+   "link": "https://youtu.be/0z93qAiBols?t=475",
+   "quote": "Yeah, ain't nobody got time for that No, but yeah, it's a pretty easy skip that gate stays",
+   "unseen": [
+    "ain't",
+    "nobody",
+    "stays"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 779.5,
+   "link": "https://youtu.be/0z93qAiBols?t=779",
+   "quote": "You actually see them walking towards me through the wall there",
+   "unseen": [
+    "towards"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 836.4,
+   "link": "https://youtu.be/0z93qAiBols?t=836",
+   "quote": "So and i've tried skipping it before and it's just not worth it You have to kill them all otherwise",
+   "unseen": [
+    "i've",
+    "skipping",
+    "worth",
+    "otherwise"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 856.3,
+   "link": "https://youtu.be/0z93qAiBols?t=856",
+   "quote": "Yep, and then I'll activate the bridge Then we can go to the next skipping technique",
+   "unseen": [
+    "activate",
+    "skipping"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 911.4,
+   "link": "https://youtu.be/0z93qAiBols?t=911",
+   "quote": "There usually is a Goro thing that spawns there that you skip, but he wasn't there for some",
+   "unseen": [
+    "usually",
+    "goro",
+    "spawns",
+    "wasn't"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 958.7,
+   "link": "https://youtu.be/0z93qAiBols?t=958",
+   "quote": "Not recommended to skip they just follow you and they make the next puzzle Harder than it needs",
+   "unseen": [
+    "recommended"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 1210,
+   "link": "https://youtu.be/0z93qAiBols?t=1210",
+   "quote": "We do an experience of glitch",
+   "unseen": [
+    "experience"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=0z93qAiBols",
+   "quote": "Hey Bro! Question for you - I’ve been doing Solo Raids. Not trying to cheesedick it and use the glitches etc. doing as many skips as possible I’m still at like 30 min per raid.\n\n12:00 - the 3rd puzzle. Do you have any tips to get through this faster solo? Seems to take me by far the longest to complete and I’m having trouble cutting my time down.",
+   "unseen": [
+    "question",
+    "doing",
+    "solo",
+    "cheesedick",
+    "many",
+    "tips",
+    "seems",
+    "longest"
+   ],
+   "nearestKnown": null,
+   "author": "@nicolomarchillo4451"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=0z93qAiBols",
+   "quote": "Check out my solo guide. I cover it without doing skips or cheeses",
+   "unseen": [
+    "solo",
+    "cover",
+    "doing",
+    "cheeses"
+   ],
+   "nearestKnown": null,
+   "author": "@northforge_survival"
+  }
+ ],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 329,
+ "transcriptRetry": false,
+ "subsError": "ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests",
+ "quality": {
+  "visual": "error",
+  "visualReason": "download failed: ERROR: unable to download video data: HTTP Error 403: Forbidden",
+  "transcript": "whisper:small",
+  "notes": []
+ },
+ "curated": null
 }

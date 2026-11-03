@@ -1,11 +1,1297 @@
 {
  "id": "ewgak1mPu7A",
  "url": "https://www.youtube.com/watch?v=ewgak1mPu7A",
- "reviewedAt": "2026-11-03T07:40:32.526Z",
+ "reviewedAt": "2026-11-03T18:47:06.744Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] ewgak1mPu7A: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "I Broke the New Dragonwilds Raid | Kuldra Guide + Tricks"
+ "status": "ok",
+ "title": "I Broke the New Dragonwilds Raid | Kuldra Guide + Tricks",
+ "author": "CrossRSDW",
+ "date": "2026-09-21",
+ "videoDuration": 684,
+ "kind": "guide",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [
+  8.2,
+  31.4,
+  76.7,
+  226.2
+ ],
+ "segmentTimes": [
+  null,
+  23.2,
+  45.3,
+  149.5,
+  null
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 8.2,
+   "tEnd": 31.4,
+   "segment": 1,
+   "name": "Fragments of Ghornfell",
+   "kind": "faster",
+   "delta": -37.9,
+   "seg": 23.2,
+   "description": "Fragments of Ghornfell: 23.2 s — 37.9 s faster than every reference run (best TexasPete 61.1 s).  Possible skip or route not in the reference set.",
+   "frames": "ewgak1mPu7A/anomaly-0-seg1.png"
+  },
+  {
+   "t": 31.4,
+   "tEnd": 76.7,
+   "segment": 2,
+   "name": "The Shattered Stronghold",
+   "kind": "faster",
+   "delta": -6.4,
+   "seg": 45.3,
+   "description": "The Shattered Stronghold: 45.3 s — 6.4 s faster than every reference run (best TexasPete 51.7 s).  Possible skip or route not in the reference set.",
+   "frames": "ewgak1mPu7A/anomaly-1-seg2.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 235.4,
+   "dur": 0.4,
+   "segment": null
+  },
+  {
+   "t": 568.6,
+   "dur": 0.4,
+   "segment": null
+  },
+  {
+   "t": 663.2,
+   "dur": 1.3,
+   "segment": null
+  },
+  {
+   "t": 677,
+   "dur": 1.5,
+   "segment": null
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 8.2,
+    "score": 0.923
+   },
+   {
+    "t": 31.4,
+    "score": 0.916
+   },
+   {
+    "t": 76.7,
+    "score": 0.932
+   },
+   {
+    "t": 226.2,
+    "score": 0.931
+   },
+   {
+    "t": 553.9,
+    "score": 0.917
+   },
+   {
+    "t": 589,
+    "score": 0.919
+   },
+   {
+    "t": 622,
+    "score": 0.913
+   }
+  ],
+  "end": null,
+  "loadEnd": null
+ },
+ "commentary": [
+  {
+   "t": 0,
+   "text": "Currently, you can skip almost the entire new raid.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=0",
+   "known": null
+  },
+  {
+   "t": 4.7,
+   "text": "Once you've completed it, you can skip pretty much all the way to the very end.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=4",
+   "known": null
+  },
+  {
+   "t": 8.3,
+   "text": "I will show you that because it's definitely going to get patched.",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=8",
+   "known": null
+  },
+  {
+   "t": 11.2,
+   "text": "There's no way it does not get patched.",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=11",
+   "known": null
+  },
+  {
+   "t": 16.1,
+   "text": "I have been stress testing the raid looking for methods for skipping the mechanics and I found",
+   "topics": [
+    "skip",
+    "trick"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=16",
+   "known": null
+  },
+  {
+   "t": 27.2,
+   "text": "After that, I'll show you how to skip some of the cauldron mechanics and then the end of the",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=27",
+   "known": null
+  },
+  {
+   "t": 30.5,
+   "text": "video is showing how to trigger each of the load zones for scumming.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=30",
+   "known": null
+  },
+  {
+   "t": 53.7,
+   "text": "The first major skip is immediately after the first black dragon after you walk through the",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "dragon"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=53",
+   "known": "s-bd1"
+  },
+  {
+   "t": 62.3,
+   "text": "Wind step your way around to the back of the castle.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=62",
+   "known": null
+  },
+  {
+   "t": 71,
+   "text": "This skipping the entire floating island with the zombies and the skeletons and the necromancer.",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "island",
+    "necromancer"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=71",
+   "known": null
+  },
+  {
+   "t": 94.2,
+   "text": "For the jump puzzle, you can skip almost the entire jump puzzle.",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "puzzle"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=94",
+   "known": null
+  },
+  {
+   "t": 102.6,
+   "text": "You can actually jump up on the side of this bridge and then wind step up onto the top.",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "bridge"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=102",
+   "known": "windjump"
+  },
+  {
+   "t": 107.3,
+   "text": "Alternatively, you can just wind step across from the poison at the top.",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "poison"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=107",
+   "known": "s-poison"
+  },
+  {
+   "t": 134,
+   "text": "Right behind that, there is geometry sticking out of the wall that you can stand on.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=134",
+   "known": null
+  },
+  {
+   "t": 142.9,
+   "text": "So, what we're going to do is first cast wind step and then cast recall so that you have the",
+   "topics": [
+    "movement",
+    "respawn"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=142",
+   "known": null
+  },
+  {
+   "t": 158,
+   "text": "It's very important, turn your entire body towards the wall and start walking towards the wall",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=158",
+   "known": null
+  },
+  {
+   "t": 162.9,
+   "text": "midair because that's going to slow your momentum down enough by the time you hit that geometry,",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=162",
+   "known": null
+  },
+  {
+   "t": 169.4,
+   "text": "And then from there, it's a very easy double jump, wind dash and you are there at the abyssal",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "abyssal"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=169",
+   "known": "tech-infjump"
+  },
+  {
+   "t": 173.8,
+   "text": "demon. Congratulations, you just skipped the entire jump puzzle.",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "demon",
+    "puzzle"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=173",
+   "known": null
+  },
+  {
+   "t": 220.1,
+   "text": "You can actually run past the abyssal demon and you can get the checkpoint up on the hill behind",
+   "topics": [
+    "respawn"
+   ],
+   "places": [
+    "abyssal",
+    "demon"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=220",
+   "known": "abyssal-demon-skip"
+  },
+  {
+   "t": 224.9,
+   "text": "the abyssal demon so that if you do die to it, you can just go back and fight it.",
+   "topics": [
+    "mistake"
+   ],
+   "places": [
+    "abyssal",
+    "demon"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=224",
+   "known": "abyssal-demon-skip"
+  },
+  {
+   "t": 228.8,
+   "text": "You don't have to go skip the entire jump puzzle again.",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "puzzle"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=228",
+   "known": null
+  },
+  {
+   "t": 231.2,
+   "text": "You can actually teleport away and then the abyssal demon will drop aggro and then you can",
+   "topics": [
+    "respawn"
+   ],
+   "places": [
+    "abyssal",
+    "demon"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=231",
+   "known": "abyssal-demon-skip"
+  },
+  {
+   "t": 235.4,
+   "text": "teleport back.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=235",
+   "known": null
+  },
+  {
+   "t": 236.1,
+   "text": "There's actually a huge cheese for this zone as well.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=236",
+   "known": null
+  },
+  {
+   "t": 238.8,
+   "text": "After you've walked through the water door, hug the fortress wall on the right-hand side.",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "water",
+    "door"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=238",
+   "known": null
+  },
+  {
+   "t": 244.7,
+   "text": "You're going to wind step your way to the back.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=244",
+   "known": null
+  },
+  {
+   "t": 250.6,
+   "text": "And this allows us to wind step our way up into this window, thus cheesing the door mechanic.",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "door"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=250",
+   "known": null
+  },
+  {
+   "t": 268.7,
+   "text": "We're going to cheese our way to the fire buff as well.",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "fire"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=268",
+   "known": null
+  },
+  {
+   "t": 273,
+   "text": "on the right-hand side over here, we wind step our way behind the fortress, and then up through",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=273",
+   "known": null
+  },
+  {
+   "t": 281.8,
+   "text": "This allows us to skip multiple other door mechanics.",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "door"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=281",
+   "known": null
+  },
+  {
+   "t": 298.5,
+   "text": "You can divert the water after the platforms are extended, and they will remain extended.",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "water"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=298",
+   "known": null
+  },
+  {
+   "t": 311.2,
+   "text": "tips and tricks and cheese.",
+   "topics": [
+    "skip",
+    "trick"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=311",
+   "known": null
+  },
+  {
+   "t": 315.1,
+   "text": "I don't really have any cheese for that.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=315",
+   "known": null
+  },
+  {
+   "t": 350.4,
+   "text": "It doesn't do a ton for you, but it will skip an additional shot at least by the second platform.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=350",
+   "known": null
+  },
+  {
+   "t": 361.5,
+   "text": "At this point, Zilyana will teleport you to the next zone.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=361",
+   "known": null
+  },
+  {
+   "t": 403,
+   "text": "At this point, the red dragon should have respawned.",
+   "topics": [
+    "respawn"
+   ],
+   "places": [
+    "dragon"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=403",
+   "known": "s-bd1"
+  },
+  {
+   "t": 429.9,
+   "text": "Zilyana will then appear, hide within Zilyana's shield, and she will teleport you to phase",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=429",
+   "known": null
+  },
+  {
+   "t": 461.1,
+   "text": "It tricks the game into thinking that two dragons have already been killed, and instead of",
+   "topics": [
+    "trick"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=461",
+   "known": null
+  },
+  {
+   "t": 474.6,
+   "text": "Go kill it. This is where we have the only major cheese of the cultist fight.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=474",
+   "known": "s-kuldra"
+  },
+  {
+   "t": 481.4,
+   "text": "We can bypass it and jump over it.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=481",
+   "known": null
+  },
+  {
+   "t": 499.4,
+   "text": "Jump back, load the cannon, start shooting.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=499",
+   "known": null
+  },
+  {
+   "t": 532.2,
+   "text": "And then, run back out once the heart's dead, and you're done.",
+   "topics": [
+    "mistake"
+   ],
+   "places": [
+    "heart"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=532",
+   "known": null
+  },
+  {
+   "t": 534.9,
+   "text": "All right, so now the cheese that everybody's waiting for.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=534",
+   "known": null
+  },
+  {
+   "t": 537.8,
+   "text": "After you've completed the raid one time, you can then load zone scum your way to the end of",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=537",
+   "known": null
+  },
+  {
+   "t": 570.8,
+   "text": "From here, we can just teleport back to the Xil'yana lodestone, talk to Xil'yana.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=570",
+   "known": null
+  },
+  {
+   "t": 575.4,
+   "text": "You can see that the second zone is available for teleport, so we teleport there.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=575",
+   "known": null
+  },
+  {
+   "t": 584.4,
+   "text": "So, we just hug the left wall here through this gate up here towards the staircase, and you",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "gate"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=584",
+   "known": null
+  },
+  {
+   "t": 591.2,
+   "text": "For this one, you can also hold the unstuck and then teleport back to Zilyana.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=591",
+   "known": null
+  },
+  {
+   "t": 597.9,
+   "text": "As soon as you teleport in, we're going to walk towards the blue crystal.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=597",
+   "known": null
+  },
+  {
+   "t": 605.8,
+   "text": "It's faster to just turn around, walk back onto the portal, and teleport straight back to Zilyana.",
+   "topics": [
+    "timing",
+    "respawn"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=605",
+   "known": null
+  },
+  {
+   "t": 627.1,
+   "text": "Now, when we teleport back to Zilyana, you'll see that the fourth teleport option has changed",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=627",
+   "known": null
+  },
+  {
+   "t": 638.4,
+   "text": "You have just teleported your way through the raid to the very end, and it has taken approximately",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=638",
+   "known": null
+  },
+  {
+   "t": 647.8,
+   "text": "If you're going to do it, do it now, because it's definitely going to get patched.",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/ewgak1mPu7A?t=647",
+   "known": null
+  }
+ ],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "PATCHED: The load zone extraction skip has been patched as of 9/25, and no longer works. The rest of this guide, including skips, tips and tricks still work and are useful. If anything else changes, I’ll let you know.",
+   "topics": [
+    "skip",
+    "glitch",
+    "trick",
+    "respawn"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "The Kuldra raid is out alongside the RuneScape: Dragonwilds 1.0 launch. This guide provides helpful tips, tricks and skips to help you with your first or fiftieth clear.",
+   "topics": [
+    "movement",
+    "skip",
+    "trick"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "I'm CrossRSDW, and I spent time stress-testing the raid so you don't have to. I've found cheese, tricks, and skips that will speed up your farming runs.",
+   "topics": [
+    "skip",
+    "trick"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "0:53 Island Skip",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "1:34 Jump Puzzle Skip",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "3:56 Castle Skip",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "8:53 [Patched 9/25] How to Skip the Raid",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@CrossRSDW",
+   "likes": 1,
+   "text": "PATCHED: The raid skip has been patched as of 9/25. The other skips, tricks, and cheese are still viable and helpful.",
+   "topics": [
+    "skip",
+    "glitch",
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@thundermota1158",
+   "likes": 2,
+   "text": "You can also skip most of the kuldra figth, only have to kill the heart",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@boice6173",
+   "likes": 0,
+   "text": "I was watching players have an extra orb during the Zilyana warp out in P1- if you spam quick enough, you're able to smuggle one into the next phase saving plenty of time for Phase 2 and 3. Just seeing Phase 3 is now skippable which is great! Thanks for the tip. My 25 raids in search for the scim got a little faster :P",
+   "topics": [
+    "skip",
+    "cancel",
+    "timing"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@eChuckNorris",
+   "likes": 1,
+   "text": "You can completely skip to the Kuldra heart from the first platform of the fight.",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@TradeSmarterYT",
+   "likes": 0,
+   "text": "I dont mind any skips and stuff especially bc shortcuts and safespots have always been a thing in runescape. The fact monsters dont respawn tho is where it keeps from from replaying the raid",
+   "topics": [
+    "skip",
+    "respawn"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@floris3726",
+   "likes": 4,
+   "text": "If you go all the way west on the island before talking to zilyana (after the first playtrough) you unlock the extraction point 3 shattered stronghold just after the abbysal demon skipping the vines and castle",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@WizardOlorin",
+   "likes": 0,
+   "text": "Anyone done these methods since the 9/25 hotfix? Curious if any of this is patched out or still works.",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@sinan_nani",
+   "likes": 0,
+   "text": "checkpoint skips goated. took 20 raids to get all pieces",
+   "topics": [
+    "skip",
+    "respawn"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@robinsoncampos8931",
+   "likes": 0,
+   "text": "Brooo! ALready got every drop from the chest but in all my 18~ runs i didnt fight a single mob. So i cant farm black dragons! when are they going to patch this bro its disapointing.",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@jlayman89",
+   "likes": 0,
+   "text": "Oh lord, so I just found out by accident you can skip the first 2 areas entirely  by walking to the western part of the area Zilyana is in... like the whole ⅓ to the west. I was running around looking for things I may have missed and the checkpoint unlocked thing popped up. Sure enough, you can go to the stronghold, then walk past the blue thing foe the next, portal to Zil, then do the little jump…",
+   "topics": [
+    "skip",
+    "trick",
+    "timing",
+    "mistake",
+    "respawn"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@ricksmith7007",
+   "likes": 0,
+   "text": "raid skip patched",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@HerbIsGaming",
+   "likes": 1,
+   "text": "Same ole Jagex 😂 \nI'm betting they leave a few of the baby skips in too",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@polarbirdyz0",
+   "likes": 1,
+   "text": "every raid in any great game has raid skips. i feel like they should keep most of them in",
+   "topics": [
+    "skip"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "transcript",
+   "t": 0,
+   "link": "https://youtu.be/ewgak1mPu7A?t=0",
+   "quote": "Currently, you can skip almost the entire new raid.",
+   "unseen": [
+    "currently",
+    "almost"
+   ],
+   "nearestKnown": null,
+   "frames": "ewgak1mPu7A/cand-0.png"
+  },
+  {
+   "source": "transcript",
+   "t": 4.7,
+   "link": "https://youtu.be/ewgak1mPu7A?t=4",
+   "quote": "Once you've completed it, you can skip pretty much all the way to the very end.",
+   "unseen": [
+    "you've",
+    "completed"
+   ],
+   "nearestKnown": null,
+   "frames": "ewgak1mPu7A/cand-5.png"
+  },
+  {
+   "source": "transcript",
+   "t": 16.1,
+   "link": "https://youtu.be/ewgak1mPu7A?t=16",
+   "quote": "I have been stress testing the raid looking for methods for skipping the mechanics and I found",
+   "unseen": [
+    "stress",
+    "testing",
+    "looking",
+    "skipping",
+    "mechanics"
+   ],
+   "nearestKnown": null,
+   "frames": "ewgak1mPu7A/cand-16.png"
+  },
+  {
+   "source": "transcript",
+   "t": 27.2,
+   "link": "https://youtu.be/ewgak1mPu7A?t=27",
+   "quote": "After that, I'll show you how to skip some of the cauldron mechanics and then the end of the",
+   "unseen": [
+    "show",
+    "cauldron",
+    "mechanics"
+   ],
+   "nearestKnown": null,
+   "frames": "ewgak1mPu7A/cand-27.png"
+  },
+  {
+   "source": "transcript",
+   "t": 71,
+   "link": "https://youtu.be/ewgak1mPu7A?t=71",
+   "quote": "This skipping the entire floating island with the zombies and the skeletons and the necromancer.",
+   "unseen": [
+    "skipping",
+    "zombies",
+    "skeletons"
+   ],
+   "nearestKnown": null,
+   "frames": "ewgak1mPu7A/cand-71.png"
+  },
+  {
+   "source": "transcript",
+   "t": 94.2,
+   "link": "https://youtu.be/ewgak1mPu7A?t=94",
+   "quote": "For the jump puzzle, you can skip almost the entire jump puzzle.",
+   "unseen": [
+    "almost"
+   ],
+   "nearestKnown": null,
+   "frames": "ewgak1mPu7A/cand-94.png"
+  },
+  {
+   "source": "transcript",
+   "t": 173.8,
+   "link": "https://youtu.be/ewgak1mPu7A?t=173",
+   "quote": "demon. Congratulations, you just skipped the entire jump puzzle.",
+   "unseen": [
+    "congratulations",
+    "skipped"
+   ],
+   "nearestKnown": null,
+   "frames": "ewgak1mPu7A/cand-174.png"
+  },
+  {
+   "source": "transcript",
+   "t": 228.8,
+   "link": "https://youtu.be/ewgak1mPu7A?t=228",
+   "quote": "You don't have to go skip the entire jump puzzle again.",
+   "unseen": [],
+   "nearestKnown": null,
+   "frames": "ewgak1mPu7A/cand-229.png"
+  },
+  {
+   "source": "transcript",
+   "t": 281.8,
+   "link": "https://youtu.be/ewgak1mPu7A?t=281",
+   "quote": "This allows us to skip multiple other door mechanics.",
+   "unseen": [
+    "allows",
+    "mechanics"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 311.2,
+   "link": "https://youtu.be/ewgak1mPu7A?t=311",
+   "quote": "tips and tricks and cheese.",
+   "unseen": [
+    "tips",
+    "tricks"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 350.4,
+   "link": "https://youtu.be/ewgak1mPu7A?t=350",
+   "quote": "It doesn't do a ton for you, but it will skip an additional shot at least by the second platform.",
+   "unseen": [
+    "doesn't",
+    "shot"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 461.1,
+   "link": "https://youtu.be/ewgak1mPu7A?t=461",
+   "quote": "It tricks the game into thinking that two dragons have already been killed, and instead of",
+   "unseen": [
+    "tricks",
+    "thinking",
+    "killed"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ewgak1mPu7A",
+   "quote": "PATCHED: The load zone extraction skip has been patched as of 9/25, and no longer works. The rest of this guide, including skips, tips and tricks still work and are useful. If anything else changes, I’ll let you know.",
+   "unseen": [
+    "rest",
+    "including",
+    "tips",
+    "tricks",
+    "useful",
+    "else",
+    "changes"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ewgak1mPu7A",
+   "quote": "The Kuldra raid is out alongside the RuneScape: Dragonwilds 1.0 launch. This guide provides helpful tips, tricks and skips to help you with your first or fiftieth clear.",
+   "unseen": [
+    "alongside",
+    "provides",
+    "helpful",
+    "tips",
+    "tricks",
+    "help",
+    "fiftieth"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   }
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ewgak1mPu7A",
+   "quote": "I'm CrossRSDW, and I spent time stress-testing the raid so you don't have to. I've found cheese, tricks, and skips that will speed up your farming runs.",
+   "unseen": [
+    "spent",
+    "stress-testing",
+    "i've",
+    "tricks",
+    "speed",
+    "farming"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ewgak1mPu7A",
+   "quote": "0:53 Island Skip",
+   "unseen": [],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ewgak1mPu7A",
+   "quote": "1:34 Jump Puzzle Skip",
+   "unseen": [],
+   "nearestKnown": null
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ewgak1mPu7A",
+   "quote": "PATCHED: The raid skip has been patched as of 9/25. The other skips, tricks, and cheese are still viable and helpful.",
+   "unseen": [
+    "tricks",
+    "viable",
+    "helpful"
+   ],
+   "nearestKnown": null,
+   "author": "@CrossRSDW"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ewgak1mPu7A",
+   "quote": "I was watching players have an extra orb during the Zilyana warp out in P1- if you spam quick enough, you're able to smuggle one into the next phase saving plenty of time for Phase 2 and 3. Just seeing Phase 3 is now skippable which is great! Thanks for the tip. My 25 raids in search for the scim got a little faster :P",
+   "unseen": [
+    "watching",
+    "warp",
+    "able",
+    "smuggle",
+    "saving",
+    "plenty",
+    "seeing",
+    "skippable"
+   ],
+   "nearestKnown": null,
+   "author": "@boice6173"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ewgak1mPu7A",
+   "quote": "I dont mind any skips and stuff especially bc shortcuts and safespots have always been a thing in runescape. The fact monsters dont respawn tho is where it keeps from from replaying the raid",
+   "unseen": [
+    "dont",
+    "mind",
+    "especially",
+    "shortcuts",
+    "always",
+    "fact",
+    "monsters",
+    "replaying"
+   ],
+   "nearestKnown": null,
+   "author": "@TradeSmarterYT"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ewgak1mPu7A",
+   "quote": "If you go all the way west on the island before talking to zilyana (after the first playtrough) you unlock the extraction point 3 shattered stronghold just after the abbysal demon skipping the vines and castle",
+   "unseen": [
+    "west",
+    "talking",
+    "playtrough",
+    "abbysal",
+    "skipping"
+   ],
+   "nearestKnown": {
+    "id": "s-vines-old",
+    "name": "Dragontail Vines skip (1.0.0.6)",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@floris3726"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ewgak1mPu7A",
+   "quote": "checkpoint skips goated. took 20 raids to get all pieces",
+   "unseen": [
+    "goated",
+    "pieces"
+   ],
+   "nearestKnown": null,
+   "author": "@sinan_nani"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ewgak1mPu7A",
+   "quote": "Oh lord, so I just found out by accident you can skip the first 2 areas entirely  by walking to the western part of the area Zilyana is in... like the whole ⅓ to the west. I was running around looking for things I may have missed and the checkpoint unlocked thing popped up. Sure enough, you can go to the stronghold, then walk past the blue thing foe the next, portal to Zil, then do the little jump…",
+   "unseen": [
+    "lord",
+    "accident",
+    "areas",
+    "entirely",
+    "western",
+    "west",
+    "running",
+    "looking"
+   ],
+   "nearestKnown": null,
+   "author": "@jlayman89"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ewgak1mPu7A",
+   "quote": "Same ole Jagex 😂 \nI'm betting they leave a few of the baby skips in too",
+   "unseen": [
+    "betting",
+    "baby"
+   ],
+   "nearestKnown": null,
+   "author": "@HerbIsGaming"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ewgak1mPu7A",
+   "quote": "every raid in any great game has raid skips. i feel like they should keep most of them in",
+   "unseen": [
+    "great",
+    "feel"
+   ],
+   "nearestKnown": null,
+   "author": "@polarbirdyz0"
+  },
+  {
+   "source": "timing",
+   "t": 8.2,
+   "link": "https://youtu.be/ewgak1mPu7A?t=8",
+   "quote": "Fragments of Ghornfell: 23.2 s — 37.9 s faster than every reference run (best TexasPete 61.1 s).  Possible skip or route not in the reference set.",
+   "segment": 1
+  },
+  {
+   "source": "timing",
+   "t": 31.4,
+   "link": "https://youtu.be/ewgak1mPu7A?t=31",
+   "quote": "The Shattered Stronghold: 45.3 s — 6.4 s faster than every reference run (best TexasPete 51.7 s).  Possible skip or route not in the reference set.",
+   "segment": 2
+  }
+ ],
+ "transcriptSource": "youtube:en",
+ "transcriptLines": 206,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 7,
+  "end": false,
+  "offsetMethod": null,
+  "templateScale": [
+   1.02,
+   0.7
+  ],
+  "templateScore": [
+   0.918,
+   0.456
+  ],
+  "complete": false,
+  "transcript": "youtube:en",
+  "notes": [
+   "No run start found (first banner at 8.2 s video): split 1 unknown; later segments are measured banner to banner.",
+   "7 banner onsets found; using the first 4 (553.9, 589, 622 ignored)."
+  ]
+ },
+ "curated": null
 }

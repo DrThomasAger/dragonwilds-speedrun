@@ -1,11 +1,153 @@
 {
  "id": "UK2-GwCGhHc",
  "url": "https://www.youtube.com/watch?v=UK2-GwCGhHc",
- "reviewedAt": "2026-11-03T07:39:41.594Z",
+ "reviewedAt": "2026-11-03T18:35:47.714Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] UK2-GwCGhHc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Kuldra Safespot Quick Run - Runescape Dragonwilds"
+ "status": "ok",
+ "title": "Kuldra Safespot Quick Run - Runescape Dragonwilds",
+ "author": "beandon ",
+ "date": "2026-10-27",
+ "videoDuration": 1075,
+ "kind": "run",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [
+  1006.3
+ ],
+ "segmentTimes": [],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [],
+ "events": {
+  "banners": [],
+  "end": {
+   "t": 1006.3,
+   "plate": [
+    992.5,
+    1006.2
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": null
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "This and the entire raid is totally do-able using only a crossbow and various safe spots. I plan to upload a full run showing how I do it. You can also do this in level 8 or even level 7 gear. I will upload videos showing that soon and paste them here in the description. I may even attempt with gear lower than 7. Literally anyone can cheese the raid solo with just a crossbow.",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "- I usually activate tempest shield during times where I'm exposed running around the arena. That laser move can easily snipe you if you aren't paying attention so I throw it up just in case. Don't trust the crystals and stuff to block you from it, I've been hit through those countless times. Tempest shield will block 100% of the damage. You can dodge roll as well and avoid it with the I-frames bu…",
+   "topics": [
+    "mistake"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "This video is intended for people who are grinding the drops and want a chill low effort way to do this relatively quickly. This is by no means a \"speedrun\" but I consider it to be the fastest low risk safespottable method. I haven't looked up guides so i'm not claiming that i'm the only one that does it like this, it's just what i've come to through trial and error.",
+   "topics": [
+    "mistake"
+   ]
+  }
+ ],
+ "candidateMechanics": [],
+ "transcriptSource": "none",
+ "transcriptLines": 0,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 0,
+  "end": true,
+  "offsetMethod": null,
+  "templateScale": [
+   0.68,
+   1
+  ],
+  "templateScore": [
+   0.637,
+   0.95
+  ],
+  "complete": false,
+  "transcript": "none",
+  "notes": []
+ },
+ "curated": null
 }

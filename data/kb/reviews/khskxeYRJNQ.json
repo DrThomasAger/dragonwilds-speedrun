@@ -1,0 +1,178 @@
+{
+ "id": "khskxeYRJNQ",
+ "url": "https://www.youtube.com/watch?v=khskxeYRJNQ",
+ "reviewedAt": "2026-11-03T18:59:34.083Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "ok",
+ "title": "RuneScape: Dragonwilds - Scorned Wilderness The Shattered Stronghold Guide",
+ "author": "Jacob Fox",
+ "date": "2026-09-16",
+ "videoDuration": 273,
+ "kind": "guide",
+ "from": [
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [],
+ "segmentTimes": [],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [],
+ "events": {
+  "banners": [],
+  "end": null,
+  "loadEnd": null
+ },
+ "commentary": [
+  {
+   "t": 34.3,
+   "text": "Bring your pickaxe mind through the wall kill all the mobs",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/khskxeYRJNQ?t=34",
+   "known": null
+  },
+  {
+   "t": 115.3,
+   "text": "You're gonna need to get your pickaxe again mine out this wall kill the rat in here",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/khskxeYRJNQ?t=115",
+   "known": null
+  },
+  {
+   "t": 247.3,
+   "text": "next bits aren't too difficult But right up here is the teleporter and that will end this section",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/khskxeYRJNQ?t=247",
+   "known": null
+  }
+ ],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "The next section features another Level 9 Black Dragon, several Garou Hunters, and Ruby Vines. Take out everything in your way and the next checkpoint is just up the path behind the enemies.",
+   "topics": [
+    "respawn"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "RuneScape Dragonwilds The Shattered Stronghold, The Shattered Stronghold guide, Shattered Stronghold Scorned Wilderness, Scorned Wilderness guide, Shattered Stronghold Anima puzzle, Air Anima Dragonwilds, Earth Anima Dragonwilds, Fire Anima Dragonwilds, Anima pylon Dragonwilds, Level 9 Black Dragon, Garou Hunters Dragonwilds, Ruby Vines Dragonwilds, Shattered Stronghold checkpoint, Rune gear Drago…",
+   "topics": [
+    "respawn"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "transcript",
+   "t": 34.3,
+   "link": "https://youtu.be/khskxeYRJNQ?t=34",
+   "quote": "Bring your pickaxe mind through the wall kill all the mobs",
+   "unseen": [
+    "pickaxe",
+    "mind"
+   ],
+   "nearestKnown": null,
+   "frames": "khskxeYRJNQ/cand-34.png"
+  }
+ ],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 49,
+ "transcriptRetry": false,
+ "subsError": "ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests",
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 0,
+  "end": false,
+  "offsetMethod": null,
+  "templateScale": [
+   0.68,
+   0.69
+  ],
+  "templateScore": [
+   0.668,
+   0.466
+  ],
+  "complete": false,
+  "transcript": "whisper:small",
+  "notes": []
+ },
+ "curated": null
+}

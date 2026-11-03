@@ -1,11 +1,186 @@
 {
  "id": "3dBpsTAttVk",
  "url": "https://www.youtube.com/watch?v=3dBpsTAttVk",
- "reviewedAt": "2026-11-03T07:39:58.387Z",
+ "reviewedAt": "2026-11-03T19:42:25.522Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] 3dBpsTAttVk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "How to Defeat Kuldra the God Eater SOLO | RuneScape: Dragonwilds"
+ "status": "ok",
+ "title": "How to Defeat Kuldra the God Eater SOLO | RuneScape: Dragonwilds",
+ "author": "Jacob Fox",
+ "date": "2026-09-16",
+ "videoDuration": 1642,
+ "kind": "guide",
+ "from": [
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": 1462.1,
+ "offsetMethod": "detected: end of the loading screen into the raid",
+ "splits": [
+  100.3
+ ],
+ "videoSplits": [
+  1562.4
+ ],
+ "segmentTimes": [
+  100.3,
+  null,
+  null,
+  null,
+  null
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [
+  {
+   "t": 1560.5,
+   "dur": 0.3,
+   "segment": 0
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 1562.4,
+    "score": 0.851
+   }
+  ],
+  "end": null,
+  "loadEnd": 1462.1
+ },
+ "commentary": [
+  {
+   "t": 68.8,
+   "text": "Load it, aim it.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/3dBpsTAttVk?t=68",
+   "known": null
+  },
+  {
+   "t": 1255.6,
+   "text": "a literal bug in her heart.",
+   "topics": [
+    "glitch"
+   ],
+   "places": [
+    "heart"
+   ],
+   "link": "https://youtu.be/3dBpsTAttVk?t=1255",
+   "known": null
+  }
+ ],
+ "textNotes": [
+  {
+   "where": "comment",
+   "author": "@JacobFox",
+   "likes": 1,
+   "text": "Be Warned: There is a bug where when under Zilyana's protective barrier where you might die from Kuldra's attack.",
+   "topics": [
+    "glitch",
+    "mistake"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@raphaelgalote1539",
+   "likes": 1,
+   "text": "What is that spell that you summoned the bug/decoy?",
+   "topics": [
+    "glitch"
+   ]
+  }
+ ],
+ "candidateMechanics": [],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 56,
+ "transcriptRetry": false,
+ "subsError": "ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests",
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 1,
+  "end": false,
+  "offsetMethod": "detected: end of the loading screen into the raid",
+  "templateScale": [
+   1.11,
+   1
+  ],
+  "templateScore": [
+   0.773,
+   0.946
+  ],
+  "complete": false,
+  "transcript": "whisper:small",
+  "notes": []
+ },
+ "curated": null
 }

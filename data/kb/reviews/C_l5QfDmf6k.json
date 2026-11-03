@@ -1,11 +1,433 @@
 {
  "id": "C_l5QfDmf6k",
  "url": "https://www.youtube.com/watch?v=C_l5QfDmf6k",
- "reviewedAt": "2026-11-03T07:40:21.141Z",
+ "reviewedAt": "2026-11-03T18:36:28.173Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] C_l5QfDmf6k: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "RuneScape Dragonwilds: Scorned Wilderness Preparation Guide! (1.0 & Kuldra)"
+ "status": "ok",
+ "title": "RuneScape Dragonwilds: Scorned Wilderness Preparation Guide! (1.0 & Kuldra)",
+ "author": "Primitive Nomad",
+ "date": "2026-08-08",
+ "videoDuration": 901,
+ "kind": "guide",
+ "from": [
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": 70.4,
+ "offsetMethod": "detected: end of the loading screen into the raid",
+ "splits": [
+  207.4
+ ],
+ "videoSplits": [
+  277.8
+ ],
+ "segmentTimes": [
+  207.4,
+  null,
+  null,
+  null,
+  null
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 70.4,
+   "tEnd": 277.8,
+   "segment": 0,
+   "name": "Dragontail Vines",
+   "kind": "slower",
+   "delta": 87.47,
+   "seg": 207.4,
+   "description": "Dragontail Vines: 207.4 s — 87.5 s slower than every reference run (slowest 119.93 s). Different path, deaths or a puzzle done normally.",
+   "frames": "C_l5QfDmf6k/anomaly-0-seg0.png"
+  }
+ ],
+ "blackouts": [],
+ "events": {
+  "banners": [
+   {
+    "t": 277.8,
+    "score": 0.715
+   }
+  ],
+  "end": null,
+  "loadEnd": 70.4
+ },
+ "commentary": [
+  {
+   "t": 7.9,
+   "text": "leading up to Dragon Wild September 1 .0 launch, but specifically the launch and the release",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "dragon"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=7",
+   "known": "s-bd1"
+  },
+  {
+   "t": 27,
+   "text": "Wilds, most diverse region, the Coldra raid.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=27",
+   "known": "region-skip"
+  },
+  {
+   "t": 148.4,
+   "text": "We don't know if there's going to be any ability to load stone out when we're halfway through.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=148",
+   "known": null
+  },
+  {
+   "t": 158.1,
+   "text": "zone where we can teleport back to get more materials?",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=158",
+   "known": null
+  },
+  {
+   "t": 251.7,
+   "text": "But keep in mind, guys, I don't know if this a bug.",
+   "topics": [
+    "glitch"
+   ],
+   "places": [
+    "keep"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=251",
+   "known": null
+  },
+  {
+   "t": 263.3,
+   "text": "I don't know if this is a bug or if this is intended.",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=263",
+   "known": null
+  },
+  {
+   "t": 303.2,
+   "text": "enemies. Crossbow also offers faster reload.",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=303",
+   "known": null
+  },
+  {
+   "t": 389.8,
+   "text": "So you're going to be losing durability a lot faster with this weapon.",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=389",
+   "known": null
+  },
+  {
+   "t": 395.1,
+   "text": "So when we are in the raid, we can easily repair this weapon, but it will break a lot faster",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=395",
+   "known": null
+  },
+  {
+   "t": 515.5,
+   "text": "As we know with the recent update, we can now switch ammo as well as runes on the fly, which",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=515",
+   "known": "s-flight"
+  },
+  {
+   "t": 565.8,
+   "text": "to be able to get passive bonuses like using less stamina while sprinting.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=565",
+   "known": null
+  },
+  {
+   "t": 569.6,
+   "text": "And you're also going to get all the movement abilities like the double jump, the aerial dash,",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=569",
+   "known": "tech-infjump"
+  },
+  {
+   "t": 573.8,
+   "text": "the double aerial dash, the fall recovery, the recall spell, which could be good and very useful",
+   "topics": [
+    "movement",
+    "respawn"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=573",
+   "known": null
+  },
+  {
+   "t": 605.7,
+   "text": "to get there without falling to my death or try to get there in the fastest amount of time.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=605",
+   "known": null
+  },
+  {
+   "t": 611.1,
+   "text": "I think is going to be important and I would get comfortable with the double jumping, the dashing,",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=611",
+   "known": null
+  },
+  {
+   "t": 615.1,
+   "text": "the timing of everything, the distance of the breakfall, as well as using abilities like windstep",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=615",
+   "known": null
+  },
+  {
+   "t": 619.7,
+   "text": "and recall, like I mentioned, as we know, scorned wilderness is going to be very different",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=619",
+   "known": null
+  },
+  {
+   "t": 638.1,
+   "text": "time. It prepares for the next update and with scorned wilderness being a broken up landmass",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=638",
+   "known": null
+  },
+  {
+   "t": 750.6,
+   "text": "yourself to get into the region, as well as a loadstone so you can instantly teleport there",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=750",
+   "known": "region-skip"
+  },
+  {
+   "t": 764.3,
+   "text": "You could put that in that chest at your forward operating base and then throw it into your",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=764",
+   "known": null
+  },
+  {
+   "t": 806.8,
+   "text": "You're going to want to have a spell wheel that is diverse enough to assist you in combat as",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=806",
+   "known": null
+  },
+  {
+   "t": 818.8,
+   "text": "spell wheel so you can pop everything a lot faster.",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=818",
+   "known": null
+  },
+  {
+   "t": 823.2,
+   "text": "I have not been able to use the quick menu because on PC, I think it's still currently broken.",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=823",
+   "known": null
+  },
+  {
+   "t": 837.9,
+   "text": "This is what I've been doing and what I'm going to continue to do as I prepare for launch as",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=837",
+   "known": null
+  },
+  {
+   "t": 860.2,
+   "text": "Do you guys have any tips, any tricks, anything you guys are doing to prepare for scorn wilderness?",
+   "topics": [
+    "trick"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=860",
+   "known": null
+  },
+  {
+   "t": 869.7,
+   "text": "that are on offer currently in the title as we approach 1 .0 in September 15th launch.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=869",
+   "known": null
+  },
+  {
+   "t": 885.3,
+   "text": "I'm very excited for launch.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/C_l5QfDmf6k?t=885",
+   "known": null
+  }
+ ],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "Dragonwilds is close to its official 1.0 release. I wanted to discuss some of the features that are missing that I would like to see as well as features that could be reworked in some way to add plenty of QoL to the title.",
+   "topics": [
+    "mistake"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "I've been covering Dragonwilds since day one, following every update, reveal, patch, and development milestone, so I'll also share insights and details that many new players may have missed.",
+   "topics": [
+    "glitch",
+    "mistake"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "transcript",
+   "t": 860.2,
+   "link": "https://youtu.be/C_l5QfDmf6k?t=860",
+   "quote": "Do you guys have any tips, any tricks, anything you guys are doing to prepare for scorn wilderness?",
+   "unseen": [
+    "tips",
+    "tricks",
+    "doing",
+    "prepare",
+    "scorn"
+   ],
+   "nearestKnown": null,
+   "frames": "C_l5QfDmf6k/cand-860.png"
+  }
+ ],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 283,
+ "transcriptRetry": false,
+ "subsError": "ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests",
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 1,
+  "end": false,
+  "offsetMethod": "detected: end of the loading screen into the raid",
+  "templateScale": [
+   0.68,
+   0.74
+  ],
+  "templateScore": [
+   0.711,
+   0.481
+  ],
+  "complete": false,
+  "transcript": "whisper:small",
+  "notes": []
+ },
+ "curated": null
 }

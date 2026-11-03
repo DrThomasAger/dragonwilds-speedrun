@@ -1,11 +1,342 @@
 {
  "id": "GeWbo4GpFEg",
  "url": "https://www.youtube.com/watch?v=GeWbo4GpFEg",
- "reviewedAt": "2026-11-03T07:40:34.961Z",
+ "reviewedAt": "2026-11-03T18:49:31.808Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] GeWbo4GpFEg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness Raid - Tech & Tutorial in description"
+ "status": "ok",
+ "title": "NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness Raid - Tech & Tutorial in description",
+ "author": "Dotxy",
+ "date": "2026-10-24",
+ "videoDuration": 91,
+ "kind": "guide",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "register",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [
+  72.3
+ ],
+ "segmentTimes": [],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [],
+ "events": {
+  "banners": [],
+  "end": {
+   "t": 72.3,
+   "plate": [
+    59,
+    72.2
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": null
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "Heyo, here's a new way to get through Kuldra's Sanctum quick in the Runescape Dragonwilds 1.0.1.2 hotfix! You can check out the videos below to get the inputs i'm using.",
+   "topics": [
+    "glitch",
+    "trick"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "Infinite Double Jumps - https://www.youtube.com/watch?v=goKfbT19nkk",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "Dive Cancel - https://www.youtube.com/watch?v=LGCddmk_TnM",
+   "topics": [
+    "movement",
+    "cancel"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "Feel free to set up a macro for easy infinite flight!",
+   "topics": [
+    "movement",
+    "cancel"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "1.Windstep",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "2. Jump Attack",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "This works mostly everywhere, happy flying friends",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@brendonboyd7668",
+   "likes": 2,
+   "text": "Just learned this and I’m on PS5\n1- Set your spell wheel to where wind step is Triangle R1 input. Set your repair equipment spell to Traingle R2 for Righties or L2 for lefties.\n2- Start off by practicing this pattern\nRepair Spell, Cancel spell, double jump R1\n\n3- Add wind step to the beginning of the pattern and boom \n\nI hope this is helpful!\nPs. You don’t need to re input windstep after the first…",
+   "topics": [
+    "movement",
+    "cancel"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@ryancrook-p6x",
+   "likes": 3,
+   "text": "I love the tech but unfortunately they will probably patch it out again",
+   "topics": [
+    "glitch",
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Trance_OCE",
+   "likes": 3,
+   "text": "Dragonwilds devs over patch to the point it will only hurt the game \n\nThey clearly don't want dedicated players, endgame and Speedrunning 💀",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@lagranE666",
+   "likes": 3,
+   "text": "I still don't understand what you're spamming, the hammer ability that appears selected and then you cancel? Or can you do this just by pressing \"Q\" during the wind step?",
+   "topics": [
+    "movement",
+    "cancel"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@iNanobit",
+   "likes": 7,
+   "text": "(Be high enough in air to plunge attack, usually after a Windstep) -> Plunge Attack (LClick) -> Spell Wheel (Q) -> AoE Spell (1, Magical Mending) -> Cancel (Esc) -> Jump (Space) -> Repeto",
+   "topics": [
+    "movement",
+    "cancel"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Dotxygaming",
+   "likes": 0,
+   "text": "there's no rules against using a macro for single player!",
+   "topics": [
+    "cancel"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@xxragrave",
+   "likes": 0,
+   "text": "someone who is smart should put these steps into ai and have it make a ahk macro for the infinte jumps",
+   "topics": [
+    "cancel"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Dotxygaming",
+   "likes": 0,
+   "text": "you don't need ai to make a simple macro",
+   "topics": [
+    "cancel"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@xxragrave",
+   "likes": 0,
+   "text": " @Dotxygaming  I’m not good at making macros",
+   "topics": [
+    "cancel"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@IINo1goodII",
+   "likes": 2,
+   "text": "I've been doing this consistently on console. btw i'm sure you know you can dash n phase dash doing this too.",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@imeanfrtho5625",
+   "likes": 0,
+   "text": " @Dotxygaming it gets kind of annoying when you guys have to find new ways to get around easy fights, just to make the devs fix it and they end up breaking the game in different ways like falling through the floor after the first cannon phase or the last air attack not working anymore for a while, menu being bugged now, etc. all because you can’t dodge and attack?",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=GeWbo4GpFEg",
+   "quote": "Heyo, here's a new way to get through Kuldra's Sanctum quick in the Runescape Dragonwilds 1.0.1.2 hotfix! You can check out the videos below to get the inputs i'm using.",
+   "unseen": [
+    "heyo",
+    "here's",
+    "below"
+   ],
+   "nearestKnown": {
+    "id": "s-flight",
+    "name": "Fly through the Sanctum (1.0.1.2)",
+    "src": "route.js",
+    "score": 0.5
+   }
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=GeWbo4GpFEg",
+   "quote": "I still don't understand what you're spamming, the hammer ability that appears selected and then you cancel? Or can you do this just by pressing \"Q\" during the wind step?",
+   "unseen": [
+    "understand",
+    "spamming",
+    "hammer",
+    "ability",
+    "selected",
+    "pressing"
+   ],
+   "nearestKnown": null,
+   "author": "@lagranE666"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=GeWbo4GpFEg",
+   "quote": " @Dotxygaming it gets kind of annoying when you guys have to find new ways to get around easy fights, just to make the devs fix it and they end up breaking the game in different ways like falling through the floor after the first cannon phase or the last air attack not working anymore for a while, menu being bugged now, etc. all because you can’t dodge and attack?",
+   "unseen": [
+    "gets",
+    "annoying",
+    "fights",
+    "devs",
+    "breaking",
+    "different",
+    "anymore",
+    "bugged"
+   ],
+   "nearestKnown": null,
+   "author": "@imeanfrtho5625"
+  }
+ ],
+ "transcriptSource": "none",
+ "transcriptLines": 0,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 0,
+  "end": true,
+  "offsetMethod": null,
+  "templateScale": [
+   0.68,
+   0.98
+  ],
+  "templateScore": [
+   0.62,
+   0.935
+  ],
+  "complete": false,
+  "transcript": "none",
+  "notes": []
+ },
+ "curated": null
 }

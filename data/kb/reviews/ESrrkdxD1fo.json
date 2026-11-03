@@ -1,11 +1,1805 @@
 {
  "id": "ESrrkdxD1fo",
  "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
- "reviewedAt": "2026-11-03T07:40:29.522Z",
+ "reviewedAt": "2026-11-03T18:46:08.973Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] ESrrkdxD1fo: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds"
+ "status": "ok",
+ "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds",
+ "author": "SamFPlays",
+ "date": "2026-10-16",
+ "videoDuration": 758,
+ "kind": "guide",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "register",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": 732.3,
+ "offset": 0,
+ "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+ "splits": [
+  238.7,
+  326,
+  438,
+  525.9,
+  732.3
+ ],
+ "videoSplits": [
+  238.7,
+  326,
+  438,
+  525.9,
+  732.3
+ ],
+ "segmentTimes": [
+  238.7,
+  87.3,
+  112,
+  87.9,
+  206.4
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 0,
+   "tEnd": 238.7,
+   "segment": 0,
+   "name": "Dragontail Vines",
+   "kind": "slower",
+   "delta": 118.77,
+   "seg": 238.7,
+   "description": "Dragontail Vines: 238.7 s — 118.8 s slower than every reference run (slowest 119.93 s). Different path, deaths or a puzzle done normally.",
+   "frames": "ESrrkdxD1fo/anomaly-0-seg0.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 246.4,
+   "dur": 0.7,
+   "segment": 1
+  },
+  {
+   "t": 253.8,
+   "dur": 1.5,
+   "segment": 1
+  },
+  {
+   "t": 527.6,
+   "dur": 6.9,
+   "segment": 4
+  },
+  {
+   "t": 539.8,
+   "dur": 1.5,
+   "segment": 4
+  },
+  {
+   "t": 548.4,
+   "dur": 0.9,
+   "segment": 4
+  },
+  {
+   "t": 621.3,
+   "dur": 0.4,
+   "segment": 4
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 238.7,
+    "score": 0.762
+   },
+   {
+    "t": 326,
+    "score": 0.757
+   },
+   {
+    "t": 438,
+    "score": 0.794
+   },
+   {
+    "t": 525.9,
+    "score": 0.733
+   }
+  ],
+  "end": {
+   "t": 732.3,
+   "plate": [
+    718.5,
+    732.2
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": null
+ },
+ "commentary": [
+  {
+   "t": 3,
+   "text": "We are back with another Caldron speedrun after patch 1.0.1",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=3",
+   "known": null
+  },
+  {
+   "t": 10.8,
+   "text": "Before we jump into the skips, I want to walk you guys through the most important parts of the",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=10",
+   "known": null
+  },
+  {
+   "t": 18.4,
+   "text": "Surge phase dash combo.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=18",
+   "known": "tech-surge"
+  },
+  {
+   "t": 30.2,
+   "text": "The goal, the objective is to surge as close as possible to the edge as you can without being",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=30",
+   "known": null
+  },
+  {
+   "t": 45.7,
+   "text": "a lot of momentum, okay?",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=45",
+   "known": null
+  },
+  {
+   "t": 47.9,
+   "text": "You don't have to sprint, you just walk, walk forward hold forward the entire time.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=47",
+   "known": null
+  },
+  {
+   "t": 66,
+   "text": "whatever your dash button is to activate surge.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=66",
+   "known": "tech-surge"
+  },
+  {
+   "t": 68.8,
+   "text": "At the end when your momentum starts to die, jump and then double dash.",
+   "topics": [
+    "movement",
+    "mistake"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=68",
+   "known": "tech-infjump"
+  },
+  {
+   "t": 80.8,
+   "text": "surge, jump.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=80",
+   "known": null
+  },
+  {
+   "t": 107.2,
+   "text": "That way when you die you respawn right here.",
+   "topics": [
+    "mistake",
+    "respawn"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=107",
+   "known": null
+  },
+  {
+   "t": 136.2,
+   "text": "First is the wind step here.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=136",
+   "known": null
+  },
+  {
+   "t": 137.6,
+   "text": "I found it's actually easier to just sprint.",
+   "topics": [
+    "movement",
+    "trick"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=137",
+   "known": null
+  },
+  {
+   "t": 143,
+   "text": "It's a little bit faster.",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=143",
+   "known": null
+  },
+  {
+   "t": 154,
+   "text": "surge phase dash combo that I showed you guys.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=154",
+   "known": "tech-surge"
+  },
+  {
+   "t": 158.6,
+   "text": "Here I I'm just going to sprint cuz I'm already sprinting, but for the other ones you don't",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=158",
+   "known": null
+  },
+  {
+   "t": 167,
+   "text": "Jump double dash here.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=167",
+   "known": "tech-infjump"
+  },
+  {
+   "t": 168.6,
+   "text": "Jump dash here.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=168",
+   "known": null
+  },
+  {
+   "t": 171.1,
+   "text": "Double dash here.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=171",
+   "known": null
+  },
+  {
+   "t": 181.3,
+   "text": "Going to double surge.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=181",
+   "known": null
+  },
+  {
+   "t": 188.7,
+   "text": "They made the air anima a lot faster, so you actually have time to to eat.",
+   "topics": [
+    "timing"
+   ],
+   "places": [
+    "air",
+    "anima"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=188",
+   "known": "s-airvent"
+  },
+  {
+   "t": 210.2,
+   "text": "We're going to surge here, phase dash, same thing.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=210",
+   "known": "tech-surge"
+  },
+  {
+   "t": 216,
+   "text": "Search, jump, dash, dash.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=216",
+   "known": null
+  },
+  {
+   "t": 222.5,
+   "text": "Don't sprint, walk here.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=222",
+   "known": null
+  },
+  {
+   "t": 224.4,
+   "text": "Here I found if you go too close to the edge it kind of lifts you in the air.",
+   "topics": [
+    "trick"
+   ],
+   "places": [
+    "air"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=224",
+   "known": null
+  },
+  {
+   "t": 242.2,
+   "text": "and it unlocks the teleporter.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=242",
+   "known": null
+  },
+  {
+   "t": 249.9,
+   "text": "Get your stuff back, teleport back.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=249",
+   "known": null
+  },
+  {
+   "t": 254.4,
+   "text": "And we just skipped the whole necromancer",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "necromancer"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=254",
+   "known": null
+  },
+  {
+   "t": 272.2,
+   "text": "Maybe you have to do the skip method one time and then it's open after.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=272",
+   "known": null
+  },
+  {
+   "t": 278.8,
+   "text": "It's been open for me ever since I've done the skip like the first time.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=278",
+   "known": null
+  },
+  {
+   "t": 288.2,
+   "text": "Like skipping the the cauldron fight.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=288",
+   "known": "s-kuldra"
+  },
+  {
+   "t": 300.8,
+   "text": "I'm going to do surge, phase dash again.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=300",
+   "known": "tech-surge"
+  },
+  {
+   "t": 343,
+   "text": "faster.",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=343",
+   "known": null
+  },
+  {
+   "t": 358,
+   "text": "He should die.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=358",
+   "known": null
+  },
+  {
+   "t": 364,
+   "text": "Sprint wind's up up here.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=364",
+   "known": null
+  },
+  {
+   "t": 369.6,
+   "text": "Onto this. And then don't sprint cuz you might go too far.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=369",
+   "known": null
+  },
+  {
+   "t": 373.2,
+   "text": "Just walk forward, double jump on to the left side.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=373",
+   "known": "tech-infjump"
+  },
+  {
+   "t": 376.6,
+   "text": "Now we're going to sprint jump, jump again, dash into this corner.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=376",
+   "known": null
+  },
+  {
+   "t": 404.1,
+   "text": "Surge again.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=404",
+   "known": null
+  },
+  {
+   "t": 406.4,
+   "text": "Face dash again.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=406",
+   "known": null
+  },
+  {
+   "t": 407.7,
+   "text": "And here the the amount of time between go moving forward and pressing your dash button has",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=407",
+   "known": null
+  },
+  {
+   "t": 426.9,
+   "text": "And then when my momentum starts to die, I jump and then double dash.",
+   "topics": [
+    "movement",
+    "mistake"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=426",
+   "known": "tech-infjump"
+  },
+  {
+   "t": 430.1,
+   "text": "So W alt, jump, double dash.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=430",
+   "known": "tech-infjump"
+  },
+  {
+   "t": 448.3,
+   "text": "So for the elemental puzzle skip, once you're at the doorway, um you're going to come to this",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "puzzle"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=448",
+   "known": "s-keep"
+  },
+  {
+   "t": 455,
+   "text": "Face like this wall.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=455",
+   "known": null
+  },
+  {
+   "t": 456.4,
+   "text": "We're going to get behind this and then land on the other side of the wall, but hug the hug",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=456",
+   "known": null
+  },
+  {
+   "t": 461.6,
+   "text": "this side of the wall.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=461",
+   "known": null
+  },
+  {
+   "t": 463.3,
+   "text": "If you go too far, there's like a hole that you fall into that's hard to get out of, so holding",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=463",
+   "known": null
+  },
+  {
+   "t": 474.8,
+   "text": "Double jump up here.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=474",
+   "known": "tech-infjump"
+  },
+  {
+   "t": 476.4,
+   "text": "Also, I'm going to credit everyone who's found these shortcuts cuz",
+   "topics": [
+    "trick"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=476",
+   "known": null
+  },
+  {
+   "t": 482.4,
+   "text": "I found some of them, but this one specifically I didn't and also the hitting the um the Garuthane,",
+   "topics": [
+    "trick"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=482",
+   "known": null
+  },
+  {
+   "t": 512,
+   "text": "We're going to jump, wait a bit, jump again, dash onto here.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=512",
+   "known": null
+  },
+  {
+   "t": 523.4,
+   "text": "We're just going to sprint jump dash.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=523",
+   "known": null
+  },
+  {
+   "t": 528.8,
+   "text": "You can hold to reset your position.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=528",
+   "known": null
+  },
+  {
+   "t": 542.4,
+   "text": "And teleport back.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=542",
+   "known": null
+  },
+  {
+   "t": 558.7,
+   "text": "So, all the skips here are the same as before.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=558",
+   "known": null
+  },
+  {
+   "t": 562.3,
+   "text": "You want to one step sprint",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=562",
+   "known": null
+  },
+  {
+   "t": 568.3,
+   "text": "For this one, you're also sprinting, but then you want to control how far you're going, like",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=568",
+   "known": null
+  },
+  {
+   "t": 580.2,
+   "text": "Sprint jump here.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=580",
+   "known": null
+  },
+  {
+   "t": 582.6,
+   "text": "Activate surge.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=582",
+   "known": null
+  },
+  {
+   "t": 584.4,
+   "text": "Activate phase dash.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=584",
+   "known": "tech-surge"
+  },
+  {
+   "t": 586.1,
+   "text": "If you guys again are having trouble with this, some people are, you could also just wind step",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=586",
+   "known": null
+  },
+  {
+   "t": 595.2,
+   "text": "Jump onto there, avoid that gap cuz if you touch that you'll die.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=595",
+   "known": null
+  },
+  {
+   "t": 599.4,
+   "text": "So, from here jump to there, jump to there, wind step up there, wind step up there.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=599",
+   "known": "windjump"
+  },
+  {
+   "t": 604.6,
+   "text": "But, if you know how to do the phase dash surge combo and you're not having issues, come here,",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=604",
+   "known": "tech-surge"
+  },
+  {
+   "t": 610,
+   "text": "walk forward, surge, jump, dash, dash.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=610",
+   "known": "tech-surge"
+  },
+  {
+   "t": 665.2,
+   "text": "It's been really nice um coming together as a community to find these skips and and I work",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=665",
+   "known": null
+  },
+  {
+   "t": 688,
+   "text": "looking for ways to to to things faster, right?",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=688",
+   "known": null
+  },
+  {
+   "t": 697.3,
+   "text": "I'll be posting any updates whenever there's any patches, so if you guys are still on the grind",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/ESrrkdxD1fo?t=697",
+   "known": null
+  }
+ ],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "Every new Kuldra skip after Patch 1.0.1, explained step by step so you can pull them off yourself. Use the chapters to jump straight to the skip you need.",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "Watch the full run at speed, 2 of the skips in the 11 min run are slower (no commentary, 11 min): https://youtu.be/WpvNjqVmpVM",
+   "topics": [
+    "skip",
+    "timing"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "0:00 Phase Dash & Surge Combo",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "2:31 Soulscourge skip",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "3:10 Black dragon skip",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "3:28 SKIP the entire Necromancer area",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "4:20 Skip the entire poison area",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "5:00 Abby demon skip",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "5:37 (NEW) Skip the Garou thane area (thank you @Sir_Rebral) FAST",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "7:27 (NEW) Elemental puzzle skip (thank you @IINo1goodII and @notmusty1)",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "9:18 Skip the entire Kuldra fight",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "- Fleet Foot Infusion: MUST BRING. Cuts sprinting stamina cost by 50%.",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "Which skip were you stuck on? Drop it in the comments. If this helped, a sub helps the channel a ton!",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@SamFPlays",
+   "likes": 3,
+   "text": "Which skip are you stuck on? 👇 Tell me and I'll help you get it. Want to see it all at full speed (2 of the skips are slower in the full speed run). 11 min run here: https://youtu.be/WpvNjqVmpVM",
+   "topics": [
+    "skip",
+    "timing"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@penguin295",
+   "likes": 0,
+   "text": "Im stuck on the Kulra skip. The phase dash jump thing. I wont let me phase dash on the bridge. If I touch the crystals down below I die instantly",
+   "topics": [
+    "movement",
+    "skip",
+    "mistake"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@EvoTheWizard",
+   "likes": 5,
+   "text": "Im on xbox series x and followed this vid and now im getting 14 ish minute runs ,absolutely amazing thankyou 👍,  surge/phase dash took a bit of practice but is certainly a game changer once you get in down 😊",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Adoptulous",
+   "likes": 3,
+   "text": "this vid showed perfectly how to surge glide, immediately started getting 15 min clears cus of this vid ty brotha",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@WichoSuavee",
+   "likes": 1,
+   "text": "The explanation on how to do the phase surge dash was so clutch man thank you",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@k0zzuu",
+   "likes": 0,
+   "text": "Awesome video and very good detailed explanations! I found some minor skips farming the drops myself, but this is very useful if I need to go back for the ascension shards that she now drops. Good job keep it up man!",
+   "topics": [
+    "skip",
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@SamFPlays",
+   "likes": 0,
+   "text": "Thanks so much, glad you found the guide useful for your shard farming! 😁",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@SamFPlays",
+   "likes": 1,
+   "text": "My pleasure, glad you found it helpful!",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@adrianejokoliwag2769",
+   "likes": 0,
+   "text": "On the first bridge in Dragontail, you can also skip activating the anima bridge. Just do the surge - jump - phase dash thing, do it from sprinting and you also need to time your jump and dashes properly.",
+   "topics": [
+    "movement",
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@tlc_nerv",
+   "likes": 0,
+   "text": "i hyped your video because of 9:50, thank you bro 😭🤌🏼 i can’t land the phase dash to save my LIFE on switch 2 lol",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@SamFPlays",
+   "likes": 0,
+   "text": "Glad you liked the alternatives, always happy to help with those tricky spots! 😁",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Jacob_White",
+   "likes": 0,
+   "text": "Have you seen the 7 minute run? The necromancies skip is insane in it",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Baughsome",
+   "likes": 0,
+   "text": "I suggest also using the recall spell when traversing large gaps with the surge + double dash method, except for the one where you intentionally die. 70 agility required I think for the upgraded version. This saves a lot of frustration if you struggle to get enough momentum for the surge.",
+   "topics": [
+    "movement",
+    "mistake",
+    "respawn"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@SamFPlays",
+   "likes": 0,
+   "text": "Yea good shout, one tip, I found if you rebind your dash key like I did to ALT instead of CTRL. When recall is active my dash reverts back to CTRL. As soon as recall isn’t active anymore it’s back to ALT lmao. Some spaghetti coding",
+   "topics": [
+    "movement",
+    "trick",
+    "respawn"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Keeeymurah",
+   "likes": 1,
+   "text": "I struggled at first too but with practice I’ve gotten it all down. It’s crazy how they patched certain skips but not the major skip at the end of the raid.",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@WichoSuavee",
+   "likes": 0,
+   "text": "If they patch that shit I’m be so pissed, im farming it to death out of fear they will 😂",
+   "topics": [
+    "glitch",
+    "mistake"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@lacr01xb01x",
+   "likes": 0,
+   "text": "Yo! I think I just found something faster on the elemental puzzle skip. Instead of reloading out to the extraction point you unlock, if you crouch near the top of the map you can walk through the ground and end up on top near the boss door",
+   "topics": [
+    "skip",
+    "trick",
+    "timing"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@kurokaze-i5y",
+   "likes": 1,
+   "text": "It became easier for me to stop at an edge and just tap forward and surge, when I get a head start I just dash. On the kuldra surge jump if u do it st edge u dont even need the second air dash just let the surge carry",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@DominicBrindley-j8d",
+   "likes": 0,
+   "text": "can surge dash across the area after the vines to land on the beam sticking out the wall, saves 20 seconds",
+   "topics": [
+    "movement",
+    "skip",
+    "timing"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Sir_Rebral",
+   "likes": 0,
+   "text": "There is a better skip for the necromancer area than the one you used in the video. After you walk through the earth barrier drop down to the vine below then jump around to a rock and surge+dash across, and at 4:49 you can just surge+dash across the entire chasm instead of going around the edge. I threw a quick video together and posted it if you wanted to see those they're in there but my pathing…",
+   "topics": [
+    "movement",
+    "skip",
+    "mistake"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Valypeto",
+   "likes": 0,
+   "text": "I finally can enjoy full run without skips since I got my full dragon. 😂",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@christopherwofford3272",
+   "likes": 5,
+   "text": "sadly, the first block you windstep to during the Kuldra fight doesn't work anymore, you'll just phase through it now but everything else still works from what I can see",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@notmusty1",
+   "likes": 0,
+   "text": "i appreciate the shoutout!! :) i also have a skip for abby demon completely, i can upload the clip aswell if you would like to!",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@mygoditsnick6457",
+   "likes": 1,
+   "text": "on the boss fight phase 1 skip when the blue dragon first spawns, I cant windstep onto the first rock. I fall through it. And I am also experiencing a glitch where if i do the mechanics without skipping, and stand behind zilyana when she activates the shield (after fighting the blue dragon and firing the cannon) she teleports me and Im falling through the floor immediately. Do we have any idea wha…",
+   "topics": [
+    "movement",
+    "skip",
+    "glitch",
+    "respawn"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@gopatriots1991",
+   "likes": 0,
+   "text": "For some reason the necromancer skip, when I do my first dash after jumping it does my phase dash instead, only giving one dash total. Practicing before going in next to zilyana nets me 2 dashes, the final skip lets me use both dashes.",
+   "topics": [
+    "movement",
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@devrishabh5692",
+   "likes": 0,
+   "text": "They patched the final boss skip on windstepping on the floating rocks…everything prior to this is still working",
+   "topics": [
+    "movement",
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@camgokrazy",
+   "likes": 0,
+   "text": "the windstep jump thru the broken hole in the wall at 4:38 just doesnt work for me. my character hits an invisible wall and get stuck and i have to home teleport. is this on the newest patch or what? is there a work around for that part?",
+   "topics": [
+    "movement",
+    "skip",
+    "glitch",
+    "respawn"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@mrmyztlive",
+   "likes": 0,
+   "text": "i cant get the skip thro the hole in the wall at the poison area i keep getting stuck on the branches",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@chrisyates8741",
+   "likes": 0,
+   "text": "The phase dash wont work before the line, gotta do it before",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@TacomaJAMES007",
+   "likes": 0,
+   "text": "I can do the phase dash and jump combo but there seems to be a barrier I bounce into is it patched?",
+   "topics": [
+    "movement",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@DCrooks-b7b",
+   "likes": 0,
+   "text": "I just tried this at the kuldra part and i believe it was patched on concole",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Sacwalker",
+   "likes": 0,
+   "text": "i keep getting stuck in the wall before the poison part",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@PeekachChu",
+   "likes": 0,
+   "text": "i am not going to skip the limited content in this game as it is. madness. Id understand if the game was a grind, but you can get every single item in less than 200 hours.",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@xoodrmoox9633",
+   "likes": 0,
+   "text": "the end of the last bridge is blocked for me, it bounces me back mid dash",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@tbrooks1992",
+   "likes": 0,
+   "text": "Have you found a way to skip Kuldra yet since yesterday’s update?",
+   "topics": [
+    "skip",
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@yunghalloumi",
+   "likes": 0,
+   "text": "first rock jump at kuldra patched in latest update 😭",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@tbrooks1992",
+   "likes": 0,
+   "text": "They just patched the Kuldra fight. The first stone platform you jump on isn’t solid anymore.\n\nAny idea for a work around?",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@outsideb4d",
+   "likes": 0,
+   "text": "whats the purpose of using block while jumping at at 6:38? u said nothing about having to do that at the start of the video where u were giving tutorial for surge dash combo. no matter if i hold it or not i never get the same speed as you. i land 2 meters shorter",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@tbrooks1992",
+   "likes": 3,
+   "text": "They completely broke the fight. Now if you do it the legit way you just fall through the platform you spawn on during the second phase. It’s now impossible to do the fight even the legit way.",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@tbrooks1992",
+   "likes": 0,
+   "text": "Can you still skip the last phase since yesterday’s update?",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Slingin_Bait",
+   "likes": 1,
+   "text": "Might as well just dupe the rewards chest. That's the fastest skip.",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Rider_Tom",
+   "likes": 0,
+   "text": "Shieee, they finally patched the final Kuldra boss skip",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@christopherrafferty4329",
+   "likes": 0,
+   "text": "Have they patched it with the new update",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@ClarkKent-yr2xn",
+   "likes": 0,
+   "text": "Bro I don’t understand why I can’t make the jump to kuldra. I keep hitting an invisible wall every time",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@SaD22Mustang",
+   "likes": 1,
+   "text": "Kuldra rock jump patched ?! 😢",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@FFoxxtrot",
+   "likes": 0,
+   "text": "I think you've patched the Final Skip at Kuldra. With the Surge dash. Everytime i'm about to reach the final ledge to get to Kuldra theres an invisible wall",
+   "topics": [
+    "movement",
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@chrisyates8741",
+   "likes": 0,
+   "text": "This is bugged now",
+   "topics": [
+    "glitch"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "transcript",
+   "t": 10.8,
+   "link": "https://youtu.be/ESrrkdxD1fo?t=10",
+   "quote": "Before we jump into the skips, I want to walk you guys through the most important parts of the",
+   "unseen": [
+    "important",
+    "parts"
+   ],
+   "nearestKnown": null,
+   "frames": "ESrrkdxD1fo/cand-11.png"
+  },
+  {
+   "source": "transcript",
+   "t": 254.4,
+   "link": "https://youtu.be/ESrrkdxD1fo?t=254",
+   "quote": "And we just skipped the whole necromancer",
+   "unseen": [
+    "skipped"
+   ],
+   "nearestKnown": null,
+   "frames": "ESrrkdxD1fo/cand-254.png"
+  },
+  {
+   "source": "transcript",
+   "t": 272.2,
+   "link": "https://youtu.be/ESrrkdxD1fo?t=272",
+   "quote": "Maybe you have to do the skip method one time and then it's open after.",
+   "unseen": [
+    "open"
+   ],
+   "nearestKnown": null,
+   "frames": "ESrrkdxD1fo/cand-272.png"
+  },
+  {
+   "source": "transcript",
+   "t": 278.8,
+   "link": "https://youtu.be/ESrrkdxD1fo?t=278",
+   "quote": "It's been open for me ever since I've done the skip like the first time.",
+   "unseen": [
+    "open",
+    "ever",
+    "i've"
+   ],
+   "nearestKnown": null,
+   "frames": "ESrrkdxD1fo/cand-279.png"
+  },
+  {
+   "source": "transcript",
+   "t": 288.2,
+   "link": "https://youtu.be/ESrrkdxD1fo?t=288",
+   "quote": "Like skipping the the cauldron fight.",
+   "unseen": [
+    "skipping",
+    "cauldron"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "frames": "ESrrkdxD1fo/cand-288.png"
+  },
+  {
+   "source": "transcript",
+   "t": 665.2,
+   "link": "https://youtu.be/ESrrkdxD1fo?t=665",
+   "quote": "It's been really nice um coming together as a community to find these skips and and I work",
+   "unseen": [
+    "coming",
+    "together"
+   ],
+   "nearestKnown": null,
+   "frames": "ESrrkdxD1fo/cand-665.png"
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "Every new Kuldra skip after Patch 1.0.1, explained step by step so you can pull them off yourself. Use the chapters to jump straight to the skip you need.",
+   "unseen": [
+    "explained",
+    "pull",
+    "yourself"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   }
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "Watch the full run at speed, 2 of the skips in the 11 min run are slower (no commentary, 11 min): https://youtu.be/WpvNjqVmpVM",
+   "unseen": [
+    "speed"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "2:31 Soulscourge skip",
+   "unseen": [],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "3:28 SKIP the entire Necromancer area",
+   "unseen": [],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "5:00 Abby demon skip",
+   "unseen": [
+    "abby"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "Which skip were you stuck on? Drop it in the comments. If this helped, a sub helps the channel a ton!",
+   "unseen": [
+    "helped",
+    "helps"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "Which skip are you stuck on? 👇 Tell me and I'll help you get it. Want to see it all at full speed (2 of the skips are slower in the full speed run). 11 min run here: https://youtu.be/WpvNjqVmpVM",
+   "unseen": [
+    "help",
+    "speed"
+   ],
+   "nearestKnown": null,
+   "author": "@SamFPlays"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "Im stuck on the Kulra skip. The phase dash jump thing. I wont let me phase dash on the bridge. If I touch the crystals down below I die instantly",
+   "unseen": [
+    "kulra",
+    "wont",
+    "touch",
+    "crystals",
+    "below"
+   ],
+   "nearestKnown": {
+    "id": "tech-surge",
+    "name": "Phase Dash + Surge combo",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@penguin295"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "Awesome video and very good detailed explanations! I found some minor skips farming the drops myself, but this is very useful if I need to go back for the ascension shards that she now drops. Good job keep it up man!",
+   "unseen": [
+    "awesome",
+    "detailed",
+    "explanations",
+    "minor",
+    "farming",
+    "myself",
+    "useful",
+    "ascension"
+   ],
+   "nearestKnown": null,
+   "author": "@k0zzuu"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "Glad you liked the alternatives, always happy to help with those tricky spots! 😁",
+   "unseen": [
+    "glad",
+    "liked",
+    "alternatives",
+    "always",
+    "happy",
+    "help",
+    "tricky"
+   ],
+   "nearestKnown": null,
+   "author": "@SamFPlays"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "Have you seen the 7 minute run? The necromancies skip is insane in it",
+   "unseen": [
+    "seen",
+    "necromancies",
+    "insane"
+   ],
+   "nearestKnown": null,
+   "author": "@Jacob_White"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "I struggled at first too but with practice I’ve gotten it all down. It’s crazy how they patched certain skips but not the major skip at the end of the raid.",
+   "unseen": [
+    "struggled",
+    "practice",
+    "gotten",
+    "crazy",
+    "certain",
+    "major"
+   ],
+   "nearestKnown": null,
+   "author": "@Keeeymurah"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "I finally can enjoy full run without skips since I got my full dragon. 😂",
+   "unseen": [
+    "finally",
+    "enjoy"
+   ],
+   "nearestKnown": {
+    "id": "s-bd1",
+    "name": "Black dragon skip",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@Valypeto"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "i appreciate the shoutout!! :) i also have a skip for abby demon completely, i can upload the clip aswell if you would like to!",
+   "unseen": [
+    "appreciate",
+    "shoutout",
+    "abby",
+    "completely",
+    "upload",
+    "aswell"
+   ],
+   "nearestKnown": null,
+   "author": "@notmusty1"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "on the boss fight phase 1 skip when the blue dragon first spawns, I cant windstep onto the first rock. I fall through it. And I am also experiencing a glitch where if i do the mechanics without skipping, and stand behind zilyana when she activates the shield (after fighting the blue dragon and firing the cannon) she teleports me and Im falling through the floor immediately. Do we have any idea wha…",
+   "unseen": [
+    "blue",
+    "spawns",
+    "cant",
+    "experiencing",
+    "mechanics",
+    "skipping",
+    "activates",
+    "shield"
+   ],
+   "nearestKnown": {
+    "id": "s-bd1",
+    "name": "Black dragon skip",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@mygoditsnick6457"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "For some reason the necromancer skip, when I do my first dash after jumping it does my phase dash instead, only giving one dash total. Practicing before going in next to zilyana nets me 2 dashes, the final skip lets me use both dashes.",
+   "unseen": [
+    "reason",
+    "total",
+    "practicing",
+    "nets"
+   ],
+   "nearestKnown": {
+    "id": "tech-surge",
+    "name": "Phase Dash + Surge combo",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@gopatriots1991"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "They patched the final boss skip on windstepping on the floating rocks…everything prior to this is still working",
+   "unseen": [
+    "prior"
+   ],
+   "nearestKnown": null,
+   "author": "@devrishabh5692"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "the windstep jump thru the broken hole in the wall at 4:38 just doesnt work for me. my character hits an invisible wall and get stuck and i have to home teleport. is this on the newest patch or what? is there a work around for that part?",
+   "unseen": [
+    "thru",
+    "doesnt",
+    "character",
+    "newest"
+   ],
+   "nearestKnown": {
+    "id": "windjump",
+    "name": "Windjump (Windstep jump)",
+    "src": "glitches.json",
+    "score": 0.5
+   },
+   "author": "@camgokrazy"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "i am not going to skip the limited content in this game as it is. madness. Id understand if the game was a grind, but you can get every single item in less than 200 hours.",
+   "unseen": [
+    "limited",
+    "madness",
+    "understand",
+    "grind",
+    "less",
+    "hours"
+   ],
+   "nearestKnown": null,
+   "author": "@PeekachChu"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "Can you still skip the last phase since yesterday’s update?",
+   "unseen": [
+    "yesterday"
+   ],
+   "nearestKnown": null,
+   "author": "@tbrooks1992"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "Might as well just dupe the rewards chest. That's the fastest skip.",
+   "unseen": [
+    "might",
+    "rewards",
+    "chest",
+    "fastest"
+   ],
+   "nearestKnown": null,
+   "author": "@Slingin_Bait"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "Shieee, they finally patched the final Kuldra boss skip",
+   "unseen": [
+    "shieee",
+    "finally"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@Rider_Tom"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "quote": "I think you've patched the Final Skip at Kuldra. With the Surge dash. Everytime i'm about to reach the final ledge to get to Kuldra theres an invisible wall",
+   "unseen": [
+    "you've",
+    "everytime",
+    "theres"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@FFoxxtrot"
+  }
+ ],
+ "transcriptSource": "youtube:en",
+ "transcriptLines": 204,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": true,
+  "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+  "templateScale": [
+   1.04,
+   0.98
+  ],
+  "templateScore": [
+   0.717,
+   0.847
+  ],
+  "complete": true,
+  "transcript": "youtube:en",
+  "notes": []
+ },
+ "curated": null
 }

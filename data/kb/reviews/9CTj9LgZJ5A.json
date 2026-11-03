@@ -1,0 +1,11 @@
+{
+ "id": "9CTj9LgZJ5A",
+ "url": "https://www.youtube.com/watch?v=9CTj9LgZJ5A",
+ "reviewedAt": "2026-11-03T18:36:17.407Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] 9CTj9LgZJ5A: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape: Dragonwilds - Scorned Wilderness Dragontail Vines Guide"
+}
