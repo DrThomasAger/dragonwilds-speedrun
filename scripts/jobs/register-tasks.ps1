@@ -21,6 +21,7 @@ function Every($start, $interval) {
   $t
 }
 
+Reg 'RaidLab Hourly' 'hourly.mjs' (Every $today.AddMinutes(28) (New-TimeSpan -Hours 1)) (New-TimeSpan -Hours 2) 'Patch notes, sources, ingest, reviews, analysis, KB, publish (scripts\jobs\hourly.mjs). Log D:\claude-temp\logs\jobs-<date>.log'
 Reg 'RaidLab Transcripts' 'transcripts.mjs' (Every $today.AddMinutes(15) (New-TimeSpan -Hours 2)) (New-TimeSpan -Minutes 115) 'YouTube transcript ingest (scripts\jobs\transcripts.mjs). Log D:\claude-temp\logs\transcripts-<date>.log'
 Reg 'RaidLab Daily Review' 'daily-review.mjs' (New-ScheduledTaskTrigger -Daily -At $today.AddHours(4.5)) (New-TimeSpan -Hours 12) 'Full review backlog, analysis, KB, Playwright, publish (scripts\jobs\daily-review.mjs). Log D:\claude-temp\logs\daily-review-<date>.log'
 Reg 'SMILE Arena Build' 'smile-arena-build.mjs' (Every $today.AddMinutes(35) (New-TimeSpan -Hours 1)) (New-TimeSpan -Minutes 50) 'smile-arena: pull, npm run build:site, commit + push (scripts\jobs\smile-arena-build.mjs). Log D:\claude-temp\logs\smile-arena-build-<date>.log'

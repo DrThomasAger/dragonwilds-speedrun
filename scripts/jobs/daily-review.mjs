@@ -3,10 +3,11 @@
 // Log: D:\claude-temp\logs\daily-review-<date>.log
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
-import { logger, step, run, publish, ROOT } from './lib.mjs';
+import { logger, step, run, publish, acquireLock, ROOT } from './lib.mjs';
 
 const L = logger('daily-review');
 L.say('start');
+if (!(await acquireLock(L, 'RaidLab Daily Review', 90))) process.exit(0);
 const H = 60 * 60 * 1000;
 const STEPS = [
   ['review backlog (full, every pending source)', ['node', 'scripts/review/run.mjs', '--jobs=3'], 6 * H],

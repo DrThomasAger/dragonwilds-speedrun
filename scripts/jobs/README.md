@@ -6,7 +6,7 @@ Each new task runs `wscript.exe scripts\jobs\hidden.vbs scripts\jobs\<job>.mjs`.
 
 | Task | Schedule | What it does | Log |
 |---|---|---|---|
-| RaidLab Hourly | every hour (:28) | `hourly.mjs`: patch notes, sources, all ingest, reviews, analysis, KB; commit + push data/ docs/ (main + gh-pages) | `D:\claude-temp\logs\jobs-<date>.log`, `hourly-task.log` |
+| RaidLab Hourly | every hour (:28), 2 h limit | `hourly.mjs`: waits for network after wake, patch notes, sources, all ingest, reviews, analysis, KB (each step has its own timeout, output streamed into the log); commit + push data/ docs/ (main + gh-pages) | `D:\claude-temp\logs\jobs-<date>.log` |
 | RaidLab Logon | at logon | `logon.cmd`: starts `bb lab` bridge and `scripts\ingest\twitch-live.mjs` | `bridge.log`, `twitch-live.log` |
 | RaidLab Transcripts | every 2 h (:15) | `transcripts.mjs`: `scripts/ingest/youtube.mjs --no-comments` (transcripts only) | `transcripts-<date>.log` |
 | RaidLab Daily Review | daily 04:30 | `daily-review.mjs`: full review backlog (`scripts/review/run.mjs`), analysis, KB rebuild, `npx playwright test` (summary in log), commit + push data/ docs/ | `daily-review-<date>.log` |
@@ -38,6 +38,8 @@ name, never deletes anything).
 - `hidden.vbs` runs a job script with no window and passes back its exit code.
 
 ## Notes
+
+- Hourly, Transcripts and Daily Review share one lock (`D:\claude-temp\locks\raidlab-data.lock`), so they never run at once; a job waits for the other (30-90 min) and otherwise skips that run. A lock left by a dead process is taken over.
 
 - Tasks use priority 6 (normal). With the Task Scheduler default (7, below normal) jobs never got
   started while the PC sat at 100% CPU, so they hung forever.
