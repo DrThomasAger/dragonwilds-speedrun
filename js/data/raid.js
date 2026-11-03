@@ -95,3 +95,14 @@ export const PATCHES = [
   { v: '1.0.1.1', date: '2026-10-15', url: 'https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706678658', quote: 'Fixes for skips in the Scorned Wilderness Raid.', text: 'Hotfix; Nanobit\'s 7:01 is on 1.0.1/1.0.1.1.', src: ['nano701'] },
   { v: '1.0.1.2', date: '2026-10-23', url: 'https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114035869', quote: 'Additional fixes for Kuldra Skips.', text: 'Windstepping up the blocks to Kuldra no longer works (Nanobit). Dotxy flies through the Sanctum with chained jump-attack cancels the same day. FastTipsGaming reports a working fight skip on 27 Oct — verify before routing.', src: ['dotxyflight', 'dotxyjump', 'ftgskip'] },
 ];
+
+// "Beat 6:50" target pace: community best segments, with the slack up to TARGET_TIME
+// spread in proportion to segment length. Replaced by skip-level targets when measured.
+export const TARGET_TIME = 408.0;   // 6:48.00 — under the record with a margin
+export function targetPace(runs = RUNS) {
+  const best = communityBest(runs);
+  const sum = best.reduce((a, b) => a + b.seg, 0);
+  const scale = TARGET_TIME / sum;
+  let acc = 0;
+  return best.map(b => (acc += b.seg * scale));
+}

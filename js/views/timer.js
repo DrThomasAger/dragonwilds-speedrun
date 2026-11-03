@@ -2,7 +2,7 @@
 import { h, fmtRun, fmtDelta, isTyping, toast, download, pickFile, fill } from '../lib/util.js';
 import { SplitTimer, recordAttempt, segmentsOf, sumOfBest } from '../lib/timer.js';
 import { exportLss, importLss } from '../lib/lss.js';
-import { SPLITS, RUNS, RUN, RULES, communityBest } from '../data/raid.js';
+import { SPLITS, RUNS, RUN, RULES, communityBest, targetPace, TARGET_TIME } from '../data/raid.js';
 import { model } from '../lib/sync.js';
 import * as store from '../lib/store.js';
 import { emit } from '../lib/bridge.js';
@@ -15,7 +15,7 @@ const refModel = k => model(RUN[k], store.get().runs[k]);
 
 export function comparisons() {
   const t = store.get().timer;
-  const out = [];
+  const out = [{ id: 'beat650', name: `Beat 6:50 pace (${Math.floor(TARGET_TIME / 60)}:${String((TARGET_TIME % 60).toFixed(0)).padStart(2, '0')})`, splits: targetPace(RUNS.map(r => refModel(r.key))) }];
   if (t.pb) out.push({ id: 'pb', name: 'Personal Best', splits: t.pb.splits });
   const sob = sumOfBest(t.best);
   if (sob) { let acc = 0; out.push({ id: 'sob', name: 'Your sum of best', splits: t.best.map(s => (acc += s)) }); }
@@ -27,7 +27,7 @@ export function comparisons() {
 
 export function mount(root) {
   const rec = store.get().timer;
-  let cmpId = rec.comparison || 'tp650';
+  let cmpId = rec.comparison || 'beat650';
   const timer = new SplitTimer(N, { onChange: onTimer });
   let goldSet = new Set();
 

@@ -7,7 +7,7 @@ import { VIDEOS } from '../data/videos.js';
 let items = null;
 async function build() {
   const out = [
-    ['HQ', '#/hq', 'page'], ['Run navigator', '#/run', 'page'], ['Race the WR', '#/compare', 'page'], ['Split-aligned compare', '#/compare?mode=split', 'page'],
+    ['Beat 6:50 today', '#/today', 'page'], ['HQ', '#/hq', 'page'], ['Run navigator', '#/run', 'page'], ['Race the WR', '#/compare', 'page'], ['Split-aligned compare', '#/compare?mode=split', 'page'],
     ['Route', '#/route', 'page'], ['Reel Studio', '#/studio', 'page'], ['Practice', '#/practice', 'page'], ['Split timer', '#/timer', 'page'],
     ['Mechanics wiki', '#/wiki', 'page'], ['Patch notes', '#/patches', 'page'], ['Library', '#/library', 'page'], ['Hardcore 1→Max', '#/hardcore', 'page'], ['Hardcore Run mode', 'hardcore-run.html', 'page'],
     ['6:38 community composite reel', '#/studio?id=p-sob', 'reel'],

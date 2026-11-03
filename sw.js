@@ -1,6 +1,6 @@
 // Service worker: offline app shell, patch-note refresh in the background,
 // notifications when a new patch touches the raid or movement.
-const VERSION = 'v6';
+const VERSION = 'v7';
 const SHELL = `shell-${VERSION}`;
 const DATA = 'data-v1';
 const REMOTE = 'https://raw.githubusercontent.com/DrThomasAger/dragonwilds-speedrun/main/data/patchnotes.json';
@@ -9,9 +9,9 @@ const ASSETS = [
   'js/app.js', 'js/lib/util.js', 'js/lib/store.js', 'js/lib/player.js', 'js/lib/reel.js', 'js/lib/sync.js', 'js/lib/ui.js',
   'js/lib/timer.js', 'js/lib/lss.js', 'js/lib/src.js', 'js/lib/patches.js', 'js/lib/pwa.js', 'js/lib/palette.js', 'js/lib/bridge.js',
   'js/data/videos.js', 'js/data/raid.js', 'js/data/route.js', 'js/data/hardcore.js', 'js/data/wiki.js',
-  'js/views/hq.js', 'js/views/run.js', 'js/views/compare.js', 'js/views/route.js', 'js/views/studio.js', 'js/views/practice.js', 'js/views/timer.js',
+  'js/views/hq.js', 'js/views/today.js', 'js/views/run.js', 'js/views/compare.js', 'js/views/route.js', 'js/views/studio.js', 'js/views/practice.js', 'js/views/timer.js',
   'js/views/library.js', 'js/views/hardcore.js', 'js/views/patches.js', 'js/views/wiki.js',
-  'data/patchnotes.json', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/maskable-512.png',
+  'data/patchnotes.json', 'data/sources.json', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/maskable-512.png',
 ];
 
 self.addEventListener('install', e => {

@@ -9,6 +9,7 @@ import { initBridge } from './lib/bridge.js';
 
 const views = {
   hq: () => import('./views/hq.js'),
+  today: () => import('./views/today.js'),
   run: () => import('./views/run.js'),
   compare: () => import('./views/compare.js'),
   route: () => import('./views/route.js'),
@@ -71,7 +72,7 @@ document.addEventListener('keydown', e => {
   if (e.key === '?') { e.preventDefault(); const d = $('#help'); d.open ? d.close() : d.showModal(); return; }
   if (e.key === 'g') { gPending = Date.now(); return; }
   if (Date.now() - gPending < 900) {
-    const map = { h: 'hq', n: 'run', c: 'compare', r: 'route', s: 'studio', p: 'practice', t: 'timer', w: 'wiki', u: 'patches', l: 'library' };
+    const map = { d: 'today', h: 'hq', n: 'run', c: 'compare', r: 'route', s: 'studio', p: 'practice', t: 'timer', w: 'wiki', u: 'patches', l: 'library' };
     if (map[e.key]) { e.preventDefault(); e.stopImmediatePropagation(); location.hash = '#/' + map[e.key]; gPending = 0; }
   }
 }, true);

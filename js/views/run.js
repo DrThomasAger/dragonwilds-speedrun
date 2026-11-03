@@ -26,7 +26,7 @@ const PREFLIGHT = [
 export function mount(root) {
   const rec = store.get().timer;
   const prefs = store.get().prefs;
-  let cmpId = rec.comparison || 'tp650';
+  let cmpId = rec.comparison || 'beat650';
   let skipIdx = 0, showClip = prefs.runClip !== false, checks = new Set();
   const timer = new SplitTimer(N, { onChange: onTimer });
   let reel = null, raf = 0, phase = 'pre';
