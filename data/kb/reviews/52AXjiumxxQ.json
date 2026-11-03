@@ -1,0 +1,11 @@
+{
+ "id": "52AXjiumxxQ",
+ "url": "https://www.youtube.com/watch?v=52AXjiumxxQ",
+ "reviewedAt": "2026-11-03T07:40:00.976Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] 52AXjiumxxQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape Dragon Wilds: How To Complete All Raid Puzzles (Guide)"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "k5a4WdqbpPs",
+ "url": "https://www.youtube.com/watch?v=k5a4WdqbpPs",
+ "reviewedAt": "2026-11-03T07:38:13.527Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] k5a4WdqbpPs: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape: Dragonwilds: Scorned Wilderness Speedrun - 12 Minutes *UNPATCHED*"
+}

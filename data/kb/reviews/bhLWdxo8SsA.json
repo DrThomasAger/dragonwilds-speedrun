@@ -1,0 +1,151 @@
+{
+ "id": "bhLWdxo8SsA",
+ "url": "https://www.youtube.com/watch?v=bhLWdxo8SsA",
+ "reviewedAt": "2026-11-03T07:31:56.233Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "ok",
+ "title": "Kuldra SpeedRun 1.0.1 #runescapedragonwilds",
+ "author": "ClutchAndCrash",
+ "date": "2026-10-18",
+ "videoDuration": 180,
+ "kind": "run",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "duration": null,
+ "offset": 47.3,
+ "offsetMethod": "detected: end of the loading screen into the raid",
+ "splits": [
+  132
+ ],
+ "videoSplits": [
+  179.3
+ ],
+ "segmentTimes": [
+  132,
+  null,
+  null,
+  null,
+  null
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [
+  {
+   "t": 178.7,
+   "dur": 1.3,
+   "segment": 0
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 179.3,
+    "score": 0.706
+   }
+  ],
+  "end": null,
+  "loadEnd": 47.3
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "There's a lot faster speedruns out there!",
+   "topics": [
+    "timing"
+   ]
+  }
+ ],
+ "candidateMechanics": [],
+ "transcriptSource": "youtube:en",
+ "transcriptLines": 19,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 1,
+  "end": false,
+  "offsetMethod": "detected: end of the loading screen into the raid",
+  "templateScale": [
+   0.68,
+   0.68
+  ],
+  "templateScore": [
+   0.653,
+   0.463
+  ],
+  "complete": false,
+  "transcript": "youtube:en",
+  "notes": []
+ },
+ "curated": null
+}

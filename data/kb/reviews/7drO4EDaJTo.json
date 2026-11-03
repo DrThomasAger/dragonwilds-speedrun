@@ -1,0 +1,11 @@
+{
+ "id": "7drO4EDaJTo",
+ "url": "https://www.youtube.com/watch?v=7drO4EDaJTo",
+ "reviewedAt": "2026-11-03T07:40:06.519Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] 7drO4EDaJTo: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape Dragonwilds 1.0 - Kuldra Is EASY! Raid Boss Guide"
+}

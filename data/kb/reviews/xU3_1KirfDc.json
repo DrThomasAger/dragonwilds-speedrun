@@ -1,0 +1,11 @@
+{
+ "id": "xU3_1KirfDc",
+ "url": "https://www.youtube.com/watch?v=xU3_1KirfDc",
+ "reviewedAt": "2026-11-03T07:42:50.286Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] xU3_1KirfDc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape DragonWilds Update 1.0.1, new attacks and new items! Patched raid skips??"
+}

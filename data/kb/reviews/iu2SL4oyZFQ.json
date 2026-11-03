@@ -1,0 +1,11 @@
+{
+ "id": "iu2SL4oyZFQ",
+ "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ",
+ "reviewedAt": "2026-11-03T07:37:43.515Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] iu2SL4oyZFQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds"
+}

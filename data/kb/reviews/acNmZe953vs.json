@@ -1,0 +1,11 @@
+{
+ "id": "acNmZe953vs",
+ "url": "https://www.youtube.com/watch?v=acNmZe953vs",
+ "reviewedAt": "2026-11-03T07:40:15.400Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] acNmZe953vs: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape Dragonwilds: How to DESTROY Kuldra Easy/Fast - Full walkthrough guide"
+}

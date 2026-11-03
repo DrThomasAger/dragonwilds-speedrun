@@ -1,0 +1,11 @@
+{
+ "id": "2Zn04m-mq80",
+ "url": "https://www.youtube.com/watch?v=2Zn04m-mq80",
+ "reviewedAt": "2026-11-03T07:42:55.361Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] 2Zn04m-mq80: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Legacy Kuldra Skip with a Shortcut to the Heart (Patched?) | RS: Dragonwilds 1.0.0.6"
+}

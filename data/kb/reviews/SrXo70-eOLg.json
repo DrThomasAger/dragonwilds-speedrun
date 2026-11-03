@@ -1,0 +1,11 @@
+{
+ "id": "SrXo70-eOLg",
+ "url": "https://www.youtube.com/watch?v=SrXo70-eOLg",
+ "reviewedAt": "2026-11-03T07:42:40.537Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] SrXo70-eOLg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Kuldra Raid - 2026_10_22"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "gZqT-p3e0uQ",
+ "url": "https://www.youtube.com/watch?v=gZqT-p3e0uQ",
+ "reviewedAt": "2026-11-03T07:43:29.646Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] gZqT-p3e0uQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape: Dragonwilds | Livestream | Kuldra Raid Has Been Fixed! Let's Farm Some Armor!"
+}

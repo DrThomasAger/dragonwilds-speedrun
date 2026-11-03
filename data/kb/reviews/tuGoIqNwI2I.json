@@ -1,0 +1,11 @@
+{
+ "id": "tuGoIqNwI2I",
+ "url": "https://www.youtube.com/watch?v=tuGoIqNwI2I",
+ "reviewedAt": "2026-11-03T07:42:40.710Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] tuGoIqNwI2I: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "This is NOT how you're supposed to beat Kuldra..."
+}

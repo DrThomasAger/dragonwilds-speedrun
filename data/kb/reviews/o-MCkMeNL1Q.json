@@ -1,0 +1,11 @@
+{
+ "id": "o-MCkMeNL1Q",
+ "url": "https://www.youtube.com/watch?v=o-MCkMeNL1Q",
+ "reviewedAt": "2026-11-03T07:40:57.761Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] o-MCkMeNL1Q: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape Dragon Wilds: How To Craft Every New Resource! (Scorned Wilderness)"
+}

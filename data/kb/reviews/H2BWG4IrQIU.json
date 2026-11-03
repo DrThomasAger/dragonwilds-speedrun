@@ -1,0 +1,11 @@
+{
+ "id": "H2BWG4IrQIU",
+ "url": "https://www.youtube.com/watch?v=H2BWG4IrQIU",
+ "reviewedAt": "2026-11-03T07:41:53.878Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] H2BWG4IrQIU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape: Dragonwilds Kuldra Skip"
+}

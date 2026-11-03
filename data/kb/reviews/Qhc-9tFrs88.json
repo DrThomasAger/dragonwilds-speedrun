@@ -1,0 +1,11 @@
+{
+ "id": "Qhc-9tFrs88",
+ "url": "https://www.youtube.com/watch?v=Qhc-9tFrs88",
+ "reviewedAt": "2026-11-03T07:42:26.839Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] Qhc-9tFrs88: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Soloing Kuldra - RS Dragonwilds 1.0 Final Boss (Full Fight/Puzzle sped up)"
+}

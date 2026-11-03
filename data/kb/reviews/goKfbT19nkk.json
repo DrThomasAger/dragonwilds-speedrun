@@ -1,0 +1,11 @@
+{
+ "id": "goKfbT19nkk",
+ "url": "https://www.youtube.com/watch?v=goKfbT19nkk",
+ "reviewedAt": "2026-11-03T07:41:48.528Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] goKfbT19nkk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape Dragonwilds - 1.0.1 New Movement Tech - Infinite Double Jump"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "dx1B3GZw_f4",
+ "url": "https://www.youtube.com/watch?v=dx1B3GZw_f4",
+ "reviewedAt": "2026-11-03T07:40:27.014Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] dx1B3GZw_f4: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "How to Beat Kuldra Before Everyone Else | RuneScape: Dragonwilds Boss Guide"
+}

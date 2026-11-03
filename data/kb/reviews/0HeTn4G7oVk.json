@@ -1,0 +1,11 @@
+{
+ "id": "0HeTn4G7oVk",
+ "url": "https://www.youtube.com/watch?v=0HeTn4G7oVk",
+ "reviewedAt": "2026-11-03T07:43:24.009Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] 0HeTn4G7oVk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape Dragonwilds Update v1.0.1.3 to v1.0.1.0 All Patch Notes, Boss Fixes & New Features!"
+}

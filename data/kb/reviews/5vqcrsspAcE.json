@@ -1,0 +1,11 @@
+{
+ "id": "5vqcrsspAcE",
+ "url": "https://www.youtube.com/watch?v=5vqcrsspAcE",
+ "reviewedAt": "2026-11-03T07:43:10.048Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] 5vqcrsspAcE: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "I Spent 100 Days in RuneScape Dragonwilds Scorned Wilderness... Here's What Happened!"
+}

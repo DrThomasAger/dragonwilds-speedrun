@@ -1,0 +1,11 @@
+{
+ "id": "osZKPmm848U",
+ "url": "https://www.youtube.com/watch?v=osZKPmm848U",
+ "reviewedAt": "2026-11-03T07:43:00.224Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] osZKPmm848U: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape Dragonwilds: Regicide Quest Guide – Quick & Easy for All Players!"
+}

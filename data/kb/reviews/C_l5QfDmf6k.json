@@ -1,0 +1,11 @@
+{
+ "id": "C_l5QfDmf6k",
+ "url": "https://www.youtube.com/watch?v=C_l5QfDmf6k",
+ "reviewedAt": "2026-11-03T07:40:21.141Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] C_l5QfDmf6k: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape Dragonwilds: Scorned Wilderness Preparation Guide! (1.0 & Kuldra)"
+}

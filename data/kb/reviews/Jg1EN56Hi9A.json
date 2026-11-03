@@ -1,0 +1,11 @@
+{
+ "id": "Jg1EN56Hi9A",
+ "url": "https://www.youtube.com/watch?v=Jg1EN56Hi9A",
+ "reviewedAt": "2026-11-03T07:40:46.431Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] Jg1EN56Hi9A: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "SPOILER! HOW TO DO KULDRA FIGHT RuneScape: Dragonwilds"
+}

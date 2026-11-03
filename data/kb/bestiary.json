@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated": "2026-11-03T06:21:50Z",
+  "generated": "2026-11-03T06:32:35Z",
   "gamePatch": "1.0.1.2 (latest official Steam post, 2026-10-23)",
   "about": "RuneScape: Dragonwilds bestiary for Scorned Wilderness raid speedrunning. Raid enemies first in route order, then other bosses, then every other monster with a wiki infobox. Every value carries a source; anything no source states is \"unknown\". Nothing here is measured in-game.",
   "sources": [
@@ -1106,6 +1106,7 @@
    "name": "Soulscourge (Kuldra's barrier attack)",
    "kind": "boss-minion",
    "raid": true,
+   "summary": "Not a monster: the name runners use for Kuldra's scripted blast in Dragontail Vines (Zilyana's shield dome). The 'Soulscourge skip' (s-soul) is to start siphoning the air anima (hold E) before the blast lands and eat through the damage instead of walking to the dome. The wiki's Soulscourge page is an unrelated toxicity status effect.",
    "route": [
     {
      "split": 0,
@@ -1349,6 +1350,7 @@
    "name": "Black Dragon",
    "kind": "miniboss",
    "raid": true,
+   "summary": "Power level 8, 6,000 HP, immune to fire, weak to water. Three spawns (Dragontail Vines, Fragments, Stronghold/Keep side). Every speedrun route skips all three (s-bd1 and the Keep zoop). Never cross its airborne line breath, which staggers and locks you in.",
    "route": [
     {
      "split": 0,
@@ -3197,6 +3199,7 @@
    "name": "Skeletal Necromancer",
    "kind": "mob",
    "raid": true,
+   "summary": "Power level 8 in the raid, 950 HP, weak to crush and water. Summons skeletal warriors. The whole necromancer area is skipped with the necro-land zoop (s-necro).",
    "route": [
     {
      "split": 0,
@@ -3882,6 +3885,7 @@
    "name": "Plague King",
    "kind": "miniboss",
    "raid": true,
+   "summary": "A large poison rat that is immune to poison. It sits in the Fragments toxic/poison area, which the route skips entirely (s-poison).",
    "route": [
     {
      "split": 1,
@@ -5725,6 +5729,7 @@
    "name": "Abyssal Demon",
    "kind": "miniboss",
    "raid": true,
+   "summary": "Power level 9 in the raid, 6,250 HP, weak to slash, resists air. It teleports to you when you are far away or out of reach (0.10), so the skip (s-demon: Surge then Phase Dash) must start from the right spot or it follows you.",
    "route": [
     {
      "split": 1,
@@ -6506,6 +6511,7 @@
    "name": "Garou Thane",
    "kind": "mob",
    "raid": true,
+   "summary": "Tower-shield Garou, 1,710 HP at power level 8, weak to crush. The air-attuned Thane in the Stronghold is the route's air source: kill it through the closed gate with a mace (SamFPlays reports a magic kill did not give him the charge), then windjump to the air door (s-thane). Its respawn on repeat attempts (~15 min reported on 1.0.1) is disputed by the 1.0.1 'respawn on reset' note.",
    "route": [
     {
      "split": 2,
@@ -9149,6 +9155,7 @@
    "name": "Kuldra",
    "kind": "boss",
    "raid": true,
+   "summary": "Power level 9, 240,000 HP, cannot be damaged directly: three cannon phases (6 hits each) and then the Heart. Every current route skips the fight (s-kuldra / s-flight); 1.0.1.2 removed the windstep-up-the-blocks route, and infinite double jump flight replaced it.",
    "route": [
     {
      "split": 4,
@@ -10445,6 +10452,7 @@
    "name": "Dragon Hatchling",
    "kind": "boss-minion",
    "raid": true,
+   "summary": "1,800 HP, immune to fire and bleed. One per cannon phase; killing it grants water (blue) or fire (red) anima. Fight-skip routes never meet them.",
    "route": [
     {
      "split": 4,
@@ -10728,6 +10736,7 @@
    "name": "Kuldra's Heart",
    "kind": "boss",
    "raid": true,
+   "summary": "The Phase 4 target and the end of the run: the timer stops at the cut to black after 'Get out now!'. Burn it with a 2H mage staff from the spot where heartworms do not spawn (s-heart). Its poison explosions grow as its health falls.",
    "route": [
     {
      "split": 4,
@@ -11215,6 +11224,7 @@
    "name": "Heartworm",
    "kind": "boss-minion",
    "raid": true,
+   "summary": "753 HP, power level 9, keeps respawning during Phase 4. Do not fight them: stand where they do not spawn or target you (s-heart).",
    "route": [
     {
      "split": 4,

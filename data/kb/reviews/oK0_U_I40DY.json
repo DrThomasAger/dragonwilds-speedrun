@@ -1,0 +1,11 @@
+{
+ "id": "oK0_U_I40DY",
+ "url": "https://www.youtube.com/watch?v=oK0_U_I40DY",
+ "reviewedAt": "2026-11-03T07:42:18.768Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] oK0_U_I40DY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "New FULL Kuldra Raid Skip 1.0.1"
+}

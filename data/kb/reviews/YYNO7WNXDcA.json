@@ -1,0 +1,11 @@
+{
+ "id": "YYNO7WNXDcA",
+ "url": "https://www.youtube.com/watch?v=YYNO7WNXDcA",
+ "reviewedAt": "2026-11-03T07:42:50.502Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] YYNO7WNXDcA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "I Opened 99 Queenslayer Chests in RuneScape Dragonwilds 1.0"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "H5lB0aHa-r0",
+ "url": "https://www.youtube.com/watch?v=H5lB0aHa-r0",
+ "reviewedAt": "2026-11-03T07:37:19.285Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] H5lB0aHa-r0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape: Dragonwilds Scorned Wilderness Full Run"
+}

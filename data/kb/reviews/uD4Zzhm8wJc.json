@@ -1,0 +1,11 @@
+{
+ "id": "uD4Zzhm8wJc",
+ "url": "https://www.youtube.com/watch?v=uD4Zzhm8wJc",
+ "reviewedAt": "2026-11-03T07:42:45.426Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] uD4Zzhm8wJc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape Dragonwilds Kuldra Final Boss Fight 4k Gameplay (No Cheese)"
+}

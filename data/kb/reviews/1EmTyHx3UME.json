@@ -1,0 +1,11 @@
+{
+ "id": "1EmTyHx3UME",
+ "url": "https://www.youtube.com/watch?v=1EmTyHx3UME",
+ "reviewedAt": "2026-11-03T06:52:55.889Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "unavailable",
+ "error": "ERROR: [youtube] 1EmTyHx3UME: Video unavailable. This video has been removed by the uploader",
+ "rateLimited": false,
+ "title": null
+}

@@ -1,0 +1,11 @@
+{
+ "id": "RFY6kDdxHOg",
+ "url": "https://www.youtube.com/watch?v=RFY6kDdxHOg",
+ "reviewedAt": "2026-11-03T07:39:37.888Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] RFY6kDdxHOg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape Dragonwilds scorned wilderness speed run WORLD RECORD (9:37)"
+}

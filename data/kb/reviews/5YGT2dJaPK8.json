@@ -1,0 +1,11 @@
+{
+ "id": "5YGT2dJaPK8",
+ "url": "https://www.youtube.com/watch?v=5YGT2dJaPK8",
+ "reviewedAt": "2026-11-03T07:43:24.130Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] 5YGT2dJaPK8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Do THIS Before RuneScape: Dragonwilds 1.0 - Raid Prep for Full Release! #runescapedragonwilds"
+}

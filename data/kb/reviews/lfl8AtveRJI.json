@@ -1,0 +1,11 @@
+{
+ "id": "lfl8AtveRJI",
+ "url": "https://www.youtube.com/watch?v=lfl8AtveRJI",
+ "reviewedAt": "2026-11-03T07:39:35.459Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] lfl8AtveRJI: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Dragonwilds WORLD RECORD Sub 8:30 run"
+}

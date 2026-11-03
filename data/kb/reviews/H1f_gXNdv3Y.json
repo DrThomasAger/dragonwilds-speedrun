@@ -1,0 +1,11 @@
+{
+ "id": "H1f_gXNdv3Y",
+ "url": "https://www.youtube.com/watch?v=H1f_gXNdv3Y",
+ "reviewedAt": "2026-11-03T07:41:51.537Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] H1f_gXNdv3Y: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "*EASY* How T0 Skip Kuldra Boss (Runescape Dragonwilds )"
+}

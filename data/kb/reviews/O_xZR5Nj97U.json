@@ -1,0 +1,11 @@
+{
+ "id": "O_xZR5Nj97U",
+ "url": "https://www.youtube.com/watch?v=O_xZR5Nj97U",
+ "reviewedAt": "2026-11-03T07:43:19.358Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] O_xZR5Nj97U: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "24 Hours to Kill Kuldra From Scratch | RuneScape: Dragonwilds"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "FAhMipbG7FQ",
+ "url": "https://www.youtube.com/watch?v=FAhMipbG7FQ",
+ "reviewedAt": "2026-11-03T07:37:10.060Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] FAhMipbG7FQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RS DW: 2 MIN 30 WORLD RECORD KULDRA KILL"
+}

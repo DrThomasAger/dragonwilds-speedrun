@@ -1,0 +1,11 @@
+{
+ "id": "k2gbrO0NJI4",
+ "url": "https://www.youtube.com/watch?v=k2gbrO0NJI4",
+ "reviewedAt": "2026-11-03T07:38:08.456Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] k2gbrO0NJI4: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Kuldra Boss Fight IL Speedrun (Duo Legit 7:45)"
+}

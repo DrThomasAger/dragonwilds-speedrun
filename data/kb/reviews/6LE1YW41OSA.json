@@ -1,0 +1,11 @@
+{
+ "id": "6LE1YW41OSA",
+ "url": "https://www.youtube.com/watch?v=6LE1YW41OSA",
+ "reviewedAt": "2026-11-03T07:43:25.119Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] 6LE1YW41OSA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Does Dragonwilds Need New Regions or Better Old Ones? | DGW Podcast #1"
+}

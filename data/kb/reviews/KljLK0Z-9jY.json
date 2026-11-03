@@ -1,0 +1,11 @@
+{
+ "id": "KljLK0Z-9jY",
+ "url": "https://www.youtube.com/watch?v=KljLK0Z-9jY",
+ "reviewedAt": "2026-11-03T07:39:10.959Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] KljLK0Z-9jY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape: Dragonwilds | 7:04 Kuldra | 1.0.0.6+ Legacy WR"
+}

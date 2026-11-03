@@ -1,0 +1,11 @@
+{
+ "id": "v08OscNsOEM",
+ "url": "https://www.youtube.com/watch?v=v08OscNsOEM",
+ "reviewedAt": "2026-11-03T07:43:09.967Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] v08OscNsOEM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "How to Farm Discordant Residue EARLY | Scorned Wilderness – RuneScape Dragonwilds"
+}

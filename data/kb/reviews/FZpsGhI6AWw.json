@@ -1,0 +1,11 @@
+{
+ "id": "FZpsGhI6AWw",
+ "url": "https://www.youtube.com/watch?v=FZpsGhI6AWw",
+ "reviewedAt": "2026-11-03T07:43:28.586Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] FZpsGhI6AWw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Combat Just Changed in Dragonwilds - Update 1.0.1"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "1Pzu9MOwENY",
+ "url": "https://www.youtube.com/watch?v=1Pzu9MOwENY",
+ "reviewedAt": "2026-11-03T07:39:52.868Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] 1Pzu9MOwENY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape: Dragonwilds - Scorned Wilderness Fragments of Ghornfell Guide"
+}

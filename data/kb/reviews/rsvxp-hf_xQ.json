@@ -1,0 +1,11 @@
+{
+ "id": "rsvxp-hf_xQ",
+ "url": "https://www.youtube.com/watch?v=rsvxp-hf_xQ",
+ "reviewedAt": "2026-11-03T07:42:37.579Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] rsvxp-hf_xQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "3 NEW Sanguine Urns in Scorned Wilderness | +30 HP – RuneScape Dragonwilds"
+}

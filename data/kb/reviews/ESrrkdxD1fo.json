@@ -1,0 +1,11 @@
+{
+ "id": "ESrrkdxD1fo",
+ "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+ "reviewedAt": "2026-11-03T07:40:29.522Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] ESrrkdxD1fo: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds"
+}

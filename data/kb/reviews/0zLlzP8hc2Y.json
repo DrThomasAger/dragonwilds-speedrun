@@ -1,0 +1,11 @@
+{
+ "id": "0zLlzP8hc2Y",
+ "url": "https://www.youtube.com/watch?v=0zLlzP8hc2Y",
+ "reviewedAt": "2026-11-03T07:39:23.646Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] 0zLlzP8hc2Y: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Dragonwilds Scorned Wilderness Raid Speedrun 3:27"
+}

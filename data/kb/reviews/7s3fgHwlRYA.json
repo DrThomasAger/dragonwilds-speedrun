@@ -1,0 +1,11 @@
+{
+ "id": "7s3fgHwlRYA",
+ "url": "https://www.youtube.com/watch?v=7s3fgHwlRYA",
+ "reviewedAt": "2026-11-03T07:40:09.857Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] 7s3fgHwlRYA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "How to Beat Kuldra - Complete Raid Guide | Dragonwilds 1.0"
+}

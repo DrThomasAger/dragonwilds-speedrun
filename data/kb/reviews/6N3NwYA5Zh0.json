@@ -1,0 +1,11 @@
+{
+ "id": "6N3NwYA5Zh0",
+ "url": "https://www.youtube.com/watch?v=6N3NwYA5Zh0",
+ "reviewedAt": "2026-11-03T07:39:31.861Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] 6N3NwYA5Zh0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "(7:40) Kuldra RAID Speedrun // RS Dragonwilds Patch 1.0.0.6+"
+}

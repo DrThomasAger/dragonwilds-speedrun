@@ -1,0 +1,11 @@
+{
+ "id": "ynjeXmaFyVU",
+ "url": "https://www.youtube.com/watch?v=ynjeXmaFyVU",
+ "reviewedAt": "2026-11-03T07:41:17.703Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] ynjeXmaFyVU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "The BEST Gear Before Scorned Wilderness! | Dragonwilds Best-in-Slot Progression Guide"
+}

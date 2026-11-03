@@ -1,0 +1,11 @@
+{
+ "id": "Xkrf9b-Ph8U",
+ "url": "https://www.youtube.com/watch?v=Xkrf9b-Ph8U",
+ "reviewedAt": "2026-11-03T07:39:11.533Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] Xkrf9b-Ph8U: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape Dragonwilds - Scorched Ruins (SOLO) SPEEDRUN Attempt #2 (28:45)"
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T05:59:53.653Z",
+  "generatedAt": "2026-11-03T07:43:41.236Z",
   "goal": 410,
   "splits": [
     "Vines",
@@ -485,7 +485,7 @@
     }
   },
   "sources": {
-    "checkedAt": "2026-11-03T05:15:34.049Z",
+    "checkedAt": "2026-11-03T07:28:15.241Z",
     "rows": [
       {
         "runner": "TexasPete",
@@ -674,9 +674,9 @@
         "spread": 152
       }
     ],
-    "logEvents": 67,
+    "logEvents": 82,
     "logKinds": {
-      "new": 67
+      "new": 82
     }
   },
   "attempts": [

@@ -1,0 +1,522 @@
+{
+ "id": "0JjwOhI-_II",
+ "url": "https://www.youtube.com/watch?v=0JjwOhI-_II",
+ "reviewedAt": "2026-11-03T06:57:51.038Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "ok",
+ "title": "Runescape: Dragonwilds Kuldra Whole Raid Former World Record Speedrun [14:09:53]",
+ "author": "Psychodeum",
+ "date": "2026-09-17",
+ "videoDuration": 875,
+ "kind": "run",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": 849.53,
+ "duration": 845.4,
+ "offset": 0,
+ "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+ "splits": [
+  19.4,
+  82.9,
+  122.3,
+  184.9,
+  845.4
+ ],
+ "videoSplits": [
+  19.4,
+  82.9,
+  122.3,
+  184.9,
+  845.4
+ ],
+ "segmentTimes": [
+  19.4,
+  63.5,
+  39.4,
+  62.6,
+  660.5
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 0,
+   "tEnd": 19.4,
+   "segment": 0,
+   "name": "Dragontail Vines",
+   "kind": "faster",
+   "delta": -62.12,
+   "seg": 19.4,
+   "description": "Dragontail Vines: 19.4 s — 62.1 s faster than every reference run (best TexasPete 81.52 s). Possible skip or route not in the reference set.",
+   "frames": "0JjwOhI-_II/anomaly-0-seg0.png"
+  },
+  {
+   "t": 82.9,
+   "tEnd": 122.3,
+   "segment": 2,
+   "name": "The Shattered Stronghold",
+   "kind": "faster",
+   "delta": -12.3,
+   "seg": 39.4,
+   "description": "The Shattered Stronghold: 39.4 s — 12.3 s faster than every reference run (best TexasPete 51.7 s). Possible skip or route not in the reference set.",
+   "frames": "0JjwOhI-_II/anomaly-1-seg2.png"
+  },
+  {
+   "t": 122.3,
+   "tEnd": 184.9,
+   "segment": 3,
+   "name": "Cataclysm Keep",
+   "kind": "faster",
+   "delta": -25.2,
+   "seg": 62.6,
+   "description": "Cataclysm Keep: 62.6 s — 25.2 s faster than every reference run (best Nanobit 87.8 s). Possible skip or route not in the reference set.",
+   "frames": "0JjwOhI-_II/anomaly-2-seg3.png"
+  },
+  {
+   "t": 184.9,
+   "tEnd": 845.4,
+   "segment": 4,
+   "name": "Kuldra's Sanctum",
+   "kind": "slower",
+   "delta": 480,
+   "seg": 660.5,
+   "description": "Kuldra's Sanctum: 660.5 s — 480.0 s slower than every reference run (slowest 180.5 s). Different path, deaths or a puzzle done normally.",
+   "frames": "0JjwOhI-_II/anomaly-3-seg4.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 29.1,
+   "dur": 5.9,
+   "segment": 1
+  },
+  {
+   "t": 44.2,
+   "dur": 2.1,
+   "segment": 1
+  },
+  {
+   "t": 56.9,
+   "dur": 1.7,
+   "segment": 1
+  },
+  {
+   "t": 108.7,
+   "dur": 2.1,
+   "segment": 2
+  },
+  {
+   "t": 116,
+   "dur": 1.6,
+   "segment": 2
+  },
+  {
+   "t": 128.4,
+   "dur": 0.8,
+   "segment": 3
+  },
+  {
+   "t": 135.5,
+   "dur": 1.9,
+   "segment": 3
+  },
+  {
+   "t": 195.2,
+   "dur": 6,
+   "segment": 4
+  },
+  {
+   "t": 210.7,
+   "dur": 0.7,
+   "segment": 4
+  },
+  {
+   "t": 211.9,
+   "dur": 0.6,
+   "segment": 4
+  },
+  {
+   "t": 222.2,
+   "dur": 1.2,
+   "segment": 4
+  },
+  {
+   "t": 239.1,
+   "dur": 0.6,
+   "segment": 4
+  },
+  {
+   "t": 773.5,
+   "dur": 0.4,
+   "segment": 4
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 19.4,
+    "score": 0.892
+   },
+   {
+    "t": 82.9,
+    "score": 0.905
+   },
+   {
+    "t": 122.3,
+    "score": 0.897
+   },
+   {
+    "t": 184.9,
+    "score": 0.898
+   }
+  ],
+  "end": {
+   "t": 845.4,
+   "plate": [
+    831.5,
+    845.3
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": null
+ },
+ "commentary": [
+  {
+   "t": 94.4,
+   "text": "Teleporter now.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/0JjwOhI-_II?t=94",
+   "known": null
+  },
+  {
+   "t": 299.5,
+   "text": "It doesn't really mean much, apart from the fact that you can afford to miss one shot.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/0JjwOhI-_II?t=299",
+   "known": null
+  },
+  {
+   "t": 314.1,
+   "text": "a little bit of an unlucky cycle for me there, but it's okay.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/0JjwOhI-_II?t=314",
+   "known": null
+  },
+  {
+   "t": 318.1,
+   "text": "Yeah. Usually he spawns way faster, I feel.",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/0JjwOhI-_II?t=318",
+   "known": null
+  },
+  {
+   "t": 323.1,
+   "text": "This raid does have RNG when it comes to time, so hopefully we get, like, good RNG on the rest",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/0JjwOhI-_II?t=323",
+   "known": null
+  },
+  {
+   "t": 338.1,
+   "text": "Well, there's where missing...",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/0JjwOhI-_II?t=338",
+   "known": null
+  },
+  {
+   "t": 340.5,
+   "text": "being able to miss one comes in clutch, right?",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/0JjwOhI-_II?t=340",
+   "known": null
+  },
+  {
+   "t": 376.7,
+   "text": "This is mostly just showing the tech and everything, so I don't really mind that much, if it's",
+   "topics": [
+    "trick"
+   ],
+   "link": "https://youtu.be/0JjwOhI-_II?t=376",
+   "known": null
+  },
+  {
+   "t": 410.7,
+   "text": "Here actually I think it is faster if we don't do anything.",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/0JjwOhI-_II?t=410",
+   "known": null
+  },
+  {
+   "t": 469.4,
+   "text": "Just unlucky, man.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/0JjwOhI-_II?t=469",
+   "known": null
+  },
+  {
+   "t": 503.9,
+   "text": "I think, unless the dragon somehow decides to spawn faster.",
+   "topics": [
+    "timing"
+   ],
+   "places": [
+    "dragon"
+   ],
+   "link": "https://youtu.be/0JjwOhI-_II?t=503",
+   "known": "s-bd1"
+  },
+  {
+   "t": 634,
+   "text": "only get one blue dragon you can wind step over the gate and it gives you a better cycle.",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "dragon",
+    "gate"
+   ],
+   "link": "https://youtu.be/0JjwOhI-_II?t=634",
+   "known": "s-bd1"
+  },
+  {
+   "t": 685.1,
+   "text": "Yeah, it's still the slower cycle but the way we did it we optimized it to its absolute max.",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/0JjwOhI-_II?t=685",
+   "known": null
+  },
+  {
+   "t": 713.5,
+   "text": "Got unlucky on the spawns.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/0JjwOhI-_II?t=713",
+   "known": null
+  },
+  {
+   "t": 782.7,
+   "text": "Should I risk it and see what happens to my healing buffs if I pop a pharaoh?",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/0JjwOhI-_II?t=782",
+   "known": null
+  },
+  {
+   "t": 857.4,
+   "text": "I think that is actually world record.",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/0JjwOhI-_II?t=857",
+   "known": null
+  },
+  {
+   "t": 859.4,
+   "text": "According to every statistic I've looked at I think that's WR.",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/0JjwOhI-_II?t=859",
+   "known": null
+  },
+  {
+   "t": 868.5,
+   "text": "Hope you guys enjoyed the tech.",
+   "topics": [
+    "trick"
+   ],
+   "link": "https://youtu.be/0JjwOhI-_II?t=868",
+   "known": null
+  }
+ ],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "If you want me to react to and/or coach you on your gameplay, you can drop your games and clips down into the discord server linked below.",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "#runescape #dragonwilds #oldschool #runescape #osrs #gaming #funnymoments #clips #jynxzi #worldrecord #emiru #gameplay  #sodapoppin #speedrun #smite2",
+   "topics": [
+    "skip"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=0JjwOhI-_II",
+   "quote": "If you want me to react to and/or coach you on your gameplay, you can drop your games and clips down into the discord server linked below.",
+   "unseen": [
+    "react",
+    "coach",
+    "gameplay",
+    "games",
+    "discord",
+    "linked",
+    "below"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=0JjwOhI-_II",
+   "quote": "#runescape #dragonwilds #oldschool #runescape #osrs #gaming #funnymoments #clips #jynxzi #worldrecord #emiru #gameplay  #sodapoppin #speedrun #smite2",
+   "unseen": [
+    "oldschool",
+    "osrs",
+    "funnymoments",
+    "jynxzi",
+    "worldrecord",
+    "emiru",
+    "gameplay",
+    "sodapoppin"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "timing",
+   "t": 0,
+   "link": "https://youtu.be/0JjwOhI-_II?t=0",
+   "quote": "Dragontail Vines: 19.4 s — 62.1 s faster than every reference run (best TexasPete 81.52 s). Possible skip or route not in the reference set.",
+   "segment": 0,
+   "frames": "0JjwOhI-_II/cand-0.png"
+  },
+  {
+   "source": "timing",
+   "t": 82.9,
+   "link": "https://youtu.be/0JjwOhI-_II?t=82",
+   "quote": "The Shattered Stronghold: 39.4 s — 12.3 s faster than every reference run (best TexasPete 51.7 s). Possible skip or route not in the reference set.",
+   "segment": 2,
+   "frames": "0JjwOhI-_II/cand-83.png"
+  },
+  {
+   "source": "timing",
+   "t": 122.3,
+   "link": "https://youtu.be/0JjwOhI-_II?t=122",
+   "quote": "Cataclysm Keep: 62.6 s — 25.2 s faster than every reference run (best Nanobit 87.8 s). Possible skip or route not in the reference set.",
+   "segment": 3,
+   "frames": "0JjwOhI-_II/cand-122.png"
+  }
+ ],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 221,
+ "transcriptRetry": false,
+ "subsError": "ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests",
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": true,
+  "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+  "templateScale": [
+   1.02,
+   0.98
+  ],
+  "templateScore": [
+   0.891,
+   0.932
+  ],
+  "complete": true,
+  "statedTime": 849.53,
+  "statedDiff": -4.13,
+  "transcript": "whisper:small",
+  "notes": [
+   "Measured 845.4 s vs stated 849.53 s (-4.13 s): check the start (offset) or a timer stopped early."
+  ]
+ },
+ "curated": null
+}

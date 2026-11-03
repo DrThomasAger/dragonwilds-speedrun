@@ -1,0 +1,11 @@
+{
+ "id": "ewgak1mPu7A",
+ "url": "https://www.youtube.com/watch?v=ewgak1mPu7A",
+ "reviewedAt": "2026-11-03T07:40:32.526Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] ewgak1mPu7A: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "I Broke the New Dragonwilds Raid | Kuldra Guide + Tricks"
+}

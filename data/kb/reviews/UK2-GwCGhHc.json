@@ -1,0 +1,11 @@
+{
+ "id": "UK2-GwCGhHc",
+ "url": "https://www.youtube.com/watch?v=UK2-GwCGhHc",
+ "reviewedAt": "2026-11-03T07:39:41.594Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] UK2-GwCGhHc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Kuldra Safespot Quick Run - Runescape Dragonwilds"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "TLJOpo8frns",
+ "url": "https://www.youtube.com/watch?v=TLJOpo8frns",
+ "reviewedAt": "2026-11-03T07:43:19.471Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] TLJOpo8frns: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape: Dragonwilds Full KULDRA Raid PS5 PRO Gameplay "
+}

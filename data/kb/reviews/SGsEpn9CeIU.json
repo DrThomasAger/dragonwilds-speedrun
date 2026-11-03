@@ -1,0 +1,11 @@
+{
+ "id": "SGsEpn9CeIU",
+ "url": "https://www.youtube.com/watch?v=SGsEpn9CeIU",
+ "reviewedAt": "2026-11-03T07:38:39.969Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] SGsEpn9CeIU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape Dragonwilds: Scorned wilderness raid + Final boss under 36 minutes!"
+}

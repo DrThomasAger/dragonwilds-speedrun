@@ -4,8 +4,8 @@
 - **Author:** TexasPete.21 · 2026-10-23 · 7:24.00
 - **Status:** verified (rank 1, 1.0.0.6+) · stated 6:50.00
 - **Measured:** 6:50.12 · offset 7.38 s (reference (js/data/raid.js tp650, LiveSplit/frame-read))
-- **Transcript:** kb-raw:auto:en-orig (35 lines) · visual: ok
-- **Reviewed:** 2026-11-03T06:30:12.121Z (full)
+- **Transcript:** whisper:base (73 lines) · visual: ok
+- **Reviewed:** 2026-11-03T06:36:32.544Z (full)
 
 ## Splits
 
@@ -33,12 +33,12 @@
 
 ## Commentary (technique lines)
 
-- [1:20.30](https://youtu.be/6WEIHo7AUf0?t=80) Missed me. All right, let's see what we got right here. Let's go. Big jump. Oh. _(mistake)_
-- [1:57.80](https://youtu.be/6WEIHo7AUf0?t=117) All right, here's the moment of truth. Where all runs go to die. Oh. Oh. Oh. Oh. _(mistake)_
-- [3:23.20](https://youtu.be/6WEIHo7AUf0?t=203) All right, this is super sketchy right here. We got to risk it. This is a good run. _(mistake)_
-- [4:38.00](https://youtu.be/6WEIHo7AUf0?t=278) I'm not risking this right here. This run's too good to mess up right here. _(mistake)_
-- [5:24.90](https://youtu.be/6WEIHo7AUf0?t=324) Last little piece right here. I'm going to risk it all. Going for the big jumps. _(mistake)_
-- [6:21.20](https://youtu.be/6WEIHo7AUf0?t=381) Okay, clean. Clean. I'm going to spam this. Spam. Spam. _(cancel)_
+- [1:20.50](https://youtu.be/6WEIHo7AUf0?t=80) Miss me. _(mistake)_
+- [2:03.00](https://youtu.be/6WEIHo7AUf0?t=123) Go to die. Oh. _(mistake)_
+- [3:25.50](https://youtu.be/6WEIHo7AUf0?t=205) We got a risk it. _(mistake)_
+- [4:27.10](https://youtu.be/6WEIHo7AUf0?t=267) Throw the needle. _(mistake)_
+- [4:38.10](https://youtu.be/6WEIHo7AUf0?t=278) I'm not risking this right here. _(mistake)_
+- [5:28.40](https://youtu.be/6WEIHo7AUf0?t=328) We got to risk it all. _(mistake)_
 
 ## Description, comments, speedrun.com
 

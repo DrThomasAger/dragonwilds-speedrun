@@ -1,0 +1,11 @@
+{
+ "id": "jAVO0M4eVXQ",
+ "url": "https://www.youtube.com/watch?v=jAVO0M4eVXQ",
+ "reviewedAt": "2026-11-03T07:37:56.986Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] jAVO0M4eVXQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Dragonwilds kuldra full fight SOLO"
+}

@@ -1,7 +1,7 @@
 {
  "id": "6WEIHo7AUf0",
  "url": "https://www.youtube.com/watch?v=6WEIHo7AUf0",
- "reviewedAt": "2026-11-03T06:30:12.121Z",
+ "reviewedAt": "2026-11-03T06:36:32.544Z",
  "pipelineVersion": 1,
  "level": "full",
  "status": "ok",
@@ -191,8 +191,8 @@
  },
  "commentary": [
   {
-   "t": 80.3,
-   "text": "Missed me. All right, let's see what we got right here. Let's go. Big jump. Oh.",
+   "t": 80.5,
+   "text": "Miss me.",
    "topics": [
     "mistake"
    ],
@@ -200,26 +200,38 @@
    "known": null
   },
   {
-   "t": 117.8,
-   "text": "All right, here's the moment of truth. Where all runs go to die. Oh. Oh. Oh. Oh.",
+   "t": 123,
+   "text": "Go to die. Oh.",
    "topics": [
     "mistake"
    ],
-   "link": "https://youtu.be/6WEIHo7AUf0?t=117",
+   "link": "https://youtu.be/6WEIHo7AUf0?t=123",
    "known": null
   },
   {
-   "t": 203.2,
-   "text": "All right, this is super sketchy right here. We got to risk it. This is a good run.",
+   "t": 205.5,
+   "text": "We got a risk it.",
    "topics": [
     "mistake"
    ],
-   "link": "https://youtu.be/6WEIHo7AUf0?t=203",
+   "link": "https://youtu.be/6WEIHo7AUf0?t=205",
    "known": null
   },
   {
-   "t": 278,
-   "text": "I'm not risking this right here. This run's too good to mess up right here.",
+   "t": 267.1,
+   "text": "Throw the needle.",
+   "topics": [
+    "mistake"
+   ],
+   "places": [
+    "needle"
+   ],
+   "link": "https://youtu.be/6WEIHo7AUf0?t=267",
+   "known": null
+  },
+  {
+   "t": 278.1,
+   "text": "I'm not risking this right here.",
    "topics": [
     "mistake"
    ],
@@ -227,21 +239,12 @@
    "known": null
   },
   {
-   "t": 324.9,
-   "text": "Last little piece right here. I'm going to risk it all. Going for the big jumps.",
+   "t": 328.4,
+   "text": "We got to risk it all.",
    "topics": [
     "mistake"
    ],
-   "link": "https://youtu.be/6WEIHo7AUf0?t=324",
-   "known": null
-  },
-  {
-   "t": 381.2,
-   "text": "Okay, clean. Clean. I'm going to spam this. Spam. Spam.",
-   "topics": [
-    "cancel"
-   ],
-   "link": "https://youtu.be/6WEIHo7AUf0?t=381",
+   "link": "https://youtu.be/6WEIHo7AUf0?t=328",
    "known": null
   }
  ],
@@ -464,12 +467,11 @@
    "author": "@kodyxd"
   }
  ],
- "transcriptSource": "kb-raw:auto:en-orig",
- "transcriptLines": 35,
+ "transcriptSource": "whisper:base",
+ "transcriptLines": 73,
  "transcriptRetry": false,
  "quality": {
   "visual": "ok",
-  "whisperError": "whisper failed: scribe.py\", line 1446, in generate_with_fallback\r\n    result = self.model.generate(\r\n             ~~~~~~~~~~~~~~~~~~~^\r\n        encoder_output,\r\n        ^^^^^^^^^^^^^^^\r\n    ...<10 lin",
   "bannersFound": 4,
   "end": true,
   "offsetMethod": "reference (js/data/raid.js tp650, LiveSplit/frame-read)",
@@ -484,7 +486,7 @@
   "complete": true,
   "statedTime": 410,
   "statedDiff": 0.12,
-  "transcript": "kb-raw:auto:en-orig",
+  "transcript": "whisper:base",
   "notes": [
    "Loading-screen end detected at 7 s (reference offset 7.38 s, diff 0.38 s)."
   ]

@@ -1,0 +1,11 @@
+{
+ "id": "rESZ696iKto",
+ "url": "https://www.youtube.com/watch?v=rESZ696iKto",
+ "reviewedAt": "2026-11-03T07:38:33.554Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] rESZ696iKto: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "KULDRA SPEEDRUN"
+}

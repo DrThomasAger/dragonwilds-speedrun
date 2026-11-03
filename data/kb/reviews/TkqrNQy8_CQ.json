@@ -1,0 +1,11 @@
+{
+ "id": "TkqrNQy8_CQ",
+ "url": "https://www.youtube.com/watch?v=TkqrNQy8_CQ",
+ "reviewedAt": "2026-11-03T07:39:29.841Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] TkqrNQy8_CQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape Dragonwilds Kuldra Raid FULL RUN | With Time stamps"
+}

@@ -1,0 +1,336 @@
+{
+ "id": "6GIH7GDqgKU",
+ "url": "https://www.youtube.com/watch?v=6GIH7GDqgKU",
+ "reviewedAt": "2026-11-03T07:23:33.423Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "ok",
+ "title": "Defeating Kuldra In RuneScape Dragonwilds! (DAY ONE DUO KILL)",
+ "author": "Guthy Gang",
+ "date": "2026-09-16",
+ "videoDuration": 1549,
+ "kind": "run",
+ "from": [
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "duration": 1345.6,
+ "offset": 0,
+ "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+ "splits": [
+  74.6,
+  1187,
+  1345.6
+ ],
+ "videoSplits": [
+  74.6,
+  1187,
+  1345.6
+ ],
+ "segmentTimes": [
+  74.6,
+  1112.4,
+  null,
+  null,
+  null
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 0,
+   "tEnd": 74.6,
+   "segment": 0,
+   "name": "Dragontail Vines",
+   "kind": "faster",
+   "delta": -6.92,
+   "seg": 74.6,
+   "description": "Dragontail Vines: 74.6 s — 6.9 s faster than every reference run (best TexasPete 81.52 s). Possible skip or route not in the reference set.",
+   "frames": "6GIH7GDqgKU/anomaly-0-seg0.png"
+  },
+  {
+   "t": 74.6,
+   "tEnd": 1187,
+   "segment": 1,
+   "name": "Fragments of Ghornfell",
+   "kind": "slower",
+   "delta": 1015.1,
+   "seg": 1112.4,
+   "description": "Fragments of Ghornfell: 1112.4 s — 1015.1 s slower than every reference run (slowest 97.3 s). Different path, deaths or a puzzle done normally.",
+   "frames": "6GIH7GDqgKU/anomaly-1-seg1.png"
+  },
+  {
+   "t": 0,
+   "tEnd": 1345.6,
+   "segment": null,
+   "kind": "missing-banners",
+   "delta": null,
+   "description": "Only 2 of 4 \"EXTRACTION POINT UNLOCKED\" banners before the end: an extraction point was bypassed (skip/out-of-map route) or the banner was hidden.",
+   "frames": "6GIH7GDqgKU/anomaly-2-segx.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 1197.4,
+   "dur": 0.4,
+   "segment": 2
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 74.6,
+    "score": 0.754
+   },
+   {
+    "t": 1187,
+    "score": 0.7
+   }
+  ],
+  "end": {
+   "t": 1345.6,
+   "plate": [
+    1331.6,
+    1345.5
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": null
+ },
+ "commentary": [
+  {
+   "t": 113,
+   "text": "We probably put orbs into the anima cannon and then launch it at her.",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "anima"
+   ],
+   "link": "https://youtu.be/6GIH7GDqgKU?t=113",
+   "known": "anima-cannon-invulnerability"
+  },
+  {
+   "t": 215.5,
+   "text": "We teleported away, okay.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/6GIH7GDqgKU?t=215",
+   "known": null
+  },
+  {
+   "t": 261.4,
+   "text": "Oh shit, you're dead.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/6GIH7GDqgKU?t=261",
+   "known": null
+  },
+  {
+   "t": 397.6,
+   "text": "I died again.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/6GIH7GDqgKU?t=397",
+   "known": null
+  },
+  {
+   "t": 527.6,
+   "text": "Yeah, now we can load up the cannon.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/6GIH7GDqgKU?t=527",
+   "known": null
+  },
+  {
+   "t": 555.3,
+   "text": "I'll start getting another charge while you load that up.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/6GIH7GDqgKU?t=555",
+   "known": null
+  },
+  {
+   "t": 650.6,
+   "text": "Oh, I almost died.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/6GIH7GDqgKU?t=650",
+   "known": null
+  },
+  {
+   "t": 785.2,
+   "text": "almost died.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/6GIH7GDqgKU?t=785",
+   "known": null
+  },
+  {
+   "t": 940,
+   "text": "I'm in. I'm dead.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/6GIH7GDqgKU?t=940",
+   "known": null
+  },
+  {
+   "t": 946.7,
+   "text": "I'm dead, serious.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/6GIH7GDqgKU?t=946",
+   "known": null
+  },
+  {
+   "t": 1062.1,
+   "text": "Where are we knocking and teleporting?",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/6GIH7GDqgKU?t=1062",
+   "known": null
+  },
+  {
+   "t": 1354.9,
+   "text": "I mean, I know you died 72 times, but I went deathless.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/6GIH7GDqgKU?t=1354",
+   "known": null
+  },
+  {
+   "t": 1365.8,
+   "text": "Black and marble all dead.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/6GIH7GDqgKU?t=1365",
+   "known": "s-bd1"
+  },
+  {
+   "t": 1524,
+   "text": "She's dead.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/6GIH7GDqgKU?t=1524",
+   "known": null
+  }
+ ],
+ "textNotes": [],
+ "candidateMechanics": [
+  {
+   "source": "timing",
+   "t": 0,
+   "link": "https://youtu.be/6GIH7GDqgKU?t=0",
+   "quote": "Dragontail Vines: 74.6 s — 6.9 s faster than every reference run (best TexasPete 81.52 s). Possible skip or route not in the reference set.",
+   "segment": 0,
+   "frames": "6GIH7GDqgKU/cand-0.png"
+  },
+  {
+   "source": "timing",
+   "t": 0,
+   "link": "https://youtu.be/6GIH7GDqgKU?t=0",
+   "quote": "Only 2 of 4 \"EXTRACTION POINT UNLOCKED\" banners before the end: an extraction point was bypassed (skip/out-of-map route) or the banner was hidden.",
+   "segment": null,
+   "frames": "6GIH7GDqgKU/cand-0.png"
+  }
+ ],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 297,
+ "transcriptRetry": false,
+ "subsError": "ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests",
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 2,
+  "end": true,
+  "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+  "templateScale": [
+   0.68,
+   0.98
+  ],
+  "templateScore": [
+   0.718,
+   0.923
+  ],
+  "complete": false,
+  "transcript": "whisper:small",
+  "notes": []
+ },
+ "curated": null
+}

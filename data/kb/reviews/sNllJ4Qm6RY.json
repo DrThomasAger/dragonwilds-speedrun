@@ -1,0 +1,11 @@
+{
+ "id": "sNllJ4Qm6RY",
+ "url": "https://www.youtube.com/watch?v=sNllJ4Qm6RY",
+ "reviewedAt": "2026-11-03T07:38:45.689Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] sNllJ4Qm6RY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape Dragonwilds Kuldra Raid 4:14 Glitched Any%"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "tXJFy-QkoBw",
+ "url": "https://www.youtube.com/watch?v=tXJFy-QkoBw",
+ "reviewedAt": "2026-11-03T07:41:06.474Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] tXJFy-QkoBw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape Dragonwilds: Scorned Wilderness Gear Guide"
+}

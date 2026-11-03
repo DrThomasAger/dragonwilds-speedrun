@@ -1,0 +1,11 @@
+{
+ "id": "WDG9aD2oBIc",
+ "url": "https://www.youtube.com/watch?v=WDG9aD2oBIc",
+ "reviewedAt": "2026-11-03T07:42:47.771Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] WDG9aD2oBIc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Kuldra Raid Boss in RuneScape Dragonwilds (Ranged Main)"
+}

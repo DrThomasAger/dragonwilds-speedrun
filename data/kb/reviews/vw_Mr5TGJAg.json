@@ -1,0 +1,11 @@
+{
+ "id": "vw_Mr5TGJAg",
+ "url": "https://www.youtube.com/watch?v=vw_Mr5TGJAg",
+ "reviewedAt": "2026-11-03T07:38:58.004Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] vw_Mr5TGJAg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape: Dragonwilds | 8:32 Kuldra | 1.0.1 Day 1 Strats"
+}

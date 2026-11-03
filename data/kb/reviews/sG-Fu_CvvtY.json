@@ -1,0 +1,11 @@
+{
+ "id": "sG-Fu_CvvtY",
+ "url": "https://www.youtube.com/watch?v=sG-Fu_CvvtY",
+ "reviewedAt": "2026-11-03T07:38:39.558Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] sG-Fu_CvvtY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape Dragonwilds - Kuldra (Solo, Melee, No Damage)"
+}

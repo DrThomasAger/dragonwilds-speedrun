@@ -1,0 +1,11 @@
+{
+ "id": "HaHFmb88830",
+ "url": "https://www.youtube.com/watch?v=HaHFmb88830",
+ "reviewedAt": "2026-11-03T07:43:28.693Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] HaHFmb88830: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape Dragonwilds: Best Current Resource Farm & Raid Skips"
+}

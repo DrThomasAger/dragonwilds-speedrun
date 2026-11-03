@@ -1,0 +1,239 @@
+{
+ "id": "204hBIge5h0",
+ "url": "https://www.youtube.com/watch?v=204hBIge5h0",
+ "reviewedAt": "2026-11-03T06:52:55.890Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "ok",
+ "title": "Legacy World Record (9:37 ChiefWes) - Scorned Wilderness & Kuldra Speedrun | RS: Dragonwilds 1.0.0.6",
+ "author": "Tiger with the Bars",
+ "date": "2026-10-07",
+ "videoDuration": 578,
+ "kind": "run",
+ "from": [
+  "speedrun.com",
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "register",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "rejected",
+ "bracket": "1.0.0.6+",
+ "src": "z146l1wz",
+ "statedTime": 577.82,
+ "duration": 577.9,
+ "offset": 0,
+ "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+ "splits": [
+  120.5,
+  209.9,
+  271.5,
+  397.4,
+  577.9
+ ],
+ "videoSplits": [
+  120.5,
+  209.9,
+  271.5,
+  397.4,
+  577.9
+ ],
+ "segmentTimes": [
+  120.5,
+  89.4,
+  61.6,
+  125.9,
+  180.5
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [
+  {
+   "t": 158.2,
+   "dur": 0.3,
+   "segment": 1
+  },
+  {
+   "t": 162.6,
+   "dur": 0.7,
+   "segment": 1
+  },
+  {
+   "t": 169.9,
+   "dur": 0.6,
+   "segment": 1
+  },
+  {
+   "t": 341.3,
+   "dur": 0.3,
+   "segment": 3
+  },
+  {
+   "t": 426.6,
+   "dur": 1.4,
+   "segment": 4
+  },
+  {
+   "t": 487.2,
+   "dur": 0.8,
+   "segment": 4
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 120.5,
+    "score": 0.891
+   },
+   {
+    "t": 209.9,
+    "score": 0.894
+   },
+   {
+    "t": 271.5,
+    "score": 0.848
+   },
+   {
+    "t": 397.4,
+    "score": 0.878
+   }
+  ],
+  "end": {
+   "t": 577.9,
+   "plate": [
+    564,
+    577.8
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": null
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "Wes, a veteran RuneScape player since 2003, set a world record speedrun of 9:37 for the Dragonwilds Scorned Wilderness Raid using a unique map-reset skip he discovered. He coordinated with this channel to have this run uploaded for maximum reach. Wes is excited to gain exposure and plans to continue pushing records for future raids.",
+   "topics": [
+    "skip",
+    "timing",
+    "mistake"
+   ]
+  },
+  {
+   "where": "speedrun.com comment",
+   "text": "New World Record",
+   "topics": [
+    "timing"
+   ]
+  },
+  {
+   "where": "speedrun.com examiner",
+   "text": "Great run but audio is required. If you can next time as well make sure to start the recording a couple seconds sooner right before you go into the raid. Hope you submit again it was a good run just make sure to have audio. :)",
+   "topics": []
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=204hBIge5h0",
+   "quote": "Wes, a veteran RuneScape player since 2003, set a world record speedrun of 9:37 for the Dragonwilds Scorned Wilderness Raid using a unique map-reset skip he discovered. He coordinated with this channel to have this run uploaded for maximum reach. Wes is excited to gain exposure and plans to continue pushing records for future raids.",
+   "unseen": [
+    "veteran",
+    "unique",
+    "discovered",
+    "coordinated",
+    "uploaded",
+    "maximum",
+    "excited",
+    "exposure"
+   ],
+   "nearestKnown": null
+  }
+ ],
+ "transcriptSource": "none",
+ "transcriptLines": 0,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": true,
+  "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+  "templateScale": [
+   1.02,
+   0.98
+  ],
+  "templateScore": [
+   0.889,
+   0.931
+  ],
+  "complete": true,
+  "statedTime": 577.82,
+  "statedDiff": 0.08,
+  "transcript": "none",
+  "notes": []
+ },
+ "curated": null
+}

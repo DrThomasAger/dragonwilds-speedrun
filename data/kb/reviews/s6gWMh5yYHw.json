@@ -1,0 +1,11 @@
+{
+ "id": "s6gWMh5yYHw",
+ "url": "https://www.youtube.com/watch?v=s6gWMh5yYHw",
+ "reviewedAt": "2026-11-03T07:43:06.711Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] s6gWMh5yYHw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Kuldra Easy Farm Guide – Level 9 Armour & Weapons  | RuneScape Dragonwilds"
+}

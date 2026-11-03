@@ -1,0 +1,11 @@
+{
+ "id": "JMy0kJfKPUY",
+ "url": "https://www.youtube.com/watch?v=JMy0kJfKPUY",
+ "reviewedAt": "2026-11-03T07:40:49.371Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] JMy0kJfKPUY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape Dragonwilds Kuldra Boss Guide"
+}

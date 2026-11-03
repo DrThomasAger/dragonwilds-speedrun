@@ -1,0 +1,11 @@
+{
+ "id": "GVTbtwm0cws",
+ "url": "https://www.youtube.com/watch?v=GVTbtwm0cws",
+ "reviewedAt": "2026-11-03T07:40:38.205Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] GVTbtwm0cws: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "How to Beat Kuldra (Solo) — Heart Phase, Escape & Loot | RuneScape: Dragonwilds"
+}

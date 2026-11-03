@@ -1,0 +1,11 @@
+{
+ "id": "hDT7if6f9Ug",
+ "url": "https://www.youtube.com/watch?v=hDT7if6f9Ug",
+ "reviewedAt": "2026-11-03T07:39:04.375Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] hDT7if6f9Ug: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RS Dragonwilds: Scorned Wilderness Raid Speedrun in 5:02 (Patched)"
+}

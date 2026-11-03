@@ -1,6 +1,6 @@
 # Glitches, skips, exploits and workarounds
 
-_Generated from data/kb/glitches.json on 2026-11-03T06:21:50Z (game patch 1.0.1.2 (latest official Steam post, 2026-10-23)). Every value links its source; "unknown" means no source states it._
+_Generated from data/kb/glitches.json on 2026-11-03T06:32:35Z (game patch 1.0.1.2 (latest official Steam post, 2026-10-23)). Every value links its source; "unknown" means no source states it._
 
 
 Status legend: **works** = shown working on that patch by a dated source; **patched** = a dated source shows it no longer works, or an official line fixes it; **partially-patched** = some variants dead, others still work; **unconfirmed** = no dated evidence for that patch; **works-reported** = a player says it works but no footage on that patch
@@ -73,7 +73,7 @@ Status legend: **works** = shown working on that patch by a dated source; **patc
 | [Boss safespots (ShadowStalkerTM; crossbow raid cheese)](#boss-safespots-shadowstalkertm-crossbow-raid-cheese) | combat | yes | ShadowStalkerTM (guide); beandon (crossbow raid) | 2026-10-06 | works-reported (1.0.1.2) |
 | [Region "skip" (ShadowStalkerTM)](#region-skip-shadowstalkertm) | skip |  | ShadowStalkerTM | 2026-09-21 | unconfirmed (1.0) |
 | [Spitfoot skip (Snow)](#spitfoot-skip-snow) | skip |  | Snow | 2025-04-23 | unconfirmed (EA (2025)) |
-| [Kuldra parkour cheese (kenny HD gaming)](#kuldra-parkour-cheese-kenny-hd-gaming) | skip | yes | kenny HD gaming no commentary | 2026-09-29 | unconfirmed (1.0) |
+| [Kuldra parkour cheese (kenny HD gaming)](#kuldra-parkour-cheese-kenny-hd-gaming) | skip | yes | kenny HD gaming no commentary | 2026-09-29 | patched (1.0.1.2) |
 | [Law-energy stone + wand crash (single viewer report)](#law-energy-stone--wand-crash-single-viewer-report) | crash |  | viewer of Reed Tutorials | 2026-09-28 | unconfirmed (1.0.0.5) |
 | [Queen Slayer reward-pack savescum reroll](#queen-slayer-reward-pack-savescum-reroll) | other | yes | unknown | 2026-10-20 | unconfirmed (1.0.1) |
 | [Surge dash to the beam after the vines (comment tip)](#surge-dash-to-the-beam-after-the-vines-comment-tip) | skip | yes | DominicBrindley-j8d (YouTube comment) | 2026-10-20 | works-reported (1.0.1.1) |
@@ -1146,6 +1146,8 @@ Also called: safespot
   1. No commentary video; probably the brick route (see windstep-blocks-to-kuldra) - not verified.
 - **Status by patch:**
   - 1.0: **unconfirmed** — Posted 2026-09-29; no status source. [kenny HD gaming no commentary](https://www.youtube.com/watch?v=pshWjGU1gG4)
+  - 1.0.1.2: **patched** — Comment (as of 2026-11-03): "you clip through the stone at the beginning now". [@kl0neee](https://www.youtube.com/watch?v=pshWjGU1gG4&lc=UgxyRocO9yc_c2eZMXt4AaABAg)
+- **Fix line (1.0.1.2):** "Additional fixes for Kuldra Skips." [notes](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114035869)
 - **Sources:** [kenny HD gaming no commentary](https://www.youtube.com/watch?v=pshWjGU1gG4)
 
 ## Law-energy stone + wand crash (single viewer report)

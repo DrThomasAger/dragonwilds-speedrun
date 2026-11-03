@@ -1,0 +1,11 @@
+{
+ "id": "6Xta0SaH3-k",
+ "url": "https://www.youtube.com/watch?v=6Xta0SaH3-k",
+ "reviewedAt": "2026-11-03T07:41:31.721Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] 6Xta0SaH3-k: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape Dragonwilds - Kuldra Raid Boss Fight"
+}

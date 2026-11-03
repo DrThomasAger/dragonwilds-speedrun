@@ -1,0 +1,11 @@
+{
+ "id": "qC2-PBENC2E",
+ "url": "https://www.youtube.com/watch?v=qC2-PBENC2E",
+ "reviewedAt": "2026-11-03T07:38:27.378Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] qC2-PBENC2E: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape Dragonwilds Scorned Wilderness Raid Cheese [7 MINUTE RAIDS]"
+}

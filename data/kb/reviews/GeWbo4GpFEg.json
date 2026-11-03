@@ -1,0 +1,11 @@
+{
+ "id": "GeWbo4GpFEg",
+ "url": "https://www.youtube.com/watch?v=GeWbo4GpFEg",
+ "reviewedAt": "2026-11-03T07:40:34.961Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] GeWbo4GpFEg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness Raid - Tech & Tutorial in description"
+}

@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated": "2026-11-03T06:21:50Z",
+  "generated": "2026-11-03T06:32:35Z",
   "gamePatch": "1.0.1.2",
   "about": "Publicly documented glitches, skips, clips, exploits and workarounds in RuneScape: Dragonwilds, with who found them, first sighting, how, what they save, risk and per-patch status; plus every official patch post mapped to the mobs, mechanics and glitches it changed, and community-reported unofficial hotfixes. Speedrun knowledge only; no cheat software.",
   "status": {
@@ -7391,9 +7391,30 @@
        "kind": "video title/description"
       }
      ]
+    },
+    {
+     "patch": "1.0.1.2",
+     "state": "patched",
+     "evidence": "Comment (as of 2026-11-03): \"you clip through the stone at the beginning now\".",
+     "src": [
+      {
+       "url": "https://www.youtube.com/watch?v=pshWjGU1gG4&lc=UgxyRocO9yc_c2eZMXt4AaABAg",
+       "quote": "you clip through the stone at the beginning now",
+       "date": "2026-11-02",
+       "dateApprox": true,
+       "dateText": "8 hours ago (as of 2026-11-03)",
+       "who": "@kl0neee",
+       "kind": "YouTube comment"
+      }
+     ]
     }
    ],
-   "fixLine": null,
+   "fixLine": {
+    "patch": "1.0.1.2",
+    "quote": "Additional fixes for Kuldra Skips.",
+    "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114035869",
+    "date": "2026-10-23"
+   },
    "src": [
     {
      "url": "https://www.youtube.com/watch?v=pshWjGU1gG4",
@@ -7627,6 +7648,7 @@
      ],
      "glitches": [
       "kuldra-fight-skip",
+      "kuldra-parkour-cheese",
       "texaspete-rock-jumps",
       "windstep-blocks-to-kuldra"
      ]
@@ -7656,6 +7678,7 @@
    ],
    "glitchesChanged": [
     "kuldra-fight-skip",
+    "kuldra-parkour-cheese",
     "texaspete-rock-jumps",
     "wind-staff-4th-hit",
     "windstep-blocks-to-kuldra"

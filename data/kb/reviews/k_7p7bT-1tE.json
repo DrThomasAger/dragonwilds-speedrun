@@ -1,0 +1,11 @@
+{
+ "id": "k_7p7bT-1tE",
+ "url": "https://www.youtube.com/watch?v=k_7p7bT-1tE",
+ "reviewedAt": "2026-11-03T07:38:06.496Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] k_7p7bT-1tE: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape: DragonWilds Kuldra Final Boss Solo Kill"
+}

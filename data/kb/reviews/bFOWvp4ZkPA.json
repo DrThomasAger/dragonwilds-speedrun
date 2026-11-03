@@ -1,0 +1,11 @@
+{
+ "id": "bFOWvp4ZkPA",
+ "url": "https://www.youtube.com/watch?v=bFOWvp4ZkPA",
+ "reviewedAt": "2026-11-03T07:40:18.270Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] bFOWvp4ZkPA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "How to Defeat Kuldra – Final Boss Guide | RuneScape: Dragonwilds"
+}

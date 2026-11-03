@@ -1,0 +1,11 @@
+{
+ "id": "UdqIUbjG5sk",
+ "url": "https://www.youtube.com/watch?v=UdqIUbjG5sk",
+ "reviewedAt": "2026-11-03T07:38:46.513Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] UdqIUbjG5sk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape dragonwilds - Kuldra Raid - Solo Run #xboxseriesx "
+}

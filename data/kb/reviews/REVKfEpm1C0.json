@@ -1,0 +1,11 @@
+{
+ "id": "REVKfEpm1C0",
+ "url": "https://www.youtube.com/watch?v=REVKfEpm1C0",
+ "reviewedAt": "2026-11-03T07:41:03.426Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] REVKfEpm1C0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Don't Fight Velgar Until You Do This! | RuneScape: Dragonwilds Boss Guide"
+}

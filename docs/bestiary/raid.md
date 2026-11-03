@@ -1,10 +1,12 @@
 # Scorned Wilderness raid bestiary
 
-_Generated from data/kb/bestiary.json on 2026-11-03T06:21:50Z (game patch 1.0.1.2 (latest official Steam post, 2026-10-23)). Every value links its source; "unknown" means no source states it._
+_Generated from data/kb/bestiary.json on 2026-11-03T06:32:35Z (game patch 1.0.1.2 (latest official Steam post, 2026-10-23)). Every value links its source; "unknown" means no source states it._
 
 Raid enemies in route order. Split names and skip ids match `js/data/route.js`.
 
 ### Soulscourge (Kuldra's barrier attack)
+
+Not a monster: the name runners use for Kuldra's scripted blast in Dragontail Vines (Zilyana's shield dome). The 'Soulscourge skip' (s-soul) is to start siphoning the air anima (hold E) before the blast lands and eat through the damage instead of walking to the dome. The wiki's Soulscourge page is an unrelated toxicity status effect.
 
 kind: boss-minion · route: Dragontail Vines (`s-soul`); The Shattered Stronghold (`s-thane`); Kuldra's Sanctum
 
@@ -37,6 +39,8 @@ kind: boss-minion · route: Dragontail Vines (`s-soul`); The Shattered Stronghol
 _Unknown (needs in-game measurement): damage, attackSpeed, moveSpeed, aggroRange, xp, health, respawn, immunities_
 
 ### Black Dragon
+
+Power level 8, 6,000 HP, immune to fire, weak to water. Three spawns (Dragontail Vines, Fragments, Stronghold/Keep side). Every speedrun route skips all three (s-bd1 and the Keep zoop). Never cross its airborne line breath, which staggers and locks you in.
 
 [wiki](https://dragonwilds.runescape.wiki/w/Black_Dragon) · kind: miniboss · route: Dragontail Vines (`s-bd1`); Fragments of Ghornfell; The Shattered Stronghold
 
@@ -195,6 +199,8 @@ _Unknown (needs in-game measurement): damage, attackSpeed, moveSpeed, immunities
 
 ### Skeletal Necromancer
 
+Power level 8 in the raid, 950 HP, weak to crush and water. Summons skeletal warriors. The whole necromancer area is skipped with the necro-land zoop (s-necro).
+
 [wiki](https://dragonwilds.runescape.wiki/w/Skeletal_Necromancer) · kind: mob · route: Dragontail Vines (`s-necro`); Fragments of Ghornfell (`s-poison`); Fragments of Ghornfell
 
 | Power level | Health | Where |
@@ -261,6 +267,8 @@ _Unknown (needs in-game measurement): damage, attackSpeed, moveSpeed, xp, immuni
 _Unknown (needs in-game measurement): damage, attackSpeed, moveSpeed_
 
 ### Plague King
+
+A large poison rat that is immune to poison. It sits in the Fragments toxic/poison area, which the route skips entirely (s-poison).
 
 [wiki](https://dragonwilds.runescape.wiki/w/Plague_King) · kind: miniboss · route: Fragments of Ghornfell (`s-poison`)
 
@@ -472,6 +480,8 @@ _Unknown (needs in-game measurement): damage, attackSpeed, moveSpeed, immunities
 
 ### Abyssal Demon
 
+Power level 9 in the raid, 6,250 HP, weak to slash, resists air. It teleports to you when you are far away or out of reach (0.10), so the skip (s-demon: Surge then Phase Dash) must start from the right spot or it follows you.
+
 [wiki](https://dragonwilds.runescape.wiki/w/Abyssal_Demon) · kind: miniboss · route: Fragments of Ghornfell (`s-demon`)
 
 | Power level | Health | Where |
@@ -527,6 +537,8 @@ _Unknown (needs in-game measurement): damage, attackSpeed, moveSpeed, immunities
 _Unknown (needs in-game measurement): damage, attackSpeed, moveSpeed, xp, immunities_
 
 ### Garou Thane
+
+Tower-shield Garou, 1,710 HP at power level 8, weak to crush. The air-attuned Thane in the Stronghold is the route's air source: kill it through the closed gate with a mace (SamFPlays reports a magic kill did not give him the charge), then windjump to the air door (s-thane). Its respawn on repeat attempts (~15 min reported on 1.0.1) is disputed by the 1.0.1 'respawn on reset' note.
 
 [wiki](https://dragonwilds.runescape.wiki/w/Garou_Thane) · kind: mob · route: The Shattered Stronghold (`s-thane`); Cataclysm Keep (`s-parkour`)
 
@@ -749,6 +761,8 @@ _Unknown (needs in-game measurement): damage, attackSpeed, moveSpeed_
 
 ### Kuldra
 
+Power level 9, 240,000 HP, cannot be damaged directly: three cannon phases (6 hits each) and then the Heart. Every current route skips the fight (s-kuldra / s-flight); 1.0.1.2 removed the windstep-up-the-blocks route, and infinite double jump flight replaced it.
+
 [wiki](https://dragonwilds.runescape.wiki/w/Kuldra) · kind: boss · route: Kuldra's Sanctum (`s-kuldra`); Kuldra's Sanctum (`s-flight`); Dragontail Vines (`s-soul`)
 
 | Power level | Health | Where |
@@ -849,6 +863,8 @@ _Unknown (needs in-game measurement): damage, attackSpeed, moveSpeed, aggroRange
 
 ### Dragon Hatchling
 
+1,800 HP, immune to fire and bleed. One per cannon phase; killing it grants water (blue) or fire (red) anima. Fight-skip routes never meet them.
+
 [wiki](https://dragonwilds.runescape.wiki/w/Dragon_Hatchling) · kind: boss-minion · route: Kuldra's Sanctum (`s-kuldra`)
 
 | Power level | Health | Where |
@@ -883,6 +899,8 @@ _Unknown (needs in-game measurement): damage, attackSpeed, moveSpeed, aggroRange
 _Unknown (needs in-game measurement): damage, attackSpeed, moveSpeed, xp_
 
 ### Kuldra's Heart
+
+The Phase 4 target and the end of the run: the timer stops at the cut to black after 'Get out now!'. Burn it with a 2H mage staff from the spot where heartworms do not spawn (s-heart). Its poison explosions grow as its health falls.
 
 [wiki](https://dragonwilds.runescape.wiki/w/Kuldra%27s_Heart) · kind: boss · route: Kuldra's Sanctum (`s-heart`)
 
@@ -930,6 +948,8 @@ _Unknown (needs in-game measurement): damage, attackSpeed, moveSpeed, xp_
 _Unknown (needs in-game measurement): damage, attackSpeed, moveSpeed, aggroRange, xp, health_
 
 ### Heartworm
+
+753 HP, power level 9, keeps respawning during Phase 4. Do not fight them: stand where they do not spawn or target you (s-heart).
 
 [wiki](https://dragonwilds.runescape.wiki/w/Heartworm) · kind: boss-minion · route: Kuldra's Sanctum (`s-heart`)
 

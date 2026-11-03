@@ -1,0 +1,11 @@
+{
+ "id": "hs-v7QO7vao",
+ "url": "https://www.youtube.com/watch?v=hs-v7QO7vao",
+ "reviewedAt": "2026-11-03T07:40:40.540Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] hs-v7QO7vao: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "SCORNED WILDERNESS RAID | Post patch QUICKRUN guide"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "neLGN1LJlsc",
+ "url": "https://www.youtube.com/watch?v=neLGN1LJlsc",
+ "reviewedAt": "2026-11-03T07:38:15.001Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] neLGN1LJlsc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "13:30 Scorned Wilderness/Kuldra Hard Mode World Record"
+}

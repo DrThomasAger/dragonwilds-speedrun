@@ -1,0 +1,11 @@
+{
+ "id": "cA6J1J5s9X0",
+ "url": "https://www.youtube.com/watch?v=cA6J1J5s9X0",
+ "reviewedAt": "2026-11-03T07:41:40.524Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] cA6J1J5s9X0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Scorned Wilderness - Narrative Trailer | RuneScape: Dragonwilds"
+}

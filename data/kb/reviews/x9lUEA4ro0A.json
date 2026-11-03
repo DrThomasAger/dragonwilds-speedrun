@@ -1,0 +1,11 @@
+{
+ "id": "x9lUEA4ro0A",
+ "url": "https://www.youtube.com/watch?v=x9lUEA4ro0A",
+ "reviewedAt": "2026-11-03T07:43:05.034Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] x9lUEA4ro0A: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape Dragonwilds - Scorned Wilderness SOLO Raid Guide"
+}

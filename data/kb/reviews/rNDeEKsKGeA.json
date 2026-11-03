@@ -1,0 +1,11 @@
+{
+ "id": "rNDeEKsKGeA",
+ "url": "https://www.youtube.com/watch?v=rNDeEKsKGeA",
+ "reviewedAt": "2026-11-03T07:42:32.231Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] rNDeEKsKGeA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape DragonWilds Kuldra ABYSSAL DEMON FULL SKIP POST PATCH 1.0.1 WORKING"
+}

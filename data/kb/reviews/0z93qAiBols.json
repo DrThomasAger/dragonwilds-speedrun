@@ -1,0 +1,11 @@
+{
+ "id": "0z93qAiBols",
+ "url": "https://www.youtube.com/watch?v=0z93qAiBols",
+ "reviewedAt": "2026-11-03T07:39:47.020Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] 0z93qAiBols: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape Dragonwilds - Duo Raid Guide - Sub 10 minute Kuldra! (Feat. Special Guest UpperDeck67)"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "fO5YJeWqudE",
+ "url": "https://www.youtube.com/watch?v=fO5YJeWqudE",
+ "reviewedAt": "2026-11-03T07:41:46.204Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] fO5YJeWqudE: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "The Kuldra \"raid\" in Runescape: Dragonwilds was really bad... and it hurts"
+}

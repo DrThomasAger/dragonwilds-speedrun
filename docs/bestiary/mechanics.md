@@ -1,6 +1,6 @@
 # Combat and movement mechanics
 
-_Generated from data/kb/bestiary.json on 2026-11-03T06:21:50Z (game patch 1.0.1.2 (latest official Steam post, 2026-10-23)). Every value links its source; "unknown" means no source states it._
+_Generated from data/kb/bestiary.json on 2026-11-03T06:32:35Z (game patch 1.0.1.2 (latest official Steam post, 2026-10-23)). Every value links its source; "unknown" means no source states it._
 
 
 ## Snare (Ranged 12)

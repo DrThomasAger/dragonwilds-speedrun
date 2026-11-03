@@ -1,0 +1,11 @@
+{
+ "id": "jg_G6eAhM80",
+ "url": "https://www.youtube.com/watch?v=jg_G6eAhM80",
+ "reviewedAt": "2026-11-03T07:43:16.125Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] jg_G6eAhM80: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "We Completed Scorned Wilderness on Day 1..."
+}

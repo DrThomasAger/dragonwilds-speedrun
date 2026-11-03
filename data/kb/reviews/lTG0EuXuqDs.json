@@ -1,0 +1,11 @@
+{
+ "id": "lTG0EuXuqDs",
+ "url": "https://www.youtube.com/watch?v=lTG0EuXuqDs",
+ "reviewedAt": "2026-11-03T07:42:13.391Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] lTG0EuXuqDs: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Jagex Patched the Raid Skip… So I Broke it Again"
+}

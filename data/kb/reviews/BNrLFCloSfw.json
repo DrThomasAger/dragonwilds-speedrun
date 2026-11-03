@@ -1,0 +1,279 @@
+{
+ "id": "BNrLFCloSfw",
+ "url": "https://www.youtube.com/watch?v=BNrLFCloSfw",
+ "reviewedAt": "2026-11-03T07:35:13.388Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "ok",
+ "title": "Runescape Dragonwilds | Kuldra Solo Walkthrough",
+ "author": "Chickenboy",
+ "date": "2026-09-18",
+ "videoDuration": 1102,
+ "kind": "run",
+ "from": [
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "duration": null,
+ "offset": 1005.4,
+ "offsetMethod": "detected: end of the loading screen into the raid",
+ "splits": [
+  65.3
+ ],
+ "videoSplits": [
+  1070.7
+ ],
+ "segmentTimes": [
+  65.3,
+  null,
+  null,
+  null,
+  null
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 1005.4,
+   "tEnd": 1070.7,
+   "segment": 0,
+   "name": "Dragontail Vines",
+   "kind": "faster",
+   "delta": -16.22,
+   "seg": 65.3,
+   "description": "Dragontail Vines: 65.3 s — 16.2 s faster than every reference run (best TexasPete 81.52 s). Possible skip or route not in the reference set.",
+   "frames": "BNrLFCloSfw/anomaly-0-seg0.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 1038.2,
+   "dur": 0.3,
+   "segment": 0
+  },
+  {
+   "t": 1045.6,
+   "dur": 2.9,
+   "segment": 0
+  },
+  {
+   "t": 1049.6,
+   "dur": 0.6,
+   "segment": 0
+  },
+  {
+   "t": 1052.4,
+   "dur": 0.7,
+   "segment": 0
+  },
+  {
+   "t": 1060.7,
+   "dur": 2.8,
+   "segment": 0
+  },
+  {
+   "t": 1065.2,
+   "dur": 0.6,
+   "segment": 0
+  },
+  {
+   "t": 1068.2,
+   "dur": 0.4,
+   "segment": 0
+  },
+  {
+   "t": 1073.1,
+   "dur": 0.5,
+   "segment": null
+  },
+  {
+   "t": 1075.5,
+   "dur": 0.3,
+   "segment": null
+  },
+  {
+   "t": 1090.9,
+   "dur": 2.7,
+   "segment": null
+  },
+  {
+   "t": 1098.5,
+   "dur": 0.6,
+   "segment": null
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 1070.7,
+    "score": 0.866
+   }
+  ],
+  "end": null,
+  "loadEnd": 1005.4
+ },
+ "commentary": [
+  {
+   "t": 25.8,
+   "text": "the way. So, I'm just going to dive right into it.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/BNrLFCloSfw?t=25",
+   "known": null
+  },
+  {
+   "t": 561.2,
+   "text": "Don't take too crazy risks.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/BNrLFCloSfw?t=561",
+   "known": null
+  },
+  {
+   "t": 568,
+   "text": "It's better to kill the dragon than it is to die.",
+   "topics": [
+    "mistake"
+   ],
+   "places": [
+    "dragon"
+   ],
+   "link": "https://youtu.be/BNrLFCloSfw?t=568",
+   "known": "s-bd1"
+  },
+  {
+   "t": 735.3,
+   "text": "Sometimes it works, sometimes you fly too close to the sun.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/BNrLFCloSfw?t=735",
+   "known": "s-flight"
+  },
+  {
+   "t": 967.9,
+   "text": "All right. She looks to be dead.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/BNrLFCloSfw?t=967",
+   "known": null
+  },
+  {
+   "t": 986.2,
+   "text": "Coldarra's dead.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/BNrLFCloSfw?t=986",
+   "known": null
+  }
+ ],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "This video covers a solo live walkthrough of the Kuldra fight. I am a noob lol, so if you found any other nice strats make sure to post in the comments!",
+   "topics": [
+    "trick"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "timing",
+   "t": 1005.4,
+   "link": "https://youtu.be/BNrLFCloSfw?t=1005",
+   "quote": "Dragontail Vines: 65.3 s — 16.2 s faster than every reference run (best TexasPete 81.52 s). Possible skip or route not in the reference set.",
+   "segment": 0,
+   "frames": "BNrLFCloSfw/cand-1005.png"
+  }
+ ],
+ "transcriptSource": "youtube:en",
+ "transcriptLines": 153,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 1,
+  "end": false,
+  "offsetMethod": "detected: end of the loading screen into the raid",
+  "templateScale": [
+   1.05,
+   0.98
+  ],
+  "templateScore": [
+   0.748,
+   0.904
+  ],
+  "complete": false,
+  "transcript": "youtube:en",
+  "notes": []
+ },
+ "curated": null
+}

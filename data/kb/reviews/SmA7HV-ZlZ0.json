@@ -1,0 +1,11 @@
+{
+ "id": "SmA7HV-ZlZ0",
+ "url": "https://www.youtube.com/watch?v=SmA7HV-ZlZ0",
+ "reviewedAt": "2026-11-03T07:43:01.947Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] SmA7HV-ZlZ0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape: Dragonwilds Scorned wilderness Walkthrough/Guide Part 1 of 2"
+}

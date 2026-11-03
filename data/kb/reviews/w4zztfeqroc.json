@@ -1,0 +1,11 @@
+{
+ "id": "w4zztfeqroc",
+ "url": "https://www.youtube.com/watch?v=w4zztfeqroc",
+ "reviewedAt": "2026-11-03T07:42:45.594Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] w4zztfeqroc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape Dragonwilds: Kuldra Fight Walkthrough"
+}

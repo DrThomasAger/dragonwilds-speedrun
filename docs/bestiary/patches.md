@@ -1,13 +1,13 @@
 # Patch history mapped to mobs, mechanics and glitches
 
-_Generated from data/kb/glitches.json on 2026-11-03T06:21:50Z (game patch 1.0.1.2 (latest official Steam post, 2026-10-23)). Every value links its source; "unknown" means no source states it._
+_Generated from data/kb/glitches.json on 2026-11-03T06:32:35Z (game patch 1.0.1.2 (latest official Steam post, 2026-10-23)). Every value links its source; "unknown" means no source states it._
 
 
 Official posts come from Steam (`data/patchnotes.json`) or, for versions missing there, the wiki's mirror of the official notes. Unofficial hotfixes are listed at the end and are marked as such.
 
 | Version | Date | Post | Raid lines | Movement lines | Mapped lines | Glitches changed |
 |---|---|---|---|---|---|---|
-| 1.0.1.2 | 2026-10-23 | [1.0.1.2 is now live! \| Eye on Ashenfall](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114035869) | 1 | 1 | 3 | kuldra-fight-skip, texaspete-rock-jumps, wind-staff-4th-hit, windstep-blocks-to-kuldra |
+| 1.0.1.2 | 2026-10-23 | [1.0.1.2 is now live! \| Eye on Ashenfall](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114035869) | 1 | 1 | 3 | kuldra-fight-skip, kuldra-parkour-cheese, texaspete-rock-jumps, wind-staff-4th-hit, windstep-blocks-to-kuldra |
 | 1.0.1 | 2026-10-15 | [1.0.1 Known Issues](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706678658) | 1 | 1 | 2 |  |
 | 1.0.1 | 2026-10-14 | [Our 1.0.1 update is now live! \| Eye on Ashenfall](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706673783) | 14 | 9 | 50 | cleared-mobs-extraction-cheese, emberwood-infinite-fall, feather-block-attack-spam, keep-oob-legacy, keep-teleport-floor-clip, launcher-multiple-beds, multiplayer-quest-item-sequence-break, raid-ore-respawn-on-teleport, stronghold-window-skip, tannery-three-slots, titan-barrier-magic, vines-skip, windjump |
 | 1.0.0.8 | 2026-10-08 | [Our 1.0.0.8 patch is live!](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067929978) | 0 | 0 | 1 |  |
@@ -126,7 +126,7 @@ Official posts come from Steam (`data/patchnotes.json`) or, for versions missing
 
 [Steam (data/patchnotes.json)](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114035869)
 
-- "Additional fixes for Kuldra Skips." — _RAID; mobs: kuldra; glitch: kuldra-fight-skip, texaspete-rock-jumps, windstep-blocks-to-kuldra_
+- "Additional fixes for Kuldra Skips." — _RAID; mobs: kuldra; glitch: kuldra-fight-skip, kuldra-parkour-cheese, texaspete-rock-jumps, windstep-blocks-to-kuldra_
 - "Fixed an issue where the Dragon Scimitar would not allow users to Jump Attack in certain circumstances." — _MOVE; mech: jump-attack_
 - "Fix for Linux-based Dedicated Servers crashing when teleporting." — _mech: teleport_
 
