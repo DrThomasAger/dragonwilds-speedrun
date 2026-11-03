@@ -30,6 +30,12 @@ server's admins adds it.
    $env:DISCORD_BOT_TOKEN='xxxx'; node scripts/ingest/discord.mjs   # PowerShell
    ```
 
+   **On this PC you can skip the env var:** if `DISCORD_BOT_TOKEN` is not set, the script reads it
+   from the Sangha Discord bot's `D:\labyrinth\Github\sangha-discord\.env` (override the path with
+   `SANGHA_DISCORD_ENV`). Only that key is read. The same bot can serve both: install it on your own
+   server with the Administrator link from `npm run invite` there, and ask the Dragonwilds Speedrunning
+   admin to add it with the read-only `66560` link above.
+
    Optional: `DISCORD_CHANNELS='speedrun|raid|tech|route'` to read only matching channel names, and `DISCORD_GUILD_ID` to point at a different server.
 
    For the hourly GitHub Action, add the token as a repository secret named `DISCORD_BOT_TOKEN`. `ingest.yml` already passes it through. With no secret set, the step does nothing.

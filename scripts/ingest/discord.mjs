@@ -12,6 +12,7 @@
 // data/kb/raw/discord/_state.json; each run only reads messages after it.
 import path from 'node:path';
 import { appendFile, mkdir } from 'node:fs/promises';
+import { readFileSync } from 'node:fs';
 import { RAW, readJson, writeJson, logNew, sleep, now, clip, isMain } from './lib.mjs';
 
 const DIR = path.join(RAW, 'discord');
@@ -19,7 +20,18 @@ const API = 'https://discord.com/api/v10';
 const INVITE = 'aGZkuC5yK6';
 const TEXT_TYPES = new Set([0, 5, 10, 11, 12]); // text, announcement, threads
 
-export async function ingestDiscord({ log = logNew, token = process.env.DISCORD_BOT_TOKEN } = {}) {
+// Local runs: if DISCORD_BOT_TOKEN isn't in the environment, use the one in the Sangha
+// Discord bot's .env (D:\labyrinth\Github\sangha-discord\.env, or SANGHA_DISCORD_ENV).
+// Only that one key is read, so the bot's own DISCORD_GUILD_ID never redirects this ingest.
+function sanghaToken() {
+  const file = process.env.SANGHA_DISCORD_ENV || 'D:\\labyrinth\\Github\\sangha-discord\\.env';
+  try {
+    const m = readFileSync(file, 'utf8').match(/^\s*DISCORD_BOT_TOKEN\s*=\s*["']?([^"'\s#]+)/m);
+    return m ? m[1] : undefined;
+  } catch { return undefined; }
+}
+
+export async function ingestDiscord({ log = logNew, token = process.env.DISCORD_BOT_TOKEN || sanghaToken() } = {}) {
   if (!token) return { source: 'discord', skipped: 'DISCORD_BOT_TOKEN not set (see scripts/ingest/discord.md)' };
   const stats = { source: 'discord', channels: 0, newMessages: 0, errors: [] };
   const H = { Authorization: `Bot ${token}`, 'User-Agent': 'DiscordBot (https://github.com/drthomasager/dragonwilds-speedrun, 1.0)' };
