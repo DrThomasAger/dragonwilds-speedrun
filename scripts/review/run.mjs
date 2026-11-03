@@ -4,6 +4,7 @@
 //   node scripts/review/run.mjs --light         CI level: queue + transcripts + keyword mining (no video)
 //   node scripts/review/run.mjs --only=ID,ID    just these ids (still recorded in the state file)
 //   node scripts/review/run.mjs --max=10 --jobs=3 --force --no-search --min-priority=40
+//   node scripts/review/run.mjs --budget=12     stop starting new reviews after 12 min (rest wait for the next run)
 //   node scripts/review/run.mjs --list          print the queue with priorities and exit
 //   node scripts/review/run.mjs --watch         loop: rebuild the queue and review new sources every hour
 //                                               (--every=MINUTES to change the interval)
@@ -45,7 +46,8 @@ export function nextState(prev, r, it = {}, at = Date.now()) {
   };
 }
 
-export async function processQueue({ level = 'full', only = null, max = Infinity, minPriority = -Infinity, jobs = 3, force = false, search = true, log = console.error } = {}) {
+export async function processQueue({ level = 'full', only = null, max = Infinity, minPriority = -Infinity, jobs = 3, force = false, search = true, budgetMin = Infinity, log = console.error } = {}) {
+  const deadline = Date.now() + budgetMin * 60 * 1000;
   await ensureDirs();
   const t = await tools();
   log(`tools: ${JSON.stringify(t)}`);
@@ -70,6 +72,7 @@ export async function processQueue({ level = 'full', only = null, max = Infinity
     while (next < todo.length) {
       const it = todo[next++];
       if (rateLimited >= 3) { results.push({ id: it.id, status: 'deferred' }); continue; }
+      if (Date.now() > deadline) { results.push({ id: it.id, status: 'deferred', reason: 'time budget' }); continue; }
       const t0 = Date.now();
       log(`review ${it.id} [p${it.priority}] ${it.title || ''}`);
       let r;
@@ -86,6 +89,8 @@ export async function processQueue({ level = 'full', only = null, max = Infinity
     }
   }
   await Promise.all(Array.from({ length: Math.max(1, jobs) }, worker));
+  const later = results.filter(r => r.reason === 'time budget').length;
+  if (later) log(`time budget of ${budgetMin} min reached: ${later} left for the next run`);
   const idx = await writeIndex();
   return { results, index: { count: idx.count, ok: idx.ok, complete: idx.complete } };
 }
@@ -107,7 +112,7 @@ async function unlock() {
 
 async function main() {
   const level = arg('light', false) ? 'light' : String(arg('level', 'full'));
-  const opts = { level, only: arg('only', null), max: +arg('max', Infinity), minPriority: +arg('min-priority', -Infinity), jobs: +arg('jobs', 3), force: !!arg('force', false), search: !arg('no-search', false) };
+  const opts = { level, only: arg('only', null), max: +arg('max', Infinity), minPriority: +arg('min-priority', -Infinity), jobs: +arg('jobs', 3), force: !!arg('force', false), search: !arg('no-search', false), budgetMin: +arg('budget', Infinity) };
   if (arg('list', false)) {
     const q = await buildQueue({ search: opts.search });
     const st = await loadState();

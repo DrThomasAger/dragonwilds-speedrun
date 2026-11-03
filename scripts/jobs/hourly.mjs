@@ -24,7 +24,9 @@ const STEPS = [
   // --max=40: at most 40 yt-dlp calls (~25 s each) per hour, so YouTube's comment backlog
   // (300+ videos, ~2.5 h) is worked off over several runs and Twitch/Reddit still get their turn.
   ['ingest (YouTube, Twitch VODs, speedrun.com, Reddit)', ['node', 'scripts/ingest/run-all.mjs', '--max=40'], 35 * M],
-  ['reviews of new runs', ['node', 'scripts/review/run.mjs'], 30 * M],
+  // --budget=12: start no new review after 12 min (one full review can take ~20 min), so the
+  // step ends on its own well inside its timeout; the backlog is worked off over several runs.
+  ['reviews of new runs', ['node', 'scripts/review/run.mjs', '--budget=12'], 35 * M],
   ['analysis', ['node', '--max-old-space-size=4096', 'scripts/analysis/run-all.mjs'], 15 * M],
   ['knowledge base', ['node', 'scripts/build-kb.mjs'], 10 * M],
   // New/changed blog posts, KB pages, daily notes -> D:\labyrinth\ekadanta-inbox\dragonwilds\<date>.jsonl
