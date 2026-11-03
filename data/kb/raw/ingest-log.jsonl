@@ -734,3 +734,6 @@
 {"at":"2026-11-03T20:26:47.934Z","source":"youtube","kind":"progress","id":"comments","title":"10/223 videos' comments fetched"}
 {"at":"2026-11-03T20:29:09.534Z","source":"youtube","kind":"progress","id":"comments","title":"20/223 videos' comments fetched"}
 {"at":"2026-11-03T20:33:35.954Z","source":"run-all","kind":"run-summary","id":"2026-11-03T20:19:43.167Z","title":"speedrun,youtube,twitch,reddit,discord: 11 new items"}
+{"at":"2026-11-03T21:58:28.644Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1: 4 videos need transcripts (4 tracked)"}
+{"at":"2026-11-03T21:58:30.470Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1 done: 235/369 videos have transcripts"}
+{"at":"2026-11-03T21:58:30.927Z","source":"run-all","kind":"run-summary","id":"2026-11-03T21:58:16.489Z","title":"speedrun,reddit,youtube,discord: 2 new items"}
