@@ -1,0 +1,73 @@
+{
+ "handle": "lilkevog7",
+ "name": "lilkevog7",
+ "aliases": [
+  "@lilkevog7"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@lilkevog7",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: also dragonkin mage robes give 17.5% magic attack speed your robes only give 10% that will make this time a bit faster with just that and im average times are f…",
+ "insights": [
+  {
+   "text": "also dragonkin mage robes give 17.5% magic attack speed your robes only give 10% that will make this time a bit faster with just that and im average times are faster than this i just dont give a fuck about being known for a WR on dragonwilds when im top 100 ironman in the main game some shit you prob dont even play",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=yKDHfkxIrU4&lc=Ugz_ECExPeRgwHwVsoN4AaABAg",
+   "video": {
+    "id": "yKDHfkxIrU4",
+    "title": "Runescape: Dragonwilds | 8:05 Kuldra | 1.0.0.6+ Legacy Run",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "setup",
+   "topics": [
+    "timing"
+   ],
+   "verified": "disputed",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "how dont you have a mic get your money up",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=yKDHfkxIrU4&lc=UgxLqGeF-_GbG5oexCV4AaABAg",
+   "video": {
+    "id": "yKDHfkxIrU4",
+    "title": "Runescape: Dragonwilds | 8:05 Kuldra | 1.0.0.6+ Legacy Run",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

@@ -1,0 +1,80 @@
+{
+ "generatedAt": "2026-11-03T06:31:11.271Z",
+ "count": 3,
+ "ok": 3,
+ "complete": 3,
+ "rows": [
+  {
+   "id": "6WEIHo7AUf0",
+   "title": "Speedrun WR (6:50) Kuldra RAID w/ Commentary RS Dragonwilds",
+   "author": "TexasPete.21",
+   "status": "ok",
+   "runStatus": "verified",
+   "rank": 1,
+   "level": "full",
+   "duration": 410.12,
+   "statedTime": 410,
+   "splits": [
+    81.52,
+    142.72,
+    194.32,
+    290.62,
+    410.12
+   ],
+   "complete": true,
+   "transcript": "kb-raw:auto:en-orig",
+   "anomalies": 0,
+   "candidates": 5,
+   "commentary": 6,
+   "reviewedAt": "2026-11-03T06:30:12.121Z"
+  },
+  {
+   "id": "doVQ9Ph256g",
+   "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+   "author": "Nano",
+   "status": "ok",
+   "runStatus": "verified",
+   "rank": 2,
+   "level": "full",
+   "duration": 421.82,
+   "statedTime": 421,
+   "splits": [
+    87.82,
+    154.92,
+    218.12,
+    305.82,
+    421.82
+   ],
+   "complete": true,
+   "transcript": "none",
+   "anomalies": 0,
+   "candidates": 4,
+   "commentary": 0,
+   "reviewedAt": "2026-11-03T06:28:35.293Z"
+  },
+  {
+   "id": "WpvNjqVmpVM",
+   "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+   "author": "SamFPlays",
+   "status": "ok",
+   "runStatus": "reference",
+   "rank": null,
+   "level": "full",
+   "duration": 653.4,
+   "statedTime": null,
+   "splits": [
+    115.2,
+    212.5,
+    312.9,
+    481.4,
+    653.4
+   ],
+   "complete": true,
+   "transcript": "youtube:en",
+   "anomalies": 0,
+   "candidates": 6,
+   "commentary": 1,
+   "reviewedAt": "2026-11-03T06:14:31.410Z"
+  }
+ ]
+}

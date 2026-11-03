@@ -1,0 +1,98 @@
+{
+ "handle": "keimbho",
+ "name": "Keimbho",
+ "aliases": [
+  "@Keimbho"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@Keimbho",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 8,
+ "summary": "Single-insight commenter: the new update made the rock a phantom. Can't land on it anymore.",
+ "insights": [
+  {
+   "text": "the new update made the rock a phantom. Can't land on it anymore.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=6WEIHo7AUf0&lc=UgxBAswYPRaiQuOYBq14AaABAg",
+   "video": {
+    "id": "6WEIHo7AUf0",
+    "title": "Speedrun WR (6:50) Kuldra RAID w/ Commentary RS Dragonwilds",
+    "channel": "@texaspete.2173"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-24",
+   "date_approx": true,
+   "likes": 15,
+   "reply_to": null,
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "bug"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": " @808oh8 Yes the whole skip is cooked. Also if you do the raid how it should be it's impossible to finish it as the guardian about 1/4 of the boss fight will tele  you to a phantom platform that will make you fall and die. No one will be able to finish the boss whether they do it legit or cheese it.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=6WEIHo7AUf0&lc=UgxBAswYPRaiQuOYBq14AaABAg.AcK2XTPwM1_AcLNSOQssAh",
+   "video": {
+    "id": "6WEIHo7AUf0",
+    "title": "Speedrun WR (6:50) Kuldra RAID w/ Commentary RS Dragonwilds",
+    "channel": "@texaspete.2173"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-25",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgxBAswYPRaiQuOYBq14AaABAg.AcK2XTPwM1_AcKFRpUhkax",
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "bug"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": " @jymahony6262 well you must be the God of runescape when several people have the same issue.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=6WEIHo7AUf0&lc=UgxBAswYPRaiQuOYBq14AaABAg.AcK2XTPwM1_AcUPWiXtonp",
+   "video": {
+    "id": "6WEIHo7AUf0",
+    "title": "Speedrun WR (6:50) Kuldra RAID w/ Commentary RS Dragonwilds",
+    "channel": "@texaspete.2173"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-28",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxBAswYPRaiQuOYBq14AaABAg.AcK2XTPwM1_AcLNSOQssAh",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

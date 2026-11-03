@@ -1,0 +1,93 @@
+{
+ "handle": "itswalls",
+ "name": "itswalls",
+ "aliases": [],
+ "platforms": {
+  "youtube": null,
+  "twitch": null,
+  "src": "https://www.speedrun.com/users/itswalls",
+  "reddit": null
+ },
+ "src_profile": {
+  "id": "8eg6dv7x",
+  "weblink": "https://www.speedrun.com/users/itswalls",
+  "twitch": null,
+  "youtube": null,
+  "country": "us",
+  "signup": "2026-10-18T06:38:07Z"
+ },
+ "role": [
+  "runner (agility)"
+ ],
+ "insight_score": 8,
+ "summary": "Agility Course runner (Chasm Dash 35.53, #2). dotyoureyes credits him as inspiration. No raid content found.",
+ "insights": [],
+ "recordings": [],
+ "runs": [
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 44.16,
+   "date": "2026-10-18",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/yvkegg4m",
+   "video": "https://youtu.be/OaEzngVbAA8",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 43.34,
+   "date": "2026-10-23",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/mrpwd3gz",
+   "video": "https://youtu.be/onQIfXI0o8Y",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 37.84,
+   "date": "2026-10-23",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/znl65w7y",
+   "video": "https://youtu.be/yYQLFvzLny4",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 35.53,
+   "date": "2026-10-31",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/yjv0kw7y",
+   "video": "https://youtu.be/IDvx8g0dGhA",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 42.34,
+   "date": "2026-10-31",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/zg05n80m",
+   "video": "https://youtu.be/QaxzONn25qQ",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 41.92,
+   "date": "2026-10-31",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/me5qk0qm",
+   "video": "https://youtu.be/StYS3aw0NAw",
+   "comment": null
+  }
+ ],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

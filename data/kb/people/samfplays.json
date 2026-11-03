@@ -1,0 +1,2662 @@
+{
+ "handle": "samfplays",
+ "name": "SamFPlays",
+ "aliases": [
+  "@SamFPlays"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@SamFPlays",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "guide maker"
+ ],
+ "insight_score": 55,
+ "summary": "The most-watched guide maker (50K/31K/22K views). His voice-guided walkthroughs credit other finders. They cover the surge+phase-dash combo, gear (Fleet Foot infusion, Strong Tea, 2H staff, mace for the Thane) and where to stand at the heart so worms don't spawn. His replies are the best help for console players. He has not run since about 10-20 (doing OSRS).",
+ "insights": [
+  {
+   "text": "I stand at the back of the platform and tap forward until my character is facing forward, then in order, I carry out these actions\n1. Press and hold W the entire time throughout all the steps\n2. Very quickly after, dash to activate surge (your feet have to still be touching the platform for surge to activate, if you're mid air, you won't surge)\n3. Jump when the surge momentum starts to die\n4. Dash twice\n\nLet me know if that helped!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=UgyUc6slCahjMHI-4FJ4AaABAg.Abaamw-XUkxAbaf4hKyzoE",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-06",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgyUc6slCahjMHI-4FJ4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Just gotta make sure your feet are still touching the ground and you’re moving forward NO SPRINTING, in order for surge to activate, otherwise surge doesn’t go off and you’re using your first dash from phase dash in it’s place instead",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=Ugyv4thDTuFlNGr1ha94AaABAg.AbhWLnAXzDSAbhd27mwUOB",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugyv4thDTuFlNGr1ha94AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Yea good shout, one tip, I found if you rebind your dash key like I did to ALT instead of CTRL. When recall is active my dash reverts back to CTRL. As soon as recall isn’t active anymore it’s back to ALT lmao. Some spaghetti coding",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&lc=Ugxc5vHXo55EjPlpWqx4AaABAg.Ac2oZ3kkgtDAc3-vowqUzX",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugxc5vHXo55EjPlpWqx4AaABAg",
+   "topic": "bug",
+   "topics": [
+    "tech",
+    "bug"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Yea sometimes he doesn’t respawn have to do it the old way through air anima",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&lc=UgzQgCfXYa18TYC44wp4AaABAg.Ac65J2C47tjAcBazmACz3a",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-21",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzQgCfXYa18TYC44wp4AaABAg",
+   "topic": "route",
+   "topics": [
+    "other"
+   ],
+   "verified": "partial",
+   "verification_note": "Matches Nanobit's 15-minute Thane respawn note.",
+   "curated": true
+  },
+  {
+   "text": "Thanks for the comment man, helped me find the air anima one. Uploading vid soon!\n\nPlayed around for a few hours, found a new necromancer skip\nElemental puzzle couldn't find anything\nEverything else just like you said!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=UgzI3VyO1N63Lx1o7Hh4AaABAg.Abx-o6twF6KAbygTbZU6bL",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": "UgzI3VyO1N63Lx1o7Hh4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Once i jump up and see extraction point is unlocked, I press escape then hold X(you can see in the bottom right corner the bar starts to fill up) it just teleports you to the starting location. A better way if you build a bed next to zilyana you can just die and respawn at the bed or cast home tele to the bed",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugwp7SvmYpJrtqID5Tp4AaABAg.AbqTriKYa4HAbqUzjOZKCx",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "Ugwp7SvmYpJrtqID5Tp4AaABAg",
+   "topic": "practice",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "From testing I found if you’re not touching the floor, surge doesn’t go off, sometimes there’s weird terrain and you catch some air just by walking over it, try from different spots on that bridge it might help",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=UgzQ-k_EvQVPpv0JvGR4AaABAg.Ac-mgfkoPV4Ac2zORKveMt",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgzQ-k_EvQVPpv0JvGR4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "have to make sure you're walking and you're not near the edge of the ledge, about half way before you surge, then jump and dash try to hit the barrier on the left side, it will unlock the teleporter to the next area",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=UgxU2EGUhSR8RU-5K0t4AaABAg.Abz7tHsySS_Ac-MWkndgZF",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgxU2EGUhSR8RU-5K0t4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": " @IINo1goodII  Yoo, been sending the new raid on osrs so haven't really been on dragonwilds haha. No way sub 5?! even after the patch that's crazy!!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&lc=UgwqPpg78laI7UGIWIF4AaABAg.Ac2AQPW1XNxAcbK7I_WCrR",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-31",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgwqPpg78laI7UGIWIF4AaABAg.Ac2AQPW1XNxAc_HBrSUx7b",
+   "topic": "meta",
+   "topics": [
+    "patch",
+    "timing"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Try aiming for the right side of the bridge apparently there’s an white block in the middle",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&lc=UgwdKvVYmEbEdQJbxsR4AaABAg.Ac40Rhh7qQhAcBaUUmyeMH",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-21",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgwdKvVYmEbEdQJbxsR4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": "Same \"white block\" Nanobit warns about at 6:16 of the 7:01.",
+   "curated": true
+  },
+  {
+   "text": "- Fleet Foot Infusion: MUST BRING. Cuts sprinting stamina cost by 50%.",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds"
+   },
+   "timestamp": null,
+   "date": "2026-10-16",
+   "date_approx": false,
+   "topic": "setup",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "- Strong Tea: nice to have, restores +20 Rest.",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds"
+   },
+   "timestamp": null,
+   "date": "2026-10-16",
+   "date_approx": false,
+   "topic": "setup",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "- Melee weapon: Best mace you have",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds"
+   },
+   "timestamp": null,
+   "date": "2026-10-16",
+   "date_approx": false,
+   "topic": "setup",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "- Soulscourge skip (0:40): eat food while holding E. Start holding E BEFORE you take damage or it'll stop you.",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds"
+   },
+   "timestamp": null,
+   "date": "2026-10-02",
+   "date_approx": false,
+   "topic": "tech",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "close as possible to the edge as you can without being like directly at the edge like kind of like here like you don't need to have to be that close to the edge, but just as long as when you're surging there's like there's a gap it gives you",
+   "source": "video narration (auto-captions, may contain transcription errors)",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&t=33s",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds"
+   },
+   "timestamp": "0:33",
+   "date": "2026-10-16",
+   "date_approx": false,
+   "topic": "tech",
+   "topics": [
+    "other"
+   ],
+   "verified": "self-shown",
+   "verification_note": "Spoken over the footage in the video",
+   "curated": true
+  },
+  {
+   "text": "to the edge it kind of lifts you in the air. So just go like in the middle of the pathway, whenever he stops here. The goal is to hit the left side of the rocks there. There's a barrier and it unlocks the teleporter. Get your stuff back, teleport back.",
+   "source": "video narration (auto-captions, may contain transcription errors)",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&t=225s",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds"
+   },
+   "timestamp": "3:45",
+   "date": "2026-10-16",
+   "date_approx": false,
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "self-shown",
+   "verification_note": "Spoken over the footage in the video",
+   "curated": true
+  },
+  {
+   "text": "Then we're looking at that part that's sticking out. We're just going to sprint jump dash. Once you land here, the extraction point's unlocked. You can hold to reset your position. You could also home tele, but the home tele",
+   "source": "video narration (auto-captions, may contain transcription errors)",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&t=520s",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds"
+   },
+   "timestamp": "8:40",
+   "date": "2026-10-16",
+   "date_approx": false,
+   "topic": "route",
+   "topics": [
+    "skip id",
+    "tech"
+   ],
+   "verified": "self-shown",
+   "verification_note": "Spoken over the footage in the video",
+   "curated": true
+  },
+  {
+   "text": "end, turn around. If you have your melee weapon on, just right click or block, whatever your block button is. Surge again. Face dash again. And here the the amount of time between go moving forward and pressing your dash button has to be very",
+   "source": "video narration (auto-captions, may contain transcription errors)",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&t=397s",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds"
+   },
+   "timestamp": "6:37",
+   "date": "2026-10-16",
+   "date_approx": false,
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "self-shown",
+   "verification_note": "Spoken over the footage in the video",
+   "curated": true
+  },
+  {
+   "text": "Patch 1.0.1 Sub 10min run walkthrough here 👉 https://youtu.be/ESrrkdxD1fo?si=UmVZOZ8DZr5dytfi",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=Ugz-JT97kPsGymH-dxV4AaABAg",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-06",
+   "date_approx": true,
+   "likes": 4,
+   "reply_to": null,
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": " @Tj-kg9xy that’s strange, have you done the heart skip yet?",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=Ugz-JT97kPsGymH-dxV4AaABAg.AbVwI0VQgHdAbcfuWT_Ilw",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugz-JT97kPsGymH-dxV4AaABAg.AbVwI0VQgHdAbcUpWx5XBb",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Haha just got patched damn, new vid is up!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=UgxvNXyMaZTiusekWjh4AaABAg.AbuKnKXkCDVAbylHDgZpHe",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxvNXyMaZTiusekWjh4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Thanks for the kind words! I’ll do this for future updates too",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=UgzGoHE5aVkvKIlDGdl4AaABAg.Abfb9VQ4xfQAbgqGGiX5Pd",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgzGoHE5aVkvKIlDGdl4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "My pleasure bro! New vid with new skips is out!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=UgxnSMMyXa6oZ2WbldR4AaABAg.Abt-blIXAmmAbylcGTN-eN",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxnSMMyXa6oZ2WbldR4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "That’s strange because I did it post patch and it’s worked every time. Are you console or pc?",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=Ugx0U48c-dZI9fbQM2p4AaABAg.AbWPxqsr0-WAbWXMNBPR8M",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-06",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "Ugx0U48c-dZI9fbQM2p4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": " @mondnuckl  haha yea all good, not a big difference in time save and the windstep is way easier to pull off tbh",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=Ugx0U48c-dZI9fbQM2p4AaABAg.AbWPxqsr0-WAbX3d_LaHeY",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-06",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugx0U48c-dZI9fbQM2p4AaABAg.AbWPxqsr0-WAbWaCdQEGZ-",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Someone said try being on the right side of the ledge and time your second dash when you hit that barrier, let me know if that works",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=Ugy7OSdR1yYzE4WuUuZ4AaABAg.AbeGETtq0buAbgr4zBOcFH",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugy7OSdR1yYzE4WuUuZ4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Lmao keep going! I went so dry for dragon crossbow which is partially why I ended up finding and looking for all the shortcuts to put into one vid",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=Ugz86uO1aXKQ8t6Z6dt4AaABAg.AbWBXAZRaLXAbWXZoQOHrV",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-06",
+   "date_approx": true,
+   "likes": 3,
+   "reply_to": "Ugz86uO1aXKQ8t6Z6dt4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Haha yea that’s why I started looking for these skips 😂",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=UgzpHQqiBuKeKEjS7Hp4AaABAg.Abf7k7Nq66vAbgqK8UrwfL",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzpHQqiBuKeKEjS7Hp4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Yea haha, i spent a few hours discovering new skips, uploaded vid for everyone",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=UgyTg2Ck-qllAY1Pv6l4AaABAg.Abwqrk2pRu8Abyl6uhgs84",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgyTg2Ck-qllAY1Pv6l4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Make sure you're still touching the ground when you activate surge so it doesn't eat your dash!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=Ugw0R10E_T-r3saXMbZ4AaABAg.AbbFZHgneQAAbgqfW2mKtz",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugw0R10E_T-r3saXMbZ4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Hey, you probably just have to complete the raid normally once, up until the last part where you can skip the kuldra fight with windsteps. After that all the gates should be open for future runs!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=UgxfMEpBy3mcXPFYHtJ4AaABAg.AboL8YMO8RAAbqSuBKCayU",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgxfMEpBy3mcXPFYHtJ4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Just tested every skip as of Sunday Oct 4th 3:45pm EST and everything still works!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=Ugy9SjVDl7qo75mTsxt4AaABAg.AbWsgxZrwKeAbYvVq8ifI5",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": "3:45",
+   "video_timestamps": [
+    "3:45"
+   ],
+   "date": "2026-10-06",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugy9SjVDl7qo75mTsxt4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "self-shown",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Patch 1.0.1 Sub 10min run walkthrough here 👉 https://youtu.be/ESrrkdxD1fo?si=UmVZOZ8DZr5dytfi",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&lc=Ugykxf9UGIqT84edCUl4AaABAg",
+   "video": {
+    "id": "bStgF4YN6kU",
+    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "This was one of my fav comments lmao, check out the new agility course tech in my latest vid, cut another 3mins on this vid",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&lc=Ugx67JSLn78Et0CXg6x4AaABAg.AbSblL_oKgLAbTtvEwg7U7",
+   "video": {
+    "id": "bStgF4YN6kU",
+    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugx67JSLn78Et0CXg6x4AaABAg",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Just uploaded a new one with updated tech, shaved 3mins off this run, check it out!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&lc=Ugx7DqwqLxCmCBPmTaB4AaABAg.AbSWt9xK4ZbAbTtiS4DeUh",
+   "video": {
+    "id": "bStgF4YN6kU",
+    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugx7DqwqLxCmCBPmTaB4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Haha yea it's sweet, I just uploaded a video with new tech, got the run under 10mins, check it out! https://youtu.be/iu2SL4oyZFQ",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&lc=UgzQAmnrxYkeuhSU8r94AaABAg.AbTPFjj1GRLAbTtWA8g2i2",
+   "video": {
+    "id": "bStgF4YN6kU",
+    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzQAmnrxYkeuhSU8r94AaABAg",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Amazing, good luck with the faster runs!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&lc=UgxngVlwWOOjBWTGIfF4AaABAg.AbSWV_FHQ1KAbTEmFACBDJ",
+   "video": {
+    "id": "bStgF4YN6kU",
+    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxngVlwWOOjBWTGIfF4AaABAg",
+   "topic": "timing",
+   "topics": [
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Yea haha this video is older I have a redirect to the newer vid under 10min run that has those skips!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&lc=UgylpcCBYteGz9zZDxt4AaABAg.AbopGZaDUFwAbpsJAwGuuv",
+   "video": {
+    "id": "bStgF4YN6kU",
+    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgylpcCBYteGz9zZDxt4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "there's another method if you wanna see it check out the 10min vid, a bit harder to pull off but skips the entire area",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&lc=UgytmHhNagYE3YXqD6N4AaABAg.AbW9rzl2VXwAbXAWF1r61o",
+   "video": {
+    "id": "bStgF4YN6kU",
+    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-06",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgytmHhNagYE3YXqD6N4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "you just have to put your back against the wall, cast windstep, wait about a second until your weapon shows so you can sprint again, sprint and hold forward the entire time while jumping off the longest part of the floor",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&lc=Ugx9IjJApKTCTkZIy0N4AaABAg.AbW32LW9gF_AbXAb7PvKYv",
+   "video": {
+    "id": "bStgF4YN6kU",
+    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-06",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "Ugx9IjJApKTCTkZIy0N4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": " @dreipadgamer  Oh really? I'll try air next time, you're the 2nd person to mention skipping the part after abby demon, do you have the vid? I'll try based on your instructions and let you know, thank you! Will upload an updated vid once I figure it out",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&lc=Ugy-iDyldJpmdSmwkY14AaABAg.AbQBoFkuQD4AbQyngqI86V",
+   "video": {
+    "id": "bStgF4YN6kU",
+    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugy-iDyldJpmdSmwkY14AaABAg.AbQBoFkuQD4AbQByXt3y9U",
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Bakudo your mind will be even more blown, check out my latest vid with even better shortcuts",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&lc=UgzqsZ1a03Kg1zyMmIZ4AaABAg.AbQZSFJcuVKAbTu49a74SB",
+   "video": {
+    "id": "bStgF4YN6kU",
+    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzqsZ1a03Kg1zyMmIZ4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "I did it on pc today and it still works! Oct 1st",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&lc=UgxhSGRyfaTDS_UDvcp4AaABAg.AbRcFoOb47LAbRnXJTuGec",
+   "video": {
+    "id": "bStgF4YN6kU",
+    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxhSGRyfaTDS_UDvcp4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Check out my latest vid! Not patched yet, just did it last night",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&lc=UgxhSGRyfaTDS_UDvcp4AaABAg.AbRcFoOb47LAbTtz45J5do",
+   "video": {
+    "id": "bStgF4YN6kU",
+    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxhSGRyfaTDS_UDvcp4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "put your back against the wall and try running off the longest part of the floor that sticks out a little like i did. That way when you cast windstep you wait a second or so until you can sprint again, there's a bit of a delay, sprint and then jump off the edge while moving forward the whole time. Let me know!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&lc=Ugx5ihOyS8WORgtQw154AaABAg.AbQxQ2U2tA9AbQyPqFTd3f",
+   "video": {
+    "id": "bStgF4YN6kU",
+    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "Ugx5ihOyS8WORgtQw154AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Jas check out my latest vid there are new shortcuts the community discovered I put it all in one place for everyone",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&lc=Ugx5ihOyS8WORgtQw154AaABAg.AbQxQ2U2tA9AbTuBFBgtNC",
+   "video": {
+    "id": "bStgF4YN6kU",
+    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugx5ihOyS8WORgtQw154AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "No idea tbh. I think after I did the skip during boss fight straight to the heart one time, every time I've done the raid since, the gate is open lmao",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&lc=UgxYPiaxtDgd_G86YQN4AaABAg.AbPohMbVA0eAbPqBvnM1pl",
+   "video": {
+    "id": "bStgF4YN6kU",
+    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxYPiaxtDgd_G86YQN4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "not patched! did it again last night, new vid posted with better shortcuts",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&lc=UgzO2sBfPDlpgDZ5AQh4AaABAg.AbSrK5j_YjfAbTuG5hyDkh",
+   "video": {
+    "id": "bStgF4YN6kU",
+    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzO2sBfPDlpgDZ5AQh4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Which skip are you stuck on? 👇 Tell me and I'll help you get it. Want to see it all at full speed (2 of the skips are slower in the full speed run). 11 min run here: https://youtu.be/WpvNjqVmpVM",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&lc=UgwqPpg78laI7UGIWIF4AaABAg",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 3,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "That’s awesome, 14 minutes is a great pace for console! 😁",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&lc=Ugy0gI2et9bYpxnnOfB4AaABAg.Ac4cFiksQprAcBa_r6Oj1B",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-21",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "Ugy0gI2et9bYpxnnOfB4AaABAg",
+   "topic": "timing",
+   "topics": [
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "That's super weird, maybe try adjusting where you're standing on the ledge before you initiate the surge? I found if my feet are even slightly off the ground with weird terrain it messes up the surge",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&lc=UgwIRhdQsvxVjc0CpxB4AaABAg.Ac2hhqSkeSJAc30G-7V97s",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgwIRhdQsvxVjc0CpxB4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Lmao just saw your vid that’s a crazy surge too. Prolly cutting off another 10 seconds or so, nice!\n\nThanks man! Yea it’s super fun with the skips lmao, feels like a cheat code",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&lc=UgyAHfcN8BUg2G1ORK54AaABAg.Ac2KRmIgG-ZAc30Uc29TY-",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgyAHfcN8BUg2G1ORK54AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": " @breeze6888 I’m already in bed (should be sleeping haha) if nobody helps you out by the time I’m on my pc when I wake up, I’ll help out",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&lc=UgxayMRbNhiVDw3awwF4AaABAg.Ac2y8RoV8gBAc35PziFGwW",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxayMRbNhiVDw3awwF4AaABAg.Ac2y8RoV8gBAc34FgxBmvg",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Haha honestly, some of these skips are definitely unintended, but it’s been a blast for the community to find them! 😂",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&lc=UgxNGIf7976jbOhduJd4AaABAg.Ac4RSlhtT9kAcBb5FlnCoh",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-21",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxNGIf7976jbOhduJd4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "To each their own! Glad you enjoy playing the game the way it was meant to be played, some of us find enjoyment from doing things faster/more efficiently :P there’s no right or wrong here",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&lc=UgyD6dIOwrCq3XlX4cp4AaABAg.Ac2uHxWtkRdAc3-jDyTcha",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgyD6dIOwrCq3XlX4cp4AaABAg",
+   "topic": "timing",
+   "topics": [
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Patch 1.0.1 Sub 10min walkthrough here 👉 https://youtu.be/ESrrkdxD1fo?si=UmVZOZ8DZr5dytfi",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugz4ucvmk51FC6dJXv54AaABAg",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 88,
+   "reply_to": null,
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Haha yea, part of it was me accidentally discovering things, part of it from youtube comments, part from other youtube videos, just wanted to make a video for other people so all the discoveries are in one place",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=UgyL3uTdsbl0FKQcup54AaABAg.AbTlK7llUohAbTodkPNLTF",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgyL3uTdsbl0FKQcup54AaABAg",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "For those 2 specifically just make sure you’re getting into a sprint before you jump otherwise you won’t make it. Also you can use recall while you practice so you don’t have to run all the way back when you fall",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugy62EtV8HQwYUl39-F4AaABAg.AbU-5SRBrO1AbU1XmrHGhc",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 5,
+   "reply_to": "Ugy62EtV8HQwYUl39-F4AaABAg",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "For surge double jump double dash no sprinting btw, just be close to the edge and walk forward before surging",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugy62EtV8HQwYUl39-F4AaABAg.AbU-5SRBrO1AbU2kP16_wR",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 4,
+   "reply_to": "Ugy62EtV8HQwYUl39-F4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Just gotta make sure you’re still touching the ground otherwise surge doesn’t activate!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugx41QMwHlc1QZFNcBF4AaABAg.AbbGUXcVoxkAbgqbUPr_7d",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "Ugx41QMwHlc1QZFNcBF4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "My pleasure man, just got patched, uploaded new vid if you're still sending runs and need the new skips",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugy7RSIExbR6nERLKXN4AaABAg.AbuOXgGDYqyAbylLR-w24Z",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugy7RSIExbR6nERLKXN4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "My pleasure man! Yea I was in the same boat, going super dry for the wand. But hey if that didn’t happen I would’ve never made this vid! Haha",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=UgzA0mpQA7SHs0oe-pp4AaABAg.AbeZkajnFMNAbgrCbmngLo",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzA0mpQA7SHs0oe-pp4AaABAg",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Yea I uploaded a vid just now with the new skips",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugw2bgY6u1RzXlNHN9B4AaABAg.AbyjmG00EPNAbylCMjFXDE",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "Ugw2bgY6u1RzXlNHN9B4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "You have to crouch to get through that section with the vines if that’s what you’re talking about, lemme know",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugyckgc-dTEc2InRPOF4AaABAg.AbTylOc78ScAbU1bbJS-iS",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugyckgc-dTEc2InRPOF4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Just tested it, still working",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=UgxxQEXu5-uoOphpTrx4AaABAg.AbVmJgBF4RXAbYw1Ivl1Ix",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-06",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgxxQEXu5-uoOphpTrx4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "For that one you just gotta crouch past the vines! I made a step by step breakdown of each skip if it helps https://www.youtube.com/watch?v=1HqP4q2WERw",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=UgwjlOs6SXcRArRQ_xl4AaABAg.AbYJHVwytcjAbYvaxYmyn6",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-06",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgwjlOs6SXcRArRQ_xl4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Ah shit, I’ll try it soon and update you",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=UgzVoCuezYfgklb5pxV4AaABAg.AbUb-Wq7VeLAbUgxTCitga",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzVoCuezYfgklb5pxV4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Hey bro, i just tried after downloading the latest patch on pc, past midnight oct 3rd. it still works! I recorded a voice walkthrough to guide everyone through all the skips but biggest advice i can give for that part is don't move forward right away,.\n1. Windstep\n2. Jump\n3. Hold forward at the peak of the jump, once you're past the ledge and it should work!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=UgzVoCuezYfgklb5pxV4AaABAg.AbUb-Wq7VeLAbUlzRhNn-I",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzVoCuezYfgklb5pxV4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id",
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "I have a step by step breakdown for each skip! Check it out and let me know if you still have questions after",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugy7hGDhJ6JYH0I479h4AaABAg.AbnfEXT2FKTAbqT2YnvdBb",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": "Ugy7hGDhJ6JYH0I479h4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "You’d have to do the full quest normally first to unlock some of the skips, I think mainly the garou thane gate after the necromancer area",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugx0y8MBRzsqK_jj68t4AaABAg.AbTIJ1aY3uGAbTKlCcQqZ6",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": "Ugx0y8MBRzsqK_jj68t4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Realized I didn't answer the second part of your question, yea you're basically unlocking the teleport back from underground, so once it shows extraction unlocked in the top of the screen you can hit escape, hold X to reset position, then teleport back to zily and hit 4, she'll tele you to the last area",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugx0y8MBRzsqK_jj68t4AaABAg.AbTIJ1aY3uGAbTpx6HxzNH",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugx0y8MBRzsqK_jj68t4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": " @imeanfrtho5625 did you try crouching past the vines after the garou thane? You can’t get past if you don’t crouch",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugx0y8MBRzsqK_jj68t4AaABAg.AbTIJ1aY3uGAbUFZhOPBUd",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugx0y8MBRzsqK_jj68t4AaABAg.AbTIJ1aY3uGAbUF4eJZSYX",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Stand close to edge of ledge, have both spells active, walk forward and dash, jump then double dash. Let me know!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugzk3zqRv5abkUNYu0V4AaABAg.AbUKAvXxESnAbU_vjxbKXv",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugzk3zqRv5abkUNYu0V4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "someone else said if you're too high you get blocked so let yourself drop a bit lower, I haven't experienced that myself so not sure",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugx1BFVHt9npSUS8xUZ4AaABAg.Ab_BXrQ18ciAbagEuVbZl6",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-06",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugx1BFVHt9npSUS8xUZ4AaABAg",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "not sure tbh, if you can't do both not a big deal just out eat the damage and start activating right after the dmg stops, only losing a few seconds",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=UgzV32HZjc-1h2fc1b94AaABAg.AbWJfrmMRDPAbYwBtuCJMK",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-06",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzV32HZjc-1h2fc1b94AaABAg",
+   "topic": "timing",
+   "topics": [
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Whatever the last option is (4) on pc. Kuldra's Sanctum. If you don't see it that means you didn't go far enough to unlock the extraction point. You have to make sure you go under the shining light to unlock it. Watch my latest vid breaking down everything step by step if you wanna see exactly what I do!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugzg3M7wCqSm7hOo3jl4AaABAg.AbaYnJzH_LOAbaefBCqyHf",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-06",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugzg3M7wCqSm7hOo3jl4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Have you done an entire run with the heart skip post-quest?",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=UgwbhSIZ3aKkoo2ZlRl4AaABAg.AbTAtb_7-9HAbTB9MdUy6m",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgwbhSIZ3aKkoo2ZlRl4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "It still works, just make sure you aren't sprinting when you input the surge, touching the floor when you activate it",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=UgyMS0gpEx3qcav-dYx4AaABAg.Abajc4nAfhBAbgsjJcnWUy",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgyMS0gpEx3qcav-dYx4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Trying to hit 500 subs! 🎯 Drop a sub, and once we hit 500 I'll drop the step-by-step VOICE GUIDE for every new 1.0.1 skip 🔊 \nEDIT: Haven’t hit 500 yet but the community has found new skips and I couldn’t wait to post Patch 1.0.1 Sub 10min run walkthrough here 👉 https://youtu.be/ESrrkdxD1fo?si=UmVZOZ8DZr5dytfi‬",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=Ugz5h1T5WUPn1gslHfl4AaABAg",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 5,
+   "reply_to": null,
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "yea hopefully they never patch that one because the kuldra fight is not fun",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=Ugx20YHEA_Yvt7vweBd4AaABAg.AbzS_IrKxJnAc-NKVKsFFA",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 4,
+   "reply_to": "Ugx20YHEA_Yvt7vweBd4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": " @pumpmaneuvers9896 lmao I feel that, wand was the last item I needed too, took about 40 runs I think. Wand is 1 handed, so completely different use case from the 2 handed ancestral staff. Great for kiting mobs with air attack and walking backwards, good damage and has a knockdown effect just like other wands. Lower range though",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=Ugww36qZh3zxFGP1S8p4AaABAg.Ac-x8PzE-TmAc3154GOb7t",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "Ugww36qZh3zxFGP1S8p4AaABAg.Ac-x8PzE-TmAc30OYsPJ02",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "nah it's all walled off, have to die but unlock teleporter",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=UgxSxuCzxVvdhzTkq494AaABAg.AbysHM5-5KKAc-MsUZpObv",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxSxuCzxVvdhzTkq494AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Yea you’re not the only one saying that, but there’s mixed feedback, still working for a lot of people including myself. Not sure why there are inconsistencies, you can try windstepoing down to the crystals below",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=Ugxqzz6IyHQnq4HCvPd4AaABAg.Ac2C0qECyMPAc3-O6YRzH6",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugxqzz6IyHQnq4HCvPd4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "I tried this but honestly felt like its much slower because the fire circle charges up a lot slower than the air anima, and then having to wait for the orb as well, next time I do a run again I'll time your way and compare to mine",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=UgzBC2--m6pTBd4L6T14AaABAg.AbyzLgOr_UfAc-MQAvfDsZ",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzBC2--m6pTBd4L6T14AaABAg",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "People say it still works if you aim for the right side of the bridge",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=UgyB9a4vavo9N4mBdV94AaABAg.Ac3miFV8I96AcBaWjrmSwK",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-21",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgyB9a4vavo9N4mBdV94AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Yea agreed, I think fixing the elemental area skip was fair since people were getting into areas of the map you're not supposed to really be in. Wish there was a way to speed up though. Smart pausing the patch lmao",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=Ugw4JNmHHheLNM23t-Z4AaABAg.AbymCCYXPcIAbymum369Tj",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugw4JNmHHheLNM23t-Z4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "yea just have to walk forward dont sprint, and if you're near the edge but not right at the edge too i find that works everytime",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=UgygZc-qu0b5HafUEV14AaABAg.AbywK9WjXLYAc-Na7kJ7Yo",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgygZc-qu0b5HafUEV14AaABAg",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "It should be permanently opened after you finish the raid at least once, maybe try skipping the boss fight at the end too",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=UgzEJHWg5mQWI59g3jl4AaABAg.Ac1VxVATHXjAc3-4b6hMoZ",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzEJHWg5mQWI59g3jl4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Some people say it still works some people say it’s patched lol I don’t know why it’s not consistent for everyone. Still working for me, other way is dropping to the crystals below with windstep",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=UgxxxRjU3Cba7o7uMfV4AaABAg.Ac1H4J2vK7DAc2zy7AMKzB",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxxxRjU3Cba7o7uMfV4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "I tried it again right after this comment and it still works for me, never had an issue with it personally but there have been people that mentioned the invisible wall in the past. Not sure why there are inconsistencies",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=UgwTUyLXTO_Tj3BYWEF4AaABAg.Ac-D0AhByklAc-Lhwz27xH",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgwTUyLXTO_Tj3BYWEF4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "bug"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Honestly the phase dash surge has been working pretty well but interested to see, you 2 are the goats for finding the elemental skip haha",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=Ugw_HufyKDFsofad-5l4AaABAg.Ac0tl26M4EnAc2zmPYbpJD",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugw_HufyKDFsofad-5l4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Yea should be perma opened after you do the raid once, maybe have to skip kuldra fight once too",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=Ugwr0WGvNFRYtuzzwnp4AaABAg.AbzbK7Kk5SwAc-N54W5cgn",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugwr0WGvNFRYtuzzwnp4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "really? even after 1.0.1?",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=UgweQvS_FDxjhvRVX_J4AaABAg.AbyqMfdP21EAbyr4H28ytB",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgweQvS_FDxjhvRVX_J4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [
+  {
+   "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo",
+   "date": "2026-10-16",
+   "duration": "12:38",
+   "views": 21879,
+   "channel": "@SamFPlays",
+   "summary": "Every new Kuldra skip after Patch 1.0.1, explained step by step so you can pull them off yourself. Use the chapters to jump straight to the skip you need.",
+   "description": "Every new Kuldra skip after Patch 1.0.1, explained step by step so you can pull them off yourself. Use the chapters to jump straight to the skip you need.\n\nWatch the full run at speed, 2 of the skips in the 11 min run are slower (no commentary, 11 min): https://youtu.be/WpvNjqVmpVM\n\nCHAPTERS\n0:00 Phase Dash & Surge Combo\n1:43 Gear & setup\n2:13 First air anima\n2:31 Soulscourge skip\n3:10 Black dragon skip\n3:28 SKIP the entire Necromancer area\n4:20 Skip the entire poison area\n5:00 Abby demon skip\n5:37 (NEW) Skip the Garou thane area (thank you @Sir_Rebral) FAST\n7:27 (NEW) Elemental puzzle skip (thank you @IINo1goodII and @notmusty1)\n9:18 Skip the entire Kuldra fight\n10:37 Where to stand so heartworms don't spawn & outro\n\nGEAR & SETUP\n- Fleet Foot Infusion: MUST BRING. Cuts sprinting stamina cost by 50%.\n- Strong Tea: nice to have, restores +20 Rest.\n- Melee weapon: Best mace you have\n- Mage weapon: 2-handed mage staff for killing the heart at the end.\n- Armour: best mage gear you have.\n\nWhich skip were you stuck on? Drop it in the comments. If this helped, a sub helps the channel a ton!\n\n#Dragonwilds #RuneScape #Kuldra",
+   "transcript": "auto-captions, see D:/claude-temp/people/transcripts/ESrrkdxD1fo.txt",
+   "comments_fetched": 171,
+   "key_moments": [
+    {
+     "t": "0:00",
+     "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&t=0s",
+     "what": "Phase Dash & Surge Combo",
+     "source": "chapter"
+    },
+    {
+     "t": "1:43",
+     "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&t=103s",
+     "what": "Gear & setup",
+     "source": "chapter"
+    },
+    {
+     "t": "2:13",
+     "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&t=133s",
+     "what": "First air anima",
+     "source": "chapter"
+    },
+    {
+     "t": "2:31",
+     "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&t=151s",
+     "what": "Soulscourge skip",
+     "source": "chapter"
+    },
+    {
+     "t": "3:10",
+     "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&t=190s",
+     "what": "Black dragon skip",
+     "source": "chapter"
+    },
+    {
+     "t": "3:28",
+     "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&t=208s",
+     "what": "SKIP the entire Necromancer area",
+     "source": "chapter"
+    },
+    {
+     "t": "4:20",
+     "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&t=260s",
+     "what": "Skip the entire poison area",
+     "source": "chapter"
+    },
+    {
+     "t": "5:00",
+     "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&t=300s",
+     "what": "Abby demon skip",
+     "source": "chapter"
+    },
+    {
+     "t": "5:37",
+     "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&t=337s",
+     "what": "(NEW) Skip the Garou thane area (thank you @Sir_Rebral) FAST",
+     "source": "chapter"
+    },
+    {
+     "t": "7:27",
+     "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&t=447s",
+     "what": "NEW) Elemental puzzle skip (thank you @IINo1goodII and @notmusty1",
+     "source": "chapter"
+    },
+    {
+     "t": "9:18",
+     "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&t=558s",
+     "what": "Skip the entire Kuldra fight",
+     "source": "chapter"
+    },
+    {
+     "t": "10:37",
+     "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&t=637s",
+     "what": "Where to stand so heartworms don't spawn & outro",
+     "source": "chapter"
+    }
+   ]
+  },
+  {
+   "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM",
+   "date": "2026-10-15",
+   "duration": "11:02",
+   "views": 31510,
+   "channel": "@SamFPlays",
+   "summary": "Stuck on a skip? Step-by-step voice guide with UPDATED skips: https://youtu.be/ESrrkdxD1fo",
+   "description": "Stuck on a skip? Step-by-step voice guide with UPDATED skips: https://youtu.be/ESrrkdxD1fo\nLATEST PATCH 1.0.1 Kuldra speedrun in RuneScape: Dragonwilds with the new skips that work after the patch. Get your Dragon armour fast with this route.\n\nNo commentary. Follow along step by step, or use the chapters to jump straight to the skip you need.\n\nCHAPTERS\n0:00 Start\n0:18 Windstep to air anima\n0:40 Soulscourge skip\n1:17 Skip the black dragon\n1:35 Skip the ENTIRE necromancer area (NEW)\n2:40 Skip the ENTIRE poison area\n3:04 Surge + phase dash past the abyssal demon\n3:40 Skip the HARDEST part of the raid (NEW) (Even faster way is killing the Garou Thane in the air room through the gate with a melee weapon, getting air charged from killing him then windstepping up through the air doorway) - thanks  @Sir_Rebral  \n5:20 Parkour section made easy\n6:00 Elemental puzzle (NO MORE SKIP)\n8:25 Skip the Kuldra fight in under a minute\n9:24 Kuldra's heart: where to stand (no heartworms)\n\nGEAR & SETUP\n- Fleet Foot Infusion: MUST BRING. Cuts sprinting stamina cost by 50%.\n- Strong Tea: nice to have, restores +20 Rest.\n- Mage weapon: 2-handed mage staff for killing the heart at the end.\n- Armour: best mage gear you have.\n\nWhat's your best Kuldra time? Drop it in the comments. And tell me which skip you didn't know about. If this saved you time, drop a subscribe, I'll be dropping an updated video with every patch! Trying to hit 500 subs!\n\n#Dragonwilds #RuneScape #Kuldra",
+   "transcript": "auto-captions, see D:/claude-temp/people/transcripts/WpvNjqVmpVM.txt",
+   "comments_fetched": 165,
+   "key_moments": [
+    {
+     "t": "0:00",
+     "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&t=0s",
+     "what": "Start",
+     "source": "chapter"
+    },
+    {
+     "t": "0:18",
+     "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&t=18s",
+     "what": "Windstep to air anima",
+     "source": "chapter"
+    },
+    {
+     "t": "0:40",
+     "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&t=40s",
+     "what": "Soulscourge skip",
+     "source": "chapter"
+    },
+    {
+     "t": "1:17",
+     "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&t=77s",
+     "what": "Skip the black dragon",
+     "source": "chapter"
+    },
+    {
+     "t": "1:35",
+     "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&t=95s",
+     "what": "Skip the ENTIRE necromancer area (NEW)",
+     "source": "chapter"
+    },
+    {
+     "t": "2:40",
+     "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&t=160s",
+     "what": "Skip the ENTIRE poison area",
+     "source": "chapter"
+    },
+    {
+     "t": "3:04",
+     "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&t=184s",
+     "what": "Surge + phase dash past the abyssal demon",
+     "source": "chapter"
+    },
+    {
+     "t": "3:40",
+     "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&t=220s",
+     "what": "Skip the HARDEST part of the raid (NEW) (Even faster way is killing the Garou Thane in the air room through the gate with a melee weapon, getting air charged from killing him then windstepping up through the air doorway) - thanks @Sir_Rebral",
+     "source": "chapter"
+    },
+    {
+     "t": "5:20",
+     "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&t=320s",
+     "what": "Parkour section made easy",
+     "source": "chapter"
+    },
+    {
+     "t": "6:00",
+     "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&t=360s",
+     "what": "Elemental puzzle (NO MORE SKIP)",
+     "source": "chapter"
+    },
+    {
+     "t": "8:25",
+     "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&t=505s",
+     "what": "Skip the Kuldra fight in under a minute",
+     "source": "chapter"
+    },
+    {
+     "t": "9:24",
+     "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&t=564s",
+     "what": "Kuldra's heart: where to stand (no heartworms)",
+     "source": "chapter"
+    }
+   ]
+  },
+  {
+   "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw",
+   "date": "2026-10-03",
+   "duration": "17:53",
+   "views": 22709,
+   "channel": "@SamFPlays",
+   "summary": "⚠️ PATCHED: some skips in this guide no longer work. NEW post-patch 1.0.1 run (11 min) here 👉 https://youtu.be/WpvNjqVmpVM",
+   "description": "⚠️ PATCHED: some skips in this guide no longer work. NEW post-patch 1.0.1 run (11 min) here 👉 https://youtu.be/WpvNjqVmpVM\n\nStuck on a part of the Kuldra raid? This is a voice-guided walkthrough of every skip in my sub 10 min run, explained step by step so you can pull them off yourself. Use the chapters to jump straight to the skip you need.\n\nWatch the full sub 10 min run (no commentary): https://youtu.be/iu2SL4oyZFQ\n\nCHAPTERS\n0:00 Intro & setup\n1:00 Windstep to air anima\n2:00 Soulscourge skip (phase dash + food trick)\n3:35 Skip the black dragon\n4:04 Skip the necromancer area\n5:20 Skip the poison area\n6:24 Surge + phase dash past the abyssal demon\n7:14 Skip the hardest part of the raid\n9:38 Parkour section\n10:36 Skip the entire elemental puzzle\n13:15 Skip the Kuldra fight\n15:36 Kuldra's heart: where to stand\n\nGEAR & SETUP\n- Fleet Foot Infusion: MUST BRING. Cuts sprinting stamina cost by 50%.\n- Strong Tea: nice to have, restores +20 Rest.\n- Mage weapon: 2-handed mage staff for killing the heart at the end.\n- Armour: best mage gear you have.\n\nWhich skip gave you the most trouble? Tell me in the comments and I'll help you out. If this got you through the raid, a like helps the channel a ton!\n\n#Dragonwilds #RuneScape #Kuldra",
+   "transcript": "auto-captions, see D:/claude-temp/people/transcripts/1HqP4q2WERw.txt",
+   "comments_fetched": 185,
+   "key_moments": [
+    {
+     "t": "0:00",
+     "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&t=0s",
+     "what": "Intro & setup",
+     "source": "chapter"
+    },
+    {
+     "t": "1:00",
+     "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&t=60s",
+     "what": "Windstep to air anima",
+     "source": "chapter"
+    },
+    {
+     "t": "2:00",
+     "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&t=120s",
+     "what": "Soulscourge skip (phase dash + food trick)",
+     "source": "chapter"
+    },
+    {
+     "t": "3:35",
+     "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&t=215s",
+     "what": "Skip the black dragon",
+     "source": "chapter"
+    },
+    {
+     "t": "4:04",
+     "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&t=244s",
+     "what": "Skip the necromancer area",
+     "source": "chapter"
+    },
+    {
+     "t": "5:20",
+     "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&t=320s",
+     "what": "Skip the poison area",
+     "source": "chapter"
+    },
+    {
+     "t": "6:24",
+     "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&t=384s",
+     "what": "Surge + phase dash past the abyssal demon",
+     "source": "chapter"
+    },
+    {
+     "t": "7:14",
+     "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&t=434s",
+     "what": "Skip the hardest part of the raid",
+     "source": "chapter"
+    },
+    {
+     "t": "9:38",
+     "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&t=578s",
+     "what": "Parkour section",
+     "source": "chapter"
+    },
+    {
+     "t": "10:36",
+     "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&t=636s",
+     "what": "Skip the entire elemental puzzle",
+     "source": "chapter"
+    },
+    {
+     "t": "13:15",
+     "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&t=795s",
+     "what": "Skip the Kuldra fight",
+     "source": "chapter"
+    },
+    {
+     "t": "15:36",
+     "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&t=936s",
+     "what": "Kuldra's heart: where to stand",
+     "source": "chapter"
+    }
+   ]
+  },
+  {
+   "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ",
+   "date": "2026-10-02",
+   "duration": "9:54",
+   "views": 50650,
+   "channel": "@SamFPlays",
+   "summary": "⚠️ PATCHED: some skips in this run no longer work. NEW post-patch 1.0.1 run (11 min) here 👉 https://youtu.be/WpvNjqVmpVM",
+   "description": "⚠️ PATCHED: some skips in this run no longer work. NEW post-patch 1.0.1 run (11 min) here 👉 https://youtu.be/WpvNjqVmpVM\nStuck on a skip? Step-by-step voice guide: https://youtu.be/1HqP4q2WERw\n\nI cut 3 minutes off my Kuldra run. Full sub 10 min run in RuneScape: Dragonwilds with brand new tech: surge + phase dash skips, a soulscourge food trick, and a FULL elemental puzzle skip before it gets patched.\n\nNo commentary. Follow along step by step, or use the chapters to jump straight to the skip you need.\n\nCHAPTERS\n0:00 Start\n0:20 Windstep to air anima\n0:40 Soulscourge skip (phase dash + food trick)\n1:21 Skip the black dragon\n1:38 Skip the ENTIRE necromancer area (2 windsteps)\n2:34 Skip the ENTIRE poison area\n3:04 Surge + phase dash past the abyssal demon\n3:40 Skip the HARDEST part of the raid\n4:38 Parkour section made easy\n5:21 Skip the ENTIRE elemental puzzle (before it's patched)\n7:10 Skip the Kuldra fight in under a minute\n8:23 Kuldra's heart: where to stand (no heartworms)\n\nKEY TIPS\n- Soulscourge skip (0:40): eat food while holding E. Start holding E BEFORE you take damage or it'll stop you.\n- Elemental puzzle skip (5:21): use it before it gets patched.\n- Kuldra's heart (8:23): stand where I do so no heartworms spawn near you. Left click and enjoy!\n\nGEAR & SETUP\n- Fleet Foot Infusion: MUST BRING. Cuts sprinting stamina cost by 50%.\n- Strong Tea: nice to have, restores +20 Rest.\n- Mage weapon: 2-handed mage staff for killing the heart at the end.\n- Armour: best mage gear you have.\n\nOld 13 min run: https://www.youtube.com/watch?v=bStgF4YN6kU&lc=UgzO2sBfPDlpgDZ5AQh4AaABAg\n\nWhat's your best Kuldra time? Drop it in the comments. And tell me which skip you didn't know about. If this saved you time, a like helps the channel a ton.\n\n#Dragonwilds #RuneScape #Kuldra",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 172,
+   "key_moments": [
+    {
+     "t": "0:00",
+     "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&t=0s",
+     "what": "Start",
+     "source": "chapter"
+    },
+    {
+     "t": "0:20",
+     "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&t=20s",
+     "what": "Windstep to air anima",
+     "source": "chapter"
+    },
+    {
+     "t": "0:40",
+     "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&t=40s",
+     "what": "Soulscourge skip (phase dash + food trick)",
+     "source": "chapter"
+    },
+    {
+     "t": "1:21",
+     "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&t=81s",
+     "what": "Skip the black dragon",
+     "source": "chapter"
+    },
+    {
+     "t": "1:38",
+     "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&t=98s",
+     "what": "Skip the ENTIRE necromancer area (2 windsteps)",
+     "source": "chapter"
+    },
+    {
+     "t": "2:34",
+     "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&t=154s",
+     "what": "Skip the ENTIRE poison area",
+     "source": "chapter"
+    },
+    {
+     "t": "3:04",
+     "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&t=184s",
+     "what": "Surge + phase dash past the abyssal demon",
+     "source": "chapter"
+    },
+    {
+     "t": "3:40",
+     "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&t=220s",
+     "what": "Skip the HARDEST part of the raid",
+     "source": "chapter"
+    },
+    {
+     "t": "4:38",
+     "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&t=278s",
+     "what": "Parkour section made easy",
+     "source": "chapter"
+    },
+    {
+     "t": "5:21",
+     "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&t=321s",
+     "what": "Skip the ENTIRE elemental puzzle (before it's patched)",
+     "source": "chapter"
+    },
+    {
+     "t": "7:10",
+     "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&t=430s",
+     "what": "Skip the Kuldra fight in under a minute",
+     "source": "chapter"
+    },
+    {
+     "t": "8:23",
+     "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&t=503s",
+     "what": "Kuldra's heart: where to stand (no heartworms)",
+     "source": "chapter"
+    }
+   ]
+  },
+  {
+   "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU",
+   "date": "2026-10-01",
+   "duration": "13:10",
+   "views": 13942,
+   "channel": "@SamFPlays",
+   "summary": "⚠️ PATCHED: some skips in this run no longer work. NEW post-patch 1.0.1 run (11 min) here 👉 https://youtu.be/WpvNjqVmpVM",
+   "description": "⚠️ PATCHED: some skips in this run no longer work. NEW post-patch 1.0.1 run (11 min) here 👉 https://youtu.be/WpvNjqVmpVM\n\n⚡ NEW: Sub 10 min run with faster skips 👉 https://youtu.be/iu2SL4oyZFQ\n\n\n13 minute full Kuldra run in RuneScape: Dragonwilds, post-patch. Follow along from start to kill with every shortcut and windstep skip. Use the chapters below to jump to the part you're stuck on.\n\nGEAR & SETUP\n- Fleet Foot Infusion: MUST BRING. Cuts sprinting stamina cost by 50%.\n- Strong Tea: nice to have, restores +20 Rest.\n- Mage weapon: 2-handed mage staff for killing the heart at the end.\n- Melee weapon: best crush weapon you have, for Garou Thane.\n- Armour: best melee and mage gear you have.\n\nCHAPTERS\n0:00 Start\n0:20 Windstep shortcut\n0:42 Anima pylon double jump dash\n1:12 Soulscourge tank\n1:28 Confuse archer + dodge black dragon\n1:48 Windstep past necromancer phase\n2:12 Garou windstep\n2:44 Poison rat area skip (2 windsteps)\n3:20 Waterfall area skip\n3:50 Abyssal demon\n4:25 Hard garou section\n4:35 Shortcut + windstep to Garou Thane (kill with melee)\n5:15 Secret passageway to fire anima\n5:42 Fire anima vs garou\n6:18 Black dragon area\n6:45 Parkour section\n7:33 Vault guardian sentinel\n7:50 Pipe shortcut\n8:25 Path to fire pylon\n9:19 Pylon order: air, water, earth, fire\n10:15 Final area windsteps to Kuldra's heart\n11:20 Kuldra kill\n\nKEY TIPS\n- Abyssal demon (3:50): sometimes he follows you all the way up. If he does, just kill him.\n- Garou Thane (4:35): kill him for an air charge to activate the dispenser. Use melee. I killed him with mage before and didn't get the charge.\n- Fire anima (5:42): put the anima between you and the garou.\n- Vault guardian (7:33): confuse/kill the sentinel and hug the right side so the 2 on the left don't wake up.\n- Fire pylon (8:25): stand at the edge of the circle so the sentinels don't wake up.\n- Pylon puzzle (9:19): if you accidentally stepped on any of the platforms while running earlier, step on all of them to reset, then do air, water, earth, fire.\n- Kuldra's heart (11:20): stop right before the rib cage on the left side so no heartworms spawn near you. Left click and enjoy!\n\nQuestions about the route? Drop them in the comments and I'll answer.\n\n#Dragonwilds #RuneScape #Kuldra",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 82,
+   "key_moments": [
+    {
+     "t": "0:00",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=0s",
+     "what": "Start",
+     "source": "chapter"
+    },
+    {
+     "t": "0:20",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=20s",
+     "what": "Windstep shortcut",
+     "source": "chapter"
+    },
+    {
+     "t": "0:42",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=42s",
+     "what": "Anima pylon double jump dash",
+     "source": "chapter"
+    },
+    {
+     "t": "1:12",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=72s",
+     "what": "Soulscourge tank",
+     "source": "chapter"
+    },
+    {
+     "t": "1:28",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=88s",
+     "what": "Confuse archer + dodge black dragon",
+     "source": "chapter"
+    },
+    {
+     "t": "1:48",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=108s",
+     "what": "Windstep past necromancer phase",
+     "source": "chapter"
+    },
+    {
+     "t": "2:12",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=132s",
+     "what": "Garou windstep",
+     "source": "chapter"
+    },
+    {
+     "t": "2:44",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=164s",
+     "what": "Poison rat area skip (2 windsteps)",
+     "source": "chapter"
+    },
+    {
+     "t": "3:20",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=200s",
+     "what": "Waterfall area skip",
+     "source": "chapter"
+    },
+    {
+     "t": "3:50",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=230s",
+     "what": "Abyssal demon",
+     "source": "chapter"
+    },
+    {
+     "t": "4:25",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=265s",
+     "what": "Hard garou section",
+     "source": "chapter"
+    },
+    {
+     "t": "4:35",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=275s",
+     "what": "Shortcut + windstep to Garou Thane (kill with melee)",
+     "source": "chapter"
+    },
+    {
+     "t": "5:15",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=315s",
+     "what": "Secret passageway to fire anima",
+     "source": "chapter"
+    },
+    {
+     "t": "5:42",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=342s",
+     "what": "Fire anima vs garou",
+     "source": "chapter"
+    },
+    {
+     "t": "6:18",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=378s",
+     "what": "Black dragon area",
+     "source": "chapter"
+    },
+    {
+     "t": "6:45",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=405s",
+     "what": "Parkour section",
+     "source": "chapter"
+    },
+    {
+     "t": "7:33",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=453s",
+     "what": "Vault guardian sentinel",
+     "source": "chapter"
+    },
+    {
+     "t": "7:50",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=470s",
+     "what": "Pipe shortcut",
+     "source": "chapter"
+    },
+    {
+     "t": "8:25",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=505s",
+     "what": "Path to fire pylon",
+     "source": "chapter"
+    },
+    {
+     "t": "9:19",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=559s",
+     "what": "Pylon order: air, water, earth, fire",
+     "source": "chapter"
+    },
+    {
+     "t": "10:15",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=615s",
+     "what": "Final area windsteps to Kuldra's heart",
+     "source": "chapter"
+    },
+    {
+     "t": "11:20",
+     "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&t=680s",
+     "what": "Kuldra kill",
+     "source": "chapter"
+    }
+   ]
+  },
+  {
+   "title": "18 Kuldra skip shorts (e.g. \"Skip Kuldra fight in under a minute\", 63K views)",
+   "url": "https://www.youtube.com/@SamFPlays/shorts",
+   "date": null,
+   "duration": null,
+   "summary": "Single-skip clips cut from the guides above. No new information."
+  }
+ ],
+ "runs": [],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

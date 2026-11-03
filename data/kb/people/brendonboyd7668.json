@@ -1,0 +1,74 @@
+{
+ "handle": "brendonboyd7668",
+ "name": "brendonboyd7668",
+ "aliases": [
+  "@brendonboyd7668"
+ ],
+ "platforms": {
+  "youtube": null,
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 22,
+ "summary": "PS5 button mapping and a learning progression for infinite flight.",
+ "insights": [
+  {
+   "text": "Just learned this and I’m on PS5\n1- Set your spell wheel to where wind step is Triangle R1 input. Set your repair equipment spell to Traingle R2 for Righties or L2 for lefties.\n2- Start off by practicing this pattern\nRepair Spell, Cancel spell, double jump R1\n\n3- Add wind step to the beginning of the pattern and boom \n\nI hope this is helpful!\nPs. You don’t need to re input windstep after the first time just keep the pattern from Step 2.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=GeWbo4GpFEg&lc=Ugxb7QLY93hyizwZUtd4AaABAg",
+   "video": {
+    "id": "GeWbo4GpFEg",
+    "title": "NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness Raid - Tech & Tutorial in description",
+    "channel": "@Dotxygaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-11-02",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": null,
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Just learned this and I’m on PS5\n1- Set your spell wheel to where wind step is Triangle R1 input. Set your repair equipment spell to Traingle R2 for Righties or L2 for lefties.\n2- Start off by practicing this pattern\nRepair Spell, Cancel spell, double jump R1\n\n3- Add wind step to the beginning of the pattern and boom \n\nI hope this is helpful!\nPs. You don’t need to re input windstep after the first time just keep the pattern from Step 2.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=goKfbT19nkk&lc=Ugx7H2i9uIFRZ1EexCN4AaABAg",
+   "video": {
+    "id": "goKfbT19nkk",
+    "title": "Runescape Dragonwilds - 1.0.1 New Movement Tech - Infinite Double Jump",
+    "channel": "@Dotxygaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-11-02",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

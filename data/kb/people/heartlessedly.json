@@ -1,0 +1,199 @@
+{
+ "handle": "heartlessedly",
+ "name": "heartlessedly",
+ "aliases": [
+  "heartlessedly1904",
+  "@heartlessedly1904",
+  "Alex"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@heartlessedly1904",
+  "twitch": "https://www.twitch.tv/heartlessedly",
+  "src": "https://www.speedrun.com/users/heartlessedly",
+  "reddit": null
+ },
+ "src_profile": {
+  "id": "8wkzevq8",
+  "weblink": "https://www.speedrun.com/users/heartlessedly",
+  "twitch": "https://www.twitch.tv/heartlessedly",
+  "youtube": null,
+  "country": "us",
+  "signup": "2020-08-31T16:45:04Z"
+ },
+ "role": [
+  "runner"
+ ],
+ "insight_score": 30,
+ "summary": "Pre-1.0.0.6 runs (5:02, then 3:57, the former WR, both patched). He says \"New rules require one single run as death warps should not work\". That rule is not in the written SRC Raid rules, so it may be a Discord or mod decision. He has two long Twitch VODs of route testing from September.",
+ "insights": [
+  {
+   "text": "Yes. Its patched now unfortunately. New rules require one single run as death warps should not work.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=hDT7if6f9Ug&lc=UgxNqvOJWMuhXehg_id4AaABAg.AbF5zJTlQadAbGfDW5U33M",
+   "video": {
+    "id": "hDT7if6f9Ug",
+    "title": "RS Dragonwilds: Scorned Wilderness Raid Speedrun in 5:02 (Patched)",
+    "channel": "@heartlessedly1904"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxNqvOJWMuhXehg_id4AaABAg",
+   "topic": "rules",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": "Not in the written SRC Raid rules (updated 2026-10-31), but Nanobit's 8:32 and 7:01 use a \"respawn\" skip. Clarify in the Discord.",
+   "curated": true
+  },
+  {
+   "text": "well. i'm thinking with current patch strats, it'll take about anywhere from 12-20 minutes. Kuldra doesn't change, but you have to run the whole raid now. No large checkpoint skips, only puzzle skips and such. I haven't finished routing the new run yet, so I can't give an accurate estimate.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bJQqgsf2ikk&lc=Ugw3sm0oFz-9I-WhSJh4AaABAg.AbKOIOVD8uIAbPJdcAQrZG",
+   "video": {
+    "id": "bJQqgsf2ikk",
+    "title": "RS Dragonwilds: Scorned Wilderness Raid Speedrun in 3:57 (Former WR) (Patched)",
+    "channel": "@heartlessedly1904"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "Ugw3sm0oFz-9I-WhSJh4AaABAg",
+   "topic": "timing",
+   "topics": [
+    "patch",
+    "skip id",
+    "timing"
+   ],
+   "verified": "outdated",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "its directly overlayed onto my game. just an app called livesplit and i put it over my game",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bJQqgsf2ikk&lc=UgzTrHSXHlZNlaMDDER4AaABAg.AbBCHFaQ2jGAbDVqBCgQd9",
+   "video": {
+    "id": "bJQqgsf2ikk",
+    "title": "RS Dragonwilds: Scorned Wilderness Raid Speedrun in 3:57 (Former WR) (Patched)",
+    "channel": "@heartlessedly1904"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzTrHSXHlZNlaMDDER4AaABAg",
+   "topic": "setup",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "So glad I got this before the patch",
+   "source": "speedrun.com run comment",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/mkn1pv5m",
+   "timestamp": null,
+   "date": "2026-09-25",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "yes",
+   "verification_note": "Run verified (237s, Pre 1.0.0.6)",
+   "curated": true
+  }
+ ],
+ "recordings": [
+  {
+   "title": "RS Dragonwilds: Scorned Wilderness Raid Speedrun in 3:57 (Former WR) (Patched)",
+   "url": "https://www.youtube.com/watch?v=bJQqgsf2ikk",
+   "date": "2026-09-25",
+   "duration": "4:32",
+   "views": 912,
+   "channel": "@heartlessedly1904",
+   "summary": "No description.",
+   "description": null,
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 9,
+   "key_moments": []
+  },
+  {
+   "title": "RS Dragonwilds: Scorned Wilderness Raid Speedrun in 5:02 (Patched)",
+   "url": "https://www.youtube.com/watch?v=hDT7if6f9Ug",
+   "date": "2026-09-21",
+   "duration": "5:48",
+   "views": 1079,
+   "channel": "@heartlessedly1904",
+   "summary": "That stupid bed killed my sub 5 minute run hahahaha.",
+   "description": "That stupid bed killed my sub 5 minute run hahahaha.",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 5,
+   "key_moments": []
+  },
+  {
+   "title": "Twitch: grind time but i'm testing a new scorned wilderness speedrun route before its patched",
+   "url": "https://www.twitch.tv/videos/2883117260",
+   "date": "2026-09-24",
+   "duration": "3:11:55",
+   "summary": "Route-testing stream for the pre-1.0.0.6 3:57. It needs whisper, which this pass could not run (memory error). Chat only has GlaceyAndy remarks, e.g. \"if you were a bit higher you would have made it\", \"rude invisible walls smh\"."
+  },
+  {
+   "title": "Twitch: grind time but preparing for Kuldra speedruns",
+   "url": "https://www.twitch.tv/videos/2880240920",
+   "date": "2026-09-21",
+   "duration": "2:43:22",
+   "summary": "Prep stream. Not transcribed."
+  },
+  {
+   "title": "Twitch highlight: Kuldra Raid Speedrun in 5:02",
+   "url": "https://www.twitch.tv/videos/2880372969",
+   "date": "2026-09-21",
+   "duration": "5:48",
+   "summary": "Same run as hDT7if6f9Ug."
+  },
+  {
+   "title": "Twitch highlight: Scorned WIlderness Speedrun in 3:57",
+   "url": "https://www.twitch.tv/videos/2883278164",
+   "date": "2026-09-25",
+   "duration": "4:32",
+   "summary": "Same run as bJQqgsf2ikk."
+  }
+ ],
+ "runs": [
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Raid",
+   "time_s": 302,
+   "date": "2026-09-24",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y64e2p0m",
+   "video": "https://youtu.be/hDT7if6f9Ug?is=GaDFrnpTdIgbcd6A",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Raid",
+   "time_s": 237,
+   "date": "2026-09-25",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/mkn1pv5m",
+   "video": "https://youtu.be/bJQqgsf2ikk",
+   "comment": "So glad I got this before the patch"
+  }
+ ],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

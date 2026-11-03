@@ -1,0 +1,73 @@
+{
+ "handle": "sairentoeko",
+ "name": "sairentoeko",
+ "aliases": [
+  "@sairentoeko"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@sairentoeko",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: Small tip that may or may not make much difference. Instead of using confuse on the archer at the black dragon, use surge instead. It'll confuse the dragon long…",
+ "insights": [
+  {
+   "text": "Small tip that may or may not make much difference.\nInstead of using confuse on the archer at the black dragon, use surge instead. It'll confuse the dragon long enough to get to the earth anima and you won't get hit if you go where you did anyways.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&lc=UgwC3IcKmIwUaPtj1QV4AaABAg",
+   "video": {
+    "id": "bStgF4YN6kU",
+    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-06",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "route",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "​ @EnasniTrik the first legitimate run through is pretty tough, and a little confusing. 4 hours is rough tho",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=Ugxg5uiTvOk1CfAKxC94AaABAg.AbYFSDM9SlgAbz5chVI-jO",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugxg5uiTvOk1CfAKxC94AaABAg.AbYFSDM9SlgAbh5EcNHzpY",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

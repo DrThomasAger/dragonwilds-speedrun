@@ -1,0 +1,77 @@
+{
+ "handle": "xikamuix",
+ "name": "XIKaMuIX",
+ "aliases": [
+  "@XIKaMuIX"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@XIKaMuIX",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: You can also just wind jump onto the blue crystal thing below 4:40. Then jump onto the normal rock (directly under the player at same time stamp). then you coul…",
+ "insights": [
+  {
+   "text": "You can also just wind jump onto the blue crystal thing below 4:40. Then jump onto the normal rock (directly under the player at same time stamp). then you could wind step onto one of the spiky rocks and then jump again with windstep to the final platform. I have the steps on my unlisted video /watch?v=AMF3fJCS8jQ&t=169s if you are more visual learner.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=lTG0EuXuqDs&lc=Ugyq-1Br_cxY_AjHXnB4AaABAg.AbQGVVBuFd-AbQS6B9MKJg",
+   "video": {
+    "id": "lTG0EuXuqDs",
+    "title": "Jagex Patched the Raid Skip… So I Broke it Again",
+    "channel": "@CrossRSDW"
+   },
+   "timestamp": "4:40",
+   "video_timestamps": [
+    "4:40"
+   ],
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": "Ugyq-1Br_cxY_AjHXnB4AaABAg",
+   "topic": "route",
+   "topics": [
+    "tech",
+    "timing"
+   ],
+   "verified": "outdated",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Took long enough to get the checkpoint system fixed",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=lTG0EuXuqDs&lc=UgxnOJv0aERA475Jorx4AaABAg",
+   "video": {
+    "id": "lTG0EuXuqDs",
+    "title": "Jagex Patched the Raid Skip… So I Broke it Again",
+    "channel": "@CrossRSDW"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

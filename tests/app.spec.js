@@ -2,7 +2,7 @@
 import { test, expect } from '@playwright/test';
 
 const M = '/?player=mock';
-const VIEWS = ['today', 'hq', 'run', 'compare', 'route', 'studio', 'practice', 'timer', 'wiki', 'patches', 'library', 'hardcore'];
+const VIEWS = ['today', 'hq', 'run', 'compare', 'route', 'studio', 'practice', 'timer', 'wiki', 'kb', 'patches', 'library', 'hardcore'];
 
 function watchErrors(page) {
   const errs = [];
@@ -261,4 +261,99 @@ test('segment practice times one split and keeps history', async ({ page }) => {
   const log = await page.evaluate(() => JSON.parse(localStorage.getItem('dw_lab_v2')).segPractice[2]);
   expect(log.length).toBe(2);
   await page.screenshot({ path: 'docs/screens/fold/run-segment.png' });
+});
+
+// ---------------------------------------------------------------- knowledge base
+test('knowledge base: page opens, [[links]] navigate, backlinks and timestamps show', async ({ page }) => {
+  const errs = watchErrors(page);
+  await page.goto(`${M}#/kb?p=skip:s-thane`);
+  await expect(page.locator('.kb-page .kb-title')).toHaveText('Garou Thane / air door skip');
+  await expect(page.locator('.kb-backlinks .kb-ref').first()).toBeVisible();
+  expect(await page.locator('.kb-backlinks .kb-ref').count()).toBeGreaterThan(2);
+  await expect(page.locator('.kb-page a[href*="youtube.com/watch"]').first()).toHaveAttribute('href', /[?&]t=\d+s/);
+  await page.locator('.kb-props a.kb-link', { hasText: 'The Shattered Stronghold' }).click();
+  await expect(page).toHaveURL(/p=split%3A3/);
+  await expect(page.locator('.kb-page .kb-title')).toHaveText('3. The Shattered Stronghold');
+  await expect(page.locator('.kb-backlinks')).toContainText('Garou Thane / air door skip');
+  await expect(page.locator('.kb-page .kb-chart svg rect').first()).toBeVisible();
+  // sortable block table: sort by segment
+  const tbl = page.locator('.kb-page .kb-table').first();
+  await tbl.getByRole('button', { name: 'Segment' }).click();
+  const first = await tbl.locator('tbody tr').first().locator('td').nth(1).innerText();
+  const all = await tbl.locator('tbody tr td:nth-child(2)').allInnerTexts();
+  expect(first).toBe([...all].sort()[0]);
+  // "/" search, Enter opens the first hit
+  await page.locator('.kb-page').click({ position: { x: 5, y: 5 } });
+  await page.keyboard.press('/');
+  await page.keyboard.type('fleet');
+  await page.keyboard.press('Enter');
+  await expect(page).toHaveURL(/p=/);
+  await expect(page.locator('.kb-page .kb-title')).toContainText(/Fleet/i);
+  expect(errs).toEqual([]);
+});
+
+test('knowledge base: g k opens it and the home page links the record', async ({ page }) => {
+  await page.goto(`${M}#/hq`);
+  await page.locator('#view').click({ position: { x: 5, y: 5 } });
+  await page.keyboard.press('g'); await page.keyboard.press('k');
+  await expect(page).toHaveURL(/#\/kb/);
+  await expect(page.locator('.kb-page .kb-title')).toHaveText('Raid knowledge base');
+  await page.locator('.kb-page a.kb-link', { hasText: 'The record run' }).click();
+  await expect(page.locator('.kb-page .kb-title')).toHaveText('TexasPete 6:50 (WR)');
+  await expect(page.locator('.kb-quote .kb-stamp').first()).toHaveAttribute('href', /6WEIHo7AUf0&t=\d+s/);
+});
+
+test('knowledge graph renders, filters by type and opens a node', async ({ page }) => {
+  const errs = watchErrors(page);
+  await page.setViewportSize({ width: 1234, height: 690 });
+  await page.goto(`${M}#/kb?v=graph`);
+  await page.waitForFunction(() => window.__kbGraph && window.__kbGraph.stats().nodes > 100);
+  await page.waitForTimeout(1500);
+  const lit = await page.evaluate(() => {
+    const c = document.querySelector('.kb-canvas'); const d = c.getContext('2d').getImageData(0, 0, c.width, c.height).data;
+    let n = 0; for (let i = 3; i < d.length; i += 4) if (d[i] > 0) n++; return n;
+  });
+  expect(lit).toBeGreaterThan(2000);
+  const before = await page.evaluate(() => window.__kbGraph.stats().nodes);
+  await page.locator('.kb-gchip', { hasText: 'Videos' }).click();
+  const after = await page.evaluate(() => window.__kbGraph.stats().nodes);
+  expect(after).toBeLessThan(before);
+  await page.screenshot({ path: 'docs/screens/kb-graph.png' });
+  // click the record run's node: find it on screen, then click there
+  await page.waitForFunction(() => window.__kbGraph.stats().alpha < 0.05, null, { timeout: 15000 });
+  const pt = await page.evaluate(() => window.__kbGraph.screenOf('run:tp650'));
+  const box = await page.locator('.kb-canvas').boundingBox();
+  await page.mouse.click(box.x + pt[0], box.y + pt[1]);
+  await expect(page).toHaveURL(/p=run%3Atp650/);
+  expect(errs).toEqual([]);
+});
+
+test('knowledge tables: pick a type, sort, filter and export CSV', async ({ page }) => {
+  await page.goto(`${M}#/kb?v=tables&t=run`);
+  await expect(page.locator('.kb-sheet tbody tr').first()).toBeVisible();
+  await page.locator('.kb-sheet').getByRole('button', { name: 'Time', exact: true }).click();
+  await expect(page.locator('.kb-sheet tbody tr').first()).toContainText('ShadowStalkerTM');
+  await page.locator('.kb-sheet input[type=search]').fill('TexasPete');
+  await expect(page.locator('.kb-sheet tbody tr')).not.toHaveCount(0);
+  const [dl] = await Promise.all([page.waitForEvent('download'), page.getByRole('button', { name: '⬇ Export CSV' }).click()]);
+  expect(dl.suggestedFilename()).toBe('kb-run.csv');
+  const csv = (await import('node:fs')).readFileSync(await dl.path(), 'utf8');
+  const lines = csv.trim().split(/\r?\n/);
+  expect(lines[0]).toMatch(/^Page,Runner,Time/);
+  expect(lines.length).toBeGreaterThan(1);
+  expect(lines.slice(1).every(l => l.includes('TexasPete'))).toBe(true);
+  expect(csv).toContain('TexasPete 6:50 (WR)');
+  await page.locator('.kb-sheet select').selectOption('skip');
+  await expect(page).toHaveURL(/t=skip/);
+  await expect(page.locator('.kb-sheet tbody tr')).toHaveCount(13);
+});
+
+test('knowledge daily notes: newest day first, items link to pages', async ({ page }) => {
+  await page.goto(`${M}#/kb?v=daily`);
+  await expect(page.locator('.kb-day').first()).toBeVisible();
+  const dates = await page.locator('.kb-day h3 a').evaluateAll(as => as.map(a => decodeURIComponent(a.getAttribute('href')).match(/day:(\d{4}-\d{2}-\d{2})/)[1]));
+  expect(dates.length).toBeGreaterThan(5);
+  expect(dates).toEqual([...dates].sort().reverse());
+  await page.locator('.kb-day h3 a').first().click();
+  await expect(page.locator('.kb-page .kb-type')).toHaveText('daily note');
 });

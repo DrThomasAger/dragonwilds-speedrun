@@ -1,0 +1,434 @@
+{
+ "handle": "texaspete",
+ "name": "TexasPete",
+ "aliases": [
+  "texaspete.2173",
+  "TexasPete.21",
+  "@texaspete.2173"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@texaspete.2173",
+  "twitch": null,
+  "src": "https://www.speedrun.com/users/TexasPete",
+  "reddit": null
+ },
+ "src_profile": {
+  "id": "8qyz30qx",
+  "weblink": "https://www.speedrun.com/users/TexasPete",
+  "twitch": null,
+  "youtube": null,
+  "country": "us",
+  "signup": "2026-09-25T14:36:54Z"
+ },
+ "role": [
+  "runner"
+ ],
+ "insight_score": 70,
+ "summary": "Holds the record: 6:50.000 on SRC, recorded 10/14 on routes that are now dead (Keep skip, the rocks to Kuldra). He contributed zoop routing (surge off ledges), the Stronghold jump and the melee heart. His commentary is mostly hype; the useful material is in his replies and SRC comments. His YouTube channel is otherwise pitbike racing.",
+ "insights": [
+  {
+   "text": "Surge off the edge of stuff. Sometimes it works better than others.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=6WEIHo7AUf0&lc=UgzPLhVvgRLumUIMhSR4AaABAg.AcKYfl9wo5kAcOXd1ROJDw",
+   "video": {
+    "id": "6WEIHo7AUf0",
+    "title": "Speedrun WR (6:50) Kuldra RAID w/ Commentary RS Dragonwilds",
+    "channel": "@texaspete.2173"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-26",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgzPLhVvgRLumUIMhSR4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "yes",
+   "verification_note": "This \"launch\" is the zoop/edge-surge.",
+   "curated": true
+  },
+  {
+   "text": "try not to get too close to the edge or your surge wont work",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=6N3NwYA5Zh0&lc=UgxVyCSRQYIqqhPCYdR4AaABAg.AbovP71KFosAbpgn5E8c6C",
+   "video": {
+    "id": "6N3NwYA5Zh0",
+    "title": "(7:40) Kuldra RAID Speedrun // RS Dragonwilds Patch 1.0.0.6+",
+    "channel": "@texaspete.2173"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxVyCSRQYIqqhPCYdR4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "partial",
+   "verification_note": "SamFPlays and CrossRSDW both say surge needs ground contact, and that being too close to the edge breaks it.",
+   "curated": true
+  },
+  {
+   "text": "They were patched on pc recently also",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=6WEIHo7AUf0&lc=Ugxt-2AR4hMxBLxe6814AaABAg.AcLzKjiTPfjAcOXaPDC2ep",
+   "video": {
+    "id": "6WEIHo7AUf0",
+    "title": "Speedrun WR (6:50) Kuldra RAID w/ Commentary RS Dragonwilds",
+    "channel": "@texaspete.2173"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-26",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugxt-2AR4hMxBLxe6814AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Correct this was 10/14",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=6WEIHo7AUf0&lc=Ugze2oZPhDZMk984rQJ4AaABAg.AcNQDkO_sQPAcOXgX-RnSv",
+   "video": {
+    "id": "6WEIHo7AUf0",
+    "title": "Speedrun WR (6:50) Kuldra RAID w/ Commentary RS Dragonwilds",
+    "channel": "@texaspete.2173"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-26",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "Ugze2oZPhDZMk984rQJ4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "They have categories for runs under various versions of the game. Check the website",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=6WEIHo7AUf0&lc=Ugx8T2DmO5fqYypxNQV4AaABAg.AcLneLF_C_-AcOXFcS8IKo",
+   "video": {
+    "id": "6WEIHo7AUf0",
+    "title": "Speedrun WR (6:50) Kuldra RAID w/ Commentary RS Dragonwilds",
+    "channel": "@texaspete.2173"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-26",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugx8T2DmO5fqYypxNQV4AaABAg",
+   "topic": "rules",
+   "topics": [
+    "other"
+   ],
+   "verified": "partial",
+   "verification_note": "The SRC Raid version variable only splits Pre-1.0.0.6 / 1.0.0.6+, so 1.0.1.2 runs rank directly against the 6:50.",
+   "curated": true
+  },
+  {
+   "text": "You’re my hero. What a time saver. A little tricky to get it first try everytime but worth it! I hadn’t seen other people do it on their runs but I did see one must have been you. Took me a long time to put it all together",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=6N3NwYA5Zh0&lc=UgzTlayyOQUkaSW4uNl4AaABAg.Abn_SrdmKIOAbnm0L8s_c-",
+   "video": {
+    "id": "6N3NwYA5Zh0",
+    "title": "(7:40) Kuldra RAID Speedrun // RS Dragonwilds Patch 1.0.0.6+",
+    "channel": "@texaspete.2173"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgzTlayyOQUkaSW4uNl4AaABAg",
+   "topic": "credit",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Good stuff brother clipping thru to at kuldra definitely faster i just compared our runs. Sure you know but on the website it stops timer after the 15 second heart timer",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=yKDHfkxIrU4&lc=UgwGQm9HWUyDcegexah4AaABAg",
+   "video": {
+    "id": "yKDHfkxIrU4",
+    "title": "Runescape: Dragonwilds | 8:05 Kuldra | 1.0.0.6+ Legacy Run",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "route",
+   "topics": [
+    "skip id",
+    "timing"
+   ],
+   "verified": "yes",
+   "verification_note": "Nanobit confirms: \"it's definitely faster\".",
+   "curated": true
+  },
+  {
+   "text": "Recorded on 10/14/26 this is prior to the windstep double jump and some other new routing strats. Shoutout to @iNanobit for pushing the limits of this run. By no means a perfect run but great execution and got some good RNG on my jumps here.",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=6WEIHo7AUf0",
+   "video": {
+    "id": "6WEIHo7AUf0",
+    "title": "Speedrun WR (6:50) Kuldra RAID w/ Commentary RS Dragonwilds"
+   },
+   "timestamp": null,
+   "date": "2026-10-23",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "tech"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "I accidently stopped the clock less than a second short. Total time was roughly 7.40.84",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=6N3NwYA5Zh0",
+   "video": {
+    "id": "6N3NwYA5Zh0",
+    "title": "(7:40) Kuldra RAID Speedrun // RS Dragonwilds Patch 1.0.0.6+"
+   },
+   "timestamp": null,
+   "date": "2026-10-10",
+   "date_approx": false,
+   "topic": "timing",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "This run is a mix of some of my original strats and some borrowed. I was able to pull off a sub 9 run while staying in the map and completing the Cataclysm Keep puzzle before I saw some videos of the skip recently.",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=6N3NwYA5Zh0",
+   "video": {
+    "id": "6N3NwYA5Zh0",
+    "title": "(7:40) Kuldra RAID Speedrun // RS Dragonwilds Patch 1.0.0.6+"
+   },
+   "timestamp": null,
+   "date": "2026-10-10",
+   "date_approx": false,
+   "topic": "route",
+   "topics": [
+    "skip id",
+    "timing"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Good stuff I found optimal spots to skip stages but never thought about the boss fight. 10/10. Will never be able to beat this time now after the patch!",
+   "source": "speedrun.com run thread",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/mkn1pv5m",
+   "timestamp": null,
+   "date": "2026-09-25",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": "On heartlessedly's 237s run",
+   "curated": true
+  },
+  {
+   "text": "I don't understand why the gate for you 4 minutes in is closed. always open for me even on full reset",
+   "source": "speedrun.com run thread",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/z54wpegm",
+   "timestamp": null,
+   "date": "2026-10-09",
+   "date_approx": false,
+   "topic": "timing",
+   "topics": [
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": "On KawaiiXO's 1572s run",
+   "curated": true
+  },
+  {
+   "text": "This run is a mix of some of my original strats and some borrowed. I was able to pull off a sub 9 run while staying in the map and completing the Cataclysm Keep puzzle before I saw some videos of the skip recently. \n\nI accidently stopped the clock less than a second short. Total time was roughly 7.40.84\n\nIf you have tried this, you know there is so many places that one small mistake will blow the run. Very happy to pull this near perfect run out. There is room for improvement but it will take many attempts to replicate. \n\nWe will see how it evolves if some new strats come into play. Cheers",
+   "source": "speedrun.com run comment",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/zg0641nm",
+   "timestamp": null,
+   "date": "2026-10-10",
+   "date_approx": false,
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "timing"
+   ],
+   "verified": "yes",
+   "verification_note": "Run verified (460s, 1.0.0.6+)",
+   "curated": true
+  },
+  {
+   "text": "Great run! Where did you get the livesplit template or did you make it?",
+   "source": "speedrun.com run thread",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/zpe5n1xy",
+   "timestamp": null,
+   "date": "2026-10-11",
+   "date_approx": false,
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": "On Nanobit's 485s run",
+   "curated": true
+  },
+  {
+   "text": "I believe this is the first ever sub 7 run if I'm not mistaken\nCurrent World Record SpeedRun for version Patch 1.0.0.6+\nRecorded on 10/14/26 this is prior to the windstep double jump and some other new routing strats. Shoutout to [‪@iNanobit‬](https://www.youtube.com/@iNanobit) for pushing the limits of this run. By no means a perfect run but great execution and got some good RNG on my jumps here.",
+   "source": "speedrun.com run comment",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/m74jw34m",
+   "timestamp": null,
+   "date": "2026-10-14",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "tech",
+    "timing"
+   ],
+   "verified": "yes",
+   "verification_note": "Run verified (410s, 1.0.0.6+)",
+   "curated": true
+  },
+  {
+   "text": "My favorite course personally. Beat this so I can go back and do some more.",
+   "source": "speedrun.com run comment (Agility Course)",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y64jll1m",
+   "timestamp": null,
+   "date": "2026-10-04",
+   "date_approx": false,
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": "Agility/other category; movement tech context only",
+   "curated": false
+  },
+  {
+   "text": "Shout out to funkybasic for some nice strats. I do not take credit for the headstart or some of the nice time saving moves ",
+   "source": "speedrun.com run comment (Agility Course)",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y84gxqxz",
+   "timestamp": null,
+   "date": "2026-10-07",
+   "date_approx": false,
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": "Agility/other category; movement tech context only",
+   "curated": false
+  }
+ ],
+ "recordings": [
+  {
+   "title": "Speedrun WR (6:50) Kuldra RAID w/ Commentary RS Dragonwilds",
+   "url": "https://www.youtube.com/watch?v=6WEIHo7AUf0",
+   "date": "2026-10-23",
+   "duration": "7:24",
+   "views": 9472,
+   "channel": "@texaspete.2173",
+   "summary": "Live-commentary upload of the 6:50 SRC run (m74jw34m). The auto-transcript is all reactions (\"Where all runs go to die\" at 1:57, the Fragments zoop; \"Here at the needle\" at 4:27). It has no technical explanation. Segments that are now dead: the Keep OOB skip and the windstep rocks to Kuldra (1.0.1.2: \"the rock a phantom\").",
+   "description": "This is the first ever sub 7 run for version Patch 1.0.0.6+\nCurrent World Record SpeedRun \nRecorded on 10/14/26 this is prior to the windstep double jump and some other new routing strats. Shoutout to @iNanobit for pushing the limits of this run. By no means a perfect run but great execution and got some good RNG on my jumps here.\n\nEnjoy the commentary",
+   "transcript": "auto-captions, see D:/claude-temp/people/transcripts/6WEIHo7AUf0.txt",
+   "comments_fetched": 32,
+   "key_moments": []
+  },
+  {
+   "title": "(7:40) Kuldra RAID Speedrun // RS Dragonwilds Patch 1.0.0.6+",
+   "url": "https://www.youtube.com/watch?v=6N3NwYA5Zh0",
+   "date": "2026-10-10",
+   "duration": "8:46",
+   "views": 633,
+   "channel": "@texaspete.2173",
+   "summary": "*Former World Record SpeedRun for version Patch 1.0.0.6+",
+   "description": "*Former World Record SpeedRun for version Patch 1.0.0.6+\nThis run is a mix of some of my original strats and some borrowed. I was able to pull off a sub 9 run while staying in the map and completing the Cataclysm Keep puzzle before I saw some videos of the skip recently. \n\nI accidently stopped the clock less than a second short. Total time was roughly 7.40.84\n\nIf you have tried this, you know there is so many places that one small mistake will blow the run. Very happy to pull this near perfect run out. There is room for improvement but it will take many attempts to replicate. \n\nWe will see how it evolves if some new strats come into play. Cheers\nRuneScape DragonWilds Scorned Wilderness RAID Speedrun",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 9,
+   "key_moments": []
+  }
+ ],
+ "runs": [
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 50.8,
+   "date": "2026-10-04",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y64jll1m",
+   "video": "https://youtu.be/44lHV3tDeVI",
+   "comment": "My favorite course personally. Beat this so I can go back and do some more."
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 48.08,
+   "date": "2026-10-07",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y84gxqxz",
+   "video": "https://youtu.be/AjHWMopxPb4",
+   "comment": "Shout out to funkybasic for some nice strats. I do not take credit for the headstart or some of the nice time saving moves "
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Raid",
+   "time_s": 460,
+   "date": "2026-10-10",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/zg0641nm",
+   "video": "https://youtu.be/6N3NwYA5Zh0",
+   "comment": "This run is a mix of some of my original strats and some borrowed. I was able to pull off a sub 9 run while staying in the map and completing the Cataclysm Keep puzzle before I saw some videos of the skip recently. \n\nI accidently stopped the clock less than a second short. Total time was roughly 7.40.84\n\nIf you have tried this, you know there is so many places that one small mistake will blow the run. Very happy to pull this near perfect run out. There is room for improvement but it will take many attempts to replicate. \n\nWe will see how it evolves if some new strats come into play. Cheers"
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Raid",
+   "time_s": 410,
+   "date": "2026-10-14",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/m74jw34m",
+   "video": "https://www.youtube.com/watch?v=6WEIHo7AUf0",
+   "comment": "I believe this is the first ever sub 7 run if I'm not mistaken\nCurrent World Record SpeedRun for version Patch 1.0.0.6+\nRecorded on 10/14/26 this is prior to the windstep double jump and some other new routing strats. Shoutout to [‪@iNanobit‬](https://www.youtube.com/@iNanobit) for pushing the limits of this run. By no means a perfect run but great execution and got some good RNG on my jumps here."
+  }
+ ],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

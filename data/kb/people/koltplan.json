@@ -1,0 +1,122 @@
+{
+ "handle": "koltplan",
+ "name": "koltplan",
+ "aliases": [
+  "@koltplan"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@koltplan",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 30,
+ "summary": "Practised the Vines-to-Fragments max zoop for a sub-7 attempt and gives hard consistency numbers: about 1 in 50 attempts, and 5/400. That is the best evidence that the zoop is a lottery as currently understood.",
+ "insights": [
+  {
+   "text": " @iNanobit thanks for the added input. I’ve been all over the rock, I know exactly what you mean with the collision/slope and the visual not matching the actual collision! I was actually trying to get a sub 7 run in myself before they patch it, but I cannot get a max zoop off of that ledge cleanly for the life of me. If you don’t get the extra distance I never make the gap with a normal zoop, so my runs die there every time lol. I can get it randomly when practicing it, but it feels like even when i hit the spot perfectly, it still gives me a weak zoop and I fall. Good on you being able to make it so often! I’m literally like 5/400 practicing it lol",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgzKx_JhQIG2eih4kwh4AaABAg.Ac4kgUNWPOVAcFLmJBkNJr",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-22",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgzKx_JhQIG2eih4kwh4AaABAg.Ac4kgUNWPOVAcFGwEzGIjI",
+   "topic": "tech",
+   "topics": [
+    "patch",
+    "tech",
+    "timing"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "See you say relatively precise, but I think this trick is extremely precise lol. I’ve been trying to master it for the last couple of days, and I can barely get it at all. Maybe once every 50 attempts? (Walking from fragments recall and using recall every attempt for 2x practice but still annoying lol) I’ve tried all differen’t camera angles, walking angles, different distances from the edge, allllll kinds of stuff to try and get any type of consistency and can’t. Swear I just tried it for an hour and only got it twice.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgzKx_JhQIG2eih4kwh4AaABAg.Ac4kgUNWPOVAcEQr_D6RtM",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-22",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgzKx_JhQIG2eih4kwh4AaABAg",
+   "topic": "practice",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "This is so damn clean, awesome work! I learned so many movement tips and tricks from this too! Been having fun trying to find shortcuts out myself, was satisfying watching this and seeing I was on the right track for some. I almost had that gap skip in the 3rd area figured out, i just had to go farther down to the right!!!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=6N3NwYA5Zh0&lc=Ugx4V6QLlYqKMvH1hdt4AaABAg",
+   "video": {
+    "id": "6N3NwYA5Zh0",
+    "title": "(7:40) Kuldra RAID Speedrun // RS Dragonwilds Patch 1.0.0.6+",
+    "channel": "@texaspete.2173"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "route",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": " @iNanobit Ah thanks! That would be sweet, but unfortunately I am on PS5! Also great run by the way man, definitely inspired me to try this madness lol! Love the enthusiam for this fantastic game, keep up the good work!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgzKx_JhQIG2eih4kwh4AaABAg.Ac4kgUNWPOVAcFQB8P2DEL",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-22",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgzKx_JhQIG2eih4kwh4AaABAg.Ac4kgUNWPOVAcFGwEzGIjI",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

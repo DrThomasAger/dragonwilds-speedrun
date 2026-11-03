@@ -1,0 +1,97 @@
+{
+ "handle": "moistrag7476",
+ "name": "moistrag7476",
+ "aliases": [
+  "@moistrag7476"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@moistrag7476",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 8,
+ "summary": "Single-insight commenter:  @shadowwind0078 but there is a skip, after the black dragon where you connect the next bridge you can surge+jump+double dash on the right angle you’ll activate…",
+ "insights": [
+  {
+   "text": " @shadowwind0078 but there is a skip, after the black dragon where you connect the next bridge you can surge+jump+double dash on the right angle you’ll activate the loadstone then fall to your death so you don’t have to do the anima",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1NfTq_kvj7k&lc=UgyHNHqvi2zCs5bMQ7t4AaABAg.AbykOiGX6LXAbyoCVaKmJL",
+   "video": {
+    "id": "1NfTq_kvj7k",
+    "title": "Full Kuldra Run Skip - Post 1.0.1 Patch | Runescape Dragonwilds",
+    "channel": "@zyneater"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgyHNHqvi2zCs5bMQ7t4AaABAg.AbykOiGX6LXAbynj40b6um",
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "no you cant, its been patched, thats why they made this video",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1NfTq_kvj7k&lc=UgyHNHqvi2zCs5bMQ7t4AaABAg.AbykOiGX6LXAbym-_exEsU",
+   "video": {
+    "id": "1NfTq_kvj7k",
+    "title": "Full Kuldra Run Skip - Post 1.0.1 Patch | Runescape Dragonwilds",
+    "channel": "@zyneater"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 3,
+   "reply_to": "UgyHNHqvi2zCs5bMQ7t4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "this is the fastest way that is known atm after they patched most things",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1NfTq_kvj7k&lc=UgwaqD8l0tyuftIHSmR4AaABAg.AbySNXDIB2GAbym7C6JT-e",
+   "video": {
+    "id": "1NfTq_kvj7k",
+    "title": "Full Kuldra Run Skip - Post 1.0.1 Patch | Runescape Dragonwilds",
+    "channel": "@zyneater"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgwaqD8l0tyuftIHSmR4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

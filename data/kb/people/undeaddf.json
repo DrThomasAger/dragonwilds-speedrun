@@ -1,0 +1,120 @@
+{
+ "handle": "undeaddf",
+ "name": "UndeadDF",
+ "aliases": [
+  "@UndeadDF"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@UndeadDF",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: You can even just use Surge and Quick Step (extra dash) to double dash over right where the bridge would, be instead of running all the way around.",
+ "insights": [
+  {
+   "text": "You can even just use Surge and Quick Step (extra dash) to double dash over right where the bridge would, be instead of running all the way around.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=2Zn04m-mq80&lc=UgwL8_GY7SpmKNtqeL14AaABAg",
+   "video": {
+    "id": "2Zn04m-mq80",
+    "title": "Legacy Kuldra Skip with a Shortcut to the Heart (Patched?) | RS: Dragonwilds 1.0.0.6",
+    "channel": "@thelastiger"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "route",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": " @purefate3444  hey does this method still work? There was an update yesterday and it's not letting me jump over that gap anymore.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=204hBIge5h0&lc=UgxntFHJoLNYLiWeKwF4AaABAg.Abj56STjIz5Abjz6p5XhBu",
+   "video": {
+    "id": "204hBIge5h0",
+    "title": "Legacy World Record (9:37 ChiefWes) - Scorned Wilderness & Kuldra Speedrun | RS: Dragonwilds 1.0.0.6",
+    "channel": "@thelastiger"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxntFHJoLNYLiWeKwF4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": " @Nimblesk1  Cool maybe it was just a server glitch. It would let me surge off the ledge, jump, dash and dash but both dashes stop short. I'll try again.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=204hBIge5h0&lc=UgxntFHJoLNYLiWeKwF4AaABAg.Abj56STjIz5Abl9lSCWJ8G",
+   "video": {
+    "id": "204hBIge5h0",
+    "title": "Legacy World Record (9:37 ChiefWes) - Scorned Wilderness & Kuldra Speedrun | RS: Dragonwilds 1.0.0.6",
+    "channel": "@thelastiger"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxntFHJoLNYLiWeKwF4AaABAg.Abj56STjIz5Abk3VnzSGIw",
+   "topic": "tech",
+   "topics": [
+    "tech",
+    "bug"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": " @Nimblesk1  Yeah it was the Kuldra one, I was doing it from the higher part of the platform and it was blocking.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=204hBIge5h0&lc=UgxntFHJoLNYLiWeKwF4AaABAg.Abj56STjIz5AbmLuNQsCgb",
+   "video": {
+    "id": "204hBIge5h0",
+    "title": "Legacy World Record (9:37 ChiefWes) - Scorned Wilderness & Kuldra Speedrun | RS: Dragonwilds 1.0.0.6",
+    "channel": "@thelastiger"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxntFHJoLNYLiWeKwF4AaABAg.Abj56STjIz5Abk3VnzSGIw",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

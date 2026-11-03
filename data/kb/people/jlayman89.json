@@ -1,0 +1,98 @@
+{
+ "handle": "jlayman89",
+ "name": "jlayman89",
+ "aliases": [
+  "@jlayman89"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@jlayman89",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: Oh lord, so I just found out by accident you can skip the first 2 areas entirely  by walking to the western part of the area Zilyana is in... like the whole ⅓ t…",
+ "insights": [
+  {
+   "text": "Oh lord, so I just found out by accident you can skip the first 2 areas entirely  by walking to the western part of the area Zilyana is in... like the whole ⅓ to the west. I was running around looking for things I may have missed and the checkpoint unlocked thing popped up. Sure enough, you can go to the stronghold, then walk past the blue thing foe the next, portal to Zil, then do the little jump course for the 4th. Its a few minutes faster than this video even... they really didnt thoroughly test this stuff.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ewgak1mPu7A&lc=Ugxxm0Gn_fr_uea4_hx4AaABAg",
+   "video": {
+    "id": "ewgak1mPu7A",
+    "title": "I Broke the New Dragonwilds Raid | Kuldra Guide + Tricks",
+    "channel": "@CrossRSDW"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "timing"
+   ],
+   "verified": "outdated",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "​ @domeshotz800 I haven't had the chance to try yet.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ewgak1mPu7A&lc=Ugxxm0Gn_fr_uea4_hx4AaABAg.Ab72RVOeB5CAbC6o0O69Iy",
+   "video": {
+    "id": "ewgak1mPu7A",
+    "title": "I Broke the New Dragonwilds Raid | Kuldra Guide + Tricks",
+    "channel": "@CrossRSDW"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugxxm0Gn_fr_uea4_hx4AaABAg.Ab72RVOeB5CAbC2he2XCmq",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "​ @domeshotz800 I think they patched it. I just did a raid and couldn't get it to either. Was fun while it lasted, but seems like other shortcuts still work.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ewgak1mPu7A&lc=Ugxxm0Gn_fr_uea4_hx4AaABAg.Ab72RVOeB5CAbCLCWSpfP9",
+   "video": {
+    "id": "ewgak1mPu7A",
+    "title": "I Broke the New Dragonwilds Raid | Kuldra Guide + Tricks",
+    "channel": "@CrossRSDW"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugxxm0Gn_fr_uea4_hx4AaABAg.Ab72RVOeB5CAbC6o0O69Iy",
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

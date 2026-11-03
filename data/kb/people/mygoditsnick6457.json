@@ -1,0 +1,52 @@
+{
+ "handle": "mygoditsnick6457",
+ "name": "mygoditsnick6457",
+ "aliases": [
+  "@mygoditsnick6457"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@mygoditsnick6457",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 8,
+ "summary": "Single-insight commenter: on the boss fight phase 1 skip when the blue dragon first spawns, I cant windstep onto the first rock. I fall through it. And I am also experiencing a glitch wh…",
+ "insights": [
+  {
+   "text": "on the boss fight phase 1 skip when the blue dragon first spawns, I cant windstep onto the first rock. I fall through it. And I am also experiencing a glitch where if i do the mechanics without skipping, and stand behind zilyana when she activates the shield (after fighting the blue dragon and firing the cannon) she teleports me and Im falling through the floor immediately. Do we have any idea what this is?",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&lc=UgyC7tgXpHx3lseHgux4AaABAg",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-24",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "bug",
+   "topics": [
+    "skip id",
+    "tech",
+    "bug"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

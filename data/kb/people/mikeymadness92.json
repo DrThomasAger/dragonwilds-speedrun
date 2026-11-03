@@ -1,0 +1,51 @@
+{
+ "handle": "mikeymadness92",
+ "name": "MikeyMadness92",
+ "aliases": [
+  "@MikeyMadness92"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@MikeyMadness92",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 8,
+ "summary": "Single-insight commenter: In kuldra fight, if you look closely when your doing skips you can see little invisible floating cubes and I think those are death cubes you need to avoid, can …",
+ "insights": [
+  {
+   "text": "In kuldra fight, if you look closely when your doing skips you can see little invisible floating cubes and I think those are death cubes you need to avoid, can confirm kuldra skip harder, but doable as before",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=s9cyeL2c-qg&lc=UgxWjlqyjqIoo-rzunx4AaABAg",
+   "video": {
+    "id": "s9cyeL2c-qg",
+    "title": "Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!",
+    "channel": "@SectorTSWG"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "bug",
+   "topics": [
+    "skip id",
+    "bug"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

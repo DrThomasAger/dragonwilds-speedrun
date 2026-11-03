@@ -1,0 +1,75 @@
+{
+ "handle": "taxeit",
+ "name": "Taxeit",
+ "aliases": [
+  "@Taxeit"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@Taxeit",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: 4:00 can actually accomplish this part with just a single surge, but hard to do",
+ "insights": [
+  {
+   "text": "4:00 can actually accomplish this part with just a single surge, but hard to do",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugzxzu2a9hHpMyocyPB4AaABAg",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": "4:00",
+   "video_timestamps": [
+    "4:00"
+   ],
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "That final section where you surge and double jump, can be completed with just a surge, idk how to replicate it tho, only happened to me once so far.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=lTG0EuXuqDs&lc=UgzRxGHjz6-YChe_USh4AaABAg",
+   "video": {
+    "id": "lTG0EuXuqDs",
+    "title": "Jagex Patched the Raid Skip… So I Broke it Again",
+    "channel": "@CrossRSDW"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

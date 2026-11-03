@@ -1,0 +1,75 @@
+{
+ "handle": "ballerhorn",
+ "name": "BallerHorn",
+ "aliases": [
+  "@BallerHorn"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@BallerHorn",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: Two skips worth mentioning. 1. Jumping puzzle with skeletons has a faster skip. Right as you go through the gate, in the far left corner of the room is a hole i…",
+ "insights": [
+  {
+   "text": "Two skips worth mentioning.\n1. Jumping puzzle with skeletons has a faster skip. Right as you go through the gate, in the far left corner of the room is a hole in the wall, wind step up to it, crouch through it, drop down, and run along the wall to the end.\n2. you can skip the final puzzle before the boss. As you're running along the pipes to the fire puzzle, the end of the right wall and the rocks is a big hole in the wall, jump through it and wind step onto the roof of the puzzle, then run along the geometry to the waypoint. Then either home TP, unstuck TP, or find a place to clip back through the floor.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=lTG0EuXuqDs&lc=UgwOTR3vD1fhVMaBgLB4AaABAg",
+   "video": {
+    "id": "lTG0EuXuqDs",
+    "title": "Jagex Patched the Raid Skip… So I Broke it Again",
+    "channel": "@CrossRSDW"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech",
+    "timing"
+   ],
+   "verified": "outdated",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "​ @PapaKale02 thanks for providing the additional context, my comment was half baked as I was heading off to sleep.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=lTG0EuXuqDs&lc=UgwOTR3vD1fhVMaBgLB4AaABAg.AbQix2d-UllAbRhsyEaMGz",
+   "video": {
+    "id": "lTG0EuXuqDs",
+    "title": "Jagex Patched the Raid Skip… So I Broke it Again",
+    "channel": "@CrossRSDW"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgwOTR3vD1fhVMaBgLB4AaABAg.AbQix2d-UllAbR9x0HWJzZ",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

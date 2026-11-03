@@ -1,0 +1,52 @@
+{
+ "handle": "kevina1492",
+ "name": "kevina1492",
+ "aliases": [
+  "@kevina1492"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@kevina1492",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: There's a much faster sub-10 skip btw. After the gate with the thane (fire and air puzzle with the skeletons/tower) there's a hole you can jump into inside the …",
+ "insights": [
+  {
+   "text": "There's a much faster sub-10 skip btw. After the gate with the thane (fire and air puzzle with the skeletons/tower) there's a hole you can jump into inside the building back left. Crouch to get through and you can skip directly to the abby demon. You can entirely skip the last puzzle too with a gap at the end of the pipes that allows you to go under the map and activate the last checkpoint.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=lTG0EuXuqDs&lc=UgxAeWO-R2UXFYsG_gd4AaABAg",
+   "video": {
+    "id": "lTG0EuXuqDs",
+    "title": "Jagex Patched the Raid Skip… So I Broke it Again",
+    "channel": "@CrossRSDW"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech",
+    "timing"
+   ],
+   "verified": "outdated",
+   "verification_note": null,
+   "curated": true
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

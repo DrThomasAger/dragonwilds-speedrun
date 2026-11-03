@@ -1,0 +1,1091 @@
+{
+ "handle": "dotxy",
+ "name": "Dotxy",
+ "aliases": [
+  "dotyoureyes",
+  "Dotxygaming",
+  "@Dotxygaming",
+  "dotxy"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@Dotxygaming",
+  "twitch": null,
+  "src": "https://www.speedrun.com/users/dotyoureyes",
+  "reddit": null
+ },
+ "src_profile": {
+  "id": "8r579r3x",
+  "weblink": "https://www.speedrun.com/users/dotyoureyes",
+  "twitch": null,
+  "youtube": null,
+  "country": "us",
+  "signup": "2026-10-11T01:59:18Z"
+ },
+ "role": [
+  "tech finder",
+  "runner (agility)"
+ ],
+ "insight_score": 86,
+ "summary": "Found the 1.0.1 movement tech the current route depends on: dive/plunge (jump-attack) cancel on 10-14 and infinite double jump (\"sanctum flight\") on 10-21. His 1.0.1.2 Kuldra skip video has the exact inputs. He says a macro is not against the rules for single player. He also holds several glitchless Agility Course WRs.",
+ "insights": [
+  {
+   "text": "You can cancel a jump attack by opening the spell casting menu, then selecting a spell that requires you to target an area on the ground. After you bring up the spell you can close the spell ring interface then jump!\n\nyou can repeat this in the air an infinite amount of times",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=goKfbT19nkk&lc=UgyScmyApMXR_igrUol4AaABAg.AcMZ-IQmtc1AcN0IqeQZSD",
+   "video": {
+    "id": "goKfbT19nkk",
+    "title": "Runescape Dragonwilds - 1.0.1 New Movement Tech - Infinite Double Jump",
+    "channel": "@Dotxygaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-25",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgyScmyApMXR_igrUol4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "yes",
+   "verification_note": "Reproduced by Nanobit (7:01), FastTipsGaming (console) and IINo1goodII (console).",
+   "curated": true
+  },
+  {
+   "text": "definitely still works! make sure you have a weapon equipped that can perform a jump attack, on PC I have the magical mending spell keybind set to 1 on my keyboard so my inputs look like this:\n\nWindstep/Double jump -> left click (jump attack) -> Q (open spell ring) -> 1 -> escape (close spell ring) -> Jump\n\nrepeat as needed with another jump attack etc\n\nthere's a bit of a rhythm to find with the inputs but it's not too bad",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=goKfbT19nkk&lc=Ugy-h6ssx-qfd-43gLd4AaABAg.AcQqDsR-6rZAcR1GOPjcN6",
+   "video": {
+    "id": "goKfbT19nkk",
+    "title": "Runescape Dragonwilds - 1.0.1 New Movement Tech - Infinite Double Jump",
+    "channel": "@Dotxygaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-27",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugy-h6ssx-qfd-43gLd4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "patch",
+    "tech"
+   ],
+   "verified": "yes",
+   "verification_note": "Needs a weapon that can jump-attack. Nanobit notes the dragon scimitar has no plunge animation.",
+   "curated": true
+  },
+  {
+   "text": "there's no rules against using a macro for single player!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=GeWbo4GpFEg&lc=UgxON-n-n8_UxrpHAi94AaABAg.AcM3IP138IjAcMtycruxVp",
+   "video": {
+    "id": "GeWbo4GpFEg",
+    "title": "NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness Raid - Tech & Tutorial in description",
+    "channel": "@Dotxygaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-25",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxON-n-n8_UxrpHAi94AaABAg",
+   "topic": "rules",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": "The SRC Raid rules (updated 2026-10-31) say nothing about macros. Ask the mods or the Discord before using one in a run.",
+   "curated": true
+  },
+  {
+   "text": "You can also jump inside the heart and kill it much faster, you don't get hit while standing in it",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=GeWbo4GpFEg&lc=UgywwWzaXZVubrB1WH14AaABAg.AcRvzcbusksAcRwUTMCsNQ",
+   "video": {
+    "id": "GeWbo4GpFEg",
+    "title": "NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness Raid - Tech & Tutorial in description",
+    "channel": "@Dotxygaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-27",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgywwWzaXZVubrB1WH14AaABAg",
+   "topic": "tech",
+   "topics": [
+    "timing"
+   ],
+   "verified": "partial",
+   "verification_note": "SamFPlays and CrossRSDW show standing positions inside or beside the heart where worms don't reach.",
+   "curated": true
+  },
+  {
+   "text": "I gave it a shot on controller recently and it was much more difficult, kudos to you lol beware of carpal tunnel",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=GeWbo4GpFEg&lc=UgxiM_XwGRm57ecBHf94AaABAg.AcPEWnrLDbeAcPHW5OEz5H",
+   "video": {
+    "id": "GeWbo4GpFEg",
+    "title": "NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness Raid - Tech & Tutorial in description",
+    "channel": "@Dotxygaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-26",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgxiM_XwGRm57ecBHf94AaABAg",
+   "topic": "tech",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "definitely harder on controller, thankfully on PC we can use multiple fingers on the keyboard at once lol",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=goKfbT19nkk&lc=Ugy4V_LBizGJPxpic3t4AaABAg.AcMv1XreZp7AcN0BfxeyMJ",
+   "video": {
+    "id": "goKfbT19nkk",
+    "title": "Runescape Dragonwilds - 1.0.1 New Movement Tech - Infinite Double Jump",
+    "channel": "@Dotxygaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-25",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugy4V_LBizGJPxpic3t4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "sick run, sharing tips in the comments is goated gz gz",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=Ugz_7d4GjLnvg-yNAuR4AaABAg",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-21",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "meta",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "this game is crazy dude get in here",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgxnppZ85io_k1__RSN4AaABAg.Ac5z9nCj77fAcCvKWAL-BV",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-21",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxnppZ85io_k1__RSN4AaABAg",
+   "topic": "meta",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "1.Windstep",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=GeWbo4GpFEg",
+   "video": {
+    "id": "GeWbo4GpFEg",
+    "title": "NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness Raid - Tech & Tutorial in description"
+   },
+   "timestamp": null,
+   "date": "2026-10-24",
+   "date_approx": false,
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Repeat steps 2-6 as needed!",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=GeWbo4GpFEg",
+   "video": {
+    "id": "GeWbo4GpFEg",
+    "title": "NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness Raid - Tech & Tutorial in description"
+   },
+   "timestamp": null,
+   "date": "2026-10-24",
+   "date_approx": false,
+   "topic": "tech",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Feel free to set up a macro for easy infinite flight!",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=GeWbo4GpFEg",
+   "video": {
+    "id": "GeWbo4GpFEg",
+    "title": "NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness Raid - Tech & Tutorial in description"
+   },
+   "timestamp": null,
+   "date": "2026-10-24",
+   "date_approx": false,
+   "topic": "rules",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "This works mostly everywhere, happy flying friends",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=GeWbo4GpFEg",
+   "video": {
+    "id": "GeWbo4GpFEg",
+    "title": "NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness Raid - Tech & Tutorial in description"
+   },
+   "timestamp": null,
+   "date": "2026-10-24",
+   "date_approx": false,
+   "topic": "tech",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "instantly exit the jump attack animation and ending lag by casting a targeted AOE spell, cancel the cast to gain full movement over your character instantly",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=LGCddmk_TnM",
+   "video": {
+    "id": "LGCddmk_TnM",
+    "title": "Runescape Dragonwilds - 1.0.1 Update New Movement Tech - Dive Cancel"
+   },
+   "timestamp": null,
+   "date": "2026-10-14",
+   "date_approx": false,
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Note: this works with both windstep and double jumping, any time you're in the jump attack animation you can cancel it",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=LGCddmk_TnM",
+   "video": {
+    "id": "LGCddmk_TnM",
+    "title": "Runescape Dragonwilds - 1.0.1 Update New Movement Tech - Dive Cancel"
+   },
+   "timestamp": null,
+   "date": "2026-10-14",
+   "date_approx": false,
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Building on my Jump Attack Cancel, you can chain the JAC into an extra jump in the air, and perform another Jump Attack while airborne",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=goKfbT19nkk",
+   "video": {
+    "id": "goKfbT19nkk",
+    "title": "Runescape Dragonwilds - 1.0.1 New Movement Tech - Infinite Double Jump"
+   },
+   "timestamp": null,
+   "date": "2026-10-21",
+   "date_approx": false,
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "If you're faster than I am you can gain height, not just hover lol",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=goKfbT19nkk",
+   "video": {
+    "id": "goKfbT19nkk",
+    "title": "Runescape Dragonwilds - 1.0.1 New Movement Tech - Infinite Double Jump"
+   },
+   "timestamp": null,
+   "date": "2026-10-21",
+   "date_approx": false,
+   "topic": "tech",
+   "topics": [
+    "timing"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "very cool jump at 2:30, cool route from elemental puzzle -> rib cage that was cool i've only done earlier versions\n\n\n\nI think the cd on surge might still be rolling as you're running up to kuldra's gate but I could see refreshing saving a few seconds. I haven't practiced this run much but are there any ways to cut the corner left at the beginning of sanctum?",
+   "source": "speedrun.com run thread",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/zxr5djkz",
+   "timestamp": null,
+   "date": "2026-10-12",
+   "date_approx": false,
+   "topic": "tech",
+   "topics": [
+    "tech",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": "On Nanobit's 424s run",
+   "curated": true
+  },
+  {
+   "text": "sick run, well played",
+   "source": "speedrun.com run thread",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/m74v4p4m",
+   "timestamp": null,
+   "date": "2026-10-19",
+   "date_approx": false,
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": "On Nanobit's 421s run",
+   "curated": true
+  },
+  {
+   "text": "needs optimization & a stam pot",
+   "source": "speedrun.com run comment (Agility Course)",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/yw75q0pz",
+   "timestamp": null,
+   "date": "2026-10-12",
+   "date_approx": false,
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": "Agility/other category; movement tech context only",
+   "curated": false
+  },
+  {
+   "text": "ty to itswalls and funkybasic for inspiration here\n\nlet's keep this thing rollin",
+   "source": "speedrun.com run comment (Agility Course)",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/yogw217m",
+   "timestamp": null,
+   "date": "2026-10-31",
+   "date_approx": false,
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": "Agility/other category; movement tech context only",
+   "curated": false
+  },
+  {
+   "text": "looks like nano got you, there's another tutorial for the infinite double jump linked in the desc as well",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=GeWbo4GpFEg&lc=UgyGBD_ewKFXsqo4i4h4AaABAg.AcMQrl8zQndAcMtteyJJtO",
+   "video": {
+    "id": "GeWbo4GpFEg",
+    "title": "NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness Raid - Tech & Tutorial in description",
+    "channel": "@Dotxygaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-25",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": "UgyGBD_ewKFXsqo4i4h4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "you don't need ai to make a simple macro",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=GeWbo4GpFEg&lc=UgyImHlpJy-irjzDlHx4AaABAg.AcdiOEPYPgZAce-kPsMTyM",
+   "video": {
+    "id": "GeWbo4GpFEg",
+    "title": "NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness Raid - Tech & Tutorial in description",
+    "channel": "@Dotxygaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-11-01",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgyImHlpJy-irjzDlHx4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": " @imeanfrtho5625  hey check out my original video posted before some of the ai slop borrowing the tech and not listing the source, give both a like & share them with your friends!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=GeWbo4GpFEg&lc=UgzqFo80CxEzRhwcv1Z4AaABAg.AcVlHLUVcBCAcWEh51pIKD",
+   "video": {
+    "id": "GeWbo4GpFEg",
+    "title": "NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness Raid - Tech & Tutorial in description",
+    "channel": "@Dotxygaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-29",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzqFo80CxEzRhwcv1Z4AaABAg.AcVlHLUVcBCAcWAnL87grK",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Hey sorry, not really using a mic but there's another comment on here where I explain what's happening - I also have another vid of the kuldra skip where I detail the button presses in the description!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=goKfbT19nkk&lc=UgyvPIiaZuMdrQXweGZ4AaABAg.AcNGsqoO8RIAcOt1NgCk5O",
+   "video": {
+    "id": "goKfbT19nkk",
+    "title": "Runescape Dragonwilds - 1.0.1 New Movement Tech - Infinite Double Jump",
+    "channel": "@Dotxygaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-26",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgyvPIiaZuMdrQXweGZ4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Check out the full vid! Infinite double jumps lol",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=qzAHlvhR9V8&lc=Ugz5sGCdF1bqWd4FBTV4AaABAg.AcLBgQ5D-xSAcLaP3JhPMR",
+   "video": {
+    "id": "qzAHlvhR9V8",
+    "title": "NEW Kuldra Skip (1.0.1.2) - Scorned Wilderness FULL VID #gaming #runescape #runescapedragonwilds",
+    "channel": "@Dotxygaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-25",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "Ugz5sGCdF1bqWd4FBTV4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Kinda? You can cancel out of the new jump attack midair and get an extra double jump",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=qzAHlvhR9V8&lc=UgyWgWjJjTE-zKYSp7F4AaABAg.AcKr73K3n6xAcLaWPdEPjS",
+   "video": {
+    "id": "qzAHlvhR9V8",
+    "title": "NEW Kuldra Skip (1.0.1.2) - Scorned Wilderness FULL VID #gaming #runescape #runescapedragonwilds",
+    "channel": "@Dotxygaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-25",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": "UgyWgWjJjTE-zKYSp7F4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "sick run, love to see it\n\nhopefully most of these skips stay alive lol",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=vw_Mr5TGJAg&lc=UgzTCJUaT_rf7GK2wRx4AaABAg",
+   "video": {
+    "id": "vw_Mr5TGJAg",
+    "title": "Runescape: Dragonwilds | 8:32 Kuldra | 1.0.1 Day 1 Strats",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [
+  {
+   "title": "NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness Raid - Tech & Tutorial in description",
+   "url": "https://www.youtube.com/watch?v=GeWbo4GpFEg",
+   "date": "2026-10-24",
+   "duration": "1:31",
+   "views": 3002,
+   "channel": "@Dotxygaming",
+   "summary": "Heyo, here's a new way to get through Kuldra's Sanctum quick in the Runescape Dragonwilds 1.0.1.2 hotfix! You can check out the videos below to get the inputs i'm using.",
+   "description": "Heyo, here's a new way to get through Kuldra's Sanctum quick in the Runescape Dragonwilds 1.0.1.2 hotfix! You can check out the videos below to get the inputs i'm using.\n\nInfinite Double Jumps - https://www.youtube.com/watch?v=goKfbT19nkk\n\nDive Cancel - https://www.youtube.com/watch?v=LGCddmk_TnM\n\nFeel free to set up a macro for easy infinite flight!\n\n\n1.Windstep\n2. Jump Attack\n3. Q (Spell Ring)\n4. [any targeted aoe spell]\n5. Escape (closes Spell Ring interface)\n6. Jump\nRepeat steps 2-6 as needed!\n\nThis works mostly everywhere, happy flying friends\n\nCHECK OUT THE SPEEDRUNNING SCENE THIS GAME RULES\nhttps://www.youtube.com/watch?v=g1VvYZdR6ys\n\nhttps://youtu.be/doVQ9Ph256g?si=_BTxDGPuIu8MBjHM",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 36,
+   "key_moments": []
+  },
+  {
+   "title": "Runescape Dragonwilds - 1.0.1 New Movement Tech - Infinite Double Jump",
+   "url": "https://www.youtube.com/watch?v=goKfbT19nkk",
+   "date": "2026-10-21",
+   "duration": "45",
+   "views": 666,
+   "channel": "@Dotxygaming",
+   "summary": "Building on my Jump Attack Cancel, you can chain the JAC into an extra jump in the air, and perform another Jump Attack while airborne",
+   "description": "Building on my Jump Attack Cancel, you can chain the JAC into an extra jump in the air, and perform another Jump Attack while airborne\n\nAnd over and over and over and over and over again\n\nIf you're faster than I am you can gain height, not just hover lol",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 12,
+   "key_moments": []
+  },
+  {
+   "title": "Runescape Dragonwilds - 1.0.1 Update New Movement Tech - Dive Cancel",
+   "url": "https://www.youtube.com/watch?v=LGCddmk_TnM",
+   "date": "2026-10-14",
+   "duration": "51",
+   "views": 233,
+   "channel": "@Dotxygaming",
+   "summary": "instantly exit the jump attack animation and ending lag by casting a targeted AOE spell, cancel the cast to gain full movement over your character instantly",
+   "description": "instantly exit the jump attack animation and ending lag by casting a targeted AOE spell, cancel the cast to gain full movement over your character instantly\n\nNote: this works with both windstep and double jumping, any time you're in the jump attack animation you can cancel it",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 0,
+   "key_moments": []
+  },
+  {
+   "title": "NEW Kuldra Skip (1.0.1.2) - Scorned Wilderness FULL VID #gaming #runescape #runescapedragonwilds",
+   "url": "https://www.youtube.com/watch?v=qzAHlvhR9V8",
+   "date": "2026-10-24",
+   "duration": "34",
+   "views": 3853,
+   "channel": "@Dotxygaming",
+   "summary": "FULL VID & TUTORIAL - https://www.youtube.com/watch?v=GeWbo4GpFEg",
+   "description": "FULL VID & TUTORIAL - https://www.youtube.com/watch?v=GeWbo4GpFEg",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 5,
+   "key_moments": []
+  },
+  {
+   "title": "Chasm Dash Agility Course (34.98) - World Record (Glitchless)",
+   "url": "https://www.youtube.com/watch?v=fG6L4hkRXHY",
+   "date": null,
+   "duration": "0:48",
+   "views": 13,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "Fractured Ruins Agility Course (40.81) - World Record (Glitchless)",
+   "url": "https://www.youtube.com/watch?v=7frw5gOtcZ8",
+   "date": null,
+   "duration": "0:51",
+   "views": 10,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "Chasm Dash Agility Course (35.89) - Former World Record (Glitchless)",
+   "url": "https://www.youtube.com/watch?v=o0Nl3tQ7-u4",
+   "date": null,
+   "duration": "0:52",
+   "views": 25,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "Lava Fields Agility Course (43.02) - Former World Record (Glitchless)",
+   "url": "https://www.youtube.com/watch?v=RVwqoAdhL4E",
+   "date": null,
+   "duration": "0:54",
+   "views": 25,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "Chasm Dash Agility Course (36.79) - Former World Record (Glitchless)",
+   "url": "https://www.youtube.com/watch?v=6-3w85iBCPs",
+   "date": null,
+   "duration": "0:47",
+   "views": 15,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "Fractured Ruins Agility Course (42.71) - Former World Record (Glitchless)",
+   "url": "https://www.youtube.com/watch?v=XSpjex7QQZg",
+   "date": null,
+   "duration": "0:57",
+   "views": 16,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "Tower Climb Agility Course (46.50) - World Record (Glitchless)",
+   "url": "https://www.youtube.com/watch?v=GcqcRTnyYQA",
+   "date": null,
+   "duration": "0:56",
+   "views": 13,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "Grave Run Agility Course (49.10) - World Record (Glitchless)",
+   "url": "https://www.youtube.com/watch?v=mw0Y_AJpzrk",
+   "date": null,
+   "duration": "1:01",
+   "views": 18,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "Chasm Dash Agility Course (38.51) - Former World Record (Glitchless)",
+   "url": "https://www.youtube.com/watch?v=TA8P9WITN9k",
+   "date": null,
+   "duration": "0:52",
+   "views": 15,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "Thunder Assault Agility Course (46.85) - World Record (Glitchless)",
+   "url": "https://www.youtube.com/watch?v=NGU3yx_qUqo",
+   "date": null,
+   "duration": "1:00",
+   "views": 9,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "Fractured Ruins Agility Course (43.45) - Former World Record (Glitchless)",
+   "url": "https://www.youtube.com/watch?v=wg9b_iPeX_c",
+   "date": null,
+   "duration": "0:54",
+   "views": 12,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "Tower Climb Agility Course (47.98) - Former World Record (Glitchless)",
+   "url": "https://www.youtube.com/watch?v=2BM5v9jrjJY",
+   "date": null,
+   "duration": "1:09",
+   "views": 15,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "Lava Fields Agility Course (43.45) - Former World Record (Glitchless) - Runescape Dragonwilds",
+   "url": "https://www.youtube.com/watch?v=g1VvYZdR6ys",
+   "date": null,
+   "duration": "1:02",
+   "views": 34,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "(former WR) Fractured Ruins Agility Course 44.07 - RS:DW Glitchless World Record",
+   "url": "https://www.youtube.com/watch?v=zLtDF71vIAI",
+   "date": null,
+   "duration": "0:53",
+   "views": 10,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "Tower Climb Agility Course 50.52 - RS:DW",
+   "url": "https://www.youtube.com/watch?v=mxEjY3Gak0Q",
+   "date": null,
+   "duration": "1:02",
+   "views": 5,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "Grave Run Agility Course 51.11 - RS:DW (Glitchless WR)",
+   "url": "https://www.youtube.com/watch?v=2gY06--Jtms",
+   "date": null,
+   "duration": "1:03",
+   "views": 13,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "Thunder Assault Agility Course 47.47 - RS:DW (Glitchless WR)",
+   "url": "https://www.youtube.com/watch?v=xV5SF4Em2n0",
+   "date": null,
+   "duration": "0:59",
+   "views": 21,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "Fractured Ruins Agility Course 45.79 - RS:DW (Glitchless WR)",
+   "url": "https://www.youtube.com/watch?v=6h-uaQP5yfM",
+   "date": null,
+   "duration": "0:54",
+   "views": 5,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "Chasm Dash Agility Course 41.22 - RS:DW",
+   "url": "https://www.youtube.com/watch?v=OpUduGKu6-E",
+   "date": null,
+   "duration": "0:54",
+   "views": 7,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "Lava Fields Agility Course 44.53 - RS:DW (former Glitchless WR)",
+   "url": "https://www.youtube.com/watch?v=tKYTqBm1HZ4",
+   "date": null,
+   "duration": "0:55",
+   "views": 67,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  },
+  {
+   "title": "[old] Lava Fields Agility Course run (48.65) & Setup - RS:DW",
+   "url": "https://www.youtube.com/watch?v=56J9DCQcxXw",
+   "date": null,
+   "duration": "1:47",
+   "views": 23,
+   "summary": "Agility Course run (glitchless). Movement only; not raid-specific.",
+   "key_moments": []
+  }
+ ],
+ "runs": [
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 45.53,
+   "date": "2026-10-10",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/yw75d30z",
+   "video": "https://www.youtube.com/watch?v=tKYTqBm1HZ4",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 44.53,
+   "date": "2026-10-12",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/z147rg9z",
+   "video": "https://www.youtube.com/watch?v=tKYTqBm1HZ4",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 44.07,
+   "date": "2026-10-12",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/z04krley",
+   "video": "https://www.youtube.com/watch?v=zLtDF71vIAI",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 49.43,
+   "date": "2026-10-12",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/yjv7g13y",
+   "video": "https://www.youtube.com/watch?v=eHA-zk70-1I",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 49.43,
+   "date": "2026-10-12",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/yw75q0pz",
+   "video": "https://www.youtube.com/watch?v=eHA-zk70-1I",
+   "comment": "needs optimization & a stam pot"
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 39.29,
+   "date": "2026-10-12",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y9qw97nz",
+   "video": "https://www.youtube.com/watch?v=-Ygscfjv9Y4",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 51.11,
+   "date": "2026-10-12",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y9qwnq2z",
+   "video": "https://www.youtube.com/watch?v=2gY06--Jtms",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 50.52,
+   "date": "2026-10-12",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/yw75092z",
+   "video": "https://www.youtube.com/watch?v=mxEjY3Gak0Q",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 47.47,
+   "date": "2026-10-12",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/m74v8v9m",
+   "video": "https://www.youtube.com/watch?v=xV5SF4Em2n0",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 45.79,
+   "date": "2026-10-12",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/yog59l0m",
+   "video": "https://www.youtube.com/watch?v=6h-uaQP5yfM",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 41.22,
+   "date": "2026-10-12",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/zg09xpdm",
+   "video": "https://youtu.be/OpUduGKu6-E?si=9X8naANjJIP9uozz",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 46.85,
+   "date": "2026-10-15",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/zg018pnm",
+   "video": "https://www.youtube.com/watch?v=NGU3yx_qUqo",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 43.45,
+   "date": "2026-10-15",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/mrpw267z",
+   "video": "https://youtu.be/wg9b_iPeX_c",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 43.45,
+   "date": "2026-10-21",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/m74jx15m",
+   "video": "https://www.youtube.com/watch?v=g1VvYZdR6ys",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 43.91,
+   "date": "2026-10-21",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/m3483egz",
+   "video": "https://www.youtube.com/watch?v=GuZsNtgBFUE",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 49.1,
+   "date": "2026-10-22",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/yvkev04m",
+   "video": "https://www.youtube.com/watch?v=mw0Y_AJpzrk",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 38.51,
+   "date": "2026-10-22",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/mrpw277z",
+   "video": "https://www.youtube.com/watch?v=TA8P9WITN9k",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 47.98,
+   "date": "2026-10-22",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/yw7on42z",
+   "video": "https://www.youtube.com/watch?v=2BM5v9jrjJY",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 36.79,
+   "date": "2026-10-24",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/mrppj9gz",
+   "video": "https://www.youtube.com/watch?v=6-3w85iBCPs",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 43.02,
+   "date": "2026-10-24",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/yw7olknz",
+   "video": "https://www.youtube.com/watch?v=RVwqoAdhL4E",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 46.5,
+   "date": "2026-10-25",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y244159z",
+   "video": "https://www.youtube.com/watch?v=GcqcRTnyYQA",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 42.71,
+   "date": "2026-10-25",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/ylww03kz",
+   "video": "https://www.youtube.com/watch?v=XSpjex7QQZg",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 35.89,
+   "date": "2026-10-28",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/me55g48m",
+   "video": "https://www.youtube.com/watch?v=o0Nl3tQ7-u4",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 40.81,
+   "date": "2026-10-31",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/mrpgeq2z",
+   "video": "https://youtu.be/7frw5gOtcZ8?si=vNmm6iUnNxHLK8hu",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 34.98,
+   "date": "2026-10-31",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/yogw217m",
+   "video": "https://youtu.be/fG6L4hkRXHY?si=lejXumqwm8LuQuzI",
+   "comment": "ty to itswalls and funkybasic for inspiration here\n\nlet's keep this thing rollin"
+  }
+ ],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

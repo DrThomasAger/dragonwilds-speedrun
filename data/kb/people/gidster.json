@@ -1,0 +1,73 @@
+{
+ "handle": "gidster",
+ "name": "Gidster",
+ "aliases": [
+  "therealGidster",
+  "@Gidster"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@Gidster",
+  "twitch": null,
+  "src": "https://www.speedrun.com/users/therealGidster",
+  "reddit": null
+ },
+ "src_profile": {
+  "id": "8q3559oj",
+  "weblink": "https://www.speedrun.com/users/therealGidster",
+  "twitch": null,
+  "youtube": "https://www.youtube.com/c/Gidster",
+  "country": "us",
+  "signup": "2021-08-10T20:29:37Z"
+ },
+ "role": [
+  "runner (agility)"
+ ],
+ "insight_score": 6,
+ "summary": "OSRS/Minecraft YouTuber with early Agility Course WRs (Lava Fields 50.69, Chasm Dash 36.22). No raid content found.",
+ "insights": [],
+ "recordings": [
+  {
+   "title": null,
+   "url": "https://www.youtube.com/watch?v=RPswUj5XG8Y",
+   "date": null,
+   "duration": null,
+   "summary": "Metadata not fetched.",
+   "key_moments": []
+  },
+  {
+   "title": null,
+   "url": "https://www.youtube.com/watch?v=Xp_QMp7quns",
+   "date": null,
+   "duration": null,
+   "summary": "Metadata not fetched.",
+   "key_moments": []
+  }
+ ],
+ "runs": [
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 50.69,
+   "date": "2026-09-07",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/me5ldq8m",
+   "video": "https://youtu.be/RPswUj5XG8Y",
+   "comment": null
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 36.22,
+   "date": "2026-10-05",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/z146rorz",
+   "video": "https://youtu.be/Xp_QMp7quns",
+   "comment": null
+  }
+ ],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

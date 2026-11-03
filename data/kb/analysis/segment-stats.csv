@@ -1,0 +1,6 @@
+split,name,n,mean,median,best,bestRun,worst,sd,cv,recordMean,recordSd,recordCv,targetPaceSeg,shareOfBestTotal
+1,Dragontail Vines,6,99.2,95.35,81.52,tp650,119.93,15.59,0.1572,86.43,4.38,0.0507,82.7,0.2047
+2,Fragments of Ghornfell,6,78.62,78.4,61.1,tp650,97.3,13.45,0.1711,68.93,8.89,0.129,60.5,0.1534
+3,The Shattered Stronghold,6,64.93,60.05,51.7,tp650,100.3,17.85,0.2749,56.4,5.96,0.1056,52.5,0.1298
+4,Cataclysm Keep,6,113.17,100.2,87.8,nano701,168.6,30.01,0.2652,95.3,7.05,0.074,86.6,0.2205
+5,Kuldra's Sanctum,6,149.43,153.94,116.15,nano701,180.5,29.02,0.1942,123.8,10.58,0.0854,125.8,0.2916

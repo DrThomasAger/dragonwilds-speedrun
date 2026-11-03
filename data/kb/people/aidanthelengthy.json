@@ -1,0 +1,73 @@
+{
+ "handle": "aidanthelengthy",
+ "name": "AidantheLengthy",
+ "aliases": [
+  "@AidantheLengthy"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@AidantheLengthy",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: For the section with the surge and double jump, you can ignore the necromancer and before you reach him turn 90 degrees right and wind step across the gorge to …",
+ "insights": [
+  {
+   "text": "For the section with the surge and double jump, you can ignore the necromancer and before you reach him turn 90 degrees right and wind step across the gorge to land on the rock formation ON TOP of the entrance door for the section with the elevator. From there you can actually windstep up and round to and hug the upper ledge that leads to the archways where the poison rat lever door is. It’s another easy couple of jumps from there to the abyssal Demon, I’ve found it’s a lot safer and easier to do.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=lTG0EuXuqDs&lc=Ugx4StlOh21a5h3Rf8l4AaABAg",
+   "video": {
+    "id": "lTG0EuXuqDs",
+    "title": "Jagex Patched the Raid Skip… So I Broke it Again",
+    "channel": "@CrossRSDW"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 3,
+   "reply_to": null,
+   "topic": "route",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Can you explain how the first teleport trick unlocks the 3rd spawn point?",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=0zLlzP8hc2Y&lc=UgxBilyT2RN4WzKPkrF4AaABAg",
+   "video": {
+    "id": "0zLlzP8hc2Y",
+    "title": "Dragonwilds Scorned Wilderness Raid Speedrun 3:27",
+    "channel": "@ShadowStalkerTM"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

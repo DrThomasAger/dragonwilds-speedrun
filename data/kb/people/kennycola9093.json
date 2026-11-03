@@ -1,0 +1,50 @@
+{
+ "handle": "kennycola9093",
+ "name": "kennycola9093",
+ "aliases": [
+  "@kennycola9093"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@kennycola9093",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: This guide is so good. For the last part instead of resetting position, just keep going until you see the wall and go behind it. From that point on just windste…",
+ "insights": [
+  {
+   "text": "This guide is so good. For the last part instead of resetting position, just keep going until you see the wall and go behind it. From that point on just windstep up then crouch to find a position close to ground level and then just keep walking whilst spamming crouch. It'll basically force your character back to normal ground.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=UgyS4CPM2eLj6dQxch94AaABAg",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "route",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

@@ -1,0 +1,237 @@
+{
+ "handle": "zyneater",
+ "name": "zyneater",
+ "aliases": [
+  "zyn",
+  "@zyneater"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@zyneater",
+  "twitch": null,
+  "src": "https://www.speedrun.com/users/zyneater",
+  "reddit": null
+ },
+ "src_profile": {
+  "id": "8dp9z1o8",
+  "weblink": "https://www.speedrun.com/users/zyneater",
+  "twitch": null,
+  "youtube": null,
+  "country": "us",
+  "signup": "2023-11-10T07:37:02Z"
+ },
+ "role": [
+  "guide maker"
+ ],
+ "insight_score": 28,
+ "summary": "Destiny 2 raid-cheese creator. Made an 18-minute narrated 1.0.1 raid guide (no captions; whisper failed here). He says there is \"a better route directly to the first air anima vent\" and that \"edge boost surges\" can make the necro gap without a death warp. He thinks the necromancer staff beats the ancestral staff.",
+ "insights": [
+  {
+   "text": " @moistrag7476  you can probably make that gap if you get one of those edge boost surges that carry your momentum without needing to death warp it, those boosts aren't that consistent though, glad someone found how to skip the necro puzzle though that quickly.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1NfTq_kvj7k&lc=UgyHNHqvi2zCs5bMQ7t4AaABAg.AbykOiGX6LXAbypD20dII7",
+   "video": {
+    "id": "1NfTq_kvj7k",
+    "title": "Full Kuldra Run Skip - Post 1.0.1 Patch | Runescape Dragonwilds",
+    "channel": "@zyneater"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgyHNHqvi2zCs5bMQ7t4AaABAg.AbykOiGX6LXAbyoCVaKmJL",
+   "topic": "tech",
+   "topics": [
+    "skip id",
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "ancestral and nah I think necromancer is better",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1NfTq_kvj7k&lc=UgwT4lhoC1tvhXPZnjB4AaABAg.AbygFpCHKttAbyknKZ-ERI",
+   "video": {
+    "id": "1NfTq_kvj7k",
+    "title": "Full Kuldra Run Skip - Post 1.0.1 Patch | Runescape Dragonwilds",
+    "channel": "@zyneater"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": "UgwT4lhoC1tvhXPZnjB4AaABAg",
+   "topic": "setup",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "i didnt find any of this shit. there's also a better route directly to the first air anima vent that I did not do in the video. planning on becoming a reactor trackmania player so i can say zoop more often.  zoop zoop zyn",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=1Q21XYSKJgo",
+   "video": {
+    "id": "1Q21XYSKJgo",
+    "title": "Kuldra Scorned Wilderness Full Raid Skip Guide (Patch 1.0.1) | Runescape Dragonwilds"
+   },
+   "timestamp": null,
+   "date": "2026-10-16",
+   "date_approx": false,
+   "topic": "route",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "THIS IS OUTDATED i like this game. someone cook new puzzle skips ty.  zyn",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=1NfTq_kvj7k",
+   "video": {
+    "id": "1NfTq_kvj7k",
+    "title": "Full Kuldra Run Skip - Post 1.0.1 Patch | Runescape Dragonwilds"
+   },
+   "timestamp": null,
+   "date": "2026-10-14",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "There's a skip for that puzzle entirely now.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1Q21XYSKJgo&lc=UgyQKYzKhdK2JAu76JZ4AaABAg.Ac2_yDRPHo4Ac2x68LqNjV",
+   "video": {
+    "id": "1Q21XYSKJgo",
+    "title": "Kuldra Scorned Wilderness Full Raid Skip Guide (Patch 1.0.1) | Runescape Dragonwilds",
+    "channel": "@zyneater"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgyQKYzKhdK2JAu76JZ4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "At necromancer can you go direct instead of death to load over where the bridge spawns in or is the entire thing walled until flag is hit",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=UgxSxuCzxVvdhzTkq494AaABAg",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [
+  {
+   "title": "Kuldra Scorned Wilderness Full Raid Skip Guide (Patch 1.0.1) | Runescape Dragonwilds",
+   "url": "https://www.youtube.com/watch?v=1Q21XYSKJgo",
+   "date": "2026-10-16",
+   "duration": "18:02",
+   "views": 1826,
+   "channel": "@zyneater",
+   "summary": "i didnt find any of this shit. there's also a better route directly to the first air anima vent that I did not do in the video. planning on becoming a reactor trackmania player so i can say zoop more often.  zoop zoop zyn",
+   "description": "i didnt find any of this shit. there's also a better route directly to the first air anima vent that I did not do in the video. planning on becoming a reactor trackmania player so i can say zoop more often.  zoop zoop zyn\n\n\nTimestamps:\n0:00 - intro yap sesh\n3:59 - yap ends 0-1 tips and things\n6:36 - 0-1 skip\n7:11 - 1-2 skip\n9:02 - 2-3 skip\n11:25 - 3-4 transition/puzzle\n14:29 - Kuldra skip and tips\n\n\n\n#runescape #dragonwilds",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 8,
+   "key_moments": [
+    {
+     "t": "0:00",
+     "url": "https://www.youtube.com/watch?v=1Q21XYSKJgo&t=0s",
+     "what": "intro yap sesh",
+     "source": "chapter"
+    },
+    {
+     "t": "3:59",
+     "url": "https://www.youtube.com/watch?v=1Q21XYSKJgo&t=239s",
+     "what": "yap ends 0-1 tips and things",
+     "source": "chapter"
+    },
+    {
+     "t": "6:36",
+     "url": "https://www.youtube.com/watch?v=1Q21XYSKJgo&t=396s",
+     "what": "0-1 skip",
+     "source": "chapter"
+    },
+    {
+     "t": "7:11",
+     "url": "https://www.youtube.com/watch?v=1Q21XYSKJgo&t=431s",
+     "what": "1-2 skip",
+     "source": "chapter"
+    },
+    {
+     "t": "9:02",
+     "url": "https://www.youtube.com/watch?v=1Q21XYSKJgo&t=542s",
+     "what": "2-3 skip",
+     "source": "chapter"
+    },
+    {
+     "t": "11:25",
+     "url": "https://www.youtube.com/watch?v=1Q21XYSKJgo&t=685s",
+     "what": "3-4 transition/puzzle",
+     "source": "chapter"
+    },
+    {
+     "t": "14:29",
+     "url": "https://www.youtube.com/watch?v=1Q21XYSKJgo&t=869s",
+     "what": "Kuldra skip and tips",
+     "source": "chapter"
+    }
+   ]
+  },
+  {
+   "title": "Full Kuldra Run Skip - Post 1.0.1 Patch | Runescape Dragonwilds",
+   "url": "https://www.youtube.com/watch?v=1NfTq_kvj7k",
+   "date": "2026-10-14",
+   "duration": "13:14",
+   "views": 7439,
+   "channel": "@zyneater",
+   "summary": "THIS IS OUTDATED i like this game. someone cook new puzzle skips ty.  zyn",
+   "description": "THIS IS OUTDATED i like this game. someone cook new puzzle skips ty.  zyn\n\nIn depth guide with tips/skips not done or known at the time of recording this video\nhttps://www.youtube.com/watch?v=1Q21XYSKJgo&t=62s\n\n\n\n#runescape #dragonwilds",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 45,
+   "key_moments": []
+  }
+ ],
+ "runs": [],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

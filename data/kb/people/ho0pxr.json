@@ -1,0 +1,73 @@
+{
+ "handle": "ho0pxr",
+ "name": "Ho0pxr",
+ "aliases": [
+  "@Ho0pxr"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@Ho0pxr",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: Using both neck pieces ain't gonna be a thing in the future so either this won't count later or never be beaten.",
+ "insights": [
+  {
+   "text": "Using both neck pieces ain't gonna be a thing in the future so either this won't count later or never be beaten.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=Ugxw5N_1qGcoYNlMOd14AaABAg",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "rules",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "​ @iNanobit yeah after watching and seeing you only fight the heart its clear that's not the biggest deal. Insane platforming on your end. That was nuts",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=Ugxw5N_1qGcoYNlMOd14AaABAg.Ac6VQWDDi-iAc6Ym_bQxok",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "Ugxw5N_1qGcoYNlMOd14AaABAg.Ac6VQWDDi-iAc6X9UINUDd",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

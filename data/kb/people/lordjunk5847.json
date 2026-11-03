@@ -1,0 +1,51 @@
+{
+ "handle": "lordjunk5847",
+ "name": "lordjunk5847",
+ "aliases": [
+  "@lordjunk5847"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@lordjunk5847",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: I’m on Xbox and everything I saw I’m able to do on console other than the last way to get the last extraction point since on console there’s a wall there. But t…",
+ "insights": [
+  {
+   "text": "I’m on Xbox and everything I saw I’m able to do on console other than the last way to get the last extraction point since on console there’s a wall there. But there’s an alternative route. Fastest I ever did on console was 11 minutes.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=6WEIHo7AUf0&lc=Ugxt-2AR4hMxBLxe6814AaABAg.AcLzKjiTPfjAcM2cuqRi3Z",
+   "video": {
+    "id": "6WEIHo7AUf0",
+    "title": "Speedrun WR (6:50) Kuldra RAID w/ Commentary RS Dragonwilds",
+    "channel": "@texaspete.2173"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-25",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugxt-2AR4hMxBLxe6814AaABAg",
+   "topic": "patch",
+   "topics": [
+    "skip id",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

@@ -1,0 +1,50 @@
+{
+ "handle": "southpark159753",
+ "name": "southpark159753",
+ "aliases": [
+  "@southpark159753"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@southpark159753",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 8,
+ "summary": "Single-insight commenter: You can stand back and hit the heart with magic, doesnt start the fight with worms. Like dont drop down into the area.",
+ "insights": [
+  {
+   "text": "You can stand back and hit the heart with magic, doesnt start the fight with worms. Like dont drop down into the area.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=GeWbo4GpFEg&lc=UgywwWzaXZVubrB1WH14AaABAg",
+   "video": {
+    "id": "GeWbo4GpFEg",
+    "title": "NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness Raid - Tech & Tutorial in description",
+    "channel": "@Dotxygaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-27",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "tech",
+   "topics": [
+    "other"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

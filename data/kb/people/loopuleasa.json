@@ -1,0 +1,311 @@
+{
+ "handle": "loopuleasa",
+ "name": "loopuleasa",
+ "aliases": [
+  "@loopuleasa"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@loopuleasa",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 24,
+ "summary": "PC input optimisation: Q+number spell keybinds work mid-air. He reports that alt+f4 now saves the game, which conflicts with Nanobit's force-close reset practice trick. He also quotes a J-Mod on reddit saying skips will be fixed.",
+ "insights": [
+  {
+   "text": "btw, a small optimization in the new patch, you should use Q+1 to wind surge and other spells, it allows you to open Q menu and spam 11111 even if you are in air. I have Q+3 and Q+4 for surge and air dash",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=UgywLSDAHYChCBwxG0Z4AaABAg",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "tech",
+   "topics": [
+    "patch",
+    "tech"
+   ],
+   "verified": "partial",
+   "verification_note": "Nanobit uses Q1E/Q7 but warns that spamming Q3/Q4 equips items and eats food.",
+   "curated": true
+  },
+  {
+   "text": "did they patch the savescum rerolling of reward pack? alt+f4 now saves the game",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=UgwUIYQaTm7vArA06nR4AaABAg",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "bug",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "some jmod on reddit said they will look into fixing all skips sadly\n\nI do like kuldra heart skip it is thematic",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=UgzyNV6Cq41JdxFZr0x4AaABAg",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "patch",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "zammy staff is bugged, it doesnt increase fire dot\nalso dragon gear (all) dont increase damage vs dragons",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1Q21XYSKJgo&lc=UgyBc61HmMZzYe-JK-t4AaABAg",
+   "video": {
+    "id": "1Q21XYSKJgo",
+    "title": "Kuldra Scorned Wilderness Full Raid Skip Guide (Patch 1.0.1) | Runescape Dragonwilds",
+    "channel": "@zyneater"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "bug",
+   "topics": [
+    "bug"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "at 8:04 you can get the fire essence without aggroing anyone, just stand on the edge of the circle there is a spot from whence you came",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=68ovg9A_PpA&lc=UgwCR2JSsIMp6a8IdUp4AaABAg",
+   "video": {
+    "id": "68ovg9A_PpA",
+    "title": "RuneScape DragonWilds New raid skips found! Scorned wilderness Raid skips found after update 1.0.1!",
+    "channel": "@channelxero5913"
+   },
+   "timestamp": "8:04",
+   "video_timestamps": [
+    "8:04"
+   ],
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "WHAT IS THAT WINDSTEP DOUBLE JUMP HOLY GAMER",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgxnppZ85io_k1__RSN4AaABAg",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 16,
+   "reply_to": null,
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "the 5:00 OOB area: \"They can't keep getting away with iiiiit!\"",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgxoLdE36a9OWDmA49Z4AaABAg",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "can you please teach us how you to perfect power surges? \nmy surge jumps never go that far",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=Ugy9AxnqDjCWRwcAxEF4AaABAg",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "btw to be faster, learn to use the new number keybinds, I spam Q+3 and Q+4 to enable surge and dash",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgzMbgdamVhlxhVhmON4AaABAg",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "tech",
+   "topics": [
+    "tech",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "I did the ele skip, was it patched?",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=UgzVdodNxyPD37wapQV4AaABAg",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "how do you gain so much momentum at 5:00 with the first surge, mines are a bit slower",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=UgygZc-qu0b5HafUEV14AaABAg",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": "5:00",
+   "video_timestamps": [
+    "5:00"
+   ],
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": null,
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "zamorak staff is sadly bugged, fire damage from it does not do extra",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=Ugw0fq0FfaJZitvMsDV4AaABAg.AbyrauYvIreAbz-7a4u7Xw",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugw0fq0FfaJZitvMsDV4AaABAg",
+   "topic": "bug",
+   "topics": [
+    "bug"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

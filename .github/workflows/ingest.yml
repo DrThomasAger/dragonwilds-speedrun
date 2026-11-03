@@ -1,0 +1,41 @@
+name: Knowledge-base ingest
+# Hourly: speedrun.com runs/rules, Reddit, YouTube transcripts + comments → data/kb/raw/.
+# Twitch live chat and Whisper transcripts run locally only (scripts/ingest/README.md).
+on:
+  schedule:
+    - cron: '43 * * * *'   # hourly
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: ingest
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -U yt-dlp
+      - name: Ingest
+        env:
+          INGEST_YT_MAX: '60'            # yt-dlp calls per hourly run; the rest resume next hour
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: node scripts/ingest/run-all.mjs --only=speedrun,reddit,youtube,discord
+      - name: Commit if changed
+        run: |
+          if [ -n "$(git status --porcelain data/kb/raw)" ]; then
+            git config user.name "ingest-bot"
+            git config user.email "ingest-bot@users.noreply.github.com"
+            git add data/kb/raw
+            git commit -m "kb: ingest $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase origin main
+            git push origin HEAD:main
+            git push origin HEAD:gh-pages           # Pages serves gh-pages = main; bot pushes don't trigger publish.yml
+          fi

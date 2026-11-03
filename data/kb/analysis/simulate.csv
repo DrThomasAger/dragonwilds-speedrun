@@ -1,0 +1,20 @@
+profile,synthetic,routeName,route,pBeat650,pBeat648,pFinish,median,p10,p90,expectedFinished,missesPerRun,subGoalPerHour_resetPolicy,subGoalPerHour_noReset
+tp650,false,as-run,vines-direct frag-std thane-wallclimb keep-bluerock sanctum-blocks,0.0108,0.0022,0.9567,421.23,414.03,434.8,423.1,0.589,0.1788,0.086
+tp650,false,current-patch default,vines-std frag-std thane-windjump keep-hole sanctum-flight,0,0,0.954,451.72,440.3,492.23,459.23,0.8332,0,0
+tp650,false,current-patch fastest,vines-direct frag-std thane-launch keep-hole sanctum-flight,0,0,0.9233,439.24,423.81,479.33,445.3,1.1098,0.0007,0.0002
+nano701,false,as-run,vines-std frag-std thane-windjump keep-hole sanctum-blocks,0,0,0.9738,434.02,426.22,476.09,442.61,0.64,0,0
+nano701,false,current-patch default,vines-std frag-std thane-windjump keep-hole sanctum-flight,0,0,0.954,454.76,443.27,495.23,462.24,0.8332,0,0
+nano701,false,current-patch fastest,vines-direct frag-std thane-launch keep-hole sanctum-flight,0,0,0.9233,442.22,426.8,482.31,448.31,1.1098,0,0
+tp650-asmedian,false,as-run,vines-direct frag-std thane-wallclimb keep-bluerock sanctum-blocks,0.2546,0.1393,0.9567,413.88,407.06,427.45,415.86,0.589,2.9591,2.0884
+tp650-asmedian,false,current-patch default,vines-std frag-std thane-windjump keep-hole sanctum-flight,0,0,0.954,444.42,433.26,484.84,451.99,0.8332,0,0
+tp650-asmedian,false,current-patch fastest,vines-direct frag-std thane-launch keep-hole sanctum-flight,0.0054,0.0014,0.9233,432.01,416.7,472.07,438.06,1.1098,0.0865,0.0487
+nano701-asmedian,false,as-run,vines-std frag-std thane-windjump keep-hole sanctum-blocks,0,0,0.9738,426.69,419.32,468.8,435.45,0.64,0.0005,0.0002
+nano701-asmedian,false,current-patch default,vines-std frag-std thane-windjump keep-hole sanctum-flight,0,0,0.954,447.51,436.31,487.92,455.08,0.8332,0,0
+nano701-asmedian,false,current-patch fastest,vines-direct frag-std thane-launch keep-hole sanctum-flight,0.0007,0.0001,0.9233,435.07,419.76,475.12,441.15,1.1098,0.0131,0.0073
+target-asmedian,false,as-run,vines-direct frag-std thane-launch keep-hole sanctum-flight,0.1975,0.1373,0.9233,421.57,406.43,461.63,427.62,1.1098,2.3318,1.658
+target-asmedian,false,current-patch default,vines-std frag-std thane-windjump keep-hole sanctum-flight,0,0,0.954,433.89,423.06,474.19,441.55,0.8332,0,0
+best-of-both-asmedian,false,as-run,vines-std frag-std thane-windjump keep-hole sanctum-blocks,0.014,0.0023,0.9738,420.23,413.15,462.39,429.12,0.64,0.208,0.1192
+best-of-both-asmedian,false,current-patch default,vines-std frag-std thane-windjump keep-hole sanctum-flight,0,0,0.954,441.15,430.11,481.54,448.75,0.8332,0,0
+best-of-both-asmedian,false,current-patch fastest,vines-direct frag-std thane-launch keep-hole sanctum-flight,0.0259,0.0098,0.9233,428.77,413.53,468.79,434.82,1.1098,0.3743,0.2218
+synthetic-new,true,as-run,vines-std frag-std thane-windjump keep-hole sanctum-flight,0,0,0.8566,523.3,483.33,566.59,524.35,2.4332,0,0
+synthetic-new,true,current-patch fastest,vines-direct frag-std thane-launch keep-hole sanctum-flight,0,0,0.7788,513.74,474.22,556.56,514.82,2.9964,0,0

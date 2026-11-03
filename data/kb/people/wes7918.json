@@ -1,0 +1,255 @@
+{
+ "handle": "wes7918",
+ "name": "Wes (ChiefWes)",
+ "aliases": [
+  "ChiefWes",
+  "wes",
+  "wesof6tune7",
+  "@wes7918"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@wes7918",
+  "twitch": "https://www.twitch.tv/wesof6tune7",
+  "src": "https://www.speedrun.com/users/ChiefWes",
+  "reddit": null
+ },
+ "src_profile": {
+  "id": "j0m3drwx",
+  "weblink": "https://www.speedrun.com/users/ChiefWes",
+  "twitch": null,
+  "youtube": null,
+  "country": "us",
+  "signup": "2026-10-07T17:11:10Z"
+ },
+ "role": [
+  "runner",
+  "tech finder"
+ ],
+ "insight_score": 44,
+ "summary": "Found the rib clip: jump on the bone at the Kuldra checkpoint and swing a sword to clip back into the map. TexasPete and Nanobit both use and credit it. He set an early 9:37/9:43 \"WR\". Thelastiger re-uploaded his run with a claimed co-ownership.",
+ "insights": [
+  {
+   "text": "wow. first im a big nerd and this is awesome, im the one who found out how to get back in the map from that bone by swinging sword. i think its so cool you used that strat! very good run! cant wait to see future times! im a fan!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=6N3NwYA5Zh0&lc=UgzTlayyOQUkaSW4uNl4AaABAg",
+   "video": {
+    "id": "6N3NwYA5Zh0",
+    "title": "(7:40) Kuldra RAID Speedrun // RS Dragonwilds Patch 1.0.0.6+",
+    "channel": "@texaspete.2173"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": "Credited by TexasPete and Nanobit.",
+   "curated": true
+  },
+  {
+   "text": "i was the one who found the strat to jump on the bone and punch up to get back out into the map, i think its so awesome that the strat is being used for competitive runs, this is such a great run. my record was 9:38 and it been smashed a couple times sense then. i think this will be the run that stays at 1st  for a while, great run!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgzrjIx7d9okIcWBiFB4AaABAg",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": " @Nimblesk1 I genuinely think it’s so cool that these strats are being used for competitive runs. Some of these are completely unique to my run only so it’s pretty cool seeing yall run and perfect them!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=204hBIge5h0&lc=UgxntFHJoLNYLiWeKwF4AaABAg.Abj56STjIz5AblHLrtLrjh",
+   "video": {
+    "id": "204hBIge5h0",
+    "title": "Legacy World Record (9:37 ChiefWes) - Scorned Wilderness & Kuldra Speedrun | RS: Dragonwilds 1.0.0.6",
+    "channel": "@thelastiger"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxntFHJoLNYLiWeKwF4AaABAg.Abj56STjIz5Abk3VnzSGIw",
+   "topic": "route",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Wes, a veteran RuneScape player since 2003, set a world record speedrun of 9:37 for the Dragonwilds Scorned Wilderness Raid using a unique map-reset skip he discovered. He coordinated with this channel to have this run uploaded for maximum reach. Wes is excited to gain exposure and plans to continue pushing records for future raids.",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=204hBIge5h0",
+   "video": {
+    "id": "204hBIge5h0",
+    "title": "Legacy World Record (9:37 ChiefWes) - Scorned Wilderness & Kuldra Speedrun | RS: Dragonwilds 1.0.0.6"
+   },
+   "timestamp": null,
+   "date": "2026-10-07",
+   "date_approx": false,
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Post update run will clean up before next update",
+   "source": "speedrun.com run comment",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/yogelqdm",
+   "timestamp": null,
+   "date": "2026-10-07",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": "Run rejected (577.82s, 1.0.0.6+)",
+   "curated": true
+  },
+  {
+   "text": "Post update run, will clean up before next update",
+   "source": "speedrun.com run comment",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/m34vlv4z",
+   "timestamp": null,
+   "date": "2026-10-07",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": "Run rejected (577.82s, 1.0.0.6+)",
+   "curated": true
+  },
+  {
+   "text": "New World Record",
+   "source": "speedrun.com run comment",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/z146l1wz",
+   "timestamp": null,
+   "date": "2026-10-07",
+   "date_approx": false,
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": "Run rejected (577.82s, 1.0.0.6+)",
+   "curated": true
+  },
+  {
+   "text": "Will clean up and get better times!",
+   "source": "speedrun.com run comment",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y2488pjz",
+   "timestamp": null,
+   "date": "2026-10-09",
+   "date_approx": false,
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": "Run verified (583s, 1.0.0.6+)",
+   "curated": true
+  }
+ ],
+ "recordings": [
+  {
+   "title": "Runescape Dragonwilds scorned wilderness speed run WORLD RECORD (9:37)",
+   "url": "https://www.youtube.com/watch?v=RFY6kDdxHOg",
+   "date": "2026-10-09",
+   "duration": "10:03",
+   "views": 125,
+   "channel": "@wes7918",
+   "summary": "World Record",
+   "description": "World Record",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 0,
+   "key_moments": []
+  },
+  {
+   "title": "Legacy World Record (9:37 ChiefWes) - Scorned Wilderness & Kuldra Speedrun | RS: Dragonwilds 1.0.0.6",
+   "url": "https://www.youtube.com/watch?v=204hBIge5h0",
+   "date": "2026-10-07",
+   "duration": "9:38",
+   "views": 6147,
+   "channel": "@thelastiger",
+   "summary": "This video is published with express authorization from the original creator (@wes7918) via co-ownership with @thelastiger. All community run highlights and techniques are shared in accordance with creator permissions and standard speedrunning community practices.",
+   "description": "This video is published with express authorization from the original creator (@wes7918) via co-ownership with @thelastiger. All community run highlights and techniques are shared in accordance with creator permissions and standard speedrunning community practices.\n\nWes, a veteran RuneScape player since 2003, set a world record speedrun of 9:37 for the Dragonwilds Scorned Wilderness Raid using a unique map-reset skip he discovered. He coordinated with this channel to have this run uploaded for maximum reach. Wes is excited to gain exposure and plans to continue pushing records for future raids.\n\nWes's Twitch: https://www.twitch.tv/wesof6tune7\n\nInner Light by Kevin MacLeod is licensed under a Creative Commons Attribution 4.0 license. https://creativecommons.org/licenses/by/4.0/",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 21,
+   "key_moments": []
+  }
+ ],
+ "runs": [
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Raid",
+   "time_s": 577.82,
+   "date": "2026-10-07",
+   "status": "rejected",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/yogelqdm",
+   "video": "https://www.youtube.com/watch?v=1EmTyHx3UME",
+   "comment": "Post update run will clean up before next update"
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Raid",
+   "time_s": 577.82,
+   "date": "2026-10-07",
+   "status": "rejected",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/m34vlv4z",
+   "video": "https://www.youtube.com/watch?v=1EmTyHx3UME",
+   "comment": "Post update run, will clean up before next update"
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Raid",
+   "time_s": 577.82,
+   "date": "2026-10-07",
+   "status": "rejected",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/z146l1wz",
+   "video": "https://www.youtube.com/watch?v=204hBIge5h0",
+   "comment": "New World Record"
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Raid",
+   "time_s": 583,
+   "date": "2026-10-09",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y2488pjz",
+   "video": "https://www.youtube.com/watch?v=RFY6kDdxHOg",
+   "comment": "Will clean up and get better times!"
+  }
+ ],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

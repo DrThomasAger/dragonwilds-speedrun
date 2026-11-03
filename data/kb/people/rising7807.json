@@ -1,0 +1,50 @@
+{
+ "handle": "rising7807",
+ "name": "rising7807",
+ "aliases": [
+  "@rising7807"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@rising7807",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: Just learned today after almost 60 runs that you can get all drops with just 7 runs. You get the first two from the first defeat. After that run all the way thr…",
+ "insights": [
+  {
+   "text": "Just learned today after almost 60 runs that you can get all drops with just 7 runs. You get the first two from the first defeat. After that run all the way through and kill Kuldra, then trigger an auto save and after that open the chest. If it's not the item you want just force close the game and reload then open the chest again.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=UgyNKFr5JOs-HnUVWdF4AaABAg",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-22",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "bug",
+   "topics": [
+    "bug"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

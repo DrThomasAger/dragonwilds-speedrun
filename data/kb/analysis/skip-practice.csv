@@ -1,0 +1,15 @@
+profile,skip,attempts,made,missed,betaMean,last20Rate
+synthetic-new (SYNTHETIC),s-airvent,15,15,0,0.9412,1
+synthetic-new (SYNTHETIC),s-soul,20,18,2,0.8636,0.9
+synthetic-new (SYNTHETIC),s-bd1,15,13,2,0.8235,0.8667
+synthetic-new (SYNTHETIC),s-necro,30,21,9,0.6875,0.65
+synthetic-new (SYNTHETIC),x-vines-direct,6,1,5,0.25,0.1667
+synthetic-new (SYNTHETIC),s-poison,15,14,1,0.8824,0.9333
+synthetic-new (SYNTHETIC),s-demon,20,18,2,0.8636,0.9
+synthetic-new (SYNTHETIC),s-thane,40,29,11,0.7143,0.65
+synthetic-new (SYNTHETIC),x-thane-launch,8,3,5,0.4,0.375
+synthetic-new (SYNTHETIC),s-parkour,15,15,0,0.9412,1
+synthetic-new (SYNTHETIC),s-keep,25,14,11,0.5556,0.6
+synthetic-new (SYNTHETIC),s-kuldra,8,3,5,0.4,0.375
+synthetic-new (SYNTHETIC),s-flight,20,9,11,0.4545,0.45
+synthetic-new (SYNTHETIC),s-heart,10,7,3,0.6667,0.7

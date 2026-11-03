@@ -17,12 +17,13 @@ const views = {
   practice: () => import('./views/practice.js'),
   timer: () => import('./views/timer.js'),
   wiki: () => import('./views/wiki.js'),
+  kb: () => import('./views/kb.js'),
   patches: () => import('./views/patches.js'),
   library: () => import('./views/library.js'),
   hardcore: () => import('./views/hardcore.js'),
 };
 
-const GLOBAL_KEYS = [['?', 'This help'], ['Ctrl K', 'Search everything'], ['g h', 'HQ'], ['g n', 'Run navigator'], ['g c', 'Race the WR'], ['g r', 'Route'], ['g s', 'Reel Studio'], ['g p', 'Practice'], ['g t', 'Timer'], ['g w', 'Wiki'], ['g u', 'Patch notes'], ['g l', 'Library']];
+const GLOBAL_KEYS = [['?', 'This help'], ['Ctrl K', 'Search everything'], ['g h', 'HQ'], ['g n', 'Run navigator'], ['g c', 'Race the WR'], ['g r', 'Route'], ['g s', 'Reel Studio'], ['g p', 'Practice'], ['g t', 'Timer'], ['g w', 'Wiki'], ['g k', 'Knowledge'], ['g u', 'Patch notes'], ['g l', 'Library']];
 
 store.load();
 let cleanup = null, seq = 0;
@@ -72,7 +73,7 @@ document.addEventListener('keydown', e => {
   if (e.key === '?') { e.preventDefault(); const d = $('#help'); d.open ? d.close() : d.showModal(); return; }
   if (e.key === 'g') { gPending = Date.now(); return; }
   if (Date.now() - gPending < 900) {
-    const map = { d: 'today', h: 'hq', n: 'run', c: 'compare', r: 'route', s: 'studio', p: 'practice', t: 'timer', w: 'wiki', u: 'patches', l: 'library' };
+    const map = { d: 'today', h: 'hq', n: 'run', c: 'compare', r: 'route', s: 'studio', p: 'practice', t: 'timer', w: 'wiki', k: 'kb', u: 'patches', l: 'library' };
     if (map[e.key]) { e.preventDefault(); e.stopImmediatePropagation(); location.hash = '#/' + map[e.key]; gPending = 0; }
   }
 }, true);

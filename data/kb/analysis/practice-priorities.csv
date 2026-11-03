@@ -1,0 +1,139 @@
+profile,synthetic,rank,kind,id,split,what,caveat,cleanRepsNeeded,pBefore,pAfter,gain650,gainStretch,gain,medianGain,meanGain
+tp650,false,1,learn-line,thane-launch,2,Learn thane-launch to 90%+ on its skips and run it at split 3,unverified on 1.0.1.2 — test before routing; saving measured in runpath.json,,0,0,0,0.3546,0.3546,10.1,10.64
+tp650,false,2,learn-line,vines-direct,0,Learn vines-direct to 90%+ on its skips and run it at split 1,unverified on 1.0.1.2 — test before routing; saving measured in runpath.json,,0,0,0,0.2162,0.2162,5.53,5.75
+tp650,false,3,pinned-save,S2->S3,2,"S2->S3 @3:50: zoop to his 3:57 position (""saves A LOT"") (−4 s)",,,0,0,0,0.1497,0.1497,4,4
+tp650,false,4,pinned-save,C9->C11,3,C9->C11 @5:33: clip straight through the ground at the rib clip (no crouch-walk / scimmy swing) (−3 s),,,0,0,0,0.1081,0.1081,3,3
+tp650,false,5,pinned-save,C11->C12,4,C11->C12: flight line tighter than Dotxy's demo (no landing/walk on the walkway) (−2.9 s),,,0,0,0,0.1044,0.1044,2.9,2.9
+tp650,false,6,pinned-save,S1->C5,1,S1->C5 @2:05: zoop from the keep wall across the pond all the way to the gate (−2.5 s),,,0,0,0,0.0888,0.0888,2.5,2.5
+tp650,false,7,pinned-save,C0->C1,0,C0->C1 @0:23: walked ~1.5 s at the start (tapped sprint while already sprinting) (−1.5 s),,,0,0,0,0.0504,0.0504,1.5,1.5
+tp650,false,8,pinned-save,C3->S1,0,C3->S1 @1:45: start the zoop to Fragments ~1.5 s earlier (hard) (−1.5 s),,,0,0,0,0.0504,0.0504,1.5,1.5
+tp650,false,9,pinned-save,C5->C6,1,C5->C6 @2:32: a good zoop reaches his 2:37 spot with no air/phase dash (−1.5 s),,,0,0,0,0.0504,0.0504,1.5,1.5
+tp650,false,10,pinned-save,C2->C3,0,C2->C3 @1:30: start the earth pillar ~1 s earlier (−1 s),,,0,0,0,0.0318,0.0318,1,1
+tp650,false,11,pinned-save,S1->C5,1,S1->C5 @2:13: plunge-cancel instead of waiting to fall (−1 s),,,0,0,0,0.0318,0.0318,1,1
+tp650,false,12,pinned-save,S2->S3,2,S2->S3 @3:22: extra Thane swing; re-use the fleet-footed infusion (−1 s),,,0,0,0,0.0318,0.0318,1,1
+tp650,false,13,pinned-save,S2->S3,2,S2->S3 @3:46: zoop far enough to need no dashes (−1 s),,,0,0,0,0.0318,0.0318,1,1
+tp650,false,14,pinned-save,C9->C11,3,C9->C11 @4:44: extra jump onto the rock not needed (−1 s),,,0,0,0,0.0318,0.0318,1,1
+tp650,false,15,pace,,3,Split 4: 1 s off the clean median,,,0,0,0,0.0315,0.0315,1,1
+tp650,false,16,pace,,1,Split 2: 1 s off the clean median,,,0,0,0,0.0314,0.0314,1.01,1
+tp650,false,17,pace,,0,Split 1: 1 s off the clean median,,,0,0,0,0.0311,0.0311,1.01,1
+tp650,false,18,pace,,4,Split 5: 1 s off the clean median,,,0,0,0,0.0309,0.0309,1.01,1
+tp650,false,19,pace,,2,Split 3: 1 s off the clean median,,,0,0,0,0.0308,0.0308,1.01,1
+tp650,false,20,pinned-save,C0->C1,0,C0->C1 @0:51: 4 air dashes instead of 3 to the 1st anima pillar (−0.5 s),,,0,0,0,0.015,0.015,0.5,0.5
+tp650,false,21,pinned-save,C1->C2,0,C1->C2 @1:14: 3 air dashes instead of 2 to the 2nd anima pillar (−0.5 s),,,0,0,0,0.015,0.015,0.5,0.5
+tp650,false,22,pinned-save,C2->C3,0,"C2->C3 @1:22: i-frame the Kuldra knockback with a better dash, tighter line over the torch into the 1st BD (−0.5 s)",,,0,0,0,0.015,0.015,0.5,0.5
+tp650,false,23,pinned-save,C3->S1,0,C3->S1 @1:39: better line off the 1st BD to the jump-off point (−0.5 s),,,0,0,0,0.015,0.015,0.5,0.5
+tp650,false,24,pinned-save,C5->C6,1,C5->C6 @2:28: push into the hole with more confidence (−0.5 s),,,0,0,0,0.015,0.015,0.5,0.5
+tp650,false,25,pinned-save,C6->S2,1,C6->S2 @2:47: avoid the pillar (skeleton blocked) (−0.5 s),,,0,0,0,0.015,0.015,0.5,0.5
+tp650,false,26,pinned-save,C9->C11,3,"C9->C11 @5:07: plunge-cancel (needs a weapon with a plunge animation, not the DScim) (−0.5 s)",,,0,0,0,0.015,0.015,0.5,0.5
+tp650,false,27,pinned-save,C9->C11,3,C9->C11 @5:12: plunge-cancel + dash onto the first rock (5:15) (−0.5 s),,,0,0,0,0.015,0.015,0.5,0.5
+tp650,false,28,skip,s-keep,3,Keep hole / elemental puzzle skip: halve the miss rate (80% → 90%),,11,0,0,0,0.011,0.011,2.31,4.4
+tp650,false,29,skip,s-flight,4,Fly through the Sanctum (1.0.1.2): halve the miss rate (80% → 90%),,11,0,0,0,0.0108,0.0108,2.1,1.38
+tp650,false,30,skip,s-necro,0,Skip the necromancer area (zoop to necro land): halve the miss rate (95% → 98%),,20,0,0,0,0.0024,0.0024,0.49,0.29
+tp650,false,31,skip,s-parkour,3,Parkour section: halve the miss rate (95% → 98%),,20,0,0,0,0.0024,0.0024,0.29,0.19
+tp650,false,32,skip,s-soul,0,Soulscourge skip (phase dash + food trick): halve the miss rate (95% → 98%),,20,0,0,0,0.0023,0.0023,0.26,0.19
+tp650,false,33,skip,s-demon,1,Surge + Phase Dash past the Abyssal Demon: halve the miss rate (95% → 98%),,20,0,0,0,0.0023,0.0023,0.29,0.19
+tp650,false,34,skip,s-airvent,0,Windstep to the first air anima: halve the miss rate (95% → 98%),,20,0,0,0,0.0021,0.0021,0.11,0.1
+tp650,false,35,skip,s-thane,2,Garou Thane / air door skip: halve the miss rate (95% → 98%),,20,0,0,0,0.0021,0.0021,0.52,0.44
+tp650,false,36,skip,s-heart,4,Heart: where to stand (no heartworms): halve the miss rate (95% → 98%),,20,0,0,0,0.0021,0.0021,0.21,0.15
+tp650,false,37,skip,s-bd1,0,Black dragon skip: halve the miss rate (95% → 98%),,20,0,0,0,0.002,0.002,0.38,0.23
+tp650,false,38,skip,s-poison,1,Skip the entire poison area: halve the miss rate (95% → 98%),,20,0,0,0,0.002,0.002,0.53,0.35
+tp650,false,39,consistency,,1,Split 2: 25% less spread (sigma × 0.75),,,0,0,0,-0.0001,-0.0001,0.03,0.02
+tp650,false,40,consistency,,3,Split 4: 25% less spread (sigma × 0.75),,,0,0,0,-0.001,-0.001,0.04,0.03
+tp650,false,41,consistency,,0,Split 1: 25% less spread (sigma × 0.75),,,0,0,0,-0.0032,-0.0032,0.07,0.04
+tp650,false,42,consistency,,2,Split 3: 25% less spread (sigma × 0.75),,,0,0,0,-0.0036,-0.0036,0.07,0.04
+tp650,false,43,consistency,,4,Split 5: 25% less spread (sigma × 0.75),,,0,0,0,-0.0042,-0.0042,0.1,0.04
+tp650,false,44,learn-line,sanctum-fightskip,4,Learn sanctum-fightskip to 90%+ on its skips and run it at split 5,unverified on 1.0.1.2 — test before routing; saving measured in runpath.json,,0,0,0,-0.0807,-0.0807,-3.88,-7.85
+tp650,false,45,learn-line,keep-puzzle,3,Learn keep-puzzle to 90%+ on its skips and run it at split 4,saving measured in runpath.json,,0,0,0,-0.0868,-0.0868,-35.51,-29.39
+tp650,false,46,learn-line,sanctum-fight,4,Learn sanctum-fight to 90%+ on its skips and run it at split 5,saving is an assumed number,,0,0,0,-0.0868,-0.0868,-44.88,-42.89
+nano701,false,1,learn-line,thane-launch,2,Learn thane-launch to 90%+ on its skips and run it at split 3,unverified on 1.0.1.2 — test before routing; saving measured in runpath.json,,0,0,0,0.3541,0.3541,10.13,10.64
+nano701,false,2,learn-line,vines-direct,0,Learn vines-direct to 90%+ on its skips and run it at split 1,unverified on 1.0.1.2 — test before routing; saving measured in runpath.json,,0,0,0,0.2155,0.2155,5.54,5.75
+nano701,false,3,pinned-save,S2->S3,2,"S2->S3 @3:50: zoop to his 3:57 position (""saves A LOT"") (−4 s)",,,0,0,0,0.1492,0.1492,4,4
+nano701,false,4,pinned-save,C9->C11,3,C9->C11 @5:33: clip straight through the ground at the rib clip (no crouch-walk / scimmy swing) (−3 s),,,0,0,0,0.108,0.108,3,3
+nano701,false,5,pinned-save,C11->C12,4,C11->C12: flight line tighter than Dotxy's demo (no landing/walk on the walkway) (−2.9 s),,,0,0,0,0.1038,0.1038,2.9,2.9
+nano701,false,6,pinned-save,S1->C5,1,S1->C5 @2:05: zoop from the keep wall across the pond all the way to the gate (−2.5 s),,,0,0,0,0.0883,0.0883,2.5,2.5
+nano701,false,7,pinned-save,C0->C1,0,C0->C1 @0:23: walked ~1.5 s at the start (tapped sprint while already sprinting) (−1.5 s),,,0,0,0,0.0493,0.0493,1.5,1.5
+nano701,false,8,pinned-save,C3->S1,0,C3->S1 @1:45: start the zoop to Fragments ~1.5 s earlier (hard) (−1.5 s),,,0,0,0,0.0493,0.0493,1.5,1.5
+nano701,false,9,pinned-save,C5->C6,1,C5->C6 @2:32: a good zoop reaches his 2:37 spot with no air/phase dash (−1.5 s),,,0,0,0,0.0493,0.0493,1.5,1.5
+nano701,false,10,pinned-save,C2->C3,0,C2->C3 @1:30: start the earth pillar ~1 s earlier (−1 s),,,0,0,0,0.0319,0.0319,1,1
+nano701,false,11,pinned-save,S1->C5,1,S1->C5 @2:13: plunge-cancel instead of waiting to fall (−1 s),,,0,0,0,0.0319,0.0319,1,1
+nano701,false,12,pinned-save,S2->S3,2,S2->S3 @3:22: extra Thane swing; re-use the fleet-footed infusion (−1 s),,,0,0,0,0.0319,0.0319,1,1
+nano701,false,13,pinned-save,S2->S3,2,S2->S3 @3:46: zoop far enough to need no dashes (−1 s),,,0,0,0,0.0319,0.0319,1,1
+nano701,false,14,pinned-save,C9->C11,3,C9->C11 @4:44: extra jump onto the rock not needed (−1 s),,,0,0,0,0.0319,0.0319,1,1
+nano701,false,15,pace,,3,Split 4: 1 s off the clean median,,,0,0,0,0.0314,0.0314,1.02,1
+nano701,false,16,pace,,2,Split 3: 1 s off the clean median,,,0,0,0,0.0313,0.0313,1.02,1
+nano701,false,17,pace,,1,Split 2: 1 s off the clean median,,,0,0,0,0.0312,0.0312,1.02,1
+nano701,false,18,pace,,4,Split 5: 1 s off the clean median,,,0,0,0,0.0311,0.0311,1.03,1
+nano701,false,19,pace,,0,Split 1: 1 s off the clean median,,,0,0,0,0.0309,0.0309,1.03,1
+nano701,false,20,pinned-save,C0->C1,0,C0->C1 @0:51: 4 air dashes instead of 3 to the 1st anima pillar (−0.5 s),,,0,0,0,0.0156,0.0156,0.5,0.5
+nano701,false,21,pinned-save,C1->C2,0,C1->C2 @1:14: 3 air dashes instead of 2 to the 2nd anima pillar (−0.5 s),,,0,0,0,0.0156,0.0156,0.5,0.5
+nano701,false,22,pinned-save,C2->C3,0,"C2->C3 @1:22: i-frame the Kuldra knockback with a better dash, tighter line over the torch into the 1st BD (−0.5 s)",,,0,0,0,0.0156,0.0156,0.5,0.5
+nano701,false,23,pinned-save,C3->S1,0,C3->S1 @1:39: better line off the 1st BD to the jump-off point (−0.5 s),,,0,0,0,0.0156,0.0156,0.5,0.5
+nano701,false,24,pinned-save,C5->C6,1,C5->C6 @2:28: push into the hole with more confidence (−0.5 s),,,0,0,0,0.0156,0.0156,0.5,0.5
+nano701,false,25,pinned-save,C6->S2,1,C6->S2 @2:47: avoid the pillar (skeleton blocked) (−0.5 s),,,0,0,0,0.0156,0.0156,0.5,0.5
+nano701,false,26,pinned-save,C9->C11,3,"C9->C11 @5:07: plunge-cancel (needs a weapon with a plunge animation, not the DScim) (−0.5 s)",,,0,0,0,0.0156,0.0156,0.5,0.5
+nano701,false,27,pinned-save,C9->C11,3,C9->C11 @5:12: plunge-cancel + dash onto the first rock (5:15) (−0.5 s),,,0,0,0,0.0156,0.0156,0.5,0.5
+nano701,false,28,skip,s-keep,3,Keep hole / elemental puzzle skip: halve the miss rate (80% → 90%),,11,0,0,0,0.011,0.011,2.32,4.4
+nano701,false,29,skip,s-flight,4,Fly through the Sanctum (1.0.1.2): halve the miss rate (80% → 90%),,11,0,0,0,0.0107,0.0107,2.1,1.38
+nano701,false,30,skip,s-necro,0,Skip the necromancer area (zoop to necro land): halve the miss rate (95% → 98%),,20,0,0,0,0.0025,0.0025,0.49,0.29
+nano701,false,31,skip,s-parkour,3,Parkour section: halve the miss rate (95% → 98%),,20,0,0,0,0.0024,0.0024,0.32,0.19
+nano701,false,32,skip,s-soul,0,Soulscourge skip (phase dash + food trick): halve the miss rate (95% → 98%),,20,0,0,0,0.0023,0.0023,0.28,0.19
+nano701,false,33,skip,s-demon,1,Surge + Phase Dash past the Abyssal Demon: halve the miss rate (95% → 98%),,20,0,0,0,0.0023,0.0023,0.33,0.19
+nano701,false,34,skip,s-airvent,0,Windstep to the first air anima: halve the miss rate (95% → 98%),,20,0,0,0,0.0022,0.0022,0.13,0.1
+nano701,false,35,skip,s-poison,1,Skip the entire poison area: halve the miss rate (95% → 98%),,20,0,0,0,0.0021,0.0021,0.54,0.35
+nano701,false,36,skip,s-thane,2,Garou Thane / air door skip: halve the miss rate (95% → 98%),,20,0,0,0,0.0021,0.0021,0.53,0.44
+nano701,false,37,skip,s-heart,4,Heart: where to stand (no heartworms): halve the miss rate (95% → 98%),,20,0,0,0,0.0021,0.0021,0.22,0.15
+nano701,false,38,skip,s-bd1,0,Black dragon skip: halve the miss rate (95% → 98%),,20,0,0,0,0.002,0.002,0.41,0.23
+nano701,false,39,consistency,,3,Split 4: 25% less spread (sigma × 0.75),,,0,0,0,-0.001,-0.001,0.06,0.03
+nano701,false,40,consistency,,1,Split 2: 25% less spread (sigma × 0.75),,,0,0,0,-0.0019,-0.0019,0.08,0.03
+nano701,false,41,consistency,,4,Split 5: 25% less spread (sigma × 0.75),,,0,0,0,-0.003,-0.003,0.09,0.04
+nano701,false,42,consistency,,0,Split 1: 25% less spread (sigma × 0.75),,,0,0,0,-0.0033,-0.0033,0.1,0.04
+nano701,false,43,consistency,,2,Split 3: 25% less spread (sigma × 0.75),,,0,0,0,-0.0037,-0.0037,0.1,0.04
+nano701,false,44,learn-line,sanctum-fightskip,4,Learn sanctum-fightskip to 90%+ on its skips and run it at split 5,unverified on 1.0.1.2 — test before routing; saving measured in runpath.json,,0,0,0,-0.0807,-0.0807,-3.87,-7.85
+nano701,false,45,learn-line,keep-puzzle,3,Learn keep-puzzle to 90%+ on its skips and run it at split 4,saving measured in runpath.json,,0,0,0,-0.0871,-0.0871,-35.48,-29.39
+nano701,false,46,learn-line,sanctum-fight,4,Learn sanctum-fight to 90%+ on its skips and run it at split 5,saving is an assumed number,,0,0,0,-0.0871,-0.0871,-44.86,-42.89
+synthetic-new,true,1,learn-line,thane-launch,2,Learn thane-launch to 90%+ on its skips and run it at split 3,unverified on 1.0.1.2 — test before routing; saving measured in runpath.json,,0,0,0,0.1116,0.1116,15.04,15.02
+synthetic-new,true,2,learn-line,vines-direct,0,Learn vines-direct to 90%+ on its skips and run it at split 1,unverified on 1.0.1.2 — test before routing; saving measured in runpath.json,,0,0,0,0.0664,0.0664,9.88,9.77
+synthetic-new,true,3,skip,s-keep,3,Keep hole / elemental puzzle skip: halve the miss rate (56% → 78%),,28,0,0,0,0.0333,0.0333,11.89,9.8
+synthetic-new,true,4,skip,s-flight,4,Fly through the Sanctum (1.0.1.2): halve the miss rate (45% → 73%),,22,0,0,0,0.0284,0.0284,4.14,4.07
+synthetic-new,true,5,pinned-save,S2->S3,2,"S2->S3 @3:50: zoop to his 3:57 position (""saves A LOT"") (−4 s)",,,0,0,0,0.0249,0.0249,4,4
+synthetic-new,true,6,pinned-save,C9->C11,3,C9->C11 @5:33: clip straight through the ground at the rib clip (no crouch-walk / scimmy swing) (−3 s),,,0,0,0,0.0182,0.0182,3,3
+synthetic-new,true,7,pinned-save,C11->C12,4,C11->C12: flight line tighter than Dotxy's demo (no landing/walk on the walkway) (−2.9 s),,,0,0,0,0.0177,0.0177,2.9,2.9
+synthetic-new,true,8,pinned-save,S1->C5,1,S1->C5 @2:05: zoop from the keep wall across the pond all the way to the gate (−2.5 s),,,0,0,0,0.0151,0.0151,2.5,2.5
+synthetic-new,true,9,skip,s-thane,2,Garou Thane / air door skip: halve the miss rate (71% → 86%),,43,0,0,0,0.0141,0.0141,2.76,2.73
+synthetic-new,true,10,skip,s-necro,0,Skip the necromancer area (zoop to necro land): halve the miss rate (69% → 84%),,32,0,0,0,0.0098,0.0098,1.83,1.79
+synthetic-new,true,11,learn-line,sanctum-fightskip,4,Learn sanctum-fightskip to 90%+ on its skips and run it at split 5,unverified on 1.0.1.2 — test before routing; saving measured in runpath.json,,0,0,0,0.0094,0.0094,-1.11,-1.41
+synthetic-new,true,12,pinned-save,C0->C1,0,C0->C1 @0:23: walked ~1.5 s at the start (tapped sprint while already sprinting) (−1.5 s),,,0,0,0,0.0086,0.0086,1.5,1.5
+synthetic-new,true,13,pinned-save,C3->S1,0,C3->S1 @1:45: start the zoop to Fragments ~1.5 s earlier (hard) (−1.5 s),,,0,0,0,0.0086,0.0086,1.5,1.5
+synthetic-new,true,14,pinned-save,C5->C6,1,C5->C6 @2:32: a good zoop reaches his 2:37 spot with no air/phase dash (−1.5 s),,,0,0,0,0.0086,0.0086,1.5,1.5
+synthetic-new,true,15,pinned-save,C2->C3,0,C2->C3 @1:30: start the earth pillar ~1 s earlier (−1 s),,,0,0,0,0.0058,0.0058,1,1
+synthetic-new,true,16,pinned-save,S1->C5,1,S1->C5 @2:13: plunge-cancel instead of waiting to fall (−1 s),,,0,0,0,0.0058,0.0058,1,1
+synthetic-new,true,17,pinned-save,S2->S3,2,S2->S3 @3:22: extra Thane swing; re-use the fleet-footed infusion (−1 s),,,0,0,0,0.0058,0.0058,1,1
+synthetic-new,true,18,pinned-save,S2->S3,2,S2->S3 @3:46: zoop far enough to need no dashes (−1 s),,,0,0,0,0.0058,0.0058,1,1
+synthetic-new,true,19,pinned-save,C9->C11,3,C9->C11 @4:44: extra jump onto the rock not needed (−1 s),,,0,0,0,0.0058,0.0058,1,1
+synthetic-new,true,20,skip,s-heart,4,Heart: where to stand (no heartworms): halve the miss rate (67% → 83%),,13,0,0,0,0.0057,0.0057,0.99,0.99
+synthetic-new,true,21,pace,,1,Split 2: 1 s off the clean median,,,0,0,0,0.0056,0.0056,1.05,1.06
+synthetic-new,true,22,pace,,2,Split 3: 1 s off the clean median,,,0,0,0,0.0055,0.0055,1.02,1.04
+synthetic-new,true,23,pace,,3,Split 4: 1 s off the clean median,,,0,0,0,0.0055,0.0055,1.06,1.06
+synthetic-new,true,24,pace,,4,Split 5: 1 s off the clean median,,,0,0,0,0.0055,0.0055,1.04,1.03
+synthetic-new,true,25,pace,,0,Split 1: 1 s off the clean median,,,0,0,0,0.0053,0.0053,1.05,1.05
+synthetic-new,true,26,skip,s-bd1,0,Black dragon skip: halve the miss rate (82% → 91%),,17,0,0,0,0.0047,0.0047,0.89,0.85
+synthetic-new,true,27,skip,s-poison,1,Skip the entire poison area: halve the miss rate (88% → 94%),,18,0,0,0,0.0039,0.0039,0.86,0.84
+synthetic-new,true,28,skip,s-demon,1,Surge + Phase Dash past the Abyssal Demon: halve the miss rate (86% → 93%),,22,0,0,0,0.003,0.003,0.5,0.5
+synthetic-new,true,29,pinned-save,C0->C1,0,C0->C1 @0:51: 4 air dashes instead of 3 to the 1st anima pillar (−0.5 s),,,0,0,0,0.003,0.003,0.5,0.5
+synthetic-new,true,30,pinned-save,C1->C2,0,C1->C2 @1:14: 3 air dashes instead of 2 to the 2nd anima pillar (−0.5 s),,,0,0,0,0.003,0.003,0.5,0.5
+synthetic-new,true,31,pinned-save,C2->C3,0,"C2->C3 @1:22: i-frame the Kuldra knockback with a better dash, tighter line over the torch into the 1st BD (−0.5 s)",,,0,0,0,0.003,0.003,0.5,0.5
+synthetic-new,true,32,pinned-save,C3->S1,0,C3->S1 @1:39: better line off the 1st BD to the jump-off point (−0.5 s),,,0,0,0,0.003,0.003,0.5,0.5
+synthetic-new,true,33,pinned-save,C5->C6,1,C5->C6 @2:28: push into the hole with more confidence (−0.5 s),,,0,0,0,0.003,0.003,0.5,0.5
+synthetic-new,true,34,pinned-save,C6->S2,1,C6->S2 @2:47: avoid the pillar (skeleton blocked) (−0.5 s),,,0,0,0,0.003,0.003,0.5,0.5
+synthetic-new,true,35,pinned-save,C9->C11,3,"C9->C11 @5:07: plunge-cancel (needs a weapon with a plunge animation, not the DScim) (−0.5 s)",,,0,0,0,0.003,0.003,0.5,0.5
+synthetic-new,true,36,pinned-save,C9->C11,3,C9->C11 @5:12: plunge-cancel + dash onto the first rock (5:15) (−0.5 s),,,0,0,0,0.003,0.003,0.5,0.5
+synthetic-new,true,37,skip,s-soul,0,Soulscourge skip (phase dash + food trick): halve the miss rate (86% → 93%),,22,0,0,0,0.0028,0.0028,0.49,0.48
+synthetic-new,true,38,skip,s-parkour,3,Parkour section: halve the miss rate (94% → 97%),,18,0,0,0,0.0013,0.0013,0.21,0.22
+synthetic-new,true,39,skip,s-airvent,0,Windstep to the first air anima: halve the miss rate (94% → 97%),,18,0,0,0,0.0007,0.0007,0.11,0.12
+synthetic-new,true,40,consistency,,3,Split 4: 25% less spread (sigma × 0.75),,,0,0,0,0.0001,0.0001,0.5,0.45
+synthetic-new,true,41,consistency,,1,Split 2: 25% less spread (sigma × 0.75),,,0,0,0,-0.0004,-0.0004,0.51,0.54
+synthetic-new,true,42,consistency,,0,Split 1: 25% less spread (sigma × 0.75),,,0,0,0,-0.0008,-0.0008,0.48,0.49
+synthetic-new,true,43,consistency,,2,Split 3: 25% less spread (sigma × 0.75),,,0,0,0,-0.0009,-0.0009,0.43,0.44
+synthetic-new,true,44,consistency,,4,Split 5: 25% less spread (sigma × 0.75),,,0,0,0,-0.0009,-0.0009,0.5,0.47
+synthetic-new,true,45,learn-line,keep-puzzle,3,Learn keep-puzzle to 90%+ on its skips and run it at split 4,saving measured in runpath.json,,0,0,0,-0.0818,-0.0818,-18.58,-18.62
+synthetic-new,true,46,learn-line,sanctum-fight,4,Learn sanctum-fight to 90%+ on its skips and run it at split 5,saving is an assumed number,,0,0,0,-0.0822,-0.0822,-36.4,-36.45

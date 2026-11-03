@@ -1,0 +1,76 @@
+{
+ "handle": "darkphoenix3979",
+ "name": "darkphoenix3979",
+ "aliases": [
+  "@darkphoenix3979"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@darkphoenix3979",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: another way that i do it is windstep down from that point onto big green crystal, it will hurt but you wont die, then windstep up onto a rock spire that sticks …",
+ "insights": [
+  {
+   "text": "another way that i do it is windstep down from that point onto big green crystal, it will hurt but you wont die, then windstep up onto a rock spire that sticks out, and from there u can double jump dash onto the platform, if you are talking about the second platform and jumping across to the heart entrance that is, if not ignore me",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=lTG0EuXuqDs&lc=Ugyq-1Br_cxY_AjHXnB4AaABAg.AbQGVVBuFd-AbQMSJZaDZI",
+   "video": {
+    "id": "lTG0EuXuqDs",
+    "title": "Jagex Patched the Raid Skip… So I Broke it Again",
+    "channel": "@CrossRSDW"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": "Ugyq-1Br_cxY_AjHXnB4AaABAg",
+   "topic": "route",
+   "topics": [
+    "tech"
+   ],
+   "verified": "outdated",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "the poison rat skip doesnt needa be that long, when you running out at the start at 2:48 you see that skele on the edge, you can double jump/fall and dash to get down there, no need to jump across then back",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&lc=UgyKsxNXxQj9WJPmYvx4AaABAg",
+   "video": {
+    "id": "bStgF4YN6kU",
+    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": "2:48",
+   "video_timestamps": [
+    "2:48"
+   ],
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

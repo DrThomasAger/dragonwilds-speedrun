@@ -1,0 +1,53 @@
+{
+ "handle": "feederp",
+ "name": "Feederp",
+ "aliases": [
+  "@Feederp"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@Feederp",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 8,
+ "summary": "Single-insight commenter: 14:20 skip works as of this comment make sure you are on the right hand side. There are 2 points on the platform. Stay by the right hand point time your surge r…",
+ "insights": [
+  {
+   "text": "14:20 skip works as of this comment make sure you are on the right hand side. There are 2 points on the platform. Stay by the right hand point time your surge right at the tip and you should get it. After the jump your first dash will look like your hitting a invisable barrier. Time the 2nd dash right after",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=Ugw6zQ8s91BIOqHKffp4AaABAg",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": "14:20",
+   "video_timestamps": [
+    "14:20"
+   ],
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "tech",
+   "topics": [
+    "skip id",
+    "tech"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

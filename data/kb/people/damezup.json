@@ -1,0 +1,74 @@
+{
+ "handle": "damezup",
+ "name": "damezup",
+ "aliases": [
+  "@damezup"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@damezup",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: You can do the last room before kuldra, the one  with the 4 element things, faster.   Go left first, then while you’re waiting for the first fire thing, pop sur…",
+ "insights": [
+  {
+   "text": "You can do the last room before kuldra, the one  with the 4 element things, faster. \n\nGo left first, then while you’re waiting for the first fire thing, pop surge and tempest shield, and then when you go to use the red charge on the red pylon, use the surge to distract 2 of the 3 dudes, then stand on the fire seal thing again and get another fire charge, and use the tempest shield to avoid most of the damage from the one guy who doesn’t get confused, then you can run back across the pipes with a charge for the anima orb to open up the air one, then you just go grab one air charge and you’re done. That way you only need to run left once and right once, instead of all the back and forth. \n\nAnd if you don’t confuse the guardian in the room right before it, you can confuse the guardian on the left of the next room in the fire charge are who doesn’t get distracted by the surge hologram thingy, so that he doesn’t mess with you at all. I forget if that makes the guardian from the previous room too annoying to deal with, or if he loses aggro, or if you can just run around him; it’s been a while since I tried it, and I can’t check now so maybe you can look into it, maybe find something even better to shave off some seconds here and there.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=UgzBC2--m6pTBd4L6T14AaABAg",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "route",
+   "topics": [
+    "tech",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Instead of tapping a to turn your character to face a certain direction for those tight ass jumps, can’t you just hold block and it’ll face you the way you want, and then back up as far as possible to give you the most room possible to jump?",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=Ugz0S-P9NIgl-Gjz2FF4AaABAg",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

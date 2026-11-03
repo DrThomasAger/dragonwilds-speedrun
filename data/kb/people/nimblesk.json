@@ -1,0 +1,148 @@
+{
+ "handle": "nimblesk",
+ "name": "Nimblesk",
+ "aliases": [
+  "Nimblesk1",
+  "@Nimblesk1"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@Nimblesk1",
+  "twitch": null,
+  "src": "https://www.speedrun.com/users/Nimblesk",
+  "reddit": null
+ },
+ "src_profile": {
+  "id": "jmrpenz8",
+  "weblink": "https://www.speedrun.com/users/Nimblesk",
+  "twitch": null,
+  "youtube": null,
+  "country": "us",
+  "signup": "2026-10-09T15:20:59Z"
+ },
+ "role": [
+  "runner"
+ ],
+ "insight_score": 15,
+ "summary": "8:28 on 1.0.0.8 (SRC #3). Confirms the \"too high -> blocked\" behaviour on the Kuldra jump.",
+ "insights": [
+  {
+   "text": " @UndeadDF Which jump was you attempting? If it’s the kuldra one, if you are too high then it can block you",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=204hBIge5h0&lc=UgxntFHJoLNYLiWeKwF4AaABAg.Abj56STjIz5Abm4lRisOdL",
+   "video": {
+    "id": "204hBIge5h0",
+    "title": "Legacy World Record (9:37 ChiefWes) - Scorned Wilderness & Kuldra Speedrun | RS: Dragonwilds 1.0.0.6",
+    "channel": "@thelastiger"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgxntFHJoLNYLiWeKwF4AaABAg.Abj56STjIz5Abk3VnzSGIw",
+   "topic": "tech",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": " @wes7918 Managed an 8:29 run. Waiting for it to be verified. I made some huge mistakes too so I do think we can push to sub 8 maybe? I got some good tips from your run! Thank you! Let’s break some records brother",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=204hBIge5h0&lc=UgxntFHJoLNYLiWeKwF4AaABAg.Abj56STjIz5Abm4zRxX63p",
+   "video": {
+    "id": "204hBIge5h0",
+    "title": "Legacy World Record (9:37 ChiefWes) - Scorned Wilderness & Kuldra Speedrun | RS: Dragonwilds 1.0.0.6",
+    "channel": "@thelastiger"
+   },
+   "timestamp": "8:29",
+   "video_timestamps": [
+    "8:29"
+   ],
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxntFHJoLNYLiWeKwF4AaABAg.Abj56STjIz5AblHbPdVBYK",
+   "topic": "timing",
+   "topics": [
+    "timing"
+   ],
+   "verified": "outdated",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": " @UndeadDF  I can confirm all skips still work as of right now. i am running close to 9 minute runs.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=204hBIge5h0&lc=UgxntFHJoLNYLiWeKwF4AaABAg.Abj56STjIz5Abk3VnzSGIw",
+   "video": {
+    "id": "204hBIge5h0",
+    "title": "Legacy World Record (9:37 ChiefWes) - Scorned Wilderness & Kuldra Speedrun | RS: Dragonwilds 1.0.0.6",
+    "channel": "@thelastiger"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgxntFHJoLNYLiWeKwF4AaABAg.Abj56STjIz5Abjz6p5XhBu",
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "outdated",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Made some monumental mistakes during this run. i am positive i can hit a sub 8 minute run",
+   "source": "speedrun.com run comment",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/mrpdw24z",
+   "timestamp": null,
+   "date": "2026-10-09",
+   "date_approx": false,
+   "topic": "timing",
+   "topics": [
+    "timing"
+   ],
+   "verified": "yes",
+   "verification_note": "Run verified (508s, 1.0.0.6+)",
+   "curated": true
+  }
+ ],
+ "recordings": [
+  {
+   "title": "Dragonwilds WORLD RECORD Sub 8:30 run",
+   "url": "https://www.youtube.com/watch?v=lfl8AtveRJI",
+   "date": "2026-10-09",
+   "duration": "8:40",
+   "views": 196,
+   "channel": "@Nimblesk1",
+   "summary": "Finally hit a sub 8:30 Dragonwilds speed run of the Scorned Wilderness raid. This is done in patch 1.0.0.8. This is an Any% run of the raid.",
+   "description": "Finally hit a sub 8:30 Dragonwilds speed run of the Scorned Wilderness raid. This is done in patch 1.0.0.8. This is an Any% run of the raid.\n\nAny questions, please comment. \n\nI did make some major mistakes during this run and hope to get a sub 8 min run soon",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 0,
+   "key_moments": []
+  }
+ ],
+ "runs": [
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Raid",
+   "time_s": 508,
+   "date": "2026-10-09",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/mrpdw24z",
+   "video": "https://youtu.be/lfl8AtveRJI",
+   "comment": "Made some monumental mistakes during this run. i am positive i can hit a sub 8 minute run"
+  }
+ ],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

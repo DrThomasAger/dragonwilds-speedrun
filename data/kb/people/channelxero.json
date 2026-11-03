@@ -1,0 +1,218 @@
+{
+ "handle": "channelxero",
+ "name": "Channel Xero",
+ "aliases": [
+  "channelxero5913",
+  "@channelxero5913"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@channelxero5913",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "guide maker"
+ ],
+ "insight_score": 18,
+ "summary": "A 1.0.1 raid skip guide (5.6K views) and surge/dash ordering tips. He predicts the wandering Garou Thane will be patched.",
+ "insights": [
+  {
+   "text": "Best I've learned is to dash from a standstill, do the jump, and then follow up with two dashes. Dashes tend to slow you down, so they are typically last to be used. Trust me I had plenty of falls myself in learning it.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=68ovg9A_PpA&lc=Ugyl-S5IWzSmUjHrFdZ4AaABAg.Ac29uCxDcYGAc2AdK8zlDi",
+   "video": {
+    "id": "68ovg9A_PpA",
+    "title": "RuneScape DragonWilds New raid skips found! Scorned wilderness Raid skips found after update 1.0.1!",
+    "channel": "@channelxero5913"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugyl-S5IWzSmUjHrFdZ4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Yeah he kept surprising me when I first went through the raid. I do suspect that he will be patched to either spawn when you go through the wind gate or to stay still. But for now he helps out a ton!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=68ovg9A_PpA&lc=UgzRTD73LkYctbMmCcF4AaABAg.Ac23_CmuVFJAc2Aq54OMu6",
+   "video": {
+    "id": "68ovg9A_PpA",
+    "title": "RuneScape DragonWilds New raid skips found! Scorned wilderness Raid skips found after update 1.0.1!",
+    "channel": "@channelxero5913"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzRTD73LkYctbMmCcF4AaABAg",
+   "topic": "route",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": " @diddl41  Cast surge and phase dash. Surge off of the ledge, jump with the in air jump (the normal double jump) then use the 2 air dashes to land on the ledge.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=68ovg9A_PpA&lc=Ugyl-S5IWzSmUjHrFdZ4AaABAg.Ac29uCxDcYGAc2TnD7QOKh",
+   "video": {
+    "id": "68ovg9A_PpA",
+    "title": "RuneScape DragonWilds New raid skips found! Scorned wilderness Raid skips found after update 1.0.1!",
+    "channel": "@channelxero5913"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugyl-S5IWzSmUjHrFdZ4AaABAg.Ac29uCxDcYGAc2DZhzKBL5",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": " @Nidrocity  I will have to play around with it a bit to have full concrete stats for it, but normally I just dash facing the way I want to go. Sometimes Ill try to sprint right before and that might get me more, without noting which I am doing at the time it is hard for me to recall which it is. I will try a few things and get back to you.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=68ovg9A_PpA&lc=Ugyl-S5IWzSmUjHrFdZ4AaABAg.Ac29uCxDcYGAc2TyPEDaIA",
+   "video": {
+    "id": "68ovg9A_PpA",
+    "title": "RuneScape DragonWilds New raid skips found! Scorned wilderness Raid skips found after update 1.0.1!",
+    "channel": "@channelxero5913"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "Ugyl-S5IWzSmUjHrFdZ4AaABAg.Ac29uCxDcYGAc2DgqDU261",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Hey, sorry meant to reply to this much much earlier. You are correct that you don't need to kill the black dragon. I mostly did out of habit and a need/want for more shards.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=68ovg9A_PpA&lc=UgxF6vgtwFth6N0q7lp4AaABAg.Ac6OzdS0oKSAcBobl5iXZn",
+   "video": {
+    "id": "68ovg9A_PpA",
+    "title": "RuneScape DragonWilds New raid skips found! Scorned wilderness Raid skips found after update 1.0.1!",
+    "channel": "@channelxero5913"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-21",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxF6vgtwFth6N0q7lp4AaABAg",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "That gap can be very tough to make, you can also walk around the outside edge to the other side, just a few seconds slower.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=68ovg9A_PpA&lc=UgwCn-oecfFQlRy8kl54AaABAg.Ac9G0mVJTFWAcBoo85T7uh",
+   "video": {
+    "id": "68ovg9A_PpA",
+    "title": "RuneScape DragonWilds New raid skips found! Scorned wilderness Raid skips found after update 1.0.1!",
+    "channel": "@channelxero5913"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-21",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgwCn-oecfFQlRy8kl54AaABAg",
+   "topic": "timing",
+   "topics": [
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [
+  {
+   "title": "RuneScape DragonWilds New raid skips found! Scorned wilderness Raid skips found after update 1.0.1!",
+   "url": "https://www.youtube.com/watch?v=68ovg9A_PpA",
+   "date": "2026-10-16",
+   "duration": "14:54",
+   "views": 5631,
+   "channel": "@channelxero5913",
+   "summary": "New scorned wilderness raid skips after 1.0.1 update. Fast raid farming for power level 9 gear! Still no cores.",
+   "description": "New scorned wilderness raid skips after 1.0.1 update. Fast raid farming for power level 9 gear! Still no cores.\n\n#runescape #skips #speedrun #guide #runescapedragonwilds",
+   "transcript": "auto-captions, see D:/claude-temp/people/transcripts/68ovg9A_PpA.txt",
+   "comments_fetched": 29,
+   "key_moments": [
+    {
+     "t": "0:00",
+     "url": "https://www.youtube.com/watch?v=68ovg9A_PpA&t=0s",
+     "what": "Raid introduction and prep",
+     "source": "chapter"
+    },
+    {
+     "t": "1:33",
+     "url": "https://www.youtube.com/watch?v=68ovg9A_PpA&t=93s",
+     "what": "Early raid skips and combat",
+     "source": "chapter"
+    },
+    {
+     "t": "4:22",
+     "url": "https://www.youtube.com/watch?v=68ovg9A_PpA&t=262s",
+     "what": "Mid-raid boss strategies",
+     "source": "chapter"
+    },
+    {
+     "t": "7:19",
+     "url": "https://www.youtube.com/watch?v=68ovg9A_PpA&t=439s",
+     "what": "Advanced movement and pathing",
+     "source": "chapter"
+    },
+    {
+     "t": "10:23",
+     "url": "https://www.youtube.com/watch?v=68ovg9A_PpA&t=623s",
+     "what": "Final boss and raid exit",
+     "source": "chapter"
+    },
+    {
+     "t": "13:20",
+     "url": "https://www.youtube.com/watch?v=68ovg9A_PpA&t=800s",
+     "what": "Post-raid review",
+     "source": "chapter"
+    }
+   ]
+  }
+ ],
+ "runs": [],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

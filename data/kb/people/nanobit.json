@@ -1,0 +1,2045 @@
+{
+ "handle": "nanobit",
+ "name": "Nanobit",
+ "aliases": [
+  "iNanobit",
+  "Nano",
+  "@iNanobit"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@iNanobit",
+  "twitch": "https://www.twitch.tv/iNanobit",
+  "src": "https://www.speedrun.com/users/Nanobit",
+  "reddit": null
+ },
+ "src_profile": {
+  "id": "j9z6ddw8",
+  "weblink": "https://www.speedrun.com/users/Nanobit",
+  "twitch": "https://www.twitch.tv/iNanobit",
+  "youtube": null,
+  "country": "us",
+  "signup": "2026-10-07T15:34:46Z"
+ },
+ "role": [
+  "runner",
+  "tech finder",
+  "guide maker"
+ ],
+ "insight_score": 95,
+ "summary": "Holds the 1.0.1/1.0.1.1 run (7:01, SRC #2). His pinned comment lists ~25 timestamped time saves and he explains the zoop mechanics. He says the current route can \"approach mid 6's\". Most generous source; he points everyone to the RSDW Discord.",
+ "insights": [
+  {
+   "text": "How to save time and some general tips:\n\n0:23 Tapped sprint in beginning but was already sprinting, so walked in beginning for about 1.5s before re-sprinting\n0:51 Can do 4 air dash instead of 3 towards 1st air anima pillar\n1:14 Can do 3 air dash instead of 2 towards 2nd air anima pillar\n1:22 KB from Kuldra initial hit can be iframed with better timed dash + tighter line over torch into 1st BD\n1:30 Earth Pillar can be started about 1s earlier, can see camera shake of frustration 🤣\n1:39 Falling down after 1st BD can take slightly better line to jump off point\n1:45 Technically could start zoop to Fragments about 1.5s earlier but this zoop is hard, so safety.\n2:05 Zoop from keep wall across pond can make it all the way to the gate with a good one, save maybe 2.5s\n2:13 Can likely plunge cancel here on John Goblikon ( https://music.youtube.com/watch?v=ahT3UrbOn0c ) instead of waiting to fall, saving a second maybe.\n2:28 More confidence pushing into the hole will produce better (faster) results.\n2:32 With a good zoop here you can make it all the way to where I'm standing at 2:37, with no air/phase dash at all.\n2:45 Not exactly a time save but it's important to start surging from exactly where I do, so the demon doesn't chase you into the next area. I've seen him come inside and fight me alongside the thane. 💀\n2:47 Don't hit this pillar lmao. Skele blocked my path here and I tried to adjust, poorly.\n3:22 Extra swing, not ideal. Don't forget to re-use your fleet-footed infusion here, because I did.\n3:46 This zoop can go far enough to require no dashes.\n3:50 This zoop can go far enough to place you around where I'm standing at 3:57. This saves A LOT of time if it works.\n4:38 Again not exactly a time save, but it's a nice point of reference of where to jump from, into the OOB.\n4:44 Extra jump up onto the rock here not needed, just missed the first one.\n5:07 You could probably plunge cancel here to save a small amount of time, but remember that DScim doesn't have a plunge animation, so you need something else equipped.\n5:12 Same here, as well as using the cancel to dash onto the first rock that I jump from at 5:15.\n5:18 Sometimes this zoop is strong enough to only need 1 dash, then you can save the phase dash for Kuldra.\n5:33 If you're incredibly lucky, or smart enough to figure out the exact position to jump from and hit into, you can clip straight through the ground at rib clip, without having to crouch walk up it and scimmy swing to clip out. This saves at least 3s.\n5:52 You can probably air dash at least twice here (don't waste phase dash yet though) and retain enough stamina to make the next jump here.\n5:57 With a strong enough zoop you don't need an air or phase dash.\n6:16 Not really a timesave but make sure you stay to the RIGHT of the small white floating cube you can see where the bridge would normally be, or you will bonk and fall. If you managed to save 1 of 2 possible phase dashes earlier, you can use one here for safety.\n6:20 If you have any phase dashes left, just use them now.\n6:47 I slightly missed the melee safespot, I jump into it correctly at 6:53.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=Ugw-qVlp7mb4L170w1x4AaABAg",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": "0:23",
+   "video_timestamps": [
+    "0:23",
+    "0:51",
+    "1:14",
+    "1:22",
+    "1:30",
+    "1:39",
+    "1:45",
+    "2:05",
+    "2:13",
+    "2:28",
+    "2:32",
+    "2:37",
+    "2:45",
+    "2:47",
+    "3:22",
+    "3:46",
+    "3:50",
+    "3:57",
+    "4:38",
+    "4:44",
+    "5:07",
+    "5:12",
+    "5:15",
+    "5:18",
+    "5:33",
+    "5:52",
+    "5:57",
+    "6:16",
+    "6:20",
+    "6:47",
+    "6:53"
+   ],
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 7,
+   "reply_to": null,
+   "topic": "timing",
+   "topics": [
+    "skip id",
+    "tech",
+    "timing"
+   ],
+   "verified": "yes",
+   "verification_note": "Self-documented against his SRC-verified 7:01 (m74v4p4m). Some segments (blocks to Kuldra) were patched in 1.0.1.2; fly instead.",
+   "curated": true
+  },
+  {
+   "text": "I should note btw, that the zoop from Vines to Fragments is relatively precise, at least in my experience, but it could just be skill issue. At least half of my runs died here. You need to use it either on the frame you start walking off the rock (it's got an incredibly small slope after the flat part, before it drops off completely), or 1 before. Any earlier and you smash your ankles into the side Fragments and fall to your death, any later and it becomes an air dash. I haven't found any difference between walking and running, besides that walking allows more time to react, which could lead to an illusion of walking making you go farther. I think lower framerates can give better zoops as well, just from random observations, but I can't/haven't really tested that.\n\nThat said if you want an easier (but slower) skip to Fragments I suggest checking out my Day 1 Strats Video https://www.youtube.com/watch?v=vw_Mr5TGJAg for the zoop from necro island into respawn skip.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgzKx_JhQIG2eih4kwh4AaABAg",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 4,
+   "reply_to": null,
+   "topic": "tech",
+   "topics": [
+    "skip id",
+    "tech"
+   ],
+   "verified": "partial",
+   "verification_note": "Frame window is his observation. koltplan (5/400) and skibumb16 confirm the zoop is very inconsistent. The FPS link is untested.",
+   "curated": true
+  },
+  {
+   "text": " @koltplan  The rock as a side view kind of looks like this - https://i.imgur.com/ZxF603V.png - where the dotted black line represents actual collision, and the red area beyond it represents visually a rock, but no collision. From my testing you kind of want to go where it just starts to angle down before dropping off. I can only make this jump like 50/50 atp myself. That said I expect it to be patched on the next update, so unless you're hunting a good time you may as well do the respawn skip if this one is too difficult/annoying for you.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgzKx_JhQIG2eih4kwh4AaABAg.Ac4kgUNWPOVAcFGwEzGIjI",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-22",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgzKx_JhQIG2eih4kwh4AaABAg.Ac4kgUNWPOVAcEQr_D6RtM",
+   "topic": "tech",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": "Collision diagram https://i.imgur.com/ZxF603V.png (not fetched).",
+   "curated": true
+  },
+  {
+   "text": " @koltplan  No problem, I hope you get a good run before the patch! This might help, assuming you're on PC: If you force close your game process after failing the zoop, you can reset raid progress to not-started to get more attempts without having to complete the entire raid every time. You won't get practice at the rest of the raid this way, but it will increase attempts/hr! I recommend backing up your character json if you do this, just in-case.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgzKx_JhQIG2eih4kwh4AaABAg.Ac4kgUNWPOVAcFPeUQ6Xmi",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-22",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgzKx_JhQIG2eih4kwh4AaABAg.Ac4kgUNWPOVAcFGwEzGIjI",
+   "topic": "practice",
+   "topics": [
+    "patch",
+    "tech"
+   ],
+   "verified": "disputed",
+   "verification_note": "loopuleasa (10-20) says \"alt+f4 now saves the game\". Test before relying on it, and back up the save json.",
+   "curated": true
+  },
+  {
+   "text": "(Be high enough in air to plunge attack, usually after a Windstep) -> Plunge Attack (LClick) -> Spell Wheel (Q) -> AoE Spell (1, Magical Mending) -> Cancel (Esc) -> Jump (Space) -> Repeto",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=GeWbo4GpFEg&lc=UgyGBD_ewKFXsqo4i4h4AaABAg.AcMQrl8zQndAcMaVFpMstP",
+   "video": {
+    "id": "GeWbo4GpFEg",
+    "title": "NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness Raid - Tech & Tutorial in description",
+    "channel": "@Dotxygaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-25",
+   "date_approx": true,
+   "likes": 7,
+   "reply_to": "UgyGBD_ewKFXsqo4i4h4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "yes",
+   "verification_note": "Same loop as Dotxy's description. FastTipsGaming and brendonboyd7668 reproduce it on PS5.",
+   "curated": true
+  },
+  {
+   "text": "Yes, and I believe that's the only part of the run that's been changed currently. We have the tech to bypass this change but it's not great for controller players or tbh most PC players without a macro. Gonna see if there's anything easier for most people.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgxT368wls2mjWOoFwd4AaABAg.AcJGir0n-QzAcKZtYA73lD",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-24",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxT368wls2mjWOoFwd4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "skip id",
+    "tech"
+   ],
+   "verified": "yes",
+   "verification_note": "Matches the 1.0.1.2 notes (\"Additional fixes for Kuldra Skips\") and many \"fall through the rock\" reports.",
+   "curated": true
+  },
+  {
+   "text": "Run is still the same minus flying up at the end without employing new strats, which we have, just no one has submitted a run using them yet.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgybomlKCtTPOM7wFdx4AaABAg.AcV3wQMNoImAcV893eY0EX",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-28",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgybomlKCtTPOM7wFdx4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "other"
+   ],
+   "verified": "partial",
+   "verification_note": "Nobody has submitted a run on 1.0.1.2+ yet (SRC has 0 pending runs as of 2026-11-03).",
+   "curated": true
+  },
+  {
+   "text": "It's already easily beatable right now even if i threw the unholy symbol in the trash, this run could likely approach mid 6's in it's current state.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=Ugxw5N_1qGcoYNlMOd14AaABAg.Ac6VQWDDi-iAc6X9UINUDd",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugxw5N_1qGcoYNlMOd14AaABAg",
+   "topic": "timing",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": "Estimate from the 7:01 runner.",
+   "curated": true
+  },
+  {
+   "text": " @IINo1goodII  I think it can probably be done in around 3-4 minutes with launching and fall damage canceling, considering you can skip straight past the 3rd BD from Rasthin's. But that's not very consistent or even doable for most people i think. You should post your run anyway, it will probably be first for awhile and it's always nice to share strats and see how creative others are.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgxT368wls2mjWOoFwd4AaABAg.AcJGir0n-QzAcSBeh1q25o",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-27",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxT368wls2mjWOoFwd4AaABAg.AcJGir0n-QzAcRksJpVGVP",
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": "Launch past the 3rd BD from Rasthin's. IINo1goodII says he can launch reliably \"between the abby demon checkpoint and the last BD\".",
+   "curated": true
+  },
+  {
+   "text": "Thanks! Someone in the community has found a way to skip directly to the third checkpoint apparently, so the run could see some big changes soon! Also Mod Corvin has been hard at work on the raid, he says, so the next patch (this week i think?) is also likely to change it quite a bit. I'm holding off on doing more runs until someone posts a faster time on SRC or it's patched. If you think you have some good ideas though, you should join SRC's RSDW discord for strats and discussion!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=Ugx9kNRYkX9LNXdWOCx4AaABAg.AcAdE0SBmo4AcBrx7aPNK4",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-21",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "Ugx9kNRYkX9LNXdWOCx4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "patch",
+    "skip id",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": "A \"skip directly to the third checkpoint\" is second-hand. Mod Corvin quote is second-hand. Points to SRC's RSDW Discord.",
+   "curated": true
+  },
+  {
+   "text": "I've suspected FPS has something to do with zoop strength for awhile like I've mentioned in some comments, but haven't or couldn't test it accurately really. Most noticeable when you drop into Keep from Stronghold and all the mobs spawn, sometimes the next zoop goes very far, past the vines even.\nAs for verticality on Keep's jumping section I haven't tried at all, but I suspect since it sort of gains more height again towards the end it might not gain me much if any, plus the casts and uses of surge and phase dash all line up somewhat well with their CD's as is. But, I will of course investigate it because it's easy enough to test.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=Ugw--VSB5zlUvsH65-x4AaABAg.Ac5pa1Bd0FcAc5q_hQuNAw",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugw--VSB5zlUvsH65-x4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": "FPS hypothesis is untested.",
+   "curated": true
+  },
+  {
+   "text": "​ @Flashmam  The one under the 1st BD towards Fragments? If the one on fragments see my edited comment under the pinned one. For any of the other ones I suspect it's either the precise position I hit it (likely a small slope in line with my movement vector) that sort of boosts me forward, or something to do with frame rate. For example, notice after landing at Keep ~3:49 the Zoop I do at about 3:51 follows the ground and hits the rock. Sometimes when the BD and other mobs spawn in it produces a slight amount of lag, and i'm able to zoop to about where i'm standing at 3:56 instead.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=Ugwj8hH90vu9h9Pq4Wl4AaABAg.Ac4g3mZn0msAc5ecH4TCeu",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": "3:49",
+   "video_timestamps": [
+    "3:49",
+    "3:51",
+    "3:56"
+   ],
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugwj8hH90vu9h9Pq4Wl4AaABAg.Ac4g3mZn0msAc5bUBAV_Q1",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "I'm using Q1E for the plunge-cancel tech, and Q7 a lot of the time to windstep. However sometimes it's better to just cast normally if you're doing multiple casts, since you can just spam click to hit the next spell ASAP. I find spamming Q3/Q4 just equips my helmet and eats my pies when I don't want to, most of the time. :(",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgzMbgdamVhlxhVhmON4AaABAg.Ac5zNkraUE4Ac60qBu_NQ9",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzMbgdamVhlxhVhmON4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "yes",
+   "verification_note": "Keybind setup used in the 7:01.",
+   "curated": true
+  },
+  {
+   "text": "Update: After messaging Archy the category now has rules/timing :D",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=yKDHfkxIrU4&lc=UgwGQm9HWUyDcegexah4AaABAg.AbpizVGsCdiAbrFioVnMLo",
+   "video": {
+    "id": "yKDHfkxIrU4",
+    "title": "Runescape: Dragonwilds | 8:05 Kuldra | 1.0.0.6+ Legacy Run",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgwGQm9HWUyDcegexah4AaABAg.AbpizVGsCdiAbpqvechcHm",
+   "topic": "rules",
+   "topics": [
+    "patch"
+   ],
+   "verified": "yes",
+   "verification_note": "The Raid category now has written timing rules (load icon disappears -> screen black after \"Get out now!\").",
+   "curated": true
+  },
+  {
+   "text": "Apprentice, Dragonkin, and Splitbark armor are incorrect on the wiki. In-game, all of the armors have the same set effect bonus. Also, It's not really relevant, but I have my 20 year cape on RS3 and play both a Main and GIM on OSRS. :)",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=yKDHfkxIrU4&lc=Ugz_ECExPeRgwHwVsoN4AaABAg.Abnlge87GKxAbnvmdmqrCh",
+   "video": {
+    "id": "yKDHfkxIrU4",
+    "title": "Runescape: Dragonwilds | 8:05 Kuldra | 1.0.0.6+ Legacy Run",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugz_ECExPeRgwHwVsoN4AaABAg",
+   "topic": "setup",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": "Says armor set effects are identical in-game, contradicting the wiki. lilkevog7 claims Dragonkin robes give 17.5% magic attack speed.",
+   "curated": true
+  },
+  {
+   "text": "Can confirm this is the rib clip guy. Credited in previous video for finding the tech.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgzrjIx7d9okIcWBiFB4AaABAg.Ac95yU1TbfmAc9E3_v1J3i",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": "UgzrjIx7d9okIcWBiFB4AaABAg",
+   "topic": "credit",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "yes",
+   "verification_note": "Credits wes7918 for the rib clip.",
+   "curated": true
+  },
+  {
+   "text": "I'm a big fan of everyone being on the same playing field in terms of knowledge, so at the end of the day it becomes skill based!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=Ugz_7d4GjLnvg-yNAuR4AaABAg.AcCv_Ph-HjFAcFFn3QsVkz",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-22",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugz_7d4GjLnvg-yNAuR4AaABAg",
+   "topic": "meta",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "I will continue to run this as long as the route is fun. Even with most of what jagex might consider \"skipping\" \"fixed\" it's probably still a sub-10 run, or close to.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgwZlmBXLAbi9OXRUBZ4AaABAg.Ac3SNeVt3HoAc4i9il9Sbl",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgwZlmBXLAbi9OXRUBZ4AaABAg",
+   "topic": "timing",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "At around 8:10 ish if I understand correctly? I'm touching the ground here before jumping. To get inside the heart you just have to enter it from approximately the top half, but the exact place you stand inside does matter a bit. If I'm misunderstanding sorry, but I might have an explainer video up soon for the whole run, including easier and harder routes. Kinda waiting to see what the next patch \"fixes\".",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=vw_Mr5TGJAg&lc=Ugyrh7_U7CgxMLurpiF4AaABAg.Ac6g2UxQWJqAc7xsKyOMKK",
+   "video": {
+    "id": "vw_Mr5TGJAg",
+    "title": "Runescape: Dragonwilds | 8:32 Kuldra | 1.0.1 Day 1 Strats",
+    "channel": "@iNanobit"
+   },
+   "timestamp": "8:10",
+   "video_timestamps": [
+    "8:10"
+   ],
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugyrh7_U7CgxMLurpiF4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "yes",
+   "verification_note": "Heart entry: enter from the top half; where you stand matters.",
+   "curated": true
+  },
+  {
+   "text": "This is very interesting, but I believe it's slower than my normal strategy. However i'll do some testing tomorrow while looking for my sub 7 :)",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=rNDeEKsKGeA&lc=UgzpAi2vJ83_yg9PpnJ4AaABAg",
+   "video": {
+    "id": "rNDeEKsKGeA",
+    "title": "RuneScape DragonWilds Kuldra ABYSSAL DEMON FULL SKIP POST PATCH 1.0.1 WORKING",
+    "channel": "@notmusty1"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "route",
+   "topics": [
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "There's still a hole. Incredible. Might even get close to 7 minutes again with this.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=JRpxlTZ_F2M&lc=Ugz1Ebpsl8ls_WA8XAd4AaABAg",
+   "video": {
+    "id": "JRpxlTZ_F2M",
+    "title": "Kuldra Elemental Puzzle Skip",
+    "channel": "@IINo1goodII"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "timing"
+   ],
+   "verified": "yes",
+   "verification_note": "The Keep hole (IINo1goodII/notmusty1) was used in his 7:01.",
+   "curated": true
+  },
+  {
+   "text": "Windstepping up the blocks to Kuldra no longer works as of 1.0.1.2/1.0.1.3. You can still get up to that area via just flying lmao. Plunge-cancel tech has evolved even further, check out @Dotxygaming's video here: https://www.youtube.com/watch?v=GeWbo4GpFEg",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR"
+   },
+   "timestamp": null,
+   "date": "2026-10-17",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "tech"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "There's still a good amount of time to save here, clearly can be done sub 7 judging by my sum of best, but needs very clean movement and strong zoops. Especially in the area with the 3rd BD directly after zooping from keep, if you get a strong enough one you can make it all the way from where you landed to well past the plant.",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR"
+   },
+   "timestamp": null,
+   "date": "2026-10-17",
+   "date_approx": false,
+   "topic": "timing",
+   "topics": [
+    "tech",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Consider joining the RSDW Speedrunning Discord for more!",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR"
+   },
+   "timestamp": null,
+   "date": "2026-10-17",
+   "date_approx": false,
+   "topic": "meta",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Thanks to @SectorTSWG via @Sir_Rebral for the new skip to Fragments, and @notmusty1 via @IINo1goodII for finding a lovely hole in Keep!",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR"
+   },
+   "timestamp": null,
+   "date": "2026-10-17",
+   "date_approx": false,
+   "topic": "credit",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "• Air Thane takes like 15 minutes to respawn, it's best to just sleep through a night after completing a run... otherwise he doesn't spawn in the next run and ruins your time.",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=vw_Mr5TGJAg",
+   "video": {
+    "id": "vw_Mr5TGJAg",
+    "title": "Runescape: Dragonwilds | 8:32 Kuldra | 1.0.1 Day 1 Strats"
+   },
+   "timestamp": null,
+   "date": "2026-10-15",
+   "date_approx": false,
+   "topic": "route",
+   "topics": [
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "• kill the air anime garou thane, he likes to walk through the closed gate on his own???",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=vw_Mr5TGJAg",
+   "video": {
+    "id": "vw_Mr5TGJAg",
+    "title": "Runescape: Dragonwilds | 8:32 Kuldra | 1.0.1 Day 1 Strats"
+   },
+   "timestamp": null,
+   "date": "2026-10-15",
+   "date_approx": false,
+   "topic": "route",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "• zoop left side off rocks left of bridge towards top of pillar on left, needs decent height, may or may not need both dashes depending on strength of zoop",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=vw_Mr5TGJAg",
+   "video": {
+    "id": "vw_Mr5TGJAg",
+    "title": "Runescape: Dragonwilds | 8:32 Kuldra | 1.0.1 Day 1 Strats"
+   },
+   "timestamp": null,
+   "date": "2026-10-15",
+   "date_approx": false,
+   "topic": "route",
+   "topics": [
+    "tech"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "• respawn, since this uh... does that.",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=vw_Mr5TGJAg",
+   "video": {
+    "id": "vw_Mr5TGJAg",
+    "title": "Runescape: Dragonwilds | 8:32 Kuldra | 1.0.1 Day 1 Strats"
+   },
+   "timestamp": null,
+   "date": "2026-10-15",
+   "date_approx": false,
+   "topic": "route",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "• It might be possible to get to the first wooden bridge with a good enough Zoop from the Air Anima Pillar... (After it's activated to remove the wall, of course) (~0:35 - 0:43)",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=KljLK0Z-9jY",
+   "video": {
+    "id": "KljLK0Z-9jY",
+    "title": "Runescape: Dragonwilds | 7:04 Kuldra | 1.0.0.6+ Legacy WR"
+   },
+   "timestamp": null,
+   "date": "2026-10-12",
+   "date_approx": false,
+   "topic": "route",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "• With an insane Zoop from vines it's possible to land on the wall with the vine breaking through instead of having to run and Windjump on to it, but I've only done it once. (~1:24 - 1:38)",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=KljLK0Z-9jY",
+   "video": {
+    "id": "KljLK0Z-9jY",
+    "title": "Runescape: Dragonwilds | 7:04 Kuldra | 1.0.0.6+ Legacy WR"
+   },
+   "timestamp": null,
+   "date": "2026-10-12",
+   "date_approx": false,
+   "topic": "route",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "• Likewise you can make it all the way to the door just past the plant with a good enough Zoop from the wall with mobs on it. (~1:41 - 1:45)",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=KljLK0Z-9jY",
+   "video": {
+    "id": "KljLK0Z-9jY",
+    "title": "Runescape: Dragonwilds | 7:04 Kuldra | 1.0.0.6+ Legacy WR"
+   },
+   "timestamp": null,
+   "date": "2026-10-12",
+   "date_approx": false,
+   "topic": "route",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "• The Windjump can make it all the way to the second rock (~4:35 - 4:40) instead of having to double-jump up.",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=KljLK0Z-9jY",
+   "video": {
+    "id": "KljLK0Z-9jY",
+    "title": "Runescape: Dragonwilds | 7:04 Kuldra | 1.0.0.6+ Legacy WR"
+   },
+   "timestamp": null,
+   "date": "2026-10-12",
+   "date_approx": false,
+   "topic": "route",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "• The Rib Clip can be done much faster, if you're lucky with the Windjump and your placement, it can immediately clip you through without having to crouch/swing sword. (~5:08)",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=KljLK0Z-9jY",
+   "video": {
+    "id": "KljLK0Z-9jY",
+    "title": "Runescape: Dragonwilds | 7:04 Kuldra | 1.0.0.6+ Legacy WR"
+   },
+   "timestamp": null,
+   "date": "2026-10-12",
+   "date_approx": false,
+   "topic": "tech",
+   "topics": [
+    "skip id",
+    "tech",
+    "timing"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "• Overall just doing things more cleanly will produce a sub 7 considering my sum of best is 6:58.",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=KljLK0Z-9jY",
+   "video": {
+    "id": "KljLK0Z-9jY",
+    "title": "Runescape: Dragonwilds | 7:04 Kuldra | 1.0.0.6+ Legacy WR"
+   },
+   "timestamp": null,
+   "date": "2026-10-12",
+   "date_approx": false,
+   "topic": "timing",
+   "topics": [
+    "timing"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "• The Zoop from Stronghold to Keep could have been stronger (I've made it with 0 Air/Phase Dash before), as well as the one to Kuldra (same story). I suspect the strength of the zoop is dependent on framerate where lower framerates give stronger zoops.",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=yKDHfkxIrU4",
+   "video": {
+    "id": "yKDHfkxIrU4",
+    "title": "Runescape: Dragonwilds | 8:05 Kuldra | 1.0.0.6+ Legacy Run"
+   },
+   "timestamp": null,
+   "date": "2026-10-10",
+   "date_approx": false,
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "• The OOB Section can have cleaner Windsteps, skipping 2 Double Jumps.",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=yKDHfkxIrU4",
+   "video": {
+    "id": "yKDHfkxIrU4",
+    "title": "Runescape: Dragonwilds | 8:05 Kuldra | 1.0.0.6+ Legacy Run"
+   },
+   "timestamp": null,
+   "date": "2026-10-10",
+   "date_approx": false,
+   "topic": "route",
+   "topics": [
+    "skip id",
+    "tech"
+   ],
+   "verified": "outdated",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "• The Zoop from Stronghold to Keep could have been stronger (I've made it with 0 Air/Phase Dash before), as well as the one to Kuldra (same story). I suspect the strength of the zoop is dependent on framerate where lower framerates give stronger zoops.\n\n• The OOB Section can have cleaner Windsteps, skipping 2 Double Jumps.\n\n• Need to test if clipping back through the ground at Kuldra is faster than respawning.\n\n",
+   "source": "speedrun.com run comment",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/zpe5n1xy",
+   "timestamp": null,
+   "date": "2026-10-10",
+   "date_approx": false,
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech",
+    "timing"
+   ],
+   "verified": "yes",
+   "verification_note": "Run verified (485s, 1.0.0.6+)",
+   "curated": true
+  },
+  {
+   "text": "Thanks, you as well. I made it myself. It sure would be nice to have an autosplitter for this game.",
+   "source": "speedrun.com run thread",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/zpe5n1xy",
+   "timestamp": null,
+   "date": "2026-10-11",
+   "date_approx": false,
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": "On Nanobit's 485s run",
+   "curated": true
+  },
+  {
+   "text": "**Run Notes:**\n\n• It might be possible to get to the first wooden bridge with a good enough Zoop from the Air Anima Pillar... (After it's activated to remove the wall, of course) (~0:35 - 0:43) \n\n• With an insane Zoop from vines it's possible to land on the wall with the vine breaking through instead of having to run and Windjump on to it, but I've only done it once. (~1:24 - 1:38) \n\n• Likewise you can make it all the way to the door just past the plant with a good enough Zoop from the wall with mobs on it. (~1:41 - 1:45) \n\n• You can get a much better Zoop from the vine to bridge that doesn't require any dashes. (~2:13 - 2:18) \n\n• You can (again) get a much better Zoop from Stronghold to Keep that doesn't require any dashes. (~3:15 - 3:19) \n\n• Got stuck here for a second lmao. Don't do that. (~3:26) \n\n• Lost about a second to bonking (~3:44) and accidentally tapping shift cancelling my sprint. (~4:04) \n\n• The Windjump can make it all the way to the second rock (~4:35 - 4:40) instead of having to double-jump up. \n\n• The Rib Clip can be done much faster, if you're lucky with the Windjump and your placement, it can immediately clip you through without having to crouch/swing sword. (~5:08) \n\n• I'm not sure if it's better to save the surge leftover at this point and use it like I did (crossing to Kuldra), or use it earlier before Windjumping up. I'd have to recast it at the top but it could still be faster, and save me a surge from the second side of Kuldra's bridge to her face (instead of jump/dashing), as well as one for the throat. \n\n• The melee safespot inside the heart could probably be entered faster. \n\n• Overall just doing things more cleanly will produce a sub 7 considering my sum of best is 6:58.",
+   "source": "speedrun.com run comment",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/zxr5djkz",
+   "timestamp": null,
+   "date": "2026-10-12",
+   "date_approx": false,
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech",
+    "timing"
+   ],
+   "verified": "yes",
+   "verification_note": "Run verified (424s, 1.0.0.6+)",
+   "curated": true
+  },
+  {
+   "text": "That's what i meant by using it earlier yeah, if you see pete's run you can save a bit of time cutting before windjumping up the fragments in sanctum, at the time i was thinking it would be faster without recasting, but we'll see as the run evolves.\n\nETA:\nI should clarify the timestamps in the run notes are from the run time, not the video time, sorry about that.",
+   "source": "speedrun.com run thread",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/zxr5djkz",
+   "timestamp": null,
+   "date": "2026-10-12",
+   "date_approx": false,
+   "topic": "tech",
+   "topics": [
+    "tech",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": "On Nanobit's 424s run",
+   "curated": true
+  },
+  {
+   "text": "Run is Obsolete as of 1.0.1 Update, which removed several skips.",
+   "source": "speedrun.com run thread",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/zxr5djkz",
+   "timestamp": null,
+   "date": "2026-10-16",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": "On Nanobit's 424s run",
+   "curated": true
+  },
+  {
+   "text": "Thanks to [@SectorTSWG](https://www.youtube.com/@SectorTSWG) via [@Sir_Rebral](https://www.youtube.com/@Sir_Rebral) for the new skip to Fragments, and [@notmusty1](https://www.youtube.com/@notmusty1) via [@IINo1goodII](https://www.youtube.com/@IINo1goodII) for finding a lovely hole in Keep! Thanks again to [@Dotxygaming](https://www.youtube.com/@Dotxygaming) for the plunge-cancel tech, it's very fun. \n\n\n\nRun Notes: \n\n\nThere's still a good amount of time to save here, clearly can be done sub 7 judging by my sum of best, but needs very clean movement and strong zoops. Especially in the area with the 3rd BD directly after zooping from keep, if you get a strong enough one you can make it all the way from where you landed to well past the plant.",
+   "source": "speedrun.com run comment",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/m74v4p4m",
+   "timestamp": null,
+   "date": "2026-10-17",
+   "date_approx": false,
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech",
+    "timing"
+   ],
+   "verified": "yes",
+   "verification_note": "Run verified (421s, 1.0.0.6+)",
+   "curated": true
+  },
+  {
+   "text": "Thanks for the route lad, i've taken some inspiration and I think we can get this under 8 mins pretty easily",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=Ugzsc36MG8vZzsS1msJ4AaABAg",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "timing",
+   "topics": [
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": " @SamFPlays  Fair enough, i've done a 7:47 with a few new skips i've found and can still push it some more for sure. Just think the movement and creativity in routing is fun in this one :)",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=Ugzsc36MG8vZzsS1msJ4AaABAg.Abfj_xN-NHEAbnSRDsvGHT",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugzsc36MG8vZzsS1msJ4AaABAg.Abfj_xN-NHEAbgrqQu0PaS",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": " @MikeyMadness92  Lots of practice, and it's still not consistent. Sometimes I just get a really good one inexplicably. Just start with a no-stakes edge somewhere in your world and keep trying until you're comfortable.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=Ugw-qVlp7mb4L170w1x4AaABAg.Ac5oyGlUJEzAc9QydCYLKO",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugw-qVlp7mb4L170w1x4AaABAg.Ac5oyGlUJEzAc8vZv4MHdS",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Thanks brother! Yea that and a couple other lil misteps like the poor zoop after the skip to Keep really hurt. I'll likely have a sub 7 up today with the same route if all goes to plan.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgzcffKPIXkkMX_2JyZ4AaABAg.Ac3o_yhLfIeAc4i_G3n1Zi",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzcffKPIXkkMX_2JyZ4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Of course! Thanks for the hole! 😇",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgxKbJxm01Ybkc-1kvp4AaABAg.Ac5ffDyHj0EAc5g4kzOB-s",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgxKbJxm01Ybkc-1kvp4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "This is the plunge-cancel tech that Dotxy found! If you start a plunge attack near the peak of a windstep, then use any AOE spell (in this case i'm pressing Q1 for Magical Mending), then immediately cancel (press ESC), you can gain additional movement in the air (1 more jump, and a dash and/or phase dash).\n\nTL;DR: Windjump -> Attack -> AoE spell -> Cancel -> Extra Movement",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgxnppZ85io_k1__RSN4AaABAg.Ac5z9nCj77fAc616oS2N_Y",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 4,
+   "reply_to": "UgxnppZ85io_k1__RSN4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Thanks! Definitely the best rib clip i've had in a run. If you see my pinned comment I note it's possible to clip directly up here as well, which saves a few seconds but it's quite hard.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgwuLrgucrHzLKnbRw94AaABAg.Ac5zpEfivYUAc610M-Mww4",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgwuLrgucrHzLKnbRw94AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "haha yea, I'm sure they'll patch that one out with the next set of \"fixes\". If you see my 1.0.1 Day 1 Strats video it goes through the Keep Puzzle normally, and i'll likely have to revert back to that route when they patch the OOB.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgxoLdE36a9OWDmA49Z4AaABAg.Ac5z48m9y4BAc60_9Eiclt",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxoLdE36a9OWDmA49Z4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Updated the title to 1.0.1.1, instead of 1.0.1, because it's still relevant in the current patch.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgxRrkyUmYm_yNCay_Z4AaABAg",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": null,
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": " @MuRDoK876  Nothing has been changed yet, this run is valid for versions 1.0.1 and 1.0.1.1 of the game.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgxRrkyUmYm_yNCay_Z4AaABAg.Ac6Xw812DVKAcFFgfHBw8w",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-22",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgxRrkyUmYm_yNCay_Z4AaABAg.Ac6Xw812DVKAcA2QcionFm",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "That zoop in particular is hard. The best thing i did for my consistency there was just trying to find a visual cue on the rock, sort of like how I did for the jump into OOB so it goes a bit smoother. Hopefully we'll have the mechanics behind it figured out soon, as there's multiple people working on it.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgzKx_JhQIG2eih4kwh4AaABAg.Ac4kgUNWPOVAc7FGGMP09i",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgzKx_JhQIG2eih4kwh4AaABAg.Ac4kgUNWPOVAc7-cNVtc8T",
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Getting strong zoops 100% of the time isn't something I've fully figured out yet, I have some thoughts about it in my comment that isn't pinned, but TL;DR:\nMight be FPS dependent, possible that the ground angle you zoop from matters",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=Ugy9AxnqDjCWRwcAxEF4AaABAg.Ac5zEbWhNAfAc60O8oNuM0",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugy9AxnqDjCWRwcAxEF4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "This is the plunge-cancel tech that Dotxy found! If you start a plunge attack near the peak of a windstep, then use any AOE spell (in this case i'm pressing Q1 for Magical Mending), then immediately cancel, you can gain additional movement in the air (1 more jump, and a dash and/or phase dash).\n\nTL;DR: Windjump -> Attack -> AoE spell -> Cancel -> Extra Movement\n\nI am playing on PC, but I'm not using any mods, that would defeat the purpose of the run, and be obviously unfair! This movement tech might be harder to do on console but it's not necessary for any skip, it just makes it a bit faster in a couple places.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgxuOzbE_niyZBtX4XV4AaABAg.Ac90hcLKVQmAc9EYegvzXE",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxuOzbE_niyZBtX4XV4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": " @IINo1goodII  Ideally we'd go straight to the Kuldra door from Rasthin's, maybe even able to enter while falling to cancel fall damage instead of recall. Needs more horizontal momentum, I know at least 1 person is working on this currently.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgxT368wls2mjWOoFwd4AaABAg.AcJGir0n-QzAcUP2kSXnGE",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-28",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgxT368wls2mjWOoFwd4AaABAg.AcJGir0n-QzAcRksJpVGVP",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": " @Trance_OCE  I'm not sure but it's 100% not worth it. Stamina is King on this run, it's why I'm using fleet-footed infusions and stamina potions in some sections. And why I'm camping mage hat but swapping to melee hat and ferocious infusions both times I have to fight.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=Ugz4d_rbwxzowTDwRAB4AaABAg.Ac5oITBvLFBAc5pc1JjyEr",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugz4d_rbwxzowTDwRAB4AaABAg.Ac5oITBvLFBAc5p7bIMBLh",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "It's not, if you go too far left and fall, you can just jump back up to where I land. Try to jump from the same spot I do, I jump from there because it sets up the jump just about right.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgzsiAvzbCGpM_gt-Kl4AaABAg.Ac6WIlnpquIAc6XVeH9D16",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgzsiAvzbCGpM_gt-Kl4AaABAg",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "I don't necessarily think they should do anything to stop people playing how they want, excepting removing OOB sections, maybe. Invisible walls and blocking off the very obvious places we're meant to use our fun movement spells is just stupid, and poor game design. I do agree an optional skip to kuldra should be available for those who would like it though, after clearing the raid X amoint of times (more than once at least, i think is fair).",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgyhFjrA3hXGujUyQ0R4AaABAg.Ac7C7E5TA8SAc7ERukdWMp",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgyhFjrA3hXGujUyQ0R4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "bug"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Really hate to have to comment this on my own video but @thelastiger is a content thief. They steal and re-upload videos claiming them as their own, while claiming the victim \"explicitly agreed to it\". I will make it clear that you do NOT have the right to re-upload ANY of my content from any source, now, or ever.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgyQvwrW0MgbEk09C9p4AaABAg",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "This is the plunge-cancel tech that Dotxy found. If you start a plunge attack near the peak of a windstep, then use any AOE spell (in this case i'm pressing Q1 for Magical Mending), then immediately cancel (press ESC), you can gain additional movement in the air (1 more jump, and a dash and/or phase dash).\n\nTL;DR: Windjump -> Attack -> AoE spell -> Cancel -> Extra Movement",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=Ugxp3xi3df39KXm_Wj54AaABAg.Ac3o5Magz4AAc4hvq8OO7c",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": "Ugxp3xi3df39KXm_Wj54AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": " @Trance_OCE  Leggies don't change jump height in any way, you just take less fall damage and don't spend runes on windstep. They would be good for practicing without wasting runes, though. :)",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=Ugxp3xi3df39KXm_Wj54AaABAg.Ac3o5Magz4AAc5f8Mbyswy",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugxp3xi3df39KXm_Wj54AaABAg.Ac3o5Magz4AAc5dH89r-Dj",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "It's actually closed until about 2:12 - 2:13 , you can see it opening itself as I'm mid jump. It stays open after your first completion of the raid, and displays like this.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgwtAGfYjt5WGrgJ2KR4AaABAg.Ac5ta09wp_dAc5uR5cL-eC",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": "2:12",
+   "video_timestamps": [
+    "2:12",
+    "2:13"
+   ],
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgwtAGfYjt5WGrgJ2KR4AaABAg",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "self-shown",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Phase dash? It brings me just as far as it does for anyone else. If you meant edge surges (zoops), then we're not totally sure of the mechanics behind that. I've got some speculation in other comments here, and its being actively researched by a few people.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgxxWq3YTtnss5NcTWx4AaABAg.Ac79SgBwOVGAc7EnjY1uSI",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxxWq3YTtnss5NcTWx4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Nothing here is patched, what part are you having trouble with? I can explain.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=Ugwj8hH90vu9h9Pq4Wl4AaABAg.Ac4g3mZn0msAc4hWOl0M11",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugwj8hH90vu9h9Pq4Wl4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Nice hole lad, will credit you in the route :)",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=faQnPcZPaZ8&lc=UgxzLGXZbdJcAvbviXZ4AaABAg",
+   "video": {
+    "id": "faQnPcZPaZ8",
+    "title": "KULDRA ELEMENTAL PUZZLE SKIP (POST PATCH) 1.0.1",
+    "channel": "@notmusty1"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": " @ryancrook-p6x  I don't really want to take over Dot's comment section, but If i do another run it's likely going to have a different route, considering the current route would be the same as my last run just using this and cleaner. I've got some very silly ideas.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=GeWbo4GpFEg&lc=UgyGBD_ewKFXsqo4i4h4AaABAg.AcMQrl8zQndAcPTKvT-IHC",
+   "video": {
+    "id": "GeWbo4GpFEg",
+    "title": "NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness Raid - Tech & Tutorial in description",
+    "channel": "@Dotxygaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-26",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgyGBD_ewKFXsqo4i4h4AaABAg.AcMQrl8zQndAcNuIbNPg5b",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": " @notmusty1  Maybe not a speedrunner in name, but glitch hunters and route finders are really very helpful to the speedrunning community, and I appreciate it.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=rNDeEKsKGeA&lc=UgzpAi2vJ83_yg9PpnJ4AaABAg.Ac2zfLROVr4Ac3ManOqq09",
+   "video": {
+    "id": "rNDeEKsKGeA",
+    "title": "RuneScape DragonWilds Kuldra ABYSSAL DEMON FULL SKIP POST PATCH 1.0.1 WORKING",
+    "channel": "@notmusty1"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzpAi2vJ83_yg9PpnJ4AaABAg.Ac2zfLROVr4Ac349zVC6pu",
+   "topic": "bug",
+   "topics": [
+    "bug"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Thanks for the new skip idea after the first BD, I experimented around in that area for awhile, but clearly not enough! I've credited you in the route :)",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=s9cyeL2c-qg&lc=UgxhRn4eLDQu8ZncxaJ4AaABAg",
+   "video": {
+    "id": "s9cyeL2c-qg",
+    "title": "Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!",
+    "channel": "@SectorTSWG"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "If you can hear buzzing/crackling btw, I have no idea. Pretty sure it happened when I cut it for YT as it isn't there in the original full recording.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=vw_Mr5TGJAg&lc=UgwPn66P1YcCrszRAUl4AaABAg",
+   "video": {
+    "id": "vw_Mr5TGJAg",
+    "title": "Runescape: Dragonwilds | 8:32 Kuldra | 1.0.1 Day 1 Strats",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "I fact yes I did it myself when cutting it because I am stupid. This is fixed in later videos...",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=vw_Mr5TGJAg&lc=UgwPn66P1YcCrszRAUl4AaABAg.AbzMhJAl8eYAc4lFV4k93o",
+   "video": {
+    "id": "vw_Mr5TGJAg",
+    "title": "Runescape: Dragonwilds | 8:32 Kuldra | 1.0.1 Day 1 Strats",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgwPn66P1YcCrszRAUl4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Sadly true, they are intent on removing fun from my single player game. I will still run this though, as long as the route is fun.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=vw_Mr5TGJAg&lc=UgwnCGGjn2qhLhoH3AJ4AaABAg.Ac-1EiGs_nzAc-PDFUjp2k",
+   "video": {
+    "id": "vw_Mr5TGJAg",
+    "title": "Runescape: Dragonwilds | 8:32 Kuldra | 1.0.1 Day 1 Strats",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgwnCGGjn2qhLhoH3AJ4AaABAg",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": " @SamFPlays  if you notice between the bridge start and end there's a white cube looking thing floating midair, you need to stay to the right of it.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=UgwTUyLXTO_Tj3BYWEF4AaABAg.Ac-D0AhByklAc0Re4Hq2mQ",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgwTUyLXTO_Tj3BYWEF4AaABAg.Ac-D0AhByklAc-Lhwz27xH",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "Yea I compared as well it's definitely faster, and I'll be posting an updated run borrowing some of your tech too, after I farm more stamina pots :( Also, yea I noticed Archy timed it at 8:05, maybe it's posted on the discord? (I'm not in it) But there's no rules posted for timing on the raid category, so I naturally assumed it was first to last input which is pretty standard. I don't think the 15s of doing nothing at the end really adds anything at all, personally.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=yKDHfkxIrU4&lc=UgwGQm9HWUyDcegexah4AaABAg.AbpizVGsCdiAbpqvechcHm",
+   "video": {
+    "id": "yKDHfkxIrU4",
+    "title": "Runescape: Dragonwilds | 8:05 Kuldra | 1.0.0.6+ Legacy Run",
+    "channel": "@iNanobit"
+   },
+   "timestamp": "8:05",
+   "video_timestamps": [
+    "8:05"
+   ],
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgwGQm9HWUyDcegexah4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "timing"
+   ],
+   "verified": "self-shown",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [
+  {
+   "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g",
+   "date": "2026-10-17",
+   "duration": "7:45",
+   "views": 22350,
+   "channel": "@iNanobit",
+   "summary": "Windstepping up the blocks to Kuldra no longer works as of 1.0.1.2/1.0.1.3. You can still get up to that area via just flying lmao. Plunge-cancel tech has evolved even further, check out @Dotxygaming's video here: https://www.youtube.com/watch?v=GeWbo4GpFEg",
+   "description": "Windstepping up the blocks to Kuldra no longer works as of 1.0.1.2/1.0.1.3. You can still get up to that area via just flying lmao. Plunge-cancel tech has evolved even further, check out @Dotxygaming's video here: https://www.youtube.com/watch?v=GeWbo4GpFEg\n\n@texaspete.2173 has posted a sub 7! It's a great run but it is using some strats that have been patched at this point. Still it's worth a watch of course! Clean run and using some different movement from me, so many things to learn.\n\nThanks to @SectorTSWG via @Sir_Rebral for the new skip to Fragments, and @notmusty1 via @IINo1goodII for finding a lovely hole in Keep!\nThanks again to @Dotxygaming for the plunge-cancel tech, it's very fun.\n\nRun Notes:\nThere's still a good amount of time to save here, clearly can be done sub 7 judging by my sum of best, but needs very clean movement and strong zoops. Especially in the area with the 3rd BD directly after zooping from keep, if you get a strong enough one you can make it all the way from where you landed to well past the plant.\n\nRun's Verified on SRC for those that care: \nhttps://www.speedrun.com/Runescape_Dragonwilds/runs/m74v4p4m\n\nConsider joining the RSDW Speedrunning Discord for more!\nhttps://discord.gg/aGZkuC5yK6",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 97,
+   "key_moments": [
+    {
+     "t": "0:23",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=23s",
+     "what": "Tapped sprint in beginning but was already sprinting, so walked in beginning for about 1.5s before re-sprinting",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "0:51",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=51s",
+     "what": "Can do 4 air dash instead of 3 towards 1st air anima pillar",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "1:14",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=74s",
+     "what": "Can do 3 air dash instead of 2 towards 2nd air anima pillar",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "1:22",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=82s",
+     "what": "KB from Kuldra initial hit can be iframed with better timed dash + tighter line over torch into 1st BD",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "1:30",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=90s",
+     "what": "Earth Pillar can be started about 1s earlier, can see camera shake of frustration 🤣",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "1:39",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=99s",
+     "what": "Falling down after 1st BD can take slightly better line to jump off point",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "1:45",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=105s",
+     "what": "Technically could start zoop to Fragments about 1.5s earlier but this zoop is hard, so safety.",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "2:05",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=125s",
+     "what": "Zoop from keep wall across pond can make it all the way to the gate with a good one, save maybe 2.5s",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "2:13",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=133s",
+     "what": "Can likely plunge cancel here on John Goblikon ( https://music.youtube.com/watch?v=ahT3UrbOn0c ) instead of waiting to fall, saving a second maybe.",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "2:28",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=148s",
+     "what": "More confidence pushing into the hole will produce better (faster) results.",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "2:32",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=152s",
+     "what": "With a good zoop here you can make it all the way to where I'm standing at 2:37, with no air/phase dash at all.",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "2:45",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=165s",
+     "what": "Not exactly a time save but it's important to start surging from exactly where I do, so the demon doesn't chase you into the next area. I've seen him come inside and fight me alongside the thane. 💀",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "2:47",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=167s",
+     "what": "Don't hit this pillar lmao. Skele blocked my path here and I tried to adjust, poorly.",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "3:22",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=202s",
+     "what": "Extra swing, not ideal. Don't forget to re-use your fleet-footed infusion here, because I did.",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "3:46",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=226s",
+     "what": "This zoop can go far enough to require no dashes.",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "3:50",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=230s",
+     "what": "This zoop can go far enough to place you around where I'm standing at 3:57. This saves A LOT of time if it works.",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "4:38",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=278s",
+     "what": "Again not exactly a time save, but it's a nice point of reference of where to jump from, into the OOB.",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "4:44",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=284s",
+     "what": "Extra jump up onto the rock here not needed, just missed the first one.",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "5:07",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=307s",
+     "what": "You could probably plunge cancel here to save a small amount of time, but remember that DScim doesn't have a plunge animation, so you need something else equipped.",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "5:12",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=312s",
+     "what": "Same here, as well as using the cancel to dash onto the first rock that I jump from at 5:15.",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "5:18",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=318s",
+     "what": "Sometimes this zoop is strong enough to only need 1 dash, then you can save the phase dash for Kuldra.",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "5:33",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=333s",
+     "what": "If you're incredibly lucky, or smart enough to figure out the exact position to jump from and hit into, you can clip straight through the ground at rib clip, without having to crouch walk up it and scimmy swing to clip out. This saves at least 3s.",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "5:52",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=352s",
+     "what": "You can probably air dash at least twice here (don't waste phase dash yet though) and retain enough stamina to make the next jump here.",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "5:57",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=357s",
+     "what": "With a strong enough zoop you don't need an air or phase dash.",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "6:16",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=376s",
+     "what": "Not really a timesave but make sure you stay to the RIGHT of the small white floating cube you can see where the bridge would normally be, or you will bonk and fall. If you managed to save 1 of 2 possible phase dashes earlier, you can use one here for safety.",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "6:20",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=380s",
+     "what": "If you have any phase dashes left, just use them now.",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    },
+    {
+     "t": "6:47",
+     "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&t=407s",
+     "what": "I slightly missed the melee safespot, I jump into it correctly at 6:53.",
+     "source": "uploader comment Ugw-qVlp7mb4L170w1x4AaABAg"
+    }
+   ]
+  },
+  {
+   "title": "Runescape: Dragonwilds | 8:32 Kuldra | 1.0.1 Day 1 Strats",
+   "url": "https://www.youtube.com/watch?v=vw_Mr5TGJAg",
+   "date": "2026-10-15",
+   "duration": "9:03",
+   "views": 623,
+   "channel": "@iNanobit",
+   "summary": "Run is already obsolete 💀",
+   "description": "Run is already obsolete 💀\nSee the new WR here: https://www.youtube.com/watch?v=doVQ9Ph256g\n\nRun Notes:\n• Thanks to @Dotxygaming for the plunge-cancel tech!\n• This run could be so much more clean, but I wanted to get the early strats posted so it could develop from here.\n\nCompared to 1.0.0.6+:\n• same as 1.0.0.8 up to first bd\n\n• zoop across to necro land\n• zoop left side off rocks left of bridge towards top of pillar on left, needs decent height, may or may not need both dashes depending on strength of zoop\n• respawn, since this uh... does that.\n\n• same from here until passing water door into stronghold\n\n• kill the air anime garou thane, he likes to walk through the closed gate on his own???\n• windjump up to air door, from tip of rubble pile and go through\n• exit through hole in wall above orb dispenser\n\n• continue as normal here until keep puzzle\n• just do the keep puzzle ASAP\n\n• after keep puzzle kuldra is exactly the same\n\nExtra:\n• Air Thane takes like 15 minutes to respawn, it's best to just sleep through a night after completing a run... otherwise he doesn't spawn in the next run and ruins your time.",
+   "transcript": "auto-captions, see D:/claude-temp/people/transcripts/vw_Mr5TGJAg.txt",
+   "comments_fetched": 8,
+   "key_moments": []
+  },
+  {
+   "title": "Runescape: Dragonwilds | 7:04 Kuldra | 1.0.0.6+ Legacy WR",
+   "url": "https://www.youtube.com/watch?v=KljLK0Z-9jY",
+   "date": "2026-10-12",
+   "duration": "7:44",
+   "views": 173,
+   "channel": "@iNanobit",
+   "summary": "Run is Obsolete as of Patch 1.0.1, New Strats Here!: https://www.youtube.com/watch?v=doVQ9Ph256g",
+   "description": "Run is Obsolete as of Patch 1.0.1, New Strats Here!: https://www.youtube.com/watch?v=doVQ9Ph256g\n\n---\nOriginal Description:\n\nNew routing ideas from @texaspete.2173 (Some of the zoops, a new jump at Stronghold, and Melee heart) and @wes7918 (Rib Clip at Kuldra Checkpoint) and some of my own. :)\n\nRun Notes:\n\n(Timestamps from the run time, not the video time sorry.)\n\n• It might be possible to get to the first wooden bridge with a good enough Zoop from the Air Anima Pillar... (After it's activated to remove the wall, of course) (~0:35 - 0:43)\n• With an insane Zoop from vines it's possible to land on the wall with the vine breaking through instead of having to run and Windjump on to it, but I've only done it once. (~1:24 - 1:38)\n• Likewise you can make it all the way to the door just past the plant with a good enough Zoop from the wall with mobs on it. (~1:41 - 1:45)\n• You can get a much better Zoop from the vine to bridge that doesn't require any dashes. (~2:13 - 2:18)\n• You can (again) get a much better Zoop from Stronghold to Keep that doesn't require any dashes. (~3:15 - 3:19)\n• Got stuck here for a second lmao. Don't do that. (~3:26)\n• Lost about a second to bonking (~3:44) and accidentally tapping shift cancelling my sprint. (~4:04)\n• The Windjump can make it all the way to the second rock (~4:35 - 4:40) instead of having to double-jump up.\n• The Rib Clip can be done much faster, if you're lucky with the Windjump and your placement, it can immediately clip you through without having to crouch/swing sword. (~5:08)\n• I'm not sure if it's better to save the surge leftover at this point and use it like I did (crossing to Kuldra), or use it earlier before windjumping up. I'd have to recast it at the top but it could still be faster, and save me a surge from the second side of Kuldra's bridge to her face (instead of jump/dashing), as well as one for the throat.\n• The melee safespot inside the heart could probably be entered faster.\n• Overall just doing things more cleanly will produce a sub 7 considering my sum of best is 6:58.",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 1,
+   "key_moments": [
+    {
+     "t": "0:35",
+     "url": "https://www.youtube.com/watch?v=KljLK0Z-9jY&t=35s",
+     "what": "It might be possible to get to the first wooden bridge with a good enough Zoop from the Air Anima Pillar... (After it's activated to remove the wall, of course).)",
+     "source": "chapter"
+    },
+    {
+     "t": "1:24",
+     "url": "https://www.youtube.com/watch?v=KljLK0Z-9jY&t=84s",
+     "what": "With an insane Zoop from vines it's possible to land on the wall with the vine breaking through instead of having to run and Windjump on to it, but I've only done it once..)",
+     "source": "chapter"
+    },
+    {
+     "t": "1:41",
+     "url": "https://www.youtube.com/watch?v=KljLK0Z-9jY&t=101s",
+     "what": "Likewise you can make it all the way to the door just past the plant with a good enough Zoop from the wall with mobs on it..)",
+     "source": "chapter"
+    },
+    {
+     "t": "2:13",
+     "url": "https://www.youtube.com/watch?v=KljLK0Z-9jY&t=133s",
+     "what": "You can get a much better Zoop from the vine to bridge that doesn't require any dashes..)",
+     "source": "chapter"
+    },
+    {
+     "t": "3:15",
+     "url": "https://www.youtube.com/watch?v=KljLK0Z-9jY&t=195s",
+     "what": "You can (again) get a much better Zoop from Stronghold to Keep that doesn't require any dashes..)",
+     "source": "chapter"
+    },
+    {
+     "t": "3:26",
+     "url": "https://www.youtube.com/watch?v=KljLK0Z-9jY&t=206s",
+     "what": "Got stuck here for a second lmao. Don't do that.",
+     "source": "chapter"
+    },
+    {
+     "t": "3:44",
+     "url": "https://www.youtube.com/watch?v=KljLK0Z-9jY&t=224s",
+     "what": "Lost about a second to bonking.and accidentally tapping shift cancelling my sprint. (~)",
+     "source": "chapter"
+    },
+    {
+     "t": "4:35",
+     "url": "https://www.youtube.com/watch?v=KljLK0Z-9jY&t=275s",
+     "what": "The Windjump can make it all the way to the second rock.) instead of having to double-jump up.",
+     "source": "chapter"
+    },
+    {
+     "t": "5:08",
+     "url": "https://www.youtube.com/watch?v=KljLK0Z-9jY&t=308s",
+     "what": "The Rib Clip can be done much faster, if you're lucky with the Windjump and your placement, it can immediately clip you through without having to crouch/swing sword.",
+     "source": "chapter"
+    },
+    {
+     "t": "6:58",
+     "url": "https://www.youtube.com/watch?v=KljLK0Z-9jY&t=418s",
+     "what": "Overall just doing things more cleanly will produce a sub 7 considering my sum of best is",
+     "source": "chapter"
+    }
+   ]
+  },
+  {
+   "title": "Runescape: Dragonwilds | 8:05 Kuldra | 1.0.0.6+ Legacy Run",
+   "url": "https://www.youtube.com/watch?v=yKDHfkxIrU4",
+   "date": "2026-10-10",
+   "duration": "9:03",
+   "views": 396,
+   "channel": "@iNanobit",
+   "summary": "Run is Obsolete as of Patch 1.0.1, New Strats Here!: https://www.youtube.com/watch?v=doVQ9Ph256g",
+   "description": "Run is Obsolete as of Patch 1.0.1, New Strats Here!: https://www.youtube.com/watch?v=doVQ9Ph256g\n\nOriginal Description:\nThanks to @SamFPlays for a large part of the routing (but not all of it :D), check out his sub 10 minute explainer video for some of the skips. \n\nRun Notes:\n• The run was re-timed at 8:05, I'm not sure the 15s of doing nothing at the end really adds anything, personally.\n• The Zoop from Stronghold to Keep could have been stronger (I've made it with 0 Air/Phase Dash before), as well as the one to Kuldra (same story). I suspect the strength of the zoop is dependent on framerate where lower framerates give stronger zoops.\n• The OOB Section can have cleaner Windsteps, skipping 2 Double Jumps.\n• Need to test if clipping back through the ground at Kuldra is faster than respawning.",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 6,
+   "key_moments": []
+  },
+  {
+   "title": "Twitch VOD (only one public, 2020, not Dragonwilds)",
+   "url": "https://www.twitch.tv/videos/658013904",
+   "date": null,
+   "duration": "10:28:46",
+   "summary": "Old VOD with nothing about the raid. The Twitch channel has 176 clips, all pre-2023 shooter clips. Raid runs are on YouTube only."
+  }
+ ],
+ "runs": [
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Raid",
+   "time_s": 485,
+   "date": "2026-10-10",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/zpe5n1xy",
+   "video": "https://www.youtube.com/watch?v=yKDHfkxIrU4",
+   "comment": "• The Zoop from Stronghold to Keep could have been stronger (I've made it with 0 Air/Phase Dash before), as well as the one to Kuldra (same story). I suspect the strength of the zoop is dependent on framerate where lower framerates give stronger zoops.\n\n• The OOB Section can have cleaner Windsteps, skipping 2 Double Jumps.\n\n• Need to test if clipping back through the ground at Kuldra is faster than respawning.\n\n"
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Raid",
+   "time_s": 424,
+   "date": "2026-10-12",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/zxr5djkz",
+   "video": "https://www.youtube.com/watch?v=KljLK0Z-9jY",
+   "comment": "**Run Notes:**\n\n• It might be possible to get to the first wooden bridge with a good enough Zoop from the Air Anima Pillar... (After it's activated to remove the wall, of course) (~0:35 - 0:43) \n\n• With an insane Zoop from vines it's possible to land on the wall with the vine breaking through instead of having to run and Windjump on to it, but I've only done it once. (~1:24 - 1:38) \n\n• Likewise you can make it all the way to the door just past the plant with a good enough Zoop from the wall with mobs on it. (~1:41 - 1:45) \n\n• You can get a much better Zoop from the vine to bridge that doesn't require any dashes. (~2:13 - 2:18) \n\n• You can (again) get a much better Zoop from Stronghold to Keep that doesn't require any dashes. (~3:15 - 3:19) \n\n• Got stuck here for a second lmao. Don't do that. (~3:26) \n\n• Lost about a second to bonking (~3:44) and accidentally tapping shift cancelling my sprint. (~4:04) \n\n• The Windjump can make it all the way to the second rock (~4:35 - 4:40) instead of having to double-jump up. \n\n• The Rib Clip can be done much faster, if you're lucky with the Windjump and your placement, it can immediately clip you through without having to crouch/swing sword. (~5:08) \n\n• I'm not sure if it's better to save the surge leftover at this point and use it like I did (crossing to Kuldra), or use it earlier before Windjumping up. I'd have to recast it at the top but it could still be faster, and save me a surge from the second side of Kuldra's bridge to her face (instead of jump/dashing), as well as one for the throat. \n\n• The melee safespot inside the heart could probably be entered faster. \n\n• Overall just doing things more cleanly will produce a sub 7 considering my sum of best is 6:58."
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Raid",
+   "time_s": 421,
+   "date": "2026-10-17",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/m74v4p4m",
+   "video": "https://www.youtube.com/watch?v=doVQ9Ph256g",
+   "comment": "Thanks to [@SectorTSWG](https://www.youtube.com/@SectorTSWG) via [@Sir_Rebral](https://www.youtube.com/@Sir_Rebral) for the new skip to Fragments, and [@notmusty1](https://www.youtube.com/@notmusty1) via [@IINo1goodII](https://www.youtube.com/@IINo1goodII) for finding a lovely hole in Keep! Thanks again to [@Dotxygaming](https://www.youtube.com/@Dotxygaming) for the plunge-cancel tech, it's very fun. \n\n\n\nRun Notes: \n\n\nThere's still a good amount of time to save here, clearly can be done sub 7 judging by my sum of best, but needs very clean movement and strong zoops. Especially in the area with the 3rd BD directly after zooping from keep, if you get a strong enough one you can make it all the way from where you landed to well past the plant."
+  }
+ ],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

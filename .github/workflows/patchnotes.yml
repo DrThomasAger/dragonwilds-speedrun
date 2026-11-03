@@ -16,6 +16,8 @@ jobs:
           node-version: 20
       - run: node scripts/fetch-patchnotes.mjs
       - run: node scripts/track-sources.mjs
+      - name: Rebuild the knowledge base
+        run: node scripts/build-kb.mjs
       - name: Commit if changed
         run: |
           if [ -n "$(git status --porcelain data/)" ]; then

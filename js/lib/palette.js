@@ -9,7 +9,7 @@ async function build() {
   const out = [
     ['Beat 6:50 today', '#/today', 'page'], ['HQ', '#/hq', 'page'], ['Run navigator', '#/run', 'page'], ['Race the WR', '#/compare', 'page'], ['Split-aligned compare', '#/compare?mode=split', 'page'],
     ['Route', '#/route', 'page'], ['Reel Studio', '#/studio', 'page'], ['Practice', '#/practice', 'page'], ['Split timer', '#/timer', 'page'],
-    ['Mechanics wiki', '#/wiki', 'page'], ['Patch notes', '#/patches', 'page'], ['Library', '#/library', 'page'], ['Hardcore 1→Max', '#/hardcore', 'page'], ['Hardcore Run mode', 'hardcore-run.html', 'page'],
+    ['Mechanics wiki', '#/wiki', 'page'], ['Knowledge base', '#/kb', 'page'], ['Knowledge graph', '#/kb?v=graph', 'page'], ['Knowledge tables', '#/kb?v=tables', 'page'], ['Daily notes', '#/kb?v=daily', 'page'], ['Patch notes', '#/patches', 'page'], ['Library', '#/library', 'page'], ['Hardcore 1→Max', '#/hardcore', 'page'], ['Hardcore Run mode', 'hardcore-run.html', 'page'],
     ['6:38 community composite reel', '#/studio?id=p-sob', 'reel'],
   ];
   SPLITS.forEach((s, k) => { out.push([`${k + 1}. ${s.name} — route`, `#/route?split=${k}`, 'split'], [`${k + 1}. ${s.name} — every record side by side`, `#/compare?mode=split&seg=${k}`, 'split'], [`${k + 1}. ${s.name} — reel`, `#/studio?id=p-seg${k}`, 'reel']); });
@@ -17,6 +17,10 @@ async function build() {
   TECH.forEach(s => out.push([`Drill: ${s.name}`, `#/practice?skip=${s.id}`, 'tech']));
   try { const { WIKI } = await import('../data/wiki.js'); WIKI.forEach(e => out.push([`Wiki: ${e.title}`, `#/wiki?id=${e.id}`, e.cat])); } catch { /* none */ }
   VIDEOS.forEach(v => out.push([`${v.author} — ${v.title}`, `#/library?q=${encodeURIComponent(v.author)}`, 'video']));
+  try {
+    const g = await (await fetch('data/kb/graph.json')).json();
+    g.nodes.filter(n => n.type !== 'day').forEach(n => out.push([`KB: ${n.title}`, `#/kb?p=${encodeURIComponent(n.id)}`, n.type]));
+  } catch { /* knowledge base not built */ }
   return out.map(([label, href, tag]) => ({ label, href, tag, l: label.toLowerCase() }));
 }
 

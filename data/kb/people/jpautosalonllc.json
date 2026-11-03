@@ -1,0 +1,50 @@
+{
+ "handle": "jpautosalonllc",
+ "name": "JPAutoSalonLLC",
+ "aliases": [
+  "@JPAutoSalonLLC"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@JPAutoSalonLLC",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: You can stand on that platform where you would surge and dash but just windstep down onto the green rock below. You won’t die. Then just jump forward on the flo…",
+ "insights": [
+  {
+   "text": "You can stand on that platform where you would surge and dash but just windstep down onto the green rock below. You won’t die. Then just jump forward on the floating black rock windstep once onto the spike with the broken tip and then again to get on the platform.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=UgzQ-k_EvQVPpv0JvGR4AaABAg.Ac-mgfkoPV4Ac05wn0UUI2",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": "UgzQ-k_EvQVPpv0JvGR4AaABAg",
+   "topic": "route",
+   "topics": [
+    "tech"
+   ],
+   "verified": "outdated",
+   "verification_note": null,
+   "curated": true
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

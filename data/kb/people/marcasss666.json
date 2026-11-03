@@ -1,0 +1,50 @@
+{
+ "handle": "marcasss666",
+ "name": "MaRcAsSs666",
+ "aliases": [
+  "@MaRcAsSs666"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@MaRcAsSs666",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 8,
+ "summary": "Single-insight commenter: when you press windstep, wait a bit until you see your weapons and then press run and then jump. If you make windstep and immediately press run, it doesn't coun…",
+ "insights": [
+  {
+   "text": "when you press windstep, wait a bit until you see your weapons and then press run and then jump. If you make windstep and immediately press run, it doesn't count. So windstep > wait > run > forward > jump",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1NfTq_kvj7k&lc=UgzfDxsh58uanit8jIp4AaABAg.AbyQSC_TNx8Abyj8x4BwYG",
+   "video": {
+    "id": "1NfTq_kvj7k",
+    "title": "Full Kuldra Run Skip - Post 1.0.1 Patch | Runescape Dragonwilds",
+    "channel": "@zyneater"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzfDxsh58uanit8jIp4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

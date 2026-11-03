@@ -1,0 +1,20 @@
+profile,synthetic,routeName,resetAfter_Vines,resetAfter_Fragments,resetAfter_Stronghold,resetAfter_Keep,subGoalPerHour,simulatedPolicyPerHour
+tp650,false,as-run,82.5,144.75,196,292.75,0.1788,0.1886
+tp650,false,current-patch default,76,137.25,197,281.75,0,0
+tp650,false,current-patch fastest,81.75,144.25,193.5,281.75,0.0007,0.0007
+nano701,false,as-run,86.75,152.75,212.5,297.25,0,0
+nano701,false,current-patch default,74,140,200,284.75,0,0
+nano701,false,current-patch fastest,81.75,149,197.75,284.75,0,0
+tp650-asmedian,false,as-run,83.25,145,196,292.75,2.9591,3.0612
+tp650-asmedian,false,current-patch default,80.5,141,199.75,283.5,0,0
+tp650-asmedian,false,current-patch fastest,81.5,143.25,192.75,280.5,0.0865,0.0958
+nano701-asmedian,false,as-run,86.5,152.25,212.75,298.5,0.0005,0.0007
+nano701-asmedian,false,current-patch default,78.5,143.75,202.75,286.5,0,0
+nano701-asmedian,false,current-patch fastest,81.25,148.25,197.25,284.75,0.0131,0.0156
+target-asmedian,false,as-run,85.75,147.5,199.25,286.75,2.3318,2.3961
+target-asmedian,false,current-patch default,87.25,147.5,208.5,293,0,0
+best-of-both-asmedian,false,as-run,87.25,148.5,210,297,0.208,0.233
+best-of-both-asmedian,false,current-patch default,83.5,143.75,202.75,286.5,0,0
+best-of-both-asmedian,false,current-patch fastest,82.25,144,194,282,0.3743,0.3966
+synthetic-new,true,as-run,86.75,151.5,209.5,289,0,0
+synthetic-new,true,current-patch fastest,86,153.75,204.75,289,0,0

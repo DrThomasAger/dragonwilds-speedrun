@@ -1,0 +1,1748 @@
+{
+  "generatedAt": "2026-11-03T06:01:27.722Z",
+  "goal": 410,
+  "goalMargin": 408,
+  "n": 100000,
+  "resetOverhead": 45,
+  "splits": [
+    "Vines",
+    "Fragments",
+    "Stronghold",
+    "Keep",
+    "Sanctum"
+  ],
+  "runpath": {
+    "path": "D:\\labyrinth\\Github\\JaGeX\\dragonwilds-speedrun\\data\\kb\\runpath.json",
+    "error": null
+  },
+  "results": [
+    {
+      "id": "tp650",
+      "label": "TexasPete (calibrated: 6:50 = best of ~177 attempts)",
+      "kind": "reference",
+      "synthetic": false,
+      "routes": [
+        {
+          "name": "as-run",
+          "route": [
+            "vines-direct",
+            "frag-std",
+            "thane-wallclimb",
+            "keep-bluerock",
+            "sanctum-blocks"
+          ],
+          "summary": {
+            "n": 100000,
+            "route": [
+              "vines-direct",
+              "frag-std",
+              "thane-wallclimb",
+              "keep-bluerock",
+              "sanctum-blocks"
+            ],
+            "pBeat": 0.0108,
+            "stretch": null,
+            "pStretch": null,
+            "pBeatMargin": 0.0022,
+            "pFinish": 0.9567,
+            "pBeatGivenFinish": 0.0113,
+            "median": 421.23,
+            "p10": 414.03,
+            "p90": 434.8,
+            "best1in1000": 407.22,
+            "expectedFinished": 423.1,
+            "expectedAttempt": 408.86,
+            "missesPerRun": 0.589,
+            "se": 0.0003,
+            "cumPace": [
+              {
+                "p10": 80.91,
+                "p50": 84.18,
+                "p90": 93.97
+              },
+              {
+                "p10": 143,
+                "p50": 146.99,
+                "p90": 158.15
+              },
+              {
+                "p10": 195.32,
+                "p50": 200.68,
+                "p90": 214.09
+              },
+              {
+                "p10": 292.99,
+                "p50": 299.18,
+                "p90": 312.77
+              },
+              {
+                "p10": 414.05,
+                "p50": 421.38,
+                "p90": 435.16
+              }
+            ]
+          },
+          "resetPolicy": {
+            "goal": 410,
+            "resetOverhead": 45,
+            "gridStep": 0.25,
+            "samplesPerSegment": 40000,
+            "ratePerSecond": 0.0000497,
+            "successesPerHour": 0.1788,
+            "hoursPerSuccess": 5.59,
+            "thresholds": [
+              82.5,
+              144.75,
+              196,
+              292.75
+            ],
+            "meaningful": true
+          },
+          "policyCheck": {
+            "attempts": 100000,
+            "pSuccessPerAttempt": 0.0092,
+            "meanAttemptSeconds": 176.03,
+            "successesPerHour": 0.1886,
+            "resetsAtSplits": 0.9052
+          },
+          "noResetBaseline": {
+            "successesPerHour": 0.086,
+            "meanAttemptSeconds": 441.04
+          }
+        },
+        {
+          "name": "current-patch default",
+          "route": [
+            "vines-std",
+            "frag-std",
+            "thane-windjump",
+            "keep-hole",
+            "sanctum-flight"
+          ],
+          "summary": {
+            "n": 100000,
+            "route": [
+              "vines-std",
+              "frag-std",
+              "thane-windjump",
+              "keep-hole",
+              "sanctum-flight"
+            ],
+            "pBeat": 0,
+            "stretch": null,
+            "pStretch": null,
+            "pBeatMargin": 0,
+            "pFinish": 0.954,
+            "pBeatGivenFinish": 0,
+            "median": 451.72,
+            "p10": 440.3,
+            "p90": 492.23,
+            "best1in1000": 432.08,
+            "expectedFinished": 459.23,
+            "expectedAttempt": 449.4,
+            "missesPerRun": 0.8332,
+            "se": 0,
+            "cumPace": [
+              {
+                "p10": 87.11,
+                "p50": 89.63,
+                "p90": 97.72
+              },
+              {
+                "p10": 149.16,
+                "p50": 152.24,
+                "p90": 162.84
+              },
+              {
+                "p10": 212.68,
+                "p50": 217.01,
+                "p90": 230.21
+              },
+              {
+                "p10": 302.2,
+                "p50": 308.84,
+                "p90": 351.2
+              },
+              {
+                "p10": 440.35,
+                "p50": 451.95,
+                "p90": 492.71
+              }
+            ]
+          },
+          "resetPolicy": {
+            "goal": 410,
+            "resetOverhead": 45,
+            "gridStep": 0.25,
+            "samplesPerSegment": 40000,
+            "ratePerSecond": 0,
+            "successesPerHour": 0,
+            "hoursPerSuccess": 238609294.22,
+            "thresholds": [
+              76,
+              137.25,
+              197,
+              281.75
+            ],
+            "meaningful": false
+          },
+          "policyCheck": {
+            "attempts": 100000,
+            "pSuccessPerAttempt": 0,
+            "meanAttemptSeconds": 135.36,
+            "successesPerHour": 0,
+            "resetsAtSplits": 0.9898
+          },
+          "noResetBaseline": {
+            "successesPerHour": 0,
+            "meanAttemptSeconds": 447.58
+          }
+        },
+        {
+          "name": "current-patch fastest",
+          "route": [
+            "vines-direct",
+            "frag-std",
+            "thane-launch",
+            "keep-hole",
+            "sanctum-flight"
+          ],
+          "summary": {
+            "n": 100000,
+            "route": [
+              "vines-direct",
+              "frag-std",
+              "thane-launch",
+              "keep-hole",
+              "sanctum-flight"
+            ],
+            "pBeat": 0,
+            "stretch": null,
+            "pStretch": null,
+            "pBeatMargin": 0,
+            "pFinish": 0.9233,
+            "pBeatGivenFinish": 0,
+            "median": 439.24,
+            "p10": 423.81,
+            "p90": 479.33,
+            "best1in1000": 414.14,
+            "expectedFinished": 445.3,
+            "expectedAttempt": 425.09,
+            "missesPerRun": 1.1098,
+            "se": 0,
+            "cumPace": [
+              {
+                "p10": 80.91,
+                "p50": 84.18,
+                "p90": 93.97
+              },
+              {
+                "p10": 143,
+                "p50": 146.99,
+                "p90": 158.15
+              },
+              {
+                "p10": 195.53,
+                "p50": 202.88,
+                "p90": 218.38
+              },
+              {
+                "p10": 285.33,
+                "p50": 297.14,
+                "p90": 338.02
+              },
+              {
+                "p10": 423.88,
+                "p50": 439.45,
+                "p90": 480.13
+              }
+            ]
+          },
+          "resetPolicy": {
+            "goal": 410,
+            "resetOverhead": 45,
+            "gridStep": 0.25,
+            "samplesPerSegment": 40000,
+            "ratePerSecond": 2.0000000000000002e-7,
+            "successesPerHour": 0.0007,
+            "hoursPerSuccess": 1436.64,
+            "thresholds": [
+              81.75,
+              144.25,
+              193.5,
+              281.75
+            ],
+            "meaningful": false
+          },
+          "policyCheck": {
+            "attempts": 100000,
+            "pSuccessPerAttempt": 0,
+            "meanAttemptSeconds": 152.85,
+            "successesPerHour": 0.0007,
+            "resetsAtSplits": 0.9563
+          },
+          "noResetBaseline": {
+            "successesPerHour": 0.0002,
+            "meanAttemptSeconds": 437.09
+          }
+        }
+      ]
+    },
+    {
+      "id": "nano701",
+      "label": "Nanobit (calibrated to PB 7:01.97 and SOB 6:51)",
+      "kind": "reference",
+      "synthetic": false,
+      "routes": [
+        {
+          "name": "as-run",
+          "route": [
+            "vines-std",
+            "frag-std",
+            "thane-windjump",
+            "keep-hole",
+            "sanctum-blocks"
+          ],
+          "summary": {
+            "n": 100000,
+            "route": [
+              "vines-std",
+              "frag-std",
+              "thane-windjump",
+              "keep-hole",
+              "sanctum-blocks"
+            ],
+            "pBeat": 0,
+            "stretch": null,
+            "pStretch": null,
+            "pBeatMargin": 0,
+            "pFinish": 0.9738,
+            "pBeatGivenFinish": 0,
+            "median": 434.02,
+            "p10": 426.22,
+            "p90": 476.09,
+            "best1in1000": 419.43,
+            "expectedFinished": 442.61,
+            "expectedAttempt": 434.58,
+            "missesPerRun": 0.64,
+            "se": 0,
+            "cumPace": [
+              {
+                "p10": 87.27,
+                "p50": 89.81,
+                "p90": 97.89
+              },
+              {
+                "p10": 155.09,
+                "p50": 158.64,
+                "p90": 169.21
+              },
+              {
+                "p10": 218.69,
+                "p50": 223.37,
+                "p90": 236.54
+              },
+              {
+                "p10": 308.34,
+                "p50": 315.32,
+                "p90": 357.62
+              },
+              {
+                "p10": 426.28,
+                "p50": 434.2,
+                "p90": 476.48
+              }
+            ]
+          },
+          "resetPolicy": {
+            "goal": 410,
+            "resetOverhead": 45,
+            "gridStep": 0.25,
+            "samplesPerSegment": 40000,
+            "ratePerSecond": 0,
+            "successesPerHour": 0,
+            "hoursPerSuccess": 79536431.41,
+            "thresholds": [
+              86.75,
+              152.75,
+              212.5,
+              297.25
+            ],
+            "meaningful": false
+          },
+          "policyCheck": {
+            "attempts": 100000,
+            "pSuccessPerAttempt": 0,
+            "meanAttemptSeconds": 139.83,
+            "successesPerHour": 0,
+            "resetsAtSplits": 0.9894
+          },
+          "noResetBaseline": {
+            "successesPerHour": 0,
+            "meanAttemptSeconds": 447.95
+          }
+        },
+        {
+          "name": "current-patch default",
+          "route": [
+            "vines-std",
+            "frag-std",
+            "thane-windjump",
+            "keep-hole",
+            "sanctum-flight"
+          ],
+          "summary": {
+            "n": 100000,
+            "route": [
+              "vines-std",
+              "frag-std",
+              "thane-windjump",
+              "keep-hole",
+              "sanctum-flight"
+            ],
+            "pBeat": 0,
+            "stretch": null,
+            "pStretch": null,
+            "pBeatMargin": 0,
+            "pFinish": 0.954,
+            "pBeatGivenFinish": 0,
+            "median": 454.76,
+            "p10": 443.27,
+            "p90": 495.23,
+            "best1in1000": 435.04,
+            "expectedFinished": 462.24,
+            "expectedAttempt": 452.44,
+            "missesPerRun": 0.8332,
+            "se": 0,
+            "cumPace": [
+              {
+                "p10": 87.27,
+                "p50": 89.81,
+                "p90": 97.89
+              },
+              {
+                "p10": 155.09,
+                "p50": 158.64,
+                "p90": 169.21
+              },
+              {
+                "p10": 218.69,
+                "p50": 223.37,
+                "p90": 236.54
+              },
+              {
+                "p10": 308.34,
+                "p50": 315.32,
+                "p90": 357.62
+              },
+              {
+                "p10": 443.36,
+                "p50": 454.98,
+                "p90": 495.67
+              }
+            ]
+          },
+          "resetPolicy": {
+            "goal": 410,
+            "resetOverhead": 45,
+            "gridStep": 0.25,
+            "samplesPerSegment": 40000,
+            "ratePerSecond": 0,
+            "successesPerHour": 0,
+            "hoursPerSuccess": 238609294.22,
+            "thresholds": [
+              74,
+              140,
+              200,
+              284.75
+            ],
+            "meaningful": false
+          },
+          "policyCheck": {
+            "attempts": 100000,
+            "pSuccessPerAttempt": 0,
+            "meanAttemptSeconds": 135.54,
+            "successesPerHour": 0,
+            "resetsAtSplits": 0.9898
+          },
+          "noResetBaseline": {
+            "successesPerHour": 0,
+            "meanAttemptSeconds": 447.74
+          }
+        },
+        {
+          "name": "current-patch fastest",
+          "route": [
+            "vines-direct",
+            "frag-std",
+            "thane-launch",
+            "keep-hole",
+            "sanctum-flight"
+          ],
+          "summary": {
+            "n": 100000,
+            "route": [
+              "vines-direct",
+              "frag-std",
+              "thane-launch",
+              "keep-hole",
+              "sanctum-flight"
+            ],
+            "pBeat": 0,
+            "stretch": null,
+            "pStretch": null,
+            "pBeatMargin": 0,
+            "pFinish": 0.9233,
+            "pBeatGivenFinish": 0,
+            "median": 442.22,
+            "p10": 426.8,
+            "p90": 482.31,
+            "best1in1000": 417.09,
+            "expectedFinished": 448.31,
+            "expectedAttempt": 428.13,
+            "missesPerRun": 1.1098,
+            "se": 0,
+            "cumPace": [
+              {
+                "p10": 81.07,
+                "p50": 84.37,
+                "p90": 94.15
+              },
+              {
+                "p10": 148.99,
+                "p50": 153.47,
+                "p90": 164.61
+              },
+              {
+                "p10": 201.62,
+                "p50": 209.28,
+                "p90": 224.75
+              },
+              {
+                "p10": 291.51,
+                "p50": 303.42,
+                "p90": 344.38
+              },
+              {
+                "p10": 426.9,
+                "p50": 442.45,
+                "p90": 483.19
+              }
+            ]
+          },
+          "resetPolicy": {
+            "goal": 410,
+            "resetOverhead": 45,
+            "gridStep": 0.25,
+            "samplesPerSegment": 40000,
+            "ratePerSecond": 0,
+            "successesPerHour": 0,
+            "hoursPerSuccess": 24192.36,
+            "thresholds": [
+              81.75,
+              149,
+              197.75,
+              284.75
+            ],
+            "meaningful": false
+          },
+          "policyCheck": {
+            "attempts": 100000,
+            "pSuccessPerAttempt": 0,
+            "meanAttemptSeconds": 146.24,
+            "successesPerHour": 0,
+            "resetsAtSplits": 0.967
+          },
+          "noResetBaseline": {
+            "successesPerHour": 0,
+            "meanAttemptSeconds": 437.35
+          }
+        }
+      ]
+    },
+    {
+      "id": "tp650-asmedian",
+      "label": "TexasPete 6:50 as a typical run (optimistic lens)",
+      "kind": "lens",
+      "synthetic": false,
+      "routes": [
+        {
+          "name": "as-run",
+          "route": [
+            "vines-direct",
+            "frag-std",
+            "thane-wallclimb",
+            "keep-bluerock",
+            "sanctum-blocks"
+          ],
+          "summary": {
+            "n": 100000,
+            "route": [
+              "vines-direct",
+              "frag-std",
+              "thane-wallclimb",
+              "keep-bluerock",
+              "sanctum-blocks"
+            ],
+            "pBeat": 0.2546,
+            "stretch": null,
+            "pStretch": null,
+            "pBeatMargin": 0.1393,
+            "pFinish": 0.9567,
+            "pBeatGivenFinish": 0.2661,
+            "median": 413.88,
+            "p10": 407.06,
+            "p90": 427.45,
+            "best1in1000": 400.74,
+            "expectedFinished": 415.86,
+            "expectedAttempt": 401.87,
+            "missesPerRun": 0.589,
+            "se": 0.0014,
+            "cumPace": [
+              {
+                "p10": 79.52,
+                "p50": 82.62,
+                "p90": 92.41
+              },
+              {
+                "p10": 140.59,
+                "p50": 144.31,
+                "p90": 155.46
+              },
+              {
+                "p10": 191.82,
+                "p50": 196.91,
+                "p90": 210.35
+              },
+              {
+                "p10": 288.02,
+                "p50": 293.86,
+                "p90": 307.56
+              },
+              {
+                "p10": 407.07,
+                "p50": 414.02,
+                "p90": 427.82
+              }
+            ]
+          },
+          "resetPolicy": {
+            "goal": 410,
+            "resetOverhead": 45,
+            "gridStep": 0.25,
+            "samplesPerSegment": 40000,
+            "ratePerSecond": 0.0008219999999999999,
+            "successesPerHour": 2.9591,
+            "hoursPerSuccess": 0.34,
+            "thresholds": [
+              83.25,
+              145,
+              196,
+              292.75
+            ],
+            "meaningful": true
+          },
+          "policyCheck": {
+            "attempts": 100000,
+            "pSuccessPerAttempt": 0.227,
+            "meanAttemptSeconds": 267,
+            "successesPerHour": 3.0612,
+            "resetsAtSplits": 0.6169
+          },
+          "noResetBaseline": {
+            "successesPerHour": 2.0884,
+            "meanAttemptSeconds": 440.32
+          }
+        },
+        {
+          "name": "current-patch default",
+          "route": [
+            "vines-std",
+            "frag-std",
+            "thane-windjump",
+            "keep-hole",
+            "sanctum-flight"
+          ],
+          "summary": {
+            "n": 100000,
+            "route": [
+              "vines-std",
+              "frag-std",
+              "thane-windjump",
+              "keep-hole",
+              "sanctum-flight"
+            ],
+            "pBeat": 0,
+            "stretch": null,
+            "pStretch": null,
+            "pBeatMargin": 0,
+            "pFinish": 0.954,
+            "pBeatGivenFinish": 0,
+            "median": 444.42,
+            "p10": 433.26,
+            "p90": 484.84,
+            "best1in1000": 425.5,
+            "expectedFinished": 451.99,
+            "expectedAttempt": 442.32,
+            "missesPerRun": 0.8332,
+            "se": 0,
+            "cumPace": [
+              {
+                "p10": 85.76,
+                "p50": 88.08,
+                "p90": 96.23
+              },
+              {
+                "p10": 146.78,
+                "p50": 149.6,
+                "p90": 160.22
+              },
+              {
+                "p10": 209.23,
+                "p50": 213.27,
+                "p90": 226.47
+              },
+              {
+                "p10": 297.22,
+                "p50": 303.45,
+                "p90": 345.89
+              },
+              {
+                "p10": 433.33,
+                "p50": 444.62,
+                "p90": 485.36
+              }
+            ]
+          },
+          "resetPolicy": {
+            "goal": 410,
+            "resetOverhead": 45,
+            "gridStep": 0.25,
+            "samplesPerSegment": 40000,
+            "ratePerSecond": 0,
+            "successesPerHour": 0,
+            "hoursPerSuccess": 238609294.22,
+            "thresholds": [
+              80.5,
+              141,
+              199.75,
+              283.5
+            ],
+            "meaningful": false
+          },
+          "policyCheck": {
+            "attempts": 100000,
+            "pSuccessPerAttempt": 0,
+            "meanAttemptSeconds": 133.86,
+            "successesPerHour": 0,
+            "resetsAtSplits": 0.9898
+          },
+          "noResetBaseline": {
+            "successesPerHour": 0,
+            "meanAttemptSeconds": 447.4
+          }
+        },
+        {
+          "name": "current-patch fastest",
+          "route": [
+            "vines-direct",
+            "frag-std",
+            "thane-launch",
+            "keep-hole",
+            "sanctum-flight"
+          ],
+          "summary": {
+            "n": 100000,
+            "route": [
+              "vines-direct",
+              "frag-std",
+              "thane-launch",
+              "keep-hole",
+              "sanctum-flight"
+            ],
+            "pBeat": 0.0054,
+            "stretch": null,
+            "pStretch": null,
+            "pBeatMargin": 0.0014,
+            "pFinish": 0.9233,
+            "pBeatGivenFinish": 0.0058,
+            "median": 432.01,
+            "p10": 416.7,
+            "p90": 472.07,
+            "best1in1000": 407.47,
+            "expectedFinished": 438.06,
+            "expectedAttempt": 418.18,
+            "missesPerRun": 1.1098,
+            "se": 0.0002,
+            "cumPace": [
+              {
+                "p10": 79.52,
+                "p50": 82.62,
+                "p90": 92.41
+              },
+              {
+                "p10": 140.59,
+                "p50": 144.31,
+                "p90": 155.46
+              },
+              {
+                "p10": 192.01,
+                "p50": 199.12,
+                "p90": 214.63
+              },
+              {
+                "p10": 280.3,
+                "p50": 291.96,
+                "p90": 332.78
+              },
+              {
+                "p10": 416.77,
+                "p50": 432.22,
+                "p90": 472.87
+              }
+            ]
+          },
+          "resetPolicy": {
+            "goal": 410,
+            "resetOverhead": 45,
+            "gridStep": 0.25,
+            "samplesPerSegment": 40000,
+            "ratePerSecond": 0.000024,
+            "successesPerHour": 0.0865,
+            "hoursPerSuccess": 11.57,
+            "thresholds": [
+              81.5,
+              143.25,
+              192.75,
+              280.5
+            ],
+            "meaningful": true
+          },
+          "policyCheck": {
+            "attempts": 100000,
+            "pSuccessPerAttempt": 0.0049,
+            "meanAttemptSeconds": 184.88,
+            "successesPerHour": 0.0958,
+            "resetsAtSplits": 0.8924
+          },
+          "noResetBaseline": {
+            "successesPerHour": 0.0487,
+            "meanAttemptSeconds": 436.85
+          }
+        }
+      ]
+    },
+    {
+      "id": "nano701-asmedian",
+      "label": "Nanobit 7:01 as a typical run (optimistic lens)",
+      "kind": "lens",
+      "synthetic": false,
+      "routes": [
+        {
+          "name": "as-run",
+          "route": [
+            "vines-std",
+            "frag-std",
+            "thane-windjump",
+            "keep-hole",
+            "sanctum-blocks"
+          ],
+          "summary": {
+            "n": 100000,
+            "route": [
+              "vines-std",
+              "frag-std",
+              "thane-windjump",
+              "keep-hole",
+              "sanctum-blocks"
+            ],
+            "pBeat": 0,
+            "stretch": null,
+            "pStretch": null,
+            "pBeatMargin": 0,
+            "pFinish": 0.9738,
+            "pBeatGivenFinish": 0,
+            "median": 426.69,
+            "p10": 419.32,
+            "p90": 468.8,
+            "best1in1000": 413.02,
+            "expectedFinished": 435.45,
+            "expectedAttempt": 427.55,
+            "missesPerRun": 0.64,
+            "se": 0,
+            "cumPace": [
+              {
+                "p10": 85.94,
+                "p50": 88.29,
+                "p90": 96.43
+              },
+              {
+                "p10": 152.65,
+                "p50": 155.95,
+                "p90": 166.52
+              },
+              {
+                "p10": 215.2,
+                "p50": 219.6,
+                "p90": 232.74
+              },
+              {
+                "p10": 303.37,
+                "p50": 309.96,
+                "p90": 352.32
+              },
+              {
+                "p10": 419.37,
+                "p50": 426.91,
+                "p90": 469.15
+              }
+            ]
+          },
+          "resetPolicy": {
+            "goal": 410,
+            "resetOverhead": 45,
+            "gridStep": 0.25,
+            "samplesPerSegment": 40000,
+            "ratePerSecond": 1.0000000000000001e-7,
+            "successesPerHour": 0.0005,
+            "hoursPerSuccess": 1934.8,
+            "thresholds": [
+              86.5,
+              152.25,
+              212.75,
+              298.5
+            ],
+            "meaningful": false
+          },
+          "policyCheck": {
+            "attempts": 100000,
+            "pSuccessPerAttempt": 0,
+            "meanAttemptSeconds": 150.39,
+            "successesPerHour": 0.0007,
+            "resetsAtSplits": 0.9866
+          },
+          "noResetBaseline": {
+            "successesPerHour": 0.0002,
+            "meanAttemptSeconds": 447.89
+          }
+        },
+        {
+          "name": "current-patch default",
+          "route": [
+            "vines-std",
+            "frag-std",
+            "thane-windjump",
+            "keep-hole",
+            "sanctum-flight"
+          ],
+          "summary": {
+            "n": 100000,
+            "route": [
+              "vines-std",
+              "frag-std",
+              "thane-windjump",
+              "keep-hole",
+              "sanctum-flight"
+            ],
+            "pBeat": 0,
+            "stretch": null,
+            "pStretch": null,
+            "pBeatMargin": 0,
+            "pFinish": 0.954,
+            "pBeatGivenFinish": 0,
+            "median": 447.51,
+            "p10": 436.31,
+            "p90": 487.92,
+            "best1in1000": 428.52,
+            "expectedFinished": 455.08,
+            "expectedAttempt": 445.43,
+            "missesPerRun": 0.8332,
+            "se": 0,
+            "cumPace": [
+              {
+                "p10": 85.94,
+                "p50": 88.29,
+                "p90": 96.43
+              },
+              {
+                "p10": 152.65,
+                "p50": 155.95,
+                "p90": 166.52
+              },
+              {
+                "p10": 215.2,
+                "p50": 219.6,
+                "p90": 232.74
+              },
+              {
+                "p10": 303.37,
+                "p50": 309.96,
+                "p90": 352.32
+              },
+              {
+                "p10": 436.38,
+                "p50": 447.76,
+                "p90": 488.4
+              }
+            ]
+          },
+          "resetPolicy": {
+            "goal": 410,
+            "resetOverhead": 45,
+            "gridStep": 0.25,
+            "samplesPerSegment": 40000,
+            "ratePerSecond": 0,
+            "successesPerHour": 0,
+            "hoursPerSuccess": 238609294.22,
+            "thresholds": [
+              78.5,
+              143.75,
+              202.75,
+              286.5
+            ],
+            "meaningful": false
+          },
+          "policyCheck": {
+            "attempts": 100000,
+            "pSuccessPerAttempt": 0,
+            "meanAttemptSeconds": 134.06,
+            "successesPerHour": 0,
+            "resetsAtSplits": 0.9898
+          },
+          "noResetBaseline": {
+            "successesPerHour": 0,
+            "meanAttemptSeconds": 447.57
+          }
+        },
+        {
+          "name": "current-patch fastest",
+          "route": [
+            "vines-direct",
+            "frag-std",
+            "thane-launch",
+            "keep-hole",
+            "sanctum-flight"
+          ],
+          "summary": {
+            "n": 100000,
+            "route": [
+              "vines-direct",
+              "frag-std",
+              "thane-launch",
+              "keep-hole",
+              "sanctum-flight"
+            ],
+            "pBeat": 0.0007,
+            "stretch": null,
+            "pStretch": null,
+            "pBeatMargin": 0.0001,
+            "pFinish": 0.9233,
+            "pBeatGivenFinish": 0.0008,
+            "median": 435.07,
+            "p10": 419.76,
+            "p90": 475.12,
+            "best1in1000": 410.45,
+            "expectedFinished": 441.15,
+            "expectedAttempt": 421.29,
+            "missesPerRun": 1.1098,
+            "se": 0.0001,
+            "cumPace": [
+              {
+                "p10": 79.7,
+                "p50": 82.83,
+                "p90": 92.61
+              },
+              {
+                "p10": 146.52,
+                "p50": 150.74,
+                "p90": 161.88
+              },
+              {
+                "p10": 198.06,
+                "p50": 205.44,
+                "p90": 220.97
+              },
+              {
+                "p10": 286.47,
+                "p50": 298.26,
+                "p90": 339.15
+              },
+              {
+                "p10": 419.83,
+                "p50": 435.29,
+                "p90": 475.97
+              }
+            ]
+          },
+          "resetPolicy": {
+            "goal": 410,
+            "resetOverhead": 45,
+            "gridStep": 0.25,
+            "samplesPerSegment": 40000,
+            "ratePerSecond": 0.0000036,
+            "successesPerHour": 0.0131,
+            "hoursPerSuccess": 76.53,
+            "thresholds": [
+              81.25,
+              148.25,
+              197.25,
+              284.75
+            ],
+            "meaningful": true
+          },
+          "policyCheck": {
+            "attempts": 100000,
+            "pSuccessPerAttempt": 0.0007,
+            "meanAttemptSeconds": 166.21,
+            "successesPerHour": 0.0156,
+            "resetsAtSplits": 0.9358
+          },
+          "noResetBaseline": {
+            "successesPerHour": 0.0073,
+            "meanAttemptSeconds": 437.12
+          }
+        }
+      ]
+    },
+    {
+      "id": "target-asmedian",
+      "label": "Runpath target pace 6:48.1 as a typical clean run (lens)",
+      "kind": "lens",
+      "synthetic": false,
+      "routes": [
+        {
+          "name": "as-run",
+          "route": [
+            "vines-direct",
+            "frag-std",
+            "thane-launch",
+            "keep-hole",
+            "sanctum-flight"
+          ],
+          "summary": {
+            "n": 100000,
+            "route": [
+              "vines-direct",
+              "frag-std",
+              "thane-launch",
+              "keep-hole",
+              "sanctum-flight"
+            ],
+            "pBeat": 0.1975,
+            "stretch": null,
+            "pStretch": null,
+            "pBeatMargin": 0.1373,
+            "pFinish": 0.9233,
+            "pBeatGivenFinish": 0.2139,
+            "median": 421.57,
+            "p10": 406.43,
+            "p90": 461.63,
+            "best1in1000": 397.8,
+            "expectedFinished": 427.62,
+            "expectedAttempt": 408.48,
+            "missesPerRun": 1.1098,
+            "se": 0.0013,
+            "cumPace": [
+              {
+                "p10": 80.61,
+                "p50": 83.84,
+                "p90": 93.63
+              },
+              {
+                "p10": 141.11,
+                "p50": 144.94,
+                "p90": 156.09
+              },
+              {
+                "p10": 193.13,
+                "p50": 200.34,
+                "p90": 215.88
+              },
+              {
+                "p10": 280.35,
+                "p50": 292.06,
+                "p90": 332.88
+              },
+              {
+                "p10": 406.46,
+                "p50": 421.7,
+                "p90": 462.46
+              }
+            ]
+          },
+          "resetPolicy": {
+            "goal": 410,
+            "resetOverhead": 45,
+            "gridStep": 0.25,
+            "samplesPerSegment": 40000,
+            "ratePerSecond": 0.0006477000000000001,
+            "successesPerHour": 2.3318,
+            "hoursPerSuccess": 0.43,
+            "thresholds": [
+              85.75,
+              147.5,
+              199.25,
+              286.75
+            ],
+            "meaningful": true
+          },
+          "policyCheck": {
+            "attempts": 100000,
+            "pSuccessPerAttempt": 0.1861,
+            "meanAttemptSeconds": 279.65,
+            "successesPerHour": 2.3961,
+            "resetsAtSplits": 0.6409
+          },
+          "noResetBaseline": {
+            "successesPerHour": 1.658,
+            "meanAttemptSeconds": 436.04
+          }
+        },
+        {
+          "name": "current-patch default",
+          "route": [
+            "vines-std",
+            "frag-std",
+            "thane-windjump",
+            "keep-hole",
+            "sanctum-flight"
+          ],
+          "summary": {
+            "n": 100000,
+            "route": [
+              "vines-std",
+              "frag-std",
+              "thane-windjump",
+              "keep-hole",
+              "sanctum-flight"
+            ],
+            "pBeat": 0,
+            "stretch": null,
+            "pStretch": null,
+            "pBeatMargin": 0,
+            "pFinish": 0.954,
+            "pBeatGivenFinish": 0,
+            "median": 433.89,
+            "p10": 423.06,
+            "p90": 474.19,
+            "best1in1000": 415.93,
+            "expectedFinished": 441.55,
+            "expectedAttempt": 432.27,
+            "missesPerRun": 0.8332,
+            "se": 0,
+            "cumPace": [
+              {
+                "p10": 86.82,
+                "p50": 89.29,
+                "p90": 97.39
+              },
+              {
+                "p10": 147.27,
+                "p50": 150.22,
+                "p90": 160.82
+              },
+              {
+                "p10": 210.31,
+                "p50": 214.5,
+                "p90": 227.7
+              },
+              {
+                "p10": 297.26,
+                "p50": 303.58,
+                "p90": 346.04
+              },
+              {
+                "p10": 423.12,
+                "p50": 434.16,
+                "p90": 474.54
+              }
+            ]
+          },
+          "resetPolicy": {
+            "goal": 410,
+            "resetOverhead": 45,
+            "gridStep": 0.25,
+            "samplesPerSegment": 40000,
+            "ratePerSecond": 0,
+            "successesPerHour": 0,
+            "hoursPerSuccess": 55867.31,
+            "thresholds": [
+              87.25,
+              147.5,
+              208.5,
+              293
+            ],
+            "meaningful": false
+          },
+          "policyCheck": {
+            "attempts": 100000,
+            "pSuccessPerAttempt": 0,
+            "meanAttemptSeconds": 152.15,
+            "successesPerHour": 0,
+            "resetsAtSplits": 0.9858
+          },
+          "noResetBaseline": {
+            "successesPerHour": 0,
+            "meanAttemptSeconds": 447.31
+          }
+        }
+      ]
+    },
+    {
+      "id": "best-of-both-asmedian",
+      "label": "Best of TexasPete/Nanobit per split on the reference line, as a typical run (ceiling lens)",
+      "kind": "lens",
+      "synthetic": false,
+      "routes": [
+        {
+          "name": "as-run",
+          "route": [
+            "vines-std",
+            "frag-std",
+            "thane-windjump",
+            "keep-hole",
+            "sanctum-blocks"
+          ],
+          "summary": {
+            "n": 100000,
+            "route": [
+              "vines-std",
+              "frag-std",
+              "thane-windjump",
+              "keep-hole",
+              "sanctum-blocks"
+            ],
+            "pBeat": 0.014,
+            "stretch": null,
+            "pStretch": null,
+            "pBeatMargin": 0.0023,
+            "pFinish": 0.9738,
+            "pBeatGivenFinish": 0.0143,
+            "median": 420.23,
+            "p10": 413.15,
+            "p90": 462.39,
+            "best1in1000": 407.24,
+            "expectedFinished": 429.12,
+            "expectedAttempt": 421.31,
+            "missesPerRun": 0.64,
+            "se": 0.0004,
+            "cumPace": [
+              {
+                "p10": 85.76,
+                "p50": 88.08,
+                "p90": 96.23
+              },
+              {
+                "p10": 146.78,
+                "p50": 149.6,
+                "p90": 160.22
+              },
+              {
+                "p10": 209.23,
+                "p50": 213.27,
+                "p90": 226.47
+              },
+              {
+                "p10": 297.22,
+                "p50": 303.45,
+                "p90": 345.89
+              },
+              {
+                "p10": 413.21,
+                "p50": 420.43,
+                "p90": 462.73
+              }
+            ]
+          },
+          "resetPolicy": {
+            "goal": 410,
+            "resetOverhead": 45,
+            "gridStep": 0.25,
+            "samplesPerSegment": 40000,
+            "ratePerSecond": 0.000057799999999999995,
+            "successesPerHour": 0.208,
+            "hoursPerSuccess": 4.81,
+            "thresholds": [
+              87.25,
+              148.5,
+              210,
+              297
+            ],
+            "meaningful": true
+          },
+          "policyCheck": {
+            "attempts": 100000,
+            "pSuccessPerAttempt": 0.0123,
+            "meanAttemptSeconds": 189.71,
+            "successesPerHour": 0.233,
+            "resetsAtSplits": 0.9254
+          },
+          "noResetBaseline": {
+            "successesPerHour": 0.1192,
+            "meanAttemptSeconds": 447.8
+          }
+        },
+        {
+          "name": "current-patch default",
+          "route": [
+            "vines-std",
+            "frag-std",
+            "thane-windjump",
+            "keep-hole",
+            "sanctum-flight"
+          ],
+          "summary": {
+            "n": 100000,
+            "route": [
+              "vines-std",
+              "frag-std",
+              "thane-windjump",
+              "keep-hole",
+              "sanctum-flight"
+            ],
+            "pBeat": 0,
+            "stretch": null,
+            "pStretch": null,
+            "pBeatMargin": 0,
+            "pFinish": 0.954,
+            "pBeatGivenFinish": 0,
+            "median": 441.15,
+            "p10": 430.11,
+            "p90": 481.54,
+            "best1in1000": 422.58,
+            "expectedFinished": 448.75,
+            "expectedAttempt": 439.19,
+            "missesPerRun": 0.8332,
+            "se": 0,
+            "cumPace": [
+              {
+                "p10": 85.76,
+                "p50": 88.08,
+                "p90": 96.23
+              },
+              {
+                "p10": 146.78,
+                "p50": 149.6,
+                "p90": 160.22
+              },
+              {
+                "p10": 209.23,
+                "p50": 213.27,
+                "p90": 226.47
+              },
+              {
+                "p10": 297.22,
+                "p50": 303.45,
+                "p90": 345.89
+              },
+              {
+                "p10": 430.17,
+                "p50": 441.43,
+                "p90": 482.01
+              }
+            ]
+          },
+          "resetPolicy": {
+            "goal": 410,
+            "resetOverhead": 45,
+            "gridStep": 0.25,
+            "samplesPerSegment": 40000,
+            "ratePerSecond": 0,
+            "successesPerHour": 0,
+            "hoursPerSuccess": 238609294.22,
+            "thresholds": [
+              83.5,
+              143.75,
+              202.75,
+              286.5
+            ],
+            "meaningful": false
+          },
+          "policyCheck": {
+            "attempts": 100000,
+            "pSuccessPerAttempt": 0,
+            "meanAttemptSeconds": 134.03,
+            "successesPerHour": 0,
+            "resetsAtSplits": 0.9898
+          },
+          "noResetBaseline": {
+            "successesPerHour": 0,
+            "meanAttemptSeconds": 447.37
+          }
+        },
+        {
+          "name": "current-patch fastest",
+          "route": [
+            "vines-direct",
+            "frag-std",
+            "thane-launch",
+            "keep-hole",
+            "sanctum-flight"
+          ],
+          "summary": {
+            "n": 100000,
+            "route": [
+              "vines-direct",
+              "frag-std",
+              "thane-launch",
+              "keep-hole",
+              "sanctum-flight"
+            ],
+            "pBeat": 0.0259,
+            "stretch": null,
+            "pStretch": null,
+            "pBeatMargin": 0.0098,
+            "pFinish": 0.9233,
+            "pBeatGivenFinish": 0.0281,
+            "median": 428.77,
+            "p10": 413.53,
+            "p90": 468.79,
+            "best1in1000": 404.51,
+            "expectedFinished": 434.82,
+            "expectedAttempt": 415.16,
+            "missesPerRun": 1.1098,
+            "se": 0.0005,
+            "cumPace": [
+              {
+                "p10": 79.52,
+                "p50": 82.62,
+                "p90": 92.41
+              },
+              {
+                "p10": 140.59,
+                "p50": 144.31,
+                "p90": 155.46
+              },
+              {
+                "p10": 192.01,
+                "p50": 199.12,
+                "p90": 214.63
+              },
+              {
+                "p10": 280.3,
+                "p50": 291.96,
+                "p90": 332.78
+              },
+              {
+                "p10": 413.59,
+                "p50": 428.97,
+                "p90": 469.54
+              }
+            ]
+          },
+          "resetPolicy": {
+            "goal": 410,
+            "resetOverhead": 45,
+            "gridStep": 0.25,
+            "samplesPerSegment": 40000,
+            "ratePerSecond": 0.000104,
+            "successesPerHour": 0.3743,
+            "hoursPerSuccess": 2.67,
+            "thresholds": [
+              82.25,
+              144,
+              194,
+              282
+            ],
+            "meaningful": true
+          },
+          "policyCheck": {
+            "attempts": 100000,
+            "pSuccessPerAttempt": 0.0231,
+            "meanAttemptSeconds": 210.04,
+            "successesPerHour": 0.3966,
+            "resetsAtSplits": 0.8356
+          },
+          "noResetBaseline": {
+            "successesPerHour": 0.2218,
+            "meanAttemptSeconds": 436.78
+          }
+        }
+      ]
+    },
+    {
+      "id": "synthetic-new",
+      "label": "SYNTHETIC new runner (generated, not real data)",
+      "kind": "user",
+      "synthetic": true,
+      "routes": [
+        {
+          "name": "as-run",
+          "route": [
+            "vines-std",
+            "frag-std",
+            "thane-windjump",
+            "keep-hole",
+            "sanctum-flight"
+          ],
+          "summary": {
+            "n": 100000,
+            "route": [
+              "vines-std",
+              "frag-std",
+              "thane-windjump",
+              "keep-hole",
+              "sanctum-flight"
+            ],
+            "pBeat": 0,
+            "stretch": null,
+            "pStretch": null,
+            "pBeatMargin": 0,
+            "pFinish": 0.8566,
+            "pBeatGivenFinish": 0,
+            "median": 523.3,
+            "p10": 483.33,
+            "p90": 566.59,
+            "best1in1000": 447.14,
+            "expectedFinished": 524.35,
+            "expectedAttempt": 486.46,
+            "missesPerRun": 2.4332,
+            "se": 0,
+            "cumPace": [
+              {
+                "p10": 87.66,
+                "p50": 99.5,
+                "p90": 114.67
+              },
+              {
+                "p10": 159.96,
+                "p50": 175.82,
+                "p90": 195.86
+              },
+              {
+                "p10": 231.57,
+                "p50": 252.75,
+                "p90": 278.39
+              },
+              {
+                "p10": 331.17,
+                "p50": 367.68,
+                "p90": 408.13
+              },
+              {
+                "p10": 483.33,
+                "p50": 523.43,
+                "p90": 566.63
+              }
+            ]
+          },
+          "resetPolicy": {
+            "goal": 410,
+            "resetOverhead": 45,
+            "gridStep": 0.25,
+            "samplesPerSegment": 40000,
+            "ratePerSecond": 0,
+            "successesPerHour": 0,
+            "hoursPerSuccess": 79536431.41,
+            "thresholds": [
+              86.75,
+              151.5,
+              209.5,
+              289
+            ],
+            "meaningful": false
+          },
+          "policyCheck": {
+            "attempts": 100000,
+            "pSuccessPerAttempt": 0,
+            "meanAttemptSeconds": 150.2,
+            "successesPerHour": 0,
+            "resetsAtSplits": 0.9597
+          },
+          "noResetBaseline": {
+            "successesPerHour": 0,
+            "meanAttemptSeconds": 432.77
+          }
+        },
+        {
+          "name": "current-patch fastest",
+          "route": [
+            "vines-direct",
+            "frag-std",
+            "thane-launch",
+            "keep-hole",
+            "sanctum-flight"
+          ],
+          "summary": {
+            "n": 100000,
+            "route": [
+              "vines-direct",
+              "frag-std",
+              "thane-launch",
+              "keep-hole",
+              "sanctum-flight"
+            ],
+            "pBeat": 0,
+            "stretch": null,
+            "pStretch": null,
+            "pBeatMargin": 0,
+            "pFinish": 0.7788,
+            "pBeatGivenFinish": 0,
+            "median": 513.74,
+            "p10": 474.22,
+            "p90": 556.56,
+            "best1in1000": 435.37,
+            "expectedFinished": 514.82,
+            "expectedAttempt": 443.14,
+            "missesPerRun": 2.9964,
+            "se": 0,
+            "cumPace": [
+              {
+                "p10": 85.98,
+                "p50": 97.45,
+                "p90": 111.27
+              },
+              {
+                "p10": 157.99,
+                "p50": 173.89,
+                "p90": 193.11
+              },
+              {
+                "p10": 222.21,
+                "p50": 244.03,
+                "p90": 267.84
+              },
+              {
+                "p10": 322.3,
+                "p50": 358.19,
+                "p90": 398.75
+              },
+              {
+                "p10": 474.52,
+                "p50": 514.11,
+                "p90": 557.01
+              }
+            ]
+          },
+          "resetPolicy": {
+            "goal": 410,
+            "resetOverhead": 45,
+            "gridStep": 0.25,
+            "samplesPerSegment": 40000,
+            "ratePerSecond": 0,
+            "successesPerHour": 0,
+            "hoursPerSuccess": 64611.24,
+            "thresholds": [
+              86,
+              153.75,
+              204.75,
+              289
+            ],
+            "meaningful": false
+          },
+          "policyCheck": {
+            "attempts": 100000,
+            "pSuccessPerAttempt": 0,
+            "meanAttemptSeconds": 148.16,
+            "successesPerHour": 0,
+            "resetsAtSplits": 0.8983
+          },
+          "noResetBaseline": {
+            "successesPerHour": 0,
+            "meanAttemptSeconds": 405.81
+          }
+        }
+      ]
+    }
+  ]
+}

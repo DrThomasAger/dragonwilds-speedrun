@@ -1,0 +1,442 @@
+{
+ "handle": "funkybasic",
+ "name": "funkybasic",
+ "aliases": [],
+ "platforms": {
+  "youtube": null,
+  "twitch": null,
+  "src": "https://www.speedrun.com/users/funkybasic",
+  "reddit": null
+ },
+ "src_profile": {
+  "id": "8wqkvl48",
+  "weblink": "https://www.speedrun.com/users/funkybasic",
+  "twitch": null,
+  "youtube": null,
+  "country": "ba",
+  "signup": "2026-09-30T18:21:54Z"
+ },
+ "role": [
+  "runner (agility)"
+ ],
+ "insight_score": 16,
+ "summary": "Agility Course WR holder. TexasPete credits him for movement strats. His run notes describe surge edge jumps (zoops), autowalk headstarts and construction manipulations. He has not run the raid.",
+ "insights": [
+  {
+   "text": "Well done Pete! That's what I like to see! I have not gotten to this part of the game yet but I look forward to try at this too :D",
+   "source": "speedrun.com run thread",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/zg0641nm",
+   "timestamp": null,
+   "date": "2026-10-11",
+   "date_approx": false,
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": "On TexasPete's 460s run",
+   "curated": true
+  },
+  {
+   "text": "Nice to see it Pete!",
+   "source": "speedrun.com run thread",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/m74jw34m",
+   "timestamp": null,
+   "date": "2026-10-22",
+   "date_approx": false,
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": "On TexasPete's 410s run",
+   "curated": true
+  },
+  {
+   "text": "Time in accordance with the in-game timer. Video upload shows the run from start to finish. \n\nIf there are any mistakes regarding the upload or the format, please let me know for corrections. The recording has been made with Steams automatic recording software from which I've clipped the uploaded video. The game is ran on current patch (1.0.0.6). ",
+   "source": "speedrun.com run comment (Agility Course)",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y84o62xz",
+   "timestamp": null,
+   "date": "2026-09-30",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "yes",
+   "verification_note": "Agility/other category; movement tech context only",
+   "curated": false
+  },
+  {
+   "text": "Time in accordance with the in-game timer. Video upload shows the run from start to finish.\n\nPlayed through Steam and recorded in-client 2026-10-01.\nPlayed on patch 1.0.0.6.",
+   "source": "speedrun.com run comment (Agility Course)",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/znl9x19y",
+   "timestamp": null,
+   "date": "2026-10-01",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "yes",
+   "verification_note": "Agility/other category; movement tech context only",
+   "curated": false
+  },
+  {
+   "text": "Time in accordance with the in-game timer. Video upload shows the run from start to finish.\nPlayed and recorded through Steam on 2026-10-02. Played on patch 1.0.0.6.\nUsed spells pre- and mid-run. ",
+   "source": "speedrun.com run comment (Agility Course)",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y9qpwdnz",
+   "timestamp": null,
+   "date": "2026-10-02",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "yes",
+   "verification_note": "Agility/other category; movement tech context only",
+   "curated": false
+  },
+  {
+   "text": "Played and recorded on Steam 2026-10-03.\nPlayed on patch 1.0.0.6.\n\nUsed spells pre- and mid-run, and found a super cheese head-start with autowalk enabled. Discored by sheer accident. Is it too scummy you think?\n\nTime and run can beaten with cleaner movement and autowalk by someone else I'm sure.",
+   "source": "speedrun.com run comment (Agility Course)",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/zxrje8kz",
+   "timestamp": null,
+   "date": "2026-10-03",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "yes",
+   "verification_note": "Agility/other category; movement tech context only",
+   "curated": false
+  },
+  {
+   "text": "Played and recorded on patch 1.0.0.6, 2026-10-05.\nUsing spells pre-run, stamina pot, autowalk cheese at the start and some movement tech and contruction manipulations. I can say I am completely out of more ideas for now :P\n\nWe're really pushing the meaning of any% now...",
+   "source": "speedrun.com run comment (Agility Course)",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y9qenkez",
+   "timestamp": null,
+   "date": "2026-10-05",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "yes",
+   "verification_note": "Agility/other category; movement tech context only",
+   "curated": false
+  },
+  {
+   "text": "Played on patch 1.0.0.6, recorded 2026-10-05. First sub-50 run!\n\nUsed spells pre-run, 1 agility pot, and some cheeky auto-walk cheese at the start.\n\nPete, back to the graveyards!",
+   "source": "speedrun.com run comment (Agility Course)",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y248x3wz",
+   "timestamp": null,
+   "date": "2026-10-05",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "yes",
+   "verification_note": "Agility/other category; movement tech context only",
+   "curated": false
+  },
+  {
+   "text": "Played on 1.0.0.6 on 2026-10-06.\nPushing the limits of any%. \nSpells pre-run, 1 agility potion, autowalk cheese with restart abuse and contruction manips for the long jump.\n\nWhat will Jagex do about this?",
+   "source": "speedrun.com run comment (Agility Course)",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y64j986m",
+   "timestamp": null,
+   "date": "2026-10-06",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "yes",
+   "verification_note": "Agility/other category; movement tech context only",
+   "curated": false
+  },
+  {
+   "text": "Was just messing around a bit waiting for a friend to come online and I happen to get this. Still trying to figure out a strategy to get sub-30 but I don't see it just yet. \n\nPlayed on 1.0.0.6 on 2026-10-07. ",
+   "source": "speedrun.com run comment (Agility Course)",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/z54wp0dm",
+   "timestamp": null,
+   "date": "2026-10-07",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "yes",
+   "verification_note": "Agility/other category; movement tech context only",
+   "curated": false
+  },
+  {
+   "text": "Played on patch 1.0.0.8 on 2026-10-08.\nI cooked as much as I could for now. Autowalk sprint for head start, surge edge jumps at two locations, some consctruction additions to the course and 1 agility potion at the second half of the run. I did some minor fuckups in my opinion so I suppose it could be beat without too many changes. \n\nSee you at the graveyards, Pete!",
+   "source": "speedrun.com run comment (Agility Course)",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/z54wg2dm",
+   "timestamp": null,
+   "date": "2026-10-08",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "tech"
+   ],
+   "verified": "yes",
+   "verification_note": "Agility/other category; movement tech context only",
+   "curated": false
+  },
+  {
+   "text": "Played on patch 1.0.0.8.\n\nI cooked as much as I had the energy to. Run still was not perfect, I could shave it down by a second. Perhaps even get it down to sub-40. Used all the tricks I have at my disposal. Pushing the meaning of any%. ",
+   "source": "speedrun.com run comment (Agility Course)",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/znlgg2ly",
+   "timestamp": null,
+   "date": "2026-10-09",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "yes",
+   "verification_note": "Agility/other category; movement tech context only",
+   "curated": false
+  },
+  {
+   "text": "First submitted run on this agility course. Cmon lads, let's try mess with this one too. Didn't pull out all my tricks just yet. ",
+   "source": "speedrun.com run comment (Agility Course)",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/z1471p7z",
+   "timestamp": null,
+   "date": "2026-10-11",
+   "date_approx": false,
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": "Agility/other category; movement tech context only",
+   "curated": false
+  },
+  {
+   "text": "Played and recorded on 2026-10-11. Patch 1.0.0.8.\n\nUsed most of my tricks, but **building is not permitted in this area** so no contruction manipulations are possible as of yet. Until I figure out a way to break that too :P\n\nOh but I managed to recontruct an old head-start cheese from the beta-days since I was not able to replicate the auto-walk cheese on this course as of yet. ",
+   "source": "speedrun.com run comment (Agility Course)",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/mknr3g1m",
+   "timestamp": null,
+   "date": "2026-10-11",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "yes",
+   "verification_note": "Agility/other category; movement tech context only",
+   "curated": false
+  },
+  {
+   "text": "First proper submitted glitchless run! See you on the other courses fellas!\n\nNo headstart cheese of any kind and no contruction additions. Only spells, proper movement and surge edge jumps, and 1 stamina potion. ",
+   "source": "speedrun.com run comment (Agility Course)",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/mrp54g4z",
+   "timestamp": null,
+   "date": "2026-10-12",
+   "date_approx": false,
+   "topic": "tech",
+   "topics": [
+    "tech",
+    "bug"
+   ],
+   "verified": "yes",
+   "verification_note": "Agility/other category; movement tech context only",
+   "curated": false
+  },
+  {
+   "text": "This will do for now!",
+   "source": "speedrun.com run comment (Agility Course)",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y9qw9vkz",
+   "timestamp": null,
+   "date": "2026-10-12",
+   "date_approx": false,
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": "Agility/other category; movement tech context only",
+   "curated": false
+  },
+  {
+   "text": "The rules for glitchess state that we are not allowed to use any construction. Only **pots/foods and spells are allowed**.\n\nGentlemen, I have only used spells and pots.&#x20;\n\nMods, what is your verdict?",
+   "source": "speedrun.com run comment (Agility Course)",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/z1445qwz",
+   "timestamp": null,
+   "date": "2026-10-25",
+   "date_approx": false,
+   "topic": "bug",
+   "topics": [
+    "bug"
+   ],
+   "verified": "no",
+   "verification_note": "Agility/other category; movement tech context only",
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 56.28,
+   "date": "2026-09-30",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y84o62xz",
+   "video": "https://youtu.be/1t4-8i2m8pg",
+   "comment": "Time in accordance with the in-game timer. Video upload shows the run from start to finish. \n\nIf there are any mistakes regarding the upload or the format, please let me know for corrections. The recording has been made with Steams automatic recording software from which I've clipped the uploaded video. The game is ran on current patch (1.0.0.6). "
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 42.87,
+   "date": "2026-10-01",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/znl9x19y",
+   "video": "https://youtu.be/5Ck0x3-24Os",
+   "comment": "Time in accordance with the in-game timer. Video upload shows the run from start to finish.\n\nPlayed through Steam and recorded in-client 2026-10-01.\nPlayed on patch 1.0.0.6."
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 41,
+   "date": "2026-10-02",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y9qpwdnz",
+   "video": "https://youtu.be/jitCCGnSbGE",
+   "comment": "Time in accordance with the in-game timer. Video upload shows the run from start to finish.\nPlayed and recorded through Steam on 2026-10-02. Played on patch 1.0.0.6.\nUsed spells pre- and mid-run. "
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 39.32,
+   "date": "2026-10-03",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/zxrje8kz",
+   "video": "https://youtu.be/OIYSyZGC7B4",
+   "comment": "Played and recorded on Steam 2026-10-03.\nPlayed on patch 1.0.0.6.\n\nUsed spells pre- and mid-run, and found a super cheese head-start with autowalk enabled. Discored by sheer accident. Is it too scummy you think?\n\nTime and run can beaten with cleaner movement and autowalk by someone else I'm sure."
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 36.99,
+   "date": "2026-10-05",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y9qenkez",
+   "video": "https://youtu.be/Ko9k0gC-JIc",
+   "comment": "Played and recorded on patch 1.0.0.6, 2026-10-05.\nUsing spells pre-run, stamina pot, autowalk cheese at the start and some movement tech and contruction manipulations. I can say I am completely out of more ideas for now :P\n\nWe're really pushing the meaning of any% now..."
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 49.92,
+   "date": "2026-10-05",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y248x3wz",
+   "video": "https://youtu.be/8kFgEiAvvgs",
+   "comment": "Played on patch 1.0.0.6, recorded 2026-10-05. First sub-50 run!\n\nUsed spells pre-run, 1 agility pot, and some cheeky auto-walk cheese at the start.\n\nPete, back to the graveyards!"
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 35.94,
+   "date": "2026-10-06",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y64j986m",
+   "video": "https://youtu.be/YkKpmpDUf0E",
+   "comment": "Played on 1.0.0.6 on 2026-10-06.\nPushing the limits of any%. \nSpells pre-run, 1 agility potion, autowalk cheese with restart abuse and contruction manips for the long jump.\n\nWhat will Jagex do about this?"
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 34.88,
+   "date": "2026-10-07",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/z54wp0dm",
+   "video": "https://www.youtube.com/watch?v=sXt286jYI8k",
+   "comment": "Was just messing around a bit waiting for a friend to come online and I happen to get this. Still trying to figure out a strategy to get sub-30 but I don't see it just yet. \n\nPlayed on 1.0.0.6 on 2026-10-07. "
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 44.27,
+   "date": "2026-10-08",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/z54wg2dm",
+   "video": "https://youtu.be/-6lEYGm2dYI",
+   "comment": "Played on patch 1.0.0.8 on 2026-10-08.\nI cooked as much as I could for now. Autowalk sprint for head start, surge edge jumps at two locations, some consctruction additions to the course and 1 agility potion at the second half of the run. I did some minor fuckups in my opinion so I suppose it could be beat without too many changes. \n\nSee you at the graveyards, Pete!"
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 41.14,
+   "date": "2026-10-09",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/znlgg2ly",
+   "video": "https://youtu.be/CxjSpMx5soo",
+   "comment": "Played on patch 1.0.0.8.\n\nI cooked as much as I had the energy to. Run still was not perfect, I could shave it down by a second. Perhaps even get it down to sub-40. Used all the tricks I have at my disposal. Pushing the meaning of any%. "
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 39.27,
+   "date": "2026-10-11",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/z1471p7z",
+   "video": "https://youtu.be/k9jpGSHk56g",
+   "comment": "First submitted run on this agility course. Cmon lads, let's try mess with this one too. Didn't pull out all my tricks just yet. "
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 49.48,
+   "date": "2026-10-11",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/mknr3g1m",
+   "video": "https://www.youtube.com/watch?v=rwVVDY5GA1s",
+   "comment": "Played and recorded on 2026-10-11. Patch 1.0.0.8.\n\nUsed most of my tricks, but **building is not permitted in this area** so no contruction manipulations are possible as of yet. Until I figure out a way to break that too :P\n\nOh but I managed to recontruct an old head-start cheese from the beta-days since I was not able to replicate the auto-walk cheese on this course as of yet. "
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 39.74,
+   "date": "2026-10-12",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/mrp54g4z",
+   "video": "https://www.youtube.com/watch?v=ExNdch-CdM8",
+   "comment": "First proper submitted glitchless run! See you on the other courses fellas!\n\nNo headstart cheese of any kind and no contruction additions. Only spells, proper movement and surge edge jumps, and 1 stamina potion. "
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 44.4,
+   "date": "2026-10-12",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/y9qw9vkz",
+   "video": "https://www.youtube.com/watch?v=9MIqK0z2n94",
+   "comment": "This will do for now!"
+  },
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Agility Course",
+   "time_s": 36.56,
+   "date": "2026-10-25",
+   "status": "rejected",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/z1445qwz",
+   "video": "https://youtu.be/8n30fkrubIE",
+   "comment": "The rules for glitchess state that we are not allowed to use any construction. Only **pots/foods and spells are allowed**.\n\nGentlemen, I have only used spells and pots.&#x20;\n\nMods, what is your verdict?"
+  }
+ ],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

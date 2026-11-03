@@ -1,0 +1,382 @@
+{
+ "handle": "sir_rebral",
+ "name": "Sir_Rebral",
+ "aliases": [
+  "SirRebral",
+  "@Sir_Rebral"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@Sir_Rebral",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "tech finder",
+  "guide maker",
+  "commenter"
+ ],
+ "insight_score": 66,
+ "summary": "Most precise route-detail commenter. He found the Garou Thane walking through the bars (an air charge without the rat room), the charge-pad edge trick that keeps elementals from spawning, the surge+dash into an invisible wall that unlocks a lodestone, and the faster necromancer route. He relayed SectorTSWG's Fragments skip to Nanobit and quotes Jagex's reddit post.",
+ "insights": [
+  {
+   "text": " @zyneater  There's an invisible wall stopping you from landing on the other side but surge+dashing into the invisible wall will unlock the lodestone if you do it from the edge where the water bridge starts. The death warp is even faster now with the air attack you fall to your death a lot quicker.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1NfTq_kvj7k&lc=UgyHNHqvi2zCs5bMQ7t4AaABAg.AbykOiGX6LXAbzpniRGBEd",
+   "video": {
+    "id": "1NfTq_kvj7k",
+    "title": "Full Kuldra Run Skip - Post 1.0.1 Patch | Runescape Dragonwilds",
+    "channel": "@zyneater"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgyHNHqvi2zCs5bMQ7t4AaABAg.AbykOiGX6LXAbyoCVaKmJL",
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech",
+    "timing",
+    "bug"
+   ],
+   "verified": "partial",
+   "verification_note": "Same mechanic as SamFPlays' \"hit the left side of the rocks... it unlocks the teleporter\" (ESrrkdxD1fo 3:45). Death warp is faster with the jump attack.",
+   "curated": true
+  },
+  {
+   "text": "Great video dude :)\n\nAt 8:25 you don't have to go so high, you can go straight from where you are as you crouch through the hole. The video on my channel shows it if you want to see but yeah no need to windstep up higher\n\nat 12:39 the way to not agro them is to just touch the front edge of the circle that gives you charge, you still gain charge on the edge but the enemies wont spawn until you move further forward also if you do the air part first you can start creating the orb while you do the fire pylon, then grab the orb on the way back and recharge yourself with air",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1Q21XYSKJgo&lc=Ugxvkbcgf2lwqqCXWop4AaABAg",
+   "video": {
+    "id": "1Q21XYSKJgo",
+    "title": "Kuldra Scorned Wilderness Full Raid Skip Guide (Patch 1.0.1) | Runescape Dragonwilds",
+    "channel": "@zyneater"
+   },
+   "timestamp": "8:25",
+   "video_timestamps": [
+    "8:25",
+    "12:39"
+   ],
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "route",
+   "topics": [
+    "skip id",
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "For the stronghold you don't need to get the air charge from the room with the rats, if you just walk towards the room with the Thane in it on the right he'll walk through the bars. Kill him and you'll be charged then windstep up through the barrier.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=Ugz4kAKWiskByvxzeep4AaABAg",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 9,
+   "reply_to": null,
+   "topic": "route",
+   "topics": [
+    "tech"
+   ],
+   "verified": "yes",
+   "verification_note": "Used by Nanobit (8:32 run notes) and in the SamFPlays route. The Thane takes ~15 min to respawn (Nanobit).",
+   "curated": true
+  },
+  {
+   "text": "Fastest is a bit of a lie but that first skip next to the black dragon is new to me. For the Stronghold, you don't need to mine the wall or kill the rats just let the Thane walk out of the room on the right as you enter (he likes to walk through the metal bars) kill him then windstep up. You also don't need to bother activating the ledges in the elemental room either you can just windstep up on to the pipe",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=s9cyeL2c-qg&lc=UgxWvNU6Jtm8TYXEfEd4AaABAg",
+   "video": {
+    "id": "s9cyeL2c-qg",
+    "title": "Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!",
+    "channel": "@SectorTSWG"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "route",
+   "topics": [
+    "skip id",
+    "tech"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "There is a better skip for the necromancer area than the one you used in the video. After you walk through the earth barrier drop down to the vine below then jump around to a rock and surge+dash across, and at 4:49 you can just surge+dash across the entire chasm instead of going around the edge. I threw a quick video together and posted it if you wanted to see those they're in there but my pathing leaves a lot to be desired for the first one lol. The rest of my video you already know and I didn't know about the Elemental skip when I made that so thanks for showcasing that one :D \n\nGreat video dude keep it up. Hopefully Jagex don't go too hard patching these, I'm having a lot of fun running the raid with skips.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&lc=UgyAHfcN8BUg2G1ORK54AaABAg",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": "4:49",
+   "video_timestamps": [
+    "4:49"
+   ],
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "route",
+   "topics": [
+    "patch",
+    "skip id",
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "I just did a run and you can still surge+dash across the broken bridge to get to the final platform",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=s9cyeL2c-qg&lc=UgyiPFh0xfJfd5lnyIN4AaABAg.Ac0t4LjqHigAc18YlZ_Uca",
+   "video": {
+    "id": "s9cyeL2c-qg",
+    "title": "Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!",
+    "channel": "@SectorTSWG"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgyiPFh0xfJfd5lnyIN4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "tech"
+   ],
+   "verified": "partial",
+   "verification_note": "Was true on 10-20. FastTipsGaming (10-27) says the bridge itself was patched later.",
+   "curated": true
+  },
+  {
+   "text": "It doesn't matter what you're holding no, just make sure you have forward momentum by moving before you surge. It can be tricky and until you get the hang of it I recommend using recall and if you miss you can just teleport back\n\nThere's also a new out of bounds skip for Cataclysm keep, you can see that in action on iNanobit's run on his channel or SamFPlays",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=r1nrG2NlW-g&lc=UgwSWPA8SNAH8krHNOZ4AaABAg.Ac7rITXhrhrAc9Dgum9VEs",
+   "video": {
+    "id": "r1nrG2NlW-g",
+    "title": "Scorned Wilderness Skips 1.0.1 (missing Cataclysm Keep skip, just solve it asap)",
+    "channel": "@Sir_Rebral"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgwSWPA8SNAH8krHNOZ4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "skip id",
+    "tech"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "From the latest reddit post by jagex: \"Fixes for skips in the Scorned Wilderness Raid.\" are incoming...\n\nI've been enjoying speedrunning and watching speed runs of the raid but it looks like they're adamant about forcing us all to do it the intended way.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=vw_Mr5TGJAg&lc=UgwnCGGjn2qhLhoH3AJ4AaABAg",
+   "video": {
+    "id": "vw_Mr5TGJAg",
+    "title": "Runescape: Dragonwilds | 8:32 Kuldra | 1.0.1 Day 1 Strats",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "patch",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "yes",
+   "verification_note": "Matches the 1.0.1 Known Issues post.",
+   "curated": true
+  },
+  {
+   "text": "Clean af sub 7 is definitely possible 💪 the extra hit after the Thane kill broke my heart haha. Keep it up man, hopefully see a sub 7 before more patches",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=doVQ9Ph256g&lc=UgzcffKPIXkkMX_2JyZ4AaABAg",
+   "video": {
+    "id": "doVQ9Ph256g",
+    "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+    "channel": "@iNanobit"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 3,
+   "reply_to": null,
+   "topic": "timing",
+   "topics": [
+    "patch",
+    "timing"
+   ],
+   "verified": "yes",
+   "verification_note": "TexasPete did 6:50 on an earlier route.",
+   "curated": true
+  },
+  {
+   "text": " @SectorTSWG  I uploaded a video with the skips I know of personally including the one I just learned from your video so I've credited you in the description",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=s9cyeL2c-qg&lc=UgxWvNU6Jtm8TYXEfEd4AaABAg.Ac16R_7HC4JAc1MbJW62Mr",
+   "video": {
+    "id": "s9cyeL2c-qg",
+    "title": "Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!",
+    "channel": "@SectorTSWG"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxWvNU6Jtm8TYXEfEd4AaABAg.Ac16R_7HC4JAc1L5FJJd_W",
+   "topic": "credit",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "1.0.1 patched a few of the original skips, the most obvious one being the OOB during Cataclysm Keep, there's currently no skip (that I know of) for that area so just solve the puzzle fast with smart pathing.",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=r1nrG2NlW-g",
+   "video": {
+    "id": "r1nrG2NlW-g",
+    "title": "Scorned Wilderness Skips 1.0.1 (missing Cataclysm Keep skip, just solve it asap)"
+   },
+   "timestamp": null,
+   "date": "2026-10-16",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "The skip to Fragments of Ghornfell I saw in a video by @SectorTSWG",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=r1nrG2NlW-g",
+   "video": {
+    "id": "r1nrG2NlW-g",
+    "title": "Scorned Wilderness Skips 1.0.1 (missing Cataclysm Keep skip, just solve it asap)"
+   },
+   "timestamp": null,
+   "date": "2026-10-16",
+   "date_approx": false,
+   "topic": "credit",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "​ @Sketchy.Artist13 that's patched in 1.0.1",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=Ugz4kAKWiskByvxzeep4AaABAg.AbzmTMR6VLGAc-QHSW0jNP",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "Ugz4kAKWiskByvxzeep4AaABAg.AbzmTMR6VLGAc-PnNT1Hs6",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [
+  {
+   "title": "Scorned Wilderness Skips 1.0.1 (missing Cataclysm Keep skip, just solve it asap)",
+   "url": "https://www.youtube.com/watch?v=r1nrG2NlW-g",
+   "date": "2026-10-16",
+   "duration": "5:14",
+   "views": 333,
+   "channel": "@Sir_Rebral",
+   "summary": "1.0.1 patched a few of the original skips, the most obvious one being the OOB during Cataclysm Keep, there's currently no skip (that I know of) for that area so just solve the puzzle fast with smart pathing.",
+   "description": "1.0.1 patched a few of the original skips, the most obvious one being the OOB during Cataclysm Keep, there's currently no skip (that I know of) for that area so just solve the puzzle fast with smart pathing.\n\n0:00 Dragontail Vines\n0:53 Skip to Fragments of Ghornfell\n1:58 Skip across to Stronghold\n2:48 Air barrier and skip across to Cataclysm Keep\n4:02 Kuldra\n\nThe skip to Fragments of Ghornfell I saw in a video by @SectorTSWG \n\nJagex have said there will be \"Fixes for skips in the Scorned Wilderness Raid.\" in a coming update soon, so have fun running the raid with skips while you can.",
+   "transcript": "auto-captions, see D:/claude-temp/people/transcripts/r1nrG2NlW-g.txt",
+   "comments_fetched": 2,
+   "key_moments": [
+    {
+     "t": "0:00",
+     "url": "https://www.youtube.com/watch?v=r1nrG2NlW-g&t=0s",
+     "what": "Dragontail Vines",
+     "source": "chapter"
+    },
+    {
+     "t": "0:53",
+     "url": "https://www.youtube.com/watch?v=r1nrG2NlW-g&t=53s",
+     "what": "Skip to Fragments of Ghornfell",
+     "source": "chapter"
+    },
+    {
+     "t": "1:58",
+     "url": "https://www.youtube.com/watch?v=r1nrG2NlW-g&t=118s",
+     "what": "Skip across to Stronghold",
+     "source": "chapter"
+    },
+    {
+     "t": "2:48",
+     "url": "https://www.youtube.com/watch?v=r1nrG2NlW-g&t=168s",
+     "what": "Air barrier and skip across to Cataclysm Keep",
+     "source": "chapter"
+    },
+    {
+     "t": "4:02",
+     "url": "https://www.youtube.com/watch?v=r1nrG2NlW-g&t=242s",
+     "what": "Kuldra",
+     "source": "chapter"
+    }
+   ]
+  }
+ ],
+ "runs": [],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

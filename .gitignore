@@ -7,3 +7,7 @@ playwright-report/
 .shots.mjs
 live/
 .e2e.mjs
+
+# personal AI conversations: never publish
+data/kb/agents/
+bash.exe.stackdump

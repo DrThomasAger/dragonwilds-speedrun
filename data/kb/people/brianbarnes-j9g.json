@@ -1,0 +1,74 @@
+{
+ "handle": "brianbarnes-j9g",
+ "name": "BrianBarnes-j9g",
+ "aliases": [
+  "@BrianBarnes-j9g"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@BrianBarnes-j9g",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: I found a weird quirk in my save file during this part of the boss battle. I have a small, almost invisible block right in the middle of that large gap that you…",
+ "insights": [
+  {
+   "text": "I found a weird quirk in my save file during this part of the boss battle. I have a small, almost invisible block right in the middle of that large gap that you dash and phase dash to reach the boss heart that you can windstep onto, and then I can just phase dash from that middle block.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=UgxDN53RCtnayFjE1hV4AaABAg",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-06",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "bug",
+   "topics": [
+    "tech",
+    "bug"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": " @SamFPlays  I did complete it again, and it’s still there. I don’t know if it’s just an issue with the console version of the game because I’m seeing them in the Fellhollow region as well.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=UgxDN53RCtnayFjE1hV4AaABAg.Ab_jKjBDw3LAbaoqfNPyF-",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-06",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxDN53RCtnayFjE1hV4AaABAg.Ab_jKjBDw3LAbafNY7KBWk",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

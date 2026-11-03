@@ -1,0 +1,214 @@
+{
+ "handle": "fasttipsgaming",
+ "name": "FastTipsGaming",
+ "aliases": [
+  "Fast Tips Gaming",
+  "@FastTipsGaming"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@FastTipsGaming",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "guide maker"
+ ],
+ "insight_score": 42,
+ "summary": "Console guide maker. On 10-27 he showed the boss skip still works on 1.0.1.2 by flying \"down the middle\", and he says every rock and even the bridge was patched. On 11-02 he posted a full unedited raid with the skip. He warns that an autosave mid-trick kills you. Dotxy accused him of not crediting the original video.",
+ "insights": [
+  {
+   "text": "Gotta practice bro. I promise you’ll get it. It took me about two hours of practice before I could do it but it’s worth it. I’ve got a vid on my channel about how to do it as well.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=oK0_U_I40DY&lc=UgzCUMjKftue5cqQ0vF4AaABAg.Acisa4aJ0i7AcitfqTSw0x",
+   "video": {
+    "id": "oK0_U_I40DY",
+    "title": "New FULL Kuldra Raid Skip 1.0.1",
+    "channel": "@FastTipsGaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-11-02",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgzCUMjKftue5cqQ0vF4AaABAg",
+   "topic": "practice",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "what? none of this is ai and none of this is stolen from any other creator",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=U0_KPXu28qw&lc=Ugyi-F4tHoivXjjrYah4AaABAg.AcWERMsrveaAcX2acvCgan",
+   "video": {
+    "id": "U0_KPXu28qw",
+    "title": "Infinite Jump EXPLOIT 1.0 Dragonwilds",
+    "channel": "@FastTipsGaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-29",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": "Ugyi-F4tHoivXjjrYah4AaABAg",
+   "topic": "credit",
+   "topics": [
+    "other"
+   ],
+   "verified": "disputed",
+   "verification_note": "Dotxy: \"at least credit my video\".",
+   "curated": true
+  },
+  {
+   "text": "Instead of using the leftmost platform to jump on, and because Jagex has patched every freaking single rock I've tried to jump on, including the bridge itself, I decided to go pretty much down the middle instead. You will need to learn how to do the",
+   "source": "video narration (auto-captions, may contain transcription errors)",
+   "url": "https://www.youtube.com/watch?v=L-dTDXJyFq0&t=29s",
+   "video": {
+    "id": "L-dTDXJyFq0",
+    "title": "UNPATCHED Kuldra Raid Fight SKIP"
+   },
+   "timestamp": "0:29",
+   "date": "2026-10-27",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "self-shown",
+   "verification_note": "Spoken over the footage in the video",
+   "curated": true
+  },
+  {
+   "text": "infinite double jump exploit. I do have a video on my channel that will teach you how to do it as well. Also, in case it isn't obvious, I am on console, so I can guarantee that this does [music] work. You will need to practice and make sure",
+   "source": "video narration (auto-captions, may contain transcription errors)",
+   "url": "https://www.youtube.com/watch?v=L-dTDXJyFq0&t=47s",
+   "video": {
+    "id": "L-dTDXJyFq0",
+    "title": "UNPATCHED Kuldra Raid Fight SKIP"
+   },
+   "timestamp": "0:47",
+   "date": "2026-10-27",
+   "date_approx": false,
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "self-shown",
+   "verification_note": "Spoken over the footage in the video",
+   "curated": true
+  },
+  {
+   "text": "effectively use it. Also, rest assured that you will run into the game's most dangerous enemy of all. The mother co- stupid bi- ass auto save. If the game auto saves while you're trying to perform this trick, you're going down.",
+   "source": "video narration (auto-captions, may contain transcription errors)",
+   "url": "https://www.youtube.com/watch?v=U0_KPXu28qw&t=45s",
+   "video": {
+    "id": "U0_KPXu28qw",
+    "title": "Infinite Jump EXPLOIT 1.0 Dragonwilds"
+   },
+   "timestamp": "0:45",
+   "date": "2026-10-27",
+   "date_approx": false,
+   "topic": "bug",
+   "topics": [
+    "bug"
+   ],
+   "verified": "self-shown",
+   "verification_note": "Spoken over the footage in the video",
+   "curated": true
+  },
+  {
+   "text": "move on their own. This took me about 2 hours before I was ready to use it in the actual world of Dragon Wilds. So, don't be frustrated if you can't do it after a few minutes. This is a difficult skill that will take time to learn.",
+   "source": "video narration (auto-captions, may contain transcription errors)",
+   "url": "https://www.youtube.com/watch?v=U0_KPXu28qw&t=211s",
+   "video": {
+    "id": "U0_KPXu28qw",
+    "title": "Infinite Jump EXPLOIT 1.0 Dragonwilds"
+   },
+   "timestamp": "3:31",
+   "date": "2026-10-27",
+   "date_approx": false,
+   "topic": "practice",
+   "topics": [
+    "timing"
+   ],
+   "verified": "self-shown",
+   "verification_note": "Spoken over the footage in the video",
+   "curated": true
+  },
+  {
+   "text": "if you're referring to the infinite double jump check out the vid on my channel",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=L-dTDXJyFq0&lc=UgwHob3O5ZPNKSlOQGN4AaABAg.AcW5yARwxdiAcX2R6w5UKX",
+   "video": {
+    "id": "L-dTDXJyFq0",
+    "title": "UNPATCHED Kuldra Raid Fight SKIP",
+    "channel": "@FastTipsGaming"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-29",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgwHob3O5ZPNKSlOQGN4AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [
+  {
+   "title": "New FULL Kuldra Raid Skip 1.0.1",
+   "url": "https://www.youtube.com/watch?v=oK0_U_I40DY",
+   "date": "2026-11-02",
+   "duration": "11:39",
+   "views": 865,
+   "channel": "@FastTipsGaming",
+   "summary": "In this video, I'll be showing you my full unedited Kuldra raid and boss skip in Runescape Dragonwilds.",
+   "description": "In this video, I'll be showing you my full unedited Kuldra raid and boss skip in Runescape Dragonwilds.",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 8,
+   "key_moments": []
+  },
+  {
+   "title": "UNPATCHED Kuldra Raid Fight SKIP",
+   "url": "https://www.youtube.com/watch?v=L-dTDXJyFq0",
+   "date": "2026-10-27",
+   "duration": "5:30",
+   "views": 5334,
+   "channel": "@FastTipsGaming",
+   "summary": "In this video, I'll be showing you how to skip the Kuldra boss fight after the latest 1.0.1 patch in Runescape Dragonwilds.",
+   "description": "In this video, I'll be showing you how to skip the Kuldra boss fight after the latest 1.0.1 patch in Runescape Dragonwilds.",
+   "transcript": "auto-captions, see D:/claude-temp/people/transcripts/L-dTDXJyFq0.txt",
+   "comments_fetched": 9,
+   "key_moments": []
+  },
+  {
+   "title": "Infinite Jump EXPLOIT 1.0 Dragonwilds",
+   "url": "https://www.youtube.com/watch?v=U0_KPXu28qw",
+   "date": "2026-10-27",
+   "duration": "4:01",
+   "views": 2025,
+   "channel": "@FastTipsGaming",
+   "summary": "In this video, I'll be showing you how to perform the infinite jump exploit/glitch in Runescape Dragonwilds.",
+   "description": "In this video, I'll be showing you how to perform the infinite jump exploit/glitch in Runescape Dragonwilds.",
+   "transcript": "auto-captions, see D:/claude-temp/people/transcripts/U0_KPXu28qw.txt",
+   "comments_fetched": 7,
+   "key_moments": []
+  }
+ ],
+ "runs": [],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

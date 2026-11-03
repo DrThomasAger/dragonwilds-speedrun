@@ -1,0 +1,50 @@
+{
+ "handle": "haydenjones953",
+ "name": "haydenjones953",
+ "aliases": [
+  "@haydenjones953"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@haydenjones953",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: The vault guardian part- you can jump on the lower part of the pipe and windstep onto the highest part of the pipe (without having to turn the valve to activate…",
+ "insights": [
+  {
+   "text": "The vault guardian part- you can jump on the lower part of the pipe and windstep onto the highest part of the pipe (without having to turn the valve to activate the moving platforms)\nAs for the fire, you can siphon the fire anima without stepping on the centre bit by standing close to it (without having to wake up the vault guardians)",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=s9cyeL2c-qg&lc=Ugw7VCgwkc4ASLTZB4R4AaABAg",
+   "video": {
+    "id": "s9cyeL2c-qg",
+    "title": "Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!",
+    "channel": "@SectorTSWG"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": null,
+   "topic": "route",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

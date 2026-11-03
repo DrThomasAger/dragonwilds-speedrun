@@ -1,0 +1,6 @@
+profile,split,name,reached,reachRate,nRun,nPractice,gold,p10,median,mean,sd,vsCommunityBest,medianVsBest
+synthetic-new (SYNTHETIC),1,Dragontail Vines,75,0.9375,75,6,82.43,87.76,98.64,100.7,10.88,0.91,17.12
+synthetic-new (SYNTHETIC),2,Fragments of Ghornfell,37,0.4625,37,6,58.65,67.3,76.12,76.57,7.98,-2.45,15.02
+synthetic-new (SYNTHETIC),3,The Shattered Stronghold,27,0.3375,27,6,60.85,64.89,80.54,79.3,13.18,9.15,28.84
+synthetic-new (SYNTHETIC),4,Cataclysm Keep,18,0.225,18,6,85.92,87.6,104.32,111.85,22.18,-1.88,16.52
+synthetic-new (SYNTHETIC),5,Kuldra's Sanctum,8,0.1,8,6,136.52,141.56,158.52,157.34,11.59,20.37,42.37

@@ -1,0 +1,99 @@
+{
+ "handle": "aryvt",
+ "name": "AryVT",
+ "aliases": [
+  "@AryVT"
+ ],
+ "platforms": {
+  "youtube": null,
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 12,
+ "summary": "Duo trick: a player who died rejoins with ~4 s left to unlock the Kuldra teleport and loop the boss. It is for farming and multiplayer only, not the solo SRC Raid category.",
+ "insights": [
+  {
+   "text": "In duo+ you can skip the whole run to kuldra after first run, 1guy dies at the very end and rejoins around @ around4 seconds till ending cinematic, this way kuldra's teleport get unlocked and you get loot on both players and can just start next run on kuldra fight again, about 2minutes a run that way.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugw6HQH0gjF6ux2PLSB4AaABAg",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": " @NINGEN.12  Rejoin the raid. so when the heart is at 1-3 hits from death, 1 player dies, the other(s) fininish it off. Than when the 'get out'-timer starts the player who died be ready at zilyana to rejoin around the 4~seconds remaining. this will make you teleport in, get kill credit but the raid resets at the same time and you unlock the last teleporter.\n\nbest to have your respawn close to zilyana so you don't have to teleport as you only have like 10 seconds to run up and talk to her.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugw6HQH0gjF6ux2PLSB4AaABAg.AbiijsLOuljAbkKzV0O7Lv",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugw6HQH0gjF6ux2PLSB4AaABAg.AbiijsLOuljAbkDO-dsVlD",
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": " @NINGEN.12  be sure to die at kuldra's heart and not in phase 1-3. for us it worked fine this way and we could just redo kuldra b2b2b :D",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugw6HQH0gjF6ux2PLSB4AaABAg.AbiijsLOuljAbms446MmT9",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugw6HQH0gjF6ux2PLSB4AaABAg.AbiijsLOuljAbkKzV0O7Lv",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

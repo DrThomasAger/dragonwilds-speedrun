@@ -1,0 +1,50 @@
+{
+ "handle": "stormblessedkiwi8049",
+ "name": "stormblessedkiwi8049",
+ "aliases": [
+  "@stormblessedkiwi8049"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@stormblessedkiwi8049",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: I go a different way, slower but safer, not that much slower. I can do it like he does in the vid but I have a terrible PC and it randomly has frame issues whic…",
+ "insights": [
+  {
+   "text": "I go a different way, slower but safer, not that much slower. I can do it like he does in the vid but I have a terrible PC and it randomly has frame issues which can cause errors in the jumping so I play it safe. You go to the same ledge. Wind step down onto the green angled rock. then sprint and double jump onto the green ledge that is sticking up. then I windstep onto the black rock just in front of that, same level in height. Then windstep up towards Kuldra you should see a rock on an angle you can jump onto and then one final windstep through the gap in the rocks to Kuldra",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ&lc=Ugzk3zqRv5abkUNYu0V4AaABAg.AbUKAvXxESnAbZMwaPsJNc",
+   "video": {
+    "id": "iu2SL4oyZFQ",
+    "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-06",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugzk3zqRv5abkUNYu0V4AaABAg",
+   "topic": "bug",
+   "topics": [
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

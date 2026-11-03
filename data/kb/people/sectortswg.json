@@ -1,0 +1,232 @@
+{
+ "handle": "sectortswg",
+ "name": "SectorTSWG",
+ "aliases": [
+  "That's So Wild Gaming",
+  "@SectorTSWG"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@SectorTSWG",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "tech finder",
+  "guide maker"
+ ],
+ "insight_score": 50,
+ "summary": "Found the post-1.0.1 skip to Fragments of Ghornfell next to the first black dragon. It reached Nanobit's 7:01 via Sir_Rebral, and the narrated video explains it. He also reported the earlier 1.0.1 invisible walls.",
+ "insights": [
+  {
+   "text": "It's all in timing the jump after the magic dash, it kind of propels you. But it is a irritating place to fail at, as the run to that part is so tedious. \n\nI've found an easier way, I'll post it shortly 👍",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=s9cyeL2c-qg&lc=UgwXm0yLDsRJQJB9NP54AaABAg.Ac1kzG8ZtqQAc1llTdH_Mc",
+   "video": {
+    "id": "s9cyeL2c-qg",
+    "title": "Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!",
+    "channel": "@SectorTSWG"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgwXm0yLDsRJQJB9NP54AaABAg",
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Good advice, I'll keep them in mind on my next run.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=s9cyeL2c-qg&lc=Ugw7VCgwkc4ASLTZB4R4AaABAg.Ac1DG8MTMcvAc1LQ4U1Jp2",
+   "video": {
+    "id": "s9cyeL2c-qg",
+    "title": "Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!",
+    "channel": "@SectorTSWG"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugw7VCgwkc4ASLTZB4R4AaABAg",
+   "topic": "route",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Nice one I'll take that on board. I did notice the Thane randomly comes out on my last run I did. Just thought it was a blip.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=s9cyeL2c-qg&lc=UgxWvNU6Jtm8TYXEfEd4AaABAg.Ac16R_7HC4JAc1L5FJJd_W",
+   "video": {
+    "id": "s9cyeL2c-qg",
+    "title": "Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!",
+    "channel": "@SectorTSWG"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxWvNU6Jtm8TYXEfEd4AaABAg",
+   "topic": "route",
+   "topics": [
+    "other"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "moment. We just run past this dragon and get out of this room. Um and flying from that gets you through the area. I think I'll get bulleted by an arrow there. Yeah, I do. So I literally found this by accident. I did not realize this quest was down",
+   "source": "video narration (auto-captions, may contain transcription errors)",
+   "url": "https://www.youtube.com/watch?v=s9cyeL2c-qg&t=99s",
+   "video": {
+    "id": "s9cyeL2c-qg",
+    "title": "Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!"
+   },
+   "timestamp": "1:39",
+   "date": "2026-10-15",
+   "date_approx": false,
+   "topic": "skip id",
+   "topics": [
+    "other"
+   ],
+   "verified": "self-shown",
+   "verification_note": "Spoken over the footage in the video",
+   "curated": true
+  },
+  {
+   "text": "here. But as I looked around, I can see a ledge over to the right there. And you can literally jump and get across to it. So I'm going to pause it here because if you get too close to this ledge, just to warn you, so I've been caught out by it.",
+   "source": "video narration (auto-captions, may contain transcription errors)",
+   "url": "https://www.youtube.com/watch?v=s9cyeL2c-qg&t=119s",
+   "video": {
+    "id": "s9cyeL2c-qg",
+    "title": "Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!"
+   },
+   "timestamp": "1:59",
+   "date": "2026-10-15",
+   "date_approx": false,
+   "topic": "skip id",
+   "topics": [
+    "other"
+   ],
+   "verified": "self-shown",
+   "verification_note": "Spoken over the footage in the video",
+   "curated": true
+  },
+  {
+   "text": "Uh you can kind of phase through that edge and fall and take a death. Um but we need to do the first um magic dash uh across this uh gap here. So we need the surge ability uh from the magic tree and the double dash from the agility tree. Um",
+   "source": "video narration (auto-captions, may contain transcription errors)",
+   "url": "https://www.youtube.com/watch?v=s9cyeL2c-qg&t=136s",
+   "video": {
+    "id": "s9cyeL2c-qg",
+    "title": "Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!"
+   },
+   "timestamp": "2:16",
+   "date": "2026-10-15",
+   "date_approx": false,
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "self-shown",
+   "verification_note": "Spoken over the footage in the video",
+   "curated": true
+  },
+  {
+   "text": "damage and getting whacked, especially when jumping over this bit. Yeah, and just smash back through this. But before you used to be a gap you could kind of get through and then get underneath the map. Um but unfortunately that there they",
+   "source": "video narration (auto-captions, may contain transcription errors)",
+   "url": "https://www.youtube.com/watch?v=s9cyeL2c-qg&t=456s",
+   "video": {
+    "id": "s9cyeL2c-qg",
+    "title": "Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!"
+   },
+   "timestamp": "7:36",
+   "date": "2026-10-15",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "other"
+   ],
+   "verified": "self-shown",
+   "verification_note": "Spoken over the footage in the video",
+   "curated": true
+  },
+  {
+   "text": "them already. >> [snorts] >> Um so I'll run through this. I'll speed up where I can. But most of them are still working thankfully. But yeah, there's a couple where they've put up invisible walls to kind of stop you but cheating into other",
+   "source": "video narration (auto-captions, may contain transcription errors)",
+   "url": "https://www.youtube.com/watch?v=s9cyeL2c-qg&t=21s",
+   "video": {
+    "id": "s9cyeL2c-qg",
+    "title": "Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!"
+   },
+   "timestamp": "0:21",
+   "date": "2026-10-15",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "bug"
+   ],
+   "verified": "self-shown",
+   "verification_note": "Spoken over the footage in the video",
+   "curated": true
+  },
+  {
+   "text": "​ @Sir_Rebral last night I did a run, and everything that could go wrong went wrong. Felt like I was being messed with. The skips worked, just wasn't as fluid. Gave up after that.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=s9cyeL2c-qg&lc=UgyiPFh0xfJfd5lnyIN4AaABAg.Ac0t4LjqHigAc1LG6gZh9D",
+   "video": {
+    "id": "s9cyeL2c-qg",
+    "title": "Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!",
+    "channel": "@SectorTSWG"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgyiPFh0xfJfd5lnyIN4AaABAg.Ac0t4LjqHigAc18YlZ_Uca",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [
+  {
+   "title": "Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!",
+   "url": "https://www.youtube.com/watch?v=s9cyeL2c-qg",
+   "date": "2026-10-15",
+   "duration": "11:08",
+   "views": 3185,
+   "channel": "@SectorTSWG",
+   "summary": "With the launch of the new update today, they have patched some skips in the raid. Thankfully a couple still work including the boss skip, however I've had to find a couple of work arounds. Take a look at the run, and let me know if you've found anything i might have missed.",
+   "description": "With the launch of the new update today, they have patched some skips in the raid. Thankfully a couple still work including the boss skip, however I've had to find a couple of work arounds. Take a look at the run, and let me know if you've found anything i might have missed.",
+   "transcript": "auto-captions, see D:/claude-temp/people/transcripts/s9cyeL2c-qg.txt",
+   "comments_fetched": 20,
+   "key_moments": []
+  }
+ ],
+ "runs": [],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

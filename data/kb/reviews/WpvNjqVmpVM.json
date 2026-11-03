@@ -1,0 +1,393 @@
+{
+ "id": "WpvNjqVmpVM",
+ "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM",
+ "reviewedAt": "2026-11-03T06:14:31.410Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "ok",
+ "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+ "author": "SamFPlays",
+ "date": "2026-10-15",
+ "videoDuration": 662,
+ "kind": "run",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "register"
+ ],
+ "reference": true,
+ "rank": null,
+ "runStatus": "reference",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "duration": 653.4,
+ "offset": -0.1,
+ "offsetMethod": "reference (js/data/raid.js samf11, LiveSplit/frame-read)",
+ "splits": [
+  115.2,
+  212.5,
+  312.9,
+  481.4,
+  653.4
+ ],
+ "videoSplits": [
+  115.1,
+  212.4,
+  312.8,
+  481.3,
+  653.3
+ ],
+ "segmentTimes": [
+  115.2,
+  97.3,
+  100.4,
+  168.5,
+  172
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [
+  {
+   "t": 123.1,
+   "dur": 0.9,
+   "segment": 1
+  },
+  {
+   "t": 131.3,
+   "dur": 1.7,
+   "segment": 1
+  },
+  {
+   "t": 498.4,
+   "dur": 0.8,
+   "segment": 4
+  },
+  {
+   "t": 547.7,
+   "dur": 0.4,
+   "segment": 4
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 115.1,
+    "score": 0.788
+   },
+   {
+    "t": 212.4,
+    "score": 0.773
+   },
+   {
+    "t": 312.8,
+    "score": 0.79
+   },
+   {
+    "t": 481.3,
+    "score": 0.774
+   }
+  ],
+  "end": {
+   "t": 653.3,
+   "plate": [
+    639.5,
+    653.2
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": null
+ },
+ "commentary": [
+  {
+   "t": 222,
+   "text": "Faster method for this section: Melee Garou Thane in air room for air charge to get past the doorway",
+   "topics": [
+    "timing"
+   ],
+   "places": [
+    "garou",
+    "thane",
+    "air"
+   ],
+   "link": "https://youtu.be/WpvNjqVmpVM?t=222",
+   "known": "s-thane"
+  }
+ ],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "Stuck on a skip? Step-by-step voice guide with UPDATED skips: https://youtu.be/ESrrkdxD1fo",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "LATEST PATCH 1.0.1 Kuldra speedrun in RuneScape: Dragonwilds with the new skips that work after the patch. Get your Dragon armour fast with this route.",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "No commentary. Follow along step by step, or use the chapters to jump straight to the skip you need.",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "0:18 Windstep to air anima",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "0:40 Soulscourge skip",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "1:17 Skip the black dragon",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "1:35 Skip the ENTIRE necromancer area (NEW)",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "2:40 Skip the ENTIRE poison area",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "3:04 Surge + phase dash past the abyssal demon",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "3:40 Skip the HARDEST part of the raid (NEW) (Even faster way is killing the Garou Thane in the air room through the gate with a melee weapon, getting air charged from killing him then windstepping up through the air doorway) - thanks  @Sir_Rebral",
+   "topics": [
+    "movement",
+    "skip",
+    "timing"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "6:00 Elemental puzzle (NO MORE SKIP)",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "8:25 Skip the Kuldra fight in under a minute",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "- Fleet Foot Infusion: MUST BRING. Cuts sprinting stamina cost by 50%.",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "What's your best Kuldra time? Drop it in the comments. And tell me which skip you didn't know about. If this saved you time, drop a subscribe, I'll be dropping an updated video with every patch! Trying to hit 500 subs!",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=WpvNjqVmpVM",
+   "quote": "Stuck on a skip? Step-by-step voice guide with UPDATED skips: https://youtu.be/ESrrkdxD1fo",
+   "unseen": [
+    "step-by-step",
+    "voice",
+    "guide",
+    "https",
+    "youtu",
+    "esrrkdxd"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=WpvNjqVmpVM",
+   "quote": "LATEST PATCH 1.0.1 Kuldra speedrun in RuneScape: Dragonwilds with the new skips that work after the patch. Get your Dragon armour fast with this route.",
+   "unseen": [
+    "latest",
+    "runescape",
+    "dragonwilds",
+    "work",
+    "armour"
+   ],
+   "nearestKnown": {
+    "id": "s-bd1",
+    "name": "Black dragon skip",
+    "src": "route.js",
+    "score": 0.5
+   }
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=WpvNjqVmpVM",
+   "quote": "No commentary. Follow along step by step, or use the chapters to jump straight to the skip you need.",
+   "unseen": [],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=WpvNjqVmpVM",
+   "quote": "0:40 Soulscourge skip",
+   "unseen": [],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=WpvNjqVmpVM",
+   "quote": "3:40 Skip the HARDEST part of the raid (NEW) (Even faster way is killing the Garou Thane in the air room through the gate with a melee weapon, getting air charged from killing him then windstepping up through the air doorway) - thanks  @Sir_Rebral",
+   "unseen": [
+    "killing",
+    "getting",
+    "charged",
+    "thanks"
+   ],
+   "nearestKnown": {
+    "id": "s-thane",
+    "name": "Garou Thane / air door skip",
+    "src": "route.js",
+    "score": 0.75
+   }
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=WpvNjqVmpVM",
+   "quote": "What's your best Kuldra time? Drop it in the comments. And tell me which skip you didn't know about. If this saved you time, drop a subscribe, I'll be dropping an updated video with every patch! Trying to hit 500 subs!",
+   "unseen": [
+    "what's",
+    "best",
+    "drop",
+    "comments",
+    "tell",
+    "which",
+    "didn't",
+    "saved"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   }
+  }
+ ],
+ "transcriptSource": "youtube:en",
+ "transcriptLines": 1,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": true,
+  "offsetMethod": "reference (js/data/raid.js samf11, LiveSplit/frame-read)",
+  "templateScale": [
+   1.05,
+   0.98
+  ],
+  "templateScore": [
+   0.713,
+   0.847
+  ],
+  "complete": true,
+  "transcript": "youtube:en",
+  "notes": []
+ },
+ "curated": null
+}

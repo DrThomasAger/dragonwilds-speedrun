@@ -1,0 +1,50 @@
+{
+ "handle": "richardbuffolino9384",
+ "name": "richardbuffolino9384",
+ "aliases": [
+  "@richardbuffolino9384"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@richardbuffolino9384",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 8,
+ "summary": "Single-insight commenter: Tip for anyone getting used to wind step jumping: wait until your weapon comes back out after casting to start sprinting. Especially if youre struggling with th…",
+ "insights": [
+  {
+   "text": "Tip for anyone getting used to wind step jumping: wait until your weapon comes back out after casting to start sprinting. Especially if youre struggling with the sections with not much room to run up.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=UgyjJ7EJ3Ojg03Sme_V4AaABAg",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-06",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": null,
+   "topic": "tech",
+   "topics": [
+    "tech"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

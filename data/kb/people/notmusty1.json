@@ -1,0 +1,210 @@
+{
+ "handle": "notmusty1",
+ "name": "notmusty1",
+ "aliases": [
+  "Asor",
+  "@notmusty1"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@notmusty1",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "tech finder"
+ ],
+ "insight_score": 48,
+ "summary": "Found the post-1.0.1 elemental puzzle skip, the Keep hole credited in Nanobit's 7:01 (independently of IINo1goodII), and a full Abyssal Demon skip. Nanobit thinks the demon skip is slower than the normal route. He says he is \"really not a speedrunner\".",
+ "insights": [
+  {
+   "text": "I found a skip with elemental puzzle. Currently downloading it to my channel, tho im not sure how useful it is since it takes 2-3 minutes to do anyways.\n\nJust downloaded the video! I also have a better skip with the abyssal demon so you will not get aggroed by it! Lmk if you want me to post that also.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=Ugw_HufyKDFsofad-5l4AaABAg",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "timing"
+   ],
+   "verified": "yes",
+   "verification_note": "faQnPcZPaZ8 shows it.",
+   "curated": true
+  },
+  {
+   "text": "i appreciate the shoutout!! :) i also have a skip for abby demon completely, i can upload the clip aswell if you would like to!",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&lc=UgxsFT9p30ly1tXfz8h4AaABAg",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "yes",
+   "verification_note": "rNDeEKsKGeA shows it.",
+   "curated": true
+  },
+  {
+   "text": "Most likely, but im really not a speedrunner so this skip is much more worth it for me xd",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=rNDeEKsKGeA&lc=UgzpAi2vJ83_yg9PpnJ4AaABAg.Ac2zfLROVr4Ac349zVC6pu",
+   "video": {
+    "id": "rNDeEKsKGeA",
+    "title": "RuneScape DragonWilds Kuldra ABYSSAL DEMON FULL SKIP POST PATCH 1.0.1 WORKING",
+    "channel": "@notmusty1"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": "UgzpAi2vJ83_yg9PpnJ4AaABAg",
+   "topic": "route",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "partial",
+   "verification_note": "Nanobit: \"I believe it's slower than my normal strategy\".",
+   "curated": true
+  },
+  {
+   "text": " @IINo1goodII  yeah just noticed it! i need to upload the abyssal demon skip aswell so ppl know of this particular skip aswell, give me a hour or 2 i'll upload it",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=JRpxlTZ_F2M&lc=Ugy8aoYbOg1h5AvQdGJ4AaABAg.Ac2OEVhCuVJAc2rOXCQLct",
+   "video": {
+    "id": "JRpxlTZ_F2M",
+    "title": "Kuldra Elemental Puzzle Skip",
+    "channel": "@IINo1goodII"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugy8aoYbOg1h5AvQdGJ4AaABAg.Ac2OEVhCuVJAc2_WygMx2O",
+   "topic": "meta",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "This is fully working Kuldra skip if you dont want to do the elemental puzzle! :)",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=faQnPcZPaZ8",
+   "video": {
+    "id": "faQnPcZPaZ8",
+    "title": "KULDRA ELEMENTAL PUZZLE SKIP (POST PATCH) 1.0.1"
+   },
+   "timestamp": null,
+   "date": "2026-10-16",
+   "date_approx": false,
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "outdated",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Here is the skip. I have done this for weeks now, and finally decided to post this for you all to skip the Abyssal Demon completely! Fully working as today 17.10.2026",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=rNDeEKsKGeA",
+   "video": {
+    "id": "rNDeEKsKGeA",
+    "title": "RuneScape DragonWilds Kuldra ABYSSAL DEMON FULL SKIP POST PATCH 1.0.1 WORKING"
+   },
+   "timestamp": null,
+   "date": "2026-10-17",
+   "date_approx": false,
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "outdated",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": " @SamFPlays yeah abit, hahah thanks im not a speedrunner so that skip fits better for me since i dont need to run away from abby demon at all :)",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&lc=UgxsFT9p30ly1tXfz8h4AaABAg.Ac2rE7EeXBoAc3IkwTwlwG",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxsFT9p30ly1tXfz8h4AaABAg.Ac2rE7EeXBoAc33CLOerjk",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [
+  {
+   "title": "KULDRA ELEMENTAL PUZZLE SKIP (POST PATCH) 1.0.1",
+   "url": "https://www.youtube.com/watch?v=faQnPcZPaZ8",
+   "date": "2026-10-16",
+   "duration": "2:34",
+   "views": 208,
+   "channel": "@notmusty1",
+   "summary": "This is fully working Kuldra skip if you dont want to do the elemental puzzle! :)",
+   "description": "This is fully working Kuldra skip if you dont want to do the elemental puzzle! :)",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 2,
+   "key_moments": []
+  },
+  {
+   "title": "RuneScape DragonWilds Kuldra ABYSSAL DEMON FULL SKIP POST PATCH 1.0.1 WORKING",
+   "url": "https://www.youtube.com/watch?v=rNDeEKsKGeA",
+   "date": "2026-10-17",
+   "duration": "1:46",
+   "views": 173,
+   "channel": "@notmusty1",
+   "summary": "Here is the skip. I have done this for weeks now, and finally decided to post this for you all to skip the Abyssal Demon completely! Fully working as today 17.10.2026",
+   "description": "Here is the skip. I have done this for weeks now, and finally decided to post this for you all to skip the Abyssal Demon completely! Fully working as today 17.10.2026",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 3,
+   "key_moments": []
+  }
+ ],
+ "runs": [],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

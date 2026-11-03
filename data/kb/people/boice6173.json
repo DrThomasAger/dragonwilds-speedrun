@@ -1,0 +1,51 @@
+{
+ "handle": "boice6173",
+ "name": "boice6173",
+ "aliases": [
+  "@boice6173"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@boice6173",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: I was watching players have an extra orb during the Zilyana warp out in P1- if you spam quick enough, you're able to smuggle one into the next phase saving plen…",
+ "insights": [
+  {
+   "text": "I was watching players have an extra orb during the Zilyana warp out in P1- if you spam quick enough, you're able to smuggle one into the next phase saving plenty of time for Phase 2 and 3. Just seeing Phase 3 is now skippable which is great! Thanks for the tip. My 25 raids in search for the scim got a little faster :P",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ewgak1mPu7A&lc=Ugxly5aWqSQdja2PuOJ4AaABAg",
+   "video": {
+    "id": "ewgak1mPu7A",
+    "title": "I Broke the New Dragonwilds Raid | Kuldra Guide + Tricks",
+    "channel": "@CrossRSDW"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "route",
+   "topics": [
+    "skip id",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

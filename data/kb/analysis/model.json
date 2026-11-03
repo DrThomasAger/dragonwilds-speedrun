@@ -1,0 +1,2802 @@
+{
+  "meta": {
+    "goal": 410,
+    "goalMargin": 408,
+    "shiftFrac": 0.85,
+    "seed": 20261103,
+    "splits": [
+      "Vines",
+      "Fragments",
+      "Stronghold",
+      "Keep",
+      "Sanctum"
+    ],
+    "runpath": {
+      "path": "D:\\labyrinth\\Github\\JaGeX\\dragonwilds-speedrun\\data\\kb\\runpath.json",
+      "error": null
+    },
+    "user": null
+  },
+  "reference": [
+    {
+      "key": "tp650",
+      "runner": "TexasPete",
+      "label": "TexasPete 6:50 (WR)",
+      "time": 410,
+      "patch": "1.0.0.6+ (pre-1.0.1 strats)",
+      "segs": [
+        81.52,
+        61.10000000000001,
+        51.69999999999999,
+        96.30000000000001,
+        119.38
+      ],
+      "refLineSegs": [
+        87.62,
+        61.1,
+        63.1,
+        87.7,
+        119.38
+      ]
+    },
+    {
+      "key": "nano701",
+      "runner": "Nanobit",
+      "label": "Nanobit 7:01",
+      "time": 421.97,
+      "patch": "1.0.1 / 1.0.1.1",
+      "segs": [
+        87.82,
+        67.1,
+        63.10000000000002,
+        87.79999999999998,
+        116.15000000000003
+      ],
+      "refLineSegs": [
+        87.82,
+        67.1,
+        63.1,
+        87.8,
+        116.15
+      ]
+    },
+    {
+      "key": "tp740",
+      "runner": "TexasPete",
+      "label": "TexasPete 7:40",
+      "time": 460.62,
+      "patch": "1.0.0.6+",
+      "segs": [
+        89.95,
+        78.60000000000001,
+        54.39999999999998,
+        101.80000000000001,
+        135.87
+      ],
+      "refLineSegs": null
+    },
+    {
+      "key": "nimble828",
+      "runner": "Nimblesk",
+      "label": "Nimblesk 8:28",
+      "time": 508.75,
+      "patch": "1.0.0.6+",
+      "segs": [
+        100.75,
+        78.19999999999999,
+        58.5,
+        98.60000000000002,
+        172.7
+      ],
+      "refLineSegs": null
+    },
+    {
+      "key": "wes937",
+      "runner": "ChiefWes",
+      "label": "ChiefWes 9:37",
+      "time": 577.33,
+      "patch": "1.0.0.6+",
+      "segs": [
+        119.93,
+        89.4,
+        61.599999999999994,
+        125.89999999999998,
+        180.50000000000006
+      ],
+      "refLineSegs": null
+    },
+    {
+      "key": "samf11",
+      "runner": "SamFPlays",
+      "label": "SamFPlays 10:53 (1.0.1 follow-along)",
+      "time": 653.4,
+      "patch": "1.0.1",
+      "segs": [
+        115.2,
+        97.3,
+        100.30000000000001,
+        168.59999999999997,
+        172
+      ],
+      "refLineSegs": null
+    }
+  ],
+  "communityBest": [
+    {
+      "seg": 81.52,
+      "run": "tp650",
+      "runner": "TexasPete"
+    },
+    {
+      "seg": 61.1,
+      "run": "tp650",
+      "runner": "TexasPete"
+    },
+    {
+      "seg": 51.7,
+      "run": "tp650",
+      "runner": "TexasPete"
+    },
+    {
+      "seg": 87.8,
+      "run": "nano701",
+      "runner": "Nanobit"
+    },
+    {
+      "seg": 116.15,
+      "run": "nano701",
+      "runner": "Nanobit"
+    }
+  ],
+  "shift": [
+    69.29,
+    51.94,
+    43.94,
+    74.63,
+    98.73
+  ],
+  "measured": {
+    "vinesDirect": {
+      "v": -6.1,
+      "src": "runpath: TexasPete direct line C3->S1 − Nanobit zoop"
+    },
+    "thaneLaunch": {
+      "v": -11.2,
+      "src": "runpath: FastTipsGaming launch S2->S3 − Nanobit Thane kill + air door"
+    },
+    "thaneWall": {
+      "v": -11.4,
+      "src": "runpath: TexasPete wall climb (patched) − Nanobit"
+    },
+    "keepBlue": {
+      "v": 8.6,
+      "src": "runpath: TexasPete blue-rock Keep skip (patched) − Nanobit hole"
+    },
+    "keepPuzzle": {
+      "v": 38.26,
+      "src": "runpath: SamF puzzle C9->C11 143 / pace ratio 1.260 (7 common pieces) − Nanobit hole 75.2"
+    },
+    "flight": {
+      "v": 16.9,
+      "src": "runpath: Dotxy flight demo C11->C12 − blocks windstep"
+    },
+    "fightSkip": {
+      "v": 22.6,
+      "src": "runpath: FastTipsGaming fight skip C11->C12 − blocks windstep"
+    },
+    "heartMiss": {
+      "v": 6,
+      "src": "runpath: Nanobit pinned note 6:47 (missed the melee safespot; correct jump at 6:53)"
+    },
+    "samfRatio": {
+      "pieces": [
+        "C0->C1",
+        "C1->C2",
+        "C2->C3",
+        "C5->C6",
+        "C6->S2",
+        "S3->C9",
+        "C13->END"
+      ],
+      "ratio": 1.2603215993046502
+    }
+  },
+  "calibration": {
+    "sigma": 0.0908,
+    "attempts": 177,
+    "completeFrac": 0.3,
+    "reach": [
+      177,
+      131,
+      97,
+      72,
+      53
+    ],
+    "reps": 100,
+    "nanobit": {
+      "pb": 421.97,
+      "sob": 411,
+      "lambda": 1.0169,
+      "modelPB": 421.97,
+      "modelSOB": 411
+    },
+    "texaspete": {
+      "pb": 410,
+      "lambda": 1.0172,
+      "modelPB": 410,
+      "modelSOB": 399.04,
+      "note": "sigma pooled from Nanobit; same attempt count assumed"
+    }
+  },
+  "variants": [
+    [
+      {
+        "id": "vines-std",
+        "name": "Nanobit 1.0.1 line: air vent, soulscourge, black dragon, vines zoop to Fragments",
+        "kind": "safe",
+        "status": "works",
+        "skips": [
+          "s-airvent",
+          "s-soul",
+          "s-bd1",
+          "s-necro"
+        ],
+        "delta": 0,
+        "deltaSd": 0,
+        "source": "reference line"
+      },
+      {
+        "id": "vines-direct",
+        "name": "TexasPete direct line off the BD ledge to Fragments (unverified on 1.0.1.2)",
+        "kind": "fast",
+        "status": "check",
+        "skips": [
+          "s-airvent",
+          "s-soul",
+          "s-bd1",
+          "x-vines-direct"
+        ],
+        "delta": -6.1,
+        "deltaSd": 1,
+        "source": "runpath: TexasPete direct line C3->S1 − Nanobit zoop"
+      }
+    ],
+    [
+      {
+        "id": "frag-std",
+        "name": "Poison area skip + Surge/Phase Dash past the Abyssal Demon",
+        "kind": "safe",
+        "status": "works",
+        "skips": [
+          "s-poison",
+          "s-demon"
+        ],
+        "delta": 0,
+        "deltaSd": 0,
+        "source": "reference line"
+      }
+    ],
+    [
+      {
+        "id": "thane-windjump",
+        "name": "Kill the air Garou Thane through the gate, windjump to the air door (Nanobit)",
+        "kind": "safe",
+        "status": "works",
+        "skips": [
+          "s-thane"
+        ],
+        "delta": 0,
+        "deltaSd": 0,
+        "source": "reference line"
+      },
+      {
+        "id": "thane-launch",
+        "name": "FastTipsGaming no-kill launch: rocks left of the door, windstep, glide to the forest (unverified in a run)",
+        "kind": "fast",
+        "status": "check",
+        "skips": [
+          "x-thane-launch"
+        ],
+        "delta": -11.2,
+        "deltaSd": 1.5,
+        "source": "runpath: FastTipsGaming launch S2->S3 − Nanobit Thane kill + air door"
+      },
+      {
+        "id": "thane-wallclimb",
+        "name": "TexasPete wall climb without the Thane kill — PATCHED 1.0.1",
+        "kind": "fast",
+        "status": "patched",
+        "skips": [
+          "s-thane"
+        ],
+        "delta": -11.4,
+        "deltaSd": 0,
+        "source": "runpath: TexasPete wall climb (patched) − Nanobit"
+      }
+    ],
+    [
+      {
+        "id": "keep-hole",
+        "name": "Parkour + the Keep hole / rib clip (IINo1goodII, notmusty1; Nanobit)",
+        "kind": "fast",
+        "status": "new",
+        "skips": [
+          "s-parkour",
+          "s-keep"
+        ],
+        "delta": 0,
+        "deltaSd": 0,
+        "source": "reference line"
+      },
+      {
+        "id": "keep-puzzle",
+        "name": "Parkour + elemental puzzle done normally",
+        "kind": "safe",
+        "status": "works",
+        "skips": [
+          "s-parkour"
+        ],
+        "delta": 38.26,
+        "deltaSd": 6,
+        "source": "runpath: SamF puzzle C9->C11 143 / pace ratio 1.260 (7 common pieces) − Nanobit hole 75.2"
+      },
+      {
+        "id": "keep-bluerock",
+        "name": "Old Keep skip (blue rock climb) — PATCHED 1.0.1",
+        "kind": "fast",
+        "status": "patched",
+        "skips": [
+          "s-parkour"
+        ],
+        "delta": 8.6,
+        "deltaSd": 0,
+        "source": "runpath: TexasPete blue-rock Keep skip (patched) − Nanobit hole"
+      }
+    ],
+    [
+      {
+        "id": "sanctum-blocks",
+        "name": "Windstep up the blocks (all record runs) — PATCHED 1.0.1.2",
+        "kind": "fast",
+        "status": "patched",
+        "skips": [
+          "s-heart"
+        ],
+        "delta": 0,
+        "deltaSd": 0,
+        "source": "reference line"
+      },
+      {
+        "id": "sanctum-flight",
+        "name": "Dotxy's flight through the Sanctum (jump-attack cancel loop)",
+        "kind": "fast",
+        "status": "new",
+        "skips": [
+          "s-flight",
+          "s-heart"
+        ],
+        "delta": 16.9,
+        "deltaSd": 2,
+        "source": "runpath: Dotxy flight demo C11->C12 − blocks windstep (demo, not a run: ±2 s)"
+      },
+      {
+        "id": "sanctum-fightskip",
+        "name": "FastTipsGaming's post-1.0.1.2 route: drop into the void, crystal islands",
+        "kind": "fast",
+        "status": "check",
+        "skips": [
+          "s-kuldra",
+          "s-heart"
+        ],
+        "delta": 22.6,
+        "deltaSd": 2,
+        "source": "runpath: FastTipsGaming fight skip C11->C12 − blocks windstep"
+      },
+      {
+        "id": "sanctum-fight",
+        "name": "Safe: no skip, fight Kuldra",
+        "kind": "safe",
+        "status": "works",
+        "skips": [
+          "s-heart"
+        ],
+        "delta": 62.6,
+        "deltaSd": 10,
+        "source": "assumed: fight-skip line + 40 s (no timed 1.0.1.2 fight)"
+      }
+    ]
+  ],
+  "asRun": {
+    "tp650": [
+      "vines-direct",
+      "frag-std",
+      "thane-wallclimb",
+      "keep-bluerock",
+      "sanctum-blocks"
+    ],
+    "nano701": [
+      "vines-std",
+      "frag-std",
+      "thane-windjump",
+      "keep-hole",
+      "sanctum-blocks"
+    ]
+  },
+  "defaultRoute": [
+    "vines-std",
+    "frag-std",
+    "thane-windjump",
+    "keep-hole",
+    "sanctum-flight"
+  ],
+  "miss": {
+    "s-airvent": {
+      "loss": 4,
+      "fatal": 0,
+      "why": "walk to the vent the slow way"
+    },
+    "s-soul": {
+      "loss": 8,
+      "fatal": 0.1,
+      "why": "soulscourge catches you; tank or die"
+    },
+    "s-bd1": {
+      "loss": 10,
+      "fatal": 0.05,
+      "why": "black dragon aggro"
+    },
+    "s-necro": {
+      "loss": 12,
+      "fatal": 0.05,
+      "why": "short zoop: walk the necro area edge"
+    },
+    "x-vines-direct": {
+      "loss": 10.1,
+      "fatal": 0.1,
+      "why": "line fails → take the zoop (measured line gap + ~4 s)"
+    },
+    "s-vines-old": {
+      "loss": 10,
+      "fatal": 0,
+      "why": "fall back to the standard line"
+    },
+    "s-poison": {
+      "loss": 15,
+      "fatal": 0.05,
+      "why": "walk through part of the poison area"
+    },
+    "s-demon": {
+      "loss": 8,
+      "fatal": 0.1,
+      "why": "Abyssal Demon hit; re-dash"
+    },
+    "s-thane": {
+      "loss": 20,
+      "fatal": 0.1,
+      "why": "fall from the rubble pile; re-climb and re-charge air"
+    },
+    "x-thane-launch": {
+      "loss": 16.2,
+      "fatal": 0.1,
+      "why": "launch fails → Thane kill + air door (measured gap + ~5 s)"
+    },
+    "s-parkour": {
+      "loss": 8,
+      "fatal": 0.05,
+      "why": "missed jump; re-climb"
+    },
+    "s-keep": {
+      "loss": 44.26,
+      "fatal": 0,
+      "why": "hole fails → do the puzzle (measured puzzle cost + ~6 s wasted)"
+    },
+    "s-kuldra": {
+      "loss": 48,
+      "fatal": 0,
+      "why": "skip fails → fight Kuldra (assumed fight cost + ~8 s wasted)"
+    },
+    "s-flight": {
+      "loss": 15,
+      "fatal": 0.1,
+      "why": "drop out of the loop; climb again"
+    },
+    "s-heart": {
+      "loss": 6,
+      "fatal": 0.02,
+      "why": "missed melee safespot (runpath: Nanobit pinned note 6:47 (missed the melee safespot; correct jump at 6:53))"
+    }
+  },
+  "statusPrior": {
+    "elite": {
+      "works": [
+        19,
+        1
+      ],
+      "new": [
+        8,
+        2
+      ],
+      "check": [
+        8,
+        2
+      ],
+      "patched": [
+        19,
+        1
+      ]
+    },
+    "runner": {
+      "works": [
+        7,
+        3
+      ],
+      "new": [
+        5,
+        5
+      ],
+      "check": [
+        5,
+        5
+      ],
+      "patched": [
+        7,
+        3
+      ]
+    }
+  },
+  "nigPrior": {
+    "kappa0": 1,
+    "nu0": 3
+  },
+  "pinnedSaves": [
+    {
+      "piece": "C0->C1",
+      "split": 0,
+      "seconds": 1.5,
+      "note": "walked ~1.5 s at the start (tapped sprint while already sprinting)",
+      "ts": "0:23",
+      "source": "Nanobit pinned note (runpath.json)"
+    },
+    {
+      "piece": "C0->C1",
+      "split": 0,
+      "seconds": 0.5,
+      "note": "4 air dashes instead of 3 to the 1st anima pillar",
+      "ts": "0:51",
+      "source": "Nanobit pinned note (runpath.json)"
+    },
+    {
+      "piece": "C1->C2",
+      "split": 0,
+      "seconds": 0.5,
+      "note": "3 air dashes instead of 2 to the 2nd anima pillar",
+      "ts": "1:14",
+      "source": "Nanobit pinned note (runpath.json)"
+    },
+    {
+      "piece": "C2->C3",
+      "split": 0,
+      "seconds": 0.5,
+      "note": "i-frame the Kuldra knockback with a better dash, tighter line over the torch into the 1st BD",
+      "ts": "1:22",
+      "source": "Nanobit pinned note (runpath.json)"
+    },
+    {
+      "piece": "C2->C3",
+      "split": 0,
+      "seconds": 1,
+      "note": "start the earth pillar ~1 s earlier",
+      "ts": "1:30",
+      "source": "Nanobit pinned note (runpath.json)"
+    },
+    {
+      "piece": "C3->S1",
+      "split": 0,
+      "seconds": 0.5,
+      "note": "better line off the 1st BD to the jump-off point",
+      "ts": "1:39",
+      "source": "Nanobit pinned note (runpath.json)"
+    },
+    {
+      "piece": "C3->S1",
+      "split": 0,
+      "seconds": 1.5,
+      "note": "start the zoop to Fragments ~1.5 s earlier (hard)",
+      "ts": "1:45",
+      "source": "Nanobit pinned note (runpath.json)"
+    },
+    {
+      "piece": "S1->C5",
+      "split": 1,
+      "seconds": 2.5,
+      "note": "zoop from the keep wall across the pond all the way to the gate",
+      "ts": "2:05",
+      "source": "Nanobit pinned note (runpath.json)"
+    },
+    {
+      "piece": "S1->C5",
+      "split": 1,
+      "seconds": 1,
+      "note": "plunge-cancel instead of waiting to fall",
+      "ts": "2:13",
+      "source": "Nanobit pinned note (runpath.json)"
+    },
+    {
+      "piece": "C5->C6",
+      "split": 1,
+      "seconds": 0.5,
+      "note": "push into the hole with more confidence",
+      "ts": "2:28",
+      "source": "Nanobit pinned note (runpath.json)"
+    },
+    {
+      "piece": "C5->C6",
+      "split": 1,
+      "seconds": 1.5,
+      "note": "a good zoop reaches his 2:37 spot with no air/phase dash",
+      "ts": "2:32",
+      "source": "Nanobit pinned note (runpath.json)"
+    },
+    {
+      "piece": "C6->S2",
+      "split": 1,
+      "seconds": 0.5,
+      "note": "avoid the pillar (skeleton blocked)",
+      "ts": "2:47",
+      "source": "Nanobit pinned note (runpath.json)"
+    },
+    {
+      "piece": "S2->S3",
+      "split": 2,
+      "seconds": 1,
+      "note": "extra Thane swing; re-use the fleet-footed infusion",
+      "ts": "3:22",
+      "source": "Nanobit pinned note (runpath.json)"
+    },
+    {
+      "piece": "S2->S3",
+      "split": 2,
+      "seconds": 1,
+      "note": "zoop far enough to need no dashes",
+      "ts": "3:46",
+      "source": "Nanobit pinned note (runpath.json)"
+    },
+    {
+      "piece": "S2->S3",
+      "split": 2,
+      "seconds": 4,
+      "note": "zoop to his 3:57 position (\"saves A LOT\")",
+      "ts": "3:50",
+      "source": "Nanobit pinned note (runpath.json)"
+    },
+    {
+      "piece": "C9->C11",
+      "split": 3,
+      "seconds": 1,
+      "note": "extra jump onto the rock not needed",
+      "ts": "4:44",
+      "source": "Nanobit pinned note (runpath.json)"
+    },
+    {
+      "piece": "C9->C11",
+      "split": 3,
+      "seconds": 0.5,
+      "note": "plunge-cancel (needs a weapon with a plunge animation, not the DScim)",
+      "ts": "5:07",
+      "source": "Nanobit pinned note (runpath.json)"
+    },
+    {
+      "piece": "C9->C11",
+      "split": 3,
+      "seconds": 0.5,
+      "note": "plunge-cancel + dash onto the first rock (5:15)",
+      "ts": "5:12",
+      "source": "Nanobit pinned note (runpath.json)"
+    },
+    {
+      "piece": "C9->C11",
+      "split": 3,
+      "seconds": 3,
+      "note": "clip straight through the ground at the rib clip (no crouch-walk / scimmy swing)",
+      "ts": "5:33",
+      "source": "Nanobit pinned note (runpath.json)"
+    },
+    {
+      "piece": "C11->C12",
+      "split": 4,
+      "seconds": 2.9,
+      "note": "flight line tighter than Dotxy's demo (no landing/walk on the walkway)",
+      "ts": null,
+      "source": "runpath target",
+      "requires": "sanctum-flight"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "tp650",
+      "label": "TexasPete (calibrated: 6:50 = best of ~177 attempts)",
+      "kind": "reference",
+      "tier": "elite",
+      "synthetic": false,
+      "lambda": 1.0172,
+      "sigma": 0.0908,
+      "note": "Medians slower than the PB splits because a PB is a best-of-N outlier. Splits moved onto the reference line (his Vines/Thane/Keep/Sanctum lines differ).",
+      "segments": [
+        {
+          "k": 0,
+          "c": 69.292,
+          "mu": 2.9875,
+          "sigma": 0.0908,
+          "median": 89.13,
+          "refLineSeg": 87.62,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 1,
+          "c": 51.935,
+          "mu": 2.3239,
+          "sigma": 0.0908,
+          "median": 62.15,
+          "refLineSeg": 61.1,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 2,
+          "c": 43.945,
+          "mu": 3.0077,
+          "sigma": 0.0908,
+          "median": 64.19,
+          "refLineSeg": 63.1,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 3,
+          "c": 74.63,
+          "mu": 2.6795,
+          "sigma": 0.0908,
+          "median": 89.21,
+          "refLineSeg": 87.7,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 4,
+          "c": 98.7275,
+          "mu": 3.1226,
+          "sigma": 0.0908,
+          "median": 121.43,
+          "refLineSeg": 119.38,
+          "drawsFromPosterior": false
+        }
+      ],
+      "skips": {
+        "s-airvent": {
+          "id": "s-airvent",
+          "name": "Windstep to the first air anima",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 4,
+          "fatal": 0,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "walk to the vent the slow way"
+        },
+        "s-soul": {
+          "id": "s-soul",
+          "name": "Soulscourge skip (phase dash + food trick)",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 8,
+          "fatal": 0.1,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "soulscourge catches you; tank or die"
+        },
+        "s-bd1": {
+          "id": "s-bd1",
+          "name": "Black dragon skip",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 10,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "black dragon aggro"
+        },
+        "s-necro": {
+          "id": "s-necro",
+          "name": "Skip the necromancer area (zoop to necro land)",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 12,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "short zoop: walk the necro area edge"
+        },
+        "x-vines-direct": {
+          "id": "x-vines-direct",
+          "name": "TexasPete direct line to Fragments",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 10.1,
+          "fatal": 0.1,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "line fails → take the zoop (measured line gap + ~4 s)"
+        },
+        "s-vines-old": {
+          "id": "s-vines-old",
+          "name": "Dragontail Vines skip (1.0.0.6)",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 10,
+          "fatal": 0,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "fall back to the standard line"
+        },
+        "s-poison": {
+          "id": "s-poison",
+          "name": "Skip the entire poison area",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 15,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "walk through part of the poison area"
+        },
+        "s-demon": {
+          "id": "s-demon",
+          "name": "Surge + Phase Dash past the Abyssal Demon",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 8,
+          "fatal": 0.1,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "Abyssal Demon hit; re-dash"
+        },
+        "s-thane": {
+          "id": "s-thane",
+          "name": "Garou Thane / air door skip",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 20,
+          "fatal": 0.1,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "fall from the rubble pile; re-climb and re-charge air"
+        },
+        "x-thane-launch": {
+          "id": "x-thane-launch",
+          "name": "FastTipsGaming Thane launch",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 16.2,
+          "fatal": 0.1,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "launch fails → Thane kill + air door (measured gap + ~5 s)"
+        },
+        "s-parkour": {
+          "id": "s-parkour",
+          "name": "Parkour section",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 8,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "missed jump; re-climb"
+        },
+        "s-keep": {
+          "id": "s-keep",
+          "name": "Keep hole / elemental puzzle skip",
+          "status": "new",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 44.26,
+          "fatal": 0,
+          "source": "status prior (elite, new): Beta(8, 2)",
+          "lossSource": "hole fails → do the puzzle (measured puzzle cost + ~6 s wasted)"
+        },
+        "s-kuldra": {
+          "id": "s-kuldra",
+          "name": "Skip the Kuldra fight",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 48,
+          "fatal": 0,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "skip fails → fight Kuldra (assumed fight cost + ~8 s wasted)"
+        },
+        "s-flight": {
+          "id": "s-flight",
+          "name": "Fly through the Sanctum (1.0.1.2)",
+          "status": "new",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 15,
+          "fatal": 0.1,
+          "source": "status prior (elite, new): Beta(8, 2)",
+          "lossSource": "drop out of the loop; climb again"
+        },
+        "s-heart": {
+          "id": "s-heart",
+          "name": "Heart: where to stand (no heartworms)",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 6,
+          "fatal": 0.02,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "missed melee safespot (runpath: Nanobit pinned note 6:47 (missed the melee safespot; correct jump at 6:53))"
+        }
+      },
+      "asRun": [
+        "vines-direct",
+        "frag-std",
+        "thane-wallclimb",
+        "keep-bluerock",
+        "sanctum-blocks"
+      ]
+    },
+    {
+      "id": "nano701",
+      "label": "Nanobit (calibrated to PB 7:01.97 and SOB 6:51)",
+      "kind": "reference",
+      "tier": "elite",
+      "synthetic": false,
+      "lambda": 1.0169,
+      "sigma": 0.0908,
+      "segments": [
+        {
+          "k": 0,
+          "c": 69.292,
+          "mu": 2.9963,
+          "sigma": 0.0908,
+          "median": 89.3,
+          "refLineSeg": 87.82,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 1,
+          "c": 51.935,
+          "mu": 2.7911,
+          "sigma": 0.0908,
+          "median": 68.23,
+          "refLineSeg": 67.1,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 2,
+          "c": 43.945,
+          "mu": 3.0067,
+          "sigma": 0.0908,
+          "median": 64.17,
+          "refLineSeg": 63.1,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 3,
+          "c": 74.63,
+          "mu": 2.6847,
+          "sigma": 0.0908,
+          "median": 89.28,
+          "refLineSeg": 87.8,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 4,
+          "c": 98.7275,
+          "mu": 2.9645,
+          "sigma": 0.0908,
+          "median": 118.11,
+          "refLineSeg": 116.15,
+          "drawsFromPosterior": false
+        }
+      ],
+      "skips": {
+        "s-airvent": {
+          "id": "s-airvent",
+          "name": "Windstep to the first air anima",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 4,
+          "fatal": 0,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "walk to the vent the slow way"
+        },
+        "s-soul": {
+          "id": "s-soul",
+          "name": "Soulscourge skip (phase dash + food trick)",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 8,
+          "fatal": 0.1,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "soulscourge catches you; tank or die"
+        },
+        "s-bd1": {
+          "id": "s-bd1",
+          "name": "Black dragon skip",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 10,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "black dragon aggro"
+        },
+        "s-necro": {
+          "id": "s-necro",
+          "name": "Skip the necromancer area (zoop to necro land)",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 12,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "short zoop: walk the necro area edge"
+        },
+        "x-vines-direct": {
+          "id": "x-vines-direct",
+          "name": "TexasPete direct line to Fragments",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 10.1,
+          "fatal": 0.1,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "line fails → take the zoop (measured line gap + ~4 s)"
+        },
+        "s-vines-old": {
+          "id": "s-vines-old",
+          "name": "Dragontail Vines skip (1.0.0.6)",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 10,
+          "fatal": 0,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "fall back to the standard line"
+        },
+        "s-poison": {
+          "id": "s-poison",
+          "name": "Skip the entire poison area",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 15,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "walk through part of the poison area"
+        },
+        "s-demon": {
+          "id": "s-demon",
+          "name": "Surge + Phase Dash past the Abyssal Demon",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 8,
+          "fatal": 0.1,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "Abyssal Demon hit; re-dash"
+        },
+        "s-thane": {
+          "id": "s-thane",
+          "name": "Garou Thane / air door skip",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 20,
+          "fatal": 0.1,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "fall from the rubble pile; re-climb and re-charge air"
+        },
+        "x-thane-launch": {
+          "id": "x-thane-launch",
+          "name": "FastTipsGaming Thane launch",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 16.2,
+          "fatal": 0.1,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "launch fails → Thane kill + air door (measured gap + ~5 s)"
+        },
+        "s-parkour": {
+          "id": "s-parkour",
+          "name": "Parkour section",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 8,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "missed jump; re-climb"
+        },
+        "s-keep": {
+          "id": "s-keep",
+          "name": "Keep hole / elemental puzzle skip",
+          "status": "new",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 44.26,
+          "fatal": 0,
+          "source": "status prior (elite, new): Beta(8, 2)",
+          "lossSource": "hole fails → do the puzzle (measured puzzle cost + ~6 s wasted)"
+        },
+        "s-kuldra": {
+          "id": "s-kuldra",
+          "name": "Skip the Kuldra fight",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 48,
+          "fatal": 0,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "skip fails → fight Kuldra (assumed fight cost + ~8 s wasted)"
+        },
+        "s-flight": {
+          "id": "s-flight",
+          "name": "Fly through the Sanctum (1.0.1.2)",
+          "status": "new",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 15,
+          "fatal": 0.1,
+          "source": "status prior (elite, new): Beta(8, 2)",
+          "lossSource": "drop out of the loop; climb again"
+        },
+        "s-heart": {
+          "id": "s-heart",
+          "name": "Heart: where to stand (no heartworms)",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 6,
+          "fatal": 0.02,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "missed melee safespot (runpath: Nanobit pinned note 6:47 (missed the melee safespot; correct jump at 6:53))"
+        }
+      },
+      "asRun": [
+        "vines-std",
+        "frag-std",
+        "thane-windjump",
+        "keep-hole",
+        "sanctum-blocks"
+      ]
+    },
+    {
+      "id": "tp650-asmedian",
+      "label": "TexasPete 6:50 as a typical run (optimistic lens)",
+      "kind": "lens",
+      "tier": "elite",
+      "synthetic": false,
+      "lambda": 1,
+      "sigma": 0.0908,
+      "note": "Treats the record run as the median attempt — an upper bound.",
+      "segments": [
+        {
+          "k": 0,
+          "c": 69.292,
+          "mu": 2.9084,
+          "sigma": 0.0908,
+          "median": 87.62,
+          "refLineSeg": 87.62,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 1,
+          "c": 51.935,
+          "mu": 2.2154,
+          "sigma": 0.0908,
+          "median": 61.1,
+          "refLineSeg": 61.1,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 2,
+          "c": 43.945,
+          "mu": 2.9526,
+          "sigma": 0.0908,
+          "median": 63.1,
+          "refLineSeg": 63.1,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 3,
+          "c": 74.63,
+          "mu": 2.5703,
+          "sigma": 0.0908,
+          "median": 87.7,
+          "refLineSeg": 87.7,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 4,
+          "c": 98.7275,
+          "mu": 3.0278,
+          "sigma": 0.0908,
+          "median": 119.38,
+          "refLineSeg": 119.38,
+          "drawsFromPosterior": false
+        }
+      ],
+      "skips": {
+        "s-airvent": {
+          "id": "s-airvent",
+          "name": "Windstep to the first air anima",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 4,
+          "fatal": 0,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "walk to the vent the slow way"
+        },
+        "s-soul": {
+          "id": "s-soul",
+          "name": "Soulscourge skip (phase dash + food trick)",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 8,
+          "fatal": 0.1,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "soulscourge catches you; tank or die"
+        },
+        "s-bd1": {
+          "id": "s-bd1",
+          "name": "Black dragon skip",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 10,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "black dragon aggro"
+        },
+        "s-necro": {
+          "id": "s-necro",
+          "name": "Skip the necromancer area (zoop to necro land)",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 12,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "short zoop: walk the necro area edge"
+        },
+        "x-vines-direct": {
+          "id": "x-vines-direct",
+          "name": "TexasPete direct line to Fragments",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 10.1,
+          "fatal": 0.1,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "line fails → take the zoop (measured line gap + ~4 s)"
+        },
+        "s-vines-old": {
+          "id": "s-vines-old",
+          "name": "Dragontail Vines skip (1.0.0.6)",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 10,
+          "fatal": 0,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "fall back to the standard line"
+        },
+        "s-poison": {
+          "id": "s-poison",
+          "name": "Skip the entire poison area",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 15,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "walk through part of the poison area"
+        },
+        "s-demon": {
+          "id": "s-demon",
+          "name": "Surge + Phase Dash past the Abyssal Demon",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 8,
+          "fatal": 0.1,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "Abyssal Demon hit; re-dash"
+        },
+        "s-thane": {
+          "id": "s-thane",
+          "name": "Garou Thane / air door skip",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 20,
+          "fatal": 0.1,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "fall from the rubble pile; re-climb and re-charge air"
+        },
+        "x-thane-launch": {
+          "id": "x-thane-launch",
+          "name": "FastTipsGaming Thane launch",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 16.2,
+          "fatal": 0.1,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "launch fails → Thane kill + air door (measured gap + ~5 s)"
+        },
+        "s-parkour": {
+          "id": "s-parkour",
+          "name": "Parkour section",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 8,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "missed jump; re-climb"
+        },
+        "s-keep": {
+          "id": "s-keep",
+          "name": "Keep hole / elemental puzzle skip",
+          "status": "new",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 44.26,
+          "fatal": 0,
+          "source": "status prior (elite, new): Beta(8, 2)",
+          "lossSource": "hole fails → do the puzzle (measured puzzle cost + ~6 s wasted)"
+        },
+        "s-kuldra": {
+          "id": "s-kuldra",
+          "name": "Skip the Kuldra fight",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 48,
+          "fatal": 0,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "skip fails → fight Kuldra (assumed fight cost + ~8 s wasted)"
+        },
+        "s-flight": {
+          "id": "s-flight",
+          "name": "Fly through the Sanctum (1.0.1.2)",
+          "status": "new",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 15,
+          "fatal": 0.1,
+          "source": "status prior (elite, new): Beta(8, 2)",
+          "lossSource": "drop out of the loop; climb again"
+        },
+        "s-heart": {
+          "id": "s-heart",
+          "name": "Heart: where to stand (no heartworms)",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 6,
+          "fatal": 0.02,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "missed melee safespot (runpath: Nanobit pinned note 6:47 (missed the melee safespot; correct jump at 6:53))"
+        }
+      },
+      "asRun": [
+        "vines-direct",
+        "frag-std",
+        "thane-wallclimb",
+        "keep-bluerock",
+        "sanctum-blocks"
+      ]
+    },
+    {
+      "id": "nano701-asmedian",
+      "label": "Nanobit 7:01 as a typical run (optimistic lens)",
+      "kind": "lens",
+      "tier": "elite",
+      "synthetic": false,
+      "lambda": 1,
+      "sigma": 0.0908,
+      "segments": [
+        {
+          "k": 0,
+          "c": 69.292,
+          "mu": 2.9193,
+          "sigma": 0.0908,
+          "median": 87.82,
+          "refLineSeg": 87.82,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 1,
+          "c": 51.935,
+          "mu": 2.719,
+          "sigma": 0.0908,
+          "median": 67.1,
+          "refLineSeg": 67.1,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 2,
+          "c": 43.945,
+          "mu": 2.9526,
+          "sigma": 0.0908,
+          "median": 63.1,
+          "refLineSeg": 63.1,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 3,
+          "c": 74.63,
+          "mu": 2.5779,
+          "sigma": 0.0908,
+          "median": 87.8,
+          "refLineSeg": 87.8,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 4,
+          "c": 98.7275,
+          "mu": 2.8578,
+          "sigma": 0.0908,
+          "median": 116.15,
+          "refLineSeg": 116.15,
+          "drawsFromPosterior": false
+        }
+      ],
+      "skips": {
+        "s-airvent": {
+          "id": "s-airvent",
+          "name": "Windstep to the first air anima",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 4,
+          "fatal": 0,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "walk to the vent the slow way"
+        },
+        "s-soul": {
+          "id": "s-soul",
+          "name": "Soulscourge skip (phase dash + food trick)",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 8,
+          "fatal": 0.1,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "soulscourge catches you; tank or die"
+        },
+        "s-bd1": {
+          "id": "s-bd1",
+          "name": "Black dragon skip",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 10,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "black dragon aggro"
+        },
+        "s-necro": {
+          "id": "s-necro",
+          "name": "Skip the necromancer area (zoop to necro land)",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 12,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "short zoop: walk the necro area edge"
+        },
+        "x-vines-direct": {
+          "id": "x-vines-direct",
+          "name": "TexasPete direct line to Fragments",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 10.1,
+          "fatal": 0.1,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "line fails → take the zoop (measured line gap + ~4 s)"
+        },
+        "s-vines-old": {
+          "id": "s-vines-old",
+          "name": "Dragontail Vines skip (1.0.0.6)",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 10,
+          "fatal": 0,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "fall back to the standard line"
+        },
+        "s-poison": {
+          "id": "s-poison",
+          "name": "Skip the entire poison area",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 15,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "walk through part of the poison area"
+        },
+        "s-demon": {
+          "id": "s-demon",
+          "name": "Surge + Phase Dash past the Abyssal Demon",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 8,
+          "fatal": 0.1,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "Abyssal Demon hit; re-dash"
+        },
+        "s-thane": {
+          "id": "s-thane",
+          "name": "Garou Thane / air door skip",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 20,
+          "fatal": 0.1,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "fall from the rubble pile; re-climb and re-charge air"
+        },
+        "x-thane-launch": {
+          "id": "x-thane-launch",
+          "name": "FastTipsGaming Thane launch",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 16.2,
+          "fatal": 0.1,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "launch fails → Thane kill + air door (measured gap + ~5 s)"
+        },
+        "s-parkour": {
+          "id": "s-parkour",
+          "name": "Parkour section",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 8,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "missed jump; re-climb"
+        },
+        "s-keep": {
+          "id": "s-keep",
+          "name": "Keep hole / elemental puzzle skip",
+          "status": "new",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 44.26,
+          "fatal": 0,
+          "source": "status prior (elite, new): Beta(8, 2)",
+          "lossSource": "hole fails → do the puzzle (measured puzzle cost + ~6 s wasted)"
+        },
+        "s-kuldra": {
+          "id": "s-kuldra",
+          "name": "Skip the Kuldra fight",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 48,
+          "fatal": 0,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "skip fails → fight Kuldra (assumed fight cost + ~8 s wasted)"
+        },
+        "s-flight": {
+          "id": "s-flight",
+          "name": "Fly through the Sanctum (1.0.1.2)",
+          "status": "new",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 15,
+          "fatal": 0.1,
+          "source": "status prior (elite, new): Beta(8, 2)",
+          "lossSource": "drop out of the loop; climb again"
+        },
+        "s-heart": {
+          "id": "s-heart",
+          "name": "Heart: where to stand (no heartworms)",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 6,
+          "fatal": 0.02,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "missed melee safespot (runpath: Nanobit pinned note 6:47 (missed the melee safespot; correct jump at 6:53))"
+        }
+      },
+      "asRun": [
+        "vines-std",
+        "frag-std",
+        "thane-windjump",
+        "keep-hole",
+        "sanctum-blocks"
+      ]
+    },
+    {
+      "id": "target-asmedian",
+      "label": "Runpath target pace 6:48.1 as a typical clean run (lens)",
+      "kind": "lens",
+      "tier": "elite",
+      "synthetic": false,
+      "lambda": 1,
+      "sigma": 0.0908,
+      "note": "A runner whose median clean run is the target pace; misses come on top.",
+      "segments": [
+        {
+          "k": 0,
+          "c": 69.292,
+          "mu": 2.9708,
+          "sigma": 0.0908,
+          "median": 88.8,
+          "refLineSeg": 88.8,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 1,
+          "c": 51.935,
+          "mu": 2.1477,
+          "sigma": 0.0908,
+          "median": 60.5,
+          "refLineSeg": 60.5,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 2,
+          "c": 43.945,
+          "mu": 2.9834,
+          "sigma": 0.0908,
+          "median": 63.7,
+          "refLineSeg": 63.7,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 3,
+          "c": 74.63,
+          "mu": 2.4824,
+          "sigma": 0.0908,
+          "median": 86.6,
+          "refLineSeg": 86.6,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 4,
+          "c": 98.7275,
+          "mu": 2.3197,
+          "sigma": 0.0908,
+          "median": 108.9,
+          "refLineSeg": 108.9,
+          "drawsFromPosterior": false
+        }
+      ],
+      "skips": {
+        "s-airvent": {
+          "id": "s-airvent",
+          "name": "Windstep to the first air anima",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 4,
+          "fatal": 0,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "walk to the vent the slow way"
+        },
+        "s-soul": {
+          "id": "s-soul",
+          "name": "Soulscourge skip (phase dash + food trick)",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 8,
+          "fatal": 0.1,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "soulscourge catches you; tank or die"
+        },
+        "s-bd1": {
+          "id": "s-bd1",
+          "name": "Black dragon skip",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 10,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "black dragon aggro"
+        },
+        "s-necro": {
+          "id": "s-necro",
+          "name": "Skip the necromancer area (zoop to necro land)",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 12,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "short zoop: walk the necro area edge"
+        },
+        "x-vines-direct": {
+          "id": "x-vines-direct",
+          "name": "TexasPete direct line to Fragments",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 10.1,
+          "fatal": 0.1,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "line fails → take the zoop (measured line gap + ~4 s)"
+        },
+        "s-vines-old": {
+          "id": "s-vines-old",
+          "name": "Dragontail Vines skip (1.0.0.6)",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 10,
+          "fatal": 0,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "fall back to the standard line"
+        },
+        "s-poison": {
+          "id": "s-poison",
+          "name": "Skip the entire poison area",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 15,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "walk through part of the poison area"
+        },
+        "s-demon": {
+          "id": "s-demon",
+          "name": "Surge + Phase Dash past the Abyssal Demon",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 8,
+          "fatal": 0.1,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "Abyssal Demon hit; re-dash"
+        },
+        "s-thane": {
+          "id": "s-thane",
+          "name": "Garou Thane / air door skip",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 20,
+          "fatal": 0.1,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "fall from the rubble pile; re-climb and re-charge air"
+        },
+        "x-thane-launch": {
+          "id": "x-thane-launch",
+          "name": "FastTipsGaming Thane launch",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 16.2,
+          "fatal": 0.1,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "launch fails → Thane kill + air door (measured gap + ~5 s)"
+        },
+        "s-parkour": {
+          "id": "s-parkour",
+          "name": "Parkour section",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 8,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "missed jump; re-climb"
+        },
+        "s-keep": {
+          "id": "s-keep",
+          "name": "Keep hole / elemental puzzle skip",
+          "status": "new",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 44.26,
+          "fatal": 0,
+          "source": "status prior (elite, new): Beta(8, 2)",
+          "lossSource": "hole fails → do the puzzle (measured puzzle cost + ~6 s wasted)"
+        },
+        "s-kuldra": {
+          "id": "s-kuldra",
+          "name": "Skip the Kuldra fight",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 48,
+          "fatal": 0,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "skip fails → fight Kuldra (assumed fight cost + ~8 s wasted)"
+        },
+        "s-flight": {
+          "id": "s-flight",
+          "name": "Fly through the Sanctum (1.0.1.2)",
+          "status": "new",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 15,
+          "fatal": 0.1,
+          "source": "status prior (elite, new): Beta(8, 2)",
+          "lossSource": "drop out of the loop; climb again"
+        },
+        "s-heart": {
+          "id": "s-heart",
+          "name": "Heart: where to stand (no heartworms)",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 6,
+          "fatal": 0.02,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "missed melee safespot (runpath: Nanobit pinned note 6:47 (missed the melee safespot; correct jump at 6:53))"
+        }
+      },
+      "asRun": [
+        "vines-direct",
+        "frag-std",
+        "thane-launch",
+        "keep-hole",
+        "sanctum-flight"
+      ]
+    },
+    {
+      "id": "best-of-both-asmedian",
+      "label": "Best of TexasPete/Nanobit per split on the reference line, as a typical run (ceiling lens)",
+      "kind": "lens",
+      "tier": "elite",
+      "synthetic": false,
+      "lambda": 1,
+      "sigma": 0.0908,
+      "segments": [
+        {
+          "k": 0,
+          "c": 69.292,
+          "mu": 2.9084,
+          "sigma": 0.0908,
+          "median": 87.62,
+          "refLineSeg": 87.62,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 1,
+          "c": 51.935,
+          "mu": 2.2154,
+          "sigma": 0.0908,
+          "median": 61.1,
+          "refLineSeg": 61.1,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 2,
+          "c": 43.945,
+          "mu": 2.9526,
+          "sigma": 0.0908,
+          "median": 63.1,
+          "refLineSeg": 63.1,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 3,
+          "c": 74.63,
+          "mu": 2.5703,
+          "sigma": 0.0908,
+          "median": 87.7,
+          "refLineSeg": 87.7,
+          "drawsFromPosterior": false
+        },
+        {
+          "k": 4,
+          "c": 98.7275,
+          "mu": 2.8578,
+          "sigma": 0.0908,
+          "median": 116.15,
+          "refLineSeg": 116.15,
+          "drawsFromPosterior": false
+        }
+      ],
+      "skips": {
+        "s-airvent": {
+          "id": "s-airvent",
+          "name": "Windstep to the first air anima",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 4,
+          "fatal": 0,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "walk to the vent the slow way"
+        },
+        "s-soul": {
+          "id": "s-soul",
+          "name": "Soulscourge skip (phase dash + food trick)",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 8,
+          "fatal": 0.1,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "soulscourge catches you; tank or die"
+        },
+        "s-bd1": {
+          "id": "s-bd1",
+          "name": "Black dragon skip",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 10,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "black dragon aggro"
+        },
+        "s-necro": {
+          "id": "s-necro",
+          "name": "Skip the necromancer area (zoop to necro land)",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 12,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "short zoop: walk the necro area edge"
+        },
+        "x-vines-direct": {
+          "id": "x-vines-direct",
+          "name": "TexasPete direct line to Fragments",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 10.1,
+          "fatal": 0.1,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "line fails → take the zoop (measured line gap + ~4 s)"
+        },
+        "s-vines-old": {
+          "id": "s-vines-old",
+          "name": "Dragontail Vines skip (1.0.0.6)",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 10,
+          "fatal": 0,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "fall back to the standard line"
+        },
+        "s-poison": {
+          "id": "s-poison",
+          "name": "Skip the entire poison area",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 15,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "walk through part of the poison area"
+        },
+        "s-demon": {
+          "id": "s-demon",
+          "name": "Surge + Phase Dash past the Abyssal Demon",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 8,
+          "fatal": 0.1,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "Abyssal Demon hit; re-dash"
+        },
+        "s-thane": {
+          "id": "s-thane",
+          "name": "Garou Thane / air door skip",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 20,
+          "fatal": 0.1,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "fall from the rubble pile; re-climb and re-charge air"
+        },
+        "x-thane-launch": {
+          "id": "x-thane-launch",
+          "name": "FastTipsGaming Thane launch",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 16.2,
+          "fatal": 0.1,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "launch fails → Thane kill + air door (measured gap + ~5 s)"
+        },
+        "s-parkour": {
+          "id": "s-parkour",
+          "name": "Parkour section",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 8,
+          "fatal": 0.05,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "missed jump; re-climb"
+        },
+        "s-keep": {
+          "id": "s-keep",
+          "name": "Keep hole / elemental puzzle skip",
+          "status": "new",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 44.26,
+          "fatal": 0,
+          "source": "status prior (elite, new): Beta(8, 2)",
+          "lossSource": "hole fails → do the puzzle (measured puzzle cost + ~6 s wasted)"
+        },
+        "s-kuldra": {
+          "id": "s-kuldra",
+          "name": "Skip the Kuldra fight",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 48,
+          "fatal": 0,
+          "source": "status prior (elite, check): Beta(8, 2)",
+          "lossSource": "skip fails → fight Kuldra (assumed fight cost + ~8 s wasted)"
+        },
+        "s-flight": {
+          "id": "s-flight",
+          "name": "Fly through the Sanctum (1.0.1.2)",
+          "status": "new",
+          "made": 0,
+          "missed": 0,
+          "a": 8,
+          "b": 2,
+          "p": 0.8,
+          "loss": 15,
+          "fatal": 0.1,
+          "source": "status prior (elite, new): Beta(8, 2)",
+          "lossSource": "drop out of the loop; climb again"
+        },
+        "s-heart": {
+          "id": "s-heart",
+          "name": "Heart: where to stand (no heartworms)",
+          "status": "works",
+          "made": 0,
+          "missed": 0,
+          "a": 19,
+          "b": 1,
+          "p": 0.95,
+          "loss": 6,
+          "fatal": 0.02,
+          "source": "status prior (elite, works): Beta(19, 1)",
+          "lossSource": "missed melee safespot (runpath: Nanobit pinned note 6:47 (missed the melee safespot; correct jump at 6:53))"
+        }
+      },
+      "asRun": [
+        "vines-std",
+        "frag-std",
+        "thane-windjump",
+        "keep-hole",
+        "sanctum-blocks"
+      ]
+    },
+    {
+      "id": "synthetic-new",
+      "label": "SYNTHETIC new runner (generated, not real data)",
+      "kind": "user",
+      "tier": "runner",
+      "synthetic": true,
+      "note": "SYNTHETIC — generated by scripts/analysis/model.mjs to exercise the user-data path. Not a real runner. Hidden truth in _truth.",
+      "segments": [
+        {
+          "k": 0,
+          "c": 69.292,
+          "mu": 3.1617,
+          "sigma": 0.2981,
+          "median": 92.9,
+          "nRaw": 81,
+          "cleanShare": 0.4782,
+          "em": {
+            "mu": 3.1638,
+            "sigma": 0.3025,
+            "iters": 21,
+            "expectedMisses": 41.94
+          },
+          "nig": {
+            "n": 81,
+            "ybar": 3.1638,
+            "s": 0.3025,
+            "m0": 2.9919,
+            "s0": 0.0908,
+            "kappa0": 1,
+            "nu0": 3,
+            "kappaN": 82,
+            "muN": 3.1617,
+            "nuN": 84,
+            "s2N": 0.0889,
+            "weight": 0.9878
+          },
+          "priorOnly": false,
+          "sampleMedian": 98.64,
+          "drawsFromPosterior": true
+        },
+        {
+          "k": 1,
+          "c": 51.935,
+          "mu": 3.0351,
+          "sigma": 0.3285,
+          "median": 72.74,
+          "nRaw": 43,
+          "cleanShare": 0.7771,
+          "em": {
+            "mu": 3.0462,
+            "sigma": 0.3308,
+            "iters": 12,
+            "expectedMisses": 9.38
+          },
+          "nig": {
+            "n": 43,
+            "ybar": 3.0462,
+            "s": 0.3308,
+            "m0": 2.5575,
+            "s0": 0.0908,
+            "kappa0": 1,
+            "nu0": 3,
+            "kappaN": 44,
+            "muN": 3.0351,
+            "nuN": 46,
+            "s2N": 0.1079,
+            "weight": 0.9773
+          },
+          "priorOnly": false,
+          "sampleMedian": 76.12,
+          "drawsFromPosterior": true
+        },
+        {
+          "k": 2,
+          "c": 43.945,
+          "mu": 3.2811,
+          "sigma": 0.2642,
+          "median": 70.55,
+          "nRaw": 33,
+          "cleanShare": 0.7353,
+          "em": {
+            "mu": 3.2894,
+            "sigma": 0.2703,
+            "iters": 34,
+            "expectedMisses": 12.39
+          },
+          "nig": {
+            "n": 33,
+            "ybar": 3.2894,
+            "s": 0.2703,
+            "m0": 3.0072,
+            "s0": 0.0908,
+            "kappa0": 1,
+            "nu0": 3,
+            "kappaN": 34,
+            "muN": 3.2811,
+            "nuN": 36,
+            "s2N": 0.0698,
+            "weight": 0.9706
+          },
+          "priorOnly": false,
+          "sampleMedian": 80.54,
+          "drawsFromPosterior": true
+        },
+        {
+          "k": 3,
+          "c": 74.63,
+          "mu": 2.9413,
+          "sigma": 0.3092,
+          "median": 93.57,
+          "nRaw": 24,
+          "cleanShare": 0.5245,
+          "em": {
+            "mu": 2.9521,
+            "sigma": 0.3219,
+            "iters": 8,
+            "expectedMisses": 9.99
+          },
+          "nig": {
+            "n": 24,
+            "ybar": 2.9521,
+            "s": 0.3219,
+            "m0": 2.6821,
+            "s0": 0.0908,
+            "kappa0": 1,
+            "nu0": 3,
+            "kappaN": 25,
+            "muN": 2.9413,
+            "nuN": 27,
+            "s2N": 0.0956,
+            "weight": 0.96
+          },
+          "priorOnly": false,
+          "sampleMedian": 104.32,
+          "drawsFromPosterior": true
+        },
+        {
+          "k": 4,
+          "c": 98.7275,
+          "mu": 3.3748,
+          "sigma": 0.2493,
+          "median": 127.95,
+          "nRaw": 14,
+          "cleanShare": 0.3226,
+          "em": {
+            "mu": 3.3985,
+            "sigma": 0.2555,
+            "iters": 20,
+            "expectedMisses": 10.11
+          },
+          "nig": {
+            "n": 14,
+            "ybar": 3.3985,
+            "s": 0.2555,
+            "m0": 3.0436,
+            "s0": 0.0908,
+            "kappa0": 1,
+            "nu0": 3,
+            "kappaN": 15,
+            "muN": 3.3748,
+            "nuN": 17,
+            "s2N": 0.0621,
+            "weight": 0.9333
+          },
+          "priorOnly": false,
+          "sampleMedian": 158.52,
+          "drawsFromPosterior": true
+        }
+      ],
+      "skips": {
+        "s-airvent": {
+          "id": "s-airvent",
+          "name": "Windstep to the first air anima",
+          "status": "works",
+          "made": 15,
+          "missed": 0,
+          "a": 16,
+          "b": 1,
+          "p": 0.9412,
+          "loss": 4,
+          "fatal": 0,
+          "source": "practice log: Beta(1+made, 1+missed)",
+          "lossSource": "walk to the vent the slow way"
+        },
+        "s-soul": {
+          "id": "s-soul",
+          "name": "Soulscourge skip (phase dash + food trick)",
+          "status": "works",
+          "made": 18,
+          "missed": 2,
+          "a": 19,
+          "b": 3,
+          "p": 0.8636,
+          "loss": 8,
+          "fatal": 0.1,
+          "source": "practice log: Beta(1+made, 1+missed)",
+          "lossSource": "soulscourge catches you; tank or die"
+        },
+        "s-bd1": {
+          "id": "s-bd1",
+          "name": "Black dragon skip",
+          "status": "works",
+          "made": 13,
+          "missed": 2,
+          "a": 14,
+          "b": 3,
+          "p": 0.8235,
+          "loss": 10,
+          "fatal": 0.05,
+          "source": "practice log: Beta(1+made, 1+missed)",
+          "lossSource": "black dragon aggro"
+        },
+        "s-necro": {
+          "id": "s-necro",
+          "name": "Skip the necromancer area (zoop to necro land)",
+          "status": "works",
+          "made": 21,
+          "missed": 9,
+          "a": 22,
+          "b": 10,
+          "p": 0.6875,
+          "loss": 12,
+          "fatal": 0.05,
+          "source": "practice log: Beta(1+made, 1+missed)",
+          "lossSource": "short zoop: walk the necro area edge"
+        },
+        "x-vines-direct": {
+          "id": "x-vines-direct",
+          "name": "TexasPete direct line to Fragments",
+          "status": "check",
+          "made": 1,
+          "missed": 5,
+          "a": 2,
+          "b": 6,
+          "p": 0.25,
+          "loss": 10.1,
+          "fatal": 0.1,
+          "source": "practice log: Beta(1+made, 1+missed)",
+          "lossSource": "line fails → take the zoop (measured line gap + ~4 s)"
+        },
+        "s-vines-old": {
+          "id": "s-vines-old",
+          "name": "Dragontail Vines skip (1.0.0.6)",
+          "status": "check",
+          "made": 0,
+          "missed": 0,
+          "a": 5,
+          "b": 5,
+          "p": 0.5,
+          "loss": 10,
+          "fatal": 0,
+          "source": "status prior (runner, check): Beta(5, 5)",
+          "lossSource": "fall back to the standard line"
+        },
+        "s-poison": {
+          "id": "s-poison",
+          "name": "Skip the entire poison area",
+          "status": "works",
+          "made": 14,
+          "missed": 1,
+          "a": 15,
+          "b": 2,
+          "p": 0.8824,
+          "loss": 15,
+          "fatal": 0.05,
+          "source": "practice log: Beta(1+made, 1+missed)",
+          "lossSource": "walk through part of the poison area"
+        },
+        "s-demon": {
+          "id": "s-demon",
+          "name": "Surge + Phase Dash past the Abyssal Demon",
+          "status": "works",
+          "made": 18,
+          "missed": 2,
+          "a": 19,
+          "b": 3,
+          "p": 0.8636,
+          "loss": 8,
+          "fatal": 0.1,
+          "source": "practice log: Beta(1+made, 1+missed)",
+          "lossSource": "Abyssal Demon hit; re-dash"
+        },
+        "s-thane": {
+          "id": "s-thane",
+          "name": "Garou Thane / air door skip",
+          "status": "works",
+          "made": 29,
+          "missed": 11,
+          "a": 30,
+          "b": 12,
+          "p": 0.7143,
+          "loss": 20,
+          "fatal": 0.1,
+          "source": "practice log: Beta(1+made, 1+missed)",
+          "lossSource": "fall from the rubble pile; re-climb and re-charge air"
+        },
+        "x-thane-launch": {
+          "id": "x-thane-launch",
+          "name": "FastTipsGaming Thane launch",
+          "status": "check",
+          "made": 3,
+          "missed": 5,
+          "a": 4,
+          "b": 6,
+          "p": 0.4,
+          "loss": 16.2,
+          "fatal": 0.1,
+          "source": "practice log: Beta(1+made, 1+missed)",
+          "lossSource": "launch fails → Thane kill + air door (measured gap + ~5 s)"
+        },
+        "s-parkour": {
+          "id": "s-parkour",
+          "name": "Parkour section",
+          "status": "works",
+          "made": 15,
+          "missed": 0,
+          "a": 16,
+          "b": 1,
+          "p": 0.9412,
+          "loss": 8,
+          "fatal": 0.05,
+          "source": "practice log: Beta(1+made, 1+missed)",
+          "lossSource": "missed jump; re-climb"
+        },
+        "s-keep": {
+          "id": "s-keep",
+          "name": "Keep hole / elemental puzzle skip",
+          "status": "new",
+          "made": 14,
+          "missed": 11,
+          "a": 15,
+          "b": 12,
+          "p": 0.5556,
+          "loss": 44.26,
+          "fatal": 0,
+          "source": "practice log: Beta(1+made, 1+missed)",
+          "lossSource": "hole fails → do the puzzle (measured puzzle cost + ~6 s wasted)"
+        },
+        "s-kuldra": {
+          "id": "s-kuldra",
+          "name": "Skip the Kuldra fight",
+          "status": "check",
+          "made": 3,
+          "missed": 5,
+          "a": 4,
+          "b": 6,
+          "p": 0.4,
+          "loss": 48,
+          "fatal": 0,
+          "source": "practice log: Beta(1+made, 1+missed)",
+          "lossSource": "skip fails → fight Kuldra (assumed fight cost + ~8 s wasted)"
+        },
+        "s-flight": {
+          "id": "s-flight",
+          "name": "Fly through the Sanctum (1.0.1.2)",
+          "status": "new",
+          "made": 9,
+          "missed": 11,
+          "a": 10,
+          "b": 12,
+          "p": 0.4545,
+          "loss": 15,
+          "fatal": 0.1,
+          "source": "practice log: Beta(1+made, 1+missed)",
+          "lossSource": "drop out of the loop; climb again"
+        },
+        "s-heart": {
+          "id": "s-heart",
+          "name": "Heart: where to stand (no heartworms)",
+          "status": "works",
+          "made": 7,
+          "missed": 3,
+          "a": 8,
+          "b": 4,
+          "p": 0.6667,
+          "loss": 6,
+          "fatal": 0.02,
+          "source": "practice log: Beta(1+made, 1+missed)",
+          "lossSource": "missed melee safespot (runpath: Nanobit pinned note 6:47 (missed the melee safespot; correct jump at 6:53))"
+        }
+      },
+      "asRun": [
+        "vines-std",
+        "frag-std",
+        "thane-windjump",
+        "keep-hole",
+        "sanctum-flight"
+      ],
+      "data": {
+        "attempts": 80,
+        "finished": 8,
+        "pb": 453.25,
+        "practiceLogs": 14
+      },
+      "recovery": [
+        {
+          "k": 0,
+          "truthMedian": 93.97,
+          "fittedMedian": 92.9,
+          "truthSigma": 0.3,
+          "fittedSigma": 0.2981
+        },
+        {
+          "k": 1,
+          "truthMedian": 71.8,
+          "fittedMedian": 72.74,
+          "truthSigma": 0.3,
+          "fittedSigma": 0.3285
+        },
+        {
+          "k": 2,
+          "truthMedian": 67.52,
+          "fittedMedian": 70.55,
+          "truthSigma": 0.3,
+          "fittedSigma": 0.2642
+        },
+        {
+          "k": 3,
+          "truthMedian": 93.95,
+          "fittedMedian": 93.57,
+          "truthSigma": 0.3,
+          "fittedSigma": 0.3092
+        },
+        {
+          "k": 4,
+          "truthMedian": 124.28,
+          "fittedMedian": 127.95,
+          "truthSigma": 0.3,
+          "fittedSigma": 0.2493
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-03T05:59:43.965Z"
+}

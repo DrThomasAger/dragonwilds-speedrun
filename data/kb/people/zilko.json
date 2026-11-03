@@ -1,0 +1,61 @@
+{
+ "handle": "zilko",
+ "name": "Zilko",
+ "aliases": [
+  ".zilko"
+ ],
+ "platforms": {
+  "youtube": null,
+  "twitch": null,
+  "src": "https://www.speedrun.com/users/Zilko",
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "tech finder"
+ ],
+ "insight_score": 10,
+ "summary": "Credited as the original finder of the legacy Kuldra fight skip (windstep up the floating rocks to the heart). That skip was patched in 1.0.1.2. He has no public videos or comments of his own; only Tiger with the Bars' upload credits him. The SRC account \"Zilko\" exists but has no runs and may not be the same person. He may be reachable via Discord (\".zilko\").",
+ "insights": [
+  {
+   "text": "Credit: Zilko (.zilko)",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=2Zn04m-mq80",
+   "video": {
+    "id": "2Zn04m-mq80",
+    "title": "Legacy Kuldra Skip with a Shortcut to the Heart (Patched?) | RS: Dragonwilds 1.0.0.6"
+   },
+   "timestamp": null,
+   "date": "2026-09-23",
+   "date_approx": false,
+   "topic": "credit",
+   "topics": [
+    "other"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  }
+ ],
+ "recordings": [
+  {
+   "title": "Legacy Kuldra Skip with a Shortcut to the Heart (Patched?) | RS: Dragonwilds 1.0.0.6",
+   "url": "https://www.youtube.com/watch?v=2Zn04m-mq80",
+   "date": "2026-09-23",
+   "duration": "45",
+   "views": 52270,
+   "channel": "@thelastiger",
+   "summary": "Is the Kuldra skip patched? Are other methods still in play? Check the comments for ongoing discussion as this may change.",
+   "description": "Is the Kuldra skip patched? Are other methods still in play? Check the comments for ongoing discussion as this may change.\n\nSkip the grueling Kuldra boss fight entirely and head straight to the Heart with this RuneScape: Dragonwilds speedrun technique! Follow along as we study legacy steps and positioning used to pull off this game-changing shortcut.\n\nCredit: Zilko (.zilko)",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 85,
+   "key_moments": []
+  }
+ ],
+ "runs": [],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

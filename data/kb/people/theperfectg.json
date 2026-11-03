@@ -1,0 +1,75 @@
+{
+ "handle": "theperfectg",
+ "name": "ThePerfectG",
+ "aliases": [
+  "@ThePerfectG"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@ThePerfectG",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 8,
+ "summary": "Single-insight commenter: everything still works :) what helped me learn it, was the part where you Foward/Dash --> Jump -->  dash --> Dash, I didnt realize how these spells work. forwar…",
+ "insights": [
+  {
+   "text": "everything still works :)\nwhat helped me learn it, was the part where you Foward/Dash --> Jump -->  dash --> Dash, I didnt realize how these spells work. forward/dash has to be held basically at the same time. \nAlso, for the lining the above jump^ and for kuldra skip, facing the way you want then blocking absolutely works and makes aiming/getting to the back of a rock way easier lol (as someone in comments mentioned)\n\nThanks SamFPlays! sick route <3",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=UgwCs2uErGILMvS-x7V4AaABAg",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "tech",
+   "topics": [
+    "patch",
+    "skip id",
+    "tech"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "Side notes: I did my first skip clear with melee behind the heart because my silly billy ahh brought a wand and it didnt reach lmao \nIt was very doable, but boss still has some decent KO potential, so stay high hp. \n\n2h staff was so afk and fast even tho i havent made mage armor yet lmao and im wearing non dps gear overall (except ancestral hat)\n\nhighly rec just making a 2h staff. probably OK to just make a crappy one if u dont wanna farm ancestral mats lol\n\nI do wonder how range works on the heart lol",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=UgwCs2uErGILMvS-x7V4AaABAg.AblrV5oJ6MEAblsP3OdJMp",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgwCs2uErGILMvS-x7V4AaABAg",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

@@ -1,0 +1,108 @@
+model: sigma=0.0908 lambdaTP=1.0172 lambdaNano=1.0169 (29269 ms); runpath D:\labyrinth\Github\JaGeX\dragonwilds-speedrun\data\kb\runpath.json
+  vinesDirect     -6.1  runpath: TexasPete direct line C3->S1 − Nanobit zoop
+  thaneLaunch    -11.2  runpath: FastTipsGaming launch S2->S3 − Nanobit Thane kill + air door
+  thaneWall      -11.4  runpath: TexasPete wall climb (patched) − Nanobit
+  keepBlue         8.6  runpath: TexasPete blue-rock Keep skip (patched) − Nanobit hole
+  keepPuzzle     38.26  runpath: SamF puzzle C9->C11 143 / pace ratio 1.260 (7 common pieces) − Nanobit hole 75.2
+  flight          16.9  runpath: Dotxy flight demo C11->C12 − blocks windstep
+  fightSkip       22.6  runpath: FastTipsGaming fight skip C11->C12 − blocks windstep
+  heartMiss          6  runpath: Nanobit pinned note 6:47 (missed the melee safespot; correct jump at 6:53)
+  tp650                  ref-line medians 89.13 / 62.15 / 64.19 / 89.21 / 121.43  sum 7:06.11
+  nano701                ref-line medians 89.3 / 68.23 / 64.17 / 89.28 / 118.11  sum 7:09.09
+  tp650-asmedian         ref-line medians 87.62 / 61.1 / 63.1 / 87.7 / 119.38  sum 6:58.90
+  nano701-asmedian       ref-line medians 87.82 / 67.1 / 63.1 / 87.8 / 116.15  sum 7:01.97
+  target-asmedian        ref-line medians 88.8 / 60.5 / 63.7 / 86.6 / 108.9  sum 6:48.50
+  best-of-both-asmedian  ref-line medians 87.62 / 61.1 / 63.1 / 87.7 / 116.15  sum 6:55.67
+  synthetic-new          ref-line medians 92.9 / 72.74 / 70.55 / 93.57 / 127.95  sum 7:37.71
+== model.mjs exit 0 (32.1 s)
+stats: 8 run rows, community SOB 6:38.27, record composite 6:38.27, 12 speedrun.com runs, runpath marks 13
+┌─────────┬───────┬────────────────────────────┬───────────────┬─────────────┬───────────┬─────────────┬────────────────┬───────────────┬─────────────┬────────────────┬─────────────┐
+│ (index) │ split │ name                       │ communityBest │ bestBy      │ tp650Loss │ nano701Loss │ recordMeanLoss │ targetPaceSeg │ targetSlack │ validComposite │ validTarget │
+├─────────┼───────┼────────────────────────────┼───────────────┼─────────────┼───────────┼─────────────┼────────────────┼───────────────┼─────────────┼────────────────┼─────────────┤
+│ 0       │ 1     │ 'Dragontail Vines'         │ 81.52         │ 'TexasPete' │ 0         │ 6.3         │ 4.91           │ 82.7          │ 1.18        │ 79.72          │ 82.7        │
+│ 1       │ 2     │ 'Fragments of Ghornfell'   │ 61.1          │ 'TexasPete' │ 0         │ 6           │ 7.83           │ 60.5          │ -0.6        │ 60.7           │ 60.5        │
+│ 2       │ 3     │ 'The Shattered Stronghold' │ 51.7          │ 'TexasPete' │ 0         │ 11.4        │ 4.7            │ 52.5          │ 0.8         │ 51.9           │ 52.5        │
+│ 3       │ 4     │ 'Cataclysm Keep'           │ 87.8          │ 'Nanobit'   │ 8.5       │ 0           │ 7.5            │ 86.6          │ -1.2        │ 108.8          │ 107.1       │
+│ 4       │ 5     │ "Kuldra's Sanctum"         │ 116.15        │ 'Nanobit'   │ 3.23      │ 0           │ 7.65           │ 125.8         │ 9.65        │ 111.68         │ 105.3       │
+└─────────┴───────┴────────────────────────────┴───────────────┴─────────────┴───────────┴─────────────┴────────────────┴───────────────┴─────────────┴────────────────┴─────────────┘
+== stats.mjs exit 0 (9.6 s)
+tp650                as-run                 P(<6:50)=1.08% P(<6:48)=0.22% med 7:01.23 p10 6:54.03 p90 7:14.80 | reset after 1:22.5 / 2:24.8 / 3:16.0 / 4:52.8 → 0.1788/h (sim 0.1886)
+tp650                current-patch default  P(<6:50)=0.00% P(<6:48)=0.00% med 7:31.72 p10 7:20.30 p90 8:12.23 | reset after 1:16.0 / 2:17.3 / 3:17.0 / 4:41.8 → 0.0000/h (sim 0.0000)
+tp650                current-patch fastest  P(<6:50)=0.00% P(<6:48)=0.00% med 7:19.24 p10 7:03.81 p90 7:59.33 | reset after 1:21.8 / 2:24.3 / 3:13.5 / 4:41.8 → 0.0007/h (sim 0.0007)
+nano701              as-run                 P(<6:50)=0.00% P(<6:48)=0.00% med 7:14.02 p10 7:06.22 p90 7:56.09 | reset after 1:26.8 / 2:32.8 / 3:32.5 / 4:57.3 → 0.0000/h (sim 0.0000)
+nano701              current-patch default  P(<6:50)=0.00% P(<6:48)=0.00% med 7:34.76 p10 7:23.27 p90 8:15.23 | reset after 1:14.0 / 2:20.0 / 3:20.0 / 4:44.8 → 0.0000/h (sim 0.0000)
+nano701              current-patch fastest  P(<6:50)=0.00% P(<6:48)=0.00% med 7:22.22 p10 7:06.80 p90 8:02.31 | reset after 1:21.8 / 2:29.0 / 3:17.8 / 4:44.8 → 0.0000/h (sim 0.0000)
+tp650-asmedian       as-run                 P(<6:50)=25.46% P(<6:48)=13.93% med 6:53.88 p10 6:47.06 p90 7:07.45 | reset after 1:23.3 / 2:25.0 / 3:16.0 / 4:52.8 → 2.9591/h (sim 3.0612)
+tp650-asmedian       current-patch default  P(<6:50)=0.00% P(<6:48)=0.00% med 7:24.42 p10 7:13.26 p90 8:04.84 | reset after 1:20.5 / 2:21.0 / 3:19.8 / 4:43.5 → 0.0000/h (sim 0.0000)
+tp650-asmedian       current-patch fastest  P(<6:50)=0.54% P(<6:48)=0.14% med 7:12.01 p10 6:56.70 p90 7:52.07 | reset after 1:21.5 / 2:23.3 / 3:12.8 / 4:40.5 → 0.0865/h (sim 0.0958)
+nano701-asmedian     as-run                 P(<6:50)=0.00% P(<6:48)=0.00% med 7:06.69 p10 6:59.32 p90 7:48.80 | reset after 1:26.5 / 2:32.3 / 3:32.8 / 4:58.5 → 0.0005/h (sim 0.0007)
+nano701-asmedian     current-patch default  P(<6:50)=0.00% P(<6:48)=0.00% med 7:27.51 p10 7:16.31 p90 8:07.92 | reset after 1:18.5 / 2:23.8 / 3:22.8 / 4:46.5 → 0.0000/h (sim 0.0000)
+nano701-asmedian     current-patch fastest  P(<6:50)=0.07% P(<6:48)=0.01% med 7:15.07 p10 6:59.76 p90 7:55.12 | reset after 1:21.3 / 2:28.3 / 3:17.3 / 4:44.8 → 0.0131/h (sim 0.0156)
+target-asmedian      as-run                 P(<6:50)=19.75% P(<6:48)=13.73% med 7:01.57 p10 6:46.43 p90 7:41.63 | reset after 1:25.8 / 2:27.5 / 3:19.3 / 4:46.8 → 2.3318/h (sim 2.3961)
+target-asmedian      current-patch default  P(<6:50)=0.00% P(<6:48)=0.00% med 7:13.89 p10 7:03.06 p90 7:54.19 | reset after 1:27.3 / 2:27.5 / 3:28.5 / 4:53.0 → 0.0000/h (sim 0.0000)
+best-of-both-asmedian as-run                 P(<6:50)=1.40% P(<6:48)=0.23% med 7:00.23 p10 6:53.15 p90 7:42.39 | reset after 1:27.3 / 2:28.5 / 3:30.0 / 4:57.0 → 0.2080/h (sim 0.2330)
+best-of-both-asmedian current-patch default  P(<6:50)=0.00% P(<6:48)=0.00% med 7:21.15 p10 7:10.11 p90 8:01.54 | reset after 1:23.5 / 2:23.8 / 3:22.8 / 4:46.5 → 0.0000/h (sim 0.0000)
+best-of-both-asmedian current-patch fastest  P(<6:50)=2.59% P(<6:48)=0.98% med 7:08.77 p10 6:53.53 p90 7:48.79 | reset after 1:22.3 / 2:24.0 / 3:14.0 / 4:42.0 → 0.3743/h (sim 0.3966)
+synthetic-new        as-run                 P(<6:50)=0.00% P(<6:48)=0.00% med 8:43.30 p10 8:03.33 p90 9:26.59 | reset after 1:26.8 / 2:31.5 / 3:29.5 / 4:49.0 → 0.0000/h (sim 0.0000)
+synthetic-new        current-patch fastest  P(<6:50)=0.00% P(<6:48)=0.00% med 8:33.74 p10 7:54.22 p90 9:16.56 | reset after 1:26.0 / 2:33.8 / 3:24.8 / 4:49.0 → 0.0000/h (sim 0.0000)
+(89857 ms)
+== simulate.mjs exit 0 (93.3 s)
+
+tp650 [P(beat stretch goal 7:20.00) — P(beat 6:50) < 1%]: best vines-direct frag-std thane-launch keep-hole sanctum-flight  P(<6:50)=0.00% median 7:19.24  | best verified vines-std frag-std thane-windjump keep-hole sanctum-flight P=0.00% | best by rate: vines-direct frag-std thane-launch keep-hole sanctum-flight 0.0007/h
+  1. +35.46% (6:50 +0.000%, mean -10.64s)  Learn thane-launch to 90%+ on its skips and run it at split 3 [unverified on 1.0.1.2 — test before routing; saving measured in runpath.json]
+  2. +21.62% (6:50 +0.000%, mean -5.75s)  Learn vines-direct to 90%+ on its skips and run it at split 1 [unverified on 1.0.1.2 — test before routing; saving measured in runpath.json]
+  3. +14.97% (6:50 +0.000%, mean -4s)  S2->S3 @3:50: zoop to his 3:57 position ("saves A LOT") (−4 s)
+  4. +10.81% (6:50 +0.000%, mean -3s)  C9->C11 @5:33: clip straight through the ground at the rib clip (no crouch-walk / scimmy swing) (−3 s)
+  5. +10.44% (6:50 +0.000%, mean -2.9s)  C11->C12: flight line tighter than Dotxy's demo (no landing/walk on the walkway) (−2.9 s)
+
+nano701 [P(beat stretch goal 7:23.00) — P(beat 6:50) < 1%]: best vines-direct frag-std thane-launch keep-hole sanctum-flight  P(<6:50)=0.00% median 7:22.22  | best verified vines-std frag-std thane-windjump keep-hole sanctum-flight P=0.00% | best by rate: vines-direct frag-std thane-launch keep-hole sanctum-flight 0/h
+  1. +35.41% (6:50 +0.000%, mean -10.64s)  Learn thane-launch to 90%+ on its skips and run it at split 3 [unverified on 1.0.1.2 — test before routing; saving measured in runpath.json]
+  2. +21.55% (6:50 +0.000%, mean -5.75s)  Learn vines-direct to 90%+ on its skips and run it at split 1 [unverified on 1.0.1.2 — test before routing; saving measured in runpath.json]
+  3. +14.92% (6:50 +0.000%, mean -4s)  S2->S3 @3:50: zoop to his 3:57 position ("saves A LOT") (−4 s)
+  4. +10.80% (6:50 +0.000%, mean -3s)  C9->C11 @5:33: clip straight through the ground at the rib clip (no crouch-walk / scimmy swing) (−3 s)
+  5. +10.38% (6:50 +0.000%, mean -2.9s)  C11->C12: flight line tighter than Dotxy's demo (no landing/walk on the walkway) (−2.9 s)
+
+tp650-asmedian [P(beat stretch goal 7:13.00) — P(beat 6:50) < 1%]: best vines-direct frag-std thane-launch keep-hole sanctum-flight  P(<6:50)=0.54% median 7:12.01  | best verified vines-std frag-std thane-windjump keep-hole sanctum-flight P=0.00% | best by rate: vines-direct frag-std thane-launch keep-hole sanctum-flight 0.0865/h
+
+nano701-asmedian [P(beat stretch goal 7:16.00) — P(beat 6:50) < 1%]: best vines-direct frag-std thane-launch keep-hole sanctum-flight  P(<6:50)=0.07% median 7:15.07  | best verified vines-std frag-std thane-windjump keep-hole sanctum-flight P=0.00% | best by rate: vines-direct frag-std thane-launch keep-hole sanctum-flight 0.0131/h
+
+target-asmedian [P(beat stretch goal 7:03.00) — P(beat 6:50) < 1%]: best vines-direct frag-std thane-launch keep-hole sanctum-flight  P(<6:50)=19.75% median 7:01.57  | best verified vines-std frag-std thane-windjump keep-hole sanctum-flight P=0.00% | best by rate: vines-direct frag-std thane-launch keep-hole sanctum-flight 2.3318/h
+
+best-of-both-asmedian [P(beat stretch goal 7:10.00) — P(beat 6:50) < 1%]: best vines-direct frag-std thane-launch keep-hole sanctum-flight  P(<6:50)=2.59% median 7:08.77  | best verified vines-std frag-std thane-windjump keep-hole sanctum-flight P=0.00% | best by rate: vines-direct frag-std thane-launch keep-hole sanctum-flight 0.3743/h
+
+synthetic-new [P(beat stretch goal 8:03.00) — P(beat 6:50) < 1%]: best vines-direct frag-std thane-launch keep-hole sanctum-flight  P(<6:50)=0.00% median 8:33.74  | best verified vines-std frag-std thane-windjump keep-hole sanctum-flight P=0.00% | best by rate: vines-direct frag-std thane-launch keep-hole sanctum-flight 0/h
+  1. +11.16% (6:50 +0.000%, mean -15.02s)  Learn thane-launch to 90%+ on its skips and run it at split 3 [unverified on 1.0.1.2 — test before routing; saving measured in runpath.json]
+  2. +6.64% (6:50 +0.000%, mean -9.77s)  Learn vines-direct to 90%+ on its skips and run it at split 1 [unverified on 1.0.1.2 — test before routing; saving measured in runpath.json]
+  3. +3.33% (6:50 +0.000%, mean -9.8s)  Keep hole / elemental puzzle skip: halve the miss rate (56% → 78%) (~28 clean reps)
+  4. +2.84% (6:50 +0.000%, mean -4.07s)  Fly through the Sanctum (1.0.1.2): halve the miss rate (45% → 73%) (~22 clean reps)
+  5. +2.49% (6:50 +0.000%, mean -4s)  S2->S3 @3:50: zoop to his 3:57 position ("saves A LOT") (−4 s)
+(259979 ms)
+== optimize.mjs exit 0 (260.9 s)
+wrote D:\labyrinth\Github\JaGeX\dragonwilds-speedrun\docs\math\segment-distributions.md
+wrote D:\labyrinth\Github\JaGeX\dragonwilds-speedrun\docs\math\bayesian-shrinkage.md
+wrote D:\labyrinth\Github\JaGeX\dragonwilds-speedrun\docs\math\monte-carlo.md
+wrote D:\labyrinth\Github\JaGeX\dragonwilds-speedrun\docs\math\reset-dp.md
+wrote D:\labyrinth\Github\JaGeX\dragonwilds-speedrun\docs\math\route-optimisation.md
+wrote D:\labyrinth\Github\JaGeX\dragonwilds-speedrun\docs\math\sum-of-best.md
+wrote D:\labyrinth\Github\JaGeX\dragonwilds-speedrun\docs\math\README.md
+== docs.mjs exit 0 (0.8 s)
+ok  attempt-segments.csv (5 rows × 14 cols)
+ok  consistency.csv (5 rows × 8 cols)
+ok  gaps-by-run.csv (6 rows × 16 cols)
+ok  model-consistency.csv (35 rows × 13 cols)
+ok  model.json
+ok  optimize.json
+ok  practice-priorities.csv (138 rows × 16 cols)
+ok  reset-thresholds.csv (19 rows × 9 cols)
+ok  routes.csv (168 rows × 12 cols)
+ok  runpath-pieces.csv (13 rows × 20 cols)
+ok  segment-stats.csv (5 rows × 15 cols)
+ok  segments.csv (8 rows × 10 cols)
+ok  simulate.csv (19 rows × 14 cols)
+ok  simulate.json
+ok  skip-practice.csv (14 rows × 7 cols)
+ok  sources-runs.csv (12 rows × 10 cols)
+ok  stats.json
+ok  synthetic-new-runner.export.json
+ok  time-on-table.csv (5 rows × 11 cols)
+docs/math: bayesian-shrinkage.md, monte-carlo.md, README.md, reset-dp.md, route-optimisation.md, segment-distributions.md, sum-of-best.md

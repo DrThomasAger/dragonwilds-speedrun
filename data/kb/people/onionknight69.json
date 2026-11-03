@@ -1,0 +1,75 @@
+{
+ "handle": "onionknight69",
+ "name": "onionknight69",
+ "aliases": [
+  "@onionknight69"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@onionknight69",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 8,
+ "summary": "Single-insight commenter: People say it's patched. Must have just been on my end but i was able to do the extraction bug on my 2nd run today 9/27. Started off normal farming stuff and le…",
+ "insights": [
+  {
+   "text": "People say it's patched. Must have just been on my end but i was able to do the extraction bug on my 2nd run today 9/27. Started off normal farming stuff and left after 1st extraction and when i came back the 2nd one was there and then all the rest after i left.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=0zLlzP8hc2Y&lc=UgxZvnlY673N3ew31oJ4AaABAg",
+   "video": {
+    "id": "0zLlzP8hc2Y",
+    "title": "Dragonwilds Scorned Wilderness Raid Speedrun 3:27",
+    "channel": "@ShadowStalkerTM"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "bug",
+   "topics": [
+    "patch",
+    "skip id",
+    "bug"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "I just had this happen to me on my 2nd attempt today 9/27. Can't get it to happen again.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ewgak1mPu7A&lc=UgzFhty9LSS3_LPlT6l4AaABAg.AbGJoXQVT_IAbHhr-c01ei",
+   "video": {
+    "id": "ewgak1mPu7A",
+    "title": "I Broke the New Dragonwilds Raid | Kuldra Guide + Tricks",
+    "channel": "@CrossRSDW"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzFhty9LSS3_LPlT6l4AaABAg",
+   "topic": "other",
+   "topics": [
+    "other"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

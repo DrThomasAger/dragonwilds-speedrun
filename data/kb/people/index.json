@@ -1,0 +1,1458 @@
+{
+ "generated": "2026-11-03",
+ "scope": "RuneScape: Dragonwilds, Scorned Wilderness raid (Kuldra) speedrun: people with insight",
+ "sources": [
+  "YouTube comments on 42 raid videos via yt-dlp (1,415 comments)",
+  "video descriptions, chapters, auto-captions",
+  "speedrun.com API (users, runs, run comments, rules)",
+  "YouTube channel listings",
+  "Twitch VOD/clip listings (heartlessedly, iNanobit, shadowstalkertm, archy2cold, superstooob)",
+  "data/kb/raw (speedrun, twitch, youtube)",
+  "D:/claude-temp/register/raid-sources.*"
+ ],
+ "not_reachable": [
+  "Reddit (403/429 on all endpoints)",
+  "RSDW Speedrunning Discord https://discord.gg/aGZkuC5yK6 (login)",
+  "Whisper transcription (mkl_malloc failure; zyneater 1Q21XYSKJgo guide and heartlessedly VODs untranscribed)"
+ ],
+ "scoring": "insight_score 0-100 = value for beating the 6:50 on the current patch: concrete technique/timing/patch info, corroboration by runners, being the original finder; likes are a minor factor.",
+ "people": [
+  {
+   "handle": "nanobit",
+   "name": "Nanobit",
+   "role": [
+    "runner",
+    "tech finder",
+    "guide maker"
+   ],
+   "insight_score": 95,
+   "summary": "Holds the 1.0.1/1.0.1.1 run (7:01, SRC #2). His pinned comment lists ~25 timestamped time saves and he explains the zoop mechanics. He says the current route can \"approach mid 6's\". Most generous source; he points everyone to the RSDW Discord.",
+   "n_insights": 75,
+   "n_recordings": 5,
+   "n_runs": 3,
+   "file": "data/kb/people/nanobit.json",
+   "doc": "docs/people/nanobit.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@iNanobit",
+    "twitch": "https://www.twitch.tv/iNanobit",
+    "src": "https://www.speedrun.com/users/Nanobit",
+    "reddit": null
+   },
+   "rank": 1
+  },
+  {
+   "handle": "iino1goodii",
+   "name": "IINo1goodII",
+   "role": [
+    "tech finder",
+    "commenter"
+   ],
+   "insight_score": 88,
+   "summary": "Console player and the strongest post-1.0.1.2 lead. He claims \"Kuldra skipped in 4 mins 40 seconds\" by launching past the 3rd checkpoint, plunging past the patched rocks and surge-dashing the bridge, and says sub-4:30 is possible. He hides the full method. He found the Keep hole and elemental-puzzle skip used in the 7:01, and launches reliably with fall-damage cancelling. No SRC account.",
+   "n_insights": 31,
+   "n_recordings": 2,
+   "n_runs": 0,
+   "file": "data/kb/people/iino1goodii.json",
+   "doc": "docs/people/iino1goodii.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@IINo1goodII",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 2
+  },
+  {
+   "handle": "dotxy",
+   "name": "Dotxy",
+   "role": [
+    "tech finder",
+    "runner (agility)"
+   ],
+   "insight_score": 86,
+   "summary": "Found the 1.0.1 movement tech the current route depends on: dive/plunge (jump-attack) cancel on 10-14 and infinite double jump (\"sanctum flight\") on 10-21. His 1.0.1.2 Kuldra skip video has the exact inputs. He says a macro is not against the rules for single player. He also holds several glitchless Agility Course WRs.",
+   "n_insights": 27,
+   "n_recordings": 25,
+   "n_runs": 25,
+   "file": "data/kb/people/dotxy.json",
+   "doc": "docs/people/dotxy.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@Dotxygaming",
+    "twitch": null,
+    "src": "https://www.speedrun.com/users/dotyoureyes",
+    "reddit": null
+   },
+   "rank": 3
+  },
+  {
+   "handle": "texaspete",
+   "name": "TexasPete",
+   "role": [
+    "runner"
+   ],
+   "insight_score": 70,
+   "summary": "Holds the record: 6:50.000 on SRC, recorded 10/14 on routes that are now dead (Keep skip, the rocks to Kuldra). He contributed zoop routing (surge off ledges), the Stronghold jump and the melee heart. His commentary is mostly hype; the useful material is in his replies and SRC comments. His YouTube channel is otherwise pitbike racing.",
+   "n_insights": 17,
+   "n_recordings": 2,
+   "n_runs": 4,
+   "file": "data/kb/people/texaspete.json",
+   "doc": "docs/people/texaspete.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@texaspete.2173",
+    "twitch": null,
+    "src": "https://www.speedrun.com/users/TexasPete",
+    "reddit": null
+   },
+   "rank": 4
+  },
+  {
+   "handle": "sir_rebral",
+   "name": "Sir_Rebral",
+   "role": [
+    "tech finder",
+    "guide maker",
+    "commenter"
+   ],
+   "insight_score": 66,
+   "summary": "Most precise route-detail commenter. He found the Garou Thane walking through the bars (an air charge without the rat room), the charge-pad edge trick that keeps elementals from spawning, the surge+dash into an invisible wall that unlocks a lodestone, and the faster necromancer route. He relayed SectorTSWG's Fragments skip to Nanobit and quotes Jagex's reddit post.",
+   "n_insights": 13,
+   "n_recordings": 1,
+   "n_runs": 0,
+   "file": "data/kb/people/sir_rebral.json",
+   "doc": "docs/people/sir_rebral.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@Sir_Rebral",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 5
+  },
+  {
+   "handle": "samfplays",
+   "name": "SamFPlays",
+   "role": [
+    "guide maker"
+   ],
+   "insight_score": 55,
+   "summary": "The most-watched guide maker (50K/31K/22K views). His voice-guided walkthroughs credit other finders. They cover the surge+phase-dash combo, gear (Fleet Foot infusion, Strong Tea, 2H staff, mace for the Thane) and where to stand at the heart so worms don't spawn. His replies are the best help for console players. He has not run since about 10-20 (doing OSRS).",
+   "n_insights": 93,
+   "n_recordings": 6,
+   "n_runs": 0,
+   "file": "data/kb/people/samfplays.json",
+   "doc": "docs/people/samfplays.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@SamFPlays",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 6
+  },
+  {
+   "handle": "sectortswg",
+   "name": "SectorTSWG",
+   "role": [
+    "tech finder",
+    "guide maker"
+   ],
+   "insight_score": 50,
+   "summary": "Found the post-1.0.1 skip to Fragments of Ghornfell next to the first black dragon. It reached Nanobit's 7:01 via Sir_Rebral, and the narrated video explains it. He also reported the earlier 1.0.1 invisible walls.",
+   "n_insights": 9,
+   "n_recordings": 1,
+   "n_runs": 0,
+   "file": "data/kb/people/sectortswg.json",
+   "doc": "docs/people/sectortswg.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@SectorTSWG",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 7
+  },
+  {
+   "handle": "notmusty1",
+   "name": "notmusty1",
+   "role": [
+    "tech finder"
+   ],
+   "insight_score": 48,
+   "summary": "Found the post-1.0.1 elemental puzzle skip, the Keep hole credited in Nanobit's 7:01 (independently of IINo1goodII), and a full Abyssal Demon skip. Nanobit thinks the demon skip is slower than the normal route. He says he is \"really not a speedrunner\".",
+   "n_insights": 7,
+   "n_recordings": 2,
+   "n_runs": 0,
+   "file": "data/kb/people/notmusty1.json",
+   "doc": "docs/people/notmusty1.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@notmusty1",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 8
+  },
+  {
+   "handle": "wes7918",
+   "name": "Wes (ChiefWes)",
+   "role": [
+    "runner",
+    "tech finder"
+   ],
+   "insight_score": 44,
+   "summary": "Found the rib clip: jump on the bone at the Kuldra checkpoint and swing a sword to clip back into the map. TexasPete and Nanobit both use and credit it. He set an early 9:37/9:43 \"WR\". Thelastiger re-uploaded his run with a claimed co-ownership.",
+   "n_insights": 8,
+   "n_recordings": 2,
+   "n_runs": 4,
+   "file": "data/kb/people/wes7918.json",
+   "doc": "docs/people/wes7918.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@wes7918",
+    "twitch": "https://www.twitch.tv/wesof6tune7",
+    "src": "https://www.speedrun.com/users/ChiefWes",
+    "reddit": null
+   },
+   "rank": 9
+  },
+  {
+   "handle": "fasttipsgaming",
+   "name": "FastTipsGaming",
+   "role": [
+    "guide maker"
+   ],
+   "insight_score": 42,
+   "summary": "Console guide maker. On 10-27 he showed the boss skip still works on 1.0.1.2 by flying \"down the middle\", and he says every rock and even the bridge was patched. On 11-02 he posted a full unedited raid with the skip. He warns that an autosave mid-trick kills you. Dotxy accused him of not crediting the original video.",
+   "n_insights": 7,
+   "n_recordings": 3,
+   "n_runs": 0,
+   "file": "data/kb/people/fasttipsgaming.json",
+   "doc": "docs/people/fasttipsgaming.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@FastTipsGaming",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 10
+  },
+  {
+   "handle": "crossrsdw",
+   "name": "CrossRSDW",
+   "role": [
+    "guide maker"
+   ],
+   "insight_score": 38,
+   "summary": "First widely seen raid-skip guides (9/21, 10/01). Useful diagnostics: if you hit an invisible barrier during the Kuldra dash you are too high, and the green crystals have an insta-kill barrier. He credits Tiger with the Bars (Zilko's find) for the original Kuldra skip. He now runs a Dragonwilds podcast that has nothing on the raid.",
+   "n_insights": 10,
+   "n_recordings": 4,
+   "n_runs": 0,
+   "file": "data/kb/people/crossrsdw.json",
+   "doc": "docs/people/crossrsdw.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@CrossRSDW",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 11
+  },
+  {
+   "handle": "trance_oce",
+   "name": "Trance_OCE",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 34,
+   "summary": "Destiny 2 speedrunner. He suggests testing whether zoop distance depends on FPS, gaining height to zoop past the Keep jumping puzzle, and starting in Leggings of Lightness then hot-swapping instead of learning the plunge tech. He \"guarantee[s]\" sub 5.",
+   "n_insights": 6,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/trance_oce.json",
+   "doc": "docs/people/trance_oce.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@Trance_OCE",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 12
+  },
+  {
+   "handle": "koltplan",
+   "name": "koltplan",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 30,
+   "summary": "Practised the Vines-to-Fragments max zoop for a sub-7 attempt and gives hard consistency numbers: about 1 in 50 attempts, and 5/400. That is the best evidence that the zoop is a lottery as currently understood.",
+   "n_insights": 4,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/koltplan.json",
+   "doc": "docs/people/koltplan.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@koltplan",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 13
+  },
+  {
+   "handle": "heartlessedly",
+   "name": "heartlessedly",
+   "role": [
+    "runner"
+   ],
+   "insight_score": 30,
+   "summary": "Pre-1.0.0.6 runs (5:02, then 3:57, the former WR, both patched). He says \"New rules require one single run as death warps should not work\". That rule is not in the written SRC Raid rules, so it may be a Discord or mod decision. He has two long Twitch VODs of route testing from September.",
+   "n_insights": 4,
+   "n_recordings": 6,
+   "n_runs": 2,
+   "file": "data/kb/people/heartlessedly.json",
+   "doc": "docs/people/heartlessedly.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@heartlessedly1904",
+    "twitch": "https://www.twitch.tv/heartlessedly",
+    "src": "https://www.speedrun.com/users/heartlessedly",
+    "reddit": null
+   },
+   "rank": 14
+  },
+  {
+   "handle": "shadowstalkertm",
+   "name": "ShadowStalkerTM",
+   "role": [
+    "runner",
+    "guide maker"
+   ],
+   "insight_score": 28,
+   "summary": "3:27 pre-1.0.0.6 raid record using extraction/checkpoint unlocks, all patched. His replies describe how those extraction unlocks behaved inconsistently. He has a Dragonwilds safespot guide and a \"skip regions\" video. Twitch only has old shooter clips.",
+   "n_insights": 6,
+   "n_recordings": 3,
+   "n_runs": 1,
+   "file": "data/kb/people/shadowstalkertm.json",
+   "doc": "docs/people/shadowstalkertm.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@ShadowStalkerTM",
+    "twitch": "https://www.twitch.tv/shadowstalkertm",
+    "src": "https://www.speedrun.com/users/ShadowStalkerTM",
+    "reddit": null
+   },
+   "rank": 15
+  },
+  {
+   "handle": "zyneater",
+   "name": "zyneater",
+   "role": [
+    "guide maker"
+   ],
+   "insight_score": 28,
+   "summary": "Destiny 2 raid-cheese creator. Made an 18-minute narrated 1.0.1 raid guide (no captions; whisper failed here). He says there is \"a better route directly to the first air anima vent\" and that \"edge boost surges\" can make the necro gap without a death warp. He thinks the necromancer staff beats the ancestral staff.",
+   "n_insights": 6,
+   "n_recordings": 2,
+   "n_runs": 0,
+   "file": "data/kb/people/zyneater.json",
+   "doc": "docs/people/zyneater.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@zyneater",
+    "twitch": null,
+    "src": "https://www.speedrun.com/users/zyneater",
+    "reddit": null
+   },
+   "rank": 16
+  },
+  {
+   "handle": "loopuleasa",
+   "name": "loopuleasa",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 24,
+   "summary": "PC input optimisation: Q+number spell keybinds work mid-air. He reports that alt+f4 now saves the game, which conflicts with Nanobit's force-close reset practice trick. He also quotes a J-Mod on reddit saying skips will be fixed.",
+   "n_insights": 12,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/loopuleasa.json",
+   "doc": "docs/people/loopuleasa.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@loopuleasa",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 17
+  },
+  {
+   "handle": "dokmix",
+   "name": "Dokmix",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 22,
+   "summary": "Gave the clearest skip-by-skip status list right after 1.0.1. SamFPlays used it to find the air anima workaround.",
+   "n_insights": 2,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/dokmix.json",
+   "doc": "docs/people/dokmix.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@Dokmix",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 18
+  },
+  {
+   "handle": "brendonboyd7668",
+   "name": "brendonboyd7668",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 22,
+   "summary": "PS5 button mapping and a learning progression for infinite flight.",
+   "n_insights": 2,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/brendonboyd7668.json",
+   "doc": "docs/people/brendonboyd7668.md",
+   "platforms": {
+    "youtube": null,
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 19
+  },
+  {
+   "handle": "pickemfantasyfootball",
+   "name": "PickemFantasyFootball",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 20,
+   "summary": "PS5 input loop for the flight cycle (R2-triangle-L2-L2-X). He asks whether the 2:41 gap in FastTips' run can be surge/phase-dashed to the extraction node.",
+   "n_insights": 5,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/pickemfantasyfootball.json",
+   "doc": "docs/people/pickemfantasyfootball.md",
+   "platforms": {
+    "youtube": null,
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 20
+  },
+  {
+   "handle": "channelxero",
+   "name": "Channel Xero",
+   "role": [
+    "guide maker"
+   ],
+   "insight_score": 18,
+   "summary": "A 1.0.1 raid skip guide (5.6K views) and surge/dash ordering tips. He predicts the wandering Garou Thane will be patched.",
+   "n_insights": 6,
+   "n_recordings": 1,
+   "n_runs": 0,
+   "file": "data/kb/people/channelxero.json",
+   "doc": "docs/people/channelxero.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@channelxero5913",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 21
+  },
+  {
+   "handle": "funkybasic",
+   "name": "funkybasic",
+   "role": [
+    "runner (agility)"
+   ],
+   "insight_score": 16,
+   "summary": "Agility Course WR holder. TexasPete credits him for movement strats. His run notes describe surge edge jumps (zoops), autowalk headstarts and construction manipulations. He has not run the raid.",
+   "n_insights": 17,
+   "n_recordings": 0,
+   "n_runs": 15,
+   "file": "data/kb/people/funkybasic.json",
+   "doc": "docs/people/funkybasic.md",
+   "platforms": {
+    "youtube": null,
+    "twitch": null,
+    "src": "https://www.speedrun.com/users/funkybasic",
+    "reddit": null
+   },
+   "rank": 22
+  },
+  {
+   "handle": "nimblesk",
+   "name": "Nimblesk",
+   "role": [
+    "runner"
+   ],
+   "insight_score": 15,
+   "summary": "8:28 on 1.0.0.8 (SRC #3). Confirms the \"too high -> blocked\" behaviour on the Kuldra jump.",
+   "n_insights": 4,
+   "n_recordings": 1,
+   "n_runs": 1,
+   "file": "data/kb/people/nimblesk.json",
+   "doc": "docs/people/nimblesk.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@Nimblesk1",
+    "twitch": null,
+    "src": "https://www.speedrun.com/users/Nimblesk",
+    "reddit": null
+   },
+   "rank": 23
+  },
+  {
+   "handle": "aryvt",
+   "name": "AryVT",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 12,
+   "summary": "Duo trick: a player who died rejoins with ~4 s left to unlock the Kuldra teleport and loop the boss. It is for farming and multiplayer only, not the solo SRC Raid category.",
+   "n_insights": 3,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/aryvt.json",
+   "doc": "docs/people/aryvt.md",
+   "platforms": {
+    "youtube": null,
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 24
+  },
+  {
+   "handle": "zilko",
+   "name": "Zilko",
+   "role": [
+    "tech finder"
+   ],
+   "insight_score": 10,
+   "summary": "Credited as the original finder of the legacy Kuldra fight skip (windstep up the floating rocks to the heart). That skip was patched in 1.0.1.2. He has no public videos or comments of his own; only Tiger with the Bars' upload credits him. The SRC account \"Zilko\" exists but has no runs and may not be the same person. He may be reachable via Discord (\".zilko\").",
+   "n_insights": 1,
+   "n_recordings": 1,
+   "n_runs": 0,
+   "file": "data/kb/people/zilko.json",
+   "doc": "docs/people/zilko.md",
+   "platforms": {
+    "youtube": null,
+    "twitch": null,
+    "src": "https://www.speedrun.com/users/Zilko",
+    "reddit": null
+   },
+   "rank": 25
+  },
+  {
+   "handle": "itswalls",
+   "name": "itswalls",
+   "role": [
+    "runner (agility)"
+   ],
+   "insight_score": 8,
+   "summary": "Agility Course runner (Chasm Dash 35.53, #2). dotyoureyes credits him as inspiration. No raid content found.",
+   "n_insights": 0,
+   "n_recordings": 0,
+   "n_runs": 6,
+   "file": "data/kb/people/itswalls.json",
+   "doc": "docs/people/itswalls.md",
+   "platforms": {
+    "youtube": null,
+    "twitch": null,
+    "src": "https://www.speedrun.com/users/itswalls",
+    "reddit": null
+   },
+   "rank": 26
+  },
+  {
+   "handle": "mikeymadness92",
+   "name": "MikeyMadness92",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 8,
+   "summary": "Single-insight commenter: In kuldra fight, if you look closely when your doing skips you can see little invisible floating cubes and I think those are death cubes you need to avoid, can …",
+   "n_insights": 1,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/mikeymadness92.json",
+   "doc": "docs/people/mikeymadness92.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@MikeyMadness92",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 27
+  },
+  {
+   "handle": "herbisgaming",
+   "name": "HerbIsGaming",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 8,
+   "summary": "Single-insight commenter: If you put a bed down by zilyana you can home tele when you get kuldras extraction unlocked instead of resetting. Cuts down the load time and you don't have to …",
+   "n_insights": 6,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/herbisgaming.json",
+   "doc": "docs/people/herbisgaming.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@HerbIsGaming",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 28
+  },
+  {
+   "handle": "blearnstolive",
+   "name": "BLearnsToLive",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 8,
+   "summary": "Single-insight commenter: If you choose to jump off the edge and die after unlocking Kuldras Sanctum you can respawn at the bed that you placed ear Zilyana for free.",
+   "n_insights": 2,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/blearnstolive.json",
+   "doc": "docs/people/blearnstolive.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@BLearnsToLive",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 29
+  },
+  {
+   "handle": "feederp",
+   "name": "Feederp",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 8,
+   "summary": "Single-insight commenter: 14:20 skip works as of this comment make sure you are on the right hand side. There are 2 points on the platform. Stay by the right hand point time your surge r…",
+   "n_insights": 1,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/feederp.json",
+   "doc": "docs/people/feederp.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@Feederp",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 30
+  },
+  {
+   "handle": "keimbho",
+   "name": "Keimbho",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 8,
+   "summary": "Single-insight commenter: the new update made the rock a phantom. Can't land on it anymore.",
+   "n_insights": 3,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/keimbho.json",
+   "doc": "docs/people/keimbho.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@Keimbho",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 31
+  },
+  {
+   "handle": "southpark159753",
+   "name": "southpark159753",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 8,
+   "summary": "Single-insight commenter: You can stand back and hit the heart with magic, doesnt start the fight with worms. Like dont drop down into the area.",
+   "n_insights": 1,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/southpark159753.json",
+   "doc": "docs/people/southpark159753.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@southpark159753",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 32
+  },
+  {
+   "handle": "richardbuffolino9384",
+   "name": "richardbuffolino9384",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 8,
+   "summary": "Single-insight commenter: Tip for anyone getting used to wind step jumping: wait until your weapon comes back out after casting to start sprinting. Especially if youre struggling with th…",
+   "n_insights": 1,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/richardbuffolino9384.json",
+   "doc": "docs/people/richardbuffolino9384.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@richardbuffolino9384",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 33
+  },
+  {
+   "handle": "marcasss666",
+   "name": "MaRcAsSs666",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 8,
+   "summary": "Single-insight commenter: when you press windstep, wait a bit until you see your weapons and then press run and then jump. If you make windstep and immediately press run, it doesn't coun…",
+   "n_insights": 1,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/marcasss666.json",
+   "doc": "docs/people/marcasss666.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@MaRcAsSs666",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 34
+  },
+  {
+   "handle": "mygoditsnick6457",
+   "name": "mygoditsnick6457",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 8,
+   "summary": "Single-insight commenter: on the boss fight phase 1 skip when the blue dragon first spawns, I cant windstep onto the first rock. I fall through it. And I am also experiencing a glitch wh…",
+   "n_insights": 1,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/mygoditsnick6457.json",
+   "doc": "docs/people/mygoditsnick6457.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@mygoditsnick6457",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 35
+  },
+  {
+   "handle": "theperfectg",
+   "name": "ThePerfectG",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 8,
+   "summary": "Single-insight commenter: everything still works :) what helped me learn it, was the part where you Foward/Dash --> Jump -->  dash --> Dash, I didnt realize how these spells work. forwar…",
+   "n_insights": 2,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/theperfectg.json",
+   "doc": "docs/people/theperfectg.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@ThePerfectG",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 36
+  },
+  {
+   "handle": "skibumb16",
+   "name": "skibumb16",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 8,
+   "summary": "Single-insight commenter: I was trying to teach someone to do it consistently, only to find out that I failed doing the exact same process about half the time.  Surge is just odd.",
+   "n_insights": 2,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/skibumb16.json",
+   "doc": "docs/people/skibumb16.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@skibumb16",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 37
+  },
+  {
+   "handle": "moistrag7476",
+   "name": "moistrag7476",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 8,
+   "summary": "Single-insight commenter:  @shadowwind0078 but there is a skip, after the black dragon where you connect the next bridge you can surge+jump+double dash on the right angle you’ll activate…",
+   "n_insights": 3,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/moistrag7476.json",
+   "doc": "docs/people/moistrag7476.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@moistrag7476",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 38
+  },
+  {
+   "handle": "echucknorris",
+   "name": "eChuckNorris",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 8,
+   "summary": "Single-insight commenter: Did they nerf the pipe skip but still leave the Kuldra skip in? That's just dumb.",
+   "n_insights": 3,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/echucknorris.json",
+   "doc": "docs/people/echucknorris.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@eChuckNorris",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 39
+  },
+  {
+   "handle": "onionknight69",
+   "name": "onionknight69",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 8,
+   "summary": "Single-insight commenter: People say it's patched. Must have just been on my end but i was able to do the extraction bug on my 2nd run today 9/27. Started off normal farming stuff and le…",
+   "n_insights": 2,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/onionknight69.json",
+   "doc": "docs/people/onionknight69.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@onionknight69",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 40
+  },
+  {
+   "handle": "thelastiger",
+   "name": "Tiger with the Bars",
+   "role": [
+    "guide maker (re-uploader)"
+   ],
+   "insight_score": 7,
+   "summary": "Popularised the legacy Kuldra skip (52K views, credited to Zilko) and re-uploaded ChiefWes' 9:37. Nanobit publicly calls the channel a \"content thief\". Use only to trace the history of the skips.",
+   "n_insights": 5,
+   "n_recordings": 2,
+   "n_runs": 0,
+   "file": "data/kb/people/thelastiger.json",
+   "doc": "docs/people/thelastiger.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@thelastiger",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 41
+  },
+  {
+   "handle": "gidster",
+   "name": "Gidster",
+   "role": [
+    "runner (agility)"
+   ],
+   "insight_score": 6,
+   "summary": "OSRS/Minecraft YouTuber with early Agility Course WRs (Lava Fields 50.69, Chasm Dash 36.22). No raid content found.",
+   "n_insights": 0,
+   "n_recordings": 2,
+   "n_runs": 2,
+   "file": "data/kb/people/gidster.json",
+   "doc": "docs/people/gidster.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@Gidster",
+    "twitch": null,
+    "src": "https://www.speedrun.com/users/therealGidster",
+    "reddit": null
+   },
+   "rank": 42
+  },
+  {
+   "handle": "kawaiixo",
+   "name": "KawaiiXO",
+   "role": [
+    "runner"
+   ],
+   "insight_score": 6,
+   "summary": "No-skip raid runs (26:12). Mentions an \"orb skip\" in Kuldra phase 1 and wants it made consistent. Not relevant to a 6:50 route.",
+   "n_insights": 2,
+   "n_recordings": 2,
+   "n_runs": 2,
+   "file": "data/kb/people/kawaiixo.json",
+   "doc": "docs/people/kawaiixo.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@mathew3599",
+    "twitch": null,
+    "src": "https://www.speedrun.com/users/KawaiiXO",
+    "reddit": null
+   },
+   "rank": 43
+  },
+  {
+   "handle": "ballerhorn",
+   "name": "BallerHorn",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: Two skips worth mentioning. 1. Jumping puzzle with skeletons has a faster skip. Right as you go through the gate, in the far left corner of the room is a hole i…",
+   "n_insights": 2,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/ballerhorn.json",
+   "doc": "docs/people/ballerhorn.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@BallerHorn",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 44
+  },
+  {
+   "handle": "kevina1492",
+   "name": "kevina1492",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: There's a much faster sub-10 skip btw. After the gate with the thane (fire and air puzzle with the skeletons/tower) there's a hole you can jump into inside the …",
+   "n_insights": 1,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/kevina1492.json",
+   "doc": "docs/people/kevina1492.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@kevina1492",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 45
+  },
+  {
+   "handle": "aidanthelengthy",
+   "name": "AidantheLengthy",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: For the section with the surge and double jump, you can ignore the necromancer and before you reach him turn 90 degrees right and wind step across the gorge to …",
+   "n_insights": 2,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/aidanthelengthy.json",
+   "doc": "docs/people/aidanthelengthy.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@AidantheLengthy",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 46
+  },
+  {
+   "handle": "haydenjones953",
+   "name": "haydenjones953",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: The vault guardian part- you can jump on the lower part of the pipe and windstep onto the highest part of the pipe (without having to turn the valve to activate…",
+   "n_insights": 1,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/haydenjones953.json",
+   "doc": "docs/people/haydenjones953.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@haydenjones953",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 47
+  },
+  {
+   "handle": "damezup",
+   "name": "damezup",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: You can do the last room before kuldra, the one  with the 4 element things, faster.   Go left first, then while you’re waiting for the first fire thing, pop sur…",
+   "n_insights": 2,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/damezup.json",
+   "doc": "docs/people/damezup.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@damezup",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 48
+  },
+  {
+   "handle": "masterofthechickens",
+   "name": "Masterofthechickens",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: Came across this little thing by accident while doing the surge, jump, dash, dash. I activated windstep by mistake while activating these and when i did the fir…",
+   "n_insights": 1,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/masterofthechickens.json",
+   "doc": "docs/people/masterofthechickens.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@Masterofthechickens",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 49
+  },
+  {
+   "handle": "taxeit",
+   "name": "Taxeit",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: 4:00 can actually accomplish this part with just a single surge, but hard to do",
+   "n_insights": 2,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/taxeit.json",
+   "doc": "docs/people/taxeit.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@Taxeit",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 50
+  },
+  {
+   "handle": "rising7807",
+   "name": "rising7807",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: Just learned today after almost 60 runs that you can get all drops with just 7 runs. You get the first two from the first defeat. After that run all the way thr…",
+   "n_insights": 1,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/rising7807.json",
+   "doc": "docs/people/rising7807.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@rising7807",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 51
+  },
+  {
+   "handle": "kurokaze-i5y",
+   "name": "kurokaze-i5y",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: It became easier for me to stop at an edge and just tap forward and surge, when I get a head start I just dash. On the kuldra surge jump if u do it st edge u do…",
+   "n_insights": 3,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/kurokaze-i5y.json",
+   "doc": "docs/people/kurokaze-i5y.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@kurokaze-i5y",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 52
+  },
+  {
+   "handle": "jpautosalonllc",
+   "name": "JPAutoSalonLLC",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: You can stand on that platform where you would surge and dash but just windstep down onto the green rock below. You won’t die. Then just jump forward on the flo…",
+   "n_insights": 1,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/jpautosalonllc.json",
+   "doc": "docs/people/jpautosalonllc.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@JPAutoSalonLLC",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 53
+  },
+  {
+   "handle": "xikamuix",
+   "name": "XIKaMuIX",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: You can also just wind jump onto the blue crystal thing below 4:40. Then jump onto the normal rock (directly under the player at same time stamp). then you coul…",
+   "n_insights": 2,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/xikamuix.json",
+   "doc": "docs/people/xikamuix.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@XIKaMuIX",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 54
+  },
+  {
+   "handle": "stormblessedkiwi8049",
+   "name": "stormblessedkiwi8049",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: I go a different way, slower but safer, not that much slower. I can do it like he does in the vid but I have a terrible PC and it randomly has frame issues whic…",
+   "n_insights": 1,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/stormblessedkiwi8049.json",
+   "doc": "docs/people/stormblessedkiwi8049.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@stormblessedkiwi8049",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 55
+  },
+  {
+   "handle": "wpwart",
+   "name": "WPWArt",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: On the last bit where the elementals are, you can still jump through the gap at the beginning and get off the map. They’ve added some rocks, but if you time it …",
+   "n_insights": 1,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/wpwart.json",
+   "doc": "docs/people/wpwart.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@WPWArt",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 56
+  },
+  {
+   "handle": "kennycola9093",
+   "name": "kennycola9093",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: This guide is so good. For the last part instead of resetting position, just keep going until you see the wall and go behind it. From that point on just windste…",
+   "n_insights": 1,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/kennycola9093.json",
+   "doc": "docs/people/kennycola9093.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@kennycola9093",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 57
+  },
+  {
+   "handle": "brianbarnes-j9g",
+   "name": "BrianBarnes-j9g",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: I found a weird quirk in my save file during this part of the boss battle. I have a small, almost invisible block right in the middle of that large gap that you…",
+   "n_insights": 2,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/brianbarnes-j9g.json",
+   "doc": "docs/people/brianbarnes-j9g.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@BrianBarnes-j9g",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 58
+  },
+  {
+   "handle": "lilkevog7",
+   "name": "lilkevog7",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: also dragonkin mage robes give 17.5% magic attack speed your robes only give 10% that will make this time a bit faster with just that and im average times are f…",
+   "n_insights": 2,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/lilkevog7.json",
+   "doc": "docs/people/lilkevog7.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@lilkevog7",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 59
+  },
+  {
+   "handle": "adrianejokoliwag2769",
+   "name": "adrianejokoliwag2769",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: On the first bridge in Dragontail, you can also skip activating the anima bridge. Just do the surge - jump - phase dash thing, do it from sprinting and you also…",
+   "n_insights": 2,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/adrianejokoliwag2769.json",
+   "doc": "docs/people/adrianejokoliwag2769.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@adrianejokoliwag2769",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 60
+  },
+  {
+   "handle": "jlayman89",
+   "name": "jlayman89",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: Oh lord, so I just found out by accident you can skip the first 2 areas entirely  by walking to the western part of the area Zilyana is in... like the whole ⅓ t…",
+   "n_insights": 3,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/jlayman89.json",
+   "doc": "docs/people/jlayman89.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@jlayman89",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 61
+  },
+  {
+   "handle": "sairentoeko",
+   "name": "sairentoeko",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: Small tip that may or may not make much difference. Instead of using confuse on the archer at the black dragon, use surge instead. It'll confuse the dragon long…",
+   "n_insights": 2,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/sairentoeko.json",
+   "doc": "docs/people/sairentoeko.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@sairentoeko",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 62
+  },
+  {
+   "handle": "boice6173",
+   "name": "boice6173",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: I was watching players have an extra orb during the Zilyana warp out in P1- if you spam quick enough, you're able to smuggle one into the next phase saving plen…",
+   "n_insights": 1,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/boice6173.json",
+   "doc": "docs/people/boice6173.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@boice6173",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 63
+  },
+  {
+   "handle": "darkphoenix3979",
+   "name": "darkphoenix3979",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: another way that i do it is windstep down from that point onto big green crystal, it will hurt but you wont die, then windstep up onto a rock spire that sticks …",
+   "n_insights": 2,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/darkphoenix3979.json",
+   "doc": "docs/people/darkphoenix3979.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@darkphoenix3979",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 64
+  },
+  {
+   "handle": "lordjunk5847",
+   "name": "lordjunk5847",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: I’m on Xbox and everything I saw I’m able to do on console other than the last way to get the last extraction point since on console there’s a wall there. But t…",
+   "n_insights": 1,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/lordjunk5847.json",
+   "doc": "docs/people/lordjunk5847.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@lordjunk5847",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 65
+  },
+  {
+   "handle": "undeaddf",
+   "name": "UndeadDF",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: You can even just use Surge and Quick Step (extra dash) to double dash over right where the bridge would, be instead of running all the way around.",
+   "n_insights": 4,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/undeaddf.json",
+   "doc": "docs/people/undeaddf.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@UndeadDF",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 66
+  },
+  {
+   "handle": "ho0pxr",
+   "name": "Ho0pxr",
+   "role": [
+    "commenter"
+   ],
+   "insight_score": 5,
+   "summary": "Single-insight commenter: Using both neck pieces ain't gonna be a thing in the future so either this won't count later or never be beaten.",
+   "n_insights": 2,
+   "n_recordings": 0,
+   "n_runs": 0,
+   "file": "data/kb/people/ho0pxr.json",
+   "doc": "docs/people/ho0pxr.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@Ho0pxr",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 67
+  },
+  {
+   "handle": "deffziin",
+   "name": "Deffziin",
+   "role": [
+    "news"
+   ],
+   "insight_score": 3,
+   "summary": "Portuguese-language Dragonwilds news channel. His 1.0.1.2 hotfix video has no raid tech. One commenter there (luanrodrigo7934) reports the post-TP floor-fall bug in the Kuldra fight.",
+   "n_insights": 3,
+   "n_recordings": 1,
+   "n_runs": 0,
+   "file": "data/kb/people/deffziin.json",
+   "doc": "docs/people/deffziin.md",
+   "platforms": {
+    "youtube": "https://www.youtube.com/@Deffziin",
+    "twitch": null,
+    "src": null,
+    "reddit": null
+   },
+   "rank": 68
+  }
+ ]
+}

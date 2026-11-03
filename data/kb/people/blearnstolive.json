@@ -1,0 +1,73 @@
+{
+ "handle": "blearnstolive",
+ "name": "BLearnsToLive",
+ "aliases": [
+  "@BLearnsToLive"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@BLearnsToLive",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 8,
+ "summary": "Single-insight commenter: If you choose to jump off the edge and die after unlocking Kuldras Sanctum you can respawn at the bed that you placed ear Zilyana for free.",
+ "insights": [
+  {
+   "text": "If you choose to jump off the edge and die after unlocking Kuldras Sanctum you can respawn at the bed that you placed ear Zilyana for free.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=UgxpnH8rj_J2T-S9oLx4AaABAg",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "practice",
+   "topics": [
+    "other"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "​ @SamFPlays it works really well to have a bed and a lodestone right next to her lol.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=UgxpnH8rj_J2T-S9oLx4AaABAg.AbkfzFMazgcAbqnUrB5QB9",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxpnH8rj_J2T-S9oLx4AaABAg.AbkfzFMazgcAbqUUUnYfPy",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

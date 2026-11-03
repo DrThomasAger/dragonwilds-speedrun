@@ -1,0 +1,296 @@
+{
+ "id": "doVQ9Ph256g",
+ "url": "https://www.youtube.com/watch?v=doVQ9Ph256g",
+ "reviewedAt": "2026-11-03T06:28:35.293Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "ok",
+ "title": "Runescape: Dragonwilds | 7:01 Kuldra | 1.0.1/1.0.1.1 Legacy WR",
+ "author": "Nano",
+ "date": "2026-10-17",
+ "videoDuration": 465,
+ "kind": "run",
+ "from": [
+  "speedrun.com",
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "register"
+ ],
+ "reference": true,
+ "rank": 2,
+ "runStatus": "verified",
+ "bracket": "1.0.0.6+",
+ "src": "m74v4p4m",
+ "statedTime": 421,
+ "duration": 421.82,
+ "offset": 23.78,
+ "offsetMethod": "reference (js/data/raid.js nano701, LiveSplit/frame-read)",
+ "splits": [
+  87.82,
+  154.92,
+  218.12,
+  305.82,
+  421.82
+ ],
+ "videoSplits": [
+  111.6,
+  178.7,
+  241.9,
+  329.6,
+  445.6
+ ],
+ "segmentTimes": [
+  87.82,
+  67.1,
+  63.2,
+  87.7,
+  116
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [
+  {
+   "t": 350.6,
+   "dur": 0.6,
+   "segment": 4
+  },
+  {
+   "t": 385.6,
+   "dur": 0.4,
+   "segment": 4
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 111.6,
+    "score": 0.841
+   },
+   {
+    "t": 178.7,
+    "score": 0.819
+   },
+   {
+    "t": 241.9,
+    "score": 0.84
+   },
+   {
+    "t": 329.6,
+    "score": 0.884
+   }
+  ],
+  "end": {
+   "t": 445.6,
+   "plate": [
+    431.5,
+    445.5
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": 23.8
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "Windstepping up the blocks to Kuldra no longer works as of 1.0.1.2/1.0.1.3. You can still get up to that area via just flying lmao. Plunge-cancel tech has evolved even further, check out @Dotxygaming's video here: https://www.youtube.com/watch?v=GeWbo4GpFEg",
+   "topics": [
+    "movement",
+    "cancel",
+    "trick"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "@texaspete.2173 has posted a sub 7! It's a great run but it is using some strats that have been patched at this point. Still it's worth a watch of course! Clean run and using some different movement from me, so many things to learn.",
+   "topics": [
+    "glitch",
+    "trick",
+    "timing"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "Thanks to @SectorTSWG via @Sir_Rebral for the new skip to Fragments, and @notmusty1 via @IINo1goodII for finding a lovely hole in Keep!",
+   "topics": [
+    "skip",
+    "trick"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "Thanks again to @Dotxygaming for the plunge-cancel tech, it's very fun.",
+   "topics": [
+    "movement",
+    "cancel",
+    "trick"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "There's still a good amount of time to save here, clearly can be done sub 7 judging by my sum of best, but needs very clean movement and strong zoops. Especially in the area with the 3rd BD directly after zooping from keep, if you get a strong enough one you can make it all the way from where you landed to well past the plant.",
+   "topics": [
+    "movement",
+    "timing"
+   ]
+  },
+  {
+   "where": "speedrun.com comment",
+   "text": "Thanks to [@SectorTSWG](https://www.youtube.com/@SectorTSWG) via [@Sir_Rebral](https://www.youtube.com/@Sir_Rebral) for the new skip to Fragments, and [@notmusty1](https://www.youtube.com/@notmusty1) via [@IINo1goodII](https://www.youtube.com/@IINo1goodII) for finding a lovely hole in Keep! Thanks again to [@Dotxygaming](https://www.youtube.com/@Dotxygaming) for the plunge-cancel tech, it's very fun. \n\n\n\nRun Notes: \n\n\nThere's still a good amount of time to save here, clearly can be done sub 7 judging by my sum of best, but needs very clean movement and strong zoops. Especially in the area with the 3rd BD directly after zooping from keep, if you get a strong enough one you can make it all the way from where you landed to well past the plant.",
+   "topics": [
+    "movement",
+    "skip",
+    "cancel",
+    "trick",
+    "timing"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=doVQ9Ph256g",
+   "quote": "Windstepping up the blocks to Kuldra no longer works as of 1.0.1.2/1.0.1.3. You can still get up to that area via just flying lmao. Plunge-cancel tech has evolved even further, check out @Dotxygaming's video here: https://www.youtube.com/watch?v=GeWbo4GpFEg",
+   "unseen": [
+    "tech",
+    "evolved"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   }
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=doVQ9Ph256g",
+   "quote": "Thanks again to @Dotxygaming for the plunge-cancel tech, it's very fun.",
+   "unseen": [
+    "tech"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=doVQ9Ph256g",
+   "quote": "There's still a good amount of time to save here, clearly can be done sub 7 judging by my sum of best, but needs very clean movement and strong zoops. Especially in the area with the 3rd BD directly after zooping from keep, if you get a strong enough one you can make it all the way from where you landed to well past the plant.",
+   "unseen": [
+    "zoops",
+    "especially",
+    "zooping",
+    "landed",
+    "plant"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "speedrun.com comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=doVQ9Ph256g",
+   "quote": "Thanks to [@SectorTSWG](https://www.youtube.com/@SectorTSWG) via [@Sir_Rebral](https://www.youtube.com/@Sir_Rebral) for the new skip to Fragments, and [@notmusty1](https://www.youtube.com/@notmusty1) via [@IINo1goodII](https://www.youtube.com/@IINo1goodII) for finding a lovely hole in Keep! Thanks again to [@Dotxygaming](https://www.youtube.com/@Dotxygaming) for the plunge-cancel tech, it's very fun. \n\n\n\nRun Notes: \n\n\nThere's still a good amount of time to save here, clearly can be done sub 7 judging by my sum of best, but needs very clean movement and strong zoops. Especially in the area with the 3rd BD directly after zooping from keep, if you get a strong enough one you can make it all the way from where you landed to well past the plant.",
+   "unseen": [
+    "tech",
+    "zoops",
+    "especially",
+    "zooping",
+    "landed",
+    "plant"
+   ],
+   "nearestKnown": {
+    "id": "s-keep",
+    "name": "Keep hole / elemental puzzle skip",
+    "src": "route.js",
+    "score": 0.5
+   }
+  }
+ ],
+ "transcriptSource": "none",
+ "transcriptLines": 0,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": true,
+  "offsetMethod": "reference (js/data/raid.js nano701, LiveSplit/frame-read)",
+  "templateScale": [
+   0.91,
+   0.81
+  ],
+  "templateScore": [
+   0.838,
+   0.89
+  ],
+  "complete": true,
+  "statedTime": 421,
+  "statedDiff": 0.82,
+  "transcript": "none",
+  "notes": [
+   "Loading-screen end detected at 23.8 s (reference offset 23.78 s, diff -0.02 s)."
+  ]
+ },
+ "curated": null
+}

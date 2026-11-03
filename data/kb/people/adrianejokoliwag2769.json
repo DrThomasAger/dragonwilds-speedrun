@@ -1,0 +1,75 @@
+{
+ "handle": "adrianejokoliwag2769",
+ "name": "adrianejokoliwag2769",
+ "aliases": [
+  "@adrianejokoliwag2769"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@adrianejokoliwag2769",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: On the first bridge in Dragontail, you can also skip activating the anima bridge. Just do the surge - jump - phase dash thing, do it from sprinting and you also…",
+ "insights": [
+  {
+   "text": "On the first bridge in Dragontail, you can also skip activating the anima bridge. Just do the surge - jump - phase dash thing, do it from sprinting and you also need to time your jump and dashes properly.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ESrrkdxD1fo&lc=UgxxUwgvtXeaeMtoMkJ4AaABAg",
+   "video": {
+    "id": "ESrrkdxD1fo",
+    "title": "(Patched!) Sub 10 Min Kuldra Skip Guide (Post-Patch 1.0.1) – Every Skip Explained | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-22",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "route",
+   "topics": [
+    "skip id",
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "On the first Bridge in Dragontail, you can also skip the bridge by doing the surge - jump - phase dash thing but you just need to time your jump and dashes properly. You also need to do it from sprinting.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=UgxHTMJS5YvDz_6yowh4AaABAg",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-22",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

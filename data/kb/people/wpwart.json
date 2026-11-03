@@ -1,0 +1,50 @@
+{
+ "handle": "wpwart",
+ "name": "WPWArt",
+ "aliases": [
+  "@WPWArt"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@WPWArt",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 5,
+ "summary": "Single-insight commenter: On the last bit where the elementals are, you can still jump through the gap at the beginning and get off the map. They’ve added some rocks, but if you time it …",
+ "insights": [
+  {
+   "text": "On the last bit where the elementals are, you can still jump through the gap at the beginning and get off the map. They’ve added some rocks, but if you time it right, you can still do the original skip there to get to kuldras sanctum",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=s9cyeL2c-qg&lc=Ugwykylvsop7u-6WETp4AaABAg",
+   "video": {
+    "id": "s9cyeL2c-qg",
+    "title": "Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!",
+    "channel": "@SectorTSWG"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-28",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

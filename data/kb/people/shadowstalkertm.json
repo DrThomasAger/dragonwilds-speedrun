@@ -1,0 +1,221 @@
+{
+ "handle": "shadowstalkertm",
+ "name": "ShadowStalkerTM",
+ "aliases": [
+  "@ShadowStalkerTM"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@ShadowStalkerTM",
+  "twitch": "https://www.twitch.tv/shadowstalkertm",
+  "src": "https://www.speedrun.com/users/ShadowStalkerTM",
+  "reddit": null
+ },
+ "src_profile": {
+  "id": "jpmy502j",
+  "weblink": "https://www.speedrun.com/users/ShadowStalkerTM",
+  "twitch": "https://www.twitch.tv/shadowstalkertm",
+  "youtube": "https://www.youtube.com/channel/UCQFk_0fdypwl3E0K_Og-lfQ",
+  "country": "il",
+  "signup": "2021-08-17T08:13:30Z"
+ },
+ "role": [
+  "runner",
+  "guide maker"
+ ],
+ "insight_score": 28,
+ "summary": "3:27 pre-1.0.0.6 raid record using extraction/checkpoint unlocks, all patched. His replies describe how those extraction unlocks behaved inconsistently. He has a Dragonwilds safespot guide and a \"skip regions\" video. Twitch only has old shooter clips.",
+ "insights": [
+  {
+   "text": "all the extraction skips in my run seems to be patched since it doesn't work for me anymore (only did 3-4 raids since patch)\nthe kuldra skip at 2:07 is the only thing that worked for me in all the runs i did",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=0zLlzP8hc2Y&lc=Ugxqg7NC3e-FLgCoQpt4AaABAg.AbVteKfmx00AbW9TK5NH1Z",
+   "video": {
+    "id": "0zLlzP8hc2Y",
+    "title": "Dragonwilds Scorned Wilderness Raid Speedrun 3:27",
+    "channel": "@ShadowStalkerTM"
+   },
+   "timestamp": "2:07",
+   "video_timestamps": [
+    "2:07"
+   ],
+   "date": "2026-10-06",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "Ugxqg7NC3e-FLgCoQpt4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": " @ricksmith7007  my bad, the checkpoint thing is patched now.\nweird that yestarday when i saw your comment i opened the game to test it (post update) and it worked fine but today when i saw your and the other 2 comments i tried again (no update) and now it doesn't work.\n\nthe only thing that did work for me when tested today was kuldra fight skip at 2:07, the other things didn't work. Fragments of Ghornfell checkpoint was unlocked for me upon reaching the 1st bridge, but after finishing the raid and repeating my movement, i couldn't get it to unlock there again, not sure how that works.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=0zLlzP8hc2Y&lc=UgwcTAynXmQqGU33Jnx4AaABAg.AbE0o1fhqPzAbF5v3xRhwU",
+   "video": {
+    "id": "0zLlzP8hc2Y",
+    "title": "Dragonwilds Scorned Wilderness Raid Speedrun 3:27",
+    "channel": "@ShadowStalkerTM"
+   },
+   "timestamp": "2:07",
+   "video_timestamps": [
+    "2:07"
+   ],
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgwcTAynXmQqGU33Jnx4AaABAg.AbE0o1fhqPzAbEmtDRJnt2",
+   "topic": "bug",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "partial",
+   "verification_note": "onionknight69 reports the same inconsistent behaviour.",
+   "curated": true
+  },
+  {
+   "text": "Yeah i have no idea whats going on with that, runescape always had and will have spaghetti code i guess.\nAfter the update i was able to fully repeat this run once, but afterwards it stopped working, and when i tried to repeat it again and it didn't work, i continued as normal run to try the other locations within the raid for the extraction unlocks.\nAside from the previous ones not working, an extraction was unlocked about 10sec walk from the starting point near the bridge, but only 1 time. I started another run after but wasn't able to unlocked it there again \n🤷‍♀",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=0zLlzP8hc2Y&lc=UgxZvnlY673N3ew31oJ4AaABAg.AbHjFdNfU6HAbHyCXTsocB",
+   "video": {
+    "id": "0zLlzP8hc2Y",
+    "title": "Dragonwilds Scorned Wilderness Raid Speedrun 3:27",
+    "channel": "@ShadowStalkerTM"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgxZvnlY673N3ew31oJ4AaABAg",
+   "topic": "bug",
+   "topics": [
+    "patch",
+    "skip id",
+    "bug"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "done right before the update today 0_0",
+   "source": "video description",
+   "url": "https://www.youtube.com/watch?v=0zLlzP8hc2Y",
+   "video": {
+    "id": "0zLlzP8hc2Y",
+    "title": "Dragonwilds Scorned Wilderness Raid Speedrun 3:27"
+   },
+   "timestamp": null,
+   "date": "2026-09-25",
+   "date_approx": false,
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "yes",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "not for me but one of the commenters said the extraction bug started workeing for him after a normal raid.\nonly thing i can confrm still working is kuldra fight skip (2:07)",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=0zLlzP8hc2Y&lc=UgycXToH0w6mnrtIjth4AaABAg.AbgvR9cPzfXAbhETYZPKl8",
+   "video": {
+    "id": "0zLlzP8hc2Y",
+    "title": "Dragonwilds Scorned Wilderness Raid Speedrun 3:27",
+    "channel": "@ShadowStalkerTM"
+   },
+   "timestamp": "2:07",
+   "video_timestamps": [
+    "2:07"
+   ],
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgycXToH0w6mnrtIjth4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id",
+    "bug"
+   ],
+   "verified": "self-shown",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "nope, the entire thing still works",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=0zLlzP8hc2Y&lc=UgwcTAynXmQqGU33Jnx4AaABAg.AbE0o1fhqPzAbE9MD7IrBO",
+   "video": {
+    "id": "0zLlzP8hc2Y",
+    "title": "Dragonwilds Scorned Wilderness Raid Speedrun 3:27",
+    "channel": "@ShadowStalkerTM"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgwcTAynXmQqGU33Jnx4AaABAg",
+   "topic": "patch",
+   "topics": [
+    "patch"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [
+  {
+   "title": "Dragonwilds Scorned Wilderness Raid Speedrun 3:27",
+   "url": "https://www.youtube.com/watch?v=0zLlzP8hc2Y",
+   "date": "2026-09-25",
+   "duration": "3:52",
+   "views": 783,
+   "channel": "@ShadowStalkerTM",
+   "summary": "done right before the update today 0_0",
+   "description": "done right before the update today 0_0\ncould be faster but i don't think i'll do more of this",
+   "transcript": "none (no captions; whisper unavailable this pass)",
+   "comments_fetched": 15,
+   "key_moments": []
+  },
+  {
+   "title": "How To Safespot Bosses in Runescape Dragonwilds",
+   "url": "https://www.youtube.com/watch?v=CvtvJyraTg0",
+   "date": null,
+   "duration": "19:52",
+   "summary": "General safespot guide (18K views). Not fetched; may cover the Kuldra/heart safespot."
+  },
+  {
+   "title": "How to \"Skip\" Regions in Runescape Dragonwilds 1.0",
+   "url": "https://www.youtube.com/watch?v=dMsS0uoIZR4",
+   "date": null,
+   "duration": "17:45",
+   "summary": "Overworld region skipping, not the raid. Not fetched."
+  }
+ ],
+ "runs": [
+  {
+   "game": "Runescape: Dragonwilds",
+   "category": "Raid",
+   "time_s": 207,
+   "date": "2026-09-25",
+   "status": "verified",
+   "url": "https://www.speedrun.com/Runescape_Dragonwilds/runs/mkn1ol1m",
+   "video": "https://youtu.be/0zLlzP8hc2Y",
+   "comment": null
+  }
+ ],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}

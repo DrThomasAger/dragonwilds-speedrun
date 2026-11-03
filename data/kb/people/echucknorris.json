@@ -1,0 +1,99 @@
+{
+ "handle": "echucknorris",
+ "name": "eChuckNorris",
+ "aliases": [
+  "@eChuckNorris"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@eChuckNorris",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 8,
+ "summary": "Single-insight commenter: Did they nerf the pipe skip but still leave the Kuldra skip in? That's just dumb.",
+ "insights": [
+  {
+   "text": "Did they nerf the pipe skip but still leave the Kuldra skip in? That's just dumb.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=WpvNjqVmpVM&lc=Ugz7o1rCV-LxRSCRJ5x4AaABAg",
+   "video": {
+    "id": "WpvNjqVmpVM",
+    "title": "(Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 2,
+   "reply_to": null,
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id"
+   ],
+   "verified": "partial",
+   "verification_note": null,
+   "curated": true
+  },
+  {
+   "text": "There's a faster skip after the Garou Thane. In the back corner there is a hole you can jump to and crouch through. A couple of jumps from here and you're at the abby demon. Cuts at least a minute off. You're also missing the skip after the abby demon that gets you direct over to the jump puzzle section past all the Thanes there. Saves another 2 minutes. Last skip is for the last puzzle, you can jump through a hole behind the pipes/fire section to get under the map and activate the final teleporter. Saves another 1-2 minutes. I think you can get close to 10 min runs with all those skips.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=bStgF4YN6kU&lc=UgylpcCBYteGz9zZDxt4AaABAg",
+   "video": {
+    "id": "bStgF4YN6kU",
+    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-13",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "skip id",
+    "tech",
+    "timing"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  },
+  {
+   "text": "You can completely skip to the Kuldra heart from the first platform of the fight.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=ewgak1mPu7A&lc=UgyXFAuv8zLt8tPm1Xp4AaABAg",
+   "video": {
+    "id": "ewgak1mPu7A",
+    "title": "I Broke the New Dragonwilds Raid | Kuldra Guide + Tricks",
+    "channel": "@CrossRSDW"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-03",
+   "date_approx": true,
+   "likes": 1,
+   "reply_to": null,
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "Minor commenter; no channel or SRC footprint found for the raid."
+ ],
+ "generated": "2026-11-03"
+}

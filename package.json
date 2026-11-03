@@ -13,7 +13,8 @@
     "shots": "playwright test tests/screens.spec.js",
     "check": "node scripts/check-data.mjs",
     "patchnotes": "node scripts/fetch-patchnotes.mjs",
-    "sources": "node scripts/track-sources.mjs"
+    "sources": "node scripts/track-sources.mjs",
+    "kb": "node scripts/build-kb.mjs"
   },
   "devDependencies": {
     "@playwright/test": "1.64.1"

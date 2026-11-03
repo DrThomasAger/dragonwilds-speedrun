@@ -1,0 +1,76 @@
+{
+ "handle": "dokmix",
+ "name": "Dokmix",
+ "aliases": [
+  "@Dokmix"
+ ],
+ "platforms": {
+  "youtube": "https://www.youtube.com/@Dokmix",
+  "twitch": null,
+  "src": null,
+  "reddit": null
+ },
+ "src_profile": null,
+ "role": [
+  "commenter"
+ ],
+ "insight_score": 22,
+ "summary": "Gave the clearest skip-by-skip status list right after 1.0.1. SamFPlays used it to find the air anima workaround.",
+ "insights": [
+  {
+   "text": "Going through the raid after update 1.0.1:\n- The necromancer skip is walled off by an invisible wall\n- Poison area skip still works\n- Shattered stronghold skip is walled off by an invisible wall the way you showed here, but is still doable from within the area that's blocked by the air anima wall (where you can see the anima orb dispenser for the area).\n- Elemental puzzle skip is now walled off\n- Kuldra fight skip still works",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=UgzI3VyO1N63Lx1o7Hh4AaABAg",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 7,
+   "reply_to": null,
+   "topic": "patch",
+   "topics": [
+    "patch",
+    "skip id",
+    "bug"
+   ],
+   "verified": "yes",
+   "verification_note": "SamFPlays confirms: \"Everything else just like you said!\"",
+   "curated": true
+  },
+  {
+   "text": " @SamFPlays  Worth also noting that in their recent Steam post that they've said they are still still planning on resolving/fixing the skips.",
+   "source": "youtube comment",
+   "url": "https://www.youtube.com/watch?v=1HqP4q2WERw&lc=UgzI3VyO1N63Lx1o7Hh4AaABAg.Abx-o6twF6KAc-MsaBV8OI",
+   "video": {
+    "id": "1HqP4q2WERw",
+    "title": "(Patched - New Vid on Channel) Every Kuldra Skip Explained – Sub 10 Min Raid Guide | RS Dragonwilds",
+    "channel": "@SamFPlays"
+   },
+   "timestamp": null,
+   "video_timestamps": null,
+   "date": "2026-10-20",
+   "date_approx": true,
+   "likes": 0,
+   "reply_to": "UgzI3VyO1N63Lx1o7Hh4AaABAg.Abx-o6twF6KAbygTbZU6bL",
+   "topic": "skip id",
+   "topics": [
+    "skip id"
+   ],
+   "verified": "no",
+   "verification_note": null,
+   "curated": false
+  }
+ ],
+ "recordings": [],
+ "runs": [],
+ "notes": [
+  "YouTube comment dates are approximate: yt-dlp derives them from relative ages (\"2 weeks ago\") at fetch time 2026-11-03.",
+  "verified: yes = shown on video, verified on SRC or confirmed by several people; partial = one corroboration; self-shown = the author demonstrates it in their own video; no = unverified claim; disputed = contradicted; outdated = true at the time, since patched."
+ ],
+ "generated": "2026-11-03"
+}
