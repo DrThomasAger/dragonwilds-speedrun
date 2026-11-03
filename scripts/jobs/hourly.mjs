@@ -27,6 +27,8 @@ const STEPS = [
   ['reviews of new runs', ['node', 'scripts/review/run.mjs'], 30 * M],
   ['analysis', ['node', '--max-old-space-size=4096', 'scripts/analysis/run-all.mjs'], 15 * M],
   ['knowledge base', ['node', 'scripts/build-kb.mjs'], 10 * M],
+  // New/changed blog posts, KB pages, daily notes -> D:\labyrinth\ekadanta-inbox\dragonwilds\<date>.jsonl
+  ['ekadanta export', ['node', 'scripts/ekadanta-export.mjs'], 2 * M],
 ];
 
 let failed = 0;

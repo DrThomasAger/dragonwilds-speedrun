@@ -1,4 +1,4 @@
-// "SMILE Arena Build" (hourly at :35): pull, build the site data, commit + push if changed.
+// "SMILE Arena Build" (hourly at :35): pull, build the site data, Ekadanta inbox export, commit + push if changed.
 // The repo's GitHub Action (pages.yml) then publishes the site.
 // Log: D:\claude-temp\logs\smile-arena-build-<date>.log
 import { existsSync, readFileSync } from 'node:fs';
@@ -16,6 +16,11 @@ const pkg = existsSync(`${REPO}\\package.json`) ? JSON.parse(readFileSync(`${REP
 if (pkg.scripts?.['build:site']) {
   if (!step(L, 'npm run build:site', 'npm', ['run', 'build:site'], { cwd: REPO, timeout: 30 * 60 * 1000, shell: true }).ok) failed++;
 } else L.say('no build:site script, skipping build');
+
+// New/changed texts -> D:\labyrinth\ekadanta-inbox\smile-arena\<date>.jsonl (state lives in the inbox; nothing to commit).
+if (existsSync(`${REPO}\\scripts\\ekadanta-export.mjs`)) {
+  if (!step(L, 'ekadanta export', 'node', ['scripts/ekadanta-export.mjs'], { cwd: REPO, timeout: 2 * 60 * 1000 }).ok) failed++;
+} else L.say('no scripts/ekadanta-export.mjs, skipping export');
 
 // Everything not ignored, minus Python bytecode caches.
 if (!publish(L, REPO, ['.', ':(exclude)**/__pycache__/**'], `site: hourly local build ${new Date().toISOString().slice(0, 16)}Z`)) failed++;

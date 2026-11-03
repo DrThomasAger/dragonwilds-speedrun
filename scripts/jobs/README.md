@@ -6,13 +6,14 @@ Each new task runs `wscript.exe scripts\jobs\hidden.vbs scripts\jobs\<job>.mjs`.
 
 | Task | Schedule | What it does | Log |
 |---|---|---|---|
-| RaidLab Hourly | every hour (:28), 2 h limit | `hourly.mjs`: waits for network after wake, patch notes, sources, all ingest, reviews, analysis, KB (each step has its own timeout, output streamed into the log); commit + push data/ docs/ (main + gh-pages) | `D:\claude-temp\logs\jobs-<date>.log` |
+| RaidLab Hourly | every hour (:28), 2 h limit | `hourly.mjs`: waits for network after wake, patch notes, sources, all ingest, reviews, analysis, KB, Ekadanta export (`scripts/ekadanta-export.mjs` -> `D:\labyrinth\ekadanta-inbox\dragonwilds\<date>.jsonl`) (each step has its own timeout, output streamed into the log); commit + push data/ docs/ (main + gh-pages) | `D:\claude-temp\logs\jobs-<date>.log` |
 | RaidLab Logon | at logon | `logon.cmd`: starts `bb lab` bridge and `scripts\ingest\twitch-live.mjs` | `bridge.log`, `twitch-live.log` |
 | RaidLab Transcripts | every 2 h (:15) | `transcripts.mjs`: `scripts/ingest/youtube.mjs --no-comments` (transcripts only) | `transcripts-<date>.log` |
 | RaidLab Daily Review | daily 04:30 | `daily-review.mjs`: full review backlog (`scripts/review/run.mjs`), analysis, KB rebuild, `npx playwright test` (summary in log), commit + push data/ docs/ | `daily-review-<date>.log` |
-| SMILE Arena Build | hourly at :35 | `smile-arena-build.mjs`: in `D:\labyrinth\Github\smile-arena` git pull --rebase, `npm run build:site`, commit + push if changed (the repo's Action publishes the site); retries unpushed commits | `smile-arena-build-<date>.log` |
+| SMILE Arena Build | hourly at :35 | `smile-arena-build.mjs`: in `D:\labyrinth\Github\smile-arena` git pull --rebase, `npm run build:site`, Ekadanta export (`scripts/ekadanta-export.mjs` -> `D:\labyrinth\ekadanta-inbox\smile-arena\<date>.jsonl`), commit + push if changed (the repo's Action publishes the site); retries unpushed commits | `smile-arena-build-<date>.log` |
 | Sangha Bridge Watchdog | every 10 min | `watchdog.mjs`: if nothing on 127.0.0.1:5180 starts `bb lab` (here); if nothing on 5555 starts `python server.py` in `SmilePrompt\Composer\osrs\gui` | `watchdog-<date>.log`, `bridge.log`, `osrs-gui.log` |
 | Sangha Health | every 30 min | `health.mjs`: C:/D: free space, every task's last result, ports 5180/5555 | `health.log` (one line per run), `health.json` (latest snapshot) |
+| OSRS Hiscores | at logon + daily 06:10 | `osrs-hiscores.mjs`: in `D:\labyrinth\Github\osrs-accounts` git pull, `scripts/refresh-hiscores.mjs` (each `<slug>/account.json`, `ACCOUNT.md`, README table, `<slug>/logs/hiscores.jsonl`), commit + push if changed | `osrs-hiscores-<date>.log` |
 | RuneLite Capture | at logon + hourly (:50) | `runelite-capture.mjs` -> `capture-runelite.ps1`: PrintWindow capture of a "RuneLite - *" window to `D:\claude-temp\demo\runelite-latest.png` (no clipboard, never moves/focuses windows, skips if minimised) | `runelite-capture-<date>.log` |
 
 All logs are in `D:\claude-temp\logs`.
