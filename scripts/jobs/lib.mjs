@@ -90,10 +90,13 @@ export async function waitForNetwork(L, host = 'www.youtube.com', maxSec = 300) 
   }
 }
 
-/** Start a long-running process detached and hidden, output to a log file on D:. */
+/** Start a long-running process detached and hidden, output to a log file on D:.
+ *  cmd must be an .exe on PATH (bb, node, python): with shell:true (or via cmd.exe) a detached
+ *  child's output never reached the log (bridge.log / osrs-gui.log stayed empty). */
 export function startDetached(cmd, args, { cwd, log }) {
   const fd = openSync(log, 'a');
-  const p = spawn(cmd, args, { cwd, env, detached: true, windowsHide: true, stdio: ['ignore', fd, fd], shell: true });
+  const p = spawn(cmd, args, { cwd, env, detached: true, windowsHide: true, stdio: ['ignore', fd, fd] });
+  closeSync(fd);
   p.unref();
   return p.pid;
 }

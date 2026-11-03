@@ -4,7 +4,8 @@ import { statfsSync, appendFileSync, writeFileSync } from 'node:fs';
 import { listening, run, LOGDIR } from './lib.mjs';
 
 export const TASKS = ['RaidLab Hourly', 'RaidLab Logon', 'RaidLab Transcripts', 'RaidLab Daily Review', 'SMILE Arena Build',
-  'Sangha Bridge Watchdog', 'Sangha Health', 'RuneLite Capture'];
+  'Sangha Bridge Watchdog', 'Sangha Health', 'RuneLite Capture', 'OSRS Hiscores', 'RuneLite Dev Switch', 'Sangha Cache Trim',
+  'Sangha Discord Bot'];
 
 const gb = d => { try { const s = statfsSync(d); return +((s.bavail * s.bsize) / 1e9).toFixed(1); } catch { return null; } };
 const csvRow = line => (line.match(/("([^"]|"")*"|[^,]*)(,|$)/g) || []).map(c => c.replace(/,$/, '').replace(/^"|"$/g, '').replace(/""/g, '"'));
