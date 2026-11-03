@@ -82,7 +82,7 @@ export function mount(root) {
     if (!root.isConnected) return;
     const items = src ? Object.values(src.items) : [];
     // YouTube gives relative ages ("10 days ago"); keep the last two weeks, newest first.
-    const age = p => { const m = /(\d+)\s*(second|minute|hour|day|week|month|year)/.exec(p || ''); if (!m) return 1e9; return +m[1] * { second: 1 / 86400, minute: 1 / 1440, hour: 1 / 24, day: 1, week: 7, month: 30, year: 365 }[m[2]]; };
+    const age = p => { const m = /(\d+)\s*(mo|y|w|d|h|min|m|s)/.exec(p || ''); if (!m) return 1e9; return +m[1] * { mo: 30, y: 365, w: 7, d: 1, h: 1 / 24, min: 1 / 1440, m: 1 / 1440, s: 1 / 86400 }[m[2]]; };
     const fresh = items.filter(i => i.kind === 'video' && age(i.published) <= 14).sort((a, b) => age(a.published) - age(b.published)).slice(0, 6);
     const beat = items.filter(i => i.beatsRecord);
     fill(intel,
