@@ -437,3 +437,14 @@ dialog.palette input { width: 100%; font-size: 16px; padding: 12px; }
   .transport { gap: 4px; padding: 8px; }
   .bigclock { font-size: 22px; }
 }
+
+/* Short desktop screens (e.g. 2160x1440 at 175% = ~1234x690 usable): keep video from
+   eating the whole height so controls and tables stay in view. YouTube letterboxes. */
+.hero { align-items: start; }
+@media (min-width: 720px) and (max-height: 900px) {
+  .stage { max-height: 52vh; }
+  .cmp-cell { max-height: 40vh; aspect-ratio: auto; height: 40vh; }
+  .pagehead { margin-bottom: 10px; }
+  .pagehead p { font-size: 14px; }
+  main { padding-top: 14px; }
+}

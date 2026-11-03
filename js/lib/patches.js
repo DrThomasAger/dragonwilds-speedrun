@@ -40,14 +40,16 @@ async function pull(url) {
 export function refresh({ force = false } = {}) {
   if (!force && Date.now() - lastFetch < 5 * 60 * 1000 && data) return Promise.resolve(data);
   inflight ||= (async () => {
+    // Show the bundled copy at once on first load, then replace it with the live mirror.
+    if (!data) { try { const b = await pull(LOCAL); data = { ...b, source: 'bundled', checkedAt: new Date().toISOString() }; subs.forEach(f => f(data, [])); } catch { /* none */ } }
     let d = null, source = 'github';
     try { d = await pull(REMOTE); } catch { try { d = await pull(LOCAL); source = 'bundled'; } catch { /* offline */ } }
     inflight = null;
     if (!d) return data;
     lastFetch = Date.now();
-    const first = !data;
+    const first = !localStorage.getItem(SEEN);
     data = { ...d, source, checkedAt: new Date().toISOString() };
-    if (first && !localStorage.getItem(SEEN)) markSeen();       // baseline on first ever load
+    if (first) markSeen();       // baseline on first ever load
     const fresh = newPosts();
     subs.forEach(f => f(data, fresh));
     if (fresh.length) notify(fresh);

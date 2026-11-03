@@ -3,3 +3,5 @@ test-results/
 playwright-report/
 .live.mjs
 .lr.mjs
+.review/
+.shots.mjs
