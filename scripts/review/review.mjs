@@ -9,7 +9,7 @@ import { mkdir, copyFile, readdir } from 'node:fs/promises';
 import { ROOT, OUT, DOCS, DIRS, TEMPLATES, YTDLP, FFMPEG, FFPROBE, PYTHON, EXTRA_VIDEO_DIRS, run, readJson, writeJson, writeText, exists, now, link, fmt, clip, tools, VALID_ID, scanVersion } from './lib.mjs';
 import { fetchMeta, captionLines, rawLines, whisperLines } from './transcript.mjs';
 import { detectEvents } from './detect.mjs';
-import { reference, analyzeRun, statedTime } from './analyze.mjs';
+import { reference, analyzeRun, statedTime, patchAt } from './analyze.mjs';
 import { mineLines, knownMechanics, candidateFromLine, matchKnown, topicsOf } from './mine.mjs';
 
 export const PIPELINE_VERSION = 1;
@@ -110,13 +110,15 @@ export async function reviewSource(item, { level = 'full', known = null, ref = n
         const f = await features(id, videoFile);
         const events = detectEvents(f);
         const stated = item.run?.time ?? statedTime(meta.title);
-        analysis = analyzeRun({ id, events, f, ref, statedRunTime: stated });
+        analysis = analyzeRun({ id, events, f, ref, statedRunTime: stated, date: item.run?.date || meta.date });
         analysis.events = { banners: events.banners, end: events.end, loadEnd: events.loadEnd };
         visual = { status: 'ok' };
       } catch (e) { visual = { status: 'error', reason: e.message.slice(0, 300) }; }
     }
   }
-  if (!tr && level === 'full' && t.whisper && meta.duration && meta.duration <= MAX_VIDEO_S) {
+  const noTalk = /no commentary|no mic|\bost\b|soundtrack/i.test(meta.title || '');
+  if (noTalk && !tr) visual.whisperSkipped = 'title says no commentary';
+  if (!tr && !noTalk && level === 'full' && t.whisper && meta.duration && meta.duration <= MAX_VIDEO_S) {
     log(`  whisper ${id}`);
     const audio = await audioSource(id, videoFile);
     const w = audio ? await whisperLines(id, audio) : { error: 'no audio track could be fetched' };
@@ -144,7 +146,7 @@ export async function reviewSource(item, { level = 'full', known = null, ref = n
     const c = candidateFromLine({ t: null, text: n.text }, known);
     if (c) candidateMechanics.push({ source: n.where, t: null, link: base.url, quote: c.quote, unseen: c.unseen, nearestKnown: c.nearestKnown, author: n.author });
   }
-  if (analysis) for (const a of analysis.anomalies.filter(a => a.kind === 'faster' || a.kind === 'missing-banners')) {
+  if (analysis) for (const a of analysis.anomalies.filter(a => (a.kind === 'faster' && !a.legacy) || a.kind === 'missing-banners')) {
     candidateMechanics.push({ source: 'timing', t: a.t, link: link(id, a.t), quote: a.description, segment: a.segment });
   }
 
@@ -173,15 +175,15 @@ export async function reviewSource(item, { level = 'full', known = null, ref = n
     title: meta.title, author: meta.author, date: meta.date, videoDuration: meta.duration, kind: item.kind || null,
     from: item.from || [], reference: !!item.reference,
     rank: run?.rank ?? null, runStatus: run?.status ?? (item.reference ? 'reference' : 'unsubmitted'), bracket: run?.bracket ?? null, src: run?.src ?? null,
-    statedTime: run?.time ?? statedTime(meta.title),
+    statedTime: run?.time ?? statedTime(meta.title), patchAtUpload: patchAt(run?.date || meta.date, ref),
     duration: analysis?.duration ?? null,
     offset: analysis?.offset ?? null, offsetMethod: analysis?.offsetMethod ?? null,
     splits: analysis?.splits ?? [], videoSplits: analysis?.videoSplits ?? [], segmentTimes: analysis?.segmentTimes ?? [],
     segmentRef: ref.segs.map(s => ({ name: s.name, min: s.min, median: s.median, max: s.max, best: s.best.runner, checkpoints: s.checkpoints.map(c => c.id) })),
     anomalies: analysis?.anomalies ?? [], blackouts: analysis?.blackouts ?? [], events: analysis?.events ?? null,
     commentary, textNotes: textNotes.slice(0, 60), candidateMechanics,
-    transcriptSource, transcriptLines: tr?.lines?.length || 0, transcriptRetry: !!m.subsError && !tr, ...(m.subsError ? { subsError: m.subsError } : {}),
-    quality: { visual: visual.status, ...(visual.reason ? { visualReason: visual.reason } : {}), ...(visual.whisperError ? { whisperError: visual.whisperError } : {}), ...(analysis?.quality || {}), transcript: transcriptSource, notes: analysis?.notes || [] },
+    transcriptSource, transcriptLines: tr?.lines?.length || 0, transcriptRetry: (!!m.subsError || !!visual.whisperError) && (!tr || tr.source.startsWith('kb-raw')), ...(m.subsError ? { subsError: m.subsError } : {}),
+    quality: { visual: visual.status, ...(visual.reason ? { visualReason: visual.reason } : {}), ...(visual.whisperError ? { whisperError: visual.whisperError } : {}), ...(visual.whisperSkipped ? { whisperSkipped: visual.whisperSkipped } : {}), ...(analysis?.quality || {}), transcript: transcriptSource, notes: analysis?.notes || [] },
     curated: notes ? { summary: notes.summary || null } : null,
   };
 }

@@ -6,6 +6,7 @@ import * as patches from './lib/patches.js';
 import { initPWA } from './lib/pwa.js';
 import { initPalette } from './lib/palette.js';
 import { initBridge } from './lib/bridge.js';
+import * as voice from './lib/speak.js';
 
 const views = {
   hq: () => import('./views/hq.js'),
@@ -23,7 +24,7 @@ const views = {
   hardcore: () => import('./views/hardcore.js'),
 };
 
-const GLOBAL_KEYS = [['?', 'This help'], ['Ctrl K', 'Search everything'], ['g h', 'HQ'], ['g n', 'Run navigator'], ['g c', 'Race the WR'], ['g r', 'Route'], ['g s', 'Reel Studio'], ['g p', 'Practice'], ['g t', 'Timer'], ['g w', 'Wiki'], ['g k', 'Knowledge'], ['g u', 'Patch notes'], ['g l', 'Library']];
+const GLOBAL_KEYS = [['?', 'This help'], ['Ctrl Shift Esc', 'Stop speech'], ['Ctrl K', 'Search everything'], ['g h', 'HQ'], ['g n', 'Run navigator'], ['g c', 'Race the WR'], ['g r', 'Route'], ['g s', 'Reel Studio'], ['g p', 'Practice'], ['g t', 'Timer'], ['g w', 'Wiki'], ['g k', 'Knowledge'], ['g u', 'Patch notes'], ['g l', 'Library']];
 
 store.load();
 let cleanup = null, seq = 0;
@@ -81,6 +82,11 @@ $('#helpBtn').addEventListener('click', () => $('#help').showModal());
 
 fill($('#topTarget'), '#1 to beat ', h('b', {}, fmtRun(RECORD.time)), ` · ${RECORD.runner}`);
 initPWA($('#installSlot'));
+// Voice: 🔊 reads the page that is open; 🗣 opens voice settings (Breeze TTS 2 on Ganesha, else the browser).
+const VOICE_TOGGLES = [['calls', 'Speak split call-outs and pace in the Run navigator and Timer', true], ['claude', 'Speak Claude panel replies', true]];
+$('#speakSlot').append(
+  voice.readButton(() => $('#view [data-read-main]') || $('#view'), { className: 'iconbtn speak-btn', label: 'Read this page aloud' }),
+  h('button', { class: 'iconbtn', id: 'voiceBtn', title: 'Voice settings', 'aria-label': 'Voice settings', onclick: () => { fill($('#voicePanel'), voice.settingsPanel({ toggles: VOICE_TOGGLES })); $('#voice').showModal(); } }, '🗣'));
 initPalette($('#palBtn'));
 initBridge($('#installSlot'));
 patches.subscribe((d, fresh) => {

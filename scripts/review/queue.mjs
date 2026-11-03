@@ -135,7 +135,7 @@ export function pending(queue, state, level = 'full', { force = false } = {}) {
     const s = state.ids?.[it.id];
     if (!s) return true;
     if (s.status === 'unavailable' || s.status === 'invalid') return false;
-    if (s.status === 'error' && (s.attempts || 0) < 3) return true;
+    if (s.status === 'error') return (s.attempts || 0) < 3;
     if (s.transcriptRetry && (s.transcriptAttempts || 0) < 3) { it.transcriptRetry = true; return true; }
     return (LEVELS[s.level] || 0) < LEVELS[level];
   });

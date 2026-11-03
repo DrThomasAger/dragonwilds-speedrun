@@ -46,7 +46,7 @@ export async function mount(root, { params }) {
     if (graph) { graph.destroy(); graph = null; }
     if (cleanupLive) { cleanupLive(); cleanupLive = null; }
     const side = sidebar(d, params, mode);
-    const main = h('section', { class: 'kb-main' });
+    const main = h('section', { class: 'kb-main', 'data-read-main': '' });
     fill(body, side, main);
     if (mode === 'graph') graph = graphView(main, d, params);
     else if (mode === 'tables') tablesView(main, d, params);

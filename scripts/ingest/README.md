@@ -23,7 +23,7 @@ node scripts/ingest/run-all.mjs --whisper                # + transcribe Twitch V
 node scripts/ingest/run-all.mjs --only=youtube           # one source
 node scripts/ingest/youtube.mjs --only=6WEIHo7AUf0       # one video
 node scripts/ingest/youtube.mjs --no-comments            # transcripts only (fastest)
-node scripts/ingest/youtube.mjs --whisper --no-discover  # + Whisper for videos with no YouTube captions (local)
+node scripts/ingest/youtube.mjs --yt-whisper --no-discover  # + Whisper for videos with no YouTube captions (local)
 ```
 
 Useful environment variables: `INGEST_YT_MAX` (cap on yt-dlp calls per run),

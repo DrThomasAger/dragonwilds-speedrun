@@ -1,7 +1,8 @@
 // YouTube: transcripts (top priority), metadata, chapters and top comments for every
 // Dragonwilds raid / Kuldra / Scorned Wilderness, movement-tech, speedrun, boss-guide
 // and patch-notes video we can find.
-//   node scripts/ingest/youtube.mjs [--max=N] [--only=<id,id>] [--refresh] [--no-discover] [--no-comments]
+//   node scripts/ingest/youtube.mjs [--max=N] [--only=<id,id>] [--refresh] [--no-discover] [--no-comments] [--yt-whisper]
+//   --yt-whisper (local): transcribe videos YouTube has no captions for with faster-whisper
 //
 // Video set (all merged, de-duplicated):
 //   - every video in js/data/videos.js
@@ -209,7 +210,7 @@ export async function buildIndex() {
 }
 
 // ---------------------------------------------------------------- main
-export async function ingestYoutube({ log = logNew, max = +arg('max', process.env.INGEST_YT_MAX || 1000), only = arg('only', null), refresh = !!arg('refresh', false), discoverNew = !arg('no-discover', false), doComments = !arg('no-comments', false), whisper = !!(arg('whisper', false) || process.env.INGEST_WHISPER === '1') } = {}) {
+export async function ingestYoutube({ log = logNew, max = +arg('max', process.env.INGEST_YT_MAX || 1000), only = arg('only', null), refresh = !!arg('refresh', false), discoverNew = !arg('no-discover', false), doComments = !arg('no-comments', false), whisper = !!(arg('yt-whisper', false) || process.env.INGEST_YT_WHISPER === '1') } = {}) {
   const stats = { source: 'youtube', tracked: 0, newVideos: 0, transcripts: 0, newTranscripts: 0, noCaptions: 0, commentFetches: 0, comments: 0, newComments: 0, failed: 0, unavailable: 0, errors: [] };
   if (discoverNew && !only) Object.assign(stats, await discover({ log }));
   const state = await readJson(path.join(DIR, '_state.json'), {});

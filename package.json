@@ -14,7 +14,10 @@
     "check": "node scripts/check-data.mjs",
     "patchnotes": "node scripts/fetch-patchnotes.mjs",
     "sources": "node scripts/track-sources.mjs",
-    "kb": "node scripts/build-kb.mjs"
+    "kb": "node scripts/build-kb.mjs",
+    "test:review": "node --test tests/review",
+    "review": "node scripts/review/run.mjs",
+    "ekadanta": "node scripts/ekadanta-export.mjs"
   },
   "devDependencies": {
     "@playwright/test": "1.64.1"

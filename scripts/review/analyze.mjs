@@ -15,7 +15,7 @@ export async function reference() {
     return { k, name: s.name, short: s.short, min: v[0], median: v[Math.floor(v.length / 2)], max: v[v.length - 1], best: vals[0], runs: vals,
       checkpoints: route?.ROUTE?.[k]?.skips?.map(x => ({ id: x.id, name: x.name, status: x.status })) || [] };
   });
-  return { RUNS: raid.RUNS, SPLITS: raid.SPLITS, segs, byVid: Object.fromEntries(raid.RUNS.map(r => [r.vid, r])) };
+  return { RUNS: raid.RUNS, SPLITS: raid.SPLITS, PATCHES: raid.PATCHES, segs, byVid: Object.fromEntries(raid.RUNS.map(r => [r.vid, r])) };
 }
 
 // "6:50", "(7:40)", "11 Min", "22:35" → seconds stated in a title (null if none)
@@ -26,14 +26,25 @@ export function statedTime(title) {
 }
 
 // events: detectEvents() output; f: features (for blackouts); ref: reference()
-export function analyzeRun({ id, events, f, ref, statedRunTime = null }) {
+// Game version live on a date (YYYY-MM-DD) per js/data/raid.js PATCHES.
+export function patchAt(date, ref) {
+  if (!date || !ref?.PATCHES) return null;
+  let v = null;
+  for (const p of ref.PATCHES) if (/^d/.test(p.v) && !p.v.endsWith('+') && p.date <= date) v = p.v;
+  return v;
+}
+
+export function analyzeRun({ id, events, f, ref, statedRunTime = null, date = null }) {
   const notes = [];
+  const patch = patchAt(date, ref);
+  const legacy = patch && ['1.0', '1.0.0.5'].includes(patch);
   const banners = events.banners.map(b => b.t);
   const refRun = ref.byVid[id];
   let offset = null, offsetMethod = null;
   if (refRun) { offset = refRun.offset; offsetMethod = `reference (js/data/raid.js ${refRun.key}, LiveSplit/frame-read)`; }
   else if (events.loadEnd != null) { offset = events.loadEnd; offsetMethod = 'detected: end of the loading screen into the raid'; }
-  else if (banners.length && banners[0] < 400) { offset = 0; offsetMethod = 'assumed: video starts at the run start (no loading screen found)'; }
+  else if (banners.length && banners[0] >= 45 && banners[0] < 400) { offset = 0; offsetMethod = 'assumed: video starts at the run start (no loading screen found)'; }
+  else if (banners.length) notes.push(`No run start found (first banner at ${banners[0]} s video): split 1 unknown; later segments are measured banner to banner.`);
   if (refRun && events.loadEnd != null) notes.push(`Loading-screen end detected at ${events.loadEnd} s (reference offset ${refRun.offset} s, diff ${(refRun.offset - events.loadEnd).toFixed(2)} s).`);
 
   let bannerList = banners;
@@ -43,13 +54,14 @@ export function analyzeRun({ id, events, f, ref, statedRunTime = null }) {
   const splits = offset == null ? null : videoSplits.map(t => +(t - offset).toFixed(2));
 
   // Segment k only when both ends are known and banners are complete up to k.
-  const segmentTimes = [];
-  if (splits) {
+  // Segments from video times (offset-independent), split 1 needs the run start.
+  const segmentTimes = [], segVideo = [];
+  if (bannerList.length) {
     for (let k = 0; k < 5; k++) {
-      const endT = k < 4 ? splits[k] : (bannerList.length === 4 && endV != null ? splits[4] : null);
-      const startT = k === 0 ? 0 : splits[k - 1];
-      if (endT == null || startT == null || (k === 4 && bannerList.length < 4) || (k < 4 && k >= bannerList.length)) { segmentTimes.push(null); continue; }
-      segmentTimes.push(+(endT - startT).toFixed(2));
+      const endT = k < 4 ? bannerList[k] ?? null : (bannerList.length === 4 ? endV : null);
+      const startT = k === 0 ? offset : bannerList[k - 1] ?? null;
+      if (endT == null || startT == null) { segmentTimes.push(null); segVideo.push(null); continue; }
+      segmentTimes.push(+(endT - startT).toFixed(2)); segVideo.push([startT, endT]);
     }
   }
 
@@ -57,9 +69,9 @@ export function analyzeRun({ id, events, f, ref, statedRunTime = null }) {
   segmentTimes.forEach((s, k) => {
     if (s == null) return;
     const r = ref.segs[k];
-    const vStart = offset + (k ? splits[k - 1] : 0), vEnd = offset + splits[k];
+    const [vStart, vEnd] = segVideo[k];
     if (s < r.min - 2) anomalies.push({ t: +vStart.toFixed(2), tEnd: +vEnd.toFixed(2), segment: k, name: r.name, kind: 'faster', delta: +(s - r.min).toFixed(2), seg: s,
-      description: `${r.name}: ${s.toFixed(1)} s — ${(r.min - s).toFixed(1)} s faster than every reference run (best ${r.best.runner} ${r.min} s). Possible skip or route not in the reference set.` });
+      description: `${r.name}: ${s.toFixed(1)} s — ${(r.min - s).toFixed(1)} s faster than every reference run (best ${r.best.runner} ${r.min} s). ${legacy ? ` Video is from patch ${patch} (pre-1.0.0.6): routes like the extraction skip are patched since.` : ' Possible skip or route not in the reference set.'}`, ...(legacy ? { legacy: patch } : {}) });
     else if (s > r.max + 30) anomalies.push({ t: +vStart.toFixed(2), tEnd: +vEnd.toFixed(2), segment: k, name: r.name, kind: 'slower', delta: +(s - r.max).toFixed(2), seg: s,
       description: `${r.name}: ${s.toFixed(1)} s — ${(s - r.max).toFixed(1)} s slower than every reference run (slowest ${r.max} s). Different path, deaths or a puzzle done normally.` });
   });
@@ -68,9 +80,9 @@ export function analyzeRun({ id, events, f, ref, statedRunTime = null }) {
 
   // mid-run black screens (respawns, teleports, deaths) between start and end
   const blackouts = [];
-  if (f && offset != null) {
-    const endT = endV ?? Infinity;
-    for (const b of blackRuns(f, 3)) if (b.t0 > offset + 1 && b.t1 < endT - 0.05) {
+  if (f && (offset != null || bannerList.length)) {
+    const endT = endV ?? Infinity, startT = offset ?? bannerList[0];
+    for (const b of blackRuns(f, 3)) if (b.t0 > startT + 1 && b.t1 < endT - 0.05) {
       const k = videoSplits.findIndex(t => t >= b.t0);
       blackouts.push({ t: b.t0, dur: +(b.t1 - b.t0).toFixed(2), segment: k < 0 ? null : k });
     }
@@ -84,5 +96,5 @@ export function analyzeRun({ id, events, f, ref, statedRunTime = null }) {
     ...(statedRunTime != null && duration != null ? { statedTime: statedRunTime, statedDiff: +(duration - statedRunTime).toFixed(2) } : {}),
   };
   if (quality.statedDiff != null && Math.abs(quality.statedDiff) > 2) notes.push(`Measured ${duration} s vs stated ${statedRunTime} s (${quality.statedDiff > 0 ? '+' : ''}${quality.statedDiff} s): check the start (offset) or a timer stopped early.`);
-  return { offset, offsetMethod, videoSplits, splits, segmentTimes, duration, anomalies, blackouts, quality, notes };
+  return { patch, offset, offsetMethod, videoSplits, splits, segmentTimes, duration, anomalies, blackouts, quality, notes };
 }

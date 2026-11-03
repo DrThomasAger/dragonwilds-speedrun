@@ -1,6 +1,7 @@
 // Claude panel + live feed. Active only when the app is served by the local bridge
 // (`bb lab`, scripts/bridge.clj). On the public site this module does nothing.
 import { h, fill, $, isTyping, toast } from './util.js';
+import * as voice from './speak.js';
 
 let live = false, es = null, panel = null, busy = false, cur = null;
 const S = { open: false, tab: 'chat', log: [] };
@@ -67,7 +68,7 @@ function build() {
       h('div', { class: 'row' }, h('button', { class: 'btn pri', onclick: evalCode }, 'Run'), h('button', { class: 'btn sm ghost', onclick: () => { el.code.value = "(require '[osrs.client :as g])\n(g/on-client #(.getName (.getLocalPlayer @g/client)))"; } }, 'Example')), el.out),
   };
   panel = h('aside', { class: 'claude-panel', hidden: true, 'aria-label': 'Claude' },
-    h('header', {}, h('b', {}, '✦ Claude'), el.status, h('span', { class: 'spacer' }), h('button', { class: 'iconbtn', 'aria-label': 'Close', onclick: () => toggle(false) }, '×')),
+    h('header', {}, h('b', {}, '✦ Claude'), el.status, h('span', { class: 'spacer' }), voice.toggleButton('claude', 'Speak', true, { className: 'btn sm ghost cp-say' }), h('button', { class: 'iconbtn', 'aria-label': 'Close', onclick: () => toggle(false) }, '×')),
     el.tabs, el.panes.chat, el.panes.feed, el.panes.repl);
   document.body.append(panel);
   paintTabs(); replay();
@@ -129,6 +130,9 @@ function onClaude(ev) {
   }
   if (ev.type === 'result') {
     if (!S.log.length || S.log[S.log.length - 1].role !== 'claude') push('claude', ev.result || '');
+    // the finished reply, read aloud when the panel's 🔊 Speak toggle is on
+    const reply = ev.result || [...S.log].reverse().find(m => m.role === 'claude')?.text || '';
+    if (reply) voice.callout('claude', reply.replace(/```[\s\S]*?```/g, ' (code) ').replace(/[*_`#>]+/g, ''), { priority: 'normal' });
     const secs = ev.duration_ms ? (ev.duration_ms / 1000).toFixed(1) + ' s' : '';
     push('info', [secs, ev.total_cost_usd != null ? '$' + ev.total_cost_usd.toFixed(3) : ''].filter(Boolean).join(' · '));
   }

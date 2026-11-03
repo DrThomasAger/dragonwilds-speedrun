@@ -37,10 +37,21 @@ export function mineLines(lines) {
 }
 
 // Phrase search used by tests and the CLI ("where all runs go to die").
+// Each hit gets `tPhrase`: the phrase's start estimated by interpolating its character
+// position between this line's start and the next line's start (caption lines can hold
+// several sentences).
 export function findPhrase(lines, phrase) {
-  const norm = s => s.toLowerCase().replace(/[^a-z0-9 ]+/g, ' ').replace(/\s+/g, ' ').trim();
+  const norm = s => s.toLowerCase().replace(/[^a-z0-9' ]+/g, ' ').replace(/\s+/g, ' ').trim();
   const p = norm(phrase);
-  return (lines || []).filter(l => norm(l.text).includes(p));
+  const out = [];
+  (lines || []).forEach((l, i) => {
+    const n = norm(l.text), at = n.indexOf(p);
+    if (at < 0) return;
+    const next = lines[i + 1]?.t ?? l.t + Math.max(2, n.length / 15);
+    const span = Math.min(next - l.t, n.length / 8); // ~8+ chars per second of speech
+    out.push({ ...l, tPhrase: +(l.t + span * (at / Math.max(1, n.length))).toFixed(1) });
+  });
+  return out;
 }
 
 // ---------- known mechanics vocabulary ----------

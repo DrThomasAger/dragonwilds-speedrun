@@ -3,19 +3,20 @@
 //   node scripts/review/run.mjs                 full review of every pending source
 //   node scripts/review/run.mjs --light         CI level: queue + transcripts + keyword mining (no video)
 //   node scripts/review/run.mjs --only=ID,ID    just these ids (still recorded in the state file)
-//   node scripts/review/run.mjs --max=10 --jobs=3 --force --no-search
+//   node scripts/review/run.mjs --max=10 --jobs=3 --force --no-search --min-priority=40
 //   node scripts/review/run.mjs --list          print the queue with priorities and exit
 //   node scripts/review/run.mjs --watch         loop: rebuild the queue and review new sources every hour
 //                                               (--every=MINUTES to change the interval)
 // Outputs data/kb/reviews/<id>.json, index.json, _state.json, _search.json and
 // docs/review/<id>.md, index.md. See docs/review/README.md.
-import { OUT, ensureDirs, arg, sleep, now, tools } from './lib.mjs';
+import path from 'node:path';
+import { OUT, ensureDirs, arg, sleep, now, tools, readJson, writeJson } from './lib.mjs';
 import { buildQueue, loadState, saveState, pending, LEVELS } from './queue.mjs';
 import { reviewSource, writeReview, writeIndex } from './review.mjs';
 import { knownMechanics } from './mine.mjs';
 import { reference } from './analyze.mjs';
 
-export async function processQueue({ level = 'full', only = null, max = Infinity, jobs = 3, force = false, search = true, log = console.error } = {}) {
+export async function processQueue({ level = 'full', only = null, max = Infinity, minPriority = -Infinity, jobs = 3, force = false, search = true, log = console.error } = {}) {
   await ensureDirs();
   const t = await tools();
   log(`tools: ${JSON.stringify(t)}`);
@@ -31,7 +32,7 @@ export async function processQueue({ level = 'full', only = null, max = Infinity
     todo = pending(q, state, level, { force });
     log(`queue: ${q.length} sources, ${todo.length} pending at level ${level}`);
   }
-  todo = todo.slice(0, max);
+  todo = todo.filter(it => only || (it.priority ?? 0) >= minPriority).slice(0, max);
   const known = await knownMechanics();
   const ref = await reference();
   const results = [];
@@ -67,9 +68,24 @@ export async function processQueue({ level = 'full', only = null, max = Infinity
   return { results, index: { count: idx.count, ok: idx.ok, complete: idx.complete } };
 }
 
+// One pipeline at a time (a --watch loop, a scheduled job and a manual run would race on
+// _state.json): data/kb/reviews/_lock.json holds the pid of the running process.
+const LOCK = path.join(OUT, '_lock.json');
+function alive(pid) { try { process.kill(pid, 0); return true; } catch (e) { return e.code === 'EPERM'; } }
+async function lock() {
+  const l = await readJson(LOCK, null);
+  if (l?.pid && l.pid !== process.pid && alive(l.pid)) return l;
+  await writeJson(LOCK, { pid: process.pid, at: now(), argv: process.argv.slice(2) });
+  return null;
+}
+async function unlock() {
+  const l = await readJson(LOCK, null);
+  if (l?.pid === process.pid) await writeJson(LOCK, { pid: null, releasedAt: now() });
+}
+
 async function main() {
   const level = arg('light', false) ? 'light' : String(arg('level', 'full'));
-  const opts = { level, only: arg('only', null), max: +arg('max', Infinity), jobs: +arg('jobs', 3), force: !!arg('force', false), search: !arg('no-search', false) };
+  const opts = { level, only: arg('only', null), max: +arg('max', Infinity), minPriority: +arg('min-priority', -Infinity), jobs: +arg('jobs', 3), force: !!arg('force', false), search: !arg('no-search', false) };
   if (arg('list', false)) {
     const q = await buildQueue({ search: opts.search });
     const st = await loadState();
@@ -77,6 +93,9 @@ async function main() {
     console.log(`${q.length} sources, ${pending(q, st, level).length} pending at level ${level}`);
     return;
   }
+  const held = await lock();
+  if (held) { console.error(`review pipeline already running (pid ${held.pid} since ${held.at}); exiting`); return; }
+  process.on('SIGINT', async () => { await unlock(); process.exit(130); });
   if (arg('watch', false)) {
     const every = +arg('every', 60) * 60 * 1000;
     console.error(`watching: reviewing new raid sources every ${every / 60000} min (Ctrl+C to stop)`);
@@ -86,8 +105,8 @@ async function main() {
       await sleep(every);
     }
   }
-  const r = await processQueue(opts);
-  console.log(JSON.stringify(r, null, 1));
+  try { const r = await processQueue(opts); console.log(JSON.stringify(r, null, 1)); }
+  finally { await unlock(); }
 }
 
 import { isMain } from './lib.mjs';

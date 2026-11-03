@@ -29,6 +29,38 @@ This starts the **bridge** (`scripts/bridge.clj`, babashka). Open http://localho
 
 Everything listens only on 127.0.0.1. The public website doesn't show the panel.
 
+## Voice: read-aloud and spoken call-outs
+
+Every page has **🔊** in the top bar: it reads the page that is open (its main content, not the menus). Press it again, or **Ctrl+Shift+Esc** anywhere, to stop. **🗣** opens the voice settings: mute everything, the voice engine, the Breeze address and voice, the browser voice and the speed. Settings stay in this browser (`localStorage` key `speak_prefs_v1`).
+
+- **Run navigator and Timer:** each split is spoken with its time and your pace against the comparison ("Fragments of Ghornfell, 1:21.4. 2.3 seconds behind versus Beat 6:50 pace. Next: ..."), plus the start, the finish, undo and reset. The **🔊 Call-outs** button (or **S** in the navigator) turns this on and off.
+- **Claude panel:** finished replies are read aloud. The **🔊 Speak** button in the panel header turns it off.
+
+All of it is one module, `js/lib/speak.js` (no imports; the same file is in `smile-arena/site/js/speak.js`). It asks **Breeze TTS 2** on Ganesha first and falls back to the browser's own voice (Web Speech API), so it works offline and on phones:
+
+- Default address `http://buddhafield:8137` (Ganesha over Tailscale). `GET /health` is checked with a 1.5 s timeout and remembered for a minute; speech is `POST /v1/audio/speech` with `{"model":"tts-1","input":"...","response_format":"pcm","seed":1717}` (16-bit mono PCM at 24 kHz, the same call as `THE MAP Viewer/src/mapview/speech.clj`). The next sentence is fetched while the current one plays.
+- For Breeze to answer another device, `breeze-server.exe` must listen on the tailnet address, not only 127.0.0.1, and send CORS headers; otherwise put a small proxy in front of port 8137. An https page (the public GitHub Pages site) cannot call an http address, so there the browser voice speaks; Breeze is used from `npm start` / `bb lab` on http.
+
+## Ekadanta feed
+
+```bash
+npm run ekadanta              # node scripts/ekadanta-export.mjs   [--dry-run] [--all]
+```
+
+Writes every **new or changed** blog post (`content/blog/posts`), knowledge-base page (`data/kb/pages.json`) and daily note (`data/kb/daily.json`) to `D:\labyrinth\ekadanta-inbox\dragonwilds\<YYYY-MM-DD>.jsonl` (set `EKADANTA_INBOX` to change the root). One JSON document per line:
+
+```json
+{"source":"dragonwilds-speedrun/kb","title":"...","text":"...","url":"https://...","ts":"2026-11-03T08:27:00.000Z","id":"kb:...","project":"dragonwilds","tags":["dragonwilds","raid-lab","speedrun","kb"],"private":false}
+```
+
+`.exported.json` in that folder keeps a hash per `id`, so a second run writes nothing until a text changes; a changed text is written again as a new line (a new version). Nothing in the inbox is ever deleted.
+
+**How Ganesha's Ekadanta takes it in:**
+1. Bring the inbox to Ganesha (it is on Karuna's D: drive): sync `D:\labyrinth\ekadanta-inbox\` to a folder on Ganesha over Tailscale (Syncthing, or `robocopy` to a share on `buddhafield`).
+2. Add a reader to `Ekadanta Service` in the same pattern as `smile_reader.py`: for each `*.jsonl` file, for each line, hand one thing to `store.py` (the one writer) with `source` as the source, `title`, `text` as the rendering, `url`, `ts` as the time, and `tags` as tags (every SMILE text carries `smile`). Use `id` + the text's hash as the thing's key so a line seen twice is one thing and a changed text becomes a new version.
+3. A line with `"private": true` goes under the `Private` folder: recorded, never returned.
+4. Remember the byte offset read in each file, so the reader picks up only new lines (the files are append-only).
+
 ## Run it
 
 ```bash
@@ -64,7 +96,7 @@ Every run's splits sit on the same trigger: the first frame showing the "EXTRACT
 ## Tests
 
 ```bash
-npm test               # 18 end-to-end tests at phone / Fold / desktop sizes + screenshots → docs/screens/<size>/
+npm test               # end-to-end tests (incl. tests/speak.spec.js, speech mocked) at phone / Fold / desktop sizes + screenshots → docs/screens/<size>/
 npm run test:youtube   # real YouTube embeds: cross-video cut + 2-video race sync
 npm run check          # re-verify every video id is still live
 npm run patchnotes     # refresh data/patchnotes.json from Steam

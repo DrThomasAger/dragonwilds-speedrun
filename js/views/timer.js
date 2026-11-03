@@ -6,6 +6,7 @@ import { SPLITS, RUNS, RUN, RULES, communityBest, targetPace, TARGET_TIME } from
 import { model } from '../lib/sync.js';
 import * as store from '../lib/store.js';
 import { emit } from '../lib/bridge.js';
+import * as voice from '../lib/speak.js';
 
 export const title = 'Split timer';
 export const keys = [['Space / Numpad1', 'Start / split'], ['Backspace / Numpad8', 'Undo split'], ['Numpad2', 'Skip split'], ['R / Numpad3', 'Reset'], ['P / Numpad5', 'Pause']];
@@ -40,7 +41,8 @@ export function mount(root) {
     h('button', { class: 'btn', onclick: () => timer.undo() }, 'Undo'),
     h('button', { class: 'btn', onclick: () => timer.skip() }, 'Skip'),
     h('button', { class: 'btn', onclick: () => timer.pause() }, 'Pause'),
-    h('button', { class: 'btn', onclick: () => reset() }, 'Reset'));
+    h('button', { class: 'btn', onclick: () => reset() }, 'Reset'),
+    voice.toggleButton('calls', 'Call-outs'));
   const stats = h('div', { class: 'card' });
   const history = h('div', { class: 'card' });
   const bridge = h('div', { class: 'card' });
@@ -57,7 +59,8 @@ export function mount(root) {
   // ---------------------------------------------------------------- paint
   let raf;
   function loop() { paintClock(); raf = requestAnimationFrame(loop); }
-  function cmp() { return comparisons().find(c => c.id === cmpId) || comparisons().find(c => c.id === 'tp650'); }
+  function cmp() { return comparisons().find(c => c.id === cmpId) || comparisons().find(c => c.id === 'tp650') || comparisons()[0]; }
+  const cmpName = () => cmp().name.replace(/ \(WR\)/, '').replace(/ \(.*\)$/, '');
   function paintClock() {
     const t = timer.now();
     big.textContent = fmtRun(t, 2);
@@ -128,14 +131,20 @@ export function mount(root) {
 
   // ---------------------------------------------------------------- actions
   function onTimer(type) {
-    if (type === 'split' && timer.splits.length) emit('split', `${SPLITS[timer.index - 1].name} ${fmtRun(timer.splits[timer.index - 1])}`);
-    if (type === 'start') emit('run-start', 'Timer started');
+    if (type === 'split' && timer.splits.length) {
+      const k = timer.index - 1, t = timer.splits[k], ref = cmp().splits[k];
+      emit('split', `${SPLITS[k].name} ${fmtRun(t)}`);
+      voice.callout('calls', `${SPLITS[k].name}, ${voice.sayTime(t)}.${ref != null ? ` ${voice.sayDelta(t - ref)} versus ${cmpName()}.` : ''}${timer.index < N ? ` ${SPLITS[timer.index].name}.` : ''}`);
+    }
+    if (type === 'start') { emit('run-start', 'Timer started'); voice.callout('calls', `Go. ${SPLITS[0].name}.`); }
     if (type === 'finish') {
       const r = recordAttempt(rec, timer.splits, { done: true });
       goldSet = new Set(r.golds);
       store.update(s => (s.timer = rec));
       emit('finish', `${r.isPB ? 'NEW PB ' : 'Finished '}${fmtRun(timer.splits[N - 1])}`, { splits: timer.splits, golds: r.golds });
       toast(r.isPB ? `New PB ${fmtRun(timer.splits[N - 1])}!` : `Finished ${fmtRun(timer.splits[N - 1])}`, r.isPB ? 'gold' : 'good');
+      const t = timer.splits[N - 1], ref = cmp().splits[N - 1];
+      voice.callout('calls', `Finished, ${voice.sayTime(t, 2)}.${r.isPB ? ' New personal best!' : ''}${ref != null ? ` ${voice.sayDelta(t - ref)} versus ${cmpName()}.` : ''}`);
     }
     paint();
   }

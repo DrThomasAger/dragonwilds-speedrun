@@ -2,7 +2,7 @@
 // with word-level timing from json3, else a local faster-whisper transcription of the
 // downloaded audio, else marked "none".
 import path from 'node:path';
-import { readdir, readFile, unlink } from 'node:fs/promises';
+import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { DIRS, ROOT, YTDLP, FFMPEG, PYTHON, run, readJson, exists, VALID_ID } from './lib.mjs';
 
 // json3 → lines [{t, text}] with t = start of the first word of the line (video s).
@@ -96,20 +96,28 @@ export function whisperLines(id, video, opts) {
   return p;
 }
 
-async function whisperOnce(id, video, { model = process.env.REVIEW_WHISPER_MODEL || 'small', maxSeconds = 40 * 60 } = {}) {
-  const cache = path.join(DIRS.work, `${id}.whisper-${model}.json`);
+async function whisperOnce(id, video, { model = process.env.REVIEW_WHISPER_MODEL || 'small', maxSeconds = 25 * 60 } = {}) {
+  const cache = path.join(DIRS.work, `${id}.whisper-v2.json`);
   const c = await readJson(cache, null);
-  if (c?.lines) return c;
-  const wav = path.join(DIRS.tmp, `${id}.wav`);
+  if (c?.lines && c.source !== 'whisper:tiny') return c; // tiny (memory fallback) is retried next time
+  // one reused scratch file (whisper runs one at a time), overwritten each run
+  const wav = path.join(DIRS.tmp, 'whisper-input.wav');
   const a = await run(FFMPEG, ['-v', 'error', '-y', '-i', video, '-t', String(maxSeconds), '-vn', '-ac', '1', '-ar', '16000', wav], { timeout: 10 * 60 * 1000 });
   if (a.code !== 0) return { lines: null, error: 'audio extract failed: ' + a.stderr.slice(-200) };
-  const r = await run(PYTHON, ['-I', path.join(ROOT, 'scripts', 'review', 'whisper.py'), wav, model], { timeout: 90 * 60 * 1000 });
-  await unlink(wav).catch(() => {});
-  if (r.code !== 0 || !r.stdout.trim().startsWith('{')) return { lines: null, error: 'whisper failed: ' + r.stderr.slice(-300) };
+  let r;
+  for (let i = 0; i < 2; i++) { // a transient out-of-memory (other processes) is retried once
+    r = await run(PYTHON, ['-I', path.join(ROOT, 'scripts', 'review', 'whisper.py'), wav, model], { timeout: 90 * 60 * 1000 });
+    if (r.code === 0 && r.stdout.trim().startsWith('{')) break;
+    await new Promise(res => setTimeout(res, 15000));
+  }
+  if (r.code !== 0 || !r.stdout.trim().startsWith('{')) {
+    await writeFile(path.join(DIRS.work, `${id}.whisper.err.txt`), r.stderr).catch(() => {});
+    return { lines: null, error: 'whisper failed: ' + r.stderr.trim().split(/\r?\n/).slice(-1)[0].slice(0, 300) };
+  }
   const out = JSON.parse(r.stdout);
   const res = { lines: wordsToLines(out.words), source: `whisper:${out.model}`, language: out.language };
   const { writeJson } = await import('./lib.mjs');
-  if (out.model === model) await writeJson(cache, res, false); // a fallback model result is retried next time
-  else res.warning = `${model} failed to load: ${r.stderr.slice(-200)}`;
+  await writeJson(cache, res, false);
+  if (out.model !== model) res.warning = `${model} failed (memory); used ${out.model}`;
   return res;
 }

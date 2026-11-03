@@ -10,9 +10,10 @@ import { ROUTE, REQUIREMENTS, GEAR } from '../data/route.js';
 import { comparisons } from './timer.js';
 import * as store from '../lib/store.js';
 import { emit } from '../lib/bridge.js';
+import * as voice from '../lib/speak.js';
 
 export const title = 'Run navigator';
-export const keys = [['Space / Numpad1', 'Start / split'], ['N / →', 'Next skip'], ['B / ←', 'Previous skip'], ['Backspace', 'Undo split'], ['R', 'Reset'], ['V', 'Toggle reference clip']];
+export const keys = [['Space / Numpad1', 'Start / split'], ['S', 'Spoken call-outs on/off'], ['N / →', 'Next skip'], ['B / ←', 'Previous skip'], ['Backspace', 'Undo split'], ['R', 'Reset'], ['V', 'Toggle reference clip']];
 
 const N = SPLITS.length;
 const PREFLIGHT = [
@@ -45,7 +46,7 @@ export function mount(root) {
       h('div', { class: 'pagehead' }, h('div', {}, h('h1', {}, 'Run navigator'), h('p', {}, 'Your in-raid second screen. Put it on the Fold or a second monitor: one giant split button, the skip you are on, how to do it, and where you stand against the record.'))),
       h('div', { class: 'grid g2' },
         h('div', { class: 'card' }, h('h2', {}, 'Pre-flight'), h('div', { class: 'grid', style: { gap: '6px' } }, items),
-          h('div', { class: 'row', style: { marginTop: '12px' } }, h('label', { class: 'note' }, 'Race against ', cmpSel)),
+          h('div', { class: 'row', style: { marginTop: '12px' } }, h('label', { class: 'note' }, 'Race against ', cmpSel), voice.toggleButton('calls', 'Call-outs')),
           h('button', { class: 'btn pri big', style: { width: '100%', marginTop: '12px', justifyContent: 'center' }, onclick: () => { timer.start(); } }, '▶ Start run  ', h('kbd', {}, 'Space')),
           h('p', { class: 'note' }, 'Start on the first frame the loading icon disappears entering the raid.'),
           h('h3', { style: { marginTop: '16px' } }, 'Segment practice'),
@@ -89,6 +90,7 @@ export function mount(root) {
         emit('segment', `${SPLITS[k].name} practice ${fmtRun(t, 2)} (${fmtDelta(t - ref)} vs ${cname})`);
         const pb = prevBest == null || t < prevBest;
         toast(pb ? `Practice best ${fmtRun(t, 2)}` : `${fmtRun(t, 2)} (${fmtDelta(t - ref)} vs ${cname})`, pb ? 'gold' : t <= ref ? 'good' : '');
+        voice.callout('calls', `${voice.sayTime(t, 2)}. ${voice.sayDelta(t - ref)} versus ${cname}.${pb ? ' Practice best!' : ''}`);
         if (navigator.vibrate) navigator.vibrate(40);
         paintHist();
       }
@@ -134,6 +136,7 @@ export function mount(root) {
               h('button', { class: 'btn', onclick: () => moveSkip(-1) }, '‹ Prev skip'),
               h('button', { class: 'btn', onclick: () => moveSkip(1) }, 'Next skip ›'),
               h('button', { class: 'btn', onclick: () => toggleClip() }, '🎬 Clip'),
+              voice.toggleButton('calls', 'Call-outs'),
               h('span', { class: 'spacer' }),
               h('button', { class: 'btn', onclick: () => timer.undo() }, '↶ Undo'),
               h('button', { class: 'btn', onclick: () => reset() }, 'Reset'))),
@@ -182,7 +185,7 @@ export function mount(root) {
     };
     raf = requestAnimationFrame(f);
   }
-  function moveSkip(d) { const sk = skipsFor(Math.min(timer.index, N - 1)); skipIdx = Math.max(0, Math.min(sk.length - 1, skipIdx + d)); paintSplit(); }
+  function moveSkip(d) { const sk = skipsFor(Math.min(timer.index, N - 1)); const was = skipIdx; skipIdx = Math.max(0, Math.min(sk.length - 1, skipIdx + d)); paintSplit(); if (skipIdx !== was && sk[skipIdx]) say(`${sk[skipIdx].name}.`); }
   function toggleClip() { showClip = !showClip; store.update(s => (s.prefs.runClip = showClip)); el.clipHost.classList.toggle('hidden', !showClip); if (!showClip) destroyClip(); else paintSplit(); }
   function playClip(c) {
     if (reel && !el.clipHost.contains(reel.stage)) destroyClip();
@@ -191,6 +194,24 @@ export function mount(root) {
     reel.setClips([{ ...c }], { keepPosition: false }); reel.i = -1; reel.playClip(0);
   }
   function destroyClip() { if (reel) { reel.destroy(); reel = null; } }
+
+  // ------------------------------------------------------------ spoken call-outs
+  const cname = () => cmp().name.replace(/ \(WR\)/, '').replace(/ \(.*\)$/, '');
+  const say = text => voice.callout('calls', text);
+  function nextStep() {
+    const k = Math.min(timer.index, N - 1), sk = skipsFor(k);
+    return sk[0] ? `Next: ${sk[0].name}.` : k === N - 1 ? 'Next: the Heart.' : '';
+  }
+  function sayStart() { const sk = skipsFor(0); say(`Go. ${SPLITS[0].name}.${sk[0] ? ' First: ' + sk[0].name + '.' : ''}`); }
+  function saySplit(k, gold) {
+    const t = timer.splits[k], c = cmp(), ref = c.splits[k];
+    const pace = ref != null ? ` ${voice.sayDelta(t - ref)} versus ${cname()}.` : '';
+    say(`${SPLITS[k].name}, ${voice.sayTime(t)}.${pace}${gold ? ' Gold split.' : ''} ${timer.index < N ? SPLITS[timer.index].name + '. ' + nextStep() : ''}`);
+  }
+  function sayFinish(l) {
+    const t = timer.splits[N - 1], ref = cmp().splits[N - 1];
+    say(`Finished, ${voice.sayTime(t, 2)}.${l.isPB ? ' New personal best!' : ''}${ref != null ? ' ' + voice.sayDelta(t - ref) + ' versus ' + cname() + '.' : ''}`);
+  }
 
   // ------------------------------------------------------------ summary
   let last = null;
@@ -211,17 +232,18 @@ export function mount(root) {
 
   // ------------------------------------------------------------ timer events
   function onTimer(type) {
-    if (type === 'start') { emit('run-start', 'Raid run started'); paintRun(); return; }
-    if (type === 'finish') { last = recordAttempt(rec, timer.splits, { done: true }); emit('finish', `${last.isPB ? 'NEW PB ' : 'Finished '}${fmtRun(timer.splits[N - 1], 2)}`, { splits: timer.splits, golds: last.golds }); store.update(s => (s.timer = rec)); if (last.isPB) toast('New PB!', 'gold'); paintDone(); return; }
+    if (type === 'start') { emit('run-start', 'Raid run started'); paintRun(); sayStart(); return; }
+    if (type === 'finish') { last = recordAttempt(rec, timer.splits, { done: true }); emit('finish', `${last.isPB ? 'NEW PB ' : 'Finished '}${fmtRun(timer.splits[N - 1], 2)}`, { splits: timer.splits, golds: last.golds }); store.update(s => (s.timer = rec)); if (last.isPB) toast('New PB!', 'gold'); sayFinish(last); paintDone(); return; }
     if (type === 'reset') return;
     if (type === 'split' || type === 'undo' || type === 'skip') {
       skipIdx = 0;
-      if (type === 'split') { emit('split', `${SPLITS[timer.index - 1].name} ${fmtRun(timer.splits[timer.index - 1], 2)}`); const k = timer.index - 1; const segs = segmentsOf(timer.splits); if (rec.best[k] == null || segs[k] < rec.best[k]) toast(`Gold! ${SPLITS[k].short} ${fmtRun(segs[k], 1)}`, 'gold'); if (navigator.vibrate) navigator.vibrate(40); }
+      if (type === 'split') { emit('split', `${SPLITS[timer.index - 1].name} ${fmtRun(timer.splits[timer.index - 1], 2)}`); const k = timer.index - 1; const segs = segmentsOf(timer.splits); const gold = rec.best[k] == null || segs[k] < rec.best[k]; if (gold) toast(`Gold! ${SPLITS[k].short} ${fmtRun(segs[k], 1)}`, 'gold'); if (navigator.vibrate) navigator.vibrate(40); saySplit(k, gold); }
+      if (type === 'undo') say(`Split undone. Back in ${SPLITS[Math.min(timer.index, N - 1)].name}.`);
       if (phase === 'run') paintSplit();
     }
   }
   function reset() {
-    if (timer.splits.length && timer.phase !== 'done') { recordAttempt(rec, timer.splits, { done: false }); store.update(s => (s.timer = rec)); toast(`Reset in ${SPLITS[Math.min(timer.index, N - 1)].short} — logged`); emit('reset', `Reset in ${SPLITS[Math.min(timer.index, N - 1)].name}`); }
+    if (timer.splits.length && timer.phase !== 'done') { recordAttempt(rec, timer.splits, { done: false }); store.update(s => (s.timer = rec)); toast(`Reset in ${SPLITS[Math.min(timer.index, N - 1)].short} — logged`); emit('reset', `Reset in ${SPLITS[Math.min(timer.index, N - 1)].name}`); say('Reset. Logged.'); }
     timer.reset(); paintPre();
   }
   const onKey = e => {
@@ -229,6 +251,7 @@ export function mount(root) {
     const k = e.code;
     if (phase === 'seg' && (k === 'Space' || k === 'Numpad1')) { e.preventDefault(); if (segTimer.phase === 'done') segTimer.reset(); else segTimer.split(); return; }
     if (phase === 'seg' && (k === 'KeyR' || k === 'Numpad3')) { segTimer.reset(); return; }
+    if (k === 'KeyS') { voice.setToggle('calls', !voice.enabled('calls')); if (!voice.enabled('calls')) voice.stop(); toast(`Spoken call-outs ${voice.enabled('calls') ? 'on' : 'off'}`); return; }
     if (k === 'Space' || k === 'Numpad1') { e.preventDefault(); if (phase === 'done') { timer.reset(); paintPre(); } else timer.split(); }
     else if (phase !== 'run') return;
     else if (k === 'KeyN' || k === 'ArrowRight') moveSkip(1);

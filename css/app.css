@@ -477,3 +477,12 @@ dialog.palette input { width: 100%; font-size: 16px; padding: 12px; }
 /* desktop: the panel docks and the page makes room for it */
 @media (min-width: 1180px) { body.panel-open main, body.panel-open footer.site { margin-right: 400px; } }
 @media (max-width: 719px) { .claude-panel { top: 50px; bottom: var(--tabbar); } }
+
+/* ---------- voice (js/lib/speak.js) ---------- */
+.speakslot { display: inline-flex; gap: 6px; flex: none; }
+.iconbtn.speak-btn.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.iconbtn.speak-btn.muted { opacity: .6; }
+#voice { max-width: min(460px, calc(100vw - 32px)); }
+#voice h2 { margin: 0 0 12px; }
+.speak-toggle.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.claude-panel .cp-say { flex: none; }
