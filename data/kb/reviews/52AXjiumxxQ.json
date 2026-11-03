@@ -1,11 +1,614 @@
 {
  "id": "52AXjiumxxQ",
  "url": "https://www.youtube.com/watch?v=52AXjiumxxQ",
- "reviewedAt": "2026-11-03T18:36:02.084Z",
+ "reviewedAt": "2026-11-03T20:33:44.435Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] 52AXjiumxxQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "RuneScape Dragon Wilds: How To Complete All Raid Puzzles (Guide)"
+ "status": "ok",
+ "title": "RuneScape Dragon Wilds: How To Complete All Raid Puzzles (Guide)",
+ "author": "Primitive Nomad",
+ "date": "2026-09-15",
+ "videoDuration": 1243,
+ "kind": "guide",
+ "from": [
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": 672.5,
+ "offsetMethod": "detected: end of the loading screen into the raid",
+ "splits": [
+  41.9,
+  235.1,
+  299.8
+ ],
+ "videoSplits": [
+  714.4,
+  907.6,
+  972.3
+ ],
+ "segmentTimes": [
+  41.9,
+  193.2,
+  64.7,
+  null,
+  null
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 672.5,
+   "tEnd": 714.4,
+   "segment": 0,
+   "name": "Dragontail Vines",
+   "kind": "faster",
+   "delta": -39.62,
+   "seg": 41.9,
+   "description": "Dragontail Vines: 41.9 s — 39.6 s faster than every reference run (best TexasPete 81.52 s).  Possible skip or route not in the reference set.",
+   "frames": "52AXjiumxxQ/anomaly-0-seg0.png"
+  },
+  {
+   "t": 714.4,
+   "tEnd": 907.6,
+   "segment": 1,
+   "name": "Fragments of Ghornfell",
+   "kind": "slower",
+   "delta": 95.9,
+   "seg": 193.2,
+   "description": "Fragments of Ghornfell: 193.2 s — 95.9 s slower than every reference run (slowest 97.3 s). Different path, deaths or a puzzle done normally.",
+   "frames": "52AXjiumxxQ/anomaly-1-seg1.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 674.8,
+   "dur": 1.3,
+   "segment": 0
+  },
+  {
+   "t": 679.7,
+   "dur": 2.2,
+   "segment": 0
+  },
+  {
+   "t": 683,
+   "dur": 0.3,
+   "segment": 0
+  },
+  {
+   "t": 748,
+   "dur": 0.5,
+   "segment": 1
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 714.4,
+    "score": 0.862
+   },
+   {
+    "t": 907.6,
+    "score": 0.858
+   },
+   {
+    "t": 972.3,
+    "score": 0.871
+   }
+  ],
+  "end": null,
+  "loadEnd": 672.5
+ },
+ "commentary": [
+  {
+   "t": 8,
+   "text": "raid and show you guys how to progress every area where the hidden chests are as well as the",
+   "topics": [
+    "trick"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=8",
+   "known": null
+  },
+  {
+   "t": 51.9,
+   "text": "I bypass this area because it's just a simple showcase and Zileana comes out and then you siphon",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=51",
+   "known": null
+  },
+  {
+   "t": 144.1,
+   "text": "This is your teleporter to Ziljana.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=144",
+   "known": null
+  },
+  {
+   "t": 273.5,
+   "text": "Be prepared to use wind step.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=273",
+   "known": null
+  },
+  {
+   "t": 277,
+   "text": "You're going to use wind step here.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=277",
+   "known": null
+  },
+  {
+   "t": 288.1,
+   "text": "And use wind step again.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=288",
+   "known": null
+  },
+  {
+   "t": 300.6,
+   "text": "Now just be careful when you're doing this because you can get hurt and die.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=300",
+   "known": null
+  },
+  {
+   "t": 397.1,
+   "text": "As you can see there's death there.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=397",
+   "known": null
+  },
+  {
+   "t": 484,
+   "text": "Once you drop down from that hole you're going to want to make your way up this steps.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=484",
+   "known": null
+  },
+  {
+   "t": 530.3,
+   "text": "Then from here you can also break this wall.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=530",
+   "known": null
+  },
+  {
+   "t": 532.6,
+   "text": "There's nothing behind this wall.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=532",
+   "known": null
+  },
+  {
+   "t": 589.2,
+   "text": "I just hug this wall.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=589",
+   "known": null
+  },
+  {
+   "t": 650.9,
+   "text": "Awesome. From here you're going to break this wall.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=650",
+   "known": null
+  },
+  {
+   "t": 722.4,
+   "text": "The good thing now is you are going to get a new teleporter",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=722",
+   "known": null
+  },
+  {
+   "t": 734.3,
+   "text": "Again guys keep in mind you can teleport back to ziliana.",
+   "topics": [
+    "respawn"
+   ],
+   "places": [
+    "keep"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=734",
+   "known": null
+  },
+  {
+   "t": 751.9,
+   "text": "Runder her as fast as you can so you don't die and go into your protection orb.",
+   "topics": [
+    "mistake"
+   ],
+   "places": [
+    "orb"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=751",
+   "known": null
+  },
+  {
+   "t": 770.1,
+   "text": "against this wall you can see that this wall is crumbled.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=770",
+   "known": null
+  },
+  {
+   "t": 772.9,
+   "text": "You're going to break this wall.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=772",
+   "known": null
+  },
+  {
+   "t": 841.6,
+   "text": "Well you're going to go behind this big fallen tower here and right behind this wall as you",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "tower"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=841",
+   "known": null
+  },
+  {
+   "t": 847.3,
+   "text": "can see there's a crumbled wall here.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=847",
+   "known": null
+  },
+  {
+   "t": 849.4,
+   "text": "You're going to break this wall.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=849",
+   "known": null
+  },
+  {
+   "t": 940.6,
+   "text": "The only reason why I've ever died here is I didn't look at my stamina and",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=940",
+   "known": null
+  },
+  {
+   "t": 945.8,
+   "text": "I jumped off a ledge thinking I could double jump or do an air dash when I couldn't and I flew",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "ledge",
+    "air"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=945",
+   "known": "tech-infjump"
+  },
+  {
+   "t": 1084.6,
+   "text": "But if you stand along this wall your character can actually hover.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=1084",
+   "known": null
+  },
+  {
+   "t": 1089.5,
+   "text": "And once this thing goes off you're going to wind step up and I recommend you getting on that",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=1089",
+   "known": null
+  },
+  {
+   "t": 1099.2,
+   "text": "I recommend you wind stepping",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=1099",
+   "known": null
+  },
+  {
+   "t": 1102.9,
+   "text": "and then land right here on this pipe and then you have to wind step again.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=1102",
+   "known": null
+  },
+  {
+   "t": 1162.9,
+   "text": "Now I already activated this one so let me reset it.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=1162",
+   "known": null
+  },
+  {
+   "t": 1166.7,
+   "text": "Yeah just reset it.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=1166",
+   "known": null
+  },
+  {
+   "t": 1209,
+   "text": "As you guys can see we have now activated the Ziliana teleporter and we are at the gates of",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/52AXjiumxxQ?t=1209",
+   "known": null
+  }
+ ],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "I've been covering Dragonwilds since day one, following every update, reveal, patch, and development milestone, so I'll also share insights and details that many new players may have missed.",
+   "topics": [
+    "glitch",
+    "mistake"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "Umbral Sands is and has been my most anticipated update for Dragon Wilds and I think there is going to be plenty of new and adjusted mechanics coming to the game when this update launches.",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@BIGBLooD1995",
+   "likes": 2,
+   "text": "FYI with the pipes, once the wall extends , you can turn the tipe so the wall no longer retracts",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@flame1148",
+   "likes": 3,
+   "text": "Just FYI, you missed a sanguine urn around 18:30.  Once youve made your way up the pipes and platforms, double jump from the top to the hanging lamp.  From there jump and dash to the right for another platform, then quickly jump and manuever to the right into a hidden upper level room with the urn.",
+   "topics": [
+    "movement",
+    "trick",
+    "mistake"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@yannickmarien9859",
+   "likes": 1,
+   "text": "Hey everyone, do you also have the \"issue\" when loading a new raid that the mobs dont resppawn ? Also entering a new section unlocks the \"checkpoint\" from at the end of that section for me. So when i return to zilyana i can just port to the end of that specific section. Makes getting to kuldra only a minute of work... reported them as bugs but if anyone wants to quickly skip to kuldra then see if …",
+   "topics": [
+    "skip",
+    "glitch",
+    "respawn"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@xXTrianglesXx",
+   "likes": 1,
+   "text": "I found the second code, but someone had already used it. 15:36",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@PrimitiveNomad",
+   "likes": 0,
+   "text": "I appreciate the support, there are two they are well hidden. One has been claimed 😊",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@BrandonLangford-k9j",
+   "likes": 0,
+   "text": "My game broke it let me step on 2 of the pads and don’t let me step on the other 2",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@KNVLL_",
+   "likes": 0,
+   "text": "is high agility level needed for this raid? do you need like the double jump and dashes to succeed?",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@PrimitiveNomad",
+   "likes": 0,
+   "text": "I didn’t even think of that lol. 😂 that’s hilarious. I just like using windstep too much 😂",
+   "topics": [
+    "movement"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "transcript",
+   "t": 51.9,
+   "link": "https://youtu.be/52AXjiumxxQ?t=51",
+   "quote": "I bypass this area because it's just a simple showcase and Zileana comes out and then you siphon",
+   "unseen": [
+    "showcase",
+    "zileana",
+    "comes"
+   ],
+   "nearestKnown": null,
+   "frames": "52AXjiumxxQ/cand-52.png"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=52AXjiumxxQ",
+   "quote": "Hey everyone, do you also have the \"issue\" when loading a new raid that the mobs dont resppawn ? Also entering a new section unlocks the \"checkpoint\" from at the end of that section for me. So when i return to zilyana i can just port to the end of that specific section. Makes getting to kuldra only a minute of work... reported them as bugs but if anyone wants to quickly skip to kuldra then see if …",
+   "unseen": [
+    "loading",
+    "dont",
+    "resppawn",
+    "entering",
+    "port",
+    "specific",
+    "makes",
+    "reported"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@yannickmarien9859"
+  },
+  {
+   "source": "timing",
+   "t": 672.5,
+   "link": "https://youtu.be/52AXjiumxxQ?t=672",
+   "quote": "Dragontail Vines: 41.9 s — 39.6 s faster than every reference run (best TexasPete 81.52 s).  Possible skip or route not in the reference set.",
+   "segment": 0,
+   "frames": "52AXjiumxxQ/cand-673.png"
+  }
+ ],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 395,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 3,
+  "end": false,
+  "offsetMethod": "detected: end of the loading screen into the raid",
+  "templateScale": [
+   1.04,
+   0.68
+  ],
+  "templateScore": [
+   0.858,
+   0.501
+  ],
+  "complete": false,
+  "transcript": "whisper:small",
+  "notes": []
+ },
+ "curated": null
 }

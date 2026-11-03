@@ -4,8 +4,8 @@
 - **Author:** zyneater · 2026-10-16 · 18:02.00
 - **Status:** unsubmitted
 - **Measured:** — · offset — s (no run start)
-- **Transcript:** none (0 lines) · visual: error (download failed: ERROR: [download] Got error: [Errno 11001] getaddrinfo failed. Giving up after 10 retries)
-- **Reviewed:** 2026-11-03T19:41:45.703Z (full)
+- **Transcript:** none (0 lines) · visual: error (download failed: ERROR: [youtube] 1Q21XYSKJgo: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed')))
+- **Reviewed:** 2026-11-03T20:33:39.174Z (full)
 
 ## Candidate new mechanics
 

@@ -1,0 +1,11 @@
+{
+ "id": "StZPNkLmOTo",
+ "url": "https://www.youtube.com/watch?v=StZPNkLmOTo",
+ "reviewedAt": "2026-11-03T20:33:39.174Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] StZPNkLmOTo: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape OG tries to Solo Kuldra for the 1st time | RuneScape: Dragon Wilds"
+}

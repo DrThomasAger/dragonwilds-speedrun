@@ -1,11 +1,162 @@
 {
  "id": "osOFSNxnMzE",
  "url": "https://www.youtube.com/watch?v=osOFSNxnMzE",
- "reviewedAt": "2026-11-03T07:41:00.719Z",
+ "reviewedAt": "2026-11-03T20:41:51.704Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] osOFSNxnMzE: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Queen Kuldra Fast Raid Guide – Quickest Run | RuneScape: Dragonwilds | Gelaham"
+ "status": "ok",
+ "title": "Queen Kuldra Fast Raid Guide – Quickest Run | RuneScape: Dragonwilds | Gelaham",
+ "author": "Gelaham",
+ "date": "2026-10-25",
+ "videoDuration": 1827,
+ "kind": "guide",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [
+  947.7
+ ],
+ "segmentTimes": [
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [
+  {
+   "t": 1045.5,
+   "dur": 0.7,
+   "segment": null
+  },
+  {
+   "t": 1674.5,
+   "dur": 0.4,
+   "segment": null
+  },
+  {
+   "t": 1809.7,
+   "dur": 2.4,
+   "segment": null
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 947.7,
+    "score": 0.738
+   }
+  ],
+  "end": null,
+  "loadEnd": null
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "14:02 Bridge 10 – Broken Walkway",
+   "topics": [
+    "glitch"
+   ]
+  }
+ ],
+ "candidateMechanics": [],
+ "transcriptSource": "none",
+ "transcriptLines": 0,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 1,
+  "end": false,
+  "offsetMethod": null,
+  "templateScale": [
+   0.68,
+   1.24
+  ],
+  "templateScore": [
+   0.666,
+   0.882
+  ],
+  "complete": false,
+  "transcript": "none",
+  "notes": [
+   "No run start found (first banner at 947.7 s video): split 1 unknown; later segments are measured banner to banner."
+  ]
+ },
+ "curated": null
 }

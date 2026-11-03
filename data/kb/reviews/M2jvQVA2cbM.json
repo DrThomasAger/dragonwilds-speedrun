@@ -1,11 +1,178 @@
 {
  "id": "M2jvQVA2cbM",
  "url": "https://www.youtube.com/watch?v=M2jvQVA2cbM",
- "reviewedAt": "2026-11-03T07:40:51.895Z",
+ "reviewedAt": "2026-11-03T20:34:28.062Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] M2jvQVA2cbM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Unlock POWER LEVEL 8 Gear FAST in RuneScape Dragonwilds – Full Armor & Weapon Guide!"
+ "status": "ok",
+ "title": "Unlock POWER LEVEL 8 Gear FAST in RuneScape Dragonwilds – Full Armor & Weapon Guide!",
+ "author": "RuneScape Universe",
+ "date": "2026-10-09",
+ "videoDuration": 507,
+ "kind": "guide",
+ "from": [
+  "kb/raw/youtube"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": 114.3,
+ "offsetMethod": "detected: end of the loading screen into the raid",
+ "splits": [
+  131
+ ],
+ "videoSplits": [
+  245.3
+ ],
+ "segmentTimes": [
+  131,
+  null,
+  null,
+  null,
+  null
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [
+  {
+   "t": 267.5,
+   "dur": 6,
+   "segment": null
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 245.3,
+    "score": 0.863
+   }
+  ],
+  "end": null,
+  "loadEnd": 114.3
+ },
+ "commentary": [
+  {
+   "t": 15.8,
+   "text": "All the materials required for power level 8 gear can be found within the Scorned Wilderness",
+   "topics": [
+    "trick"
+   ],
+   "link": "https://youtu.be/M2jvQVA2cbM?t=15",
+   "known": null
+  },
+  {
+   "t": 93.5,
+   "text": "To enter the raid, simply speak with commander Zelyana and she'll teleport you straight there,",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/M2jvQVA2cbM?t=93",
+   "known": null
+  },
+  {
+   "t": 142.6,
+   "text": "Hopefully these maps will help you gather the materials much faster without wasting time searching",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/M2jvQVA2cbM?t=142",
+   "known": null
+  },
+  {
+   "t": 261.6,
+   "text": "Alternatively, press escape to open the main menu, then hold x to teleport back to temple woods.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/M2jvQVA2cbM?t=261",
+   "known": null
+  }
+ ],
+ "textNotes": [],
+ "candidateMechanics": [],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 142,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 1,
+  "end": false,
+  "offsetMethod": "detected: end of the loading screen into the raid",
+  "templateScale": [
+   1.02,
+   0.69
+  ],
+  "templateScore": [
+   0.82,
+   0.484
+  ],
+  "complete": false,
+  "transcript": "whisper:small",
+  "notes": []
+ },
+ "curated": null
 }

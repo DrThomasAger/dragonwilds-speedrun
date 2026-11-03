@@ -1,7 +1,7 @@
 {
  "id": "1Q21XYSKJgo",
  "url": "https://www.youtube.com/watch?v=1Q21XYSKJgo",
- "reviewedAt": "2026-11-03T19:41:45.703Z",
+ "reviewedAt": "2026-11-03T20:33:39.174Z",
  "pipelineVersion": 1,
  "level": "full",
  "status": "ok",
@@ -203,7 +203,7 @@
  "transcriptRetry": true,
  "quality": {
   "visual": "error",
-  "visualReason": "download failed: ERROR: \r[download] Got error: [Errno 11001] getaddrinfo failed. Giving up after 10 retries",
+  "visualReason": "download failed: ERROR: [youtube] 1Q21XYSKJgo: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
   "whisperError": "no audio track could be fetched",
   "transcript": "none",
   "notes": []
