@@ -4,6 +4,7 @@ import { reelPlayer } from '../lib/ui.js';
 import { ROUTE, DRILLS } from '../data/route.js';
 import { SPLITS } from '../data/raid.js';
 import * as store from '../lib/store.js';
+import { emit } from '../lib/bridge.js';
 
 export const title = 'Practice';
 export const keys = [['J', 'Made it'], ['K', 'Missed it'], ['U', 'Undo last'], ['N', 'Next suggested drill'], ['Space', 'Play / pause reference'], ['L', 'Loop reference']];
@@ -44,6 +45,7 @@ export function mount(root, { params }) {
     store.update(s => { (s.practice[cur.id] ||= { log: [] }).log.push({ t: Date.now(), ok }); });
     session[ok ? 'ok' : 'miss']++;
     const c = consistency(prac[cur.id].log);
+    emit('practice', `${ok ? 'Made' : 'Missed'} ${cur.name} (${Math.round(100 * c.rate)}% of last ${c.recent})`);
     toast(`${ok ? '✓ Made' : '✗ Missed'} — ${Math.round(100 * c.rate)}% of last ${c.recent}`, ok ? 'good' : 'bad');
     paintList(); paintPanel();
   }

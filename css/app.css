@@ -448,3 +448,32 @@ dialog.palette input { width: 100%; font-size: 16px; padding: 12px; }
   .pagehead p { font-size: 14px; }
   main { padding-top: 14px; }
 }
+
+/* ---------- Claude panel (local bridge only) ---------- */
+[hidden] { display: none !important; }
+.claude-btn { color: var(--accent); font-size: 17px; }
+.claude-panel { position: fixed; top: 54px; right: 0; bottom: 0; width: min(400px, 100vw); z-index: 50; background: var(--bg2); border-left: 1px solid var(--line); display: grid; grid-template-rows: auto auto minmax(0, 1fr); box-shadow: -10px 0 30px rgba(0,0,0,.35); }
+.claude-panel > header { display: flex; align-items: center; gap: 8px; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+.claude-panel > header b { color: var(--accent); }
+.cp-status { font-size: 12px; color: var(--muted); }
+.cp-tabs { margin: 8px 12px; }
+.cp-pane { display: flex; flex-direction: column; gap: 8px; padding: 0 12px 12px; min-height: 0; overflow: hidden; }
+.cp-log { flex: 1; overflow-y: auto; display: flex; flex-direction: column; gap: 8px; padding: 4px 2px; min-height: 0; }
+.cp-msg { padding: 8px 10px; border-radius: 10px; font-size: 14px; line-height: 1.45; white-space: pre-wrap; overflow-wrap: anywhere; max-width: 92%; }
+.cp-msg.user { align-self: flex-end; background: var(--accent); color: var(--accent-ink); }
+.cp-msg.claude { align-self: flex-start; background: var(--card2); border: 1px solid var(--line); }
+.cp-msg.tool { align-self: flex-start; font: 12px var(--mono); color: var(--info); padding: 2px 6px; background: none; }
+.cp-msg.info { align-self: center; font-size: 12px; color: var(--muted); padding: 0; }
+.cp-msg.error { align-self: stretch; background: #3a1c1a; color: #ffb3ab; border: 1px solid #6b2b27; }
+.cp-sugg { margin: 0; }
+.cp-sugg .chip { font-size: 12px; padding: 3px 8px; min-height: 0; }
+.cp-input { display: grid; gap: 6px; }
+.cp-input textarea, .cp-pane textarea { width: 100%; resize: vertical; font-size: 14px; }
+.cp-feed { flex: 1; overflow-y: auto; display: grid; gap: 3px; align-content: start; font-size: 12.5px; }
+.cp-ev { padding: 4px 6px; border-radius: 6px; background: var(--card); overflow-wrap: anywhere; }
+.cp-ev time { color: var(--dim); font-family: var(--mono); font-size: 11px; }
+.cp-ev.osrs b { color: var(--good); } .cp-ev.app b { color: var(--accent); } .cp-ev.log b { color: var(--info); }
+.cp-snap, .cp-out { margin: 0; max-height: 34vh; overflow: auto; font: 12px/1.4 var(--mono); background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 8px; white-space: pre-wrap; overflow-wrap: anywhere; }
+/* desktop: the panel docks and the page makes room for it */
+@media (min-width: 1180px) { body.panel-open main, body.panel-open footer.site { margin-right: 400px; } }
+@media (max-width: 719px) { .claude-panel { top: 50px; bottom: var(--tabbar); } }

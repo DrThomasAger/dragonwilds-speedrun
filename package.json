@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node scripts/serve.mjs",
+    "lab": "bb lab",
     "test": "playwright test",
     "test:youtube": "node scripts/yt-test.mjs",
     "test:ui": "playwright test --ui",

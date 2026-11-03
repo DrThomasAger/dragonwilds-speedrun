@@ -5,6 +5,7 @@ import { exportLss, importLss } from '../lib/lss.js';
 import { SPLITS, RUNS, RUN, RULES, communityBest } from '../data/raid.js';
 import { model } from '../lib/sync.js';
 import * as store from '../lib/store.js';
+import { emit } from '../lib/bridge.js';
 
 export const title = 'Split timer';
 export const keys = [['Space / Numpad1', 'Start / split'], ['Backspace / Numpad8', 'Undo split'], ['Numpad2', 'Skip split'], ['R / Numpad3', 'Reset'], ['P / Numpad5', 'Pause']];
@@ -127,10 +128,13 @@ export function mount(root) {
 
   // ---------------------------------------------------------------- actions
   function onTimer(type) {
+    if (type === 'split' && timer.splits.length) emit('split', `${SPLITS[timer.index - 1].name} ${fmtRun(timer.splits[timer.index - 1])}`);
+    if (type === 'start') emit('run-start', 'Timer started');
     if (type === 'finish') {
       const r = recordAttempt(rec, timer.splits, { done: true });
       goldSet = new Set(r.golds);
       store.update(s => (s.timer = rec));
+      emit('finish', `${r.isPB ? 'NEW PB ' : 'Finished '}${fmtRun(timer.splits[N - 1])}`, { splits: timer.splits, golds: r.golds });
       toast(r.isPB ? `New PB ${fmtRun(timer.splits[N - 1])}!` : `Finished ${fmtRun(timer.splits[N - 1])}`, r.isPB ? 'gold' : 'good');
     }
     paint();

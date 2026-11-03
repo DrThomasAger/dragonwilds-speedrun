@@ -16,6 +16,19 @@ It's a PWA. Open the site, then:
 
 It works offline for everything except the YouTube clips and the live leaderboard.
 
+## Claude inside the app (your PC only)
+
+```bash
+bb lab          # or: npm run lab  ->  http://localhost:5180
+```
+
+This starts the **bridge** (`scripts/bridge.clj`, babashka). Open http://localhost:5180 and press **✦** (Ctrl+J):
+- **Chat:** tell Claude what you want, Figma Make style, e.g. "make the split button bigger" or "why was my last run slow?". It edits the app on its own (auto permission mode), takes a screenshot to check its work (`scripts/look.mjs`), and the open app reloads by itself.
+- **Live feed:** your splits, PBs, resets and practice results stream in as you play, so Claude knows what's happening. If RuneLite is running with the OSRS `client_repl` plugin (port 7889), it also polls a live game snapshot. Set `LAB_GAME_FILE` to also tail any game log file.
+- **REPL:** run Clojure inside the game client. The bridge has its own nREPL on `localhost:1667` for your editor too.
+
+Everything listens only on 127.0.0.1. The public website doesn't show the panel.
+
 ## Run it
 
 ```bash

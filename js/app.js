@@ -5,6 +5,7 @@ import { RECORD } from './data/raid.js';
 import * as patches from './lib/patches.js';
 import { initPWA } from './lib/pwa.js';
 import { initPalette } from './lib/palette.js';
+import { initBridge } from './lib/bridge.js';
 
 const views = {
   hq: () => import('./views/hq.js'),
@@ -79,6 +80,7 @@ $('#helpBtn').addEventListener('click', () => $('#help').showModal());
 fill($('#topTarget'), '#1 to beat ', h('b', {}, fmtRun(RECORD.time)), ` · ${RECORD.runner}`);
 initPWA($('#installSlot'));
 initPalette($('#palBtn'));
+initBridge($('#installSlot'));
 patches.subscribe((d, fresh) => {
   const b = $('#patchBadge');
   b.textContent = fresh.length; b.classList.toggle('hidden', !fresh.length);

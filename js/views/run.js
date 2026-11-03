@@ -9,6 +9,7 @@ import { model } from '../lib/sync.js';
 import { ROUTE, REQUIREMENTS, GEAR } from '../data/route.js';
 import { comparisons } from './timer.js';
 import * as store from '../lib/store.js';
+import { emit } from '../lib/bridge.js';
 
 export const title = 'Run navigator';
 export const keys = [['Space / Numpad1', 'Start / split'], ['N / →', 'Next skip'], ['B / ←', 'Previous skip'], ['Backspace', 'Undo split'], ['R', 'Reset'], ['V', 'Toggle reference clip']];
@@ -85,6 +86,7 @@ export function mount(root) {
         const t = segTimer.splits[0];
         const prevBest = segStats(k).best;
         store.update(s => { s.segPractice ||= {}; (s.segPractice[k] ||= []).push({ t, at: Date.now() }); });
+        emit('segment', `${SPLITS[k].name} practice ${fmtRun(t, 2)} (${fmtDelta(t - ref)} vs ${cname})`);
         const pb = prevBest == null || t < prevBest;
         toast(pb ? `Practice best ${fmtRun(t, 2)}` : `${fmtRun(t, 2)} (${fmtDelta(t - ref)} vs ${cname})`, pb ? 'gold' : t <= ref ? 'good' : '');
         if (navigator.vibrate) navigator.vibrate(40);
@@ -209,17 +211,17 @@ export function mount(root) {
 
   // ------------------------------------------------------------ timer events
   function onTimer(type) {
-    if (type === 'start') { paintRun(); return; }
-    if (type === 'finish') { last = recordAttempt(rec, timer.splits, { done: true }); store.update(s => (s.timer = rec)); if (last.isPB) toast('New PB!', 'gold'); paintDone(); return; }
+    if (type === 'start') { emit('run-start', 'Raid run started'); paintRun(); return; }
+    if (type === 'finish') { last = recordAttempt(rec, timer.splits, { done: true }); emit('finish', `${last.isPB ? 'NEW PB ' : 'Finished '}${fmtRun(timer.splits[N - 1], 2)}`, { splits: timer.splits, golds: last.golds }); store.update(s => (s.timer = rec)); if (last.isPB) toast('New PB!', 'gold'); paintDone(); return; }
     if (type === 'reset') return;
     if (type === 'split' || type === 'undo' || type === 'skip') {
       skipIdx = 0;
-      if (type === 'split') { const k = timer.index - 1; const segs = segmentsOf(timer.splits); if (rec.best[k] == null || segs[k] < rec.best[k]) toast(`Gold! ${SPLITS[k].short} ${fmtRun(segs[k], 1)}`, 'gold'); if (navigator.vibrate) navigator.vibrate(40); }
+      if (type === 'split') { emit('split', `${SPLITS[timer.index - 1].name} ${fmtRun(timer.splits[timer.index - 1], 2)}`); const k = timer.index - 1; const segs = segmentsOf(timer.splits); if (rec.best[k] == null || segs[k] < rec.best[k]) toast(`Gold! ${SPLITS[k].short} ${fmtRun(segs[k], 1)}`, 'gold'); if (navigator.vibrate) navigator.vibrate(40); }
       if (phase === 'run') paintSplit();
     }
   }
   function reset() {
-    if (timer.splits.length && timer.phase !== 'done') { recordAttempt(rec, timer.splits, { done: false }); store.update(s => (s.timer = rec)); toast(`Reset in ${SPLITS[Math.min(timer.index, N - 1)].short} — logged`); }
+    if (timer.splits.length && timer.phase !== 'done') { recordAttempt(rec, timer.splits, { done: false }); store.update(s => (s.timer = rec)); toast(`Reset in ${SPLITS[Math.min(timer.index, N - 1)].short} — logged`); emit('reset', `Reset in ${SPLITS[Math.min(timer.index, N - 1)].name}`); }
     timer.reset(); paintPre();
   }
   const onKey = e => {
