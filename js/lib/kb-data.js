@@ -68,6 +68,7 @@ export function start() {
 
 // Local bridge only: feed events (splits, PBs, practice, game snapshots) as they happen.
 async function connectBridge() {
+  if (/\.github\.io$/.test(location.hostname)) return; // public site: no bridge, skip the 404 probe
   try {
     const r = await fetch('api/status', { cache: 'no-store' });
     if (!r.ok) return;

@@ -1,0 +1,11 @@
+{
+ "id": "14iJqjPKCEA",
+ "url": "https://www.youtube.com/watch?v=14iJqjPKCEA",
+ "reviewedAt": "2026-11-03T21:46:06.626Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] 14iJqjPKCEA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "The Fastest Possible Kuldra Raid With Boss Skips"
+}

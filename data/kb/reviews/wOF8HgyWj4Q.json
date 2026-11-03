@@ -1,0 +1,11 @@
+{
+ "id": "wOF8HgyWj4Q",
+ "url": "https://www.youtube.com/watch?v=wOF8HgyWj4Q",
+ "reviewedAt": "2026-11-03T21:55:26.584Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] wOF8HgyWj4Q: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Abyssal Battle | Kuldra's End Ep 2 | Runescape: Dragonwilds 1.0"
+}

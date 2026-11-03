@@ -1,0 +1,11 @@
+{
+ "id": "f6aTIAnHDwA",
+ "url": "https://www.youtube.com/watch?v=f6aTIAnHDwA",
+ "reviewedAt": "2026-11-03T21:50:34.675Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] f6aTIAnHDwA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Opening 200 Kuldra Reward Boxes! (Insane Loot?)🏆"
+}

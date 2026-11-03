@@ -412,10 +412,10 @@
   "1Q21XYSKJgo": {
    "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T20:33:39.174Z",
+   "reviewedAt": "2026-11-03T21:43:38.025Z",
    "attempts": 0,
    "transcriptRetry": true,
-   "transcriptAttempts": 2,
+   "transcriptAttempts": 3,
    "title": "Kuldra Scorned Wilderness Full Raid Skip Guide (Patch 1.0.1) | Runescape Dragonwilds"
   },
   "3dBpsTAttVk": {
@@ -442,8 +442,8 @@
   "7drO4EDaJTo": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T20:33:48.085Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:45:00.547Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] 7drO4EDaJTo: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "RuneScape Dragonwilds 1.0 - Kuldra Is EASY! Raid Boss Guide"
   },
@@ -474,8 +474,8 @@
   "bFOWvp4ZkPA": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T20:34:22.586Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:45:05.452Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] bFOWvp4ZkPA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "How to Defeat Kuldra – Final Boss Guide | RuneScape: Dragonwilds"
   },
@@ -592,258 +592,258 @@
    "title": "Don't Fight Velgar Until You Do This! | RuneScape: Dragonwilds Boss Guide"
   },
   "tXJFy-QkoBw": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:06.474Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] tXJFy-QkoBw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T21:45:06.938Z",
+   "attempts": 0,
    "title": "RuneScape Dragonwilds: Scorned Wilderness Gear Guide"
   },
   "uD8WCTsFiyY": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:09.202Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] uD8WCTsFiyY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T21:45:10.437Z",
+   "attempts": 0,
+   "transcriptRetry": true,
+   "transcriptAttempts": 1,
    "title": "Queen Kuldra Raid Full Guide — Quickest Run | RuneScape: Dragonwilds | Gelaham"
   },
   "WYqKsXTuqEc": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:12.083Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:45:17.351Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] WYqKsXTuqEc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "The ULTIMATE Scorned Wilderness Raid Guide | RuneScape: Dragonwilds 1.0! #runescapedragonwilds"
   },
   "x908LHrcUtg": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:14.969Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:45:24.049Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] x908LHrcUtg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "The ONLY Kuldra Guide You'll Need RuneScape: Dragonwilds (Scorned Wilderness Complete Walkthrough)"
   },
   "ynjeXmaFyVU": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:17.703Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:45:30.482Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] ynjeXmaFyVU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "The BEST Gear Before Scorned Wilderness! | Dragonwilds Best-in-Slot Progression Guide"
   },
   "_m9p6hKg0g0": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:20.486Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:45:45.601Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] _m9p6hKg0g0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Runescape Dragonwilds: Scorned Wilderness RAID! Kuldra easy kill!"
   },
   "0EyC3Sk7M-A": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:23.583Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:46:00.420Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] 0EyC3Sk7M-A: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Defeat Kuldra in Runescape Dragonwilds!"
   },
   "4C-7swCHEes": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:26.152Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:46:13.104Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] 4C-7swCHEes: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "RuneScape: Dragonwilds kuldra raid boss"
   },
   "68ovg9A_PpA": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:29.075Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:46:18.962Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] 68ovg9A_PpA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "RuneScape DragonWilds New raid skips found! Scorned wilderness Raid skips found after update 1.0.1!"
   },
   "6Xta0SaH3-k": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:31.721Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:46:25.363Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] 6Xta0SaH3-k: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Runescape Dragonwilds - Kuldra Raid Boss Fight"
   },
   "7XYvLtw4TS0": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:35.089Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:46:31.261Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] 7XYvLtw4TS0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Runescape Dragonwilds Scorned Wilderness Base Tour"
   },
   "aySOue59SHI": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:37.455Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:46:43.208Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] aySOue59SHI: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "KULDRA MADE EASY!  Best Way to Defeat Kuldra | RuneScape Dragonwilds"
   },
   "cA6J1J5s9X0": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:40.524Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:47:48.918Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] cA6J1J5s9X0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Scorned Wilderness - Narrative Trailer | RuneScape: Dragonwilds"
   },
   "faQnPcZPaZ8": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:43.103Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:47:54.891Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] faQnPcZPaZ8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "KULDRA ELEMENTAL PUZZLE SKIP (POST PATCH) 1.0.1"
   },
   "fO5YJeWqudE": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:46.204Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:48:01.174Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] fO5YJeWqudE: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "The Kuldra \"raid\" in Runescape: Dragonwilds was really bad... and it hurts"
   },
   "goKfbT19nkk": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:48.528Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:48:07.361Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] goKfbT19nkk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Runescape Dragonwilds - 1.0.1 New Movement Tech - Infinite Double Jump"
   },
   "H1f_gXNdv3Y": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:51.537Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:48:13.419Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] H1f_gXNdv3Y: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "*EASY* How T0 Skip Kuldra Boss (Runescape Dragonwilds )"
   },
   "H2BWG4IrQIU": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:53.878Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:48:19.840Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] H2BWG4IrQIU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "RuneScape: Dragonwilds Kuldra Skip"
   },
   "ImAiebsF_48": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:56.992Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:48:33.028Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] ImAiebsF_48: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "I BEAT KULDRA FIRST TRY! Here's How I Did It | RuneScape Dragonwilds"
   },
   "JaITKqsSAjw": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:41:59.395Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:48:40.187Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] JaITKqsSAjw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "RuneScape: Dragonwilds - Kuldra Raid OST (Begüm Tekakpınar)"
   },
   "JQhIMOAlPEo": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:02.551Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:55:16.342Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] JQhIMOAlPEo: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "THE UPDATE BROKE KULDRA?! Can We Beat the Boss Again? | Dragonwilds LIVE"
   },
   "KkxO_3dWhr4": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:04.925Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:48:53.369Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] KkxO_3dWhr4: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Kuldra Boss Fight! 🐉 | RuneScape Dragonwilds – God-Eater Battle"
   },
   "L-dTDXJyFq0": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:08.054Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:49:02.533Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] L-dTDXJyFq0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "UNPATCHED Kuldra Raid Fight SKIP"
   },
   "LGCddmk_TnM": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:10.467Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:49:08.504Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] LGCddmk_TnM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Runescape Dragonwilds - 1.0.1 Update New Movement Tech - Dive Cancel"
   },
   "lTG0EuXuqDs": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:13.391Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:49:13.533Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] lTG0EuXuqDs: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Jagex Patched the Raid Skip… So I Broke it Again"
   },
   "odV1jVa65mU": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:15.969Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:49:25.516Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] odV1jVa65mU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "RuneScape Dragonwilds: Scorned Wilderness & Raid (Review)"
   },
   "oK0_U_I40DY": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:18.768Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:49:26.904Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] oK0_U_I40DY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "New FULL Kuldra Raid Skip 1.0.1"
   },
   "p-wFOJrQFRw": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:21.373Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:49:31.882Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] p-wFOJrQFRw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Killing Kuldra, the God-Eater | RuneScape: Dragonwilds"
   },
   "pshWjGU1gG4": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:24.262Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:49:33.092Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] pshWjGU1gG4: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "How to cheese kuldra with parkour  RuneScape: Dragonwilds"
   },
   "Qhc-9tFrs88": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:26.839Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:49:37.822Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] Qhc-9tFrs88: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Soloing Kuldra - RS Dragonwilds 1.0 Final Boss (Full Fight/Puzzle sped up)"
   },
   "r1nrG2NlW-g": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:29.633Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:49:39.144Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] r1nrG2NlW-g: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Scorned Wilderness Skips 1.0.1 (missing Cataclysm Keep skip, just solve it asap)"
   },
   "rNDeEKsKGeA": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:32.231Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:49:44.055Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] rNDeEKsKGeA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "RuneScape DragonWilds Kuldra ABYSSAL DEMON FULL SKIP POST PATCH 1.0.1 WORKING"
   },
@@ -857,232 +857,232 @@
   "rq18FeCFl-8": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:35.201Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:49:45.242Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] rq18FeCFl-8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Weekly Update - Cross-play Issues, Recent Fixes, Upcoming Updates & More! - RuneScape Dragonwilds"
   },
   "rsvxp-hf_xQ": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:37.579Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:49:49.998Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] rsvxp-hf_xQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "3 NEW Sanguine Urns in Scorned Wilderness | +30 HP – RuneScape Dragonwilds"
   },
   "SrXo70-eOLg": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:40.537Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:49:56.434Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] SrXo70-eOLg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Kuldra Raid - 2026_10_22"
   },
   "tuGoIqNwI2I": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:40.710Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:49:57.310Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] tuGoIqNwI2I: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "This is NOT how you're supposed to beat Kuldra..."
   },
   "U0_KPXu28qw": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:43.056Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:50:02.428Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] U0_KPXu28qw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Infinite Jump EXPLOIT 1.0 Dragonwilds"
   },
   "uD4Zzhm8wJc": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:45.426Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:50:03.235Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] uD4Zzhm8wJc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Runescape Dragonwilds Kuldra Final Boss Fight 4k Gameplay (No Cheese)"
   },
   "w4zztfeqroc": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:45.594Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:50:09.367Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] w4zztfeqroc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Runescape Dragonwilds: Kuldra Fight Walkthrough"
   },
   "WDG9aD2oBIc": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:47.771Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:50:10.122Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] WDG9aD2oBIc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Kuldra Raid Boss in RuneScape Dragonwilds (Ranged Main)"
   },
   "xU3_1KirfDc": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:50.286Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:55:28.198Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] xU3_1KirfDc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Runescape DragonWilds Update 1.0.1, new attacks and new items! Patched raid skips??"
   },
   "YYNO7WNXDcA": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:50.502Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:50:21.812Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] YYNO7WNXDcA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "I Opened 99 Queenslayer Chests in RuneScape Dragonwilds 1.0"
   },
   "z8pDoP0_l9U": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:52.514Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:50:22.417Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] z8pDoP0_l9U: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Defeat Kuldra GLITCH post patch!!"
   },
   "zNaUuRbbQPM": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:55.168Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:50:27.774Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] zNaUuRbbQPM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Scorned Wilderness Raid Boss KULDRA!! Easy Mode!!"
   },
   "2Zn04m-mq80": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:55.361Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:50:34.133Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] 2Zn04m-mq80: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Legacy Kuldra Skip with a Shortcut to the Heart (Patched?) | RS: Dragonwilds 1.0.0.6"
   },
   "JRpxlTZ_F2M": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:42:57.186Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:50:40.023Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] JRpxlTZ_F2M: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Kuldra Elemental Puzzle Skip"
   },
   "JuuIF0BeGaE": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:43:00.086Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:50:40.587Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] JuuIF0BeGaE: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "RuneScape Dragonwilds: Kuldra Boss new bug (fixed)"
   },
   "osZKPmm848U": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:43:00.224Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:50:46.463Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] osZKPmm848U: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "RuneScape Dragonwilds: Regicide Quest Guide – Quick & Easy for All Players!"
   },
   "SmA7HV-ZlZ0": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:43:01.947Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] SmA7HV-ZlZ0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T21:50:52.471Z",
+   "attempts": 0,
+   "transcriptRetry": true,
+   "transcriptAttempts": 1,
    "title": "RuneScape: Dragonwilds Scorned wilderness Walkthrough/Guide Part 1 of 2"
   },
   "x9lUEA4ro0A": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:43:05.034Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] x9lUEA4ro0A: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T21:52:14.524Z",
+   "attempts": 0,
+   "transcriptRetry": true,
+   "transcriptAttempts": 1,
    "title": "Runescape Dragonwilds - Scorned Wilderness SOLO Raid Guide"
   },
   "zl7R_N-vByw": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:43:05.154Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] zl7R_N-vByw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T21:53:19.735Z",
+   "attempts": 0,
    "title": "Good job jagex you really fixed Kuldra skip !"
   },
   "s6gWMh5yYHw": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:43:06.711Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] s6gWMh5yYHw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T21:53:38.655Z",
+   "attempts": 0,
    "title": "Kuldra Easy Farm Guide – Level 9 Armour & Weapons  | RuneScape Dragonwilds"
   },
   "v08OscNsOEM": {
-   "status": "error",
+   "status": "unavailable",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:43:09.967Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] v08OscNsOEM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T21:54:36.837Z",
+   "attempts": 0,
+   "lastError": "ERROR: [youtube] v08OscNsOEM: Requested format is not available. Use --list-formats for a list of available formats",
    "title": "How to Farm Discordant Residue EARLY | Scorned Wilderness – RuneScape Dragonwilds"
   },
   "5vqcrsspAcE": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:43:10.048Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:54:40.615Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] 5vqcrsspAcE: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "I Spent 100 Days in RuneScape Dragonwilds Scorned Wilderness... Here's What Happened!"
   },
   "6XoozVNLdlI": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:43:11.466Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:55:02.619Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] 6XoozVNLdlI: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "RuneScape Dragonwilds 1.0 - Kuldra Raid is INSANE!"
   },
   "95xH_yTZX_w": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:43:14.748Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:55:04.477Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] 95xH_yTZX_w: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "24 Hours to Kill Kuldra From Scratch | RuneScape: Dragonwilds - Part 2"
   },
   "F4vUWayKWbQ": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:43:14.853Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:55:11.257Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] F4vUWayKWbQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Complete Regicide Quest Walkthrough in Runescape Dragonwilds"
   },
   "jg_G6eAhM80": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:43:16.125Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:55:14.771Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] jg_G6eAhM80: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "We Completed Scorned Wilderness on Day 1..."
   },
   "O_xZR5Nj97U": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:43:19.358Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:55:20.012Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] O_xZR5Nj97U: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "24 Hours to Kill Kuldra From Scratch | RuneScape: Dragonwilds"
   },
   "TLJOpo8frns": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:43:19.471Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:55:23.143Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] TLJOpo8frns: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "RuneScape: Dragonwilds Full KULDRA Raid PS5 PRO Gameplay "
   },
   "VlBhicHlfl4": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T07:43:20.649Z",
-   "attempts": 1,
+   "reviewedAt": "2026-11-03T21:55:25.177Z",
+   "attempts": 2,
    "lastError": "ERROR: [youtube] VlBhicHlfl4: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Runescape Dragonwilds 1.0: FULL SCORNED WILDERNESS PLAYTHROUGH"
   },
@@ -1172,16 +1172,16 @@
   "7sVaG0JRlxc": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T20:34:00.252Z",
-   "attempts": 2,
+   "reviewedAt": "2026-11-03T21:45:01.948Z",
+   "attempts": 3,
    "lastError": "ERROR: [youtube] 7sVaG0JRlxc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "Runescape: Dragonwilds - How to Get to the Scorned Wilderness (Reaching Commander Zilyana)"
   },
   "9CTj9LgZJ5A": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T20:34:05.796Z",
-   "attempts": 2,
+   "reviewedAt": "2026-11-03T21:45:01.984Z",
+   "attempts": 3,
    "lastError": "ERROR: [youtube] 9CTj9LgZJ5A: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "RuneScape: Dragonwilds - Scorned Wilderness Dragontail Vines Guide"
   },
@@ -1200,20 +1200,265 @@
    "title": "RuneScape: Dragonwilds - Scorned Wilderness The Shattered Stronghold Guide"
   },
   "StZPNkLmOTo": {
-   "status": "error",
+   "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T20:33:39.174Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] StZPNkLmOTo: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "reviewedAt": "2026-11-03T21:43:38.025Z",
+   "attempts": 0,
    "title": "RuneScape OG tries to Solo Kuldra for the 1st time | RuneScape: Dragon Wilds"
   },
   "wvmXHt_gcws": {
+   "status": "ok",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:43:38.025Z",
+   "attempts": 0,
+   "transcriptRetry": true,
+   "transcriptAttempts": 1,
+   "title": "RuneScape: Dragonwilds Kuldra Solo"
+  },
+  "_HjxuyYWoHQ": {
    "status": "error",
    "level": "full",
-   "reviewedAt": "2026-11-03T20:33:39.174Z",
+   "reviewedAt": "2026-11-03T21:45:37.533Z",
    "attempts": 1,
-   "lastError": "ERROR: [youtube] wvmXHt_gcws: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
-   "title": "RuneScape: Dragonwilds Kuldra Solo"
+   "lastError": "ERROR: [youtube] _HjxuyYWoHQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "RuneScape: Dragonwilds kuldra raid boss fight again"
+  },
+  "-tUewC-WIdg": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:45:52.983Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] -tUewC-WIdg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "KULDRA KILL (Mage) | RuneScape: Dragonwilds"
+  },
+  "14iJqjPKCEA": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:46:06.626Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] 14iJqjPKCEA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "The Fastest Possible Kuldra Raid With Boss Skips"
+  },
+  "a7iUnju_Vfk": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:46:37.236Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] a7iUnju_Vfk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "RuneScape: Dragonwilds Scorned wilderness Walk through Part 2"
+  },
+  "B4t1Vrgt6I8": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:46:49.156Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] B4t1Vrgt6I8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "RuneScape: Dragonwilds kuldra raid boss fight"
+  },
+  "bQ56l-8xTl8": {
+   "status": "unavailable",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:46:55.293Z",
+   "attempts": 0,
+   "lastError": "ERROR: [youtube] bQ56l-8xTl8: Requested format is not available. Use --list-formats for a list of available formats",
+   "title": "Runescape: Dragonwilds - All Sanguine Urns in the Scorned Wilderness"
+  },
+  "IFLcUHmblIg": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:48:26.490Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] IFLcUHmblIg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "RuneScape: Dragonwilds Kuldra Boss Fight"
+  },
+  "kIFZmk5P6CQ": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:48:46.814Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] kIFZmk5P6CQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "ALL Sanguine Urn Locations In Scorned Wilderness - RuneScape Dragonwilds"
+  },
+  "OTkzDnBR8_w": {
+   "status": "ok",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:45:06.885Z",
+   "attempts": 0,
+   "title": "How to defeat Kuldra on Runescape Dragonwilds!"
+  },
+  "kyr7N_QVFdg": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:49:00.955Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] kyr7N_QVFdg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "RuneScape Dragonwilds 1.0 Is MASSIVE - What Actually Matters"
+  },
+  "LeVPNQQ-5dY": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:49:07.359Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] LeVPNQQ-5dY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "TUDO QUE VOCÊ PRECISA SABER ANTES DE ENFRENTAR KULDRA! | RuneScape DragonWilds"
+  },
+  "MnZ3zQdMlhc": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:49:14.929Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] MnZ3zQdMlhc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "RuneScape: Dragonwilds | Scorned Wilderness - KULDRA final boss!"
+  },
+  "n5unPmnfP6A": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:49:19.621Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] n5unPmnfP6A: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "RuneScape Dragonwilds 1.0 Is BIGGER Than You Think"
+  },
+  "nhTtRoKPE1E": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:49:20.926Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] nhTtRoKPE1E: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "RuneScape: Dragonwilds,QUEEN KULDRA"
+  },
+  "sI1FxSDbncw": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:49:51.093Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] sI1FxSDbncw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "Runescape Dragonwilds: Overwhelming Strength against Kuldra!"
+  },
+  "WvXjQC9tB50": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:50:15.263Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] WvXjQC9tB50: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "Runescape Dragonwilds Boss Fight Kuldra cheesy way (Patched)"
+  },
+  "YNyqVxxeTtM": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:50:16.057Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] YNyqVxxeTtM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "RuneScape: Dragonwilds Kuldra  (Game Only Took Me 100Hrs)"
+  },
+  "ZPFWG6gZnEY": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:50:28.312Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] ZPFWG6gZnEY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "Runescape Dragonwilds - Kuldra boss fight full gameplay [Tia_Mistra]"
+  },
+  "f6aTIAnHDwA": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:50:34.675Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] f6aTIAnHDwA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "Opening 200 Kuldra Reward Boxes! (Insane Loot?)🏆"
+  },
+  "ou1gSrcvWGk": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:50:47.011Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] ou1gSrcvWGk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "Dragonwilds: Kuldra - Full Boss Guide! [LIVE]"
+  },
+  "tR8yKZqnqqQ": {
+   "status": "ok",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:50:52.966Z",
+   "attempts": 0,
+   "title": "Kuldra's Wrath Wand is OP — 9,999 to 11,499 Orb Damage! | RuneScape: Dragonwilds"
+  },
+  "YP9pseIN0N4": {
+   "status": "ok",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:53:04.680Z",
+   "attempts": 0,
+   "title": "Kuldra KC #2 — Back for More! | RuneScape: Dragonwilds"
+  },
+  "BvI39z_sW3o": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:55:06.201Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] BvI39z_sW3o: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "Runescape Dragonwilds - HARDCORE Takes on the Scorned Wilderness"
+  },
+  "EvdQKZv4Cyo": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:55:07.789Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] EvdQKZv4Cyo: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "The ULTIMATE Raid-Proof Mountain Base! 🏔️ | RuneScape: Dragonwilds"
+  },
+  "F3yv_tgJFJU": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:55:09.675Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] F3yv_tgJFJU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "RuneScape: Dragonwilds - Kuldra Raid | Final Phase OST \"1 HOUR\" (Begüm Tekakpınar)"
+  },
+  "F8p60k1co3U": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:55:12.979Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] F8p60k1co3U: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "Runescape Dragonwilds - 1st Hard Mode Playthrough - Preparing for the Scorned Wilderness"
+  },
+  "MUSMU0rpaLw": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:55:18.030Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] MUSMU0rpaLw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "Runescape Dragon Wilds Time to Kill Kuldra  Stomp Him"
+  },
+  "RzKDGz5YquQ": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:55:21.443Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] RzKDGz5YquQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "RuneScape Dragonwilds 1.0 - Slaying Kuldra! The New Raid!"
+  },
+  "wOF8HgyWj4Q": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:55:26.584Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] wOF8HgyWj4Q: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "Abyssal Battle | Kuldra's End Ep 2 | Runescape: Dragonwilds 1.0"
+  },
+  "yqAg8RPDD3o": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:55:30.508Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] yqAg8RPDD3o: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "RSDragonwilds part 64: Regicide - RuneScape: Dragonwilds playthrough series"
+  },
+  "ZrMNapU83Y8": {
+   "status": "error",
+   "level": "full",
+   "reviewedAt": "2026-11-03T21:55:31.767Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] ZrMNapU83Y8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "title": "RuneScape Dragonwilds: Dragonwilds scorned wilderness  - Fragments of ghornfell messy walkthrough"
   }
  }
 }

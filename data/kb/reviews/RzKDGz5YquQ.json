@@ -1,0 +1,11 @@
+{
+ "id": "RzKDGz5YquQ",
+ "url": "https://www.youtube.com/watch?v=RzKDGz5YquQ",
+ "reviewedAt": "2026-11-03T21:55:21.443Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] RzKDGz5YquQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape Dragonwilds 1.0 - Slaying Kuldra! The New Raid!"
+}

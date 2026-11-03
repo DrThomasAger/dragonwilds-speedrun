@@ -1,0 +1,11 @@
+{
+ "id": "F8p60k1co3U",
+ "url": "https://www.youtube.com/watch?v=F8p60k1co3U",
+ "reviewedAt": "2026-11-03T21:55:12.979Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] F8p60k1co3U: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape Dragonwilds - 1st Hard Mode Playthrough - Preparing for the Scorned Wilderness"
+}

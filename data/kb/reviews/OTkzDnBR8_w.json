@@ -1,0 +1,253 @@
+{
+ "id": "OTkzDnBR8_w",
+ "url": "https://www.youtube.com/watch?v=OTkzDnBR8_w",
+ "reviewedAt": "2026-11-03T21:45:06.885Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "ok",
+ "title": "How to defeat Kuldra on Runescape Dragonwilds!",
+ "author": "Brewskies Gaming",
+ "date": "2026-09-18",
+ "videoDuration": 1171,
+ "kind": "guide",
+ "from": [
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": 970.7,
+ "offset": 9.3,
+ "offsetMethod": "detected: end of the loading screen into the raid",
+ "splits": [
+  439.9,
+  638.4,
+  970.7
+ ],
+ "videoSplits": [
+  449.2,
+  647.7,
+  980
+ ],
+ "segmentTimes": [
+  439.9,
+  198.5,
+  null,
+  null,
+  null
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 9.3,
+   "tEnd": 449.2,
+   "segment": 0,
+   "name": "Dragontail Vines",
+   "kind": "slower",
+   "delta": 319.97,
+   "seg": 439.9,
+   "description": "Dragontail Vines: 439.9 s — 320.0 s slower than every reference run (slowest 119.93 s). Different path, deaths or a puzzle done normally.",
+   "frames": "OTkzDnBR8_w/anomaly-0-seg0.png"
+  },
+  {
+   "t": 449.2,
+   "tEnd": 647.7,
+   "segment": 1,
+   "name": "Fragments of Ghornfell",
+   "kind": "slower",
+   "delta": 101.2,
+   "seg": 198.5,
+   "description": "Fragments of Ghornfell: 198.5 s — 101.2 s slower than every reference run (slowest 97.3 s). Different path, deaths or a puzzle done normally.",
+   "frames": "OTkzDnBR8_w/anomaly-1-seg1.png"
+  },
+  {
+   "t": 9.3,
+   "tEnd": 980,
+   "segment": null,
+   "kind": "missing-banners",
+   "delta": null,
+   "description": "Only 2 of 4 \"EXTRACTION POINT UNLOCKED\" banners before the end: an extraction point was bypassed (skip/out-of-map route) or the banner was hidden.",
+   "frames": "OTkzDnBR8_w/anomaly-2-segx.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 803,
+   "dur": 0.4,
+   "segment": 2
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 449.2,
+    "score": 0.739
+   },
+   {
+    "t": 647.7,
+    "score": 0.737
+   }
+  ],
+  "end": {
+   "t": 980,
+   "plate": [
+    966.5,
+    979.9
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": 9.3
+ },
+ "commentary": [
+  {
+   "t": 90.1,
+   "text": "Unless I'm getting lucky.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/OTkzDnBR8_w?t=90",
+   "known": null
+  },
+  {
+   "t": 203.6,
+   "text": "fucking fly up here",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/OTkzDnBR8_w?t=203",
+   "known": "s-flight"
+  },
+  {
+   "t": 881.3,
+   "text": "I Thought I had a cheese going here.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/OTkzDnBR8_w?t=881",
+   "known": null
+  },
+  {
+   "t": 888,
+   "text": "I mean it's still kind of the cheese for me not jumping in there I feel like I",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/OTkzDnBR8_w?t=888",
+   "known": null
+  },
+  {
+   "t": 981.7,
+   "text": "Oh boy, I thought I died on that's",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/OTkzDnBR8_w?t=981",
+   "known": null
+  },
+  {
+   "t": 1097.9,
+   "text": "I just wanted to kill culture real quick throw it on the channel That's my first time killing",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/OTkzDnBR8_w?t=1097",
+   "known": null
+  }
+ ],
+ "textNotes": [],
+ "candidateMechanics": [
+  {
+   "source": "timing",
+   "t": 9.3,
+   "link": "https://youtu.be/OTkzDnBR8_w?t=9",
+   "quote": "Only 2 of 4 \"EXTRACTION POINT UNLOCKED\" banners before the end: an extraction point was bypassed (skip/out-of-map route) or the banner was hidden.",
+   "segment": null,
+   "frames": "OTkzDnBR8_w/cand-9.png"
+  }
+ ],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 169,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 2,
+  "end": true,
+  "offsetMethod": "detected: end of the loading screen into the raid",
+  "templateScale": [
+   0.68,
+   1
+  ],
+  "templateScore": [
+   0.698,
+   0.984
+  ],
+  "complete": false,
+  "transcript": "whisper:small",
+  "notes": []
+ },
+ "curated": null
+}

@@ -19,6 +19,7 @@ window.addEventListener('dw:event', e => {
 const viewName = () => (location.hash.replace(/^#\/?/, '').split(/[/?]/)[0] || 'hq');
 
 export async function initBridge(slot) {
+  if (/\.github\.io$/.test(location.hostname)) return; // public site: no bridge, skip the 404 probe
   try {
     const r = await fetch('api/status', { cache: 'no-store' });
     if (!r.ok) return;

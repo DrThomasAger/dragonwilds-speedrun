@@ -1,0 +1,11 @@
+{
+ "id": "EvdQKZv4Cyo",
+ "url": "https://www.youtube.com/watch?v=EvdQKZv4Cyo",
+ "reviewedAt": "2026-11-03T21:55:07.789Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] EvdQKZv4Cyo: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "The ULTIMATE Raid-Proof Mountain Base! 🏔️ | RuneScape: Dragonwilds"
+}

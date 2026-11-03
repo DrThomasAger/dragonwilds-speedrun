@@ -1,0 +1,11 @@
+{
+ "id": "yqAg8RPDD3o",
+ "url": "https://www.youtube.com/watch?v=yqAg8RPDD3o",
+ "reviewedAt": "2026-11-03T21:55:30.508Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] yqAg8RPDD3o: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RSDragonwilds part 64: Regicide - RuneScape: Dragonwilds playthrough series"
+}

@@ -1,0 +1,121 @@
+{
+ "id": "tR8yKZqnqqQ",
+ "url": "https://www.youtube.com/watch?v=tR8yKZqnqqQ",
+ "reviewedAt": "2026-11-03T21:50:52.966Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "ok",
+ "title": "Kuldra's Wrath Wand is OP — 9,999 to 11,499 Orb Damage! | RuneScape: Dragonwilds",
+ "author": "GamingFilmLLC",
+ "date": "2026-10-31",
+ "videoDuration": 26,
+ "kind": "video",
+ "from": [
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [],
+ "segmentTimes": [],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [],
+ "events": {
+  "banners": [],
+  "end": null,
+  "loadEnd": null
+ },
+ "commentary": [],
+ "textNotes": [],
+ "candidateMechanics": [],
+ "transcriptSource": "youtube:en",
+ "transcriptLines": 11,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 0,
+  "end": false,
+  "offsetMethod": null,
+  "templateScale": [
+   0.68,
+   1
+  ],
+  "templateScore": [
+   0.59,
+   0
+  ],
+  "complete": false,
+  "transcript": "youtube:en",
+  "notes": []
+ },
+ "curated": null
+}

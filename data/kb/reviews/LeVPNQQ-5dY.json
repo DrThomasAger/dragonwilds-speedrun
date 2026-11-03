@@ -1,0 +1,11 @@
+{
+ "id": "LeVPNQQ-5dY",
+ "url": "https://www.youtube.com/watch?v=LeVPNQQ-5dY",
+ "reviewedAt": "2026-11-03T21:49:07.359Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] LeVPNQQ-5dY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "TUDO QUE VOCÊ PRECISA SABER ANTES DE ENFRENTAR KULDRA! | RuneScape DragonWilds"
+}

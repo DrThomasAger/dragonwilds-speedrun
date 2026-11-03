@@ -1,11 +1,116 @@
 {
  "id": "StZPNkLmOTo",
  "url": "https://www.youtube.com/watch?v=StZPNkLmOTo",
- "reviewedAt": "2026-11-03T20:33:39.174Z",
+ "reviewedAt": "2026-11-03T21:43:38.025Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] StZPNkLmOTo: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "RuneScape OG tries to Solo Kuldra for the 1st time | RuneScape: Dragon Wilds"
+ "status": "ok",
+ "title": "RuneScape OG tries to Solo Kuldra for the 1st time | RuneScape: Dragon Wilds",
+ "author": "GamerZay",
+ "date": "2026-10-23",
+ "videoDuration": 1657,
+ "kind": "run",
+ "from": [
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [],
+ "segmentTimes": [],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [],
+ "events": null,
+ "commentary": [
+  {
+   "t": 1413.8,
+   "text": "All right. Now, if I die on this part, I am definitely going to be done.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/StZPNkLmOTo?t=1413",
+   "known": null
+  }
+ ],
+ "textNotes": [],
+ "candidateMechanics": [],
+ "transcriptSource": "youtube:en",
+ "transcriptLines": 138,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "error",
+  "visualReason": "download failed: ERROR: [youtube] StZPNkLmOTo: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+  "transcript": "youtube:en",
+  "notes": []
+ },
+ "curated": null
 }

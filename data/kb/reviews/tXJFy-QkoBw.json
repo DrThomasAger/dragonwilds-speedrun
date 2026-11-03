@@ -1,11 +1,323 @@
 {
  "id": "tXJFy-QkoBw",
  "url": "https://www.youtube.com/watch?v=tXJFy-QkoBw",
- "reviewedAt": "2026-11-03T07:41:06.474Z",
+ "reviewedAt": "2026-11-03T21:45:06.938Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] tXJFy-QkoBw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "RuneScape Dragonwilds: Scorned Wilderness Gear Guide"
+ "status": "ok",
+ "title": "RuneScape Dragonwilds: Scorned Wilderness Gear Guide",
+ "author": "Primitive Nomad",
+ "date": "2026-09-17",
+ "videoDuration": 565,
+ "kind": "guide",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": 0,
+ "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+ "splits": [
+  189.5
+ ],
+ "videoSplits": [
+  189.5
+ ],
+ "segmentTimes": [
+  189.5,
+  null,
+  null,
+  null,
+  null
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 0,
+   "tEnd": 189.5,
+   "segment": 0,
+   "name": "Dragontail Vines",
+   "kind": "slower",
+   "delta": 69.57,
+   "seg": 189.5,
+   "description": "Dragontail Vines: 189.5 s — 69.6 s slower than every reference run (slowest 119.93 s). Different path, deaths or a puzzle done normally.",
+   "frames": "tXJFy-QkoBw/anomaly-0-seg0.png"
+  }
+ ],
+ "blackouts": [],
+ "events": {
+  "banners": [
+   {
+    "t": 189.5,
+    "score": 0.716
+   }
+  ],
+  "end": null,
+  "loadEnd": null
+ },
+ "commentary": [
+  {
+   "t": 37,
+   "text": "so you're naturally progressing your skills together, but also diversifying your combat makes",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/tXJFy-QkoBw?t=37",
+   "known": null
+  },
+  {
+   "t": 153.1,
+   "text": "I want to go over that kind of diversify it.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/tXJFy-QkoBw?t=153",
+   "known": null
+  },
+  {
+   "t": 186.1,
+   "text": "You can jump straight back into your Dragon Wild server through Steam or launch it directly",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "dragon"
+   ],
+   "link": "https://youtu.be/tXJFy-QkoBw?t=186",
+   "known": "s-bd1"
+  },
+  {
+   "t": 218.7,
+   "text": "Contest launches on September 16th and submissions are open until the 13th of October.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/tXJFy-QkoBw?t=218",
+   "known": null
+  },
+  {
+   "t": 331.5,
+   "text": "reload where if you timed it correctly, you get a faster reload.",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/tXJFy-QkoBw?t=331",
+   "known": null
+  },
+  {
+   "t": 372.3,
+   "text": "If you're able to time your reloads faster.",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/tXJFy-QkoBw?t=372",
+   "known": null
+  },
+  {
+   "t": 399.1,
+   "text": "Recall down a barrage of arrows that fall like rain and deal damage over time to their target",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/tXJFy-QkoBw?t=399",
+   "known": null
+  }
+ ],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "I've been covering Dragonwilds since day one, following every update, reveal, patch, and development milestone, so I'll also share insights and details that many new players may have missed.",
+   "topics": [
+    "glitch",
+    "mistake"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@PrimitiveNomad",
+   "likes": 4,
+   "text": "Just like most things it's RNG. I seem to have luck on my side this time. The shadow sword took me 8 months. I'm happy this time it was less😂 I have also put in over 30 hrs. since launch...lol I appreciate you. I just wish the raid respawned and all enemies reset. 😔",
+   "topics": [
+    "movement",
+    "mistake",
+    "respawn"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@x.LetsBeFrank.x",
+   "likes": 0,
+   "text": "I'm really hoping there is a pesky 1% drop that hasn't been found yet. Maybe a amulet or ring hmmmm =) since they didn't add one for Scorn Wilderness it seems.  It would make it feel like a true raid in my opinion. Also, I feel they should of added all the new variants to the Raid to keep the difficulty in line as far as end game content is concerned but that is just wishful thinking. @Primitive N…",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@fenderslasher",
+   "likes": 3,
+   "text": "Beat the entire raid in adamant gear and farmed all the Kuldra drops and skipped the entire end game materials.\n\nYou guys really dont need to worry about what gear is best. All the numbers are so close to each other, there isnt a single enemy where even the top weapon would kill in even a single hit less than what you were already using from the last expansion. Its all an illusion, the devs are te…",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@ricardoricardoricardoricardo",
+   "likes": 0,
+   "text": " @rainbowGZUS7  you played when the zone was bugged of after the patch? Mind you that processing the base material was 3:1 instead of 1:1 that it is now.\nAnyway, I skipped rune and went straight to dragon gear since farming the boss was easier.",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@davidgarza4592",
+   "likes": 1,
+   "text": "Dragonwilds vet here with over 185 hours in my main world, plus around 4-5k hours on OSRS. Unfortunately, they missed pretty hard with this update. The raid is too easy, there are too many bugs, and the progression didn't quite make sense, you could get full dragon well before ever gathering enough resources to make full rune.\n\nThat said, I'm still enjoying it a lot, and it's only a few minor twea…",
+   "topics": [
+    "glitch",
+    "mistake",
+    "respawn"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=tXJFy-QkoBw",
+   "quote": "Beat the entire raid in adamant gear and farmed all the Kuldra drops and skipped the entire end game materials.\n\nYou guys really dont need to worry about what gear is best. All the numbers are so close to each other, there isnt a single enemy where even the top weapon would kill in even a single hit less than what you were already using from the last expansion. Its all an illusion, the devs are te…",
+   "unseen": [
+    "beat",
+    "adamant",
+    "gear",
+    "farmed",
+    "skipped",
+    "dont",
+    "worry",
+    "numbers"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@fenderslasher"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=tXJFy-QkoBw",
+   "quote": " @rainbowGZUS7  you played when the zone was bugged of after the patch? Mind you that processing the base material was 3:1 instead of 1:1 that it is now.\nAnyway, I skipped rune and went straight to dragon gear since farming the boss was easier.",
+   "unseen": [
+    "played",
+    "bugged",
+    "mind",
+    "processing",
+    "base",
+    "material",
+    "anyway",
+    "skipped"
+   ],
+   "nearestKnown": {
+    "id": "s-bd1",
+    "name": "Black dragon skip",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@ricardoricardoricardoricardo"
+  }
+ ],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 159,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 1,
+  "end": false,
+  "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+  "templateScale": [
+   0.78,
+   0.68
+  ],
+  "templateScore": [
+   0.646,
+   0.496
+  ],
+  "complete": false,
+  "transcript": "whisper:small",
+  "notes": []
+ },
+ "curated": null
 }

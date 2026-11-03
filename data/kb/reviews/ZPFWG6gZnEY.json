@@ -1,0 +1,11 @@
+{
+ "id": "ZPFWG6gZnEY",
+ "url": "https://www.youtube.com/watch?v=ZPFWG6gZnEY",
+ "reviewedAt": "2026-11-03T21:50:28.312Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] ZPFWG6gZnEY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape Dragonwilds - Kuldra boss fight full gameplay [Tia_Mistra]"
+}

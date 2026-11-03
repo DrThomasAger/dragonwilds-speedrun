@@ -1,0 +1,11 @@
+{
+ "id": "WvXjQC9tB50",
+ "url": "https://www.youtube.com/watch?v=WvXjQC9tB50",
+ "reviewedAt": "2026-11-03T21:50:15.263Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] WvXjQC9tB50: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape Dragonwilds Boss Fight Kuldra cheesy way (Patched)"
+}

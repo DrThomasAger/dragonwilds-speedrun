@@ -1,0 +1,11 @@
+{
+ "id": "kyr7N_QVFdg",
+ "url": "https://www.youtube.com/watch?v=kyr7N_QVFdg",
+ "reviewedAt": "2026-11-03T21:49:00.955Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] kyr7N_QVFdg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape Dragonwilds 1.0 Is MASSIVE - What Actually Matters"
+}

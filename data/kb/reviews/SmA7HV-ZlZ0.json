@@ -1,11 +1,256 @@
 {
  "id": "SmA7HV-ZlZ0",
  "url": "https://www.youtube.com/watch?v=SmA7HV-ZlZ0",
- "reviewedAt": "2026-11-03T07:43:01.947Z",
+ "reviewedAt": "2026-11-03T21:50:52.471Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] SmA7HV-ZlZ0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "RuneScape: Dragonwilds Scorned wilderness Walkthrough/Guide Part 1 of 2"
+ "status": "ok",
+ "title": "RuneScape: Dragonwilds Scorned wilderness Walkthrough/Guide Part 1 of 2",
+ "author": "BeamsOGaming",
+ "date": "2026-09-30",
+ "videoDuration": 2893,
+ "kind": "guide",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [],
+ "segmentTimes": [],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [],
+ "events": null,
+ "commentary": [
+  {
+   "t": 37.4,
+   "text": "This is just a walk through a guide. It makes you reset, which is stupid. I got to get all the way back to Kaldra again.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/SmA7HV-ZlZ0?t=37",
+   "known": null
+  },
+  {
+   "t": 607.8,
+   "text": "But, I there's chests and [ __ ] And you can also cheese the boss here, which I'm going to do cuz I do need to",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/SmA7HV-ZlZ0?t=607",
+   "known": null
+  },
+  {
+   "t": 876.3,
+   "text": "I have nothing to get my Is it just like supposed to be a shortcut up here?",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/SmA7HV-ZlZ0?t=876",
+   "known": null
+  },
+  {
+   "t": 901,
+   "text": "Holy [ __ ] man. I thought he was dead.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/SmA7HV-ZlZ0?t=901",
+   "known": null
+  },
+  {
+   "t": 963.2,
+   "text": "die or something",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/SmA7HV-ZlZ0?t=963",
+   "known": null
+  },
+  {
+   "t": 1278,
+   "text": "Now this guy honestly is too risky to [ __ ] fight him cuz he might just fall off the map.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/SmA7HV-ZlZ0?t=1278",
+   "known": "s-kuldra"
+  },
+  {
+   "t": 1438.1,
+   "text": "air step. Might actually be a skip here. I might",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "air"
+   ],
+   "link": "https://youtu.be/SmA7HV-ZlZ0?t=1438",
+   "known": null
+  },
+  {
+   "t": 1454.9,
+   "text": "want to jump down and see if it's a skip. To get over there or something.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/SmA7HV-ZlZ0?t=1454",
+   "known": null
+  },
+  {
+   "t": 1509.9,
+   "text": "skip. You're supposed to go through that and I think this leads you to a a Sanguine Urn.",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "urn"
+   ],
+   "link": "https://youtu.be/SmA7HV-ZlZ0?t=1509",
+   "known": null
+  },
+  {
+   "t": 1865,
+   "text": "off. I was standing like right here with going up and the torch pushed you off. So, don't stand too close to the wall",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/SmA7HV-ZlZ0?t=1865",
+   "known": null
+  },
+  {
+   "t": 1921.7,
+   "text": "Yeah, look. Like uh even though it reset, these levers levers are already uh used. So, I don't I don't get that.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/SmA7HV-ZlZ0?t=1921",
+   "known": null
+  },
+  {
+   "t": 2314.8,
+   "text": "You [ __ ] I died to this guy. Holy [ __ ] dude. Where the [ __ ] are these guys coming from?",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/SmA7HV-ZlZ0?t=2314",
+   "known": null
+  },
+  {
+   "t": 2750.3,
+   "text": "I don't know if they respawn if you don't uh Ow.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/SmA7HV-ZlZ0?t=2750",
+   "known": null
+  }
+ ],
+ "textNotes": [],
+ "candidateMechanics": [
+  {
+   "source": "transcript",
+   "t": 1438.1,
+   "link": "https://youtu.be/SmA7HV-ZlZ0?t=1438",
+   "quote": "air step. Might actually be a skip here. I might",
+   "unseen": [
+    "might"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 1509.9,
+   "link": "https://youtu.be/SmA7HV-ZlZ0?t=1509",
+   "quote": "skip. You're supposed to go through that and I think this leads you to a a Sanguine Urn.",
+   "unseen": [
+    "supposed",
+    "leads",
+    "sanguine"
+   ],
+   "nearestKnown": null
+  }
+ ],
+ "transcriptSource": "kb-raw:auto:en-orig",
+ "transcriptLines": 222,
+ "transcriptRetry": true,
+ "subsError": "ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests",
+ "quality": {
+  "visual": "skipped",
+  "visualReason": "video longer than 45 min",
+  "transcript": "kb-raw:auto:en-orig",
+  "notes": []
+ },
+ "curated": null
 }

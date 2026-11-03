@@ -1,0 +1,11 @@
+{
+ "id": "kIFZmk5P6CQ",
+ "url": "https://www.youtube.com/watch?v=kIFZmk5P6CQ",
+ "reviewedAt": "2026-11-03T21:48:46.814Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] kIFZmk5P6CQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "ALL Sanguine Urn Locations In Scorned Wilderness - RuneScape Dragonwilds"
+}

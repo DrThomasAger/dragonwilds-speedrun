@@ -41,6 +41,8 @@ for f in files:
         if '"' not in line:
             probs.append(f'hedge: …{line}…')
     for m in CONTRAST.finditer(nav_free):
+        if '"' in nav_free[max(0, m.start() - 120):m.start()].split('\n')[-1]:
+            continue  # inside a quoted player line, kept verbatim
         probs.append(f'contrast: …{nav_free[max(0, m.start() - 40):m.end() + 30]}…'.replace('\n', ' '))
     yt = re.findall(r'https://youtu\.be/[\w-]{11}(\?t=\d+)?', body)
     if any(t == '' for t in yt):

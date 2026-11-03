@@ -1,0 +1,11 @@
+{
+ "id": "BvI39z_sW3o",
+ "url": "https://www.youtube.com/watch?v=BvI39z_sW3o",
+ "reviewedAt": "2026-11-03T21:55:06.201Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] BvI39z_sW3o: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "Runescape Dragonwilds - HARDCORE Takes on the Scorned Wilderness"
+}

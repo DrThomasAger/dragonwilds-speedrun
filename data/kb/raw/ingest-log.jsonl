@@ -734,6 +734,21 @@
 {"at":"2026-11-03T20:26:47.934Z","source":"youtube","kind":"progress","id":"comments","title":"10/223 videos' comments fetched"}
 {"at":"2026-11-03T20:29:09.534Z","source":"youtube","kind":"progress","id":"comments","title":"20/223 videos' comments fetched"}
 {"at":"2026-11-03T20:33:35.954Z","source":"run-all","kind":"run-summary","id":"2026-11-03T20:19:43.167Z","title":"speedrun,youtube,twitch,reddit,discord: 11 new items"}
+<<<<<<< Updated upstream
 {"at":"2026-11-03T21:58:28.644Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1: 4 videos need transcripts (4 tracked)"}
 {"at":"2026-11-03T21:58:30.470Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1 done: 235/369 videos have transcripts"}
 {"at":"2026-11-03T21:58:30.927Z","source":"run-all","kind":"run-summary","id":"2026-11-03T21:58:16.489Z","title":"speedrun,reddit,youtube,discord: 2 new items"}
+=======
+{"at":"2026-11-03T21:31:29.838Z","source":"youtube","kind":"progress","id":"discover","title":"search found 3 new videos (348 discovered total)"}
+{"at":"2026-11-03T21:31:29.909Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1: 4 videos need transcripts (373 tracked)"}
+{"at":"2026-11-03T21:31:46.539Z","source":"youtube","kind":"video","id":"F8p60k1co3U","title":"Runescape Dragonwilds - 1st Hard Mode Playthrough - Preparing for the Scorned Wilderness"}
+{"at":"2026-11-03T21:32:06.379Z","source":"youtube","kind":"transcript","id":"R3VaT2TAv0c","title":"BiggySweats: You’re Progressing WRONG in RuneScape Dragonwilds 1.0 (95 lines, auto:en-orig)"}
+{"at":"2026-11-03T21:32:06.384Z","source":"youtube","kind":"video","id":"R3VaT2TAv0c","title":"You’re Progressing WRONG in RuneScape Dragonwilds 1.0"}
+{"at":"2026-11-03T21:32:21.878Z","source":"youtube","kind":"transcript","id":"m5nsohK3qUo","title":"SuperStooob: This Almost Broke Me… | Ring of Recoil vs Velgar (RuneScape Dragonwilds) (62 lines, manual:en-GB)"}
+{"at":"2026-11-03T21:32:21.882Z","source":"youtube","kind":"video","id":"m5nsohK3qUo","title":"This Almost Broke Me… | Ring of Recoil vs Velgar (RuneScape Dragonwilds)"}
+{"at":"2026-11-03T21:32:24.903Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1 done: 237/372 videos have transcripts"}
+{"at":"2026-11-03T21:36:15.881Z","source":"youtube","kind":"progress","id":"comments","title":"10/199 videos' comments fetched"}
+{"at":"2026-11-03T21:38:42.919Z","source":"youtube","kind":"progress","id":"comments","title":"20/199 videos' comments fetched"}
+{"at":"2026-11-03T21:41:58.167Z","source":"youtube","kind":"progress","id":"comments","title":"30/199 videos' comments fetched"}
+{"at":"2026-11-03T21:43:32.265Z","source":"run-all","kind":"run-summary","id":"2026-11-03T21:28:04.928Z","title":"speedrun,youtube,twitch,reddit,discord: 11 new items"}
+>>>>>>> Stashed changes

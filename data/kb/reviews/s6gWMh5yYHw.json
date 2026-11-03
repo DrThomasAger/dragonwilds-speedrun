@@ -1,11 +1,497 @@
 {
  "id": "s6gWMh5yYHw",
  "url": "https://www.youtube.com/watch?v=s6gWMh5yYHw",
- "reviewedAt": "2026-11-03T07:43:06.711Z",
+ "reviewedAt": "2026-11-03T21:53:38.655Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] s6gWMh5yYHw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Kuldra Easy Farm Guide – Level 9 Armour & Weapons  | RuneScape Dragonwilds"
+ "status": "ok",
+ "title": "Kuldra Easy Farm Guide – Level 9 Armour & Weapons  | RuneScape Dragonwilds",
+ "author": "OER Games",
+ "date": "2026-09-17",
+ "videoDuration": 999,
+ "kind": "guide",
+ "from": [
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [],
+ "segmentTimes": [],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [],
+ "events": null,
+ "commentary": [
+  {
+   "t": 20.9,
+   "text": "Uh and at the time of making this video, I don't know if they're going to release a hot fix,",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=20",
+   "known": null
+  },
+  {
+   "t": 62.5,
+   "text": "So, uh yeah. Uh we're going to have to die three times.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=62",
+   "known": null
+  },
+  {
+   "t": 67.7,
+   "text": "That's the first death over uh beside where you'd make the first bridge.",
+   "topics": [
+    "mistake"
+   ],
+   "places": [
+    "bridge"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=67",
+   "known": null
+  },
+  {
+   "t": 79.6,
+   "text": "So, we've just skipped >> [music] >> basically two zones.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=79",
+   "known": null
+  },
+  {
+   "t": 82.9,
+   "text": "Skipping to the third one.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=82",
+   "known": null
+  },
+  {
+   "t": 86.4,
+   "text": "It's a load us in now.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=86",
+   "known": null
+  },
+  {
+   "t": 109.6,
+   "text": "That's our second death.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=109",
+   "known": null
+  },
+  {
+   "t": 135.9,
+   "text": "So we skipped now to this part of the zone.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=135",
+   "known": null
+  },
+  {
+   "t": 139.6,
+   "text": "Um I found this was the quickest way.",
+   "topics": [
+    "trick"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=139",
+   "known": null
+  },
+  {
+   "t": 147.2,
+   "text": "This puzzle um I tried dying a few places, but I found this one here the best just beside",
+   "topics": [
+    "trick"
+   ],
+   "places": [
+    "puzzle"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=147",
+   "known": null
+  },
+  {
+   "t": 161.4,
+   "text": "Um I did do it in there as well and I just kept trying to die as, you know, as quickly as possible,",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=161",
+   "known": null
+  },
+  {
+   "t": 179.4,
+   "text": "Okay, so we're going to load in now for uh I think the last time.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=179",
+   "known": null
+  },
+  {
+   "t": 194,
+   "text": "So load back in.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=194",
+   "known": null
+  },
+  {
+   "t": 356.8,
+   "text": "I pick up the orb, and I run into the shield cuz I found that sometimes,",
+   "topics": [
+    "trick"
+   ],
+   "places": [
+    "orb"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=356",
+   "known": null
+  },
+  {
+   "t": 362.6,
+   "text": "not all the time, I don't know if it's a bug, but uh you can actually load into the next zone",
+   "topics": [
+    "glitch",
+    "respawn"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=362",
+   "known": null
+  },
+  {
+   "t": 430,
+   "text": "Um, so yeah, we'll just dash around.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=430",
+   "known": null
+  },
+  {
+   "t": 580.2,
+   "text": "Yeah, [snorts] so we didn't load in there with an orb.",
+   "topics": [
+    "respawn"
+   ],
+   "places": [
+    "orb"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=580",
+   "known": null
+  },
+  {
+   "t": 619.7,
+   "text": "I mean why the the game didn't just let you skip straight to this area,",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=619",
+   "known": null
+  },
+  {
+   "t": 651.8,
+   "text": "should fly down.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=651",
+   "known": "s-flight"
+  },
+  {
+   "t": 707.9,
+   "text": "I've totally missed out on that.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=707",
+   "known": null
+  },
+  {
+   "t": 752,
+   "text": "So, again, doing this on normal mode might be a bit tricky.",
+   "topics": [
+    "trick"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=752",
+   "known": null
+  },
+  {
+   "t": 787.6,
+   "text": "I didn't notice that in it that phase where his neck down, it's quite easy to miss him.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=787",
+   "known": null
+  },
+  {
+   "t": 812.6,
+   "text": "I find it much faster just defeating the dragon,",
+   "topics": [
+    "timing"
+   ],
+   "places": [
+    "dragon"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=812",
+   "known": "s-bd1"
+  },
+  {
+   "t": 850.2,
+   "text": "You can just bypass him.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=850",
+   "known": null
+  },
+  {
+   "t": 893.5,
+   "text": "I don't know if they're going to patch in having kept heard something about they're going to",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=893",
+   "known": null
+  },
+  {
+   "t": 896.8,
+   "text": "patch in the the whole mobs and everything respawning, and I don't know about the when you",
+   "topics": [
+    "glitch",
+    "respawn"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=896",
+   "known": null
+  },
+  {
+   "t": 903.9,
+   "text": "jump and die a couple of times.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=903",
+   "known": null
+  },
+  {
+   "t": 906.8,
+   "text": "Um I mean, that might get patched in, so yeah.",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/s6gWMh5yYHw?t=906",
+   "known": null
+  }
+ ],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "After killing him once I decided to farm the chest loot. The dungeon is long and time-consuming, so I found a fast method using 3 deaths to spawn much closer to Kuldra each run. During the fight I also discovered a bug that lets you carry the orb into the next phase, which speeds the fight up a lot and makes it much easier.",
+   "topics": [
+    "glitch",
+    "trick"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "I did the whole farm on Easy mode to make it even faster. It took me around 12 hours to get the full set of Level 9 armour and weapons.",
+   "topics": [
+    "timing"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Onlineopdecomputer",
+   "likes": 2,
+   "text": "You can skip the whol kuldra fight en go to the heart. With the jump parcour",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@andrew757-4kt5",
+   "likes": 1,
+   "text": "@1:32  you get the location unlocked when you walk near the water crystal, you don't have to kill yourself.\nJust use the teleport behind you and you can use the skip.",
+   "topics": [
+    "skip",
+    "respawn"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Darkayazx",
+   "likes": 0,
+   "text": "Patched I think, doesn’t work for me",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@OER_Games",
+   "likes": 1,
+   "text": "I had a feeling they would, that’s a shame they didn’t implement a option to just skip to the boss on first time of killing Kuldra.. having an option to crawl dungeon or boss fight I think would have been best",
+   "topics": [
+    "skip"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "transcript",
+   "t": 79.6,
+   "link": "https://youtu.be/s6gWMh5yYHw?t=79",
+   "quote": "So, we've just skipped >> [music] >> basically two zones.",
+   "unseen": [
+    "we've",
+    "skipped",
+    "zones"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 82.9,
+   "link": "https://youtu.be/s6gWMh5yYHw?t=82",
+   "quote": "Skipping to the third one.",
+   "unseen": [
+    "skipping"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 135.9,
+   "link": "https://youtu.be/s6gWMh5yYHw?t=135",
+   "quote": "So we skipped now to this part of the zone.",
+   "unseen": [
+    "skipped"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 619.7,
+   "link": "https://youtu.be/s6gWMh5yYHw?t=619",
+   "quote": "I mean why the the game didn't just let you skip straight to this area,",
+   "unseen": [
+    "mean"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 752,
+   "link": "https://youtu.be/s6gWMh5yYHw?t=752",
+   "quote": "So, again, doing this on normal mode might be a bit tricky.",
+   "unseen": [
+    "doing",
+    "mode",
+    "might",
+    "tricky"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=s6gWMh5yYHw",
+   "quote": "@1:32  you get the location unlocked when you walk near the water crystal, you don't have to kill yourself.\nJust use the teleport behind you and you can use the skip.",
+   "unseen": [
+    "crystal",
+    "yourself"
+   ],
+   "nearestKnown": null,
+   "author": "@andrew757-4kt5"
+  }
+ ],
+ "transcriptSource": "youtube:en",
+ "transcriptLines": 283,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "error",
+  "visualReason": "download failed: ERROR: \r[download] Got error: [Errno 11001] getaddrinfo failed. Giving up after 10 retries",
+  "transcript": "youtube:en",
+  "notes": []
+ },
+ "curated": null
 }

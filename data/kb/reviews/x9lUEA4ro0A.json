@@ -1,11 +1,873 @@
 {
  "id": "x9lUEA4ro0A",
  "url": "https://www.youtube.com/watch?v=x9lUEA4ro0A",
- "reviewedAt": "2026-11-03T07:43:05.034Z",
+ "reviewedAt": "2026-11-03T21:52:14.524Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] x9lUEA4ro0A: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Runescape Dragonwilds - Scorned Wilderness SOLO Raid Guide"
+ "status": "ok",
+ "title": "Runescape Dragonwilds - Scorned Wilderness SOLO Raid Guide",
+ "author": "Northforge",
+ "date": "2026-10-08",
+ "videoDuration": 3937,
+ "kind": "guide",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [],
+ "segmentTimes": [],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [],
+ "events": null,
+ "commentary": [
+  {
+   "t": 105.8,
+   "text": "The raid starts right around here. So, we have to go find the door and get in. We'll just teleport over to that load",
+   "topics": [
+    "respawn"
+   ],
+   "places": [
+    "door"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=105",
+   "known": null
+  },
+  {
+   "t": 148.4,
+   "text": "to die too much. Get as much rune and discordant dust or discordant uh residue is what it's called to uh craft the next",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=148",
+   "known": null
+  },
+  {
+   "t": 235.2,
+   "text": "broken to birth a perfect race of dragons. But her children were deemed failures and destroyed.",
+   "topics": [
+    "glitch",
+    "mistake"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=235",
+   "known": null
+  },
+  {
+   "t": 274.6,
+   "text": "In desperation, she unleashed the resonator, a cataclysm meant to destroy Cauldra. Ashen was broken, but Culdra endured.",
+   "topics": [
+    "glitch"
+   ],
+   "places": [
+    "cataclysm"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=274",
+   "known": null
+  },
+  {
+   "t": 545.2,
+   "text": "All right, throw on your mage gear in preparation for the first uh mob",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=545",
+   "known": null
+  },
+  {
+   "t": 611.5,
+   "text": "Okay. Dodge, sprint,",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=611",
+   "known": null
+  },
+  {
+   "t": 653.2,
+   "text": "Dodge. Sprint. Recharge.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=653",
+   "known": null
+  },
+  {
+   "t": 716.5,
+   "text": "proper element. Now, here there is a chest below here, but it's a bit risky. If I can see it.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=716",
+   "known": null
+  },
+  {
+   "t": 724.1,
+   "text": "Yeah, right down there in that hole. I'm going to ignore it. It's It's not worth the uh the extra time it takes. I mean,",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=724",
+   "known": null
+  },
+  {
+   "t": 790.4,
+   "text": "skips, but there's a uh a water uh doorway here, so we need to charge water.",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "water"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=790",
+   "known": null
+  },
+  {
+   "t": 1025.4,
+   "text": "Okay. That's that. Now, this next puzzle is actually one that you can skip entirely. I'm still",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "puzzle"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1025",
+   "known": null
+  },
+  {
+   "t": 1034.2,
+   "text": "going to show you how to do it, but you can skip it if you want to.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1034",
+   "known": null
+  },
+  {
+   "t": 1103.4,
+   "text": "Charge up my stamina. There we go. animation locked myself.",
+   "topics": [
+    "cancel"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1103",
+   "known": null
+  },
+  {
+   "t": 1143.8,
+   "text": "Uh, usually this is open. Maybe it's bugged in my main world. I don't know. So, I guess my point is useless. But",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1143",
+   "known": null
+  },
+  {
+   "t": 1204.7,
+   "text": "over there. So, it reset my my air charge, unfortunately.",
+   "topics": [
+    "mistake"
+   ],
+   "places": [
+    "air"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1204",
+   "known": null
+  },
+  {
+   "t": 1247.1,
+   "text": "Then we'll wind step back up. I don't know how this guy got here, but I'll kill him, too.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1247",
+   "known": null
+  },
+  {
+   "t": 1256.4,
+   "text": "It resets the time anyways. So, let's charge the pylon, and then we need to do the fire side.",
+   "topics": [
+    "mistake"
+   ],
+   "places": [
+    "pylon",
+    "fire"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1256",
+   "known": null
+  },
+  {
+   "t": 1300.2,
+   "text": "Go up the stairs. Try to be as fast as you can. Cross this. Charge up a windstep as you're",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "stairs"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1300",
+   "known": null
+  },
+  {
+   "t": 1317.3,
+   "text": "across. Now, you can do a double jump and then a dash immediately after to land on that platform. We're going to do",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1317",
+   "known": "tech-infjump"
+  },
+  {
+   "t": 1321.8,
+   "text": "another windstep. 8 seconds to spare. And then we're going to get an orb to ponder.",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "orb"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1321",
+   "known": null
+  },
+  {
+   "t": 1359.4,
+   "text": "the first time I've done the raid on this account. That gate is usually open for me on my main. So, you can just skip",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "gate"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1359",
+   "known": null
+  },
+  {
+   "t": 1414.5,
+   "text": "now there's a skip here. I actually would recommend you skip this part. There's some poison involved. So, we're",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "poison"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1414",
+   "known": "s-poison"
+  },
+  {
+   "t": 1436.4,
+   "text": "try not to go too fast, but we're going to skip this part as well. You can take out the mobs if you wish,",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1436",
+   "known": null
+  },
+  {
+   "t": 1445.4,
+   "text": "but continue through. And then we're going to charge up a windstep. There's a skeleton right",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1445",
+   "known": null
+  },
+  {
+   "t": 1459.4,
+   "text": "go down the stairs all the way, drop through this hole, and there's going to be two options. You can go left",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "stairs"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1459",
+   "known": null
+  },
+  {
+   "t": 1498.6,
+   "text": "Okay. All the way to the top of the stairs. Pop this lever. Charge a windstep.",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "stairs"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1498",
+   "known": null
+  },
+  {
+   "t": 1530.2,
+   "text": "Charge a wind step here. And we're just going to drop right onto this beam here. Grab that.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1530",
+   "known": null
+  },
+  {
+   "t": 1660,
+   "text": "it's okay. And we're going to drop to the right here. Charge a windstep. We're going to aim",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1660",
+   "known": null
+  },
+  {
+   "t": 1667.4,
+   "text": "for that little ledge right there. So, sprint and jump. We're going to knock that skeleton over.",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "ledge"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1667",
+   "known": null
+  },
+  {
+   "t": 1675.7,
+   "text": "Turn your sprint off before you start attacking him. You may accidentally walk off the ledge.",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "ledge"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1675",
+   "known": null
+  },
+  {
+   "t": 1721,
+   "text": "going to teleport on me any second. I'm going to try to ignore him because I want to take out these range attack guys",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1721",
+   "known": null
+  },
+  {
+   "t": 2102.4,
+   "text": "brother. That's what I have to say. Throw our obsidian back. Look at that.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2102",
+   "known": null
+  },
+  {
+   "t": 2161.3,
+   "text": "Yeah, the bigger weapons is a no-go for sure. And we'll skip the rune crossbow entirely because we're going to get the",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2161",
+   "known": null
+  },
+  {
+   "t": 2185.6,
+   "text": "now. I'm just going to Okay, we're back. I made sure to bring enough stuff for a load stone so we can get back here",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2185",
+   "known": null
+  },
+  {
+   "t": 2212,
+   "text": "this water uh wall here door. First things first, take out the pickaxe.",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "water",
+    "door"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2212",
+   "known": null
+  },
+  {
+   "t": 2237.8,
+   "text": "Okay, so pickaxe. Come right in here. We're going to knock down this wall.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2237",
+   "known": null
+  },
+  {
+   "t": 2274.6,
+   "text": "Not me failing every single parry.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2274",
+   "known": null
+  },
+  {
+   "t": 2291.7,
+   "text": "through the floor and they will run down the stairs and come and get you. So if they are on their way in here, you can",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "stairs"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2291",
+   "known": null
+  },
+  {
+   "t": 2296.6,
+   "text": "see their health bars through the wall. I'd hold off on charging until you clear them out. But I don't see them. So, I'm",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2296",
+   "known": null
+  },
+  {
+   "t": 2310.2,
+   "text": "through it. Who cares? And then you're going to prep a windstep. We'll jump across here.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2310",
+   "known": "windjump"
+  },
+  {
+   "t": 2358,
+   "text": "Okay. And then we're going to throw the orb into the pylon up here.",
+   "topics": [
+    "mistake"
+   ],
+   "places": [
+    "orb",
+    "pylon"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2358",
+   "known": null
+  },
+  {
+   "t": 2396.8,
+   "text": "It made it a lot faster. It used to take a lot longer to get a charge. That's nice, actually.",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2396",
+   "known": null
+  },
+  {
+   "t": 2439.5,
+   "text": "My camera's all messed up.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2439",
+   "known": null
+  },
+  {
+   "t": 2508.5,
+   "text": "Theoretically, you could skip this spot as well and just walk right by him, but we need the uh materials.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2508",
+   "known": null
+  },
+  {
+   "t": 2520.2,
+   "text": "Yeah, animation locked myself there.",
+   "topics": [
+    "cancel"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2520",
+   "known": null
+  },
+  {
+   "t": 2532.6,
+   "text": "Using those eye frames to my advantage. Dodge sprint.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2532",
+   "known": null
+  },
+  {
+   "t": 2601.6,
+   "text": "dodge and sprint. I'll reposition over here again.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2601",
+   "known": null
+  },
+  {
+   "t": 2610.4,
+   "text": "Don't dive off the ledge. Said it once, I'll say it again. That stamina and gravity are your two hardest",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "ledge"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2610",
+   "known": null
+  },
+  {
+   "t": 2626.4,
+   "text": "All right. Now, there's there's a chest over there we can just grab. I do skip this part. just",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2626",
+   "known": null
+  },
+  {
+   "t": 2707.8,
+   "text": "Don't fall to your death. Going to run up the right side of these",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2707",
+   "known": null
+  },
+  {
+   "t": 2727.4,
+   "text": "Jump up to here, double jump, and dash to get into here. Now, the theme of this puzzle is the uh",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "puzzle"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2727",
+   "known": "tech-infjump"
+  },
+  {
+   "t": 2835.3,
+   "text": "thing. You can just double jump dash. As soon as you step on this, all three of these guys are going to wake up. Now, I",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2835",
+   "known": "tech-infjump"
+  },
+  {
+   "t": 2892.2,
+   "text": "turn the valve off again. And then we'll windstep our way up.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2892",
+   "known": null
+  },
+  {
+   "t": 3035.4,
+   "text": "A couple of chests here we can grab. Wind step up to this one.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=3035",
+   "known": null
+  },
+  {
+   "t": 3126.7,
+   "text": "Pay very close attention to Cauldra's fire breath. Ready to dodge it now. I'm going to throw an orb in right",
+   "topics": [
+    "mistake"
+   ],
+   "places": [
+    "fire",
+    "orb"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=3126",
+   "known": null
+  },
+  {
+   "t": 3238.2,
+   "text": "throw it onto the cannon.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=3238",
+   "known": null
+  },
+  {
+   "t": 3643.7,
+   "text": "Charge this one up. Wait for that stamina. Died a couple times to that, not realizing I had no",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=3643",
+   "known": null
+  },
+  {
+   "t": 3651.8,
+   "text": "stamina. just falling to my death.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=3651",
+   "known": null
+  },
+  {
+   "t": 3668.6,
+   "text": "Let's throw this orb into the cannon again. I'm going to wait for that to disappear. It'll knock me off.",
+   "topics": [
+    "mistake"
+   ],
+   "places": [
+    "orb"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=3668",
+   "known": null
+  },
+  {
+   "t": 3715.6,
+   "text": "think air is just slightly faster. The only thing you got to watch out for is if you see a poison ring under your",
+   "topics": [
+    "timing"
+   ],
+   "places": [
+    "air",
+    "poison"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=3715",
+   "known": "s-poison"
+  },
+  {
+   "t": 3832.8,
+   "text": "Once that's dead, it's going to tell you to get out. It's impossible to get out, but I've",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=3832",
+   "known": null
+  },
+  {
+   "t": 3844.5,
+   "text": "run, you'll be good. It'll teleport you out.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/x9lUEA4ro0A?t=3844",
+   "known": null
+  }
+ ],
+ "textNotes": [],
+ "candidateMechanics": [
+  {
+   "source": "transcript",
+   "t": 724.1,
+   "link": "https://youtu.be/x9lUEA4ro0A?t=724",
+   "quote": "Yeah, right down there in that hole. I'm going to ignore it. It's It's not worth the uh the extra time it takes. I mean,",
+   "unseen": [
+    "ignore",
+    "worth",
+    "mean"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 790.4,
+   "link": "https://youtu.be/x9lUEA4ro0A?t=790",
+   "quote": "skips, but there's a uh a water uh doorway here, so we need to charge water.",
+   "unseen": [],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 1025.4,
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1025",
+   "quote": "Okay. That's that. Now, this next puzzle is actually one that you can skip entirely. I'm still",
+   "unseen": [
+    "entirely"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 1034.2,
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1034",
+   "quote": "going to show you how to do it, but you can skip it if you want to.",
+   "unseen": [
+    "show"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 1359.4,
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1359",
+   "quote": "the first time I've done the raid on this account. That gate is usually open for me on my main. So, you can just skip",
+   "unseen": [
+    "i've",
+    "account",
+    "usually",
+    "open"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 1436.4,
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1436",
+   "quote": "try not to go too fast, but we're going to skip this part as well. You can take out the mobs if you wish,",
+   "unseen": [
+    "wish"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 1459.4,
+   "link": "https://youtu.be/x9lUEA4ro0A?t=1459",
+   "quote": "go down the stairs all the way, drop through this hole, and there's going to be two options. You can go left",
+   "unseen": [
+    "stairs",
+    "options"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 2161.3,
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2161",
+   "quote": "Yeah, the bigger weapons is a no-go for sure. And we'll skip the rune crossbow entirely because we're going to get the",
+   "unseen": [
+    "bigger",
+    "weapons",
+    "no-go",
+    "we'll",
+    "rune",
+    "entirely"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 2291.7,
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2291",
+   "quote": "through the floor and they will run down the stairs and come and get you. So if they are on their way in here, you can",
+   "unseen": [
+    "stairs",
+    "their"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 2296.6,
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2296",
+   "quote": "see their health bars through the wall. I'd hold off on charging until you clear them out. But I don't see them. So, I'm",
+   "unseen": [
+    "their",
+    "health",
+    "charging"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 2508.5,
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2508",
+   "quote": "Theoretically, you could skip this spot as well and just walk right by him, but we need the uh materials.",
+   "unseen": [
+    "theoretically"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 2626.4,
+   "link": "https://youtu.be/x9lUEA4ro0A?t=2626",
+   "quote": "All right. Now, there's there's a chest over there we can just grab. I do skip this part. just",
+   "unseen": [
+    "chest"
+   ],
+   "nearestKnown": null
+  }
+ ],
+ "transcriptSource": "kb-raw:auto:en-orig",
+ "transcriptLines": 392,
+ "transcriptRetry": true,
+ "subsError": "ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests",
+ "quality": {
+  "visual": "skipped",
+  "visualReason": "video longer than 45 min",
+  "transcript": "kb-raw:auto:en-orig",
+  "notes": []
+ },
+ "curated": null
 }

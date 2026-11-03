@@ -10,7 +10,7 @@ tags:
 - kuldra raid optimal path
 author: Dr. Thomas Ager
 meta_title: What is the fastest skip-by-skip raid path?
-meta_description: What is the fastest skip-by-skip path through the raid? 13 frame-timed pieces that work on 1.0.1.2 add up to 6:52.80, and a 6:48.10 pace shows where to find 4.7 s.
+meta_description: What is the fastest skip-by-skip path through the raid? 13 frame-timed pieces on 1.0.1.2 add up to 6:52.80; a 6:48.10 pace shows where 4.7 s hides.
 feature_image_alt: A route map of the Scorned Wilderness cut into 13 checkpoint pieces, each labelled with its source run and time
 canonical: https://drthomasager.com/skip-level-optimal-path/
 pillar: data-and-the-record

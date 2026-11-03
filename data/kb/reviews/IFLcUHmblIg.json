@@ -1,0 +1,11 @@
+{
+ "id": "IFLcUHmblIg",
+ "url": "https://www.youtube.com/watch?v=IFLcUHmblIg",
+ "reviewedAt": "2026-11-03T21:48:26.490Z",
+ "pipelineVersion": 1,
+ "level": "full",
+ "status": "error",
+ "error": "ERROR: [youtube] IFLcUHmblIg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "rateLimited": false,
+ "title": "RuneScape: Dragonwilds Kuldra Boss Fight"
+}

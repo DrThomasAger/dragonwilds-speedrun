@@ -1,11 +1,583 @@
 {
  "id": "uD8WCTsFiyY",
  "url": "https://www.youtube.com/watch?v=uD8WCTsFiyY",
- "reviewedAt": "2026-11-03T07:41:09.202Z",
+ "reviewedAt": "2026-11-03T21:45:10.437Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] uD8WCTsFiyY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Queen Kuldra Raid Full Guide — Quickest Run | RuneScape: Dragonwilds | Gelaham"
+ "status": "ok",
+ "title": "Queen Kuldra Raid Full Guide — Quickest Run | RuneScape: Dragonwilds | Gelaham",
+ "author": "Gelaham",
+ "date": "2026-10-25",
+ "videoDuration": 2427,
+ "kind": "guide",
+ "from": [
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [],
+ "segmentTimes": [],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [],
+ "events": null,
+ "commentary": [
+  {
+   "t": 21.8,
+   "text": "happen to die in this raid, you'll spawn in your bed, and your tombstone will be right in front of the commander.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=21",
+   "known": null
+  },
+  {
+   "t": 69.9,
+   "text": "left here, you want to use your wind step, grab your chest. Grab an air crystal.",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "air"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=69",
+   "known": null
+  },
+  {
+   "t": 162.9,
+   "text": "this wall here. As so. Sometimes you'll get hit. If you get",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=162",
+   "known": null
+  },
+  {
+   "t": 180.3,
+   "text": "this crystal, get through the door.",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "door"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=180",
+   "known": null
+  },
+  {
+   "t": 192.3,
+   "text": "And make a good sprint towards this water crystal. Kind of position yourself where the",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "water"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=192",
+   "known": null
+  },
+  {
+   "t": 227.6,
+   "text": "Grab a gumball out of this machine. You want to hug this wall on the back.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=227",
+   "known": null
+  },
+  {
+   "t": 292.6,
+   "text": "Our next area is going to be behind that wall, but we want to go to the right here for our urn, for our first urn of",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "urn"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=292",
+   "known": null
+  },
+  {
+   "t": 340.2,
+   "text": "Now, hug this wall. Go back to the area where we diverted",
+   "topics": [
+    "movement",
+    "skip"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=340",
+   "known": null
+  },
+  {
+   "t": 358.6,
+   "text": "We'll go to the left here towards this damaged wall. We'll go right through here.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=358",
+   "known": null
+  },
+  {
+   "t": 405.3,
+   "text": "All right. Once you get that air enchantment, you want to go back towards this wall.",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "air"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=405",
+   "known": null
+  },
+  {
+   "t": 429.2,
+   "text": "And get your axe out. Get your wind step.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=429",
+   "known": null
+  },
+  {
+   "t": 439.2,
+   "text": "Go over here, get your wind step again. Want to crack this open.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=439",
+   "known": null
+  },
+  {
+   "t": 448.5,
+   "text": "Now you want to get yourself some fire down here. Fire down here, you can get your wind step again.",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "fire"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=448",
+   "known": null
+  },
+  {
+   "t": 461,
+   "text": "place. Get your wind step ready again. Jump up here. Wind step again.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=461",
+   "known": "windjump"
+  },
+  {
+   "t": 533.8,
+   "text": "Be a staircase to your left here. And get your wind step ready again.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=533",
+   "known": null
+  },
+  {
+   "t": 546.3,
+   "text": "And go to the staircase going through the door. You want to get your wind step ready again.",
+   "topics": [
+    "movement",
+    "skip"
+   ],
+   "places": [
+    "door"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=546",
+   "known": null
+  },
+  {
+   "t": 582.2,
+   "text": "Get your wind step again.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=582",
+   "known": null
+  },
+  {
+   "t": 601.9,
+   "text": "Get your wind step ready again. And now on this part, we're going to completely skip the sewer system, and",
+   "topics": [
+    "movement",
+    "skip"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=601",
+   "known": null
+  },
+  {
+   "t": 610.2,
+   "text": "we're going to hug this wall here. So, it will save you a lot of time. Also, it will be",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=610",
+   "known": null
+  },
+  {
+   "t": 636.7,
+   "text": ">> [snorts] >> above the urn. Completely skip this boss.",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "urn"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=636",
+   "known": null
+  },
+  {
+   "t": 686.6,
+   "text": "Jump down here. As he follows you down here, just use your wind step",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=686",
+   "known": "windjump"
+  },
+  {
+   "t": 709.7,
+   "text": "Now, grab your pickaxe. You want to hit this wall here. Unfortunately, this is a place where",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=709",
+   "known": null
+  },
+  {
+   "t": 765.7,
+   "text": "All right, grab yourself an air crystal. Get your wind step ready.",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "air"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=765",
+   "known": null
+  },
+  {
+   "t": 785.5,
+   "text": "Get your wind step ready again. Make your way across this broken bridge.",
+   "topics": [
+    "movement",
+    "glitch"
+   ],
+   "places": [
+    "bridge"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=785",
+   "known": null
+  },
+  {
+   "t": 889.6,
+   "text": "You can just jump past this rubble here. Grab your wind step.",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "rubble"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=889",
+   "known": "windjump"
+  },
+  {
+   "t": 956.6,
+   "text": "Try to build some stamina before you get to the dragon. And you can just skip all these enemies.",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "dragon"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=956",
+   "known": "s-bd1"
+  },
+  {
+   "t": 1045.4,
+   "text": ">> Completely skip these enemies.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=1045",
+   "known": null
+  },
+  {
+   "t": 1068.6,
+   "text": "and this one. Okay, you're wind stepped. Probably going to take some damage.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=1068",
+   "known": null
+  },
+  {
+   "t": 1084.8,
+   "text": "Woah. Scale this wall.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=1084",
+   "known": null
+  },
+  {
+   "t": 1133.4,
+   "text": "Hopefully you're not as bad as I am. Jump up this wall.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=1133",
+   "known": null
+  },
+  {
+   "t": 1144.3,
+   "text": "You want to jump on this crate over here. Just wind stepped again. You're going to have to time your jump here.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=1144",
+   "known": "windjump"
+  },
+  {
+   "t": 1444.5,
+   "text": "We use wind step twice.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=1444",
+   "known": null
+  },
+  {
+   "t": 1593.8,
+   "text": "For this, just aim for the neck. Don't aim right here. Aim for the center neck. If you miss a bullet, you're going to",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=1593",
+   "known": null
+  },
+  {
+   "t": 1635.5,
+   "text": "their mother. And as soon as you're on to the next phase, that dragon will automatically die.",
+   "topics": [
+    "mistake"
+   ],
+   "places": [
+    "dragon"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=1635",
+   "known": "s-bd1"
+  },
+  {
+   "t": 1854,
+   "text": "phase of Goldrinn. Try not to stand outside the bubble or you will die.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=1854",
+   "known": null
+  },
+  {
+   "t": 1894.8,
+   "text": "And wait for a water dragon. You want to kind of stick towards this wall over here. Then come to you.",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "water",
+    "dragon"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=1894",
+   "known": "s-bd1"
+  },
+  {
+   "t": 2056.3,
+   "text": "Now our turret is ready. Make sure you got your stamina up before you jump over ledges, or you'll almost die like I",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=2056",
+   "known": null
+  },
+  {
+   "t": 2179.9,
+   "text": "Get the final three. Now, on this time, the dragon will not die. You can either kill him, or you could",
+   "topics": [
+    "mistake"
+   ],
+   "places": [
+    "dragon"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=2179",
+   "known": "s-bd1"
+  },
+  {
+   "t": 2298.1,
+   "text": "This is why I like magic because if I was with an arrow, then be a little bit slower.",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=2298",
+   "known": null
+  },
+  {
+   "t": 2336.6,
+   "text": "and throw. You really don't got to. Honestly, it just No matter what you do, it's the ending is still the same.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/uD8WCTsFiyY?t=2336",
+   "known": null
+  }
+ ],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "13:10 Bridge 4 – Broken Bridge",
+   "topics": [
+    "glitch"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "transcript",
+   "t": 180.3,
+   "link": "https://youtu.be/uD8WCTsFiyY?t=180",
+   "quote": "this crystal, get through the door.",
+   "unseen": [
+    "crystal"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 546.3,
+   "link": "https://youtu.be/uD8WCTsFiyY?t=546",
+   "quote": "And go to the staircase going through the door. You want to get your wind step ready again.",
+   "unseen": [
+    "staircase",
+    "ready"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 601.9,
+   "link": "https://youtu.be/uD8WCTsFiyY?t=601",
+   "quote": "Get your wind step ready again. And now on this part, we're going to completely skip the sewer system, and",
+   "unseen": [
+    "ready",
+    "completely",
+    "sewer",
+    "system"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 636.7,
+   "link": "https://youtu.be/uD8WCTsFiyY?t=636",
+   "quote": ">> [snorts] >> above the urn. Completely skip this boss.",
+   "unseen": [
+    "snorts",
+    "completely"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "transcript",
+   "t": 1045.4,
+   "link": "https://youtu.be/uD8WCTsFiyY?t=1045",
+   "quote": ">> Completely skip these enemies.",
+   "unseen": [
+    "completely"
+   ],
+   "nearestKnown": null
+  }
+ ],
+ "transcriptSource": "kb-raw:auto:en-orig",
+ "transcriptLines": 196,
+ "transcriptRetry": true,
+ "quality": {
+  "visual": "error",
+  "visualReason": "download failed: ERROR: [youtube] uD8WCTsFiyY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+  "whisperError": "no audio track could be fetched",
+  "transcript": "kb-raw:auto:en-orig",
+  "notes": []
+ },
+ "curated": null
 }
