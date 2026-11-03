@@ -1,11 +1,240 @@
 {
  "id": "neLGN1LJlsc",
  "url": "https://www.youtube.com/watch?v=neLGN1LJlsc",
- "reviewedAt": "2026-11-03T07:38:15.001Z",
+ "reviewedAt": "2026-11-03T16:35:40.811Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] neLGN1LJlsc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "13:30 Scorned Wilderness/Kuldra Hard Mode World Record"
+ "status": "ok",
+ "title": "13:30 Scorned Wilderness/Kuldra Hard Mode World Record",
+ "author": "Logan",
+ "date": "2026-09-24",
+ "videoDuration": 851,
+ "kind": "run",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": 810,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [
+  5.7,
+  806.7
+ ],
+ "segmentTimes": [
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [
+  {
+   "t": 11.2,
+   "dur": 1.6,
+   "segment": 1
+  },
+  {
+   "t": 23.5,
+   "dur": 1.2,
+   "segment": 1
+  },
+  {
+   "t": 30.5,
+   "dur": 1.8,
+   "segment": 1
+  },
+  {
+   "t": 73.8,
+   "dur": 13.1,
+   "segment": 1
+  },
+  {
+   "t": 89.6,
+   "dur": 1.9,
+   "segment": 1
+  },
+  {
+   "t": 97.5,
+   "dur": 1.3,
+   "segment": 1
+  },
+  {
+   "t": 115.2,
+   "dur": 0.5,
+   "segment": 1
+  },
+  {
+   "t": 675.9,
+   "dur": 0.3,
+   "segment": 1
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 5.7,
+    "score": 0.879
+   }
+  ],
+  "end": {
+   "t": 806.7,
+   "plate": [
+    793,
+    806.6
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": null
+ },
+ "commentary": [
+  {
+   "t": 245.9,
+   "text": "I'm so sick and tired of this this fight is so rng like",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/neLGN1LJlsc?t=245",
+   "known": "s-kuldra"
+  },
+  {
+   "t": 250.2,
+   "text": "In terms of the speediness of it because you can get one dragon here Which is slower than two",
+   "topics": [
+    "timing"
+   ],
+   "places": [
+    "dragon"
+   ],
+   "link": "https://youtu.be/neLGN1LJlsc?t=250",
+   "known": "s-bd1"
+  },
+  {
+   "t": 717.7,
+   "text": "And it's slower than air which does the same damage",
+   "topics": [
+    "timing"
+   ],
+   "places": [
+    "air"
+   ],
+   "link": "https://youtu.be/neLGN1LJlsc?t=717",
+   "known": null
+  },
+  {
+   "t": 742.7,
+   "text": "See but like sometimes you just randomly miss for no reason like that third shot just missed",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/neLGN1LJlsc?t=742",
+   "known": null
+  },
+  {
+   "t": 796.2,
+   "text": "Not because I can't go faster, but because the rng just never lines up I rarely get two red",
+   "topics": [
+    "timing",
+    "mistake"
+   ],
+   "link": "https://youtu.be/neLGN1LJlsc?t=796",
+   "known": null
+  }
+ ],
+ "textNotes": [],
+ "candidateMechanics": [],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 38,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 1,
+  "end": true,
+  "offsetMethod": null,
+  "templateScale": [
+   1.04,
+   0.98
+  ],
+  "templateScore": [
+   0.839,
+   0.91
+  ],
+  "complete": false,
+  "transcript": "whisper:small",
+  "notes": [
+   "No run start found (first banner at 5.7 s video): split 1 unknown; later segments are measured banner to banner."
+  ]
+ },
+ "curated": null
 }

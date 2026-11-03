@@ -1,11 +1,907 @@
 {
  "id": "iu2SL4oyZFQ",
  "url": "https://www.youtube.com/watch?v=iu2SL4oyZFQ",
- "reviewedAt": "2026-11-03T07:37:43.515Z",
+ "reviewedAt": "2026-11-03T16:28:16.763Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] iu2SL4oyZFQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds"
+ "status": "ok",
+ "title": "(Patched - New Vid on Channel) Sub 10 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+ "author": "SamFPlays",
+ "date": "2026-10-02",
+ "videoDuration": 594,
+ "kind": "run",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": 582.2,
+ "offset": 0,
+ "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+ "splits": [
+  122.7,
+  208.8,
+  276,
+  402.1,
+  582.2
+ ],
+ "videoSplits": [
+  122.7,
+  208.8,
+  276,
+  402.1,
+  582.2
+ ],
+ "segmentTimes": [
+  122.7,
+  86.1,
+  67.2,
+  126.1,
+  180.1
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [
+  {
+   "t": 396.8,
+   "dur": 3.1,
+   "segment": 3
+  },
+  {
+   "t": 400,
+   "dur": 2.1,
+   "segment": 3
+  },
+  {
+   "t": 405,
+   "dur": 0.8,
+   "segment": 4
+  },
+  {
+   "t": 412.6,
+   "dur": 0.8,
+   "segment": 4
+  },
+  {
+   "t": 427,
+   "dur": 0.7,
+   "segment": 4
+  },
+  {
+   "t": 478.4,
+   "dur": 0.5,
+   "segment": 4
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 122.7,
+    "score": 0.718
+   },
+   {
+    "t": 208.8,
+    "score": 0.757
+   },
+   {
+    "t": 276,
+    "score": 0.708
+   },
+   {
+    "t": 402.1,
+    "score": 0.714
+   }
+  ],
+  "end": {
+   "t": 582.2,
+   "plate": [
+    568.5,
+    582.1
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": null
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "⚠️ PATCHED: some skips in this run no longer work. NEW post-patch 1.0.1 run (11 min) here 👉 https://youtu.be/WpvNjqVmpVM",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "Stuck on a skip? Step-by-step voice guide: https://youtu.be/1HqP4q2WERw",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "I cut 3 minutes off my Kuldra run. Full sub 10 min run in RuneScape: Dragonwilds with brand new tech: surge + phase dash skips, a soulscourge food trick, and a FULL elemental puzzle skip before it gets patched.",
+   "topics": [
+    "movement",
+    "skip",
+    "glitch",
+    "trick",
+    "timing"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "No commentary. Follow along step by step, or use the chapters to jump straight to the skip you need.",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "0:20 Windstep to air anima",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "0:40 Soulscourge skip (phase dash + food trick)",
+   "topics": [
+    "movement",
+    "skip",
+    "trick"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "1:21 Skip the black dragon",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "1:38 Skip the ENTIRE necromancer area (2 windsteps)",
+   "topics": [
+    "movement",
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "2:34 Skip the ENTIRE poison area",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "3:04 Surge + phase dash past the abyssal demon",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "3:40 Skip the HARDEST part of the raid",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "5:21 Skip the ENTIRE elemental puzzle (before it's patched)",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "7:10 Skip the Kuldra fight in under a minute",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "- Soulscourge skip (0:40): eat food while holding E. Start holding E BEFORE you take damage or it'll stop you.",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "- Elemental puzzle skip (5:21): use it before it gets patched.",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "- Fleet Foot Infusion: MUST BRING. Cuts sprinting stamina cost by 50%.",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "What's your best Kuldra time? Drop it in the comments. And tell me which skip you didn't know about. If this saved you time, a like helps the channel a ton.",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@SamFPlays",
+   "likes": 88,
+   "text": "Patch 1.0.1 Sub 10min walkthrough here 👉 https://youtu.be/ESrrkdxD1fo?si=UmVZOZ8DZr5dytfi",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Sanque420",
+   "likes": 12,
+   "text": "Very impressive!\nI've found some very nice shortcuts myself, but this is seriously impressive and even better!",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@MickyM07",
+   "likes": 6,
+   "text": "This is crazy! I thought I found some sly ways to save time but then I saw this 😳..definitely will be trying it out",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@smashtactix",
+   "likes": 3,
+   "text": "AWESOME, love to see this kind of thing when you clearly have learned every way to skip or just bypass all the game mechanics, well played sir GG.",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@loganharvey8086",
+   "likes": 11,
+   "text": "The surge-double jump-double dash is pretty slick. Those 2 jumps at the start of the kuldra skip are what I need to practice",
+   "topics": [
+    "movement",
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@SamFPlays",
+   "likes": 5,
+   "text": "For those 2 specifically just make sure you’re getting into a sprint before you jump otherwise you won’t make it. Also you can use recall while you practice so you don’t have to run all the way back when you fall",
+   "topics": [
+    "movement",
+    "respawn"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@SamFPlays",
+   "likes": 4,
+   "text": "For surge double jump double dash no sprinting btw, just be close to the edge and walk forward before surging",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@rainbowGZUS7",
+   "likes": 0,
+   "text": "Those jumps are so easy tho 😂 , the one i have trouble with for some reason its the castle wall jump skip, I just dont seem to go far enough ever",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@SamFPlays",
+   "likes": 0,
+   "text": "My pleasure man, just got patched, uploaded new vid if you're still sending runs and need the new skips",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@imsirnootnoot",
+   "likes": 0,
+   "text": "Holy shit my man, these are some crazy skip that I can't wait to learn. Still need to farm for all her gear still",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@AdrianG1995",
+   "likes": 0,
+   "text": "I mean god damn.. I thought I saved time and you drop this on us?? Gonna take me longer than your entire run to get that Suge, Dash from the Fortress down. Nice video mate",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@coryanson",
+   "likes": 0,
+   "text": " @SamFPlays I think they patched it as of oct. 8 update",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Capybarainahumansuit",
+   "likes": 0,
+   "text": "Im using a few of these. Not all but a few are fun. I use the older kuldra skip where you land on that green rock below.",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@craiglematty3834",
+   "likes": 0,
+   "text": "After my first run I got 2 shields, so happy I found this 😂😂",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@MrJapjapp",
+   "likes": 1,
+   "text": "Dude thats some fkin crazy shortcut in the end. Good sht bro",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@BeatinRoundTheBush",
+   "likes": 0,
+   "text": "With the new update according to the patch notes all previous doors you unlock get reset after completing the raid and going back in again. So some of these youll have to activate the anima orbs at IN order to progress unless there is a way to bypass the locked doors.",
+   "topics": [
+    "skip",
+    "glitch",
+    "mistake"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@beastness501",
+   "likes": 4,
+   "text": "Insane cheese bro I finally got the last surge double air dash on my third try…. For some reason my surge just doesn’t activate at random and immediately puts me in a double air dash instead",
+   "topics": [
+    "movement",
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@50p3nc3",
+   "likes": 0,
+   "text": "At 4:00 the second windstep doesn't work to go higher before surge +  double dashing to the other side. Doesn't jump high enough to get to the highest point of the building for some reason.",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@epic3765",
+   "likes": 0,
+   "text": "The surge jump at 2:46 I find I keep getting stuck in the wall and don't pass all the way through, only way out is to reset position",
+   "topics": [
+    "movement",
+    "skip",
+    "mistake"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Taxeit",
+   "likes": 1,
+   "text": "4:00 can actually accomplish this part with just a single surge, but hard to do",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@mudflap763",
+   "likes": 0,
+   "text": "They put an invincible wall on that last jump before you go inside to the heart",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@AryVT",
+   "likes": 1,
+   "text": "In duo+ you can skip the whole run to kuldra after first run, 1guy dies at the very end and rejoins around @ around4 seconds till ending cinematic, this way kuldra's teleport get unlocked and you get loot on both players and can just start next run on kuldra fight again, about 2minutes a run that way.",
+   "topics": [
+    "skip",
+    "mistake",
+    "respawn"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@GBCxPrime",
+   "likes": 0,
+   "text": "For the live of me I was not able to get through the hole at 2:42 - UPDATE I had to crouch",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@KGhaleon",
+   "likes": 1,
+   "text": "6:35, so question...at this step do you quit out to the menu? Because when I do that it results in a bug that makes you invulnerable to all damage. I had it happen twice. Just stood still while a Black dragon and a bunch of Garou beat on me with no result. I green logged Kuldra and got all my gear so I don't mind mentioning the bug now lmao",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@ImNot5YearsOld",
+   "likes": 0,
+   "text": "I get stuck trying to jump through the crack in the wall entering the cave area :(",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@paulcharlebois5936",
+   "likes": 0,
+   "text": "At 4:14 I can’t wind step up to the highest point. I’ve tried multiple times. It won’t let me. Maybe it was patched already since there was a patch today.",
+   "topics": [
+    "movement",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@imeanfrtho5625",
+   "likes": 0,
+   "text": "Can I do this my first time fighting Kuldra or do I need to have done the full quest first to do these skips? Also, at 6:35 does the unstuck, and teleporting back to her, let her take you back into the raid at that location or something but just above ground?",
+   "topics": [
+    "skip",
+    "respawn"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@JustunThyme",
+   "likes": 0,
+   "text": "1:44 when your doing that jump to the other island my jump doesn’t go that high or even enough to glide across to the other side",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@etnikk100",
+   "likes": 1,
+   "text": "My phase dash wont work in the very final step to kuldras heart. I died probably like 15 times now and my character just wont double jump. I have full stamina too",
+   "topics": [
+    "movement",
+    "mistake"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Flames_In",
+   "likes": 0,
+   "text": "Idk about pc but on console there is 100% an invisible wall preventing you from double dashing all the way on the kuldra skip",
+   "topics": [
+    "movement",
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@LukeBarrow-k1r",
+   "likes": 0,
+   "text": "I can't do the jump at the end, what is it? I'm activating surge and phase dash. Surge, double jump, phase dash, falls short but you make it?\n\nI'm on PS and it's just not making it",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@the-nicest-d0g",
+   "likes": 0,
+   "text": "Im hitting an invisible wall at the final jump must be patched",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@KGhaleon",
+   "likes": 1,
+   "text": "1:55 was this patched? I'm not making that jump at all with momentum.",
+   "topics": [
+    "movement",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@mickyb549",
+   "likes": 0,
+   "text": "not sure how you skip that poison area i get stuck in the hole on the first jump",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@BraxtonNichols",
+   "likes": 0,
+   "text": "People keep saying it doesn't work on Xbox, try a little harder, entire run possible on Xbox as of 10/7/26\n\nTips for things that got me, you have to walk before the surge jump to phase dash, I wasn't walking so for some reason it wouldn't trigger my phase dash, walking first fixed that, then, make sure you jump after you clip under the map to trigger the extraction point to kuldra. I didn't notice…",
+   "topics": [
+    "movement",
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@loopuleasa",
+   "likes": 0,
+   "text": "I did the ele skip, was it patched?",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@jordanbutler8842",
+   "likes": 0,
+   "text": "It’s patched they put up and invisible wall that leads across the gap to enter Kuldra 😢",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Tk96r",
+   "likes": 0,
+   "text": "i think they patched it just now.. any info ?",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@cameronpaterson8604",
+   "likes": 0,
+   "text": "6 min mark, I cannot get past this for the life of me maybe its patched now",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Rider_Tom",
+   "likes": 0,
+   "text": "Well, they patched it boys.",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@aphelyon778",
+   "likes": 0,
+   "text": "They patched 3:55",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@davidmejia2602",
+   "likes": 0,
+   "text": "No longer works it's patched, when you use wind step in the floating stone",
+   "topics": [
+    "movement",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@ShmickoGaming",
+   "likes": 0,
+   "text": "Thats actually nuts. Surely they patch some of this soon",
+   "topics": [
+    "glitch"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=iu2SL4oyZFQ",
+   "quote": "⚠️ PATCHED: some skips in this run no longer work. NEW post-patch 1.0.1 run (11 min) here 👉 https://youtu.be/WpvNjqVmpVM",
+   "unseen": [
+    "post-patch"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=iu2SL4oyZFQ",
+   "quote": "1:38 Skip the ENTIRE necromancer area (2 windsteps)",
+   "unseen": [
+    "windsteps"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=iu2SL4oyZFQ",
+   "quote": "- Soulscourge skip (0:40): eat food while holding E. Start holding E BEFORE you take damage or it'll stop you.",
+   "unseen": [
+    "stop"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=iu2SL4oyZFQ",
+   "quote": "AWESOME, love to see this kind of thing when you clearly have learned every way to skip or just bypass all the game mechanics, well played sir GG.",
+   "unseen": [
+    "awesome",
+    "love",
+    "learned",
+    "mechanics",
+    "played"
+   ],
+   "nearestKnown": null,
+   "author": "@smashtactix"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=iu2SL4oyZFQ",
+   "quote": "The surge-double jump-double dash is pretty slick. Those 2 jumps at the start of the kuldra skip are what I need to practice",
+   "unseen": [
+    "surge-double",
+    "jump-double",
+    "slick",
+    "practice"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@loganharvey8086"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=iu2SL4oyZFQ",
+   "quote": "Those jumps are so easy tho 😂 , the one i have trouble with for some reason its the castle wall jump skip, I just dont seem to go far enough ever",
+   "unseen": [
+    "trouble",
+    "reason",
+    "dont",
+    "seem",
+    "ever"
+   ],
+   "nearestKnown": null,
+   "author": "@rainbowGZUS7"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=iu2SL4oyZFQ",
+   "quote": "My pleasure man, just got patched, uploaded new vid if you're still sending runs and need the new skips",
+   "unseen": [
+    "pleasure",
+    "uploaded",
+    "sending"
+   ],
+   "nearestKnown": null,
+   "author": "@SamFPlays"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=iu2SL4oyZFQ",
+   "quote": "Holy shit my man, these are some crazy skip that I can't wait to learn. Still need to farm for all her gear still",
+   "unseen": [
+    "holy",
+    "shit",
+    "crazy",
+    "learn",
+    "gear"
+   ],
+   "nearestKnown": null,
+   "author": "@imsirnootnoot"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=iu2SL4oyZFQ",
+   "quote": "Im using a few of these. Not all but a few are fun. I use the older kuldra skip where you land on that green rock below.",
+   "unseen": [
+    "older",
+    "below"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@Capybarainahumansuit"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=iu2SL4oyZFQ",
+   "quote": "With the new update according to the patch notes all previous doors you unlock get reset after completing the raid and going back in again. So some of these youll have to activate the anima orbs at IN order to progress unless there is a way to bypass the locked doors.",
+   "unseen": [
+    "according",
+    "previous",
+    "doors",
+    "completing",
+    "youll",
+    "activate",
+    "orbs",
+    "order"
+   ],
+   "nearestKnown": null,
+   "author": "@BeatinRoundTheBush"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=iu2SL4oyZFQ",
+   "quote": "For the live of me I was not able to get through the hole at 2:42 - UPDATE I had to crouch",
+   "unseen": [
+    "live",
+    "able"
+   ],
+   "nearestKnown": null,
+   "author": "@GBCxPrime"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=iu2SL4oyZFQ",
+   "quote": "Idk about pc but on console there is 100% an invisible wall preventing you from double dashing all the way on the kuldra skip",
+   "unseen": [
+    "console",
+    "preventing",
+    "dashing"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@Flames_In"
+  }
+ ],
+ "transcriptSource": "none",
+ "transcriptLines": 0,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": true,
+  "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+  "templateScale": [
+   1.04,
+   0.98
+  ],
+  "templateScore": [
+   0.704,
+   0.846
+  ],
+  "complete": true,
+  "transcript": "none",
+  "notes": []
+ },
+ "curated": null
 }

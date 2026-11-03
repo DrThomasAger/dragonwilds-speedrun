@@ -1,11 +1,146 @@
 {
  "id": "k2gbrO0NJI4",
  "url": "https://www.youtube.com/watch?v=k2gbrO0NJI4",
- "reviewedAt": "2026-11-03T07:38:08.456Z",
+ "reviewedAt": "2026-11-03T16:33:35.187Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] k2gbrO0NJI4: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Kuldra Boss Fight IL Speedrun (Duo Legit 7:45)"
+ "status": "ok",
+ "title": "Kuldra Boss Fight IL Speedrun (Duo Legit 7:45)",
+ "author": "Yo-_-HAM",
+ "date": "2026-10-16",
+ "videoDuration": 507,
+ "kind": "run",
+ "from": [
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": 465,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [],
+ "segmentTimes": [],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [],
+ "events": {
+  "banners": [],
+  "end": null,
+  "loadEnd": null
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "8:27 - Cutscenes over teleported back to Commander (outro)",
+   "topics": [
+    "respawn"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "[Inventory & Strategy Notes]",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "• Strat: Air enchantment is the main spell we use for quicker attack speeds throughout the fight  as for powering up pylons and making orbs the goal was to constantly keep orbs being made while fighting the dragon hatchlings and split which elements we get infused with to power the pylons accordingly. Once we made it to the heart we cast confuse on 1 heart worm on either side of the heart to keep …",
+   "topics": [
+    "movement",
+    "trick",
+    "timing",
+    "mistake"
+   ]
+  }
+ ],
+ "candidateMechanics": [],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 3,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 0,
+  "end": false,
+  "offsetMethod": null,
+  "templateScale": [
+   0.68,
+   1
+  ],
+  "templateScore": [
+   0.667,
+   0.926
+  ],
+  "complete": false,
+  "transcript": "whisper:small",
+  "notes": []
+ },
+ "curated": null
 }

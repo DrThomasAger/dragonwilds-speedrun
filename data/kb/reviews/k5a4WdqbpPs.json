@@ -1,11 +1,234 @@
 {
  "id": "k5a4WdqbpPs",
  "url": "https://www.youtube.com/watch?v=k5a4WdqbpPs",
- "reviewedAt": "2026-11-03T07:38:13.527Z",
+ "reviewedAt": "2026-11-03T16:35:40.175Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] k5a4WdqbpPs: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Runescape: Dragonwilds: Scorned Wilderness Speedrun - 12 Minutes *UNPATCHED*"
+ "status": "ok",
+ "title": "Runescape: Dragonwilds: Scorned Wilderness Speedrun - 12 Minutes *UNPATCHED*",
+ "author": "ShutUpJakob",
+ "date": "2026-10-03",
+ "videoDuration": 527,
+ "kind": "run",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": 507.5,
+ "offset": 0,
+ "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+ "splits": [
+  101.7,
+  171,
+  288.5,
+  402.4,
+  507.5
+ ],
+ "videoSplits": [
+  101.7,
+  171,
+  288.5,
+  402.4,
+  507.5
+ ],
+ "segmentTimes": [
+  101.7,
+  69.3,
+  117.5,
+  113.9,
+  105.1
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 402.4,
+   "tEnd": 507.5,
+   "segment": 4,
+   "name": "Kuldra's Sanctum",
+   "kind": "faster",
+   "delta": -11.05,
+   "seg": 105.1,
+   "description": "Kuldra's Sanctum: 105.1 s — 11.1 s faster than every reference run (best Nanobit 116.15 s).  Possible skip or route not in the reference set.",
+   "frames": "k5a4WdqbpPs/anomaly-0-seg4.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 138.5,
+   "dur": 0.5,
+   "segment": 1
+  },
+  {
+   "t": 146.4,
+   "dur": 0.3,
+   "segment": 1
+  },
+  {
+   "t": 151.9,
+   "dur": 0.4,
+   "segment": 1
+  },
+  {
+   "t": 154,
+   "dur": 0.3,
+   "segment": 1
+  },
+  {
+   "t": 177.5,
+   "dur": 0.5,
+   "segment": 2
+  },
+  {
+   "t": 413.7,
+   "dur": 0.4,
+   "segment": 4
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 101.7,
+    "score": 0.866
+   },
+   {
+    "t": 171,
+    "score": 0.888
+   },
+   {
+    "t": 288.5,
+    "score": 0.896
+   },
+   {
+    "t": 402.4,
+    "score": 0.887
+   }
+  ],
+  "end": {
+   "t": 507.5,
+   "plate": [
+    493.5,
+    507.4
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": null
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "Use this easy 12 minute path to Kuldra for quick and easy boss fights before it gets patched.",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@VitaminJay253",
+   "likes": 0,
+   "text": "They patched it",
+   "topics": [
+    "glitch"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "timing",
+   "t": 402.4,
+   "link": "https://youtu.be/k5a4WdqbpPs?t=402",
+   "quote": "Kuldra's Sanctum: 105.1 s — 11.1 s faster than every reference run (best Nanobit 116.15 s).  Possible skip or route not in the reference set.",
+   "segment": 4,
+   "frames": "k5a4WdqbpPs/cand-402.png"
+  }
+ ],
+ "transcriptSource": "none",
+ "transcriptLines": 0,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": true,
+  "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+  "templateScale": [
+   1.02,
+   0.98
+  ],
+  "templateScore": [
+   0.884,
+   0.932
+  ],
+  "complete": true,
+  "transcript": "none",
+  "notes": []
+ },
+ "curated": null
 }

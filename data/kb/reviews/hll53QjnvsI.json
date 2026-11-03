@@ -1,11 +1,278 @@
 {
  "id": "hll53QjnvsI",
  "url": "https://www.youtube.com/watch?v=hll53QjnvsI",
- "reviewedAt": "2026-11-03T07:37:32.178Z",
+ "reviewedAt": "2026-11-03T16:22:19.824Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] hll53QjnvsI: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Runescape: Dragonwilds 1.0 - Scorned Wilderness + Kuldra in 16 Minutes?!"
+ "status": "ok",
+ "title": "Runescape: Dragonwilds 1.0 - Scorned Wilderness + Kuldra in 16 Minutes?!",
+ "author": "Chico",
+ "date": "2026-09-22",
+ "videoDuration": 965,
+ "kind": "run",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [
+  32.1,
+  148.9,
+  186.5,
+  257.7,
+  941.8
+ ],
+ "segmentTimes": [
+  null,
+  116.8,
+  37.6,
+  71.2,
+  684.1
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 148.9,
+   "tEnd": 186.5,
+   "segment": 2,
+   "name": "The Shattered Stronghold",
+   "kind": "faster",
+   "delta": -14.1,
+   "seg": 37.6,
+   "description": "The Shattered Stronghold: 37.6 s — 14.1 s faster than every reference run (best TexasPete 51.7 s).  Possible skip or route not in the reference set.",
+   "frames": "hll53QjnvsI/anomaly-0-seg2.png"
+  },
+  {
+   "t": 186.5,
+   "tEnd": 257.7,
+   "segment": 3,
+   "name": "Cataclysm Keep",
+   "kind": "faster",
+   "delta": -16.6,
+   "seg": 71.2,
+   "description": "Cataclysm Keep: 71.2 s — 16.6 s faster than every reference run (best Nanobit 87.8 s).  Possible skip or route not in the reference set.",
+   "frames": "hll53QjnvsI/anomaly-1-seg3.png"
+  },
+  {
+   "t": 257.7,
+   "tEnd": 941.8,
+   "segment": 4,
+   "name": "Kuldra's Sanctum",
+   "kind": "slower",
+   "delta": 503.6,
+   "seg": 684.1,
+   "description": "Kuldra's Sanctum: 684.1 s — 503.6 s slower than every reference run (slowest 180.5 s). Different path, deaths or a puzzle done normally.",
+   "frames": "hll53QjnvsI/anomaly-2-seg4.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 160.6,
+   "dur": 3.4,
+   "segment": 2
+  },
+  {
+   "t": 169.6,
+   "dur": 0.7,
+   "segment": 2
+  },
+  {
+   "t": 180,
+   "dur": 1.5,
+   "segment": 2
+  },
+  {
+   "t": 217.3,
+   "dur": 3.2,
+   "segment": 3
+  },
+  {
+   "t": 226,
+   "dur": 0.7,
+   "segment": 3
+  },
+  {
+   "t": 236.6,
+   "dur": 0.4,
+   "segment": 3
+  },
+  {
+   "t": 289.3,
+   "dur": 3.6,
+   "segment": 4
+  },
+  {
+   "t": 298.2,
+   "dur": 1.4,
+   "segment": 4
+  },
+  {
+   "t": 309.9,
+   "dur": 0.9,
+   "segment": 4
+  },
+  {
+   "t": 333.1,
+   "dur": 0.8,
+   "segment": 4
+  },
+  {
+   "t": 823.9,
+   "dur": 0.6,
+   "segment": 4
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 32.1,
+    "score": 0.883
+   },
+   {
+    "t": 148.9,
+    "score": 0.876
+   },
+   {
+    "t": 186.5,
+    "score": 0.888
+   },
+   {
+    "t": 257.7,
+    "score": 0.88
+   }
+  ],
+  "end": {
+   "t": 941.8,
+   "plate": [
+    928,
+    941.7
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": null
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "Many, many... many Kuldra kills later, and the elusive Dragon Scimitar still refuses to drop. Follow along as my friend and I take you through the route we use to complete the zone and kill Kuldra, all within ~16 minutes on subsequent playthroughs. Mobs do not currently respawn, and checkpoints unlock at seemingly odd moments, so dying and teleporting back can move you through the zone in roughly …",
+   "topics": [
+    "glitch",
+    "trick",
+    "respawn"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "timing",
+   "t": 148.9,
+   "link": "https://youtu.be/hll53QjnvsI?t=148",
+   "quote": "The Shattered Stronghold: 37.6 s — 14.1 s faster than every reference run (best TexasPete 51.7 s).  Possible skip or route not in the reference set.",
+   "segment": 2,
+   "frames": "hll53QjnvsI/cand-149.png"
+  },
+  {
+   "source": "timing",
+   "t": 186.5,
+   "link": "https://youtu.be/hll53QjnvsI?t=186",
+   "quote": "Cataclysm Keep: 71.2 s — 16.6 s faster than every reference run (best Nanobit 87.8 s).  Possible skip or route not in the reference set.",
+   "segment": 3,
+   "frames": "hll53QjnvsI/cand-187.png"
+  }
+ ],
+ "transcriptSource": "whisper:small",
+ "transcriptLines": 1,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": true,
+  "offsetMethod": null,
+  "templateScale": [
+   1.02,
+   0.98
+  ],
+  "templateScore": [
+   0.883,
+   0.925
+  ],
+  "complete": false,
+  "transcript": "whisper:small",
+  "notes": [
+   "No run start found (first banner at 32.1 s video): split 1 unknown; later segments are measured banner to banner."
+  ]
+ },
+ "curated": null
 }

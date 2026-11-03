@@ -1,11 +1,717 @@
 {
  "id": "bStgF4YN6kU",
  "url": "https://www.youtube.com/watch?v=bStgF4YN6kU",
- "reviewedAt": "2026-11-03T07:36:43.835Z",
+ "reviewedAt": "2026-11-03T16:17:58.258Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] bStgF4YN6kU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds"
+ "status": "ok",
+ "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
+ "author": "SamFPlays",
+ "date": "2026-10-01",
+ "videoDuration": 790,
+ "kind": "run",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": 770.9,
+ "offset": 0,
+ "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+ "splits": [
+  127.6,
+  252.1,
+  401.2,
+  580.6,
+  770.9
+ ],
+ "videoSplits": [
+  127.6,
+  252.1,
+  401.2,
+  580.6,
+  770.9
+ ],
+ "segmentTimes": [
+  127.6,
+  124.5,
+  149.1,
+  179.4,
+  190.3
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 252.1,
+   "tEnd": 401.2,
+   "segment": 2,
+   "name": "The Shattered Stronghold",
+   "kind": "slower",
+   "delta": 48.8,
+   "seg": 149.1,
+   "description": "The Shattered Stronghold: 149.1 s — 48.8 s slower than every reference run (slowest 100.3 s). Different path, deaths or a puzzle done normally.",
+   "frames": "bStgF4YN6kU/anomaly-0-seg2.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 209.8,
+   "dur": 0.4,
+   "segment": 1
+  },
+  {
+   "t": 592.5,
+   "dur": 0.4,
+   "segment": 4
+  },
+  {
+   "t": 604.6,
+   "dur": 0.8,
+   "segment": 4
+  },
+  {
+   "t": 663.7,
+   "dur": 0.5,
+   "segment": 4
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 127.6,
+    "score": 0.854
+   },
+   {
+    "t": 252.1,
+    "score": 0.872
+   },
+   {
+    "t": 401.2,
+    "score": 0.855
+   },
+   {
+    "t": 580.6,
+    "score": 0.854
+   }
+  ],
+  "end": {
+   "t": 770.9,
+   "plate": [
+    757,
+    770.8
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": null
+ },
+ "commentary": [],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "⚠️ PATCHED: some skips in this run no longer work. NEW post-patch 1.0.1 run (11 min) here 👉 https://youtu.be/WpvNjqVmpVM",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "⚡ NEW: Sub 10 min run with faster skips 👉 https://youtu.be/iu2SL4oyZFQ",
+   "topics": [
+    "skip",
+    "timing"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "13 minute full Kuldra run in RuneScape: Dragonwilds, post-patch. Follow along from start to kill with every shortcut and windstep skip. Use the chapters below to jump to the part you're stuck on.",
+   "topics": [
+    "movement",
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "- Fleet Foot Infusion: MUST BRING. Cuts sprinting stamina cost by 50%.",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "0:20 Windstep shortcut",
+   "topics": [
+    "movement",
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "0:42 Anima pylon double jump dash",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "1:48 Windstep past necromancer phase",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "2:12 Garou windstep",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "2:44 Poison rat area skip (2 windsteps)",
+   "topics": [
+    "movement",
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "3:20 Waterfall area skip",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "4:35 Shortcut + windstep to Garou Thane (kill with melee)",
+   "topics": [
+    "movement",
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "5:15 Secret passageway to fire anima",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "7:50 Pipe shortcut",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "10:15 Final area windsteps to Kuldra's heart",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "description",
+   "text": "- Pylon puzzle (9:19): if you accidentally stepped on any of the platforms while running earlier, step on all of them to reset, then do air, water, earth, fire.",
+   "topics": [
+    "mistake"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@SamFPlays",
+   "likes": 1,
+   "text": "Patch 1.0.1 Sub 10min run walkthrough here 👉 https://youtu.be/ESrrkdxD1fo?si=UmVZOZ8DZr5dytfi",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@loganharvey8086",
+   "likes": 6,
+   "text": "Kuldra skip is awesome. Live when things like that are left in games",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@SamFPlays",
+   "likes": 0,
+   "text": "Logan, pull up the latest vid I posted, some new tech the community discovered that I implemented",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@SamFPlays",
+   "likes": 0,
+   "text": "Just uploaded a new one with updated tech, shaved 3mins off this run, check it out!",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@kurtkurt98",
+   "likes": 0,
+   "text": "The boss area fight was something else😂😂just skipping everything, i am so amazed and i feel like they built those rocks in the air for exactly what you are doing",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@SamFPlays",
+   "likes": 0,
+   "text": "Haha yea it's sweet, I just uploaded a video with new tech, got the run under 10mins, check it out! https://youtu.be/iu2SL4oyZFQ",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@tlasedalt8487",
+   "likes": 5,
+   "text": "Kuldra skip is great tyvm.\n\nWhat a snoozer of a fight.",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@SamFPlays",
+   "likes": 0,
+   "text": "Yoo check out my latest vid with new tech!",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@IA-oe2jy",
+   "likes": 1,
+   "text": "Bro turned the endgame dungeon into an agility course holy cheese lmao",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@SamFPlays",
+   "likes": 0,
+   "text": "This was one of my fav comments lmao, check out the new agility course tech in my latest vid, cut another 3mins on this vid",
+   "topics": [
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@HerofilmsHD",
+   "likes": 3,
+   "text": "You can skip the whole area with the black knights as well. Figured that out a few days ago",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@sairentoeko",
+   "likes": 1,
+   "text": "Small tip that may or may not make much difference.\nInstead of using confuse on the archer at the black dragon, use surge instead. It'll confuse the dragon long enough to get to the earth anima and you won't get hit if you go where you did anyways.",
+   "topics": [
+    "movement"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@exxy9931",
+   "likes": 0,
+   "text": "The Kuldra skip and the skip after the 1st black dragon is immediately getting adopted into my runs.",
+   "topics": [
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@321321311",
+   "likes": 0,
+   "text": "in the 8min 40s, anyone got a bug where i couldn't activate the fire anima?",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@EdwardRichtofen_115",
+   "likes": 0,
+   "text": "I found another shortcut, at 2:43 you'll see the hole in the wall up top with some vines, you can windstep up and crouch through the gap, skips a few jumps, it takes you to where the zombie is caged at 3:28",
+   "topics": [
+    "movement",
+    "skip",
+    "trick"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@eChuckNorris",
+   "likes": 0,
+   "text": "There's a faster skip after the Garou Thane. In the back corner there is a hole you can jump to and crouch through. A couple of jumps from here and you're at the abby demon. Cuts at least a minute off. You're also missing the skip after the abby demon that gets you direct over to the jump puzzle section past all the Thanes there. Saves another 2 minutes. Last skip is for the last puzzle, you can j…",
+   "topics": [
+    "skip",
+    "timing",
+    "mistake",
+    "respawn"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@dreipadgamer",
+   "likes": 0,
+   "text": "i think air magic is faster on the hearth also saw some others skipping the hard garuo part after aby demon fully after patch \ncould probs get it down to sub 10mins or hella close to it again \nbehind the air guardian they went further up \nthen dashed off dubble jump into dubble dive forward and they where at the black dragon with all the magic tree's",
+   "topics": [
+    "movement",
+    "skip",
+    "glitch",
+    "timing"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@darkphoenix3979",
+   "likes": 0,
+   "text": "the poison rat skip doesnt needa be that long, when you running out at the start at 2:48 you see that skele on the edge, you can double jump/fall and dash to get down there, no need to jump across then back",
+   "topics": [
+    "movement",
+    "skip"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@DeadBeanz23",
+   "likes": 0,
+   "text": "Im trying to do that jump skip in the beginning after the black dragon but I seem to not land and die everytime. Is there a certain timing to it with the windstep?",
+   "topics": [
+    "movement",
+    "skip",
+    "mistake"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@Solo_Tempest",
+   "likes": 0,
+   "text": "It’s not patched yey",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@ObiWanShinobi-57",
+   "likes": 0,
+   "text": "It’s this patched?",
+   "topics": [
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@MrJapjapp",
+   "likes": 0,
+   "text": "also can skip the part after abby demon. check the vid: jagex patched the raid skip i broke it again. good run tho",
+   "topics": [
+    "skip",
+    "glitch"
+   ]
+  },
+  {
+   "where": "comment",
+   "author": "@CelinaKyle2953",
+   "likes": 0,
+   "text": "Is this patched",
+   "topics": [
+    "glitch"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=bStgF4YN6kU",
+   "quote": "⚠️ PATCHED: some skips in this run no longer work. NEW post-patch 1.0.1 run (11 min) here 👉 https://youtu.be/WpvNjqVmpVM",
+   "unseen": [
+    "post-patch"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=bStgF4YN6kU",
+   "quote": "13 minute full Kuldra run in RuneScape: Dragonwilds, post-patch. Follow along from start to kill with every shortcut and windstep skip. Use the chapters below to jump to the part you're stuck on.",
+   "unseen": [
+    "post-patch",
+    "below"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   }
+  },
+  {
+   "source": "description",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=bStgF4YN6kU",
+   "quote": "3:20 Waterfall area skip",
+   "unseen": [
+    "waterfall"
+   ],
+   "nearestKnown": null
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=bStgF4YN6kU",
+   "quote": "Kuldra skip is awesome. Live when things like that are left in games",
+   "unseen": [
+    "awesome",
+    "live",
+    "games"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@loganharvey8086"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=bStgF4YN6kU",
+   "quote": "Logan, pull up the latest vid I posted, some new tech the community discovered that I implemented",
+   "unseen": [
+    "logan",
+    "pull",
+    "tech",
+    "discovered",
+    "implemented"
+   ],
+   "nearestKnown": null,
+   "author": "@SamFPlays"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=bStgF4YN6kU",
+   "quote": "The boss area fight was something else😂😂just skipping everything, i am so amazed and i feel like they built those rocks in the air for exactly what you are doing",
+   "unseen": [
+    "else",
+    "skipping",
+    "amazed",
+    "feel",
+    "built",
+    "exactly",
+    "doing"
+   ],
+   "nearestKnown": {
+    "id": "s-kuldra",
+    "name": "Skip the Kuldra fight",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@kurtkurt98"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=bStgF4YN6kU",
+   "quote": "Haha yea it's sweet, I just uploaded a video with new tech, got the run under 10mins, check it out! https://youtu.be/iu2SL4oyZFQ",
+   "unseen": [
+    "sweet",
+    "uploaded",
+    "tech",
+    "mins"
+   ],
+   "nearestKnown": null,
+   "author": "@SamFPlays"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=bStgF4YN6kU",
+   "quote": "Yoo check out my latest vid with new tech!",
+   "unseen": [
+    "tech"
+   ],
+   "nearestKnown": null,
+   "author": "@SamFPlays"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=bStgF4YN6kU",
+   "quote": "You can skip the whole area with the black knights as well. Figured that out a few days ago",
+   "unseen": [
+    "knights",
+    "figured",
+    "days"
+   ],
+   "nearestKnown": {
+    "id": "s-bd1",
+    "name": "Black dragon skip",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@HerofilmsHD"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=bStgF4YN6kU",
+   "quote": "I found another shortcut, at 2:43 you'll see the hole in the wall up top with some vines, you can windstep up and crouch through the gap, skips a few jumps, it takes you to where the zombie is caged at 3:28",
+   "unseen": [
+    "you'll",
+    "zombie",
+    "caged"
+   ],
+   "nearestKnown": {
+    "id": "s-vines-old",
+    "name": "Dragontail Vines skip (1.0.0.6)",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@EdwardRichtofen_115"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=bStgF4YN6kU",
+   "quote": "There's a faster skip after the Garou Thane. In the back corner there is a hole you can jump to and crouch through. A couple of jumps from here and you're at the abby demon. Cuts at least a minute off. You're also missing the skip after the abby demon that gets you direct over to the jump puzzle section past all the Thanes there. Saves another 2 minutes. Last skip is for the last puzzle, you can j…",
+   "unseen": [
+    "couple",
+    "abby",
+    "cuts",
+    "missing",
+    "gets",
+    "thanes",
+    "minutes"
+   ],
+   "nearestKnown": {
+    "id": "s-thane",
+    "name": "Garou Thane / air door skip",
+    "src": "route.js",
+    "score": 0.5
+   },
+   "author": "@eChuckNorris"
+  },
+  {
+   "source": "comment",
+   "t": null,
+   "link": "https://www.youtube.com/watch?v=bStgF4YN6kU",
+   "quote": "also can skip the part after abby demon. check the vid: jagex patched the raid skip i broke it again. good run tho",
+   "unseen": [
+    "abby",
+    "broke"
+   ],
+   "nearestKnown": null,
+   "author": "@MrJapjapp"
+  }
+ ],
+ "transcriptSource": "none",
+ "transcriptLines": 0,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": true,
+  "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+  "templateScale": [
+   1.04,
+   0.98
+  ],
+  "templateScore": [
+   0.847,
+   0.908
+  ],
+  "complete": true,
+  "transcript": "none",
+  "notes": []
+ },
+ "curated": null
 }

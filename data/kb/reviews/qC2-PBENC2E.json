@@ -1,11 +1,612 @@
 {
  "id": "qC2-PBENC2E",
  "url": "https://www.youtube.com/watch?v=qC2-PBENC2E",
- "reviewedAt": "2026-11-03T07:38:27.378Z",
+ "reviewedAt": "2026-11-03T16:44:24.955Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] qC2-PBENC2E: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "Runescape Dragonwilds Scorned Wilderness Raid Cheese [7 MINUTE RAIDS]"
+ "status": "ok",
+ "title": "Runescape Dragonwilds Scorned Wilderness Raid Cheese [7 MINUTE RAIDS]",
+ "author": "Cow Wizard",
+ "date": "2026-09-25",
+ "videoDuration": 889,
+ "kind": "run",
+ "from": [
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": 822.2,
+ "offset": 0,
+ "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+ "splits": [
+  138.3,
+  263.6,
+  314.6,
+  418.8,
+  822.2
+ ],
+ "videoSplits": [
+  138.3,
+  263.6,
+  314.6,
+  418.8,
+  822.2
+ ],
+ "segmentTimes": [
+  138.3,
+  125.3,
+  51,
+  104.2,
+  403.4
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 418.8,
+   "tEnd": 822.2,
+   "segment": 4,
+   "name": "Kuldra's Sanctum",
+   "kind": "slower",
+   "delta": 222.9,
+   "seg": 403.4,
+   "description": "Kuldra's Sanctum: 403.4 s — 222.9 s slower than every reference run (slowest 180.5 s). Different path, deaths or a puzzle done normally.",
+   "frames": "qC2-PBENC2E/anomaly-0-seg4.png"
+  }
+ ],
+ "blackouts": [
+  {
+   "t": 108.9,
+   "dur": 2.5,
+   "segment": 0
+  },
+  {
+   "t": 277.3,
+   "dur": 3.3,
+   "segment": 2
+  },
+  {
+   "t": 304.6,
+   "dur": 3.9,
+   "segment": 2
+  },
+  {
+   "t": 329.5,
+   "dur": 2.2,
+   "segment": 3
+  },
+  {
+   "t": 353.3,
+   "dur": 1.6,
+   "segment": 3
+  },
+  {
+   "t": 431.6,
+   "dur": 3,
+   "segment": 4
+  },
+  {
+   "t": 453.6,
+   "dur": 1.5,
+   "segment": 4
+  },
+  {
+   "t": 471.8,
+   "dur": 1.2,
+   "segment": 4
+  },
+  {
+   "t": 561,
+   "dur": 4,
+   "segment": 4
+  },
+  {
+   "t": 581,
+   "dur": 1.3,
+   "segment": 4
+  },
+  {
+   "t": 599.2,
+   "dur": 1.3,
+   "segment": 4
+  },
+  {
+   "t": 676.9,
+   "dur": 0.9,
+   "segment": 4
+  }
+ ],
+ "events": {
+  "banners": [
+   {
+    "t": 138.3,
+    "score": 0.828
+   },
+   {
+    "t": 263.6,
+    "score": 0.828
+   },
+   {
+    "t": 314.6,
+    "score": 0.831
+   },
+   {
+    "t": 418.8,
+    "score": 0.833
+   }
+  ],
+  "end": {
+   "t": 822.2,
+   "plate": [
+    808.7,
+    822.1
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": null
+ },
+ "commentary": [
+  {
+   "t": 32.2,
+   "text": "I'm going to use the cheesiest strategies possible",
+   "topics": [
+    "trick"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=32",
+   "known": null
+  },
+  {
+   "t": 59,
+   "text": "with this strategy",
+   "topics": [
+    "trick"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=59",
+   "known": null
+  },
+  {
+   "t": 70.1,
+   "text": "There's cheese for the actual boss fight, but you do need to clear the trash mobs, clear the",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=70",
+   "known": "s-kuldra"
+  },
+  {
+   "t": 81,
+   "text": "Um that way uh you can respawn,",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=81",
+   "known": null
+  },
+  {
+   "t": 128.4,
+   "text": "uh essentially this this strategy skips through",
+   "topics": [
+    "skip",
+    "trick"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=128",
+   "known": null
+  },
+  {
+   "t": 164.8,
+   "text": "so that basically we're able to skip entire sections.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=164",
+   "known": null
+  },
+  {
+   "t": 244.4,
+   "text": "been. It has nothing to do you would think that resetting the rage should like reset everything",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=244",
+   "known": null
+  },
+  {
+   "t": 249.8,
+   "text": "in it. But it works just like the the open world uh currently at least in patch 1.0.",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=249",
+   "known": null
+  },
+  {
+   "t": 299.5,
+   "text": "I can teleport to the Shattered Stronghold.",
+   "topics": [
+    "respawn"
+   ],
+   "places": [
+    "stronghold"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=299",
+   "known": null
+  },
+  {
+   "t": 343.7,
+   "text": "um because sleeping passes time and we don't want our mobs to respawn.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=343",
+   "known": null
+  },
+  {
+   "t": 385.6,
+   "text": "while you're mid-jump or you won't be able to dash or whatever.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=385",
+   "known": null
+  },
+  {
+   "t": 402.2,
+   "text": "I hear the chest is respawn, so I'm going to take that.",
+   "topics": [
+    "respawn"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=402",
+   "known": null
+  },
+  {
+   "t": 459,
+   "text": ">> So, there's a skip for Koldrak.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=459",
+   "known": null
+  },
+  {
+   "t": 461.6,
+   "text": "Uh it skips directly to the heart, which is the fun part where you just train magic.",
+   "topics": [
+    "skip"
+   ],
+   "places": [
+    "heart"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=461",
+   "known": null
+  },
+  {
+   "t": 480.9,
+   "text": "I don't know if that's just a me thing or Jagex messed that up, but",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=480",
+   "known": null
+  },
+  {
+   "t": 491.2,
+   "text": "rock. So you're going to wind wind step, sprint,",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "rock"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=491",
+   "known": null
+  },
+  {
+   "t": 499,
+   "text": "All right. Wind step again.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=499",
+   "known": null
+  },
+  {
+   "t": 506.6,
+   "text": "You're going to wind step again.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=506",
+   "known": null
+  },
+  {
+   "t": 509.9,
+   "text": "Sprint. Jump off the corner of that.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=509",
+   "known": null
+  },
+  {
+   "t": 520.6,
+   "text": "So you're going to wind step on here.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=520",
+   "known": null
+  },
+  {
+   "t": 523.2,
+   "text": "And I don't sprint.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=523",
+   "known": null
+  },
+  {
+   "t": 525,
+   "text": "I just uh, wind step.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=525",
+   "known": null
+  },
+  {
+   "t": 584.1,
+   "text": "Uh it it normally doesn't, but I think it's just RNG if it wants to target you with an AoE.",
+   "topics": [
+    "mistake"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=584",
+   "known": null
+  },
+  {
+   "t": 621.1,
+   "text": "land on this brick, wind step once again,",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=621",
+   "known": null
+  },
+  {
+   "t": 625.5,
+   "text": "sprint, jump off the corner of this brick,",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=625",
+   "known": null
+  },
+  {
+   "t": 630.9,
+   "text": "wind step again,",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=630",
+   "known": null
+  },
+  {
+   "t": 643,
+   "text": "onto the bridge, wind step.",
+   "topics": [
+    "movement"
+   ],
+   "places": [
+    "bridge"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=643",
+   "known": null
+  },
+  {
+   "t": 656.4,
+   "text": "Wind step up here.",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=656",
+   "known": null
+  },
+  {
+   "t": 712.8,
+   "text": "Uh, when that happens, I'll show you how to cheese that, too.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=712",
+   "known": null
+  },
+  {
+   "t": 749,
+   "text": "faster.",
+   "topics": [
+    "timing"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=749",
+   "known": null
+  },
+  {
+   "t": 772.2,
+   "text": "You're just going to dodge roll back, sprint up here,",
+   "topics": [
+    "movement"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=772",
+   "known": null
+  },
+  {
+   "t": 848,
+   "text": "uh Kolodra cheese.",
+   "topics": [
+    "skip"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=848",
+   "known": null
+  },
+  {
+   "t": 876,
+   "text": "Maybe my account's bugged.",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=876",
+   "known": null
+  },
+  {
+   "t": 877.4,
+   "text": "Maybe they patched this.",
+   "topics": [
+    "glitch"
+   ],
+   "link": "https://youtu.be/qC2-PBENC2E?t=877",
+   "known": null
+  }
+ ],
+ "textNotes": [
+  {
+   "where": "description",
+   "text": "Quick and dirty guide on how to farm the Scorned Wilderness Raid and get back to playing osrs. Working in patch 1.0",
+   "topics": [
+    "glitch"
+   ]
+  }
+ ],
+ "candidateMechanics": [
+  {
+   "source": "transcript",
+   "t": 128.4,
+   "link": "https://youtu.be/qC2-PBENC2E?t=128",
+   "quote": "uh essentially this this strategy skips through",
+   "unseen": [
+    "essentially",
+    "strategy"
+   ],
+   "nearestKnown": null,
+   "frames": "qC2-PBENC2E/cand-128.png"
+  },
+  {
+   "source": "transcript",
+   "t": 164.8,
+   "link": "https://youtu.be/qC2-PBENC2E?t=164",
+   "quote": "so that basically we're able to skip entire sections.",
+   "unseen": [
+    "able",
+    "sections"
+   ],
+   "nearestKnown": null,
+   "frames": "qC2-PBENC2E/cand-165.png"
+  },
+  {
+   "source": "transcript",
+   "t": 459,
+   "link": "https://youtu.be/qC2-PBENC2E?t=459",
+   "quote": ">> So, there's a skip for Koldrak.",
+   "unseen": [
+    "koldrak"
+   ],
+   "nearestKnown": null,
+   "frames": "qC2-PBENC2E/cand-459.png"
+  },
+  {
+   "source": "transcript",
+   "t": 461.6,
+   "link": "https://youtu.be/qC2-PBENC2E?t=461",
+   "quote": "Uh it skips directly to the heart, which is the fun part where you just train magic.",
+   "unseen": [
+    "train"
+   ],
+   "nearestKnown": null,
+   "frames": "qC2-PBENC2E/cand-462.png"
+  }
+ ],
+ "transcriptSource": "youtube:en",
+ "transcriptLines": 239,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 4,
+  "end": true,
+  "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+  "templateScale": [
+   1.19,
+   1.15
+  ],
+  "templateScore": [
+   0.831,
+   0.803
+  ],
+  "complete": true,
+  "transcript": "youtube:en",
+  "notes": []
+ },
+ "curated": null
 }

@@ -1,11 +1,131 @@
 {
  "id": "FAhMipbG7FQ",
  "url": "https://www.youtube.com/watch?v=FAhMipbG7FQ",
- "reviewedAt": "2026-11-03T07:37:10.060Z",
+ "reviewedAt": "2026-11-03T16:21:57.594Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] FAhMipbG7FQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "RS DW: 2 MIN 30 WORLD RECORD KULDRA KILL"
+ "status": "ok",
+ "title": "RS DW: 2 MIN 30 WORLD RECORD KULDRA KILL",
+ "author": "9wraths",
+ "date": "2026-09-21",
+ "videoDuration": 211,
+ "kind": "run",
+ "from": [
+  "sources.json",
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": null,
+ "offsetMethod": null,
+ "splits": [],
+ "videoSplits": [
+  172.2
+ ],
+ "segmentTimes": [],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [],
+ "blackouts": [],
+ "events": {
+  "banners": [],
+  "end": {
+   "t": 172.2,
+   "plate": [
+    158.5,
+    172.1
+   ],
+   "method": "black after GET OUT NOW"
+  },
+  "loadEnd": null
+ },
+ "commentary": [],
+ "textNotes": [],
+ "candidateMechanics": [],
+ "transcriptSource": "none",
+ "transcriptLines": 0,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 0,
+  "end": true,
+  "offsetMethod": null,
+  "templateScale": [
+   0.68,
+   0.98
+  ],
+  "templateScore": [
+   0.604,
+   0.912
+  ],
+  "complete": false,
+  "transcript": "none",
+  "notes": []
+ },
+ "curated": null
 }

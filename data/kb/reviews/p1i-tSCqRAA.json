@@ -1,11 +1,183 @@
 {
  "id": "p1i-tSCqRAA",
  "url": "https://www.youtube.com/watch?v=p1i-tSCqRAA",
- "reviewedAt": "2026-11-03T07:38:21.004Z",
+ "reviewedAt": "2026-11-03T16:39:21.710Z",
  "pipelineVersion": 1,
  "level": "full",
- "status": "error",
- "error": "ERROR: [youtube] p1i-tSCqRAA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
- "rateLimited": false,
- "title": "RuneScape: Dragonwilds speed run Kuldra raid"
+ "status": "ok",
+ "title": "RuneScape: Dragonwilds speed run Kuldra raid",
+ "author": "Rhyno93",
+ "date": "2026-10-31",
+ "videoDuration": 893,
+ "kind": "run",
+ "from": [
+  "kb/raw/youtube",
+  "kb/raw/youtube/_discovered",
+  "youtube-search"
+ ],
+ "reference": false,
+ "rank": null,
+ "runStatus": "unsubmitted",
+ "bracket": null,
+ "src": null,
+ "statedTime": null,
+ "patchAtUpload": null,
+ "duration": null,
+ "offset": 0,
+ "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+ "splits": [
+  282.6,
+  479.8,
+  704.5
+ ],
+ "videoSplits": [
+  282.6,
+  479.8,
+  704.5
+ ],
+ "segmentTimes": [
+  282.6,
+  197.2,
+  224.7,
+  null,
+  null
+ ],
+ "segmentRef": [
+  {
+   "name": "Dragontail Vines",
+   "min": 81.52,
+   "median": 100.75,
+   "max": 119.93,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-airvent",
+    "s-soul",
+    "s-bd1",
+    "s-necro",
+    "s-vines-old"
+   ]
+  },
+  {
+   "name": "Fragments of Ghornfell",
+   "min": 61.1,
+   "median": 78.6,
+   "max": 97.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-poison",
+    "s-demon"
+   ]
+  },
+  {
+   "name": "The Shattered Stronghold",
+   "min": 51.7,
+   "median": 61.6,
+   "max": 100.3,
+   "best": "TexasPete",
+   "checkpoints": [
+    "s-thane"
+   ]
+  },
+  {
+   "name": "Cataclysm Keep",
+   "min": 87.8,
+   "median": 101.8,
+   "max": 168.6,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-parkour",
+    "s-keep"
+   ]
+  },
+  {
+   "name": "Kuldra's Sanctum",
+   "min": 116.15,
+   "median": 172,
+   "max": 180.5,
+   "best": "Nanobit",
+   "checkpoints": [
+    "s-kuldra",
+    "s-flight",
+    "s-heart"
+   ]
+  }
+ ],
+ "anomalies": [
+  {
+   "t": 0,
+   "tEnd": 282.6,
+   "segment": 0,
+   "name": "Dragontail Vines",
+   "kind": "slower",
+   "delta": 162.67,
+   "seg": 282.6,
+   "description": "Dragontail Vines: 282.6 s — 162.7 s slower than every reference run (slowest 119.93 s). Different path, deaths or a puzzle done normally.",
+   "frames": "p1i-tSCqRAA/anomaly-0-seg0.png"
+  },
+  {
+   "t": 282.6,
+   "tEnd": 479.8,
+   "segment": 1,
+   "name": "Fragments of Ghornfell",
+   "kind": "slower",
+   "delta": 99.9,
+   "seg": 197.2,
+   "description": "Fragments of Ghornfell: 197.2 s — 99.9 s slower than every reference run (slowest 97.3 s). Different path, deaths or a puzzle done normally.",
+   "frames": "p1i-tSCqRAA/anomaly-1-seg1.png"
+  },
+  {
+   "t": 479.8,
+   "tEnd": 704.5,
+   "segment": 2,
+   "name": "The Shattered Stronghold",
+   "kind": "slower",
+   "delta": 124.4,
+   "seg": 224.7,
+   "description": "The Shattered Stronghold: 224.7 s — 124.4 s slower than every reference run (slowest 100.3 s). Different path, deaths or a puzzle done normally.",
+   "frames": "p1i-tSCqRAA/anomaly-2-seg2.png"
+  }
+ ],
+ "blackouts": [],
+ "events": {
+  "banners": [
+   {
+    "t": 282.6,
+    "score": 0.855
+   },
+   {
+    "t": 479.8,
+    "score": 0.857
+   },
+   {
+    "t": 704.5,
+    "score": 0.863
+   }
+  ],
+  "end": null,
+  "loadEnd": null
+ },
+ "commentary": [],
+ "textNotes": [],
+ "candidateMechanics": [],
+ "transcriptSource": "none",
+ "transcriptLines": 0,
+ "transcriptRetry": false,
+ "quality": {
+  "visual": "ok",
+  "bannersFound": 3,
+  "end": false,
+  "offsetMethod": "assumed: video starts at the run start (no loading screen found)",
+  "templateScale": [
+   1.11,
+   0.69
+  ],
+  "templateScore": [
+   0.855,
+   0.517
+  ],
+  "complete": false,
+  "transcript": "none",
+  "notes": []
+ },
+ "curated": null
 }
