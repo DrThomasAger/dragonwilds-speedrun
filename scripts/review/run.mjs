@@ -10,11 +10,40 @@
 // Outputs data/kb/reviews/<id>.json, index.json, _state.json, _search.json and
 // docs/review/<id>.md, index.md. See docs/review/README.md.
 import path from 'node:path';
-import { OUT, ensureDirs, arg, sleep, now, tools, readJson, writeJson } from './lib.mjs';
+import { OUT, ensureDirs, arg, sleep, now, tools, readJson, writeJson, backoffUntil } from './lib.mjs';
 import { buildQueue, loadState, saveState, pending, LEVELS } from './queue.mjs';
 import { reviewSource, writeReview, writeIndex } from './review.mjs';
 import { knownMechanics } from './mine.mjs';
 import { reference } from './analyze.mjs';
+
+// New _state.json entry for one reviewed id. A "deferred" result (YouTube's "Sign in to
+// confirm you're not a bot") is not a failure: the previous status/level and attempt count are
+// kept, and retryAfter backs the id off (45 min, 1.5 h, 3 h … 24 h) so a later run retries it.
+export function nextState(prev, r, it = {}, at = Date.now()) {
+  const title = r.title || it.title || prev.title || null;
+  if (r.status === 'deferred') {
+    const botBlocks = (prev.botBlocks || 0) + 1;
+    const keep = prev.status && !['error', 'deferred'].includes(prev.status);
+    const { retryAfter: _r, botBlocks: _b, ...rest } = prev;
+    return {
+      write: !keep,
+      entry: { ...rest, status: keep ? prev.status : 'deferred', ...(keep ? {} : { level: prev.level || r.level }), attempts: prev.attempts || 0,
+        botBlocks, retryAfter: backoffUntil(botBlocks, at), deferredAt: new Date(at).toISOString(), lastError: String(r.error || 'bot check').slice(0, 200), title },
+    };
+  }
+  // keep a previous full review when this run could not do better
+  const worse = prev.status === 'ok' && (r.status !== 'ok' || (LEVELS[r.level] || 0) < (LEVELS[prev.level] || 0));
+  return {
+    write: !worse,
+    entry: {
+      status: worse ? prev.status : r.status,
+      level: worse ? prev.level : r.level,
+      reviewedAt: r.reviewedAt, attempts: r.status === 'error' && !r.rateLimited ? (prev.attempts || 0) + 1 : 0,
+      ...(r.error ? { lastError: String(r.error).slice(0, 200) } : {}),
+      ...(r.transcriptRetry ? { transcriptRetry: true, transcriptAttempts: (prev.transcriptAttempts || 0) + 1 } : {}), title,
+    },
+  };
+}
 
 export async function processQueue({ level = 'full', only = null, max = Infinity, minPriority = -Infinity, jobs = 3, force = false, search = true, log = console.error } = {}) {
   await ensureDirs();
@@ -48,16 +77,9 @@ export async function processQueue({ level = 'full', only = null, max = Infinity
       catch (e) { r = { id: it.id, status: 'error', error: String(e.stack || e).slice(0, 500), reviewedAt: now(), level }; }
       if (r.rateLimited) rateLimited++;
       const prev = state.ids[it.id] || {};
-      // keep a previous full review when this run could not do better
-      const worse = prev.status === 'ok' && (r.status !== 'ok' || (LEVELS[r.level] || 0) < (LEVELS[prev.level] || 0));
-      if (!worse) await writeReview(r);
-      state.ids[it.id] = {
-        status: worse ? prev.status : r.status,
-        level: worse ? prev.level : r.level,
-        reviewedAt: r.reviewedAt, attempts: r.status === 'error' && !r.rateLimited ? (prev.attempts || 0) + 1 : 0,
-        ...(r.error ? { lastError: String(r.error).slice(0, 200) } : {}),
-        ...(r.transcriptRetry ? { transcriptRetry: true, transcriptAttempts: (prev.transcriptAttempts || 0) + 1 } : {}), title: r.title || it.title || prev.title || null,
-      };
+      const { entry, write } = nextState(prev, r, it);
+      if (write) await writeReview(r);
+      state.ids[it.id] = entry;
       await saveState(state);
       results.push({ id: it.id, status: r.status, secs: Math.round((Date.now() - t0) / 1000), splits: r.splits?.length ?? 0, candidates: r.candidateMechanics?.length ?? 0, error: r.error });
       log(`  → ${r.status}${r.error ? ' ' + r.error : ''} (${Math.round((Date.now() - t0) / 1000)} s)`);

@@ -3,7 +3,7 @@
 // downloaded audio, else marked "none".
 import path from 'node:path';
 import { readdir, readFile, writeFile } from 'node:fs/promises';
-import { DIRS, ROOT, YTDLP, FFMPEG, PYTHON, run, readJson, exists, VALID_ID } from './lib.mjs';
+import { DIRS, ROOT, YTDLP, FFMPEG, PYTHON, run, readJson, exists, VALID_ID, isBotBlock } from './lib.mjs';
 
 // json3 → lines [{t, text}] with t = start of the first word of the line (video s).
 // Auto captions arrive as rolling events whose words carry tOffsetMs; lines are cut at
@@ -61,7 +61,9 @@ export async function fetchMeta(id, { retrySubs = false } = {}) {
     }
     if (!(await exists(infoFile))) {
       const msg = (r.stderr.split('\n').filter(l => /ERROR/.test(l)).join(' ') || r.stderr).trim().slice(0, 300) || 'yt-dlp failed';
-      return { ok: false, error: msg, unavailable: /unavailable|private|removed|terminated|not available|does not exist|Incomplete YouTube ID/i.test(msg), rateLimited: /429|Too Many Requests|not a bot/i.test(msg) };
+      // a bot check / 429 blocks the IP, not the video: never call it unavailable
+      const botBlock = isBotBlock(r.stderr), rateLimited = botBlock || /429|Too Many Requests/i.test(msg);
+      return { ok: false, error: msg, unavailable: !rateLimited && /unavailable|private|removed|terminated|not available|does not exist|Incomplete YouTube ID/i.test(msg), rateLimited, botBlock };
     }
   }
   const info = await readJson(infoFile, {});

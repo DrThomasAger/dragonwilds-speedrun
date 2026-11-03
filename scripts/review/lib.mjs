@@ -6,6 +6,8 @@ import { existsSync } from 'node:fs';
 import { execFile } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import path from 'node:path';
+// YouTube "Sign in to confirm you're not a bot": same back-off rules as the ingest.
+export { isBotBlock, backoffUntil, backedOff } from '../ingest/lib.mjs';
 
 export const ROOT = fileURLToPath(new URL('../../', import.meta.url));
 export const OUT = path.join(ROOT, 'data', 'kb', 'reviews');

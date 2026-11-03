@@ -81,7 +81,9 @@ Or, in a second terminal: `bb -e '(babashka.process/shell "node scripts/ingest/t
 reddit, youtube and discord (Discord only does something if the `DISCORD_BOT_TOKEN`
 secret is set). It commits `data/kb/raw`, then pushes to `main` and `gh-pages`. Each run
 makes at most `INGEST_YT_MAX=60` yt-dlp calls. YouTube often asks GitHub runners to
-"Sign in to confirm you're not a bot". When that happens the YouTube step logs the error
+"Sign in to confirm you're not a bot". When that happens the video is not marked failed:
+it is backed off (45 min, doubling up to 24 h, `retryAfter` in `_state.json`; the review
+pipeline does the same) and retried by a later run. The YouTube step logs the error
 and the local run fills the gap. Reddit returns 403 to anonymous requests from most
 datacenter IPs, so add `REDDIT_CLIENT_ID` / `REDDIT_CLIENT_SECRET` secrets: create a
 "script" app at https://www.reddit.com/prefs/apps.

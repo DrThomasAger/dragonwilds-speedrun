@@ -10,7 +10,7 @@
 import path from 'node:path';
 import { readdir } from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
-import { ROOT, OUT, YTDLP, run, readJson, writeJson, ytId, now, VALID_ID } from './lib.mjs';
+import { ROOT, OUT, YTDLP, run, readJson, writeJson, ytId, now, VALID_ID, isBotBlock, backedOff } from './lib.mjs';
 
 export const RAID = /kuldra|scorned|wilderness|\braid\b/i;
 const FULLRUN = /full (raid )?run|whole raid|speed ?run|\bno commentary\b|\b\d{1,2}:\d\d\b|\b\d{1,2} ?min|\bwr\b|world record|\bpb\b|\bsolo\b|\bduo\b|\bfirst (clear|kill)|blind|completion|\brun\b/i;
@@ -129,12 +129,16 @@ export function priority(it) {
 }
 
 // Items still to review at `level` (state records the level each id reached).
-export function pending(queue, state, level = 'full', { force = false } = {}) {
+export function pending(queue, state, level = 'full', { force = false, at = Date.now() } = {}) {
   return queue.filter(it => {
     if (force) return true;
     const s = state.ids?.[it.id];
     if (!s) return true;
     if (s.status === 'unavailable' || s.status === 'invalid') return false;
+    // YouTube bot check: wait out the back-off, then retry (never counted as a failed attempt)
+    if (backedOff(s, at)) return false;
+    if (s.status === 'deferred') return true;
+    if (s.status === 'error' && isBotBlock(s.lastError)) return true;
     if (s.status === 'error') return (s.attempts || 0) < 3;
     if (s.transcriptRetry && (s.transcriptAttempts || 0) < 3) { it.transcriptRetry = true; return true; }
     return (LEVELS[s.level] || 0) < LEVELS[level];

@@ -6,7 +6,7 @@
 //   → candidate NEW mechanics → data/kb/reviews/<id>.json + docs/review/<id>.md
 import path from 'node:path';
 import { mkdir, copyFile, readdir } from 'node:fs/promises';
-import { ROOT, OUT, DOCS, DIRS, TEMPLATES, YTDLP, FFMPEG, FFPROBE, PYTHON, EXTRA_VIDEO_DIRS, run, readJson, writeJson, writeText, exists, now, link, fmt, clip, tools, VALID_ID, scanVersion } from './lib.mjs';
+import { ROOT, OUT, DOCS, DIRS, TEMPLATES, YTDLP, FFMPEG, FFPROBE, PYTHON, EXTRA_VIDEO_DIRS, run, readJson, writeJson, writeText, exists, now, link, fmt, clip, tools, VALID_ID, scanVersion, isBotBlock } from './lib.mjs';
 import { fetchMeta, captionLines, rawLines, whisperLines } from './transcript.mjs';
 import { detectEvents } from './detect.mjs';
 import { reference, analyzeRun, statedTime, patchAt } from './analyze.mjs';
@@ -26,12 +26,12 @@ export async function download(id) {
     '--ffmpeg-location', path.dirname(FFMPEG), '--no-warnings', '--no-playlist', '--js-runtimes', 'node', '--no-part',
     '-o', path.join(DIRS.vid, '%(id)s.%(ext)s'), `https://www.youtube.com/watch?v=${id}`], { timeout: 40 * 60 * 1000 });
   if (await exists(file)) return { file, cached: false };
-  return { file: null, error: (r.stderr.split('\n').filter(l => /ERROR/.test(l)).join(' ') || r.stderr).slice(0, 300) };
+  return { file: null, error: (r.stderr.split('\n').filter(l => /ERROR/.test(l)).join(' ') || r.stderr).slice(0, 300), botBlock: isBotBlock(r.stderr) };
 }
 
 // A file with an audio stream for whisper: the 360p download normally has one; cached
 // video-only files get the audio track fetched separately.
-export async function audioSource(id, video) {
+export async function audioSource(id, video, info = {}) {
   if (video) {
     const p = await run(FFPROBE, ['-v', 'error', '-select_streams', 'a', '-show_entries', 'stream=index', '-of', 'csv=p=0', video], { timeout: 60000 });
     if (p.code === 0 && p.stdout.trim()) return video;
@@ -39,9 +39,10 @@ export async function audioSource(id, video) {
   let files = [];
   try { files = (await readdir(DIRS.vid)).filter(f => f.startsWith(`${id}.audio.`)); } catch {}
   if (files.length) return path.join(DIRS.vid, files[0]);
-  await run(YTDLP, ['-f', 'ba[ext=m4a]/ba', '--no-warnings', '--no-playlist', '--js-runtimes', 'node', '--no-part',
+  const r = await run(YTDLP, ['-f', 'ba[ext=m4a]/ba', '--no-warnings', '--no-playlist', '--js-runtimes', 'node', '--no-part',
     '-o', path.join(DIRS.vid, '%(id)s.audio.%(ext)s'), `https://www.youtube.com/watch?v=${id}`], { timeout: 20 * 60 * 1000 });
   files = (await readdir(DIRS.vid)).filter(f => f.startsWith(`${id}.audio.`));
+  if (!files.length && isBotBlock(r.stderr)) info.botBlock = r.stderr.split('\n').find(l => /ERROR/.test(l)) || 'bot check';
   return files.length ? path.join(DIRS.vid, files[0]) : null;
 }
 
@@ -82,6 +83,9 @@ export async function reviewSource(item, { level = 'full', known = null, ref = n
   if (!t.ytdlp) return { ...base, status: 'error', error: 'yt-dlp not available' };
 
   const m = await fetchMeta(id, { retrySubs: !!item.transcriptRetry });
+  // bot check: not a failure of this video; run.mjs backs it off and retries later
+  const deferred = error => ({ ...base, status: 'deferred', error, rateLimited: true, botBlock: true, title: item.title || null });
+  if (!m.ok && m.botBlock) return deferred(m.error);
   if (!m.ok) return { ...base, status: m.unavailable ? 'unavailable' : 'error', error: m.error, rateLimited: !!m.rateLimited, title: item.title || null };
   const meta = m.meta;
   known ||= await knownMechanics();
@@ -102,6 +106,7 @@ export async function reviewSource(item, { level = 'full', known = null, ref = n
   if (level === 'full' && (!t.ffmpeg || !t.cv)) { level = 'light'; base.level = level; }
   if (canVideo) {
     const d = await download(id);
+    if (!d.file && d.botBlock) return deferred(d.error);
     if (!d.file) visual = { status: 'error', reason: 'download failed: ' + d.error };
     else {
       videoFile = d.file;
@@ -120,7 +125,9 @@ export async function reviewSource(item, { level = 'full', known = null, ref = n
   if (noTalk && !tr) visual.whisperSkipped = 'title says no commentary';
   if (!tr && !noTalk && level === 'full' && t.whisper && meta.duration && meta.duration <= MAX_VIDEO_S) {
     log(`  whisper ${id}`);
-    const audio = await audioSource(id, videoFile);
+    const ai = {};
+    const audio = await audioSource(id, videoFile, ai);
+    if (!audio && ai.botBlock) return deferred(ai.botBlock);
     const w = audio ? await whisperLines(id, audio) : { error: 'no audio track could be fetched' };
     if (w.lines?.length) tr = { lines: w.lines, source: w.source };
     else if (w.error) visual.whisperError = w.error.slice(0, 200);

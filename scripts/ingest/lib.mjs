@@ -92,6 +92,22 @@ export function run(cmd, args, { timeout = 15 * 60 * 1000, maxBuffer = 512 * 102
   });
 }
 
+// YouTube's "Sign in to confirm you're not a bot" blocks this IP for a while, not one video.
+// Back off and retry later (45 min, 1.5 h, 3 h ... capped at 24 h; the first back-off is under an
+// hour so the next hourly run retries) instead of marking the video failed.
+export const isBotBlock = s => /confirm you.?re not a bot|sign in to confirm/i.test(String(s || ''));
+export const BOT_BACKOFF_MS = 45 * 60 * 1000, BOT_BACKOFF_MAX_MS = 24 * 60 * 60 * 1000;
+export const backoffUntil = (blocks, from = Date.now()) => new Date(from + Math.min(BOT_BACKOFF_MAX_MS, BOT_BACKOFF_MS * 2 ** Math.max(0, (blocks || 1) - 1))).toISOString();
+export const backedOff = (s, at = Date.now()) => !!s?.retryAfter && Date.parse(s.retryAfter) > at;
+// Mark a per-video state record as bot-blocked (returns it); clearBotBlock removes the marks.
+export function noteBotBlock(st, msg, from = Date.now()) {
+  st.botBlocks = (st.botBlocks || 0) + 1;
+  st.retryAfter = backoffUntil(st.botBlocks, from);
+  st.lastBlock = String(msg || '').slice(0, 200);
+  return st;
+}
+export function clearBotBlock(st) { delete st.botBlocks; delete st.retryAfter; delete st.lastBlock; return st; }
+
 export const clip = (s, n) => (s && s.length > n ? s.slice(0, n) + '…' : s || '');
 export const ytId = u => (String(u || '').match(/(?:youtu\.be\/|[?&]v=|\/shorts\/|\/live\/|\/embed\/)([\w-]{11})/) || [])[1] || null;
 export const twitchVod = u => (String(u || '').match(/twitch\.tv\/(?:[\w]+\/)?(?:videos|v)\/(\d+)/) || [])[1] || null;

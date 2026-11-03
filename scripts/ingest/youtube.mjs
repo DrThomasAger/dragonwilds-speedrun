@@ -26,7 +26,7 @@ import path from 'node:path';
 import { existsSync } from 'node:fs';
 import { readdir, mkdir } from 'node:fs/promises';
 import { pathToFileURL, fileURLToPath } from 'node:url';
-import { ROOT, RAW, YTDLP, PYTHON, WORK, readJson, writeJson, logNew, run, sleep, now, clip, ytId, fetchRetry, isMain, arg, UA } from './lib.mjs';
+import { ROOT, RAW, YTDLP, PYTHON, WORK, readJson, writeJson, logNew, run, sleep, now, clip, ytId, fetchRetry, isMain, arg, UA, isBotBlock, backedOff, noteBotBlock, clearBotBlock } from './lib.mjs';
 
 const DIR = path.join(RAW, 'youtube');
 const HERE = path.dirname(fileURLToPath(import.meta.url));
@@ -152,7 +152,8 @@ async function ytdlpInfo(id, { comments }) {
     if (is429(r.stderr) && i < 3) { const w = 30000 * 3 ** i; console.error(`  429 on ${id}; waiting ${w / 1000}s`); await sleep(w); continue; }
     const msg = (r.stderr || 'yt-dlp failed').split('\n').filter(l => /ERROR/.test(l)).join(' ').slice(0, 300) || r.stderr.slice(-300);
     const e = new Error(msg);
-    e.is429 = is429(r.stderr); e.unavailable = !e.is429 && /unavailable|private video|removed|terminated|does not exist/i.test(r.stderr);
+    e.is429 = is429(r.stderr); e.botBlock = isBotBlock(r.stderr);
+    e.unavailable = !e.is429 && !e.botBlock && /unavailable|private video|removed|terminated|does not exist/i.test(r.stderr);
     throw e;
   }
 }
@@ -218,10 +219,18 @@ export async function ingestYoutube({ log = logNew, max = +arg('max', process.en
   let list = await videoList();
   if (only) { const ids = String(only).split(','); list = ids.map(id => list.find(v => v.id === id) || { id, from: 'cli', kind: 'video' }); }
   stats.tracked = list.length;
-  let streak429 = 0, done = 0, stop = false;
+  let streak429 = 0, streakBot = 0, done = 0, stop = false;
+  stats.botBlocked = 0;
+  // "Sign in to confirm you're not a bot": back this video off (retried in a later run, not
+  // counted as failed); two in a row means the whole IP is blocked, so stop YouTube for this run.
+  const botBlocked = (v, st, e, what) => {
+    noteBotBlock(st, e.message); stats.botBlocked++;
+    stats.errors.push(`${v.id}${what}: bot check, retry after ${st.retryAfter}`);
+    if (++streakBot >= 2 && !stop) { stop = true; stats.errors.push('stopped: YouTube asks to confirm "not a bot"; backing off, resumes in a later run'); }
+  };
 
   // ---- phase 1: transcripts
-  const need1 = list.filter(v => { const s = state[v.id] || {}; return !s.unavailable && (refresh || !s.transcript || s.transcript === 'retry'); });
+  const need1 = list.filter(v => { const s = state[v.id] || {}; return !s.unavailable && !backedOff(s) && (refresh || !s.transcript || s.transcript === 'retry'); });
   await log('youtube', 'progress', 'transcripts', `phase 1: ${need1.length} videos need transcripts (${list.length} tracked)`);
   for (const v of need1) {
     if (done >= max || stop) break;
@@ -231,8 +240,9 @@ export async function ingestYoutube({ log = logNew, max = +arg('max', process.en
     const old = await readJson(file, null);
     process.stderr.write(`yt[T ${done}/${need1.length}] ${v.id} ${clip(v.title || '', 60)}\n`);
     let info;
-    try { info = await ytdlpInfo(v.id, { comments: false }); streak429 = 0; }
+    try { info = await ytdlpInfo(v.id, { comments: false }); streak429 = 0; streakBot = 0; clearBotBlock(st); }
     catch (e) {
+      if (e.botBlock) { botBlocked(v, st, e, ''); st.at = now(); await saveState(); continue; }
       stats.failed++; stats.errors.push(`${v.id}: ${e.message}`);
       if (e.unavailable) { st.unavailable = true; stats.unavailable++; }
       if (e.is429 && ++streak429 >= 3) { stop = true; stats.errors.push('stopped: YouTube kept returning 429; resumes next run'); }
@@ -267,9 +277,10 @@ export async function ingestYoutube({ log = logNew, max = +arg('max', process.en
     if (!ver) stats.errors.push('whisper requested but faster-whisper is not importable by ' + PYTHON);
     // raid / speedrun videos first, then the rest
     const pri = v => (/kuldra|scorned|raid/i.test(v.title || '') ? 0 : /speed ?run|skip|tech|record/i.test(v.title || '') ? 1 : 2);
-    const needW = ver ? list.filter(v => state[v.id]?.transcript === 'none' && !state[v.id]?.whisper).sort((a, b) => pri(a) - pri(b)) : [];
+    const needW = ver ? list.filter(v => state[v.id]?.transcript === 'none' && !state[v.id]?.whisper && !backedOff(state[v.id])).sort((a, b) => pri(a) - pri(b)) : [];
     let n = 0;
     for (const v of needW) {
+      if (stop) break;
       const file = path.join(DIR, `${v.id}.json`);
       const doc = await readJson(file, null);
       if (!doc) continue;
@@ -282,7 +293,7 @@ export async function ingestYoutube({ log = logNew, max = +arg('max', process.en
         audio = audio ? path.join(WORK, audio) : null;
         if (!audio) {
           const r = await run(YTDLP, ['-f', 'bestaudio[abr<=80]/bestaudio/worst', '--no-warnings', '--no-part', '--js-runtimes', 'node', '-o', path.join(WORK, `yt-${v.id}.%(ext)s`), '--print', 'after_move:filepath', `https://www.youtube.com/watch?v=${v.id}`], { timeout: 30 * 60 * 1000 });
-          if (r.code !== 0) throw new Error('audio: ' + clip(r.stderr.trim().split('\n').pop(), 200));
+          if (r.code !== 0) { const e = new Error('audio: ' + clip(r.stderr.trim().split('\n').pop(), 200)); e.botBlock = isBotBlock(r.stderr); throw e; }
           audio = r.stdout.trim().split('\n').pop();
         }
         const w = await run(PYTHON, [path.join(HERE, 'whisper.py'), audio, process.env.INGEST_WHISPER_MODEL || 'small'], { timeout: 3 * 60 * 60 * 1000 });
@@ -294,7 +305,10 @@ export async function ingestYoutube({ log = logNew, max = +arg('max', process.en
         await writeJson(file, doc);
         state[v.id].whisper = doc.transcript.length ? 'ok' : 'empty';
         if (doc.transcript.length) { stats.newTranscripts++; stats.whisper = (stats.whisper || 0) + 1; await log('youtube', 'transcript', v.id, `${doc.author}: ${doc.title} (${doc.transcript.length} lines, whisper)`); }
-      } catch (e) { state[v.id].whisper = 'error'; stats.errors.push(`${v.id} whisper: ${e.message}`); }
+      } catch (e) {
+        if (e.botBlock) botBlocked(v, state[v.id], e, ' whisper audio');
+        else { state[v.id].whisper = 'error'; stats.errors.push(`${v.id} whisper: ${e.message}`); }
+      }
       await saveState();
     }
     const ixw = await buildIndex();
@@ -305,7 +319,7 @@ export async function ingestYoutube({ log = logNew, max = +arg('max', process.en
   if (doComments && !stop) {
     const need2 = list.filter(v => {
       const s = state[v.id] || {};
-      if (s.unavailable || s.offTopic || !s.fetchedAt) return false;
+      if (s.unavailable || s.offTopic || !s.fetchedAt || backedOff(s)) return false;
       if (!s.commentsAt || refresh) return true;
       const d = s.date ? (Date.now() - Date.parse(s.date)) / 864e5 : 999;
       return d < 60 && Date.now() - Date.parse(s.commentsAt) > 7 * 864e5;
@@ -319,8 +333,8 @@ export async function ingestYoutube({ log = logNew, max = +arg('max', process.en
       const old = await readJson(file, null);
       process.stderr.write(`yt[C ${n}/${need2.length}] ${v.id} ${clip(v.title || '', 60)}\n`);
       let info;
-      try { info = await ytdlpInfo(v.id, { comments: true }); streak429 = 0; }
-      catch (e) { stats.errors.push(`${v.id} comments: ${e.message}`); if (e.is429 && ++streak429 >= 3) stop = true; continue; }
+      try { info = await ytdlpInfo(v.id, { comments: true }); streak429 = 0; streakBot = 0; clearBotBlock(st); }
+      catch (e) { if (e.botBlock) { botBlocked(v, st, e, ' comments'); await saveState(); continue; } stats.errors.push(`${v.id} comments: ${e.message}`); if (e.is429 && ++streak429 >= 3) stop = true; continue; }
       const doc = docFrom(info, v, old);
       doc.comments = mapComments(info.comments);
       if (old?.comments?.length) {
@@ -340,6 +354,7 @@ export async function ingestYoutube({ log = logNew, max = +arg('max', process.en
   for (const f of (await readdir(DIR)).filter(f => /^[\w-]{11}\.json$/.test(f))) stats.comments += ((await readJson(path.join(DIR, f), {})).comments || []).length;
   stats.noCaptionsTotal = Object.values(state).filter(s => s.transcript === 'none').length;
   stats.pendingRetry = Object.values(state).filter(s => s.transcript === 'retry').length;
+  stats.backedOff = Object.values(state).filter(s => backedOff(s)).length;
   if (stats.errors.length > 40) stats.errors = [...stats.errors.slice(0, 40), `… ${stats.errors.length - 40} more`];
   return stats;
 }
