@@ -1,0 +1,1470 @@
+{
+ "generated": "2026-11-03",
+ "goal": "beat 6:50.00 Scorned Wilderness raid on patch 1.0.1.2",
+ "checkpoints": {
+  "C0": "Start (timer 0)",
+  "C1": "Air anima pillar (whirlwind)",
+  "C2": "Soulscourge passed (enter BD arena)",
+  "C3": "Black dragon passed (leave arena)",
+  "S1": "Split 1 - necro area skipped / Fragments",
+  "C5": "Fortress courtyard (poison area entry)",
+  "C6": "Abyssal demon passed (golden path)",
+  "S2": "Split 2 - portal",
+  "S3": "Split 3 - Garou Thane / air door done (forest)",
+  "C9": "Keep entry (parkour done, past last fire beam)",
+  "S4": "Split 4 - Keep",
+  "C11": "Sanctum door load (Kuldra fight skip start)",
+  "C12": "Heart tunnel load (Sanctum done)",
+  "C13": "Heart dead (GET OUT NOW)",
+  "END": "Cut to black (final split)"
+ },
+ "offsets": {
+  "samf": -0.1,
+  "tp650": 7.38,
+  "nano": 23.78,
+  "tp740": 29.55
+ },
+ "videos": {
+  "samf": "WpvNjqVmpVM",
+  "tp650": "6WEIHo7AUf0",
+  "nano": "doVQ9Ph256g",
+  "tp740": "6N3NwYA5Zh0"
+ },
+ "run_times": {
+  "samf": {
+   "C0": 0.0,
+   "C1": 27.9,
+   "C2": 79.4,
+   "C3": 94.0,
+   "C5": 160.1,
+   "C6": 202.1,
+   "C9": 355.5,
+   "C11": 498.5,
+   "C12": 547.9,
+   "C13": 639.5,
+   "S1": 115.2,
+   "S2": 212.5,
+   "S3": 312.8,
+   "S4": 481.4,
+   "END": 653.4
+  },
+  "tp650": {
+   "C0": 0.0,
+   "C1": 20.52,
+   "C2": 60.42,
+   "C3": 72.02,
+   "C5": 104.22,
+   "C6": 134.42,
+   "C9": 229.62,
+   "C11": 313.42,
+   "C12": 348.42,
+   "C13": 396.22,
+   "S1": 81.52,
+   "S2": 142.62,
+   "S3": 194.32,
+   "S4": 290.62,
+   "END": 410.0
+  },
+  "nano": {
+   "C0": 0.0,
+   "C1": 22.12,
+   "C2": 61.42,
+   "C3": 72.22,
+   "C5": 113.82,
+   "C6": 144.02,
+   "C9": 251.62,
+   "C11": 326.82,
+   "C12": 361.82,
+   "C13": 407.82,
+   "S1": 87.82,
+   "S2": 154.92,
+   "S3": 218.02,
+   "S4": 305.82,
+   "END": 421.97
+  },
+  "tp740": {
+   "C0": 0.0,
+   "C1": 28.65,
+   "C2": 70.05,
+   "C3": 80.45,
+   "C5": 112.25,
+   "C6": 160.25,
+   "C9": 262.25,
+   "C11": 352.25,
+   "C12": 393.25,
+   "C13": 446.65,
+   "S1": 89.95,
+   "S2": 168.55,
+   "S3": 222.95,
+   "S4": 324.75,
+   "END": 460.62
+  }
+ },
+ "segments": [
+  {
+   "seg": "C0->C1",
+   "from": "Start (timer 0)",
+   "to": "Air anima pillar (whirlwind)",
+   "runs": {
+    "tp650": {
+     "start_run_s": 0.0,
+     "end_run_s": 20.52,
+     "dur": 20.52,
+     "clip": [
+      "6WEIHo7AUf0",
+      7.4,
+      27.9
+     ],
+     "strat": "run + air dashes to the 1st air anima pillar (Nanobit: 4 air dashes possible, he did 3; walked ~1.5 s at the start)",
+     "patched": false,
+     "unverified": false
+    },
+    "nano": {
+     "start_run_s": 0.0,
+     "end_run_s": 22.12,
+     "dur": 22.12,
+     "clip": [
+      "doVQ9Ph256g",
+      23.8,
+      45.9
+     ],
+     "strat": "run + air dashes to the 1st air anima pillar (Nanobit: 4 air dashes possible, he did 3; walked ~1.5 s at the start)",
+     "patched": false,
+     "unverified": false
+    },
+    "tp740": {
+     "start_run_s": 0.0,
+     "end_run_s": 28.65,
+     "dur": 28.65,
+     "clip": [
+      "6N3NwYA5Zh0",
+      29.6,
+      58.2
+     ],
+     "strat": "run + air dashes to the 1st air anima pillar (Nanobit: 4 air dashes possible, he did 3; walked ~1.5 s at the start)",
+     "patched": false,
+     "unverified": false
+    },
+    "samf": {
+     "start_run_s": 0.0,
+     "end_run_s": 27.9,
+     "dur": 27.9,
+     "clip": [
+      "WpvNjqVmpVM",
+      -0.1,
+      27.8
+     ],
+     "strat": "run + air dashes to the 1st air anima pillar (Nanobit: 4 air dashes possible, he did 3; walked ~1.5 s at the start)",
+     "patched": false,
+     "unverified": false
+    }
+   },
+   "best_any": [
+    "tp650",
+    20.52
+   ],
+   "best_valid": [
+    "tp650",
+    20.52
+   ],
+   "best_strict": [
+    "tp650",
+    20.52
+   ]
+  },
+  {
+   "seg": "C1->C2",
+   "from": "Air anima pillar (whirlwind)",
+   "to": "Soulscourge passed (enter BD arena)",
+   "runs": {
+    "tp650": {
+     "start_run_s": 20.52,
+     "end_run_s": 60.42,
+     "dur": 39.9,
+     "clip": [
+      "6WEIHo7AUf0",
+      27.9,
+      67.8
+     ],
+     "strat": "windstep from the anima, through the soulscourge room without fighting",
+     "patched": false,
+     "unverified": false
+    },
+    "nano": {
+     "start_run_s": 22.12,
+     "end_run_s": 61.42,
+     "dur": 39.3,
+     "clip": [
+      "doVQ9Ph256g",
+      45.9,
+      85.2
+     ],
+     "strat": "windstep from the anima, through the soulscourge room without fighting",
+     "patched": false,
+     "unverified": false
+    },
+    "tp740": {
+     "start_run_s": 28.65,
+     "end_run_s": 70.05,
+     "dur": 41.4,
+     "clip": [
+      "6N3NwYA5Zh0",
+      58.2,
+      99.6
+     ],
+     "strat": "windstep from the anima, through the soulscourge room without fighting",
+     "patched": false,
+     "unverified": false
+    },
+    "samf": {
+     "start_run_s": 27.9,
+     "end_run_s": 79.4,
+     "dur": 51.5,
+     "clip": [
+      "WpvNjqVmpVM",
+      27.8,
+      79.3
+     ],
+     "strat": "SamF guide line, slower through the soulscourge room",
+     "patched": false,
+     "unverified": false
+    }
+   },
+   "best_any": [
+    "nano",
+    39.3
+   ],
+   "best_valid": [
+    "nano",
+    39.3
+   ],
+   "best_strict": [
+    "nano",
+    39.3
+   ]
+  },
+  {
+   "seg": "C2->C3",
+   "from": "Soulscourge passed (enter BD arena)",
+   "to": "Black dragon passed (leave arena)",
+   "runs": {
+    "tp650": {
+     "start_run_s": 60.42,
+     "end_run_s": 72.02,
+     "dur": 11.6,
+     "clip": [
+      "6WEIHo7AUf0",
+      67.8,
+      79.4
+     ],
+     "strat": "BD not fought; run past + earth pillar (Nanobit: pillar ~1 s earlier, i-frame the Kuldra knockback)",
+     "patched": false,
+     "unverified": false
+    },
+    "nano": {
+     "start_run_s": 61.42,
+     "end_run_s": 72.22,
+     "dur": 10.8,
+     "clip": [
+      "doVQ9Ph256g",
+      85.2,
+      96.0
+     ],
+     "strat": "BD not fought; run past + earth pillar (Nanobit: pillar ~1 s earlier, i-frame the Kuldra knockback)",
+     "patched": false,
+     "unverified": false
+    },
+    "tp740": {
+     "start_run_s": 70.05,
+     "end_run_s": 80.45,
+     "dur": 10.4,
+     "clip": [
+      "6N3NwYA5Zh0",
+      99.6,
+      110.0
+     ],
+     "strat": "BD not fought; run past + earth pillar (Nanobit: pillar ~1 s earlier, i-frame the Kuldra knockback)",
+     "patched": false,
+     "unverified": false
+    },
+    "samf": {
+     "start_run_s": 79.4,
+     "end_run_s": 94.0,
+     "dur": 14.6,
+     "clip": [
+      "WpvNjqVmpVM",
+      79.3,
+      93.9
+     ],
+     "strat": "BD not fought; run past + earth pillar (Nanobit: pillar ~1 s earlier, i-frame the Kuldra knockback)",
+     "patched": false,
+     "unverified": false
+    }
+   },
+   "best_any": [
+    "tp740",
+    10.4
+   ],
+   "best_valid": [
+    "tp740",
+    10.4
+   ],
+   "best_strict": [
+    "tp740",
+    10.4
+   ]
+  },
+  {
+   "seg": "C3->S1",
+   "from": "Black dragon passed (leave arena)",
+   "to": "Split 1 - necro area skipped / Fragments",
+   "runs": {
+    "tp650": {
+     "start_run_s": 72.02,
+     "end_run_s": 81.52,
+     "dur": 9.5,
+     "clip": [
+      "6WEIHo7AUf0",
+      79.4,
+      88.9
+     ],
+     "strat": "TexasPete: off the BD ledge straight across to Fragments (1.0.0.6-era line; status on 1.0.1.2 UNVERIFIED, no 1.0.1 runner uses it)",
+     "patched": false,
+     "unverified": true
+    },
+    "nano": {
+     "start_run_s": 72.22,
+     "end_run_s": 87.82,
+     "dur": 15.6,
+     "clip": [
+      "doVQ9Ph256g",
+      96.0,
+      111.6
+     ],
+     "strat": "1.0.1: over the vines, zoop to Fragments (SectorTSWG/Sir_Rebral skip); zoop could start ~1.5 s earlier",
+     "patched": false,
+     "unverified": false
+    },
+    "tp740": {
+     "start_run_s": 80.45,
+     "end_run_s": 89.95,
+     "dur": 9.5,
+     "clip": [
+      "6N3NwYA5Zh0",
+      110.0,
+      119.5
+     ],
+     "strat": "same TexasPete line (unverified)",
+     "patched": false,
+     "unverified": true
+    },
+    "samf": {
+     "start_run_s": 94.0,
+     "end_run_s": 115.2,
+     "dur": 21.2,
+     "clip": [
+      "WpvNjqVmpVM",
+      93.9,
+      115.1
+     ],
+     "strat": "deliberate death at necro island, respawn at Fragments (YOU DIED v116-123)",
+     "patched": false,
+     "unverified": false
+    }
+   },
+   "best_any": [
+    "tp650",
+    9.5
+   ],
+   "best_valid": [
+    "tp650",
+    9.5
+   ],
+   "best_strict": [
+    "nano",
+    15.6
+   ]
+  },
+  {
+   "seg": "S1->C5",
+   "from": "Split 1 - necro area skipped / Fragments",
+   "to": "Fortress courtyard (poison area entry)",
+   "runs": {
+    "tp650": {
+     "start_run_s": 81.52,
+     "end_run_s": 104.22,
+     "dur": 22.7,
+     "clip": [
+      "6WEIHo7AUf0",
+      88.9,
+      111.6
+     ],
+     "strat": "fortress run; Nanobit: a strong zoop from the keep wall across the pond reaches the gate (~2.5 s)",
+     "patched": false,
+     "unverified": false
+    },
+    "nano": {
+     "start_run_s": 87.82,
+     "end_run_s": 113.82,
+     "dur": 26.0,
+     "clip": [
+      "doVQ9Ph256g",
+      111.6,
+      137.6
+     ],
+     "strat": "fortress run; Nanobit: a strong zoop from the keep wall across the pond reaches the gate (~2.5 s)",
+     "patched": false,
+     "unverified": false
+    },
+    "tp740": {
+     "start_run_s": 89.95,
+     "end_run_s": 112.25,
+     "dur": 22.3,
+     "clip": [
+      "6N3NwYA5Zh0",
+      119.5,
+      141.8
+     ],
+     "strat": "fortress run; Nanobit: a strong zoop from the keep wall across the pond reaches the gate (~2.5 s)",
+     "patched": false,
+     "unverified": false
+    },
+    "samf": {
+     "start_run_s": 115.2,
+     "end_run_s": 160.1,
+     "dur": 44.9,
+     "clip": [
+      "WpvNjqVmpVM",
+      115.1,
+      160.0
+     ],
+     "strat": "includes the respawn wait from the death warp",
+     "patched": false,
+     "unverified": false
+    }
+   },
+   "best_any": [
+    "tp740",
+    22.3
+   ],
+   "best_valid": [
+    "tp740",
+    22.3
+   ],
+   "best_strict": [
+    "tp740",
+    22.3
+   ]
+  },
+  {
+   "seg": "C5->C6",
+   "from": "Fortress courtyard (poison area entry)",
+   "to": "Abyssal demon passed (golden path)",
+   "runs": {
+    "tp650": {
+     "start_run_s": 104.22,
+     "end_run_s": 134.42,
+     "dur": 30.2,
+     "clip": [
+      "6WEIHo7AUf0",
+      111.6,
+      141.8
+     ],
+     "strat": "poison-area hole + surge/phase dash past the abyssal demon (Nanobit: push harder into the hole; a strong zoop needs no dashes; start surging from his exact spot)",
+     "patched": false,
+     "unverified": false
+    },
+    "nano": {
+     "start_run_s": 113.82,
+     "end_run_s": 144.02,
+     "dur": 30.2,
+     "clip": [
+      "doVQ9Ph256g",
+      137.6,
+      167.8
+     ],
+     "strat": "poison-area hole + surge/phase dash past the abyssal demon (Nanobit: push harder into the hole; a strong zoop needs no dashes; start surging from his exact spot)",
+     "patched": false,
+     "unverified": false
+    },
+    "tp740": {
+     "start_run_s": 112.25,
+     "end_run_s": 160.25,
+     "dur": 48.0,
+     "clip": [
+      "6N3NwYA5Zh0",
+      141.8,
+      189.8
+     ],
+     "strat": "poison-area hole + surge/phase dash past the abyssal demon (Nanobit: push harder into the hole; a strong zoop needs no dashes; start surging from his exact spot)",
+     "patched": false,
+     "unverified": false
+    },
+    "samf": {
+     "start_run_s": 160.1,
+     "end_run_s": 202.1,
+     "dur": 42.0,
+     "clip": [
+      "WpvNjqVmpVM",
+      160.0,
+      202.0
+     ],
+     "strat": "poison-area hole + surge/phase dash past the abyssal demon (Nanobit: push harder into the hole; a strong zoop needs no dashes; start surging from his exact spot)",
+     "patched": false,
+     "unverified": false
+    }
+   },
+   "best_any": [
+    "tp650",
+    30.2
+   ],
+   "best_valid": [
+    "tp650",
+    30.2
+   ],
+   "best_strict": [
+    "tp650",
+    30.2
+   ]
+  },
+  {
+   "seg": "C6->S2",
+   "from": "Abyssal demon passed (golden path)",
+   "to": "Split 2 - portal",
+   "runs": {
+    "tp650": {
+     "start_run_s": 134.42,
+     "end_run_s": 142.62,
+     "dur": 8.2,
+     "clip": [
+      "6WEIHo7AUf0",
+      141.8,
+      150.0
+     ],
+     "strat": "golden path to the portal",
+     "patched": false,
+     "unverified": false
+    },
+    "nano": {
+     "start_run_s": 144.02,
+     "end_run_s": 154.92,
+     "dur": 10.9,
+     "clip": [
+      "doVQ9Ph256g",
+      167.8,
+      178.7
+     ],
+     "strat": "golden path to the portal",
+     "patched": false,
+     "unverified": false
+    },
+    "tp740": {
+     "start_run_s": 160.25,
+     "end_run_s": 168.55,
+     "dur": 8.3,
+     "clip": [
+      "6N3NwYA5Zh0",
+      189.8,
+      198.1
+     ],
+     "strat": "golden path to the portal",
+     "patched": false,
+     "unverified": false
+    },
+    "samf": {
+     "start_run_s": 202.1,
+     "end_run_s": 212.5,
+     "dur": 10.4,
+     "clip": [
+      "WpvNjqVmpVM",
+      202.0,
+      212.4
+     ],
+     "strat": "golden path to the portal",
+     "patched": false,
+     "unverified": false
+    }
+   },
+   "best_any": [
+    "tp650",
+    8.2
+   ],
+   "best_valid": [
+    "tp650",
+    8.2
+   ],
+   "best_strict": [
+    "tp650",
+    8.2
+   ]
+  },
+  {
+   "seg": "S2->S3",
+   "from": "Split 2 - portal",
+   "to": "Split 3 - Garou Thane / air door done (forest)",
+   "runs": {
+    "tp650": {
+     "start_run_s": 142.62,
+     "end_run_s": 194.32,
+     "dur": 51.7,
+     "clip": [
+      "6WEIHo7AUf0",
+      150.0,
+      201.7
+     ],
+     "strat": "1.0.0.6 wall climb without the Thane kill - PATCHED (1.0.1 runners need the air charge)",
+     "patched": true,
+     "unverified": false
+    },
+    "nano": {
+     "start_run_s": 154.92,
+     "end_run_s": 218.02,
+     "dur": 63.1,
+     "clip": [
+      "doVQ9Ph256g",
+      178.7,
+      241.8
+     ],
+     "strat": "1.0.1: kill Garou Thane through the gate (melee), air charge, windstep up the air doorway, climb walls; 1 extra swing; zoops at 3:46/3:50 can skip dashes",
+     "patched": false,
+     "unverified": false
+    },
+    "tp740": {
+     "start_run_s": 168.55,
+     "end_run_s": 222.95,
+     "dur": 54.4,
+     "clip": [
+      "6N3NwYA5Zh0",
+      198.1,
+      252.5
+     ],
+     "strat": "same - PATCHED",
+     "patched": true,
+     "unverified": false
+    },
+    "samf": {
+     "start_run_s": 212.5,
+     "end_run_s": 312.8,
+     "dur": 100.3,
+     "clip": [
+      "WpvNjqVmpVM",
+      212.4,
+      312.7
+     ],
+     "strat": "SamF guide route through the air room",
+     "patched": false,
+     "unverified": false
+    },
+    "ftg": {
+     "dur": 51.9,
+     "clip": [
+      "oK0_U_I40DY",
+      281.6,
+      333.5
+     ],
+     "strat": "FastTipsGaming 2026-11-02: no Thane kill; climbs the rocks left of the air door, windstep (v299) and glides over the island into the forest. Split-3 point estimated (parkour start v336 minus 2.5 s), +-1.5 s",
+     "patched": false,
+     "unverified": true,
+     "estimated": true
+    }
+   },
+   "best_any": [
+    "tp650",
+    51.7
+   ],
+   "best_valid": [
+    "ftg",
+    51.9
+   ],
+   "best_strict": [
+    "nano",
+    63.1
+   ]
+  },
+  {
+   "seg": "S3->C9",
+   "from": "Split 3 - Garou Thane / air door done (forest)",
+   "to": "Keep entry (parkour done, past last fire beam)",
+   "runs": {
+    "tp650": {
+     "start_run_s": 194.32,
+     "end_run_s": 229.62,
+     "dur": 35.3,
+     "clip": [
+      "6WEIHo7AUf0",
+      201.7,
+      237.0
+     ],
+     "strat": "parkour floating islands (Nanobit: windjump can reach the 2nd rock)",
+     "patched": false,
+     "unverified": false
+    },
+    "nano": {
+     "start_run_s": 218.02,
+     "end_run_s": 251.62,
+     "dur": 33.6,
+     "clip": [
+      "doVQ9Ph256g",
+      241.8,
+      275.4
+     ],
+     "strat": "parkour floating islands (Nanobit: windjump can reach the 2nd rock)",
+     "patched": false,
+     "unverified": false
+    },
+    "tp740": {
+     "start_run_s": 222.95,
+     "end_run_s": 262.25,
+     "dur": 39.3,
+     "clip": [
+      "6N3NwYA5Zh0",
+      252.5,
+      291.8
+     ],
+     "strat": "parkour floating islands (Nanobit: windjump can reach the 2nd rock)",
+     "patched": false,
+     "unverified": false
+    },
+    "samf": {
+     "start_run_s": 312.8,
+     "end_run_s": 355.5,
+     "dur": 42.7,
+     "clip": [
+      "WpvNjqVmpVM",
+      312.7,
+      355.4
+     ],
+     "strat": "parkour floating islands (Nanobit: windjump can reach the 2nd rock)",
+     "patched": false,
+     "unverified": false
+    }
+   },
+   "best_any": [
+    "nano",
+    33.6
+   ],
+   "best_valid": [
+    "nano",
+    33.6
+   ],
+   "best_strict": [
+    "nano",
+    33.6
+   ]
+  },
+  {
+   "seg": "C9->C11",
+   "from": "Keep entry (parkour done, past last fire beam)",
+   "to": "Sanctum door load (Kuldra fight skip start)",
+   "runs": {
+    "tp650": {
+     "start_run_s": 229.62,
+     "end_run_s": 313.42,
+     "dur": 83.8,
+     "clip": [
+      "6WEIHo7AUf0",
+      237.0,
+      320.8
+     ],
+     "strat": "old Keep skip (blue rock climb) - PATCHED in 1.0.1 (SamF: \"NO MORE SKIP\")",
+     "patched": true,
+     "unverified": false
+    },
+    "nano": {
+     "start_run_s": 251.62,
+     "end_run_s": 326.82,
+     "dur": 75.2,
+     "clip": [
+      "doVQ9Ph256g",
+      275.4,
+      350.6
+     ],
+     "strat": "1.0.1 Keep hole (notmusty1/IINo1goodII) into OOB, rib clip out, run to the Sanctum door; plunge-cancels (5:07/5:12) and an instant rib clip (5:33, >=3 s) save time",
+     "patched": false,
+     "unverified": false
+    },
+    "tp740": {
+     "start_run_s": 262.25,
+     "end_run_s": 352.25,
+     "dur": 90.0,
+     "clip": [
+      "6N3NwYA5Zh0",
+      291.8,
+      381.8
+     ],
+     "strat": "old Keep skip - PATCHED",
+     "patched": true,
+     "unverified": false
+    },
+    "samf": {
+     "start_run_s": 355.5,
+     "end_run_s": 498.5,
+     "dur": 143.0,
+     "clip": [
+      "WpvNjqVmpVM",
+      355.4,
+      498.4
+     ],
+     "strat": "full elemental puzzle",
+     "patched": false,
+     "unverified": false
+    },
+    "ftg": {
+     "dur": 98.6,
+     "clip": [
+      "oK0_U_I40DY",
+      385.4,
+      484.0
+     ],
+     "strat": "same Keep hole + push-through (rib clip) as Nanobit, tutorial pace",
+     "patched": false,
+     "unverified": true,
+     "estimated": true
+    }
+   },
+   "best_any": [
+    "nano",
+    75.2
+   ],
+   "best_valid": [
+    "nano",
+    75.2
+   ],
+   "best_strict": [
+    "nano",
+    75.2
+   ]
+  },
+  {
+   "seg": "C11->C12",
+   "from": "Sanctum door load (Kuldra fight skip start)",
+   "to": "Heart tunnel load (Sanctum done)",
+   "runs": {
+    "tp650": {
+     "start_run_s": 313.42,
+     "end_run_s": 348.42,
+     "dur": 35.0,
+     "clip": [
+      "6WEIHo7AUf0",
+      320.8,
+      355.8
+     ],
+     "strat": "windstep up the blocks to Kuldra - PATCHED in 1.0.1.2",
+     "patched": true,
+     "unverified": false
+    },
+    "nano": {
+     "start_run_s": 326.82,
+     "end_run_s": 361.82,
+     "dur": 35.0,
+     "clip": [
+      "doVQ9Ph256g",
+      350.6,
+      385.6
+     ],
+     "strat": "windstep up the blocks - PATCHED in 1.0.1.2 (his own description)",
+     "patched": true,
+     "unverified": false
+    },
+    "tp740": {
+     "start_run_s": 352.25,
+     "end_run_s": 393.25,
+     "dur": 41.0,
+     "clip": [
+      "6N3NwYA5Zh0",
+      381.8,
+      422.8
+     ],
+     "strat": "blocks - PATCHED",
+     "patched": true,
+     "unverified": false
+    },
+    "samf": {
+     "start_run_s": 498.5,
+     "end_run_s": 547.9,
+     "dur": 49.4,
+     "clip": [
+      "WpvNjqVmpVM",
+      498.4,
+      547.8
+     ],
+     "strat": "windstep up the blocks - PATCHED in 1.0.1.2",
+     "patched": true,
+     "unverified": false
+    },
+    "dotxy": {
+     "dur": 51.9,
+     "clip": [
+      "GeWbo4GpFEg",
+      0.0,
+      50.6
+     ],
+     "strat": "1.0.1.2 infinite flight (windstep, jump attack, Q, AoE spell, Esc, jump; repeat). 50.6 s visible from first Sanctum frame to tunnel load + ~1.3 s door load. Demo, not a run: lands and walks the walkway v21-38",
+     "patched": false,
+     "unverified": true,
+     "estimated": true
+    },
+    "ftg": {
+     "dur": 57.6,
+     "clip": [
+      "oK0_U_I40DY",
+      484.0,
+      541.6
+     ],
+     "strat": "drops off the start platform into the void (v501) and works through the crystal islands below; no block windstep",
+     "patched": false,
+     "unverified": true,
+     "estimated": true
+    }
+   },
+   "best_any": [
+    "tp650",
+    35.0
+   ],
+   "best_valid": [
+    "dotxy",
+    51.9
+   ],
+   "best_strict": [
+    "dotxy",
+    51.9
+   ]
+  },
+  {
+   "seg": "C12->C13",
+   "from": "Heart tunnel load (Sanctum done)",
+   "to": "Heart dead (GET OUT NOW)",
+   "runs": {
+    "tp650": {
+     "start_run_s": 348.42,
+     "end_run_s": 396.22,
+     "dur": 47.8,
+     "clip": [
+      "6WEIHo7AUf0",
+      355.8,
+      403.6
+     ],
+     "strat": "melee heart safespot",
+     "patched": false,
+     "unverified": false
+    },
+    "nano": {
+     "start_run_s": 361.82,
+     "end_run_s": 407.82,
+     "dur": 46.0,
+     "clip": [
+      "doVQ9Ph256g",
+      385.6,
+      431.6
+     ],
+     "strat": "melee safespot; missed it, re-entered at 6:53 (~6 s lost)",
+     "patched": false,
+     "unverified": false
+    },
+    "tp740": {
+     "start_run_s": 393.25,
+     "end_run_s": 446.65,
+     "dur": 53.4,
+     "clip": [
+      "6N3NwYA5Zh0",
+      422.8,
+      476.2
+     ],
+     "strat": "melee heart",
+     "patched": false,
+     "unverified": false
+    },
+    "samf": {
+     "start_run_s": 547.9,
+     "end_run_s": 639.5,
+     "dur": 91.6,
+     "clip": [
+      "WpvNjqVmpVM",
+      547.8,
+      639.4
+     ],
+     "strat": "2-handed mage staff from range",
+     "patched": false,
+     "unverified": false
+    }
+   },
+   "best_any": [
+    "nano",
+    46.0
+   ],
+   "best_valid": [
+    "nano",
+    46.0
+   ],
+   "best_strict": [
+    "nano",
+    46.0
+   ]
+  },
+  {
+   "seg": "C13->END",
+   "from": "Heart dead (GET OUT NOW)",
+   "to": "Cut to black (final split)",
+   "runs": {
+    "tp650": {
+     "start_run_s": 396.22,
+     "end_run_s": 410.0,
+     "dur": 13.78,
+     "clip": [
+      "6WEIHo7AUf0",
+      403.6,
+      417.4
+     ],
+     "strat": "fixed ~14 s escape after GET OUT NOW",
+     "patched": false,
+     "unverified": false
+    },
+    "nano": {
+     "start_run_s": 407.82,
+     "end_run_s": 421.97,
+     "dur": 14.15,
+     "clip": [
+      "doVQ9Ph256g",
+      431.6,
+      445.8
+     ],
+     "strat": "fixed ~14 s escape after GET OUT NOW",
+     "patched": false,
+     "unverified": false
+    },
+    "tp740": {
+     "start_run_s": 446.65,
+     "end_run_s": 460.62,
+     "dur": 13.97,
+     "clip": [
+      "6N3NwYA5Zh0",
+      476.2,
+      490.2
+     ],
+     "strat": "fixed ~14 s escape after GET OUT NOW",
+     "patched": false,
+     "unverified": false
+    },
+    "samf": {
+     "start_run_s": 639.5,
+     "end_run_s": 653.4,
+     "dur": 13.9,
+     "clip": [
+      "WpvNjqVmpVM",
+      639.4,
+      653.3
+     ],
+     "strat": "fixed ~14 s escape after GET OUT NOW",
+     "patched": false,
+     "unverified": false
+    }
+   },
+   "best_any": [
+    "tp650",
+    13.78
+   ],
+   "best_valid": [
+    "tp650",
+    13.78
+   ],
+   "best_strict": [
+    "tp650",
+    13.78
+   ]
+  }
+ ],
+ "totals": {
+  "sum_of_best_any_patch": 395.7,
+  "composite_1012_valid_incl_unverified": 412.8,
+  "composite_strict_verified": 430.1
+ },
+ "target": {
+  "per_segment": [
+   {
+    "seg": "C0->C1",
+    "target": 21.0,
+    "cum": 21.0,
+    "why": "TexasPete 6:50 line (20.5); keep sprint held from frame 1, 4 air dashes (Nanobit note 0:23/0:51)"
+   },
+   {
+    "seg": "C1->C2",
+    "target": 39.3,
+    "cum": 60.3,
+    "why": "Nanobit 7:01 (39.3); 3 air dashes to the 2nd pillar (note 1:14)"
+   },
+   {
+    "seg": "C2->C3",
+    "target": 10.4,
+    "cum": 70.7,
+    "why": "TexasPete 7:40 (10.4); earth pillar ~1 s earlier, i-frame the Kuldra knockback (notes 1:22/1:30)"
+   },
+   {
+    "seg": "C3->S1",
+    "target": 12.0,
+    "cum": 82.7,
+    "why": "TexasPete line straight to Fragments (9.5, unverified on 1.0.1.2) +1.5 margin. FALLBACK: Nanobit vines zoop 15.6 minus earlier zoop = ~14.1 (costs ~2 s vs target)"
+   },
+   {
+    "seg": "S1->C5",
+    "target": 22.3,
+    "cum": 105.0,
+    "why": "TexasPete 7:40 (22.3); Nanobit pond zoop to the gate (note 2:05)"
+   },
+   {
+    "seg": "C5->C6",
+    "target": 30.0,
+    "cum": 135.0,
+    "why": "Nanobit/TexasPete 30.2 minus the hole push and no-dash zoop (notes 2:28/2:32)"
+   },
+   {
+    "seg": "C6->S2",
+    "target": 8.2,
+    "cum": 143.2,
+    "why": "TexasPete 6:50 (8.2); start the surge from Nanobit spot (2:45) so the demon stays behind"
+   },
+   {
+    "seg": "S2->S3",
+    "target": 52.5,
+    "cum": 195.7,
+    "why": "FastTipsGaming Thane launch (~51.9 at tutorial pace) +0.6 margin. FALLBACK: Nanobit Thane kill + air door 63.1 minus the 3:46/3:50 zoops (~57)"
+   },
+   {
+    "seg": "S3->C9",
+    "target": 33.6,
+    "cum": 229.3,
+    "why": "Nanobit (33.6)"
+   },
+   {
+    "seg": "C9->C11",
+    "target": 73.5,
+    "cum": 302.8,
+    "why": "Nanobit Keep hole 75.2 minus plunge-cancel (5:07/5:12), no extra rock jump (4:44), instant rib clip (5:33, >=3 s)"
+   },
+   {
+    "seg": "C11->C12",
+    "target": 49.0,
+    "cum": 351.8,
+    "why": "Dotxy 1.0.1.2 flight ~51.9 minus about 3 s: his demo lands and walks the walkway (v21-38); a macro flight line should beat it. MOST ROOM HERE"
+   },
+   {
+    "seg": "C12->C13",
+    "target": 42.5,
+    "cum": 394.3,
+    "why": "Nanobit melee safespot 46.0 minus the missed first entry (he re-entered at 6:53, ~6 s lost)"
+   },
+   {
+    "seg": "C13->END",
+    "target": 13.8,
+    "cum": 408.1,
+    "why": "fixed escape (~13.8-14.2 in every run)"
+   }
+  ],
+  "splits": {
+   "S1": 82.7,
+   "S2": 143.2,
+   "S3": 195.7,
+   "S4": 282.3,
+   "END": 408.1
+  },
+  "total": 408.1
+ },
+ "top5_vs_samf": [
+  {
+   "rank": 1,
+   "seg": "C9->C11",
+   "what": "Keep: 1.0.1 hole into OOB + rib clip instead of the full elemental puzzle",
+   "samf": 143.0,
+   "best": 75.2,
+   "save": 67.8,
+   "clips": [
+    [
+     "doVQ9Ph256g",
+     275.4,
+     350.6,
+     "Nanobit hole + rib clip (OOB entry 4:38, rib clip 5:33)"
+    ],
+    [
+     "JRpxlTZ_F2M",
+     0.0,
+     31.5,
+     "IINo1goodII Keep skip: the hole/OOB path"
+    ],
+    [
+     "WpvNjqVmpVM",
+     355.4,
+     498.4,
+     "SamF puzzle route (what you replace)"
+    ]
+   ]
+  },
+  {
+   "rank": 2,
+   "seg": "S2->S3",
+   "what": "Garou Thane / air door: FastTipsGaming no-kill launch to the forest (or Nanobit Thane kill + air door)",
+   "samf": 100.3,
+   "best": 51.9,
+   "save": 48.4,
+   "clips": [
+    [
+     "oK0_U_I40DY",
+     281.6,
+     333.5,
+     "FastTipsGaming launch: rocks left of the door, windstep v299, glide to the forest v319"
+    ],
+    [
+     "doVQ9Ph256g",
+     178.7,
+     241.8,
+     "Nanobit Thane kill + air door (63.1, saves 37.2 if the launch fails)"
+    ],
+    [
+     "WpvNjqVmpVM",
+     212.4,
+     312.7,
+     "SamF route"
+    ]
+   ]
+  },
+  {
+   "rank": 3,
+   "seg": "C12->C13",
+   "what": "Kuldra's heart: melee safespot instead of a ranged mage staff",
+   "samf": 91.6,
+   "best": 46.0,
+   "save": 45.6,
+   "clips": [
+    [
+     "doVQ9Ph256g",
+     385.6,
+     431.6,
+     "Nanobit melee heart (correct safespot jump at 6:53 = v413)"
+    ],
+    [
+     "6WEIHo7AUf0",
+     355.8,
+     403.6,
+     "TexasPete melee heart 47.8"
+    ],
+    [
+     "WpvNjqVmpVM",
+     547.8,
+     639.4,
+     "SamF mage heart"
+    ]
+   ]
+  },
+  {
+   "rank": 4,
+   "seg": "C3->C5",
+   "what": "Necro area: zoop to Fragments instead of the death warp (no YOU DIED / respawn wait)",
+   "samf": 66.1,
+   "best": 41.6,
+   "save": 24.5,
+   "clips": [
+    [
+     "doVQ9Ph256g",
+     96.0,
+     137.6,
+     "Nanobit vines zoop to Fragments + fortress (41.6)"
+    ],
+    [
+     "6WEIHo7AUf0",
+     79.4,
+     111.6,
+     "TexasPete direct line (32.2, a further 9.4 s if it still works on 1.0.1.2)"
+    ],
+    [
+     "WpvNjqVmpVM",
+     93.9,
+     160.0,
+     "SamF death warp"
+    ]
+   ]
+  },
+  {
+   "rank": 5,
+   "seg": "C5->S2",
+   "what": "Poison area hole + surge/phase dash past the abyssal demon, cleaner line to the portal",
+   "samf": 52.4,
+   "best": 38.4,
+   "save": 14.0,
+   "clips": [
+    [
+     "6WEIHo7AUf0",
+     111.6,
+     150.0,
+     "TexasPete 6:50 (38.4)"
+    ],
+    [
+     "doVQ9Ph256g",
+     137.6,
+     178.7,
+     "Nanobit 1.0.1 (41.1)"
+    ],
+    [
+     "WpvNjqVmpVM",
+     160.0,
+     212.4,
+     "SamF"
+    ]
+   ]
+  }
+ ],
+ "nanobit_pinned_saves": [
+  {
+   "seg": "C0->C1",
+   "video_ts": "0:23",
+   "note": "walked ~1.5 s at the start (tapped sprint while already sprinting)",
+   "est_s": 1.5
+  },
+  {
+   "seg": "C0->C1",
+   "video_ts": "0:51",
+   "note": "4 air dashes instead of 3 to the 1st anima pillar",
+   "est_s": 0.5
+  },
+  {
+   "seg": "C1->C2",
+   "video_ts": "1:14",
+   "note": "3 air dashes instead of 2 to the 2nd anima pillar",
+   "est_s": 0.5
+  },
+  {
+   "seg": "C2->C3",
+   "video_ts": "1:22",
+   "note": "i-frame the Kuldra knockback with a better dash, tighter line over the torch into the 1st BD",
+   "est_s": 0.5
+  },
+  {
+   "seg": "C2->C3",
+   "video_ts": "1:30",
+   "note": "start the earth pillar ~1 s earlier",
+   "est_s": 1.0
+  },
+  {
+   "seg": "C3->S1",
+   "video_ts": "1:39",
+   "note": "better line off the 1st BD to the jump-off point",
+   "est_s": 0.5
+  },
+  {
+   "seg": "C3->S1",
+   "video_ts": "1:45",
+   "note": "start the zoop to Fragments ~1.5 s earlier (hard)",
+   "est_s": 1.5
+  },
+  {
+   "seg": "S1->C5",
+   "video_ts": "2:05",
+   "note": "zoop from the keep wall across the pond all the way to the gate",
+   "est_s": 2.5
+  },
+  {
+   "seg": "S1->C5",
+   "video_ts": "2:13",
+   "note": "plunge-cancel instead of waiting to fall",
+   "est_s": 1.0
+  },
+  {
+   "seg": "C5->C6",
+   "video_ts": "2:28",
+   "note": "push into the hole with more confidence",
+   "est_s": 0.5
+  },
+  {
+   "seg": "C5->C6",
+   "video_ts": "2:32",
+   "note": "a good zoop reaches his 2:37 spot with no air/phase dash",
+   "est_s": 1.5
+  },
+  {
+   "seg": "C6->S2",
+   "video_ts": "2:45",
+   "note": "start the surge from exactly here so the demon does not follow (consistency)",
+   "est_s": 0.0
+  },
+  {
+   "seg": "C6->S2",
+   "video_ts": "2:47",
+   "note": "avoid the pillar (skeleton blocked)",
+   "est_s": 0.5
+  },
+  {
+   "seg": "S2->S3",
+   "video_ts": "3:22",
+   "note": "extra Thane swing; re-use the fleet-footed infusion",
+   "est_s": 1.0
+  },
+  {
+   "seg": "S2->S3",
+   "video_ts": "3:46",
+   "note": "zoop far enough to need no dashes",
+   "est_s": 1.0
+  },
+  {
+   "seg": "S2->S3",
+   "video_ts": "3:50",
+   "note": "zoop to his 3:57 position (\"saves A LOT\")",
+   "est_s": 4.0
+  },
+  {
+   "seg": "C9->C11",
+   "video_ts": "4:38",
+   "note": "reference jump point into the OOB (consistency)",
+   "est_s": 0.0
+  },
+  {
+   "seg": "C9->C11",
+   "video_ts": "4:44",
+   "note": "extra jump onto the rock not needed",
+   "est_s": 1.0
+  },
+  {
+   "seg": "C9->C11",
+   "video_ts": "5:07",
+   "note": "plunge-cancel (needs a weapon with a plunge animation, not the DScim)",
+   "est_s": 0.5
+  },
+  {
+   "seg": "C9->C11",
+   "video_ts": "5:12",
+   "note": "plunge-cancel + dash onto the first rock (5:15)",
+   "est_s": 0.5
+  },
+  {
+   "seg": "C9->C11",
+   "video_ts": "5:18",
+   "note": "strong zoop needs only 1 dash, saving the phase dash for Kuldra",
+   "est_s": 0.0
+  },
+  {
+   "seg": "C9->C11",
+   "video_ts": "5:33",
+   "note": "clip straight through the ground at the rib clip (no crouch-walk / scimmy swing)",
+   "est_s": 3.0
+  },
+  {
+   "seg": "C11->C12",
+   "video_ts": "5:52-6:20",
+   "note": "Sanctum: air dash twice, strong zoop, stay RIGHT of the white cube at the missing bridge, spend leftover phase dashes (route partly patched in 1.0.1.2)",
+   "est_s": 0.0
+  },
+  {
+   "seg": "C12->C13",
+   "video_ts": "6:47",
+   "note": "missed the melee safespot; correct jump at 6:53",
+   "est_s": 6.0
+  }
+ ],
+ "patched": [
+  "Sanctum windstep up the blocks (1.0.1.2)",
+  "old Keep blue-rock skip (1.0.1)",
+  "Thane-less wall climb (inferred, 1.0.1)"
+ ],
+ "new_sources": {
+  "oK0_U_I40DY": "FastTipsGaming Thane launch, ~51.9 s portal->S3; in composite",
+  "GeWbo4GpFEg": "Dotxy Sanctum flight ~51.9 s; in composite",
+  "4hncfjhUvg8": "IINo1goodII 4:40 claim, method hidden, untimeable",
+  "JRpxlTZ_F2M": "IINo1goodII Keep hole (same as Nanobit)"
+ }
+}

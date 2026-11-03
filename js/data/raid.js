@@ -96,13 +96,12 @@ export const PATCHES = [
   { v: '1.0.1.2', date: '2026-10-23', url: 'https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114035869', quote: 'Additional fixes for Kuldra Skips.', text: 'Windstepping up the blocks to Kuldra no longer works (Nanobit). Dotxy flies through the Sanctum with chained jump-attack cancels the same day. FastTipsGaming reports a working fight skip on 27 Oct — verify before routing.', src: ['dotxyflight', 'dotxyjump', 'ftgskip'] },
 ];
 
-// "Beat 6:50" target pace: community best segments, with the slack up to TARGET_TIME
-// spread in proportion to segment length. Replaced by skip-level targets when measured.
-export const TARGET_TIME = 408.0;   // 6:48.00 — under the record with a margin
-export function targetPace(runs = RUNS) {
-  const best = communityBest(runs);
-  const sum = best.reduce((a, b) => a + b.seg, 0);
-  const scale = TARGET_TIME / sum;
-  let acc = 0;
-  return best.map(b => (acc += b.seg * scale));
-}
+// "Beat 6:50" target pace — measured, not spread evenly. Built skip by skip from
+// the four record runs using only pieces that still work on patch 1.0.1.2
+// (docs/runpath.md, data/kb/runpath.json, 2026-11-03): level with the WR through
+// split 3, about 8 s ahead after the 1.0.1 Keep hole, then a 49 s Sanctum flight
+// (Dotxy) and a first-try heart safespot. Valid composite of shown pieces: 6:52.8.
+export const TARGET_TIME = 408.1;   // 6:48.1
+export const TARGET_SPLITS = [82.7, 143.2, 195.7, 282.3, 408.1];
+export function targetPace() { return TARGET_SPLITS.slice(); }
+export const VALID_COMPOSITE = 412.8;  // 6:52.8 — best possible from pieces already shown on 1.0.1.2

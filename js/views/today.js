@@ -31,7 +31,7 @@ export function mount(root) {
 
   root.append(
     h('div', { class: 'pagehead' }, h('div', {}, h('h1', {}, 'Beat 6:50 today'),
-      h('p', {}, `The record is 6:50.00 (TexasPete). The target pace is ${fmtRun(TARGET_TIME, 2)}: the fastest recorded version of each split, plus a small margin. Work down the four steps.`))),
+      h('p', {}, `The record is 6:50.00 (TexasPete), set with tricks that have since been patched. Using only pieces that still work on 1.0.1.2, the best run anyone has shown adds up to 6:52.8, so the record needs a cleaner Sanctum flight and a first-try heart. Target pace: ${fmtRun(TARGET_TIME, 1)}, measured skip by skip. Work down the four steps.`))),
     h('div', { class: 'grid g4', style: { marginBottom: '16px' } },
       stat(fmtRun(410, 2), 'Record to beat'), stat(fmtRun(TARGET_TIME, 2), 'Target pace', 'gold'),
       stat(bestToday ? fmtRun(bestToday, 2) : '—', `Best today (${doneToday.length} finished / ${today.length} tries)`, bestToday && bestToday < 410 ? 'good' : ''),
