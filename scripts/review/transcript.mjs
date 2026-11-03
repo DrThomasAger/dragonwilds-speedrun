@@ -106,6 +106,10 @@ async function whisperOnce(id, video, { model = process.env.REVIEW_WHISPER_MODEL
   const wav = path.join(DIRS.tmp, 'whisper-input.wav');
   const a = await run(FFMPEG, ['-v', 'error', '-y', '-i', video, '-t', String(maxSeconds), '-vn', '-ac', '1', '-ar', '16000', wav], { timeout: 10 * 60 * 1000 });
   if (a.code !== 0) return { lines: null, error: 'audio extract failed: ' + a.stderr.slice(-200) };
+  // wait (up to 30 min) for 3 GB free RAM, so whisper never pushes Windows to grow the page file on C:
+  const { freemem } = await import('node:os');
+  for (let w = 0; w < 60 && freemem() < 3 * 2 ** 30; w++) await new Promise(res => setTimeout(res, 30000));
+  if (freemem() < 3 * 2 ** 30) return { lines: null, error: 'skipped: low memory (retried next run)' };
   let r;
   for (let i = 0; i < 2; i++) { // a transient out-of-memory (other processes) is retried once
     r = await run(PYTHON, ['-I', path.join(ROOT, 'scripts', 'review', 'whisper.py'), wav, model], { timeout: 90 * 60 * 1000 });
