@@ -1,5 +1,5 @@
-// Start here — step by step from a brand new world (the Wise Old Man's temple) to the
-// app's practice loop. Ticks are saved in store.start so the page remembers where you are.
+// Start here — step by step from wherever you are in a new world (picked at the top) to
+// the app's practice loop. Ticks are saved in store.start so the page remembers where you are.
 import { h, fill } from '../lib/util.js';
 import * as store from '../lib/store.js';
 
@@ -10,14 +10,15 @@ const W = 'https://dragonwilds.runescape.wiki/w/';
 // Each step: id, heading, lines, optional [href, label] into the app, sources.
 const PHASES = [
   {
-    id: 'walk', title: '1 · Walk from the Wise Old Man to the raid gate',
-    intro: 'Every new world, normal or Creative, starts you at the Wise Old Man\'s temple in Temple Woods, on a clifftop in Brynmoor. The raid gate is in the far north-west of the Fractured Plains in Ghornfell.',
+    id: 'walk', title: '1 · Walk to the raid gate',
+    intro: 'The raid gate is in the north of the map, in the Fractured Plains of Ghornfell. Bramblemead Valley, with Bramblemead Village at its centre, lies south of the Whispering Swamp and west of the Fractured Plains.',
     steps: [
-      ['talk', 'Finish talking to the Wise Old Man', ['He stands inside the temple, next to the lodestone. That lodestone stays inactive until you build a lodestone of your own somewhere else, so the first trip north is on foot.'], null, [W + 'Temple_Woods', W + 'Lodestone']],
-      ['valley', 'Go down off the cliff into Bramblemead Valley', ['Temple Woods sits on a clifftop above the valley.'], null, [W + 'Temple_Woods']],
-      ['swamp', 'Cross the Whispering Swamp and leave by its eastern side', ['Since 0.9.3, the eastern side of the Whispering Swamp is the easiest way into Ghornfell.'], null, [W + 'Ghornfell']],
-      ['plains', 'Go north into the Fractured Plains, then north-west past Velgar\'s Rise', ['The Fractured Plains are just north of the Whispering Swamp. The wiki names Velgar\'s Rise as the landmark and puts the gate north-west of it.', 'The wiki does not map this walk landmark by landmark. On Creative nothing attacks you and nothing can hurt you except a fall.'], null, [W + 'Fractured_Plains', W + 'Regicide']],
-      ['gate', 'Interact with the Dragon Gate and choose "journey into the Scorned Wilderness"', ['The gate says "the blood of the four seal the gate". On a normal world it opens only after Icthlarin\'s Little Helper is complete, and opening it starts Regicide.', 'On Creative the wiki does not say whether it opens. If it opens, Creative is your practice world, with every recipe, building piece and skill already unlocked. If it stays shut, practise on a world that has finished Icthlarin\'s Little Helper (the Hardcore page is that quest line).'], ['#/hardcore', 'Hardcore quest line'], [W + 'Regicide', W + 'Scorned_Wilderness', W + 'Creative_Mode']],
+      ['temple', 'Leave the starting temple for Bramblemead Village', ['A new world starts you in a ruined temple in Temple Woods with the Wise Old Man. Finish the tutorial with him, or skip it. Skipping sends you to meet him in Bramblemead Village, close by in the valley below.'], null, [W + 'Guide_for_new_players']],
+      ['village', 'Talk to the Wise Old Man in Bramblemead Village', ['He is on the first floor of a ruined building at the far, north-east end of the village. Talking to him there finishes First Steps and offers Dragon Slayer.'], null, [W + 'First_Steps', W + 'Bramblemead_Village']],
+      ['swamp', 'Go north out of the valley into the Whispering Swamp', ['The Whispering Swamp is directly north of Bramblemead Valley. There is a bridge at the centre of the swamp.'], null, [W + 'Bramblemead_Valley', W + 'Whispering_Swamp']],
+      ['pass', 'Leave the swamp by its eastern side, through King\'s Pass, into Ghornfell', ['King\'s Pass is the way from the Whispering Swamp into Ghornfell. Since 0.9.3 the eastern side of the swamp is the easier way in.', 'There is no lodestone on this route, so the first trip is on foot. On Creative nothing attacks you, and only a fall can hurt you.'], null, [W + 'Ghornfell', W + 'Whispering_Swamp']],
+      ['plains', 'Cross the Fractured Plains to Velgar\'s Rise, then go north-west of it', ['The Fractured Plains are just north of the swamp, and Velgar\'s Rise is at their centre. The gate is north-west of Velgar\'s Rise, near the northern edge of the plains.'], null, [W + 'Fractured_Plains', W + 'Regicide']],
+      ['gate', 'Interact with the Dragon Gate and choose "journey into the Scorned Wilderness"', ['The gate says "the blood of the four seal the gate". On a normal world it opens only after Icthlarin\'s Little Helper is complete, and opening it starts Regicide.', 'On Creative the wiki does not say whether it opens. If it opens, Creative is your practice world, with every recipe, building piece and skill already unlocked and spells free of runes and cooldowns. If it stays shut, practise on a world that has finished Icthlarin\'s Little Helper. The Hardcore page is that quest line.'], ['#/hardcore', 'Hardcore quest line'], [W + 'Regicide', W + 'Scorned_Wilderness', W + 'Creative_Mode']],
     ],
   },
   {
@@ -61,32 +62,60 @@ const PHASES = [
 
 const ALL = PHASES.flatMap(p => p.steps.map(s => `${p.id}.${s[0]}`));
 
+// Where you are now: every step before the chosen place is left out.
+const FROM = [
+  ['walk.temple', 'In the starting temple (tutorial)'],
+  ['walk.village', 'Bramblemead Village, tutorial skipped, not talked to the Wise Old Man yet'],
+  ['walk.swamp', 'Bramblemead Village, already talked to the Wise Old Man'],
+  ['walk.pass', 'In the Whispering Swamp'],
+  ['walk.plains', 'In Ghornfell / the Fractured Plains'],
+  ['walk.gate', 'At the Dragon Gate'],
+  ['hub.bed', 'Inside Rasthin\'s Rest'],
+  ['loop.today', 'Set up, ready to practise'],
+];
+const startOf = st => ALL.indexOf((st && st.from) || ALL[0]);
+const live = st => ALL.slice(Math.max(0, startOf(st)));
+
+// For HQ: steps left from where you said you are.
+export function progress() {
+  const st = store.get().start || {};
+  const keys = live(st);
+  const n = keys.filter(k => st[k]).length;
+  return { done: n, total: keys.length, from: st.from };
+}
+
 export function mount(root) {
   const done = () => store.get().start || (store.get().start = {});
   const bar = h('div', { class: 'st-bar' }, h('i'));
   const count = h('span', { class: 'pill' });
   const paintBar = () => {
-    const n = ALL.filter(k => done()[k]).length;
-    bar.firstChild.style.width = `${(100 * n) / ALL.length}%`;
-    fill(count, `${n} / ${ALL.length} done`);
+    const keys = live(done());
+    const n = keys.filter(k => done()[k]).length;
+    bar.firstChild.style.width = `${(100 * n) / keys.length}%`;
+    fill(count, `${n} / ${keys.length} done`);
   };
 
-  const nextUp = () => ALL.find(k => !done()[k]);
+  const nextUp = () => live(done()).find(k => !done()[k]);
 
   root.append(h('div', { class: 'pagehead', 'data-read-main': '' }, h('div', {},
     h('h1', {}, 'Start here'),
-    h('p', {}, 'Step by step from a new world, standing at the Wise Old Man, to a practice loop for the raid. Tick each step as you finish it. The page remembers where you got to and opens on the next one.'))));
+    h('p', {}, 'Step by step from wherever you are in a new world to a practice loop for the raid. Pick where you are now, then tick each step as you finish it. The page remembers and opens on the next one.'))));
+  const fromSel = h('select', { 'aria-label': 'Where are you now', style: { width: '100%' }, onchange: () => { store.update(s => { (s.start ||= {}).from = fromSel.value; }); paintAll(); jump(); } },
+    FROM.map(([k, label]) => h('option', { value: k, selected: k === (done().from || ALL[0]) }, label)));
+  root.append(h('section', { class: 'card', style: { marginBottom: '14px' } }, h('h2', {}, 'Where are you now?'), fromSel,
+    h('p', { class: 'note', style: { margin: '8px 0 0' } }, 'Steps before this place are left out. Change it at any time.')));
   root.append(h('div', { class: 'row', style: { marginBottom: '14px', gap: '10px', alignItems: 'center' } }, bar, count,
-    h('button', { class: 'btn sm', onclick: () => { if (confirm('Untick every step?')) { store.update(s => (s.start = {})); paintAll(); } } }, 'Reset')));
+    h('button', { class: 'btn sm', onclick: () => { if (confirm('Untick every step?')) { store.update(s => (s.start = { from: (s.start || {}).from })); paintAll(); } } }, 'Reset')));
 
   const body = h('div', { class: 'st-list' });
   root.append(body);
 
   function paintAll() {
     const next = nextUp();
-    fill(body, PHASES.map(p => h('section', { class: 'card st-phase' },
+    const keep = new Set(live(done()));
+    fill(body, PHASES.filter(p => p.steps.some(s => keep.has(`${p.id}.${s[0]}`))).map(p => h('section', { class: 'card st-phase' },
       h('h2', {}, p.title), h('p', { class: 'note' }, p.intro),
-      h('ol', { class: 'st-steps' }, p.steps.map(([sid, head, lines, link, src]) => {
+      h('ol', { class: 'st-steps' }, p.steps.filter(s => keep.has(`${p.id}.${s[0]}`)).map(([sid, head, lines, link, src]) => {
         const key = `${p.id}.${sid}`;
         const on = !!done()[key];
         return h('li', { class: 'st-step' + (on ? ' ok' : '') + (key === next ? ' cur' : ''), id: `st-${p.id}-${sid}` },
@@ -101,7 +130,10 @@ export function mount(root) {
       })))));
     paintBar();
   }
+  function jump() {
+    const n = nextUp();
+    if (n && n !== live(done())[0]) requestAnimationFrame(() => { const el = document.getElementById('st-' + n.replace('.', '-')); if (el) el.scrollIntoView({ block: 'center' }); });
+  }
   paintAll();
-  const n = nextUp();
-  if (n) requestAnimationFrame(() => { const el = document.getElementById('st-' + n.replace('.', '-')); if (el && n !== ALL[0]) el.scrollIntoView({ block: 'center' }); });
+  jump();
 }

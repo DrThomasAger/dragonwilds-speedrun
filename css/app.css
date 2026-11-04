@@ -2,7 +2,7 @@
 :root {
   --bg: #0d0c0b; --bg2: #121110; --card: #1a1815; --card2: #221f1a; --chip: #2a2620; --line: #2f2b24; --line2: #3d372e;
   --ink: #eee7d8; --muted: #a39a87; --dim: #6f6858;
-  --accent: #e8813a; --accent-ink: #120a03; --gold: #e2bb4f; --good: #4fc28a; --bad: #e0584f; --info: #63a8e8; --violet: #a98ce8;
+  --accent: #e8813a; --accent-ink: #120a03; --bad-soft: #3a1c1a; --gold: #e2bb4f; --good: #4fc28a; --bad: #e0584f; --info: #63a8e8; --violet: #a98ce8;
   --c0: #e8813a; --c1: #63a8e8; --c2: #4fc28a; --c3: #e2bb4f; --c4: #c77be0; --c5: #e0584f;
   --r: 12px; --r2: 8px;
   --mono: ui-monospace, "Cascadia Mono", Menlo, Consolas, monospace;

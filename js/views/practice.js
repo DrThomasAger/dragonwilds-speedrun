@@ -60,7 +60,7 @@ export function mount(root, { params }) {
       cur.how && cur.how.length ? h('ol', {}, cur.how.map(x => h('li', {}, x))) : cur.text ? h('p', {}, cur.text) : h('p', { class: 'note' }, 'Watch the reference clip for the line, then try it in game.'),
       h('div', { class: 'row', style: { margin: '14px 0 8px' } },
         h('button', { class: 'btn pri big', style: { background: 'var(--good)', borderColor: 'var(--good)' }, onclick: () => log(true) }, '✓ Made it  ', h('kbd', {}, 'J')),
-        h('button', { class: 'btn big', style: { background: '#3a1c1a', borderColor: 'var(--bad)' }, onclick: () => log(false) }, '✗ Missed  ', h('kbd', {}, 'K')),
+        h('button', { class: 'btn big', style: { background: 'var(--bad-soft, #3a1c1a)', borderColor: 'var(--bad)' }, onclick: () => log(false) }, '✗ Missed  ', h('kbd', {}, 'K')),
         h('button', { class: 'btn', onclick: undo }, 'Undo ', h('kbd', {}, 'U'))),
       h('div', { class: 'stats' },
         h('div', { class: 'stat' }, h('b', { class: c.rate == null ? '' : c.rate >= 0.8 ? 'good' : c.rate >= 0.5 ? 'gold' : 'bad' }, c.rate == null ? '—' : Math.round(100 * c.rate) + '%'), h('span', {}, `last ${c.recent || 20} attempts`)),

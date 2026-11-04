@@ -8,6 +8,7 @@ import { sumOfBest } from '../lib/timer.js';
 import { ytUrl } from '../lib/player.js';
 import { OPPORTUNITIES } from '../data/route.js';
 import * as store from '../lib/store.js';
+import { progress as startProgress } from './start.js';
 import * as patches from '../lib/patches.js';
 
 export const title = 'HQ';
@@ -69,9 +70,9 @@ export function mount(root) {
   });
   const rules = h('div', { class: 'card' }, h('h2', {}, 'Timing rules'), h('p', { class: 'note' }, h('b', {}, 'Start: '), RULES.start), h('p', { class: 'note' }, h('b', {}, 'End: '), RULES.end), h('p', { class: 'note' }, RULES.video, ' ', h('a', { href: RULES.link, target: '_blank', rel: 'noopener' }, 'speedrun.com rules ↗')));
 
-  const startDone = Object.values(store.get().start || {}).filter(Boolean).length;
+  const sp = startProgress();
   root.append(
-    startDone < 18 ? h('a', { class: 'callout st-cta', href: '#/start' }, h('b', {}, '➊ New here, or just made a world? '), startDone ? `Start here, step ${startDone + 1}: carry on from where you got to ›` : 'Start here: step by step from the Wise Old Man to the raid gate and the practice loop ›') : null,
+    sp.done < sp.total ? h('a', { class: 'callout st-cta', href: '#/start' }, h('b', {}, '➊ New here, or just made a world? '), sp.done || sp.from ? `Start here: carry on, ${sp.total - sp.done} steps left ›` : 'Start here: pick where you are, then go step by step to the raid gate and the practice loop ›') : null,
     h('div', { class: 'hero' }, target, actions),
     h('div', { class: 'grid g2', style: { marginTop: '16px' } },
       h('div', { class: 'card' }, h('h2', {}, 'Where the record’s time goes'), h('div', { class: 'tablewrap' }, segTable), bars,

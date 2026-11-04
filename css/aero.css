@@ -1,0 +1,132 @@
+/* =====================================================================
+   Frutiger Aero — a reusable style sheet.
+   No knowledge of any one app lives here. Drop this file into any page,
+   then either use the .aero-* classes directly or bind your own classes
+   to the --aero-* tokens in a second file (this repo's binding is
+   css/aero-app.css).
+
+   What makes it Aero: a bright sky that fades to white, soft aqua and
+   leaf-green accents, frosted glass panels with a white gloss over the
+   top half, round glossy "orb" buttons, rising bubbles, and Segoe /
+   Frutiger lettering.
+
+   Tokens            --aero-*  (colours, glass, gloss, shadows, radii, font)
+   Page              .aero-page            sky, light rays, bubbles, grass horizon
+   Panels            .aero-glass           frosted glass with gloss
+                     .aero-glass.strong    more opaque, for dense text
+   Buttons           .aero-btn             glossy capsule
+                     .aero-btn.aqua / .leaf / .sun / .berry   coloured variants
+                     .aero-orb             round glossy icon button
+   Small parts       .aero-chip, .aero-bar (progress), .aero-check (checkbox),
+                     .aero-input, .aero-callout, .aero-title
+   ===================================================================== */
+
+:root {
+  /* sky */
+  --aero-sky-0: #3ea6f2;
+  --aero-sky-1: #8fd2ff;
+  --aero-sky-2: #d4f0ff;
+  --aero-sky-3: #f4fbff;
+  /* accents */
+  --aero-aqua: #0ea5e0;      --aero-aqua-2: #6fd8ff;
+  --aero-leaf: #34b233;      --aero-leaf-2: #a8ec6c;
+  --aero-sun: #f2a40c;       --aero-sun-2: #ffe07a;
+  --aero-berry: #e0364a;     --aero-berry-2: #ff9aa6;
+  --aero-violet: #7a5ad9;
+  /* text */
+  --aero-ink: #0b2a4a;
+  --aero-ink-2: #36597a;
+  --aero-ink-3: #6c8aa3;
+  /* glass */
+  --aero-glass: rgba(255, 255, 255, .58);
+  --aero-glass-strong: rgba(255, 255, 255, .82);
+  --aero-glass-edge: rgba(255, 255, 255, .95);
+  --aero-glass-line: rgba(20, 100, 160, .20);
+  --aero-blur: saturate(160%) blur(14px);
+  /* the white sheen over the upper half of glossy things */
+  --aero-gloss: linear-gradient(180deg, rgba(255,255,255,.92) 0%, rgba(255,255,255,.45) 48%, rgba(255,255,255,0) 50%, rgba(255,255,255,.12) 100%);
+  --aero-gloss-soft: linear-gradient(180deg, rgba(255,255,255,.7) 0%, rgba(255,255,255,.18) 45%, rgba(255,255,255,0) 55%);
+  /* depth */
+  --aero-shadow: 0 1px 0 rgba(255,255,255,.9) inset, 0 8px 24px rgba(16, 84, 140, .18), 0 1px 3px rgba(16, 84, 140, .18);
+  --aero-shadow-sm: 0 1px 0 rgba(255,255,255,.9) inset, 0 2px 6px rgba(16, 84, 140, .20);
+  --aero-glow: 0 0 0 3px rgba(111, 216, 255, .55);
+  /* shape and type */
+  --aero-r: 16px; --aero-r-sm: 10px; --aero-r-pill: 999px;
+  --aero-font: "Segoe UI", "Frutiger", "Frutiger Linotype", "Myriad Pro", Myriad, "Helvetica Neue", Roboto, Arial, sans-serif;
+}
+
+/* ---------- page: sky, rays, bubbles, horizon ---------- */
+.aero-page {
+  color: var(--aero-ink);
+  font-family: var(--aero-font);
+  background-color: var(--aero-sky-2);
+  background-image:
+    radial-gradient(ellipse 120% 60% at 50% 115%, rgba(120, 214, 90, .55) 0%, rgba(120, 214, 90, 0) 60%),
+    radial-gradient(circle at 12% 18%, rgba(255,255,255,.75) 0 2px, transparent 3px),
+    radial-gradient(circle at 82% 30%, rgba(255,255,255,.55) 0 18px, rgba(255,255,255,.15) 19px, transparent 22px),
+    radial-gradient(circle at 70% 72%, rgba(255,255,255,.45) 0 10px, rgba(255,255,255,.1) 11px, transparent 13px),
+    radial-gradient(circle at 24% 64%, rgba(255,255,255,.4) 0 26px, rgba(255,255,255,.08) 27px, transparent 30px),
+    conic-gradient(from 200deg at 85% -10%, rgba(255,255,255,0) 0deg, rgba(255,255,255,.35) 12deg, rgba(255,255,255,0) 24deg, rgba(255,255,255,.25) 40deg, rgba(255,255,255,0) 55deg),
+    linear-gradient(180deg, var(--aero-sky-0) 0%, var(--aero-sky-1) 28%, var(--aero-sky-2) 62%, var(--aero-sky-3) 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* ---------- glass panels ---------- */
+.aero-glass {
+  position: relative;
+  background: var(--aero-glass);
+  -webkit-backdrop-filter: var(--aero-blur); backdrop-filter: var(--aero-blur);
+  border: 1px solid var(--aero-glass-edge);
+  border-radius: var(--aero-r);
+  box-shadow: var(--aero-shadow);
+}
+.aero-glass::before {
+  content: ""; position: absolute; inset: 0 0 auto 0; height: 42%; max-height: 90px;
+  border-radius: inherit; border-bottom-left-radius: 50% 18px; border-bottom-right-radius: 50% 18px;
+  background: linear-gradient(180deg, rgba(255,255,255,.65), rgba(255,255,255,0));
+  pointer-events: none;
+}
+.aero-glass > * { position: relative; }
+.aero-glass.strong { background: var(--aero-glass-strong); }
+
+/* ---------- glossy capsule buttons ---------- */
+.aero-btn {
+  --c: #e9f6ff; --c2: #ffffff; --t: var(--aero-ink);
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 7px 14px; border-radius: var(--aero-r-pill);
+  border: 1px solid rgba(255,255,255,.95);
+  color: var(--t); font: 600 14px/1.2 var(--aero-font); cursor: pointer; text-decoration: none;
+  background: var(--aero-gloss), linear-gradient(180deg, var(--c2), var(--c));
+  box-shadow: 0 0 0 1px var(--aero-glass-line), var(--aero-shadow-sm);
+  text-shadow: 0 1px 0 rgba(255,255,255,.6);
+  transition: filter .12s, transform .06s, box-shadow .12s;
+}
+.aero-btn:hover { filter: brightness(1.05) saturate(1.1); text-decoration: none; }
+.aero-btn:active { transform: translateY(1px); filter: brightness(.97); }
+.aero-btn:focus-visible { outline: none; box-shadow: var(--aero-glow), var(--aero-shadow-sm); }
+.aero-btn.aqua  { --c: var(--aero-aqua);  --c2: var(--aero-aqua-2);  --t: #fff; text-shadow: 0 1px 1px rgba(0, 60, 110, .45); }
+.aero-btn.leaf  { --c: var(--aero-leaf);  --c2: var(--aero-leaf-2);  --t: #fff; text-shadow: 0 1px 1px rgba(10, 70, 10, .45); }
+.aero-btn.sun   { --c: var(--aero-sun);   --c2: var(--aero-sun-2);   --t: #3b2500; }
+.aero-btn.berry { --c: var(--aero-berry); --c2: var(--aero-berry-2); --t: #fff; text-shadow: 0 1px 1px rgba(110, 0, 20, .45); }
+
+/* ---------- round glossy orbs ---------- */
+.aero-orb {
+  --c: var(--aero-aqua); --c2: var(--aero-aqua-2);
+  display: inline-grid; place-items: center; width: 38px; height: 38px; border-radius: 50%;
+  border: 1px solid rgba(255,255,255,.95); color: #fff; cursor: pointer;
+  background: radial-gradient(circle at 50% 30%, rgba(255,255,255,.85) 0 22%, rgba(255,255,255,0) 46%), radial-gradient(circle at 50% 110%, var(--c2) 0%, var(--c) 70%);
+  box-shadow: 0 0 0 1px var(--aero-glass-line), 0 3px 8px rgba(16, 84, 140, .3);
+}
+
+/* ---------- small parts ---------- */
+.aero-chip { display: inline-flex; align-items: center; gap: 4px; padding: 2px 9px; border-radius: var(--aero-r-pill); font: 600 12px var(--aero-font); color: var(--aero-ink-2); background: var(--aero-gloss-soft), rgba(255,255,255,.75); border: 1px solid var(--aero-glass-edge); box-shadow: 0 0 0 1px var(--aero-glass-line); }
+.aero-bar { height: 10px; border-radius: var(--aero-r-pill); background: rgba(255,255,255,.7); box-shadow: inset 0 1px 3px rgba(16, 84, 140, .3), 0 1px 0 #fff; overflow: hidden; }
+.aero-bar > i { display: block; height: 100%; border-radius: inherit; background: var(--aero-gloss), linear-gradient(90deg, var(--aero-leaf), var(--aero-leaf-2)); }
+.aero-check { appearance: none; -webkit-appearance: none; width: 22px; height: 22px; border-radius: 7px; border: 1px solid rgba(20,100,160,.35); background: var(--aero-gloss-soft), #fff; box-shadow: var(--aero-shadow-sm); display: inline-grid; place-items: center; cursor: pointer; }
+.aero-check:checked { background: var(--aero-gloss), linear-gradient(180deg, var(--aero-leaf-2), var(--aero-leaf)); border-color: #2a8f2a; }
+.aero-check:checked::after { content: "✓"; color: #fff; font: 800 14px/1 var(--aero-font); text-shadow: 0 1px 1px rgba(0,0,0,.3); }
+.aero-input { padding: 7px 12px; border-radius: var(--aero-r-pill); border: 1px solid rgba(20,100,160,.3); background: #fff; color: var(--aero-ink); box-shadow: inset 0 2px 4px rgba(16, 84, 140, .15); font: 14px var(--aero-font); }
+.aero-input:focus { outline: none; box-shadow: var(--aero-glow), inset 0 2px 4px rgba(16, 84, 140, .15); }
+.aero-callout { padding: 10px 14px; border-radius: var(--aero-r-sm); background: var(--aero-gloss-soft), rgba(255,255,255,.7); border: 1px solid var(--aero-glass-edge); border-left: 4px solid var(--aero-aqua); box-shadow: var(--aero-shadow-sm); }
+.aero-title { color: var(--aero-ink); text-shadow: 0 1px 0 rgba(255,255,255,.9), 0 0 14px rgba(255,255,255,.8); letter-spacing: -.01em; }

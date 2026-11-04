@@ -3,6 +3,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
 <link rel="preconnect" href="https://www.youtube.com">
 <title>Dragonwilds — Hardcore 1→Max</title>
+<meta name="theme-color" content="#3ea6f2">
 <style>
 :root{--bg:#0f0e0c;--card:#1c1a16;--card2:#23201b;--line:#2f2b24;--ink:#ece6d8;--muted:#9a9280;--accent:#e0772f;--ok:#5fb89a;--gold:#d9b24c;--chip:#2a2620;--danger:#c0392b;--dangerbg:#4a1511}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;user-select:none}
@@ -105,6 +106,20 @@ html,body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-syst
 .btnrow button.p{background:var(--accent);color:#000;border-color:var(--accent)}
 .note{font-size:12px;color:var(--muted);margin-top:10px}
 #bottom:has(.done.compact){height:auto!important;min-height:0!important;flex:none!important}.done.compact{height:auto!important;min-height:76px!important;padding:14px!important}
+</style>
+<link rel="stylesheet" href="css/aero.css">
+<style>
+/* Frutiger Aero (css/aero.css tokens). The full-screen danger rules (.dz, .pre) stay dark red on purpose. */
+:root{--bg:var(--aero-sky-2);--card:rgba(255,255,255,.66);--card2:rgba(255,255,255,.85);--line:rgba(20,100,160,.22);--ink:var(--aero-ink);--muted:var(--aero-ink-2);--accent:var(--aero-aqua);--ok:#23962a;--gold:#c07a00;--chip:rgba(255,255,255,.8);color-scheme:light}
+html,body{font-family:var(--aero-font);background:linear-gradient(180deg,var(--aero-sky-0) 0%,var(--aero-sky-1) 28%,var(--aero-sky-2) 62%,var(--aero-sky-3) 100%) fixed}
+.top,.rail,.bottom{background:var(--aero-gloss-soft),rgba(240,250,255,.88);-webkit-backdrop-filter:var(--aero-blur);backdrop-filter:var(--aero-blur);border-color:#fff}
+.top .mode button,.pc button{border-radius:999px;border:1px solid #fff;color:var(--aero-ink);background:var(--aero-gloss),linear-gradient(180deg,#fff,#dff2ff);box-shadow:0 0 0 1px var(--aero-glass-line),var(--aero-shadow-sm)}
+.top .mode button.on,.pc button.on{color:#fff;background:var(--aero-gloss),linear-gradient(180deg,var(--aero-aqua-2),var(--aero-aqua));text-shadow:0 1px 1px rgba(0,60,110,.45)}
+.clipslot,.pc,.prep .clip,.prepplayer .np{background:rgba(255,255,255,.7);border-color:#fff}
+.cue{background:var(--aero-gloss-soft),rgba(255,255,255,.8);box-shadow:var(--aero-shadow-sm)}
+.tag.hc{background:#ffe6e9;color:#8a1424;border-color:#ffb3bc}.tag.lvl{background:#fff6cf;color:#6b4700;border-color:#ffe07a}
+.prepplayer,.prepplayer .pc{background:rgba(255,255,255,.72)}
+.band{background:var(--aero-gloss-soft),linear-gradient(180deg,#ffe0b8,#ffb870);color:#5a2a00}
 </style>
 <script async src="https://www.youtube.com/iframe_api"></script>
 </head><body>
