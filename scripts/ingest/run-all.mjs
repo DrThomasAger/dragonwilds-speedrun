@@ -23,7 +23,8 @@ for (const n of names) {
   if (!ALL[n]) { console.error('unknown source', n); continue; }
   const t0 = Date.now();
   console.error(`== ${n}`);
-  try { results[n] = await ALL[n]({ log }); }
+  // only: null so youtube.mjs doesn't read run-all's own --only=<sources> as video ids.
+  try { results[n] = await ALL[n]({ log, only: null }); }
   catch (e) { results[n] = { source: n, failed: e.message }; }
   results[n].seconds = Math.round((Date.now() - t0) / 1000);
   console.log(JSON.stringify(results[n]));
