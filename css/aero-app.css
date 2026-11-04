@@ -164,3 +164,43 @@ dialog { background: var(--aero-reflect), var(--aero-glass-tint), rgba(255,255,2
 .btn:hover, .seg-ctl button:hover, .iconbtn:hover { background-image: var(--aero-gloss), radial-gradient(ellipse 80% 70% at 50% 100%, rgba(111, 216, 255, .95), rgba(111,216,255,0) 70%), linear-gradient(180deg, #ffffff, #d6f0ff); box-shadow: 0 0 0 1px rgba(0, 70, 130, .5), inset 0 0 0 1px rgba(255,255,255,.7), 0 0 14px rgba(111, 216, 255, .8); }
 .btn.pri, .btn.on, .seg-ctl button.on, .rn-big { box-shadow: 0 0 0 1px rgba(0, 60, 120, .55), inset 0 0 0 1px rgba(255,255,255,.45), inset 0 -8px 16px rgba(0, 200, 255, .45), 0 3px 10px rgba(0, 90, 160, .35); }
 .btn.pri:hover, .rn-big:hover { background-image: var(--aero-gloss), radial-gradient(ellipse 80% 70% at 50% 100%, rgba(170, 255, 255, .95), rgba(170,255,255,0) 70%), linear-gradient(180deg, var(--aero-aqua-2), var(--aero-aqua)); }
+
+/* ---------- layer 3: depth, Frutiger type, the sea ---------- */
+body, button, select, input, textarea { font-family: var(--aero-font); }
+:root { --sans: var(--aero-font); --serif: var(--aero-font); }
+.bt { --sans: var(--aero-font); }
+
+/* glass slabs with an edge you can see, floating over the sea */
+.card, .rn-main, .target-card, dialog {
+  box-shadow: 0 0 0 1px rgba(0, 45, 90, .38), inset 0 0 0 1px rgba(255,255,255,.55), var(--aero-thick), var(--aero-float-shadow);
+}
+main { perspective: 1400px; }
+/* panes raised off the slab they sit on */
+.st-step, .drill, .stat, .kv div, .pf, .rn-row, .action, .vcard, .callout, .sheetgrid a, .req {
+  box-shadow: 0 0 0 1px rgba(0, 45, 90, .2), 0 2px 0 rgba(170, 215, 245, .9), 0 3px 0 rgba(120, 185, 230, .7), 0 12px 18px -6px rgba(0, 45, 95, .32);
+}
+.st-step.cur, .drill.cur { box-shadow: 0 0 0 1px rgba(0, 90, 160, .35), 0 0 0 4px rgba(111, 216, 255, .55), 0 2px 0 rgba(170, 215, 245, .9), 0 4px 0 rgba(120, 185, 230, .7), 0 0 24px rgba(111, 216, 255, .8), 0 16px 24px -8px rgba(0, 45, 95, .35); }
+
+/* candy buttons with thickness that press down */
+.btn, .seg-ctl button { transform: translateY(0); transition: transform .06s, box-shadow .06s, filter .12s; box-shadow: 0 0 0 1px rgba(0, 45, 90, .38), inset 0 0 0 1px rgba(255,255,255,.6), 0 3px 0 #9fd0ee, 0 5px 8px rgba(0, 50, 100, .25); }
+.btn:active, .seg-ctl button:active { transform: translateY(3px); box-shadow: 0 0 0 1px rgba(0, 45, 90, .38), inset 0 0 0 1px rgba(255,255,255,.6), 0 0 0 #9fd0ee, 0 2px 3px rgba(0, 50, 100, .25); }
+.btn.pri, .btn.on, .seg-ctl button.on { box-shadow: 0 0 0 1px rgba(0, 60, 120, .55), inset 0 0 0 1px rgba(255,255,255,.45), inset 0 -8px 16px rgba(0, 200, 255, .45), 0 3px 0 #0a78b8, 0 6px 10px rgba(0, 70, 140, .35); }
+.btn.pri:active, .btn.on:active { box-shadow: 0 0 0 1px rgba(0, 60, 120, .55), inset 0 0 0 1px rgba(255,255,255,.45), inset 0 -6px 14px rgba(0, 200, 255, .5), 0 0 0 #0a78b8, 0 2px 4px rgba(0, 70, 140, .35); }
+.rn-big { transform: translateY(0); box-shadow: 0 0 0 1px rgba(0, 60, 120, .55), inset 0 0 0 1px rgba(255,255,255,.45), inset 0 -14px 26px rgba(0, 200, 255, .5), 0 7px 0 #0a78b8, 0 14px 22px rgba(0, 70, 140, .4); }
+.rn-big:active { transform: translateY(6px); filter: none; box-shadow: 0 0 0 1px rgba(0, 60, 120, .55), inset 0 0 0 1px rgba(255,255,255,.45), inset 0 -10px 22px rgba(0, 200, 255, .55), 0 1px 0 #0a78b8, 0 4px 8px rgba(0, 70, 140, .4); }
+
+/* round 3D orbs: icon buttons, the brand, the active tab */
+.iconbtn, .brand .sig { background: radial-gradient(circle at 50% 22%, rgba(255,255,255,.98) 0 22%, rgba(255,255,255,0) 50%), radial-gradient(circle at 50% 120%, #8fe3ff 0%, #d9f3ff 55%, #ffffff 80%); box-shadow: 0 0 0 1px rgba(0, 45, 90, .38), inset 0 -3px 6px rgba(0, 140, 210, .35), 0 3px 0 #9fd0ee, 0 5px 8px rgba(0, 50, 100, .3); }
+.brand .sig { background: radial-gradient(circle at 50% 22%, rgba(255,255,255,.95) 0 20%, rgba(255,255,255,0) 46%), radial-gradient(circle at 50% 115%, var(--aero-leaf-2), var(--aero-aqua) 72%); }
+.nav a.on b { display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; color: #fff; text-shadow: 0 1px 1px rgba(0,60,110,.5);
+  background: radial-gradient(circle at 50% 22%, rgba(255,255,255,.9) 0 20%, rgba(255,255,255,0) 48%), radial-gradient(circle at 50% 115%, var(--aero-aqua-2), var(--aero-aqua) 72%);
+  box-shadow: 0 0 0 1px rgba(0, 60, 120, .5), 0 3px 0 #0a78b8, 0 5px 8px rgba(0, 70, 140, .35); }
+@media (max-width: 719px) { .nav a.on { background: none !important; box-shadow: none !important; } }
+
+/* headlines stand out of the sky */
+.pagehead h1 { color: #fff; text-shadow: 0 1px 0 #cfeeff, 0 2px 0 #a6dcff, 0 3px 0 #7cc6f5, 0 4px 0 #52aee8, 0 5px 0 #2d93d6, 0 8px 10px rgba(0, 40, 90, .45), 0 0 24px rgba(255,255,255,.7); -webkit-text-stroke: .5px rgba(0, 70, 130, .35); letter-spacing: -.01em; }
+.pagehead p { text-shadow: 0 0 2px #fff, 0 0 10px rgba(255,255,255,.95); }
+
+/* the sea sits under the tab bar on phones */
+@media (max-width: 719px) { .aero-scene { height: calc(22vh + var(--tabbar)); } .aero-pod { bottom: calc(30% + var(--tabbar) * .6); } }
+footer.site { color: #f2fbff; border-top: 0; text-shadow: 0 1px 2px rgba(0, 50, 100, .6); }

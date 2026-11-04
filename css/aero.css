@@ -212,3 +212,98 @@
   border-radius: var(--aero-r-sm);
 }
 .aero-glow-text { text-shadow: var(--aero-text-glow); }
+
+/* =====================================================================
+   Layer 3 — depth (2.5D), Frutiger's own typefaces, the sea and dolphins.
+
+   Type     --aero-font asks for Adrian Frutiger's Frutiger first, then his
+            Avenir Next and Avenir (on Apple devices), then Segoe UI (Vista
+            and 7), then Hind, a free humanist sans close to Frutiger's forms
+            (load it from Google Fonts where the others are missing).
+   Depth    .aero-slab        glass with a visible edge thickness and a
+                              long floating shadow
+            .aero-float       a pane raised off the slab beneath it
+            .aero-tilt        tilts toward the pointer (js/lib/aero3d.js sets
+                              --aero-rx / --aero-ry)
+            .aero-candy       a 3D candy button with thickness, presses down
+            .aero-extrude     extruded glossy headline text
+   Scene    .aero-scene       fixed sea band at the bottom of the page with
+                              waves, caustics and leaping .aero-dolphin
+                              (js/lib/aero3d.js builds it). Wallpaper layers
+                              move with --aero-gx / --aero-gy (device tilt or
+                              pointer) and --aero-sy (scroll) for parallax.
+   Motion stops under prefers-reduced-motion.
+   ===================================================================== */
+:root {
+  --aero-font: "Frutiger", "Frutiger LT Std", "Frutiger Neue LT", "Frutiger Next", "Avenir Next", "Avenir", "Segoe UI", "Hind", "Myriad Pro", Roboto, Arial, sans-serif;
+  --aero-gx: 0; --aero-gy: 0; --aero-sy: 0;
+  --aero-thick: 0 1px 0 rgba(255,255,255,.9) inset, 0 -1px 0 rgba(0,60,120,.18) inset,
+    0 2px 0 rgba(190, 228, 250, .95), 0 4px 0 rgba(150, 205, 240, .9), 0 6px 0 rgba(110, 178, 225, .8), 0 7px 1px rgba(60, 130, 190, .6);
+  --aero-float-shadow: 0 22px 40px -8px rgba(0, 45, 95, .38), 0 10px 16px -6px rgba(0, 45, 95, .25);
+}
+
+/* parallax for the wallpaper layers */
+.aero-page::before { transform: translate3d(calc(var(--aero-gx) * -14px), calc(var(--aero-gy) * -10px + var(--aero-sy) * -.03px), 0) scale(1.08); transition: transform .25s ease-out; }
+.aero-page::after  { transform: translate3d(calc(var(--aero-gx) * -34px), calc(var(--aero-gy) * -24px + var(--aero-sy) * -.12px), 0) scale(1.12); }
+
+.aero-slab { border-radius: var(--aero-r); box-shadow: 0 0 0 1px rgba(0, 45, 90, .38), inset 0 0 0 1px rgba(255,255,255,.55), var(--aero-thick), var(--aero-float-shadow); }
+.aero-float { transform: translateZ(18px); box-shadow: 0 0 0 1px rgba(0, 45, 90, .2), 0 2px 0 rgba(170, 215, 245, .9), 0 3px 0 rgba(120, 185, 230, .7), 0 12px 18px -6px rgba(0, 45, 95, .32); }
+.aero-tilt { transition: transform .35s cubic-bezier(.2,.8,.2,1); }
+.aero-tilt.aero-tilting { transform: perspective(1100px) rotateX(var(--aero-rx, 0deg)) rotateY(var(--aero-ry, 0deg)) translateZ(8px); transition: transform .08s linear; }
+
+.aero-candy { position: relative; transform: translateY(0); box-shadow: 0 0 0 1px rgba(0, 60, 120, .5), inset 0 1px 0 rgba(255,255,255,.9), inset 0 -6px 12px rgba(0, 160, 230, .25), 0 3px 0 var(--aero-candy-edge, #6fb6e6), 0 6px 10px rgba(0, 60, 120, .3); transition: transform .06s, box-shadow .06s; }
+.aero-candy:active { transform: translateY(3px); box-shadow: 0 0 0 1px rgba(0, 60, 120, .5), inset 0 1px 0 rgba(255,255,255,.9), inset 0 -4px 10px rgba(0, 160, 230, .3), 0 0 0 var(--aero-candy-edge, #6fb6e6), 0 2px 4px rgba(0, 60, 120, .3); }
+
+.aero-extrude { color: #fff; text-shadow: 0 1px 0 #cfeeff, 0 2px 0 #a6dcff, 0 3px 0 #7cc6f5, 0 4px 0 #52aee8, 0 5px 0 #2d93d6, 0 8px 10px rgba(0, 40, 90, .45), 0 0 24px rgba(255,255,255,.7); -webkit-text-stroke: .5px rgba(0, 70, 130, .35); }
+
+/* ---------- the sea ---------- */
+.aero-scene { position: fixed; left: -40px; right: -40px; bottom: 0; height: 26vh; min-height: 160px; z-index: -1; pointer-events: none; overflow: hidden;
+  transform: translate3d(calc(var(--aero-gx) * -22px), 0, 0); }
+.aero-scene .sea { position: absolute; left: -10%; right: -10%; bottom: 0; height: 62%;
+  background:
+    radial-gradient(ellipse 60% 18% at 30% 22%, rgba(255,255,255,.55), rgba(255,255,255,0) 70%),
+    radial-gradient(ellipse 40% 12% at 75% 40%, rgba(255,255,255,.35), rgba(255,255,255,0) 70%),
+    linear-gradient(180deg, rgba(120, 225, 255, .85) 0%, rgba(30, 160, 225, .9) 40%, rgba(10, 95, 170, .95) 100%);
+  border-top-left-radius: 50% 22px; border-top-right-radius: 50% 22px;
+  box-shadow: inset 0 3px 0 rgba(255,255,255,.75), inset 0 10px 24px rgba(255,255,255,.35); }
+.aero-scene .sea::before, .aero-scene .sea::after { content: ""; position: absolute; left: 0; width: 200%; top: -14px; height: 28px; background-repeat: repeat-x; background-size: 240px 28px; animation: aero-wave 9s linear infinite; }
+.aero-scene .sea::before { background-image: radial-gradient(ellipse 120px 16px at 120px 28px, rgba(130, 228, 255, .95) 98%, rgba(130,228,255,0) 100%); }
+.aero-scene .sea::after { top: -8px; opacity: .8; animation-duration: 6s; animation-direction: reverse; background-image: radial-gradient(ellipse 120px 14px at 60px 28px, rgba(255,255,255,.7) 60%, rgba(255,255,255,0) 72%); }
+.aero-scene .caustics { position: absolute; inset: 45% -10% 0; background:
+    radial-gradient(ellipse 40px 8px at 20% 30%, rgba(255,255,255,.45), transparent 70%),
+    radial-gradient(ellipse 60px 10px at 55% 55%, rgba(255,255,255,.35), transparent 70%),
+    radial-gradient(ellipse 30px 6px at 80% 25%, rgba(255,255,255,.45), transparent 70%),
+    radial-gradient(ellipse 50px 8px at 38% 80%, rgba(255,255,255,.3), transparent 70%);
+  background-size: 320px 100%; animation: aero-caustic 7s ease-in-out infinite alternate; }
+@keyframes aero-wave { to { transform: translateX(-240px); } }
+@keyframes aero-caustic { to { background-position: 60px 6px, -40px -4px, 30px 4px, -50px 2px; } }
+
+/* ---------- dolphins ----------
+   A pod sits on the water line; its dolphin leaps a 200px arc to the right and a
+   splash rings where it leaves and where it lands. .flip mirrors the whole pod. */
+.aero-pod { position: absolute; bottom: 30%; left: var(--x, 20%); width: 200px; height: 1px; --t: 11s; --d: 0s; }
+.aero-pod.flip { transform: scaleX(-1); }
+.aero-dolphin { position: absolute; left: -46px; top: -23px; width: 92px; height: 46px;
+  background: center / contain no-repeat url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 56'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%231f6fc4'/%3E%3Cstop offset='.48' stop-color='%234fa8ec'/%3E%3Cstop offset='.62' stop-color='%23cfeeff'/%3E%3Cstop offset='1' stop-color='%23f4fbff'/%3E%3C/linearGradient%3E%3ClinearGradient id='s' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23fff' stop-opacity='.9'/%3E%3Cstop offset='1' stop-color='%23fff' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M56 17C54 10 50 6 43 3C54 4 62 8 67 15Z' fill='%231f6fc4'/%3E%3Cpath d='M118 31C112 28 106 26 100 25C96 19 86 15 72 15C60 15 50 18 40 23C30 28 20 31 12 31L2 21L8 33L2 45L14 36C26 38 40 41 54 42L58 51L64 42C80 42 92 39 102 35C108 34 113 33 118 31Z' fill='url(%23g)' stroke='%230c4f96' stroke-width='.8'/%3E%3Cpath d='M98 23C88 17 66 16 48 22C64 19 84 19 96 25Z' fill='url(%23s)'/%3E%3Ccircle cx='100' cy='28' r='1.6' fill='%23062a52'/%3E%3C/svg%3E");
+  filter: drop-shadow(0 4px 6px rgba(0, 40, 90, .35));
+  opacity: 0; animation: aero-leap var(--t) linear var(--d) infinite; }
+@keyframes aero-leap {
+  0%    { transform: translate(0, 60px) rotate(-55deg); opacity: 0; }
+  2%    { opacity: 1; }
+  7.5%  { transform: translate(50px, -40px) rotate(-30deg); }
+  15%   { transform: translate(100px, -72px) rotate(0deg); }
+  22.5% { transform: translate(150px, -40px) rotate(30deg); }
+  28%   { opacity: 1; }
+  30%   { transform: translate(200px, 60px) rotate(55deg); opacity: 0; }
+  100%  { transform: translate(200px, 60px) rotate(55deg); opacity: 0; }
+}
+.aero-splash { position: absolute; left: calc(var(--sx, 0px) - 26px); top: -8px; width: 52px; height: 16px; border-radius: 50%;
+  border: 2px solid rgba(255,255,255,.95); box-shadow: 0 0 8px rgba(255,255,255,.8); opacity: 0;
+  animation: aero-splash var(--t) ease-out calc(var(--d) + var(--sd, 0s)) infinite; }
+@keyframes aero-splash { 0% { transform: scale(.2); opacity: 0; } 1% { opacity: .95; } 7% { transform: scale(1.5); opacity: 0; } 100% { opacity: 0; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .aero-dolphin, .aero-splash, .aero-scene .sea::before, .aero-scene .sea::after, .aero-scene .caustics { animation: none; }
+  .aero-dolphin { opacity: 1; transform: translate(100px, -72px); }
+  .aero-tilt { transform: none; }
+}

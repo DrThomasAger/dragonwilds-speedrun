@@ -7,6 +7,7 @@ import { initPWA } from './lib/pwa.js';
 import { initPalette } from './lib/palette.js';
 import { initBridge } from './lib/bridge.js';
 import * as voice from './lib/speak.js';
+import { initAero3D } from './lib/aero3d.js';
 
 const views = {
   start: () => import('./views/start.js'),
@@ -96,5 +97,6 @@ patches.subscribe((d, fresh) => {
   b.textContent = fresh.length; b.classList.toggle('hidden', !fresh.length);
 });
 patches.start();
+initAero3D({ tilt: '.card, .action, .vcard', max: 5, dolphins: matchMedia('(max-width: 719px)').matches ? 3 : 6 });
 window.addEventListener('hashchange', route);
 route();

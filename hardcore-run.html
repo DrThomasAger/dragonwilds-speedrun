@@ -108,6 +108,7 @@ html,body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-syst
 #bottom:has(.done.compact){height:auto!important;min-height:0!important;flex:none!important}.done.compact{height:auto!important;min-height:76px!important;padding:14px!important}
 </style>
 <link rel="stylesheet" href="css/aero.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&display=swap">
 <style>
 /* Frutiger Aero (css/aero.css tokens). The full-screen danger rules (.dz, .pre) stay dark red on purpose. */
 :root{--bg:var(--aero-sky-2);--card:rgba(255,255,255,.66);--card2:rgba(255,255,255,.85);--line:rgba(20,100,160,.22);--ink:var(--aero-ink);--muted:var(--aero-ink-2);--accent:var(--aero-aqua);--ok:#23962a;--gold:#c07a00;--chip:rgba(255,255,255,.8);color-scheme:light}
@@ -278,4 +279,5 @@ document.addEventListener('keydown',e=>{if(e.target.tagName==='TEXTAREA')return;
 // ---------- BOOT ----------
 if(!S.booted){S.mode='prep';S.booted=true;save();}
 render();wake();
-</script></body></html>
+</script><script type="module">import { initAero3D } from "./js/lib/aero3d.js"; initAero3D({ tilt: ".prep .ph", max: 4, dolphins: 3 });</script>
+</body></html>
