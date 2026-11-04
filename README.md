@@ -24,7 +24,13 @@ bb lab          # or: npm run lab  ->  http://localhost:5180
 
 This starts the **bridge** (`scripts/bridge.clj`, babashka). Open http://localhost:5180 and press **✦** (Ctrl+J):
 - **Chat:** tell Claude what you want, Figma Make style, e.g. "make the split button bigger" or "why was my last run slow?". It edits the app on its own (auto permission mode), takes a screenshot to check its work (`scripts/look.mjs`), and the open app reloads by itself.
-- **Live feed:** your splits, PBs, resets and practice results stream in as you play, so Claude knows what's happening. If RuneLite is running with the OSRS `client_repl` plugin (port 7889), it also polls a live game snapshot. Set `LAB_GAME_FILE` to also tail any game log file.
+- **Live feed:** your splits, PBs, resets and practice results stream in as you play, so Claude knows what's happening. If RuneLite is running with the OSRS `client_repl` plugin (port 7889), it also polls a live game snapshot. The bridge also tails these append-only files live (one feed event per new line, within a second):
+  - `data/kb/raw/ingest-log.jsonl`: every new run, comment, video and post the knowledge-base ingesters find, so a local or hourly ingest shows up as it lands.
+  - `data/kb/raw/twitch/live-*.jsonl`: runners' live Twitch chat. The bridge starts `scripts/ingest/twitch-live.mjs` itself (`LAB_TWITCH_LIVE=0` turns it off).
+  - `LAB_OSRS_EVENTS`: OSRS tick-monitor files, e.g. `C:\Users\hanjo\Claude\Projects\osrs\tick_monitor\live_*\segments.jsonl`. Globs work, and several paths go in separated by `;`.
+  - `LAB_GAME_FILE`: any other log or state file, with globs and `;` the same way.
+
+  A file that already exists is read from its end. A file that appears later is read from its start. `/api/status` shows how many files each source is tailing (`tails`).
 - **REPL:** run Clojure inside the game client. The bridge has its own nREPL on `localhost:1667` for your editor too.
 
 Everything listens only on 127.0.0.1. The public website doesn't show the panel.

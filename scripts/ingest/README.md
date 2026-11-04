@@ -65,7 +65,9 @@ node scripts/ingest/twitch-live.mjs inanobit heartlessedly
 node scripts/ingest/twitch.mjs --whisper                # chat replays + Whisper transcripts
 ```
 
-From the lab (`bb lab`), start the monitor alongside the bridge from the bridge's nREPL
+`bb lab` starts the monitor by itself (`LAB_TWITCH_LIVE=0` turns that off). It also tails
+`live-*.jsonl` and `ingest-log.jsonl` into the Claude panel's live feed. To start it by hand
+alongside the bridge, use the bridge's nREPL
 (`localhost:1667`) or the Claude panel's REPL:
 
 ```clojure
