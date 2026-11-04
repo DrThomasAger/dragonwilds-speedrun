@@ -11,6 +11,7 @@ import * as voice from './lib/speak.js';
 const views = {
   start: () => import('./views/start.js'),
   hq: () => import('./views/hq.js'),
+  blog: () => import('./views/blog.js'),
   today: () => import('./views/today.js'),
   run: () => import('./views/run.js'),
   compare: () => import('./views/compare.js'),
@@ -25,7 +26,7 @@ const views = {
   hardcore: () => import('./views/hardcore.js'),
 };
 
-const GLOBAL_KEYS = [['?', 'This help'], ['Ctrl Shift Esc', 'Stop speech'], ['Ctrl K', 'Search everything'], ['g a', 'Start here'], ['g h', 'HQ'], ['g n', 'Run navigator'], ['g c', 'Race the WR'], ['g r', 'Route'], ['g s', 'Reel Studio'], ['g p', 'Practice'], ['g t', 'Timer'], ['g w', 'Wiki'], ['g k', 'Knowledge'], ['g u', 'Patch notes'], ['g l', 'Library']];
+const GLOBAL_KEYS = [['?', 'This help'], ['Ctrl Shift Esc', 'Stop speech'], ['Ctrl K', 'Search everything'], ['g a', 'Start here'], ['g h', 'HQ'], ['g b', 'Blog'], ['g n', 'Run navigator'], ['g c', 'Race the WR'], ['g r', 'Route'], ['g s', 'Reel Studio'], ['g p', 'Practice'], ['g t', 'Timer'], ['g w', 'Wiki'], ['g k', 'Knowledge'], ['g u', 'Patch notes'], ['g l', 'Library']];
 
 store.load();
 let cleanup = null, seq = 0;
@@ -75,7 +76,7 @@ document.addEventListener('keydown', e => {
   if (e.key === '?') { e.preventDefault(); const d = $('#help'); d.open ? d.close() : d.showModal(); return; }
   if (e.key === 'g') { gPending = Date.now(); return; }
   if (Date.now() - gPending < 900) {
-    const map = { a: 'start', d: 'today', h: 'hq', n: 'run', c: 'compare', r: 'route', s: 'studio', p: 'practice', t: 'timer', w: 'wiki', k: 'kb', u: 'patches', l: 'library' };
+    const map = { a: 'start', b: 'blog', d: 'today', h: 'hq', n: 'run', c: 'compare', r: 'route', s: 'studio', p: 'practice', t: 'timer', w: 'wiki', k: 'kb', u: 'patches', l: 'library' };
     if (map[e.key]) { e.preventDefault(); e.stopImmediatePropagation(); location.hash = '#/' + map[e.key]; gPending = 0; }
   }
 }, true);

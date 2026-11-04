@@ -1,0 +1,32 @@
+/* The Blog Template (css/blog-template.css, generated) laid onto Aero glass.
+   The template's own proportions, type and blocks stay as written; only its
+   paper and surfaces become glass, and the app's table and heading rules are
+   undone inside a post. */
+.bt {
+  --paper: transparent; --surface: rgba(255, 255, 255, .5); --rule: rgba(20, 100, 160, .2);
+  --ink: var(--aero-ink, #0b2a4a); --ink-2: var(--aero-ink-2, #36597a);
+  --accent: #0a6fc2; --accent-soft: rgba(111, 216, 255, .28);
+  --hue-1: #0a6fc2; --hue-1-soft: rgba(214, 238, 255, .7);
+  --hue-2: #c0344f; --hue-2-soft: rgba(255, 226, 232, .7);
+  --hue-3: #6a4fb3; --hue-3-soft: rgba(236, 228, 255, .7);
+  --hue-4: #23862f; --hue-4-soft: rgba(222, 250, 214, .7);
+  font: 400 var(--s1)/1.5 var(--serif); color: var(--ink);
+  font-optical-sizing: auto; font-kerning: normal; font-feature-settings: "kern", "liga", "onum";
+  max-width: var(--measure); margin: 0 auto;
+}
+.bt h1, .bt h2, .bt h3 { color: var(--ink); text-shadow: var(--aero-text-glow, none); text-transform: none; }
+.bt th { text-transform: none; letter-spacing: 0; color: var(--ink); font-size: inherit; background: none; }
+.bt td, .bt th { font-size: inherit; vertical-align: top; }
+.bt table { display: block; overflow-x: auto; }
+.bt blockquote { margin: var(--sp3) 0; padding: var(--sp1) var(--sp2); border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 12px 12px 0; font-style: italic; }
+.bt ul, .bt ol { padding-left: 1.3em; margin: 0 0 var(--sp2); }
+.bt li { margin: 0 0 6px; }
+.bt a { color: var(--accent); }
+.blog-window { padding: clamp(18px, 4vw, 48px); }
+.blog-list .post { display: grid; gap: 4px; padding: 12px 14px; color: var(--ink); text-decoration: none; }
+.blog-list .post b { font: 500 17px/1.3 "Fraunces", Georgia, serif; }
+.blog-list .post span { font-size: 13px; color: var(--muted); }
+.blog-list .post:hover { text-decoration: none; box-shadow: 0 0 0 1px rgba(0, 90, 160, .35), 0 0 16px rgba(111, 216, 255, .7); }
+.blog-list .grid { gap: 8px; }
+.blog-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 18px; }
+.blog-nav a { white-space: normal; justify-content: center; text-align: center; }

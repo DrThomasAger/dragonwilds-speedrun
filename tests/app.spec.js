@@ -2,7 +2,7 @@
 import { test, expect } from '@playwright/test';
 
 const M = '/?player=mock';
-const VIEWS = ['start', 'today', 'hq', 'run', 'compare', 'route', 'studio', 'practice', 'timer', 'wiki', 'kb', 'patches', 'library', 'hardcore'];
+const VIEWS = ['start', 'blog', 'today', 'hq', 'run', 'compare', 'route', 'studio', 'practice', 'timer', 'wiki', 'kb', 'patches', 'library', 'hardcore'];
 
 function watchErrors(page) {
   const errs = [];
