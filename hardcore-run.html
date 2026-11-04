@@ -111,18 +111,22 @@ html,body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-syst
 <style>
 /* Frutiger Aero (css/aero.css tokens). The full-screen danger rules (.dz, .pre) stay dark red on purpose. */
 :root{--bg:var(--aero-sky-2);--card:rgba(255,255,255,.66);--card2:rgba(255,255,255,.85);--line:rgba(20,100,160,.22);--ink:var(--aero-ink);--muted:var(--aero-ink-2);--accent:var(--aero-aqua);--ok:#23962a;--gold:#c07a00;--chip:rgba(255,255,255,.8);color-scheme:light}
-html,body{font-family:var(--aero-font);background:linear-gradient(180deg,var(--aero-sky-0) 0%,var(--aero-sky-1) 28%,var(--aero-sky-2) 62%,var(--aero-sky-3) 100%) fixed}
+html{background:#57b8f5}body{font-family:var(--aero-font);background:transparent}
+#app{position:relative}
+.prep .ph,.card,.step{border:0!important;background:var(--aero-reflect),var(--aero-glass-tint),var(--aero-glass-thin)!important;-webkit-backdrop-filter:var(--aero-blur-deep);backdrop-filter:var(--aero-blur-deep);box-shadow:var(--aero-edge),var(--aero-lift)}
 .top,.rail,.bottom{background:var(--aero-gloss-soft),rgba(240,250,255,.88);-webkit-backdrop-filter:var(--aero-blur);backdrop-filter:var(--aero-blur);border-color:#fff}
 .top .mode button,.pc button{border-radius:999px;border:1px solid #fff;color:var(--aero-ink);background:var(--aero-gloss),linear-gradient(180deg,#fff,#dff2ff);box-shadow:0 0 0 1px var(--aero-glass-line),var(--aero-shadow-sm)}
 .top .mode button.on,.pc button.on{color:#fff;background:var(--aero-gloss),linear-gradient(180deg,var(--aero-aqua-2),var(--aero-aqua));text-shadow:0 1px 1px rgba(0,60,110,.45)}
 .clipslot,.pc,.prep .clip,.prepplayer .np{background:rgba(255,255,255,.7);border-color:#fff}
 .cue{background:var(--aero-gloss-soft),rgba(255,255,255,.8);box-shadow:var(--aero-shadow-sm)}
 .tag.hc{background:#ffe6e9;color:#8a1424;border-color:#ffb3bc}.tag.lvl{background:#fff6cf;color:#6b4700;border-color:#ffe07a}
+.prep .ph h2{background:var(--aero-caption);text-shadow:var(--aero-text-glow)}
+.done{background:var(--aero-gloss),linear-gradient(180deg,var(--aero-aqua-2),var(--aero-aqua));color:#fff;text-shadow:0 1px 2px rgba(0,60,110,.5);box-shadow:0 0 0 1px rgba(0,60,120,.55),inset 0 -12px 24px rgba(0,200,255,.45),0 4px 14px rgba(0,90,160,.35)}
 .prepplayer,.prepplayer .pc{background:rgba(255,255,255,.72)}
 .band{background:var(--aero-gloss-soft),linear-gradient(180deg,#ffe0b8,#ffb870);color:#5a2a00}
 </style>
 <script async src="https://www.youtube.com/iframe_api"></script>
-</head><body>
+</head><body class="aero-page">
 <div id="app">
  <div class="top"><span id="pos"><b>—</b></span><span id="segname"></span>
   <a href="index.html#/hardcore" style="color:inherit;opacity:.7;font-size:12px;margin-left:8px;text-decoration:none" title="Back to the Raid Lab">Raid Lab ↗</a>

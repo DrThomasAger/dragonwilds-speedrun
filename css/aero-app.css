@@ -20,21 +20,8 @@
   color-scheme: light;
 }
 
-html, body { background: transparent; }
-body { color: var(--ink); font-family: var(--aero-font); }
-html { background-color: var(--aero-sky-2); }
-body { /* same sky as .aero-page */
-  background-color: var(--aero-sky-2);
-  background-image:
-    radial-gradient(ellipse 120% 60% at 50% 115%, rgba(120, 214, 90, .55) 0%, rgba(120, 214, 90, 0) 60%),
-    radial-gradient(circle at 12% 18%, rgba(255,255,255,.75) 0 2px, transparent 3px),
-    radial-gradient(circle at 82% 30%, rgba(255,255,255,.55) 0 18px, rgba(255,255,255,.15) 19px, transparent 22px),
-    radial-gradient(circle at 70% 72%, rgba(255,255,255,.45) 0 10px, rgba(255,255,255,.1) 11px, transparent 13px),
-    radial-gradient(circle at 24% 64%, rgba(255,255,255,.4) 0 26px, rgba(255,255,255,.08) 27px, transparent 30px),
-    conic-gradient(from 200deg at 85% -10%, rgba(255,255,255,0) 0deg, rgba(255,255,255,.35) 12deg, rgba(255,255,255,0) 24deg, rgba(255,255,255,.25) 40deg, rgba(255,255,255,0) 55deg),
-    linear-gradient(180deg, var(--aero-sky-0) 0%, var(--aero-sky-1) 28%, var(--aero-sky-2) 62%, var(--aero-sky-3) 100%);
-  background-attachment: fixed; background-repeat: no-repeat;
-}
+html { background: #57b8f5; }
+body { background: transparent; color: var(--ink); font-family: var(--aero-font); } /* sky lives on body.aero-page::before */
 a { color: var(--info); }
 .pagehead h1 { font-family: var(--aero-font); font-weight: 600; color: var(--aero-ink); text-shadow: 0 1px 0 rgba(255,255,255,.9), 0 0 16px rgba(255,255,255,.9); }
 .pagehead p { color: var(--aero-ink-2); }
@@ -137,3 +124,43 @@ tr.hl td, .clipitem.sel { background: rgba(111, 216, 255, .22); }
 .kb-canvas { border-radius: var(--aero-r); }
 .timerbox th { color: #9cc0dc; }
 .timerbox td { border-bottom-color: rgba(255,255,255,.15); }
+
+/* ---------- layer 2: thin layered glass windows ---------- */
+.card, .rn-main, dialog, .target-card {
+  background: var(--aero-reflect), var(--aero-glass-tint), var(--aero-glass-thin);
+  -webkit-backdrop-filter: var(--aero-blur-deep); backdrop-filter: var(--aero-blur-deep);
+  border: 0; box-shadow: var(--aero-edge), var(--aero-lift);
+}
+dialog { background: var(--aero-reflect), var(--aero-glass-tint), rgba(255,255,255,.55); }
+.card > h2:first-child, .card > .row:first-child > h2:first-child:only-of-type {
+  margin: -16px -16px 12px; padding: 10px 16px;
+  background: var(--aero-caption); border-bottom: 1px solid rgba(255,255,255,.75);
+  box-shadow: 0 1px 0 rgba(0, 60, 110, .18); border-radius: var(--r) var(--r) 0 0;
+}
+.card > .row:first-child > h2:first-child:only-of-type { margin: 0; padding: 0; background: none; border: 0; box-shadow: none; }
+.card h2, .card h3, .pagehead h1, .target-card .wr, .st-head b, dialog h2 { text-shadow: var(--aero-text-glow); }
+.pagehead h1 { font-size: 30px; }
+.pagehead p, .note { text-shadow: 0 0 6px rgba(255,255,255,.9); }
+.pagehead p { color: #12395e; }
+
+/* panes inside windows */
+.st-step, .drill, .stat, .kv div, .pf, .rn-row, .action, .vcard, .callout, .sheetgrid a, .plines li, .empty, .req {
+  background: linear-gradient(180deg, rgba(255,255,255,.62), rgba(255,255,255,.24) 48%, rgba(255,255,255,.34));
+  -webkit-backdrop-filter: blur(8px) saturate(160%); backdrop-filter: blur(8px) saturate(160%);
+  border: 1px solid rgba(255,255,255,.8); box-shadow: 0 0 0 1px rgba(0, 45, 90, .16), 0 3px 10px rgba(0, 50, 100, .14);
+}
+.callout { border-left: 4px solid var(--aero-aqua); }
+.callout.good { border-left-color: var(--aero-leaf); } .callout.info { border-left-color: var(--info); }
+.st-step.cur, .drill.cur { background: linear-gradient(180deg, rgba(255,255,255,.85), rgba(255,255,255,.5) 48%, rgba(210,240,255,.6)); box-shadow: 0 0 0 1px rgba(0, 90, 160, .35), 0 0 0 4px rgba(111, 216, 255, .55), 0 0 22px rgba(111, 216, 255, .8); }
+.pf.ok, .req.ok, .st-step.ok { background: linear-gradient(180deg, rgba(230,255,215,.7), rgba(190,245,160,.35)); }
+
+/* bars: thick Vista glass */
+.top { background: var(--aero-reflect), var(--aero-caption), rgba(255,255,255,.18); -webkit-backdrop-filter: var(--aero-blur-deep); backdrop-filter: var(--aero-blur-deep); box-shadow: 0 1px 0 rgba(0,45,90,.35), inset 0 -1px 0 rgba(255,255,255,.6), 0 6px 20px rgba(0,50,100,.2); border-bottom: 0; }
+.nav { background: var(--aero-caption), rgba(232,247,255,.8); -webkit-backdrop-filter: var(--aero-blur-deep); backdrop-filter: var(--aero-blur-deep); box-shadow: 0 -1px 0 rgba(0,45,90,.35), inset 0 1px 0 rgba(255,255,255,.9), 0 -6px 20px rgba(0,50,100,.18); }
+.top .viewtitle, .nav a, .nav .more { text-shadow: var(--aero-text-glow); }
+
+/* buttons: glossy with a cyan glow rising from the bottom on hover */
+.btn, .seg-ctl button, .iconbtn { box-shadow: 0 0 0 1px rgba(0, 45, 90, .38), inset 0 0 0 1px rgba(255,255,255,.6), 0 2px 6px rgba(0, 50, 100, .22); }
+.btn:hover, .seg-ctl button:hover, .iconbtn:hover { background-image: var(--aero-gloss), radial-gradient(ellipse 80% 70% at 50% 100%, rgba(111, 216, 255, .95), rgba(111,216,255,0) 70%), linear-gradient(180deg, #ffffff, #d6f0ff); box-shadow: 0 0 0 1px rgba(0, 70, 130, .5), inset 0 0 0 1px rgba(255,255,255,.7), 0 0 14px rgba(111, 216, 255, .8); }
+.btn.pri, .btn.on, .seg-ctl button.on, .rn-big { box-shadow: 0 0 0 1px rgba(0, 60, 120, .55), inset 0 0 0 1px rgba(255,255,255,.45), inset 0 -8px 16px rgba(0, 200, 255, .45), 0 3px 10px rgba(0, 90, 160, .35); }
+.btn.pri:hover, .rn-big:hover { background-image: var(--aero-gloss), radial-gradient(ellipse 80% 70% at 50% 100%, rgba(170, 255, 255, .95), rgba(170,255,255,0) 70%), linear-gradient(180deg, var(--aero-aqua-2), var(--aero-aqua)); }

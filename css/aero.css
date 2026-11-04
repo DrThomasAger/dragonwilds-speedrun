@@ -130,3 +130,85 @@
 .aero-input:focus { outline: none; box-shadow: var(--aero-glow), inset 0 2px 4px rgba(16, 84, 140, .15); }
 .aero-callout { padding: 10px 14px; border-radius: var(--aero-r-sm); background: var(--aero-gloss-soft), rgba(255,255,255,.7); border: 1px solid var(--aero-glass-edge); border-left: 4px solid var(--aero-aqua); box-shadow: var(--aero-shadow-sm); }
 .aero-title { color: var(--aero-ink); text-shadow: 0 1px 0 rgba(255,255,255,.9), 0 0 14px rgba(255,255,255,.8); letter-spacing: -.01em; }
+
+/* =====================================================================
+   Layer 2 — Vista / Windows 7 era Aero glass.
+   .aero-page gets two fixed layers behind everything: an aurora
+   wallpaper with bokeh (::before) and slowly rising bubbles (::after).
+   Glass over it is thin (about a third white) with a strong blur, so the
+   wallpaper shows through every pane, and panes inside panes stack.
+
+   .aero-window      a glass window: tinted glass, a double edge (dark outside,
+                     white inside), a diagonal reflection
+   .aero-caption     its title bar: glossy split gradient, glowing title
+   .aero-pane        a lighter pane of glass for inside a window
+   .aero-glow-text   the white glow behind dark text on glass
+   ===================================================================== */
+:root {
+  --aero-glass-thin: rgba(255, 255, 255, .30);
+  --aero-glass-tint: linear-gradient(180deg, rgba(255,255,255,.55) 0%, rgba(255,255,255,.20) 46%, rgba(170, 220, 255, .18) 54%, rgba(210, 240, 255, .30) 100%);
+  --aero-reflect: linear-gradient(118deg, rgba(255,255,255,0) 0 26%, rgba(255,255,255,.38) 26.5%, rgba(255,255,255,.10) 40%, rgba(255,255,255,0) 40.5%, rgba(255,255,255,0) 58%, rgba(255,255,255,.16) 58.5%, rgba(255,255,255,0) 66%);
+  --aero-blur-deep: saturate(185%) blur(20px) brightness(1.06);
+  --aero-edge: 0 0 0 1px rgba(0, 45, 90, .38), inset 0 0 0 1px rgba(255,255,255,.55), inset 0 1px 0 rgba(255,255,255,.95);
+  --aero-lift: 0 12px 32px rgba(0, 50, 100, .28), 0 2px 6px rgba(0, 50, 100, .20);
+  --aero-caption: linear-gradient(180deg, rgba(255,255,255,.75) 0%, rgba(255,255,255,.32) 49%, rgba(120, 195, 250, .30) 51%, rgba(190, 232, 255, .45) 100%);
+  --aero-text-glow: 0 0 1px rgba(255,255,255,1), 0 0 8px rgba(255,255,255,.95), 0 0 18px rgba(255,255,255,.75);
+}
+
+.aero-page { position: relative; isolation: isolate; background: var(--aero-sky-1); }
+.aero-page::before, .aero-page::after { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; }
+.aero-page::before {
+  background:
+    /* light rays from the top right */
+    conic-gradient(from 198deg at 88% -12%, rgba(255,255,255,0) 0deg, rgba(255,255,255,.42) 9deg, rgba(255,255,255,0) 19deg, rgba(255,255,255,.28) 31deg, rgba(255,255,255,0) 42deg, rgba(255,255,255,.2) 54deg, rgba(255,255,255,0) 64deg),
+    /* bokeh */
+    radial-gradient(circle at 14% 22%, rgba(255,255,255,.55) 0 22px, rgba(255,255,255,0) 40px),
+    radial-gradient(circle at 78% 58%, rgba(190, 255, 160, .55) 0 30px, rgba(190,255,160,0) 60px),
+    radial-gradient(circle at 36% 84%, rgba(255,255,255,.45) 0 16px, rgba(255,255,255,0) 34px),
+    radial-gradient(circle at 92% 86%, rgba(120, 230, 255, .5) 0 40px, rgba(120,230,255,0) 80px),
+    radial-gradient(circle at 58% 12%, rgba(255, 255, 210, .5) 0 18px, rgba(255,255,210,0) 44px),
+    /* aurora ribbons */
+    radial-gradient(ellipse 90% 26% at 30% 62%, rgba(140, 240, 120, .75) 0%, rgba(140,240,120,0) 70%),
+    radial-gradient(ellipse 80% 22% at 72% 70%, rgba(60, 220, 210, .6) 0%, rgba(60,220,210,0) 70%),
+    radial-gradient(ellipse 110% 30% at 50% 40%, rgba(255,255,255,.55) 0%, rgba(255,255,255,0) 65%),
+    radial-gradient(ellipse 70% 40% at 0% 100%, rgba(70, 190, 60, .8) 0%, rgba(70,190,60,0) 70%),
+    radial-gradient(ellipse 70% 40% at 100% 100%, rgba(30, 160, 230, .7) 0%, rgba(30,160,230,0) 70%),
+    linear-gradient(180deg, #1d8fe6 0%, #57b8f5 24%, #a6dcff 50%, #d9f3ff 72%, #c6f0d0 100%);
+}
+.aero-page::after {
+  --b: radial-gradient(circle at 34% 30%, rgba(255,255,255,.95) 0 9%, rgba(255,255,255,0) 15%), radial-gradient(circle, rgba(255,255,255,0) 0 58%, rgba(255,255,255,.55) 64%, rgba(255,255,255,.12) 70%, rgba(255,255,255,0) 72%);
+  background:
+    radial-gradient(circle at 34% 30%, rgba(255,255,255,.95) 0 3px, rgba(255,255,255,0) 5px) 0 0 / 230px 260px,
+    radial-gradient(circle, rgba(255,255,255,0) 0 15px, rgba(255,255,255,.6) 17px, rgba(255,255,255,.1) 19px, rgba(255,255,255,0) 20px) 40px 60px / 230px 260px,
+    radial-gradient(circle, rgba(255,255,255,0) 0 7px, rgba(255,255,255,.65) 8px, rgba(255,255,255,0) 10px) 150px 10px / 310px 340px,
+    radial-gradient(circle at 40% 35%, rgba(255,255,255,.9) 0 2px, rgba(255,255,255,0) 3px) 152px 12px / 310px 340px,
+    radial-gradient(circle, rgba(255,255,255,0) 0 26px, rgba(255,255,255,.45) 28px, rgba(255,255,255,.08) 31px, rgba(255,255,255,0) 32px) 260px 180px / 420px 480px,
+    radial-gradient(circle at 38% 32%, rgba(255,255,255,.85) 0 5px, rgba(255,255,255,0) 8px) 262px 182px / 420px 480px;
+  background-repeat: repeat;
+  animation: aero-rise 46s linear infinite;
+  opacity: .9;
+}
+@keyframes aero-rise {
+  from { background-position: 0 0, 40px 60px, 150px 10px, 152px 12px, 260px 180px, 262px 182px; }
+  to   { background-position: 0 -520px, 40px -460px, 150px -670px, 152px -668px, 260px -780px, 262px -778px; }
+}
+@media (prefers-reduced-motion: reduce) { .aero-page::after { animation: none; } }
+
+.aero-window {
+  position: relative; border-radius: var(--aero-r);
+  background: var(--aero-reflect), var(--aero-glass-tint), var(--aero-glass-thin);
+  -webkit-backdrop-filter: var(--aero-blur-deep); backdrop-filter: var(--aero-blur-deep);
+  border: 0; box-shadow: var(--aero-edge), var(--aero-lift);
+}
+.aero-caption {
+  background: var(--aero-caption); border-bottom: 1px solid rgba(255,255,255,.75);
+  box-shadow: 0 1px 0 rgba(0, 60, 110, .18); border-radius: var(--aero-r) var(--aero-r) 0 0;
+  text-shadow: var(--aero-text-glow); font-weight: 600;
+}
+.aero-pane {
+  background: linear-gradient(180deg, rgba(255,255,255,.6), rgba(255,255,255,.22) 48%, rgba(255,255,255,.3));
+  -webkit-backdrop-filter: blur(8px) saturate(160%); backdrop-filter: blur(8px) saturate(160%);
+  border: 1px solid rgba(255,255,255,.8); box-shadow: 0 0 0 1px rgba(0, 45, 90, .16), 0 3px 10px rgba(0, 50, 100, .14);
+  border-radius: var(--aero-r-sm);
+}
+.aero-glow-text { text-shadow: var(--aero-text-glow); }

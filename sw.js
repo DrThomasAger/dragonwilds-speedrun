@@ -1,6 +1,6 @@
 // Service worker: offline app shell, patch-note refresh in the background,
 // notifications when a new patch touches the raid or movement.
-const VERSION = 'v11';
+const VERSION = 'v12';
 const SHELL = `shell-${VERSION}`;
 const DATA = 'data-v1';
 const REMOTE = 'https://raw.githubusercontent.com/DrThomasAger/dragonwilds-speedrun/main/data/patchnotes.json';
