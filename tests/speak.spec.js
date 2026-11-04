@@ -4,7 +4,7 @@
 import { test, expect } from '@playwright/test';
 
 const M = '/?player=mock';
-const VIEWS = ['today', 'hq', 'run', 'compare', 'route', 'studio', 'practice', 'timer', 'wiki', 'kb', 'patches', 'library', 'hardcore'];
+const VIEWS = ['start', 'today', 'hq', 'run', 'compare', 'route', 'studio', 'practice', 'timer', 'wiki', 'kb', 'patches', 'library', 'hardcore'];
 
 async function mockSpeech(page, prefs = { url: '' }) {
   await page.addInitScript(p => {
