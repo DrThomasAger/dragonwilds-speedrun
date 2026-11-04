@@ -440,12 +440,15 @@
    "title": "Runescape: Dragonwilds - Scorned Wilderness Cataclysm Keep Guide"
   },
   "7drO4EDaJTo": {
-   "status": "error",
+   "status": "deferred",
    "level": "full",
    "reviewedAt": "2026-11-03T21:45:00.547Z",
    "attempts": 2,
-   "lastError": "ERROR: [youtube] 7drO4EDaJTo: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
-   "title": "RuneScape Dragonwilds 1.0 - Kuldra Is EASY! Raid Boss Guide"
+   "lastError": "ERROR: [youtube] 7drO4EDaJTo: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "title": "RuneScape Dragonwilds 1.0 - Kuldra Is EASY! Raid Boss Guide",
+   "botBlocks": 1,
+   "retryAfter": "2026-11-04T15:37:24.349Z",
+   "deferredAt": "2026-11-04T14:52:24.349Z"
   },
   "7s3fgHwlRYA": {
    "status": "error",
@@ -1213,7 +1216,11 @@
    "attempts": 0,
    "transcriptRetry": true,
    "transcriptAttempts": 1,
-   "title": "RuneScape: Dragonwilds Kuldra Solo"
+   "title": "RuneScape: Dragonwilds Kuldra Solo",
+   "botBlocks": 1,
+   "retryAfter": "2026-11-04T15:37:22.658Z",
+   "deferredAt": "2026-11-04T14:52:22.658Z",
+   "lastError": "ERROR: [youtube] wvmXHt_gcws: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d"
   },
   "_HjxuyYWoHQ": {
    "status": "error",
@@ -1459,6 +1466,26 @@
    "attempts": 1,
    "lastError": "ERROR: [youtube] ZrMNapU83Y8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
    "title": "RuneScape Dragonwilds: Dragonwilds scorned wilderness  - Fragments of ghornfell messy walkthrough"
+  },
+  "pOhcjk1BAhM": {
+   "status": "deferred",
+   "level": "light",
+   "attempts": 0,
+   "botBlocks": 1,
+   "retryAfter": "2026-11-04T15:37:22.559Z",
+   "deferredAt": "2026-11-04T14:52:22.559Z",
+   "lastError": "ERROR: [youtube] pOhcjk1BAhM: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "title": "Dragonwilds Raid Run! First Ever Attempt!"
+  },
+  "APwjC7fgnpg": {
+   "status": "deferred",
+   "level": "light",
+   "attempts": 0,
+   "botBlocks": 1,
+   "retryAfter": "2026-11-04T15:37:24.266Z",
+   "deferredAt": "2026-11-04T14:52:24.266Z",
+   "lastError": "ERROR: [youtube] APwjC7fgnpg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "title": "Runescape Dragonwilds raid and Kuldra full run solo"
   }
  }
 }

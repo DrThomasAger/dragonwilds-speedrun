@@ -1,0 +1,12 @@
+{
+ "id": "APwjC7fgnpg",
+ "url": "https://www.youtube.com/watch?v=APwjC7fgnpg",
+ "reviewedAt": "2026-11-04T14:52:22.560Z",
+ "pipelineVersion": 1,
+ "level": "light",
+ "status": "deferred",
+ "error": "ERROR: [youtube] APwjC7fgnpg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git",
+ "rateLimited": true,
+ "botBlock": true,
+ "title": "Runescape Dragonwilds raid and Kuldra full run solo"
+}

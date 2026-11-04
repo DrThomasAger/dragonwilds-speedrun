@@ -1,6 +1,6 @@
 # Raid source reviews
 
-95 reviewed · 24 with all five splits measured · generated 2026-11-03T21:55:37.106Z
+95 reviewed · 24 with all five splits measured · generated 2026-11-04T14:52:24.400Z
 
 | Video | Author | Status | Measured | Splits | Anomalies | Candidates | Transcript |
 |---|---|---|---|---|---|---|---|
@@ -49,56 +49,56 @@
 | [Dragonwilds Kuldra solo boss fight no commentary](5up2Jh2ZG34.md) | Hunterskills | unsubmitted | — | 0 | 0 | 0 | none |
 | [RuneScape Dragonwilds Kuldra Speedrun](6-ngU_iC4pY.md) | Nazuya- | unsubmitted | — | 0 | 0 | 1 | none |
 | [How to Defeat FUZAN in Runescape Dragonwilds 1.0](7epqOFwDgGU.md) | Jonnny Five | unsubmitted | — | 0 | 0 | 0 | youtube:en |
-| [Kuldra SpeedRun 1.0.1 #runescapedragonwilds](bhLWdxo8SsA.md) | ClutchAndCrash | unsubmitted | — | 1 | 0 | 0 | youtube:en |
-| [RS Dragonwilds: Scorned Wilderness Raid Speedrun in 3:57 (Fo…](bJQqgsf2ikk.md) | heartlessedly | verified #2 | — | 0 | 1 | 2 | whisper:small |
 | [Runescape Dragonwilds / Kuldra Solo Walkthrough](BNrLFCloSfw.md) | Chickenboy | unsubmitted | — | 1 | 1 | 1 | youtube:en |
 | [RuneScape Dragonwilds: Scorned Wilderness Preparation Guide!…](C_l5QfDmf6k.md) | Primitive Nomad | unsubmitted | — | 1 | 1 | 1 | whisper:small |
-| [How to "Skip" Regions in Runescape Dragonwilds 1.0](dMsS0uoIZR4.md) | ShadowStalkerTM | unsubmitted | — | 0 | 0 | 3 | none |
-| [How to Beat Kuldra Before Everyone Else / RuneScape: Dragonw…](dx1B3GZw_f4.md) | Tiger with the Bars | unsubmitted | — | 0 | 0 | 0 | youtube:en |
 | [Runescape Dragonwilds Kuldra Raid solo World Record?[13:30]](ErDIfiEPyVo.md) | SeeThrough  | unsubmitted | — | 0 | 1 | 1 | none |
-| [I Broke the New Dragonwilds Raid / Kuldra Guide + Tricks](ewgak1mPu7A.md) | CrossRSDW | unsubmitted | — | 0 | 2 | 27 | youtube:en |
 | [RS DW: 2 MIN 30 WORLD RECORD KULDRA KILL](FAhMipbG7FQ.md) | 9wraths | unsubmitted | — | 0 | 0 | 0 | none |
-| [How to Beat Kuldra FAST! (11:30 Solo Speedrun)](galmb3itkw4.md) | LaestaVie | unsubmitted | — | 0 | 0 | 0 | none |
-| [NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness R…](GeWbo4GpFEg.md) | Dotxy | unsubmitted | — | 0 | 0 | 3 | none |
 | [How to Beat Kuldra (Solo) — Heart Phase, Escape & Loot / Run…](GVTbtwm0cws.md) | GamingFilmLLC | unsubmitted | — | 0 | 0 | 0 | youtube:en |
-| [RS Dragonwilds: Scorned Wilderness Raid Speedrun in 5:02 (Pa…](hDT7if6f9Ug.md) | heartlessedly | verified | — | 0 | 1 | 1 | whisper:small |
-| [Runescape: Dragonwilds 1.0 - Scorned Wilderness + Kuldra in …](hll53QjnvsI.md) | Chico | unsubmitted | — | 0 | 3 | 2 | whisper:small |
-| [SCORNED WILDERNESS RAID / Post patch QUICKRUN guide](hs-v7QO7vao.md) | ShootBlood | unsubmitted | — | 4 | 4 | 1 | none |
-| [Dragonwilds kuldra full fight SOLO](jAVO0M4eVXQ.md) | Matthew Walsh | unsubmitted | — | 0 | 0 | 0 | none |
+| [NEW Dragonwilds Kuldra Skip (1.0.1.2) - Scorned Wilderness R…](GeWbo4GpFEg.md) | Dotxy | unsubmitted | — | 0 | 0 | 3 | none |
 | [How to Defeat KULDRA in Runescape Dragonwilds](JfjJzsREhQc.md) | Jonnny Five | unsubmitted | — | 0 | 0 | 0 | whisper:small |
 | [SPOILER! HOW TO DO KULDRA FIGHT RuneScape: Dragonwilds](Jg1EN56Hi9A.md) | Kurt Pearl | unsubmitted | — | 0 | 0 | 0 | youtube:en |
-| [Kuldra Boss Fight IL Speedrun (Duo Legit 7:45)](k2gbrO0NJI4.md) | Yo-_-HAM | unsubmitted | — | 0 | 0 | 0 | whisper:small |
-| [RuneScape: Dragonwilds - Scorned Wilderness The Shattered St…](khskxeYRJNQ.md) | Jacob Fox | unsubmitted | — | 0 | 0 | 1 | whisper:small |
 | [Unlock POWER LEVEL 8 Gear FAST in RuneScape Dragonwilds – Fu…](M2jvQVA2cbM.md) | RuneScape Universe | unsubmitted | — | 1 | 0 | 0 | whisper:small |
-| [13:30 Scorned Wilderness/Kuldra Hard Mode World Record](neLGN1LJlsc.md) | Logan | unsubmitted | — | 0 | 0 | 0 | whisper:small |
 | [Kuldra fight melee-ranged duo](NM3RGykkY48.md) | FaeMoira | unsubmitted | — | 0 | 0 | 1 | whisper:small |
-| [RuneScape Dragon Wilds: How To Craft Every New Resource! (Sc…](o-MCkMeNL1Q.md) | Primitive Nomad | unsubmitted | — | 2 | 1 | 1 | whisper:small |
 | [24:16 World Record Scorned Wilderness/Kuldra (Hard Mode)](OkRnmVbspdw.md) | Logan | unsubmitted | — | 0 | 3 | 16 | whisper:small |
-| [Queen Kuldra Fast Raid Guide – Quickest Run / RuneScape: Dra…](osOFSNxnMzE.md) | Gelaham | unsubmitted | — | 0 | 0 | 0 | none |
-| [RuneScape: Dragonwilds speed run Kuldra raid](p1i-tSCqRAA.md) | Rhyno93 | unsubmitted | — | 3 | 3 | 0 | none |
-| [KULDRA SPEEDRUN](rESZ696iKto.md) | Drew Maganzini | unsubmitted | — | 4 | 2 | 0 | none |
 | [Don't Fight Velgar Until You Do This! / RuneScape: Dragonwil…](REVKfEpm1C0.md) | Tiger with the Bars | unsubmitted | — | 3 | 2 | 2 | youtube:en |
-| [Kuldra Easy Farm Guide – Level 9 Armour & Weapons  / RuneSca…](s6gWMh5yYHw.md) | OER Games | unsubmitted | — | 0 | 0 | 6 | youtube:en |
-| [Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Ra…](s9cyeL2c-qg.md) | That's So Wild Gaming | unsubmitted | — | 0 | 0 | 15 | youtube:en |
 | [RuneScape: Dragonwilds Scorned wilderness Walkthrough/Guide …](SmA7HV-ZlZ0.md) | BeamsOGaming | unsubmitted | — | 0 | 0 | 2 | kb-raw:auto:en-orig |
-| [Runescape Dragonwilds Kuldra Raid 4:14 Glitched Any%](sNllJ4Qm6RY.md) | Lobsters | unsubmitted | — | 0 | 0 | 1 | none |
 | [RuneScape OG tries to Solo Kuldra for the 1st time / RuneSca…](StZPNkLmOTo.md) | GamerZay | unsubmitted | — | 0 | 0 | 0 | youtube:en |
-| [RuneScape: Dragonwilds Kuldra Solo](ta_fkpX-fz4.md) | moggykong | unsubmitted | — | 0 | 0 | 0 | none |
 | [Dragonwilds Kuldra Speedrun 10 :50](TBjBwM0W8r0.md) | Casey Griffith | unsubmitted | — | 3 | 0 | 0 | none |
 | [RuneScape Dragonwilds Kuldra Raid FULL RUN / With Time stamp…](TkqrNQy8_CQ.md) | J4Y2G00D | unsubmitted | — | 0 | 0 | 0 | none |
-| [Kuldra's Wrath Wand is OP — 9,999 to 11,499 Orb Damage! / Ru…](tR8yKZqnqqQ.md) | GamingFilmLLC | unsubmitted | — | 0 | 0 | 0 | youtube:en |
-| [RuneScape Dragonwilds: Scorned Wilderness Gear Guide](tXJFy-QkoBw.md) | Primitive Nomad | unsubmitted | — | 1 | 1 | 2 | whisper:small |
-| [Queen Kuldra Raid Full Guide — Quickest Run / RuneScape: Dra…](uD8WCTsFiyY.md) | Gelaham | unsubmitted | — | 0 | 0 | 5 | kb-raw:auto:en-orig |
 | [Kuldra Safespot Quick Run - Runescape Dragonwilds](UK2-GwCGhHc.md) | beandon  | unsubmitted | — | 0 | 0 | 0 | none |
 | [Kuldra Duo World Record (8:31) / Dragonwilds 1.0 release](Ukpwi_w-VcE.md) | Special_Atks | unsubmitted | — | 0 | 0 | 0 | whisper:small |
 | [Runescape Dragonwilds / Can I solo Kuldra?](UzrTCZh-TfU.md) | Chaos Lord Zero | unsubmitted | — | 0 | 0 | 0 | none |
 | [Runescape Dragonwilds Kuldra Raid 5:07 Glitched Any%](VrZ5uBZ2meM.md) | Lobsters | unsubmitted | — | 0 | 3 | 4 | whisper:small |
 | [Fastest way to Kuldra / 22 min 35 sec to finish dungeon / Pa…](WIOk5DxP7kA.md) | David The Optimist Gaming | unsubmitted | — | 4 | 1 | 4 | whisper:small |
+| [Kuldra KC #2 — Back for More! / RuneScape: Dragonwilds](YP9pseIN0N4.md) | GamingFilmLLC | unsubmitted | — | 0 | 0 | 0 | youtube:en |
+| [KULDRA BOSS GUIDE DRAGONWILDS ( KULDRA FIGHT OVERVIEW )](_nt4kXKqHHM.md) | AGENT LOPES | unsubmitted | — | 0 | 0 | 3 | whisper:small |
+| [RS Dragonwilds: Scorned Wilderness Raid Speedrun in 3:57 (Fo…](bJQqgsf2ikk.md) | heartlessedly | verified #2 | — | 0 | 1 | 2 | whisper:small |
+| [Kuldra SpeedRun 1.0.1 #runescapedragonwilds](bhLWdxo8SsA.md) | ClutchAndCrash | unsubmitted | — | 1 | 0 | 0 | youtube:en |
+| [How to "Skip" Regions in Runescape Dragonwilds 1.0](dMsS0uoIZR4.md) | ShadowStalkerTM | unsubmitted | — | 0 | 0 | 3 | none |
+| [How to Beat Kuldra Before Everyone Else / RuneScape: Dragonw…](dx1B3GZw_f4.md) | Tiger with the Bars | unsubmitted | — | 0 | 0 | 0 | youtube:en |
+| [I Broke the New Dragonwilds Raid / Kuldra Guide + Tricks](ewgak1mPu7A.md) | CrossRSDW | unsubmitted | — | 0 | 2 | 27 | youtube:en |
+| [How to Beat Kuldra FAST! (11:30 Solo Speedrun)](galmb3itkw4.md) | LaestaVie | unsubmitted | — | 0 | 0 | 0 | none |
+| [RS Dragonwilds: Scorned Wilderness Raid Speedrun in 5:02 (Pa…](hDT7if6f9Ug.md) | heartlessedly | verified | — | 0 | 1 | 1 | whisper:small |
+| [Runescape: Dragonwilds 1.0 - Scorned Wilderness + Kuldra in …](hll53QjnvsI.md) | Chico | unsubmitted | — | 0 | 3 | 2 | whisper:small |
+| [SCORNED WILDERNESS RAID / Post patch QUICKRUN guide](hs-v7QO7vao.md) | ShootBlood | unsubmitted | — | 4 | 4 | 1 | none |
+| [Dragonwilds kuldra full fight SOLO](jAVO0M4eVXQ.md) | Matthew Walsh | unsubmitted | — | 0 | 0 | 0 | none |
+| [Kuldra Boss Fight IL Speedrun (Duo Legit 7:45)](k2gbrO0NJI4.md) | Yo-_-HAM | unsubmitted | — | 0 | 0 | 0 | whisper:small |
+| [RuneScape: Dragonwilds - Scorned Wilderness The Shattered St…](khskxeYRJNQ.md) | Jacob Fox | unsubmitted | — | 0 | 0 | 1 | whisper:small |
+| [13:30 Scorned Wilderness/Kuldra Hard Mode World Record](neLGN1LJlsc.md) | Logan | unsubmitted | — | 0 | 0 | 0 | whisper:small |
+| [RuneScape Dragon Wilds: How To Craft Every New Resource! (Sc…](o-MCkMeNL1Q.md) | Primitive Nomad | unsubmitted | — | 2 | 1 | 1 | whisper:small |
+| [Queen Kuldra Fast Raid Guide – Quickest Run / RuneScape: Dra…](osOFSNxnMzE.md) | Gelaham | unsubmitted | — | 0 | 0 | 0 | none |
+| [RuneScape: Dragonwilds speed run Kuldra raid](p1i-tSCqRAA.md) | Rhyno93 | unsubmitted | — | 3 | 3 | 0 | none |
+| [KULDRA SPEEDRUN](rESZ696iKto.md) | Drew Maganzini | unsubmitted | — | 4 | 2 | 0 | none |
+| [Kuldra Easy Farm Guide – Level 9 Armour & Weapons  / RuneSca…](s6gWMh5yYHw.md) | OER Games | unsubmitted | — | 0 | 0 | 6 | youtube:en |
+| [Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Ra…](s9cyeL2c-qg.md) | That's So Wild Gaming | unsubmitted | — | 0 | 0 | 15 | youtube:en |
+| [Runescape Dragonwilds Kuldra Raid 4:14 Glitched Any%](sNllJ4Qm6RY.md) | Lobsters | unsubmitted | — | 0 | 0 | 1 | none |
+| [Kuldra's Wrath Wand is OP — 9,999 to 11,499 Orb Damage! / Ru…](tR8yKZqnqqQ.md) | GamingFilmLLC | unsubmitted | — | 0 | 0 | 0 | youtube:en |
+| [RuneScape Dragonwilds: Scorned Wilderness Gear Guide](tXJFy-QkoBw.md) | Primitive Nomad | unsubmitted | — | 1 | 1 | 2 | whisper:small |
+| [RuneScape: Dragonwilds Kuldra Solo](ta_fkpX-fz4.md) | moggykong | unsubmitted | — | 0 | 0 | 0 | none |
+| [Queen Kuldra Raid Full Guide — Quickest Run / RuneScape: Dra…](uD8WCTsFiyY.md) | Gelaham | unsubmitted | — | 0 | 0 | 5 | kb-raw:auto:en-orig |
 | [RuneScape: Dragonwilds Kuldra Solo](wvmXHt_gcws.md) | anthony soto | unsubmitted | — | 0 | 0 | 0 | none |
 | [Runescape Dragonwilds - Scorned Wilderness SOLO Raid Guide](x9lUEA4ro0A.md) | Northforge | unsubmitted | — | 0 | 0 | 12 | kb-raw:auto:en-orig |
-| [Kuldra KC #2 — Back for More! / RuneScape: Dragonwilds](YP9pseIN0N4.md) | GamingFilmLLC | unsubmitted | — | 0 | 0 | 0 | youtube:en |
 | [Good job jagex you really fixed Kuldra skip !](zl7R_N-vByw.md) | Vytautas Balnis | unsubmitted | — | 0 | 0 | 0 | whisper:small |
-| [KULDRA BOSS GUIDE DRAGONWILDS ( KULDRA FIGHT OVERVIEW )](_nt4kXKqHHM.md) | AGENT LOPES | unsubmitted | — | 0 | 0 | 3 | whisper:small |
 
 ## Not reviewable
 
@@ -109,94 +109,96 @@
 - 1EmTyHx3UME: unavailable — ERROR: [youtube] 1EmTyHx3UME: Video unavailable. This video has been removed by the uploader
 - 2Zn04m-mq80: error — ERROR: [youtube] 2Zn04m-mq80: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 4C-7swCHEes: error — ERROR: [youtube] 4C-7swCHEes: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- 5vqcrsspAcE: error — ERROR: [youtube] 5vqcrsspAcE: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 5YGT2dJaPK8: error — ERROR: [youtube] 5YGT2dJaPK8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- 5vqcrsspAcE: error — ERROR: [youtube] 5vqcrsspAcE: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 68ovg9A_PpA: error — ERROR: [youtube] 68ovg9A_PpA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 6LE1YW41OSA: error — ERROR: [youtube] 6LE1YW41OSA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 6XoozVNLdlI: error — ERROR: [youtube] 6XoozVNLdlI: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 6Xta0SaH3-k: error — ERROR: [youtube] 6Xta0SaH3-k: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- 7drO4EDaJTo: error — ERROR: [youtube] 7drO4EDaJTo: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- 7XYvLtw4TS0: error — ERROR: [youtube] 7XYvLtw4TS0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- 7drO4EDaJTo: deferred — ERROR: [youtube] 7drO4EDaJTo: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
 - 7s3fgHwlRYA: error — ERROR: [youtube] 7s3fgHwlRYA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 7sVaG0JRlxc: error — ERROR: [youtube] 7sVaG0JRlxc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- 7XYvLtw4TS0: error — ERROR: [youtube] 7XYvLtw4TS0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 95xH_yTZX_w: error — ERROR: [youtube] 95xH_yTZX_w: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 9CTj9LgZJ5A: error — ERROR: [youtube] 9CTj9LgZJ5A: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- a7iUnju_Vfk: error — ERROR: [youtube] a7iUnju_Vfk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- APwjC7fgnpg: deferred — ERROR: [youtube] APwjC7fgnpg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
 - AbC4uyQRzcM: error — ERROR: [youtube] AbC4uyQRzcM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- acNmZe953vs: error — ERROR: [youtube] acNmZe953vs: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- aySOue59SHI: error — ERROR: [youtube] aySOue59SHI: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - B4t1Vrgt6I8: error — ERROR: [youtube] B4t1Vrgt6I8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- bFOWvp4ZkPA: error — ERROR: [youtube] bFOWvp4ZkPA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- bQ56l-8xTl8: unavailable — ERROR: [youtube] bQ56l-8xTl8: Requested format is not available. Use --list-formats for a list of available formats
 - BvI39z_sW3o: error — ERROR: [youtube] BvI39z_sW3o: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- cA6J1J5s9X0: error — ERROR: [youtube] cA6J1J5s9X0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - EvdQKZv4Cyo: error — ERROR: [youtube] EvdQKZv4Cyo: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - F3yv_tgJFJU: error — ERROR: [youtube] F3yv_tgJFJU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - F4vUWayKWbQ: error — ERROR: [youtube] F4vUWayKWbQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- f6aTIAnHDwA: error — ERROR: [youtube] f6aTIAnHDwA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - F8p60k1co3U: error — ERROR: [youtube] F8p60k1co3U: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- faQnPcZPaZ8: error — ERROR: [youtube] faQnPcZPaZ8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- fO5YJeWqudE: error — ERROR: [youtube] fO5YJeWqudE: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - FZpsGhI6AWw: error — ERROR: [youtube] FZpsGhI6AWw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- goKfbT19nkk: error — ERROR: [youtube] goKfbT19nkk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- gZqT-p3e0uQ: error — ERROR: [youtube] gZqT-p3e0uQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - H1f_gXNdv3Y: error — ERROR: [youtube] H1f_gXNdv3Y: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - H2BWG4IrQIU: error — ERROR: [youtube] H2BWG4IrQIU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - HaHFmb88830: error — ERROR: [youtube] HaHFmb88830: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - IFLcUHmblIg: error — ERROR: [youtube] IFLcUHmblIg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - ImAiebsF_48: error — ERROR: [youtube] ImAiebsF_48: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- JaITKqsSAjw: error — ERROR: [youtube] JaITKqsSAjw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- jg_G6eAhM80: error — ERROR: [youtube] jg_G6eAhM80: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - JQhIMOAlPEo: error — ERROR: [youtube] JQhIMOAlPEo: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - JRpxlTZ_F2M: error — ERROR: [youtube] JRpxlTZ_F2M: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- JaITKqsSAjw: error — ERROR: [youtube] JaITKqsSAjw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - JuuIF0BeGaE: error — ERROR: [youtube] JuuIF0BeGaE: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- kIFZmk5P6CQ: error — ERROR: [youtube] kIFZmk5P6CQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - KkxO_3dWhr4: error — ERROR: [youtube] KkxO_3dWhr4: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- kyr7N_QVFdg: error — ERROR: [youtube] kyr7N_QVFdg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - L-dTDXJyFq0: error — ERROR: [youtube] L-dTDXJyFq0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- LeVPNQQ-5dY: error — ERROR: [youtube] LeVPNQQ-5dY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - LGCddmk_TnM: error — ERROR: [youtube] LGCddmk_TnM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- lTG0EuXuqDs: error — ERROR: [youtube] lTG0EuXuqDs: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- MnZ3zQdMlhc: error — ERROR: [youtube] MnZ3zQdMlhc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- LeVPNQQ-5dY: error — ERROR: [youtube] LeVPNQQ-5dY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - MUSMU0rpaLw: error — ERROR: [youtube] MUSMU0rpaLw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- n5unPmnfP6A: error — ERROR: [youtube] n5unPmnfP6A: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- nhTtRoKPE1E: error — ERROR: [youtube] nhTtRoKPE1E: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- odV1jVa65mU: error — ERROR: [youtube] odV1jVa65mU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- oK0_U_I40DY: error — ERROR: [youtube] oK0_U_I40DY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- osZKPmm848U: error — ERROR: [youtube] osZKPmm848U: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- ou1gSrcvWGk: error — ERROR: [youtube] ou1gSrcvWGk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- MnZ3zQdMlhc: error — ERROR: [youtube] MnZ3zQdMlhc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - O_xZR5Nj97U: error — ERROR: [youtube] O_xZR5Nj97U: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- p-wFOJrQFRw: error — ERROR: [youtube] p-wFOJrQFRw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- pNBJlwJOky8: unavailable — ERROR: [youtube] pNBJlwJOky8: This video is not available
-- pshWjGU1gG4: error — ERROR: [youtube] pshWjGU1gG4: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - Qhc-9tFrs88: error — ERROR: [youtube] Qhc-9tFrs88: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- r1nrG2NlW-g: error — ERROR: [youtube] r1nrG2NlW-g: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- rNDeEKsKGeA: error — ERROR: [youtube] rNDeEKsKGeA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- rq18FeCFl-8: error — ERROR: [youtube] rq18FeCFl-8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- rsvxp-hf_xQ: error — ERROR: [youtube] rsvxp-hf_xQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - RzKDGz5YquQ: error — ERROR: [youtube] RzKDGz5YquQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- sI1FxSDbncw: error — ERROR: [youtube] sI1FxSDbncw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - SrXo70-eOLg: error — ERROR: [youtube] SrXo70-eOLg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - TLJOpo8frns: error — ERROR: [youtube] TLJOpo8frns: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- tuGoIqNwI2I: error — ERROR: [youtube] tuGoIqNwI2I: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - U0_KPXu28qw: error — ERROR: [youtube] U0_KPXu28qw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- uD4Zzhm8wJc: error — ERROR: [youtube] uD4Zzhm8wJc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- v08OscNsOEM: unavailable — ERROR: [youtube] v08OscNsOEM: Requested format is not available. Use --list-formats for a list of available formats
 - VlBhicHlfl4: error — ERROR: [youtube] VlBhicHlfl4: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- w4zztfeqroc: error — ERROR: [youtube] w4zztfeqroc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - WDG9aD2oBIc: error — ERROR: [youtube] WDG9aD2oBIc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- wOF8HgyWj4Q: error — ERROR: [youtube] wOF8HgyWj4Q: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- WvXjQC9tB50: error — ERROR: [youtube] WvXjQC9tB50: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - WYqKsXTuqEc: error — ERROR: [youtube] WYqKsXTuqEc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- x908LHrcUtg: error — ERROR: [youtube] x908LHrcUtg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- xU3_1KirfDc: error — ERROR: [youtube] xU3_1KirfDc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- ynjeXmaFyVU: error — ERROR: [youtube] ynjeXmaFyVU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- WvXjQC9tB50: error — ERROR: [youtube] WvXjQC9tB50: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - YNyqVxxeTtM: error — ERROR: [youtube] YNyqVxxeTtM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- yqAg8RPDD3o: error — ERROR: [youtube] yqAg8RPDD3o: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - YYNO7WNXDcA: error — ERROR: [youtube] YYNO7WNXDcA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- z8pDoP0_l9U: error — ERROR: [youtube] z8pDoP0_l9U: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- zNaUuRbbQPM: error — ERROR: [youtube] zNaUuRbbQPM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - ZPFWG6gZnEY: error — ERROR: [youtube] ZPFWG6gZnEY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - ZrMNapU83Y8: error — ERROR: [youtube] ZrMNapU83Y8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - _HjxuyYWoHQ: error — ERROR: [youtube] _HjxuyYWoHQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - _m9p6hKg0g0: error — ERROR: [youtube] _m9p6hKg0g0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- a7iUnju_Vfk: error — ERROR: [youtube] a7iUnju_Vfk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- acNmZe953vs: error — ERROR: [youtube] acNmZe953vs: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- aySOue59SHI: error — ERROR: [youtube] aySOue59SHI: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- bFOWvp4ZkPA: error — ERROR: [youtube] bFOWvp4ZkPA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- bQ56l-8xTl8: unavailable — ERROR: [youtube] bQ56l-8xTl8: Requested format is not available. Use --list-formats for a list of available formats
+- cA6J1J5s9X0: error — ERROR: [youtube] cA6J1J5s9X0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- f6aTIAnHDwA: error — ERROR: [youtube] f6aTIAnHDwA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- fO5YJeWqudE: error — ERROR: [youtube] fO5YJeWqudE: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- faQnPcZPaZ8: error — ERROR: [youtube] faQnPcZPaZ8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- gZqT-p3e0uQ: error — ERROR: [youtube] gZqT-p3e0uQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- goKfbT19nkk: error — ERROR: [youtube] goKfbT19nkk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- jg_G6eAhM80: error — ERROR: [youtube] jg_G6eAhM80: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- kIFZmk5P6CQ: error — ERROR: [youtube] kIFZmk5P6CQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- kyr7N_QVFdg: error — ERROR: [youtube] kyr7N_QVFdg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- lTG0EuXuqDs: error — ERROR: [youtube] lTG0EuXuqDs: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- n5unPmnfP6A: error — ERROR: [youtube] n5unPmnfP6A: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- nhTtRoKPE1E: error — ERROR: [youtube] nhTtRoKPE1E: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- oK0_U_I40DY: error — ERROR: [youtube] oK0_U_I40DY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- odV1jVa65mU: error — ERROR: [youtube] odV1jVa65mU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- osZKPmm848U: error — ERROR: [youtube] osZKPmm848U: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- ou1gSrcvWGk: error — ERROR: [youtube] ou1gSrcvWGk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- p-wFOJrQFRw: error — ERROR: [youtube] p-wFOJrQFRw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- pNBJlwJOky8: unavailable — ERROR: [youtube] pNBJlwJOky8: This video is not available
+- pOhcjk1BAhM: deferred — ERROR: [youtube] pOhcjk1BAhM: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
+- pshWjGU1gG4: error — ERROR: [youtube] pshWjGU1gG4: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- r1nrG2NlW-g: error — ERROR: [youtube] r1nrG2NlW-g: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- rNDeEKsKGeA: error — ERROR: [youtube] rNDeEKsKGeA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- rq18FeCFl-8: error — ERROR: [youtube] rq18FeCFl-8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- rsvxp-hf_xQ: error — ERROR: [youtube] rsvxp-hf_xQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- sI1FxSDbncw: error — ERROR: [youtube] sI1FxSDbncw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- tuGoIqNwI2I: error — ERROR: [youtube] tuGoIqNwI2I: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- uD4Zzhm8wJc: error — ERROR: [youtube] uD4Zzhm8wJc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- v08OscNsOEM: unavailable — ERROR: [youtube] v08OscNsOEM: Requested format is not available. Use --list-formats for a list of available formats
+- w4zztfeqroc: error — ERROR: [youtube] w4zztfeqroc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- wOF8HgyWj4Q: error — ERROR: [youtube] wOF8HgyWj4Q: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- x908LHrcUtg: error — ERROR: [youtube] x908LHrcUtg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- xU3_1KirfDc: error — ERROR: [youtube] xU3_1KirfDc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- ynjeXmaFyVU: error — ERROR: [youtube] ynjeXmaFyVU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- yqAg8RPDD3o: error — ERROR: [youtube] yqAg8RPDD3o: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- z8pDoP0_l9U: error — ERROR: [youtube] z8pDoP0_l9U: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- zNaUuRbbQPM: error — ERROR: [youtube] zNaUuRbbQPM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
