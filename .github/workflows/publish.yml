@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Pushes made with GITHUB_TOKEN by the hourly jobs start no push run, so follow them here.
+  workflow_run:
+    workflows: ["Patch notes", "Knowledge-base ingest", "Raid source review"]
+    types: [completed]
 permissions:
   contents: write
 concurrency: publish
@@ -13,5 +17,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
       - run: git push origin HEAD:gh-pages
