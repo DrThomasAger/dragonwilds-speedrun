@@ -204,3 +204,37 @@ main { perspective: 1400px; }
 /* the sea sits under the tab bar on phones */
 @media (max-width: 719px) { .aero-scene { height: calc(22vh + var(--tabbar)); } .aero-pod { bottom: calc(30% + var(--tabbar) * .6); } }
 footer.site { color: #f2fbff; border-top: 0; text-shadow: 0 1px 2px rgba(0, 50, 100, .6); }
+
+/* ---------- layer 4: gradient text, bubble text, shadow ---------- */
+.pagehead h1 { -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; text-shadow: none;
+  background-image: var(--aero-text-sky); -webkit-text-stroke: .6px rgba(0, 80, 150, .45); font-weight: 700;
+  filter: drop-shadow(0 1px 0 #a6dcff) drop-shadow(0 1px 0 #6fc2f2) drop-shadow(0 1px 0 #3aa6e4) drop-shadow(0 1px 0 #1d8bd0) drop-shadow(0 6px 8px rgba(0, 40, 90, .45)); }
+.card > h2:first-child, .card h2, dialog h2, .blog-list .post b, .rn-skip h2 {
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; text-shadow: none;
+  background-image: var(--aero-text-deep); filter: drop-shadow(0 1px 0 rgba(255,255,255,.95)) drop-shadow(0 2px 3px rgba(0, 50, 100, .25)); }
+/* a caption bar keeps its glass: the gradient goes on the text, the bar on a layer behind */
+.card > h2:first-child { background: none; position: relative; isolation: isolate; filter: none; -webkit-text-fill-color: initial; color: var(--aero-ink); }
+.card > h2:first-child::before { content: ""; position: absolute; inset: 0; z-index: -1; border-radius: inherit; background: var(--aero-caption); }
+.card > h2:first-child { text-shadow: 0 1px 0 #fff, 0 0 10px rgba(255,255,255,.95), 0 2px 4px rgba(0, 50, 100, .25); }
+
+/* big numbers are glossy candy */
+.target-card .wr, .stat b, .rn-clock, .kv b {
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; text-shadow: none;
+  background-image: var(--aero-text-bubble); -webkit-text-stroke: 1px rgba(0, 70, 140, .55); font-weight: 800;
+  filter: drop-shadow(0 0 1px rgba(255,255,255,.9)) drop-shadow(0 2px 0 rgba(255,255,255,.8)) drop-shadow(0 4px 5px rgba(0, 50, 110, .4)); }
+.stat b.gold, .target-card .gold { background-image: linear-gradient(180deg, #fffbe6 0%, #ffe9a0 46%, #f5b300 50%, #c97a00 80%, #ffd25a 100%); -webkit-text-stroke-color: rgba(120, 70, 0, .55); }
+.rn-clock.behind { background-image: linear-gradient(180deg, #fff0f2 0%, #ffd0d6 46%, #ff5a6e 50%, #c8102e 80%, #ff8a98 100%); -webkit-text-stroke-color: rgba(120, 0, 20, .55); }
+.timerbox .timer-big { -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; text-shadow: none;
+  background-image: linear-gradient(180deg, #ffffff 0%, #e6fbff 45%, #7fe0ff 52%, #22b5f0 85%, #9cf0ff 100%);
+  filter: drop-shadow(0 0 6px rgba(111, 216, 255, .9)) drop-shadow(0 0 18px rgba(111, 216, 255, .5)); }
+
+/* pill and kicker text get a bevel */
+.pill { text-shadow: 0 1px 0 rgba(255,255,255,.85); font-weight: 700; }
+.target-card .kicker, .bt .kicker { -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; background-image: var(--aero-text-deep); }
+
+/* more shadow: everything glossy casts one */
+.nav a b, .iconbtn { filter: drop-shadow(0 2px 2px rgba(0, 50, 100, .25)); }
+.pill, kbd { box-shadow: 0 0 0 1px var(--aero-glass-line), 0 2px 0 rgba(150, 205, 240, .9), 0 3px 5px rgba(0, 50, 100, .22); }
+select, input[type=text], input[type=number], input[type=search], input[type=url], textarea { box-shadow: inset 0 2px 5px rgba(16, 84, 140, .2), 0 1px 0 #fff, 0 3px 8px rgba(0, 50, 100, .15); }
+.bt h1 { -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; text-shadow: none; background-image: var(--aero-text-deep); filter: drop-shadow(0 1px 0 #fff) drop-shadow(0 3px 4px rgba(0, 50, 100, .3)); padding-bottom: .08em; }
+.bt h2 { -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; text-shadow: none; background-image: var(--aero-text-deep); filter: drop-shadow(0 1px 0 #fff) drop-shadow(0 2px 3px rgba(0, 50, 100, .25)); }

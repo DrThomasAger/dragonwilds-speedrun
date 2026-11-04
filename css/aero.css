@@ -307,3 +307,27 @@
   .aero-dolphin { opacity: 1; transform: translate(100px, -72px); }
   .aero-tilt { transform: none; }
 }
+
+/* =====================================================================
+   Layer 4 — gradient and bubble text.
+   .aero-gradient-text   deep blue to aqua fill with a white rim and soft shadow
+   .aero-bubble-text     glossy candy lettering: a light top half and a saturated
+                         lower half split at the middle, a dark stroke, a white
+                         rim and a dropped shadow
+   .aero-sky-text        white to sky fill with an extruded blue edge, for text that
+                         sits straight on the wallpaper
+   All three paint the fill with background-clip:text and draw depth with
+   filter: drop-shadow, which follows the glyphs where text-shadow would show
+   through a transparent fill.
+   ===================================================================== */
+:root {
+  --aero-text-deep: linear-gradient(180deg, #0b3d78 0%, #0a63b0 55%, #0ea5e0 100%);
+  --aero-text-bubble: linear-gradient(180deg, #ffffff 0%, #d9f6ff 46%, #4cc6f5 50%, #0a8fd6 78%, #57d4ff 100%);
+  --aero-text-sky: linear-gradient(180deg, #ffffff 0%, #ffffff 40%, #c4ecff 60%, #8fd8ff 100%);
+}
+.aero-gradient-text, .aero-bubble-text, .aero-sky-text { -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; text-shadow: none; }
+.aero-gradient-text { background-image: var(--aero-text-deep); filter: drop-shadow(0 1px 0 rgba(255,255,255,.95)) drop-shadow(0 2px 3px rgba(0, 50, 100, .25)); }
+.aero-bubble-text { background-image: var(--aero-text-bubble); -webkit-text-stroke: 1px rgba(0, 70, 140, .55); font-weight: 800;
+  filter: drop-shadow(0 0 1px rgba(255,255,255,.9)) drop-shadow(0 2px 0 rgba(255,255,255,.8)) drop-shadow(0 4px 5px rgba(0, 50, 110, .4)); }
+.aero-sky-text { background-image: var(--aero-text-sky); -webkit-text-stroke: .6px rgba(0, 80, 150, .45);
+  filter: drop-shadow(0 1px 0 #a6dcff) drop-shadow(0 1px 0 #6fc2f2) drop-shadow(0 1px 0 #3aa6e4) drop-shadow(0 1px 0 #1d8bd0) drop-shadow(0 6px 8px rgba(0, 40, 90, .45)); }
