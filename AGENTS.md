@@ -44,6 +44,7 @@ Files the bridge already follows are read from their end, so history is never re
 
 ## Rules that apply to every agent
 
+- When Hanjo asks for something, do it yourself, start to finish, and tell him afterwards what was done. Don't offer it as an option or ask whether to do it. (Hanjo, 2026-11-05: "never talk to me do it yourself".)
 - Never write to the C: drive on Hanjo's PC. Temp files and caches go under `D:\claude-temp`.
 - Nothing aimed at the OSRS client may run heavy work on its client thread. Read what the OSRS aids already write to files (`tick_monitor\live_<name>\...`) and leave the client alone. The OSRS project's own `CLAUDE.md` holds the full rules.
 - Private data stays in the private vault (see `CLAUDE.md`). Never copy it into this public repo.
