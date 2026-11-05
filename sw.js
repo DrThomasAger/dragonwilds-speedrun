@@ -1,14 +1,14 @@
 // Service worker: offline app shell, patch-note refresh in the background,
 // notifications when a new patch touches the raid or movement.
-const VERSION = 'v15';
+const VERSION = 'v16';
 const SHELL = `shell-${VERSION}`;
 const DATA = 'data-v1';
 const REMOTE = 'https://raw.githubusercontent.com/DrThomasAger/dragonwilds-speedrun/main/data/patchnotes.json';
 const ASSETS = [
   './', 'index.html', 'hardcore-run.html', 'manifest.webmanifest', 'css/app.css',
   'js/app.js', 'js/lib/util.js', 'js/lib/store.js', 'js/lib/player.js', 'js/lib/reel.js', 'js/lib/sync.js', 'js/lib/ui.js',
-  'js/lib/timer.js', 'js/lib/lss.js', 'js/lib/src.js', 'js/lib/patches.js', 'js/lib/pwa.js', 'js/lib/palette.js', 'js/lib/bridge.js', 'js/lib/speak.js', 'js/lib/aero3d.js',
-  'js/lib/kb-data.js', 'js/lib/kb-graph.js', 'js/lib/kb-chart.js', 'js/views/kb.js', 'css/kb.css', 'css/aero.css', 'css/aero-app.css', 'css/blog-template.css', 'css/blog-aero.css', 'js/views/blog.js', 'content/blog/ghost-import.json',
+  'js/lib/timer.js', 'js/lib/lss.js', 'js/lib/src.js', 'js/lib/patches.js', 'js/lib/pwa.js', 'js/lib/palette.js', 'js/lib/bridge.js', 'js/lib/speak.js',
+  'js/lib/kb-data.js', 'js/lib/kb-graph.js', 'js/lib/kb-chart.js', 'js/views/kb.js', 'css/kb.css', 'aero/aero.css', 'aero/aero.js', 'aero/blog-template.css', 'aero/aero-blog.css', 'css/aero-app.css', 'css/blog-aero.css', 'js/views/blog.js', 'content/blog/ghost-import.json',
   'js/data/videos.js', 'js/data/raid.js', 'js/data/route.js', 'js/data/hardcore.js', 'js/data/wiki.js',
   'js/views/start.js', 'js/views/hq.js', 'js/views/today.js', 'js/views/run.js', 'js/views/compare.js', 'js/views/route.js', 'js/views/studio.js', 'js/views/practice.js', 'js/views/timer.js',
   'js/views/library.js', 'js/views/hardcore.js', 'js/views/patches.js', 'js/views/wiki.js',

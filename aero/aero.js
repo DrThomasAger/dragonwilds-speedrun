@@ -1,7 +1,8 @@
-// Aero depth: the sea with dolphins, tilt toward the pointer, and wallpaper parallax.
-// Reusable: no knowledge of any one app. Pair with css/aero.css (layer 3).
+// Aero, the moving parts: the sea with dolphins, tilt toward the pointer, and wallpaper
+// parallax. DrThomasAger/dragonwilds-speedrun, folder aero/ (README.md beside it).
+// No knowledge of any one site. Pair with aero.css beside it.
 //
-//   import { initAero3D } from './aero3d.js';
+//   import { initAero3D } from './aero/aero.js';
 //   initAero3D({ tilt: '.card', max: 5, dolphins: 4 });
 //
 // Sets on <html>: --aero-gx / --aero-gy (-1..1, from device tilt or the pointer) and
