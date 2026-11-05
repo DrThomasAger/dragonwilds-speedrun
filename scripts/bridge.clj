@@ -8,8 +8,8 @@
 ;;     - the app posts its own events (splits, PBs, practice) to /api/feed
 ;;     - if the RuneLite client REPL is up (osrs client_repl, port 7889) it polls a
 ;;       snapshot of the live game every few seconds
-;;     - if LAB_GAME_FILE points at a log/state file (e.g. option_mirror\live\present.md)
-;;       it tails that too
+;;     - it tails the knowledge-base ingest log, live Twitch chat (and starts the
+;;       Twitch chat monitor), LAB_OSRS_EVENTS and LAB_GAME_FILE (see "live tails")
 ;; * Claude: /api/claude runs Claude Code headless in this project folder with the
 ;;   recent feed as context, streams its output back to the panel, and keeps the
 ;;   session so follow-ups remember the conversation.
@@ -104,34 +104,115 @@
           (broadcast! {:type "game" :snapshot snap}))
         (swap! game assoc :connected true)))))
 
-;; ------------------------------------------------------------------ file tail (any game log)
-(defonce tail-state (atom {:size 0}))
-(defn poll-game-file! []
-  (when (and game-file (fs/exists? game-file))
-    (let [size (fs/size game-file)]
+;; ------------------------------------------------------------------ live tails (append-only files)
+;; Every source here is a file some other process appends to while it runs. The bridge
+;; remembers a byte offset per file and turns each new line into one feed event, so the
+;; Claude panel and the app see it within a second.
+;;   kb      data/kb/raw/ingest-log.jsonl        every new run, comment, video, post the ingesters find
+;;   twitch  data/kb/raw/twitch/live-*.jsonl     live chat from scripts/ingest/twitch-live.mjs
+;;   osrs    LAB_OSRS_EVENTS (glob, ; separated)  e.g. ...\osrs\tick_monitor\live_*\segments.jsonl
+;;   log     LAB_GAME_FILE   (glob, ; separated)  any other log or state file, line by line
+;; A file present at start is read from its end (no replay); a file that appears later is
+;; read from its start; a file that shrinks is read again from its start.
+(def tail-max-lines 20)   ; most lines one file may add per poll
+
+(defn- split-paths [s] (->> (str/split (or s "") #";") (map str/trim) (remove str/blank?)))
+
+(defn- expand
+  "A path, or a glob like D:/x/live_*/events.jsonl, as the list of files it names now."
+  [pattern]
+  (let [pattern (str/replace pattern "\\" "/")
+        g (->> ["*" "?" "[" "{"] (keep #(str/index-of pattern %)) seq)]
+    (if-not g
+      [pattern]
+      (let [i (or (str/last-index-of pattern "/" (apply min g)) -1)
+            base (if (neg? i) "." (subs pattern 0 (inc i)))]
+        (if (fs/directory? base) (map str (fs/glob base (subs pattern (inc i)))) [])))))
+
+(defn- jline [line] (try (json/parse-string line true) (catch Exception _ nil)))
+
+(defn- kb-event [line]
+  (when-let [m (jline line)]
+    (when (and (map? m) (not= "progress" (:kind m)))
+      {:source "kb" :type (str (:source m) "/" (:kind m)) :id (:id m) :text (:title m)})))
+
+(defn- twitch-event [file line]
+  (when-let [m (jline line)]
+    (let [chan (second (re-find #"live-([^/\\]+)\.jsonl$" (str file)))]
+      {:source "twitch" :type "chat" :channel chan :user (:user m) :text (str "#" chan " " (:user m) ": " (:text m))})))
+
+(defn- generic-event [source file line]
+  (let [m (jline line)
+        name (str (some-> (fs/parent file) fs/file-name (str "/")) (fs/file-name file))]
+    (if (map? m)
+      {:source source :type (str (or (:kind m) (:type m) "line")) :file name
+       :text (or (:text m) (:title m) (:message m) (let [s (json/generate-string m)] (subs s 0 (min 400 (count s)))))}
+      {:source source :type "line" :file name :text line})))
+
+(defn tail-sources []
+  (concat
+   [{:source "kb" :files [(str (fs/path root "data" "kb" "raw" "ingest-log.jsonl"))] :event (fn [_ l] (kb-event l))}
+    {:source "twitch" :files (expand (str (fs/path root "data" "kb" "raw" "twitch") "/live-*.jsonl")) :event twitch-event}]
+   (for [g (split-paths (System/getenv "LAB_OSRS_EVENTS"))] {:source "osrs" :files (expand g) :event #(generic-event "osrs" %1 %2)})
+   (for [g (split-paths game-file)] {:source "log" :files (expand g) :event #(generic-event "log" %1 %2)})))
+
+(defonce offsets (atom nil))   ; {path size}; nil until the first scan
+
+(defn- read-new [file from size]
+  (with-open [r (java.io.RandomAccessFile. (str file) "r")]
+    (.seek r from)
+    (let [buf (byte-array (min 200000 (- size from)))]
+      (.readFully r buf)
+      (let [text (String. buf "UTF-8")
+            cut (inc (or (str/last-index-of text "\n") -1))
+            ;; keep a half-written last line for the next poll, unless the chunk holds no newline at all
+            complete (if (or (str/ends-with? text "\n") (zero? cut)) text (subs text 0 cut))]
+        [(+ from (alength (.getBytes ^String complete "UTF-8"))) (str/split-lines complete)]))))
+
+(defn poll-tails! []
+  (let [first? (nil? @offsets)]
+    (when first? (reset! offsets {}))
+    (doseq [{:keys [files event]} (tail-sources)
+            f files :when (fs/regular-file? f)
+            :let [size (fs/size f) seen (get @offsets f)]]
       (cond
-        (< size (:size @tail-state)) (swap! tail-state assoc :size 0)   ; rotated / rewritten
-        (> size (:size @tail-state))
-        (with-open [r (java.io.RandomAccessFile. game-file "r")]
-          (.seek r (:size @tail-state))
-          (let [buf (byte-array (min 20000 (- size (:size @tail-state))))]
-            (.readFully r buf)
-            (swap! tail-state assoc :size size)
-            (doseq [line (->> (str/split-lines (String. buf "UTF-8")) (map str/trim) (remove str/blank?) (take-last 20))]
-              (add-event! {:source "log" :type "line" :text line}))))))))
+        first? (swap! offsets assoc f size)
+        (and seen (< size seen)) (swap! offsets assoc f 0)
+        (> size (or seen 0))
+        (let [[upto lines] (read-new f (or seen 0) size)]
+          (swap! offsets assoc f upto)
+          (doseq [l (->> lines (map str/trim) (remove str/blank?) (take-last tail-max-lines))
+                  :let [ev (event f l)] :when ev]
+            (add-event! ev)))))))
+
+(defn tail-status [] (into {} (for [{:keys [source files]} (tail-sources)] [source (count (filter fs/regular-file? files))])))
+
+;; ------------------------------------------------------------------ live ingester (Twitch chat)
+;; twitch-live.mjs runs beside the bridge unless LAB_TWITCH_LIVE=0. It writes live-<channel>.jsonl,
+;; which the twitch tail above reads.
+(defonce twitch-proc (atom nil))
+(defn start-twitch-live! []
+  (when (and (not= "0" (System/getenv "LAB_TWITCH_LIVE")) (nil? @twitch-proc))
+    (try
+      (reset! twitch-proc (p/process ["node" "scripts/ingest/twitch-live.mjs"] {:dir root :out :inherit :err :inherit}))
+      (add-event! {:source "twitch" :type "started" :text "Twitch live chat monitor started"})
+      (catch Exception e (add-event! {:source "twitch" :type "failed" :text (str "Twitch live chat monitor did not start: " (.getMessage e))})))))
+(defn stop-twitch-live! [] (when-let [pr @twitch-proc] (p/destroy-tree pr) (reset! twitch-proc nil)))
 
 ;; ------------------------------------------------------------------ live reload
 (defonce mtimes (atom {}))
 (defn scan-files []
   (into {} (for [d ["index.html" "hardcore-run.html" "css" "js" "data"]
                  f (if (fs/directory? (fs/path root d)) (fs/glob (fs/path root d) "**") [(fs/path root d)])
-                 :when (fs/regular-file? f)]
-             [(str (fs/relativize root f)) (.toMillis (fs/last-modified-time f))])))
+                 :let [rel (str/replace (str (fs/relativize root f)) "\\" "/")]
+                 ;; data/kb/raw is appended to live (ingest log, Twitch chat); it feeds the panel, not a reload
+                 :when (and (fs/regular-file? f) (not (str/starts-with? rel "data/kb/raw/")))]
+             [rel (.toMillis (fs/last-modified-time f))])))
 (defn poll-reload! []
   (let [cur (scan-files) old @mtimes]
     (reset! mtimes cur)
     (when (seq old)
-      (let [changed (for [[k v] cur :when (not= v (get old k))] (str/replace k "\\" "/"))]
+      (let [changed (for [[k v] cur :when (not= v (get old k))] k)]
         (when (seq changed) (broadcast! {:type "reload" :files changed}))))))
 
 ;; ------------------------------------------------------------------ Claude Code
@@ -216,7 +297,8 @@ Use the live context below to answer questions about the game, splits and practi
 (defn handler [{:keys [uri request-method] :as req}]
   (case [request-method uri]
     [:get "/api/status"] (json-res {:bridge true :claude (select-keys @claude [:busy :session]) :game (select-keys @game [:connected :at])
-                                    :gameFile game-file :feed (count @feed) :repl 1667 :gameReplPort game-repl-port})
+                                    :gameFile game-file :feed (count @feed) :repl 1667 :gameReplPort game-repl-port
+                                    :tails (tail-status) :twitchLive (boolean (some-> @twitch-proc p/alive?))})
     [:get "/api/feed"] (json-res {:events (take-last 100 @feed) :snapshot (:snapshot @game)})
     [:post "/api/feed"] (json-res (add-event! (merge {:source "app"} (body-json req))))
     [:post "/api/claude"] (json-res {:started (boolean (run-claude! (body-json req))) :busy (:busy @claude)})
@@ -239,10 +321,12 @@ Use the live context below to answer questions about the game, splits and practi
   (reset! mtimes (scan-files))
   (every 700 poll-reload!)
   (every 3000 poll-game!)
-  (every 1000 poll-game-file!)
+  (every 1000 poll-tails!)
+  (start-twitch-live!)
+  (.addShutdownHook (Runtime/getRuntime) (Thread. ^Runnable stop-twitch-live!))
   (every 20000 #(broadcast! {:type "ping"}))
   (println (str "Raid Lab bridge → http://localhost:" port "  (bridge REPL: localhost:1667, game REPL: " game-repl-port
-                (when game-file (str ", tailing " game-file)) ")"))
+                ", live tails: " (pr-str (tail-status)) ")"))
   @(promise))
 
 (-main)
