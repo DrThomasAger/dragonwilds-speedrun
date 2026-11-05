@@ -1,6 +1,6 @@
 // Blog — the Beat 6:50 Ghost series inside the app. Reads content/blog/ghost-import.json
 // (the same file Ghost imports), lists the posts by pillar, and sets each post in the
-// Blog Template (css/blog-template.css, scoped .bt) on Aero glass (css/blog-aero.css).
+// Blog Template (aero/blog-template.css, scoped .bt) on Aero glass (aero/aero-blog.css).
 // Links between posts stay inside the app; every post also links to its Ghost URL.
 import { h, fill } from '../lib/util.js';
 

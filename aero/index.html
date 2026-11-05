@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aero Specimen</title>
+<meta name="description" content="Every piece of the Aero kit on one page: wallpaper, glass, depth, controls, text, the Blog Template on glass, and the sea with its dolphins.">
+<meta name="theme-color" content="#3ea6f2">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,0..100;1,9..144,300..700,0..100&family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&display=swap">
+<link rel="stylesheet" href="aero.css">
+<link rel="stylesheet" href="blog-template.css">
+<link rel="stylesheet" href="aero-blog.css">
+<style>
+  /* the specimen's own layout, nothing more */
+  html { background: #57b8f5; }
+  body { margin: 0; }
+  main { max-width: 980px; margin: 0 auto; padding: 28px 16px 40vh; display: grid; gap: 22px; perspective: 1400px; }
+  h1.big { font-size: clamp(36px, 8vw, 64px); margin: 8px 0 0; line-height: 1.05; }
+  .lead { margin: 6px 0 0; font-size: 17px; text-shadow: var(--aero-text-glow); color: #12395e; }
+  section.aero-window { padding: 0 18px 18px; }
+  section.aero-window > h2.aero-caption { margin: 0 -18px 14px; padding: 10px 18px; font-size: 18px; }
+  .row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+  .aero-pane { padding: 12px 14px; }
+  code { font: 13px ui-monospace, Consolas, monospace; background: rgba(255,255,255,.6); padding: 1px 6px; border-radius: 6px; }
+  .num { font-size: 52px; line-height: 1; }
+  .note { font-size: 13.5px; color: var(--aero-ink-2); margin: 8px 0 0; }
+  @media (max-width: 600px) { section.aero-window { padding: 0 14px 14px; } section.aero-window > h2.aero-caption { margin: 0 -14px 12px; padding: 10px 14px; } }
+</style>
+</head>
+<body class="aero-page">
+<main>
+  <header>
+    <h1 class="big aero-sky-text">Aero</h1>
+    <p class="lead">Frutiger Aero for any website: one style sheet, one script. Every piece below is a class from <code>aero.css</code>; the sea and the tilt come from <code>aero.js</code>. README.md beside this page says how to use them.</p>
+  </header>
+
+  <section class="aero-window aero-slab aero-tilt">
+    <h2 class="aero-caption">Glass and depth</h2>
+    <div class="grid">
+      <div class="aero-pane aero-float"><b>.aero-window</b><p class="note">Thin Vista glass with a tint, a dark outer and white inner edge, and a diagonal reflection. This section is one.</p></div>
+      <div class="aero-pane aero-float"><b>.aero-slab</b><p class="note">Adds a visible edge thickness and a long floating shadow.</p></div>
+      <div class="aero-pane aero-float"><b>.aero-pane .aero-float</b><p class="note">Lighter glass raised off the slab it sits on.</p></div>
+      <div class="aero-glass" style="padding:12px 14px"><b>.aero-glass</b><p class="note">Frosted glass with a gloss over its upper half, for dense text.</p></div>
+    </div>
+    <p class="note"><b>.aero-tilt</b>: put a finger or the mouse on this window and it leans toward it.</p>
+  </section>
+
+  <section class="aero-window aero-slab aero-tilt">
+    <h2 class="aero-caption">Controls</h2>
+    <div class="row">
+      <button class="aero-btn">Capsule</button>
+      <button class="aero-btn aqua">Aqua</button>
+      <button class="aero-btn leaf">Leaf</button>
+      <button class="aero-btn sun">Sun</button>
+      <button class="aero-btn berry">Berry</button>
+      <button class="aero-btn aqua aero-candy">Candy, press me</button>
+      <button class="aero-orb" aria-label="Orb">✦</button>
+    </div>
+    <div class="row" style="margin-top:14px">
+      <span class="aero-chip">chip</span>
+      <input class="aero-input" placeholder="Input">
+      <label class="row" style="gap:6px"><input type="checkbox" class="aero-check" checked> Check</label>
+      <div class="aero-bar" style="flex:1;min-width:140px"><i style="width:64%"></i></div>
+    </div>
+    <div class="aero-callout" style="margin-top:14px">An <b>.aero-callout</b> for a line that needs to stand out.</div>
+  </section>
+
+  <section class="aero-window aero-slab aero-tilt">
+    <h2 class="aero-caption">Text</h2>
+    <div class="grid">
+      <div class="aero-pane"><div class="num aero-bubble-text">6:50.00</div><p class="note">.aero-bubble-text</p></div>
+      <div class="aero-pane"><div class="num aero-gradient-text" style="font-weight:700">Glass</div><p class="note">.aero-gradient-text</p></div>
+      <div class="aero-pane" style="background:linear-gradient(#3ea6f2,#8fd2ff)"><div class="num aero-sky-text" style="font-weight:700">Sky</div><p class="note" style="color:#fff">.aero-sky-text</p></div>
+      <div class="aero-pane" style="background:linear-gradient(#3ea6f2,#8fd2ff)"><div class="num aero-extrude" style="font-weight:700">Lift</div><p class="note" style="color:#fff">.aero-extrude</p></div>
+    </div>
+    <p class="note aero-glow-text">.aero-glow-text puts a white glow behind dark text on glass. The type is <code>--aero-font</code>: Frutiger, then Avenir Next and Avenir, then Segoe UI, then Hind.</p>
+  </section>
+
+  <section class="aero-window aero-slab" style="padding:clamp(18px,4vw,44px)">
+    <article class="bt">
+      <p class="kicker">The Blog Template on glass</p>
+      <h1>What is a glass slab?</h1>
+      <p class="lede">A post set in the Blog Template from drthomasager.com, with its paper turned into Aero glass by <code>aero-blog.css</code>.</p>
+      <div class="byline"><span class="who">Dr. Thomas Ager</span><span class="dot"></span><span>1 min read</span></div>
+      <p>The template keeps its own <strong>proportions</strong>, its φ type scale and its reading serif. Only the surfaces it sits on change.</p>
+      <h2>What changes?</h2>
+      <table><thead><tr><th>Template</th><th>On Aero</th></tr></thead><tbody><tr><td>paper</td><td>glass</td></tr><tr><td>sans</td><td>the Aero font</td></tr><tr><td>headings</td><td>the Aero gradient</td></tr></tbody></table>
+      <blockquote>A quote sits on a pane of its own.</blockquote>
+    </article>
+  </section>
+</main>
+<script type="module">
+  import { initAero3D } from './aero.js';
+  initAero3D({ tilt: '.aero-tilt', max: 5, dolphins: matchMedia('(max-width: 719px)').matches ? 3 : 6 });
+</script>
+</body>
+</html>

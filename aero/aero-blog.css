@@ -1,0 +1,29 @@
+/* The Blog Template (aero/blog-template.css, generated from DrThomasAger/drthomasager.com)
+   laid onto Aero glass. The template keeps its own proportions, blocks and reading
+   serif (Newsreader, with Fraunces for display). Its paper and surfaces become glass,
+   its sans becomes the Aero font, and its headings take the Aero gradient. A site's
+   own table and heading rules are undone inside a post. Load after aero.css and
+   blog-template.css; put a post inside <article class="bt">. */
+.bt {
+  --paper: transparent; --surface: rgba(255, 255, 255, .5); --rule: rgba(20, 100, 160, .2);
+  --ink: var(--aero-ink, #0b2a4a); --ink-2: var(--aero-ink-2, #36597a);
+  --accent: #0a6fc2; --accent-soft: rgba(111, 216, 255, .28);
+  --hue-1: #0a6fc2; --hue-1-soft: rgba(214, 238, 255, .7);
+  --hue-2: #c0344f; --hue-2-soft: rgba(255, 226, 232, .7);
+  --hue-3: #6a4fb3; --hue-3-soft: rgba(236, 228, 255, .7);
+  --hue-4: #23862f; --hue-4-soft: rgba(222, 250, 214, .7);
+  --sans: var(--aero-font);
+  font: 400 var(--s1)/1.5 var(--serif); color: var(--ink);
+  font-optical-sizing: auto; font-kerning: normal; font-feature-settings: "kern", "liga", "onum";
+  max-width: var(--measure); margin: 0 auto;
+}
+.bt h1, .bt h2, .bt h3 { color: var(--ink); text-shadow: var(--aero-text-glow, none); text-transform: none; }
+.bt th { text-transform: none; letter-spacing: 0; color: var(--ink); font-size: inherit; background: none; }
+.bt td, .bt th { font-size: inherit; vertical-align: top; }
+.bt table { display: block; overflow-x: auto; }
+.bt blockquote { margin: var(--sp3) 0; padding: var(--sp1) var(--sp2); border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 12px 12px 0; font-style: italic; }
+.bt ul, .bt ol { padding-left: 1.3em; margin: 0 0 var(--sp2); }
+.bt li { margin: 0 0 6px; }
+.bt a { color: var(--accent); }
+.bt h1, .bt h2 { -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; text-shadow: none; background-image: var(--aero-text-deep); filter: drop-shadow(0 1px 0 #fff) drop-shadow(0 3px 4px rgba(0, 50, 100, .3)); padding-bottom: .08em; }
+.bt .kicker { -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; background-image: var(--aero-text-deep); }

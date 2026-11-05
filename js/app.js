@@ -7,7 +7,7 @@ import { initPWA } from './lib/pwa.js';
 import { initPalette } from './lib/palette.js';
 import { initBridge } from './lib/bridge.js';
 import * as voice from './lib/speak.js';
-import { initAero3D } from './lib/aero3d.js';
+import { initAero3D } from '../aero/aero.js';
 
 const views = {
   start: () => import('./views/start.js'),
