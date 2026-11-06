@@ -1,31 +1,42 @@
 // Shared helpers for the Agent Observatory (scripts/agents/*).
-// All outputs go to data/kb/agents (D:). Sources are only ever read.
+// Writes to D: whenever D: exists (never C: on multi-drive PCs), with clean fallback on single-drive PCs.
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+export function exists(p) { try { fs.accessSync(p); return true; } catch { return false; } }
+
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
+export const HAS_D = exists('D:\\');
+export const TEMP_ROOT = process.env.SMILE_TEMP || (HAS_D ? 'D:\\claude-temp' : path.join(ROOT, '.tmp'));
 export const OUT = path.join(ROOT, 'data', 'kb', 'agents');
 export const CONV_DIR = path.join(OUT, 'conversations');
-export const SCRATCH = 'D:\\claude-temp\\agents';
-export const HOME = process.env.USERPROFILE || 'C:\\Users\\Hanjo';
+export const SCRATCH = path.join(TEMP_ROOT, 'agents');
+export const HOME = process.env.USERPROFILE || process.env.HOME || 'C:\\Users\\Hanjo';
 export const TEXT_MAX = 4000;
 
 export function ensureDirs() {
   for (const d of [OUT, CONV_DIR, SCRATCH]) fs.mkdirSync(d, { recursive: true });
 }
 
-// Refuse to write anywhere except D:.
+// On machines with D:, refuse to write anywhere outside D:. On single-drive machines, restrict to ROOT or TEMP_ROOT.
 function guard(p) {
   const abs = path.resolve(p);
-  if (!/^d:/i.test(abs)) throw new Error(`refusing to write outside D: -> ${abs}`);
+  if (HAS_D) {
+    if (!/^d:/i.test(abs)) throw new Error(`refusing to write outside D: -> ${abs}`);
+    return abs;
+  }
+  const allowed = [path.resolve(ROOT).toLowerCase(), path.resolve(TEMP_ROOT).toLowerCase()];
+  if (!allowed.some(base => abs.toLowerCase().startsWith(base))) {
+    throw new Error(`refusing to write outside workspace/temp -> ${abs}`);
+  }
   return abs;
 }
+
 export function writeJSON(p, obj, pretty = false) {
   fs.writeFileSync(guard(p), pretty ? JSON.stringify(obj, null, 1) : JSON.stringify(obj));
 }
 export function readJSON(p) { return JSON.parse(fs.readFileSync(p, 'utf8')); }
-export function exists(p) { try { fs.accessSync(p); return true; } catch { return false; } }
 
 export function trunc(s, n = TEXT_MAX) {
   if (s == null) return '';
@@ -41,9 +52,6 @@ export function iso(t) {
 
 // Normalised conversation shape:
 // {source, model, id, title, started, ended, project, turns:[{role,t,text}], ...extra}
-// roles: user (the human), assistant (the AI), tool (AI tool call, summarised),
-//        tool_error (a failed tool result), agent (an AI prompting another AI),
-//        system (harness / notification / meta)
 export function saveConversation(conv) {
   const turns = conv.turns.filter(t => t.text && String(t.text).trim());
   turns.sort((a, b) => (a.t && b.t ? (a.t < b.t ? -1 : a.t > b.t ? 1 : 0) : 0));

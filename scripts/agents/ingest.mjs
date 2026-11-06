@@ -1,6 +1,6 @@
 // Agent Observatory ingest: find every AI/agent conversation, normalise it, write
-// data/kb/agents/conversations/<source>-<id>.json + index.json + sources.json + memory.json.
-// Read-only on all sources. Usage: node scripts/agents/ingest.mjs [--only=claude,chatgpt,...]
+// data/kb/agents/conversations/<source>-<id>.json + index.json + sources.json + memory.json + harvests.json.
+// Read-only on all sources. Usage: node scripts/agents/ingest.mjs [--only=claude,harvests,chatgpt,...]
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
@@ -20,18 +20,23 @@ const prevIndex = only.length && exists(indexPath) ? readJSON(indexPath).convers
 const prevSources = only.length && exists(sourcesPath) ? readJSON(sourcesPath).sources : [];
 const index = [];
 const sources = [];
+const globalClaudeSessionIds = new Set();
 const log = (...a) => console.log('[ingest]', ...a);
 
-const CLAUDE = path.join(HOME, '.claude');
-const PROJECTS = path.join(CLAUDE, 'projects');
+const CLAUDE_ROOTS = [
+  path.join(HOME, '.claude'),
+  'D:\\projects\\dot-claude',
+  'D:\\labyrinth\\Exports\\claude-code-projects',
+];
 
 function ls(dir) { try { return fs.readdirSync(dir, { withFileTypes: true }); } catch { return []; } }
 function readLines(f) {
+  if (!exists(f)) return [];
   return fs.readFileSync(f, 'utf8').split('\n').filter(Boolean).map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
 }
 function projectFromDir(d) { return d.replace(/^([A-Z])--/, '$1:\\').replace(/-/g, '\\'); }
 
-// ---------------------------------------------------------------- Claude Code
+// ---------------------------------------------------------------- Claude Code (local ~/.claude + dot-claude repo)
 function toolSummary(p) {
   const i = p.input || {};
   const s = i.description || i.command || i.file_path || i.pattern || i.query || i.url || i.prompt || i.skill || JSON.stringify(i);
@@ -45,7 +50,7 @@ function classifyUserText(x, meta) {
   if (s.startsWith('Caveat:')) return 'system';
   return 'user';
 }
-function parseClaudeFile(file, { subagent = false, parent = null, project }) {
+function parseClaudeFile(file, { subagent = false, parent = null, project, originRoot = null }) {
   const rows = readLines(file);
   const turns = [];
   const models = {};
@@ -112,6 +117,7 @@ function parseClaudeFile(file, { subagent = false, parent = null, project }) {
     turns,
     extra: {
       models, tools,
+      ...(originRoot ? { originRoot } : {}),
       ...(parent ? { parent } : {}),
       ...(subagent ? { agentType: meta.agentType || null, spawnDepth: meta.spawnDepth ?? null } : {}),
       ...(firstUser && /^You are the Raid Lab/.test(firstUser.text) ? { automated: true } : {}),
@@ -120,44 +126,76 @@ function parseClaudeFile(file, { subagent = false, parent = null, project }) {
 }
 
 function ingestClaude() {
-  let main = 0, sub = 0;
-  const sessionIds = new Set();
-  for (const d of ls(PROJECTS)) {
-    if (!d.isDirectory()) continue;
-    const dir = path.join(PROJECTS, d.name);
-    const project = projectFromDir(d.name);
-    for (const f of ls(dir)) {
-      if (f.isFile() && f.name.endsWith('.jsonl')) {
-        const conv = parseClaudeFile(path.join(dir, f.name), { project });
-        sessionIds.add(conv.id);
-        if (conv.turns.length) { index.push(saveConversation(conv)); main++; }
-      } else if (f.isDirectory()) {
-        const sdir = path.join(dir, f.name, 'subagents');
-        for (const s of ls(sdir)) {
-          if (!s.name.endsWith('.jsonl')) continue;
-          const conv = parseClaudeFile(path.join(sdir, s.name), { subagent: true, parent: `claude-code-${f.name}`, project });
-          if (conv.turns.length) { index.push(saveConversation(conv)); sub++; }
+  const bestMain = new Map();
+  const bestSub = new Map();
+  const activeRoots = CLAUDE_ROOTS.filter(exists);
+
+  for (const root of activeRoots) {
+    const pdir = exists(path.join(root, 'projects')) ? path.join(root, 'projects') : root;
+    for (const d of ls(pdir)) {
+      if (!d.isDirectory()) continue;
+      const dir = path.join(pdir, d.name);
+      const project = projectFromDir(d.name);
+      for (const f of ls(dir)) {
+        if (f.isFile() && f.name.endsWith('.jsonl')) {
+          const conv = parseClaudeFile(path.join(dir, f.name), { project, originRoot: root });
+          globalClaudeSessionIds.add(conv.id);
+          if (conv.turns.length) {
+            const prev = bestMain.get(conv.id);
+            if (!prev || conv.turns.length > prev.turns.length) bestMain.set(conv.id, conv);
+          }
+        } else if (f.isDirectory()) {
+          const sdir = path.join(dir, f.name, 'subagents');
+          for (const s of ls(sdir)) {
+            if (!s.name.endsWith('.jsonl')) continue;
+            const conv = parseClaudeFile(path.join(sdir, s.name), { subagent: true, parent: `claude-code-${f.name}`, project, originRoot: root });
+            const key = `${f.name}-${conv.id}`;
+            if (conv.turns.length) {
+              const prev = bestSub.get(key);
+              if (!prev || conv.turns.length > prev.turns.length) bestSub.set(key, { ...conv, id: key });
+            }
+          }
         }
       }
     }
   }
-  sources.push({ source: 'claude-code', location: PROJECTS, status: 'ingested', conversations: main });
-  sources.push({ source: 'claude-code-subagent', location: `${PROJECTS}\\*\\<session>\\subagents`, status: 'ingested', conversations: sub });
-  log('claude-code', main, 'sessions;', sub, 'subagents');
+  for (const conv of bestMain.values()) index.push(saveConversation(conv));
+  for (const conv of bestSub.values()) index.push(saveConversation(conv));
+  sources.push({ source: 'claude-code', location: activeRoots.map(r => path.join(r, 'projects')).join(' | '), status: 'ingested', conversations: bestMain.size });
+  sources.push({ source: 'claude-code-subagent', location: activeRoots.map(r => `${r}\\projects\\*\\<session>\\subagents`).join(' | '), status: 'ingested', conversations: bestSub.size });
+  log('claude-code', bestMain.size, 'sessions;', bestSub.size, 'subagents');
 
-  // Prompt history: sessions whose transcript no longer exists become user-only conversations.
-  const hist = path.join(CLAUDE, 'history.jsonl');
+  // Also check which session IDs exist in Instance Harvest so prompt-only history doesn't duplicate full harvested dialogues.
+  const harvestDir = 'D:\\projects\\Smile-Prompt-Language\\Instance Harvest\\harvests';
+  const harvestSessionIds = new Set();
+  for (const d of ls(harvestDir)) {
+    if (!d.isDirectory()) continue;
+    const sj = path.join(harvestDir, d.name, 'source.json');
+    if (exists(sj)) {
+      try { const s = readJSON(sj); if (s.session_id) harvestSessionIds.add(s.session_id); } catch {}
+    }
+  }
+
+  // Prompt history across all roots: sessions whose transcript & harvest no longer exist become user-only conversations.
   const bySession = new Map();
   let prompts = 0;
-  for (const e of readLines(hist)) {
-    prompts++;
-    const sid = e.sessionId || `nosession-${e.project}`;
-    if (!bySession.has(sid)) bySession.set(sid, { project: e.project, rows: [] });
-    bySession.get(sid).rows.push(e);
+  const seenPromptKey = new Set();
+  const histPaths = activeRoots.map(r => path.join(r, 'history.jsonl')).filter(exists);
+  for (const hist of histPaths) {
+    for (const e of readLines(hist)) {
+      const pkey = `${e.sessionId || ''}|${e.timestamp || ''}|${(e.display || '').slice(0, 120)}`;
+      if (seenPromptKey.has(pkey)) continue;
+      seenPromptKey.add(pkey);
+      prompts++;
+      const sid = e.sessionId || `nosession-${e.project}`;
+      if (!bySession.has(sid)) bySession.set(sid, { project: e.project, rows: [] });
+      bySession.get(sid).rows.push(e);
+    }
   }
   let hconv = 0;
   for (const [sid, { project, rows }] of bySession) {
-    if (sessionIds.has(sid)) continue;
+    if (globalClaudeSessionIds.has(sid) || harvestSessionIds.has(sid)) continue;
+    rows.sort((a, b) => (a.timestamp || 0) - (b.timestamp || 0));
     const turns = rows.map(e => ({ role: 'user', t: iso(e.timestamp), text: e.display || '' }));
     const conv = {
       source: 'claude-code-history', model: 'claude (transcript not retained)', id: sid, project,
@@ -165,34 +203,189 @@ function ingestClaude() {
     };
     index.push(saveConversation(conv)); hconv++;
   }
-  sources.push({ source: 'claude-code-history', location: hist, status: 'ingested', conversations: hconv, prompts, sessions: bySession.size,
-    note: 'Prompt history only (no AI replies). Sessions that still have a transcript are skipped here to avoid duplicates.' });
+  sources.push({ source: 'claude-code-history', location: histPaths.join(' | '), status: 'ingested', conversations: hconv, prompts, sessions: bySession.size,
+    note: 'Prompt history only (no AI replies). Sessions that already have a full transcript or Instance Harvest dialogue are skipped here to avoid duplicates.' });
   log('claude-code-history', hconv, 'sessions without transcript,', prompts, 'prompts');
 
-  // Memory folders: what the agents were told to remember (standing instructions).
+  // Memory folders + CLAUDE.md + custom-prompt.md + commands: what the agents were told to remember (standing instructions).
   const memory = [];
-  for (const d of ls(PROJECTS)) {
-    const mdir = path.join(PROJECTS, d.name, 'memory');
-    for (const f of ls(mdir)) {
+  const seenMem = new Set();
+  for (const root of activeRoots) {
+    const pdir = path.join(root, 'projects');
+    for (const d of ls(pdir)) {
+      const mdir = path.join(pdir, d.name, 'memory');
+      for (const f of ls(mdir)) {
+        if (!f.name.endsWith('.md')) continue;
+        const fp = path.join(mdir, f.name);
+        const txt = fs.readFileSync(fp, 'utf8');
+        const key = `${d.name}/${f.name}/${txt.length}`;
+        if (seenMem.has(key)) continue;
+        seenMem.add(key);
+        const fm = txt.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+        const get = k => fm?.[1].match(new RegExp(`^\\s*${k}:\\s*"?(.*?)"?\\s*$`, 'm'))?.[1] || null;
+        memory.push({ project: projectFromDir(d.name), file: f.name, origin: root, name: get('name'), description: get('description'),
+          type: get('type') || 'project-memory', modified: get('modified'), body: trunc(txt.replace(/^---[\s\S]*?---\r?\n/, ''), 4000) });
+      }
+    }
+    for (const topFile of ['CLAUDE.md', 'custom-prompt.md']) {
+      const fp = path.join(root, topFile);
+      if (exists(fp)) {
+        const txt = fs.readFileSync(fp, 'utf8');
+        memory.push({ project: 'global', file: topFile, origin: root, name: topFile, description: `Global ${topFile} from ${root}`, type: 'global-instructions', body: trunc(txt, 6000) });
+      }
+    }
+    const cdir = path.join(root, 'commands');
+    for (const f of ls(cdir)) {
       if (!f.name.endsWith('.md')) continue;
-      const txt = fs.readFileSync(path.join(mdir, f.name), 'utf8');
-      const fm = txt.match(/^---\n([\s\S]*?)\n---/);
-      const get = k => fm?.[1].match(new RegExp(`^\\s*${k}:\\s*"?(.*?)"?\\s*$`, 'm'))?.[1] || null;
-      memory.push({ project: projectFromDir(d.name), file: f.name, name: get('name'), description: get('description'),
-        type: get('type'), modified: get('modified'), body: trunc(txt.replace(/^---[\s\S]*?---\n/, ''), 4000) });
+      const txt = fs.readFileSync(path.join(cdir, f.name), 'utf8');
+      memory.push({ project: 'global-commands', file: f.name, origin: root, name: `/${path.basename(f.name, '.md')}`, description: 'Claude slash command', type: 'command', body: trunc(txt, 4000) });
     }
   }
   writeJSON(path.join(OUT, 'memory.json'), { generated: new Date().toISOString(), count: memory.length, memory }, true);
-  sources.push({ source: 'claude-code-memory', location: `${PROJECTS}\\*\\memory`, status: 'ingested', files: memory.length,
-    note: 'Saved to memory.json (standing instructions, not conversations).' });
+  sources.push({ source: 'claude-code-memory', location: activeRoots.join(' | '), status: 'ingested', files: memory.length,
+    note: 'Saved to memory.json (standing instructions, CLAUDE.md, custom-prompt.md, and slash commands).' });
+}
+
+// ---------------------------------------------------------------- Instance Harvest (449 harvested Claude Code chats)
+function parseHarvestDialogue(dialogueFile, statementsFile) {
+  const stmts = new Map();
+  for (const s of readLines(statementsFile)) {
+    if (s.number != null) stmts.set(Number(s.number), s);
+  }
+  if (!exists(dialogueFile)) {
+    return [...stmts.values()].map(s => ({ role: 'user', t: iso(s.timestamp), text: s.words || '' }));
+  }
+  const raw = fs.readFileSync(dialogueFile, 'utf8');
+  const parts = raw.split(/\r?\n## Statement (\d+) \(([^,)]+),\s*([^)]+)\)\r?\n/);
+  // parts[0] is header, then [num, kind, ts, body, num, kind, ts, body, ...]
+  const turns = [];
+  for (let i = 1; i < parts.length; i += 4) {
+    const num = Number(parts[i]);
+    const ts = iso(parts[i + 2]?.trim()) || iso(stmts.get(num)?.timestamp);
+    const body = parts[i + 3] || '';
+    const replyMarker = new RegExp(`\\r?\\n### The instance's spoken reply after statement ${num}\\r?\\n`);
+    const [uPart, aPart] = body.split(replyMarker);
+    const uText = (stmts.get(num)?.words ?? uPart ?? '').trim();
+    if (uText) turns.push({ role: 'user', t: ts, text: uText });
+    if (aPart) {
+      const cleanA = aPart.trim();
+      if (cleanA && cleanA !== '(no spoken reply before his next statement)') {
+        turns.push({ role: 'assistant', t: ts, text: cleanA });
+      }
+    }
+  }
+  return turns;
+}
+
+function ingestHarvests() {
+  const root = 'D:\\projects\\Smile-Prompt-Language\\Instance Harvest\\harvests';
+  if (!exists(root)) {
+    sources.push({ source: 'claude-code-harvest', location: root, status: 'not-found', conversations: 0 });
+    return;
+  }
+  let n = 0, skippedDup = 0;
+  const harvestSummaries = [];
+  for (const d of ls(root)) {
+    if (!d.isDirectory()) continue;
+    const dir = path.join(root, d.name);
+    const sjPath = path.join(dir, 'source.json');
+    let meta = {};
+    if (exists(sjPath)) { try { meta = readJSON(sjPath); } catch {} }
+    const sid = meta.session_id || d.name;
+    const hFile = path.join(dir, 'harvest.md');
+    const hText = exists(hFile) ? fs.readFileSync(hFile, 'utf8') : '';
+    if (hText) {
+      harvestSummaries.push({
+        id: sid,
+        label: meta.label || d.name,
+        project: meta.project || null,
+        agentName: meta.agent_name || null,
+        started: iso(meta.started),
+        ended: iso(meta.last_statement),
+        commands: meta.commands_used || [],
+        summary: trunc(hText, 4000),
+      });
+    }
+    // Skip creating a duplicate conversation if raw .jsonl was already ingested
+    if (globalClaudeSessionIds.has(sid)) { skippedDup++; continue; }
+    const turns = parseHarvestDialogue(path.join(dir, 'dialogue.md'), path.join(dir, 'statements.jsonl'));
+    if (!turns.length) continue;
+    const firstUser = turns.find(t => t.role === 'user');
+    index.push(saveConversation({
+      source: 'claude-code-harvest',
+      model: 'claude (instance-harvest)',
+      id: sid,
+      project: meta.project || d.name.split(' ')[0],
+      title: meta.agent_name ? `${meta.agent_name}: ${(firstUser?.text || '').slice(0, 60)}` : (firstUser?.text || d.name).slice(0, 80),
+      started: iso(meta.started),
+      ended: iso(meta.last_statement),
+      turns,
+      extra: {
+        harvestLabel: meta.label || d.name,
+        agentName: meta.agent_name || null,
+        commandsUsed: meta.commands_used || [],
+        hasHarvestReport: Boolean(hText),
+      },
+    }));
+    n++;
+  }
+  writeJSON(path.join(OUT, 'harvests.json'), { generated: new Date().toISOString(), count: harvestSummaries.length, harvests: harvestSummaries }, true);
+  sources.push({
+    source: 'claude-code-harvest',
+    location: root,
+    status: 'ingested',
+    conversations: n,
+    alreadyInRawJsonl: skippedDup,
+    harvestReports: harvestSummaries.length,
+    note: 'Full user+assistant dialogues preserved by Instance Harvest from prior Claude Code sessions, plus harvest reports in harvests.json.',
+  });
+  log('claude-code-harvest', n, 'new dialogues,', skippedDup, 'already in raw jsonl,', harvestSummaries.length, 'harvest reports');
+}
+
+// ---------------------------------------------------------------- Claude.ai web exports (if exported to disk)
+function ingestClaudeWeb() {
+  const roots = ['D:\\labyrinth\\Exports\\claude-ai', 'D:\\Exports\\claude-ai', 'D:\\projects\\data_liberation', 'D:\\projects\\ai-friends'];
+  const files = [...new Set(roots.filter(exists).flatMap(r => findFiles(r, 'conversations.json', 5)))];
+  let n = 0;
+  for (const f of files) {
+    let arr;
+    try { arr = JSON.parse(fs.readFileSync(f, 'utf8')); } catch { continue; }
+    if (!Array.isArray(arr) || !arr.length || !arr[0]?.chat_messages) continue; // distinguish from ChatGPT conversations.json
+    for (const c of arr) {
+      const turns = (c.chat_messages || []).map(m => ({
+        role: m.sender === 'human' ? 'user' : 'assistant',
+        t: iso(m.created_at),
+        text: m.text || (Array.isArray(m.content) ? m.content.map(p => p.text || '').join('\n') : ''),
+      })).filter(t => t.text && t.text.trim());
+      if (!turns.length) continue;
+      index.push(saveConversation({
+        source: 'claude-web',
+        model: 'claude.ai',
+        id: c.uuid || c.id,
+        title: c.name || turns[0]?.text?.slice(0, 80),
+        project: 'claude.ai',
+        started: iso(c.created_at),
+        ended: iso(c.updated_at),
+        turns,
+      }));
+      n++;
+    }
+  }
+  sources.push({
+    source: 'claude-web',
+    location: n ? files.join(' | ') : 'claude.ai account (D:\\labyrinth\\Exports\\claude-ai)',
+    status: n ? 'ingested' : 'needs-user-export',
+    conversations: n,
+    note: n ? undefined : 'claude.ai web/desktop chats live on Anthropic servers until exported via claude.ai -> Settings -> Privacy -> Export data.',
+  });
 }
 
 // ---------------------------------------------------------------- ChatGPT / OpenAI exports
 const OPENAI_ROOTS = [
-  'D:\\labyrinth\\Github\\OpenSophia\\OpenSophia\\data_exports',
-  'D:\\labyrinth\\Github\\OpenAIDataExportTransformer\\exports',
-  'D:\\labyrinth\\SophiaEmergentAGI',
-  'D:\\labyrinth\\Archive',
+  'D:\\projects\\OpenSophia\\OpenSophia\\data_exports',
+  'D:\\projects\\OpenAIDataExportTransformer\\exports',
+  'D:\\projects\\SophiaEmergentAGI',
+  'D:\\projects\\Archive',
   'D:\\Consolidated Exports\\01 ChatGPT exports',
 ];
 const ACCOUNT_BY_HASH = { '29fd9696': 'hanjoyoutaku', '83e8151a': 'crystallizationculture', '92b1f199': 'hanjopurebuddha' };
@@ -237,7 +430,7 @@ function ingestChatGPT() {
   for (const f of byHash.values()) {
     let arr;
     try { arr = JSON.parse(fs.readFileSync(f, 'utf8')); } catch (e) { log('skip', f, e.message); continue; }
-    if (!Array.isArray(arr)) continue;
+    if (!Array.isArray(arr) || (arr[0] && arr[0].chat_messages && !arr[0].mapping)) continue;
     const acct = accountFor(f);
     for (const c of arr) {
       const id = c.id || c.conversation_id; if (!id) continue;
@@ -277,7 +470,6 @@ function ingestChatGPT() {
           turns.push({ role: 'tool', t, text: `${nm}: ${text.slice(0, 300)}`, name: nm });
         } else turns.push({ role: 'assistant', t, text });
       } else if (role === 'tool') {
-        const nm = msg.author?.name || 'tool';
         if (/error|traceback/i.test(text.slice(0, 400)) && msg.content?.content_type === 'execution_output')
           turns.push({ role: 'tool_error', t, text: text.slice(0, 600) });
       } else if (role === 'system' && text.trim() && !md.is_user_system_message) {
@@ -301,6 +493,45 @@ function ingestChatGPT() {
     files: files.length, uniqueFiles: byHash.size, perAccount,
     note: 'Deduplicated by conversation id, keeping the copy with the most message nodes. Newest export on disk is Nov 2023.' });
   log('chatgpt', n, 'unique conversations', perAccount);
+}
+
+// ---------------------------------------------------------------- Smile Chat local receipts
+function ingestSmileReceipts() {
+  const dir = 'D:\\projects\\Smile-Prompt-Language\\Smile Chat\\Chat Receipts';
+  if (!exists(dir)) {
+    sources.push({ source: 'smile-chat', location: dir, status: 'not-found', conversations: 0 });
+    return;
+  }
+  let n = 0;
+  for (const f of ls(dir)) {
+    if (!f.isFile() || !f.name.endsWith('.txt')) continue;
+    const raw = fs.readFileSync(path.join(dir, f.name), 'utf8');
+    const turns = [];
+    const dm = f.name.match(/^(\d{4}-\d{2}-\d{2}) (\d{2})-(\d{2})-(\d{2})\s+(.*)\.txt$/);
+    const ts = dm ? iso(`${dm[1]}T${dm[2]}:${dm[3]}:${dm[4]}Z`) : null;
+    const title = dm ? dm[5] : path.basename(f.name, '.txt');
+    const re = /<\|im_start\|>(system|user|assistant)\r?\n([\s\S]*?)(?:<\|im_end\|>|$)/g;
+    let m;
+    while ((m = re.exec(raw)) !== null) {
+      const role = m[1];
+      const text = m[2].replace(/<think>\s*<\/think>\s*/g, '').trim();
+      if (text) turns.push({ role, t: ts, text });
+    }
+    if (!turns.some(t => t.role === 'user' || t.role === 'assistant')) continue;
+    index.push(saveConversation({
+      source: 'smile-chat',
+      model: 'smile-local-llm',
+      id: path.basename(f.name, '.txt'),
+      title,
+      project: 'Smile Chat',
+      started: ts,
+      ended: ts,
+      turns,
+    }));
+    n++;
+  }
+  sources.push({ source: 'smile-chat', location: dir, status: n ? 'ingested' : 'found-empty', conversations: n });
+  log('smile-chat', n, 'receipts');
 }
 
 // ---------------------------------------------------------------- VS Code Copilot chat
@@ -331,41 +562,83 @@ function ingestCopilot() {
     note: n ? undefined : 'Session files exist but every one has an empty requests[] (Copilot chat opened, never used).' });
 }
 
-// ---------------------------------------------------------------- Antigravity IDE / Gemini CLI / Cursor / LM Studio
-function sqliteKeys(db, like) {
-  // Uses python's sqlite3 in read-only URI mode (no native node module needed).
-  const py = `import sqlite3,sys,json\nc=sqlite3.connect('file:'+sys.argv[1]+'?mode=ro',uri=True)\nprint(json.dumps([[k,len(v or b'')] for k,v in c.execute("select key,value from ItemTable where key like ?",(sys.argv[2],))]))`;
-  try { return JSON.parse(execFileSync('python', ['-I', '-c', py, db, like], { encoding: 'utf8' })); } catch { return null; }
+// ---------------------------------------------------------------- Antigravity IDE & CLI / Gemini CLI / Cursor / LM Studio
+function parseAntigravityTranscript(tfile, convId, surface) {
+  const rows = readLines(tfile);
+  const turns = [];
+  const tools = {};
+  for (const r of rows) {
+    const t = iso(r.created_at);
+    if (r.type === 'USER_INPUT' && typeof r.content === 'string') {
+      const m = r.content.match(/<USER_REQUEST>\r?\n?([\s\S]*?)\r?\n?<\/USER_REQUEST>/);
+      const txt = (m ? m[1] : r.content).trim();
+      if (txt) turns.push({ role: 'user', t, text: txt });
+    } else if (r.type === 'PLANNER_RESPONSE') {
+      if (typeof r.content === 'string' && r.content.trim()) {
+        turns.push({ role: 'assistant', t, text: r.content.trim() });
+      }
+      for (const tc of r.tool_calls || []) {
+        const nm = tc.name || 'tool';
+        tools[nm] = (tools[nm] || 0) + 1;
+        const argStr = JSON.stringify(tc.args || {}).slice(0, 260);
+        turns.push({ role: 'tool', t, text: `${nm}: ${argStr}`, name: nm });
+      }
+    }
+  }
+  if (!turns.length) return null;
+  const firstUser = turns.find(t => t.role === 'user');
+  return {
+    source: surface,
+    model: 'gemini-antigravity',
+    id: convId,
+    title: (firstUser?.text || convId).slice(0, 80),
+    project: surface,
+    turns,
+    extra: { tools },
+  };
 }
+
 function ingestOthers() {
-  // Antigravity
-  const ag = path.join(HOME, 'AppData', 'Roaming', 'Antigravity IDE', 'User');
-  const agGlobal = path.join(ag, 'globalStorage', 'state.vscdb');
-  const agConvDirs = [path.join(HOME, '.gemini', 'antigravity', 'conversations'), path.join(HOME, '.gemini', 'antigravity-ide', 'conversations'), path.join(HOME, '.gemini', 'antigravity', 'brain')];
-  const agFiles = agConvDirs.flatMap(d => ls(d).map(f => path.join(d, f.name)));
-  const keys = exists(agGlobal) ? sqliteKeys(agGlobal, '%') : null;
-  const traj = keys?.find(k => k[0] === 'antigravityUnifiedStateSync.trajectorySummaries');
-  const chatIdx = keys?.find(k => k[0] === 'chat.ChatSessionStore.index');
-  sources.push({ source: 'antigravity', location: `${agGlobal} ; ${agConvDirs.join(' ; ')} ; D:\\Antigravity IDE`,
-    status: agFiles.length || (traj && traj[1] > 0) ? 'found-unparsed' : 'found-empty', conversations: 0,
-    detail: { trajectorySummariesBytes: traj?.[1] ?? null, chatSessionIndexBytes: chatIdx?.[1] ?? null, conversationFiles: agFiles.length },
-    note: 'Installed 2026-11-02; trajectorySummaries is empty and chat.ChatSessionStore.index has no entries, ~/.gemini/antigravity/conversations does not exist: no agent conversations yet. Re-run ingest after using the Agent Manager.' });
+  // Antigravity IDE + Antigravity CLI brain transcripts
+  const agBrainDirs = [
+    { dir: path.join(HOME, '.gemini', 'antigravity', 'brain'), surface: 'antigravity' },
+    { dir: path.join(HOME, '.gemini', 'antigravity-cli', 'brain'), surface: 'antigravity-cli' },
+  ];
+  let agCount = 0;
+  for (const { dir, surface } of agBrainDirs) {
+    for (const d of ls(dir)) {
+      if (!d.isDirectory()) continue;
+      const tf = path.join(dir, d.name, '.system_generated', 'logs', 'transcript_full.jsonl');
+      const tc = path.join(dir, d.name, '.system_generated', 'logs', 'transcript.jsonl');
+      const useFile = exists(tf) ? tf : exists(tc) ? tc : null;
+      if (!useFile) continue;
+      const conv = parseAntigravityTranscript(useFile, d.name, surface);
+      if (conv) { index.push(saveConversation(conv)); agCount++; }
+    }
+  }
+  sources.push({
+    source: 'antigravity',
+    location: agBrainDirs.map(x => x.dir).join(' ; '),
+    status: agCount ? 'ingested' : 'found-empty',
+    conversations: agCount,
+  });
+  log('antigravity', agCount, 'conversations');
+
   // Gemini CLI
-  const gem = path.join(HOME, '.gemini');
-  const gemTmp = path.join(gem, 'tmp');
-  const gemChats = ls(gemTmp).flatMap(d => ls(path.join(gemTmp, d.name, 'chats')).map(f => path.join(gemTmp, d.name, 'chats', f.name)));
+  const gemRoots = [path.join(HOME, '.gemini', 'tmp'), 'D:\\claude-temp\\gemini-tmp', path.join('D:\\claude-temp', '.gemini', 'tmp')];
+  const gemChats = gemRoots.flatMap(gemTmp => ls(gemTmp).flatMap(d => ls(path.join(gemTmp, d.name, 'chats')).map(f => path.join(gemTmp, d.name, 'chats', f.name))));
   let gn = 0;
   for (const f of gemChats) {
     try {
       const j = readJSON(f);
       const turns = (j.messages || []).map(m => ({ role: m.type === 'user' ? 'user' : 'assistant', t: iso(m.timestamp), text: typeof m.content === 'string' ? m.content : JSON.stringify(m.content) }));
-      if (turns.length) { index.push(saveConversation({ source: 'gemini-cli', model: 'gemini', id: j.sessionId || path.basename(f), turns, project: j.projectHash })); gn++; }
+      if (turns.length) { index.push(saveConversation({ source: 'gemini-cli', model: 'gemini', id: j.sessionId || path.basename(f, '.json'), turns, project: j.projectHash })); gn++; }
     } catch {}
   }
-  sources.push({ source: 'gemini-cli', location: `${gem}\\tmp\\*\\chats`, status: gn ? 'ingested' : 'not-found', conversations: gn,
-    note: gn ? undefined : '~/.gemini only holds antigravity-ide migration marker, bin and install.log; Gemini CLI never ran a chat on this machine.' });
+  sources.push({ source: 'gemini-cli', location: gemRoots.join(' | '), status: gn ? 'ingested' : 'ready', conversations: gn,
+    note: gn ? undefined : 'Gemini CLI installed and configured; new sessions under ~/.gemini/tmp/*/chats will be ingested automatically.' });
   sources.push({ source: 'gemini-web', location: 'Google account (gemini.google.com)', status: 'needs-user-export', conversations: 0,
-    note: 'No Takeout / My Activity export on D: and no Gemini chat exports on Drive (Drive "Gemini" folders hold images only). See docs/agents/HOW-TO-EXPORT.md.' });
+    note: 'No Takeout / My Activity export on D: yet. See docs/agents/HOW-TO-EXPORT.md.' });
   // Cursor
   const cur = path.join(HOME, 'AppData', 'Roaming', 'Cursor');
   sources.push({ source: 'cursor', location: cur, status: exists(cur) ? 'found-unparsed' : 'not-found', conversations: 0,
@@ -385,14 +658,11 @@ function ingestOthers() {
       if (turns.length) { index.push(saveConversation({ source: 'lmstudio', model: j.lastUsedModel?.identifier || 'local', id: path.basename(f, '.json'), title: j.name, turns, started: iso(j.createdAt) })); ln++; }
     } catch {}
   }
-  sources.push({ source: 'lmstudio', location: lms.join(' ; '), status: ln ? 'ingested' : 'not-found', conversations: ln,
-    note: ln ? undefined : '~/.lmstudio-home-pointer points at C:\\Users\\Hanjo\\.lmstudio which does not exist; D:\\LMStudio\\LM Studio is empty.' });
+  sources.push({ source: 'lmstudio', location: lms.join(' ; '), status: ln ? 'ingested' : 'not-found', conversations: ln });
   // SillyTavern
-  const st = 'D:\\SillyTavern\\SillyTavern';
-  sources.push({ source: 'sillytavern', location: st, status: 'found-empty', conversations: 0, note: 'public/chats holds only README.md; no data/ folder.' });
+  const st = 'D:\\projects\\SillyTavern';
+  sources.push({ source: 'sillytavern', location: st, status: 'found-empty', conversations: 0 });
   sources.push({ source: 'codex-cli', location: path.join(HOME, '.codex'), status: exists(path.join(HOME, '.codex')) ? 'found-unparsed' : 'not-found', conversations: 0 });
-  sources.push({ source: 'claude-web', location: 'claude.ai account', status: 'needs-user-export', conversations: 0,
-    note: 'claude.ai web/desktop chats are server-side; no export on disk. See HOW-TO-EXPORT.md.' });
   sources.push({ source: 'chatgpt-2024+', location: 'chatgpt.com account', status: 'needs-user-export', conversations: 0,
     note: 'Newest ChatGPT export on disk is Nov 2023. See HOW-TO-EXPORT.md.' });
 }
@@ -433,7 +703,16 @@ function ingestDrive() {
 }
 
 // ---------------------------------------------------------------- run
-const steps = { claude: ingestClaude, chatgpt: ingestChatGPT, copilot: ingestCopilot, others: ingestOthers, drive: ingestDrive };
+const steps = {
+  claude: ingestClaude,
+  harvests: ingestHarvests,
+  claudeweb: ingestClaudeWeb,
+  chatgpt: ingestChatGPT,
+  smile: ingestSmileReceipts,
+  copilot: ingestCopilot,
+  others: ingestOthers,
+  drive: ingestDrive,
+};
 for (const [k, fn] of Object.entries(steps)) if (want(k)) { const t0 = Date.now(); fn(); log(k, 'done in', ((Date.now() - t0) / 1000).toFixed(1), 's'); }
 
 // Merge with previous entries for sources not re-run.
