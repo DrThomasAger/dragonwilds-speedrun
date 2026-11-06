@@ -1,6 +1,6 @@
 # Raid source reviews
 
-95 reviewed · 24 with all five splits measured · generated 2026-11-05T14:57:30.670Z
+95 reviewed · 24 with all five splits measured · generated 2026-11-06T14:36:41.457Z
 
 | Video | Author | Status | Measured | Splits | Anomalies | Candidates | Transcript |
 |---|---|---|---|---|---|---|---|
@@ -143,6 +143,7 @@
 - L-dTDXJyFq0: error — ERROR: [youtube] L-dTDXJyFq0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - LGCddmk_TnM: error — ERROR: [youtube] LGCddmk_TnM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - LeVPNQQ-5dY: error — ERROR: [youtube] LeVPNQQ-5dY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- M2agf-VB6vg: deferred — ERROR: [youtube] M2agf-VB6vg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
 - MUSMU0rpaLw: error — ERROR: [youtube] MUSMU0rpaLw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - MnZ3zQdMlhc: error — ERROR: [youtube] MnZ3zQdMlhc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - O_xZR5Nj97U: error — ERROR: [youtube] O_xZR5Nj97U: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
@@ -154,6 +155,7 @@
 - VlBhicHlfl4: error — ERROR: [youtube] VlBhicHlfl4: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - WDG9aD2oBIc: error — ERROR: [youtube] WDG9aD2oBIc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - WYqKsXTuqEc: error — ERROR: [youtube] WYqKsXTuqEc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- WszLkzU2K4U: deferred — ERROR: [youtube] WszLkzU2K4U: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
 - WvXjQC9tB50: error — ERROR: [youtube] WvXjQC9tB50: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - YNyqVxxeTtM: error — ERROR: [youtube] YNyqVxxeTtM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - YYNO7WNXDcA: error — ERROR: [youtube] YYNO7WNXDcA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))

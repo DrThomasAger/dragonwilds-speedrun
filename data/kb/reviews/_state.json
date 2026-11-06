@@ -1217,10 +1217,10 @@
    "transcriptRetry": true,
    "transcriptAttempts": 1,
    "title": "RuneScape: Dragonwilds Kuldra Solo",
-   "deferredAt": "2026-11-05T14:57:28.948Z",
+   "deferredAt": "2026-11-06T14:36:41.285Z",
    "lastError": "ERROR: [youtube] wvmXHt_gcws: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "botBlocks": 2,
-   "retryAfter": "2026-11-05T16:27:28.948Z"
+   "botBlocks": 3,
+   "retryAfter": "2026-11-06T17:36:41.285Z"
   },
   "_HjxuyYWoHQ": {
    "status": "error",
@@ -1471,11 +1471,11 @@
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "deferredAt": "2026-11-05T14:57:28.989Z",
+   "deferredAt": "2026-11-06T14:36:39.699Z",
    "lastError": "ERROR: [youtube] pOhcjk1BAhM: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
    "title": "Dragonwilds Raid Run! First Ever Attempt!",
-   "botBlocks": 2,
-   "retryAfter": "2026-11-05T16:27:28.989Z"
+   "botBlocks": 3,
+   "retryAfter": "2026-11-06T17:36:39.699Z"
   },
   "APwjC7fgnpg": {
    "status": "deferred",
@@ -1496,6 +1496,26 @@
    "deferredAt": "2026-11-05T14:57:30.500Z",
    "lastError": "ERROR: [youtube] xv55VjOI9ws: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
    "title": "ISLAND HOPPING // BROKEN 6:58 UNPATCHED KULDRA SPEEDRUN"
+  },
+  "M2agf-VB6vg": {
+   "status": "deferred",
+   "level": "light",
+   "attempts": 0,
+   "botBlocks": 1,
+   "retryAfter": "2026-11-06T15:21:39.726Z",
+   "deferredAt": "2026-11-06T14:36:39.726Z",
+   "lastError": "ERROR: [youtube] M2agf-VB6vg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "title": "13min KULDRA SOLO RUN!"
+  },
+  "WszLkzU2K4U": {
+   "status": "deferred",
+   "level": "light",
+   "attempts": 0,
+   "botBlocks": 1,
+   "retryAfter": "2026-11-06T15:21:41.413Z",
+   "deferredAt": "2026-11-06T14:36:41.413Z",
+   "lastError": "ERROR: [youtube] WszLkzU2K4U: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "title": "RuneScape: Dragonwilds 12:30 Kuldra Run"
   }
  }
 }

@@ -1,0 +1,12 @@
+{
+ "id": "M2agf-VB6vg",
+ "url": "https://www.youtube.com/watch?v=M2agf-VB6vg",
+ "reviewedAt": "2026-11-06T14:36:37.997Z",
+ "pipelineVersion": 1,
+ "level": "light",
+ "status": "deferred",
+ "error": "ERROR: [youtube] M2agf-VB6vg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git",
+ "rateLimited": true,
+ "botBlock": true,
+ "title": "13min KULDRA SOLO RUN!"
+}
