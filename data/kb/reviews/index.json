@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-06T14:36:41.457Z",
- "count": 198,
+ "generatedAt": "2026-11-07T13:32:04.473Z",
+ "count": 200,
  "ok": 95,
  "complete": 24,
  "rows": [
@@ -1935,7 +1935,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-06T14:36:37.997Z",
+   "reviewedAt": "2026-11-07T13:32:02.084Z",
    "error": "ERROR: [youtube] M2agf-VB6vg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
@@ -2642,6 +2642,25 @@
    "error": "ERROR: [youtube] aySOue59SHI: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))"
   },
   {
+   "id": "b97w7z05QnA",
+   "title": "Runescape Dragonwilds - Kuldra speedrun",
+   "author": null,
+   "status": "deferred",
+   "runStatus": null,
+   "rank": null,
+   "level": "light",
+   "duration": null,
+   "statedTime": null,
+   "splits": [],
+   "complete": false,
+   "transcript": null,
+   "anomalies": 0,
+   "candidates": 0,
+   "commentary": 0,
+   "reviewedAt": "2026-11-07T13:31:59.897Z",
+   "error": "ERROR: [youtube] b97w7z05QnA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
+  },
+  {
    "id": "bFOWvp4ZkPA",
    "title": "How to Defeat Kuldra – Final Boss Guide | RuneScape: Dragonwilds",
    "author": null,
@@ -2735,6 +2754,25 @@
    "commentary": 0,
    "reviewedAt": "2026-11-03T21:47:48.918Z",
    "error": "ERROR: [youtube] cA6J1J5s9X0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))"
+  },
+  {
+   "id": "ccqg4h62PJs",
+   "title": "RuneScape Dragonwilds: Solo Kuldra - No Skips (Scorned Wilderness Raid)",
+   "author": null,
+   "status": "deferred",
+   "runStatus": null,
+   "rank": null,
+   "level": "light",
+   "duration": null,
+   "statedTime": null,
+   "splits": [],
+   "complete": false,
+   "transcript": null,
+   "anomalies": 0,
+   "candidates": 0,
+   "commentary": 0,
+   "reviewedAt": "2026-11-07T13:31:59.897Z",
+   "error": "ERROR: [youtube] ccqg4h62PJs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
    "id": "dMsS0uoIZR4",
@@ -3339,7 +3377,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-06T14:36:37.997Z",
+   "reviewedAt": "2026-11-07T13:32:02.238Z",
    "error": "ERROR: [youtube] pOhcjk1BAhM: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
