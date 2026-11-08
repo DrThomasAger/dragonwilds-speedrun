@@ -1521,21 +1521,41 @@
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "botBlocks": 1,
-   "retryAfter": "2026-11-07T14:17:02.082Z",
-   "deferredAt": "2026-11-07T13:32:02.082Z",
+   "deferredAt": "2026-11-08T13:51:09.832Z",
    "lastError": "ERROR: [youtube] b97w7z05QnA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "title": "Runescape Dragonwilds - Kuldra speedrun"
+   "title": "Runescape Dragonwilds - Kuldra speedrun",
+   "botBlocks": 2,
+   "retryAfter": "2026-11-08T15:21:09.832Z"
   },
   "ccqg4h62PJs": {
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "botBlocks": 1,
-   "retryAfter": "2026-11-07T14:17:02.236Z",
-   "deferredAt": "2026-11-07T13:32:02.236Z",
+   "deferredAt": "2026-11-08T13:51:11.253Z",
    "lastError": "ERROR: [youtube] ccqg4h62PJs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "title": "RuneScape Dragonwilds: Solo Kuldra - No Skips (Scorned Wilderness Raid)"
+   "title": "RuneScape Dragonwilds: Solo Kuldra - No Skips (Scorned Wilderness Raid)",
+   "botBlocks": 2,
+   "retryAfter": "2026-11-08T15:21:11.253Z"
+  },
+  "BLE256IHblE": {
+   "status": "deferred",
+   "level": "light",
+   "attempts": 0,
+   "botBlocks": 1,
+   "retryAfter": "2026-11-08T14:36:09.807Z",
+   "deferredAt": "2026-11-08T13:51:09.807Z",
+   "lastError": "ERROR: [youtube] BLE256IHblE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "title": "DRAGONWILDS - 13:30 KULDRA + SCORNED WILDERNESS (CASUAL RUN)"
+  },
+  "LqWukJK43TA": {
+   "status": "deferred",
+   "level": "light",
+   "attempts": 0,
+   "botBlocks": 1,
+   "retryAfter": "2026-11-08T14:36:11.314Z",
+   "deferredAt": "2026-11-08T13:51:11.314Z",
+   "lastError": "ERROR: [youtube] LqWukJK43TA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "title": "RuneScape: Dragonwilds Kuldra Solo Run"
   }
  }
 }

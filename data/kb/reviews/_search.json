@@ -1,61 +1,61 @@
 {
- "at": "2026-11-07T13:31:59.876Z",
+ "at": "2026-11-08T13:51:08.246Z",
  "queries": {
   "scorned wilderness full run": {
-   "at": "2026-11-07T13:31:45.670Z",
+   "at": "2026-11-08T13:50:54.294Z",
    "n": 20
   },
   "kuldra raid full run": {
-   "at": "2026-11-07T13:31:46.813Z",
+   "at": "2026-11-08T13:50:55.301Z",
    "n": 20
   },
   "dragonwilds raid no commentary": {
-   "at": "2026-11-07T13:31:47.876Z",
+   "at": "2026-11-08T13:50:56.284Z",
    "n": 20
   },
   "dragonwilds raid full run": {
-   "at": "2026-11-07T13:31:48.909Z",
+   "at": "2026-11-08T13:50:57.779Z",
    "n": 20
   },
   "scorned wilderness raid": {
-   "at": "2026-11-07T13:31:50.045Z",
+   "at": "2026-11-08T13:50:58.801Z",
    "n": 20
   },
   "kuldra speedrun": {
-   "at": "2026-11-07T13:31:51.220Z",
+   "at": "2026-11-08T13:50:59.909Z",
    "n": 20
   },
   "dragonwilds kuldra first kill": {
-   "at": "2026-11-07T13:31:52.327Z",
+   "at": "2026-11-08T13:51:00.895Z",
    "n": 20
   },
   "scorned wilderness solo": {
-   "at": "2026-11-07T13:31:53.451Z",
+   "at": "2026-11-08T13:51:01.805Z",
    "n": 20
   },
   "kuldra raid solo": {
-   "at": "2026-11-07T13:31:54.575Z",
+   "at": "2026-11-08T13:51:02.712Z",
    "n": 20
   },
   "dragonwilds raid speedrun": {
-   "at": "2026-11-07T13:31:55.574Z",
+   "at": "2026-11-08T13:51:03.618Z",
    "n": 20
   },
   "kuldra raid gameplay": {
-   "at": "2026-11-07T13:31:56.615Z",
+   "at": "2026-11-08T13:51:04.669Z",
    "n": 20
   },
   "scorned wilderness walkthrough": {
-   "at": "2026-11-07T13:31:57.632Z",
+   "at": "2026-11-08T13:51:05.586Z",
    "n": 20
   },
   "dragonwilds kuldra skip": {
-   "at": "2026-11-07T13:31:58.698Z",
+   "at": "2026-11-08T13:51:06.637Z",
    "n": 20
   },
   "kuldra raid 1.0.1.2": {
-   "at": "2026-11-07T13:31:59.876Z",
-   "n": 18
+   "at": "2026-11-08T13:51:08.246Z",
+   "n": 19
   }
  },
  "hits": {
@@ -203,7 +203,8 @@
    "queries": [
     "scorned wilderness full run",
     "dragonwilds raid full run",
-    "scorned wilderness raid"
+    "scorned wilderness raid",
+    "scorned wilderness walkthrough"
    ],
    "title": "I Spent 100 Days in RuneScape Dragonwilds Scorned Wilderness... Here's What Happened!",
    "author": "Rised",
@@ -259,7 +260,8 @@
     "dragonwilds raid full run",
     "scorned wilderness raid",
     "scorned wilderness solo",
-    "kuldra raid solo"
+    "kuldra raid solo",
+    "scorned wilderness walkthrough"
    ],
    "title": "RuneScape Dragon Wilds: How To Complete All Raid Puzzles (Guide)",
    "author": "Primitive Nomad",
@@ -557,7 +559,8 @@
     "kuldra raid full run",
     "kuldra speedrun",
     "dragonwilds raid speedrun",
-    "kuldra raid gameplay"
+    "kuldra raid gameplay",
+    "dragonwilds raid full run"
    ],
    "title": "Queen Kuldra Fast Raid Guide – Quickest Run | RuneScape: Dragonwilds | Gelaham",
    "author": "Gelaham",
@@ -794,7 +797,8 @@
    "firstSeen": "2026-11-03T06:47:15.839Z",
    "queries": [
     "scorned wilderness raid",
-    "scorned wilderness walkthrough"
+    "scorned wilderness walkthrough",
+    "scorned wilderness solo"
    ],
    "title": "RuneScape Dragon Wilds: How To Craft Every New Resource! (Scorned Wilderness)",
    "author": "Primitive Nomad",
@@ -804,7 +808,8 @@
    "id": "qC2-PBENC2E",
    "firstSeen": "2026-11-03T06:47:15.839Z",
    "queries": [
-    "scorned wilderness raid"
+    "scorned wilderness raid",
+    "scorned wilderness walkthrough"
    ],
    "title": "Runescape Dragonwilds Scorned Wilderness Raid Cheese [7 MINUTE RAIDS]",
    "author": "Cow Wizard",
@@ -1501,7 +1506,8 @@
    "id": "jg_G6eAhM80",
    "firstSeen": "2026-11-04T14:52:11.309Z",
    "queries": [
-    "scorned wilderness solo"
+    "scorned wilderness solo",
+    "scorned wilderness walkthrough"
    ],
    "title": "We Completed Scorned Wilderness on Day 1...",
    "author": "Benny and the Chickenboy",
@@ -1921,7 +1927,8 @@
     "dragonwilds raid no commentary",
     "scorned wilderness raid",
     "scorned wilderness solo",
-    "kuldra raid solo"
+    "kuldra raid solo",
+    "scorned wilderness walkthrough"
    ],
    "title": "RuneScape Dragonwilds: Solo Kuldra - No Skips (Scorned Wilderness Raid)",
    "author": "Trance",
@@ -1976,6 +1983,68 @@
    "title": "How to Get the Staff of Light! Secret Wizard Quest | RuneScape Dragonwilds 1.0",
    "author": "GamerCory",
    "duration": 388
+  },
+  "nh3DQ2ODfsE": {
+   "id": "nh3DQ2ODfsE",
+   "firstSeen": "2026-11-08T13:50:55.301Z",
+   "queries": [
+    "kuldra raid full run",
+    "kuldra speedrun",
+    "kuldra raid solo"
+   ],
+   "title": "RuneScape Dragonwilds: Solo Kuldra Speedrun [7:15]",
+   "author": "Trance",
+   "duration": 466
+  },
+  "DDa2GXW4jE8": {
+   "id": "DDa2GXW4jE8",
+   "firstSeen": "2026-11-08T13:50:56.284Z",
+   "queries": [
+    "dragonwilds raid no commentary"
+   ],
+   "title": "RuneScape Dragonwilds 1.0 Gameplay (No Commentary)",
+   "author": "No Commentary Casas",
+   "duration": 13543
+  },
+  "-6lEYGm2dYI": {
+   "id": "-6lEYGm2dYI",
+   "firstSeen": "2026-11-08T13:51:03.618Z",
+   "queries": [
+    "dragonwilds raid speedrun"
+   ],
+   "title": "Runescape Dragonwilds Speedrun, Grave Run in 00:44:27 (Current WR)",
+   "author": "Kladdkaka and RS Creator Studio",
+   "duration": 76
+  },
+  "f00QZk_3Y0A": {
+   "id": "f00QZk_3Y0A",
+   "firstSeen": "2026-11-08T13:51:05.586Z",
+   "queries": [
+    "scorned wilderness walkthrough"
+   ],
+   "title": "RUNESCAPE DRAGONWILDS | SCORNED WILDERNESS | KULDRA THE RAID BOSS DRAGON | PART 1/3",
+   "author": "AndreasGamer98",
+   "duration": 2570
+  },
+  "zxpFxMANyhY": {
+   "id": "zxpFxMANyhY",
+   "firstSeen": "2026-11-08T13:51:05.586Z",
+   "queries": [
+    "scorned wilderness walkthrough"
+   ],
+   "title": "ALL Luminite Ore Locations in Scorned Wilderness | RuneScape Dragonwilds",
+   "author": "RuneScape Universe",
+   "duration": 888
+  },
+  "wjarVU4T6io": {
+   "id": "wjarVU4T6io",
+   "firstSeen": "2026-11-08T13:51:08.246Z",
+   "queries": [
+    "kuldra raid 1.0.1.2"
+   ],
+   "title": "RuneScape: Dragonwilds — TOUTES les nouveautés de la 1.0 !",
+   "author": "draconehunter",
+   "duration": 221
   }
  }
 }

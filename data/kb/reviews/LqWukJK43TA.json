@@ -1,0 +1,12 @@
+{
+ "id": "LqWukJK43TA",
+ "url": "https://www.youtube.com/watch?v=LqWukJK43TA",
+ "reviewedAt": "2026-11-08T13:51:09.834Z",
+ "pipelineVersion": 1,
+ "level": "light",
+ "status": "deferred",
+ "error": "ERROR: [youtube] LqWukJK43TA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git",
+ "rateLimited": true,
+ "botBlock": true,
+ "title": "RuneScape: Dragonwilds Kuldra Solo Run"
+}

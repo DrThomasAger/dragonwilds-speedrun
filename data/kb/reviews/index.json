@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-07T13:32:04.473Z",
- "count": 200,
+ "generatedAt": "2026-11-08T13:51:11.339Z",
+ "count": 202,
  "ok": 95,
  "complete": 24,
  "rows": [
@@ -1411,6 +1411,25 @@
    "error": "ERROR: [youtube] B4t1Vrgt6I8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))"
   },
   {
+   "id": "BLE256IHblE",
+   "title": "DRAGONWILDS - 13:30 KULDRA + SCORNED WILDERNESS (CASUAL RUN)",
+   "author": null,
+   "status": "deferred",
+   "runStatus": null,
+   "rank": null,
+   "level": "light",
+   "duration": null,
+   "statedTime": null,
+   "splits": [],
+   "complete": false,
+   "transcript": null,
+   "anomalies": 0,
+   "candidates": 0,
+   "commentary": 0,
+   "reviewedAt": "2026-11-08T13:51:08.260Z",
+   "error": "ERROR: [youtube] BLE256IHblE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
+  },
+  {
    "id": "BNrLFCloSfw",
    "title": "Runescape Dragonwilds | Kuldra Solo Walkthrough",
    "author": "Chickenboy",
@@ -1918,6 +1937,25 @@
    "commentary": 0,
    "reviewedAt": "2026-11-03T21:49:07.359Z",
    "error": "ERROR: [youtube] LeVPNQQ-5dY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))"
+  },
+  {
+   "id": "LqWukJK43TA",
+   "title": "RuneScape: Dragonwilds Kuldra Solo Run",
+   "author": null,
+   "status": "deferred",
+   "runStatus": null,
+   "rank": null,
+   "level": "light",
+   "duration": null,
+   "statedTime": null,
+   "splits": [],
+   "complete": false,
+   "transcript": null,
+   "anomalies": 0,
+   "candidates": 0,
+   "commentary": 0,
+   "reviewedAt": "2026-11-08T13:51:09.834Z",
+   "error": "ERROR: [youtube] LqWukJK43TA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
    "id": "M2agf-VB6vg",
@@ -2657,7 +2695,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-07T13:31:59.897Z",
+   "reviewedAt": "2026-11-08T13:51:08.260Z",
    "error": "ERROR: [youtube] b97w7z05QnA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
@@ -2771,7 +2809,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-07T13:31:59.897Z",
+   "reviewedAt": "2026-11-08T13:51:09.809Z",
    "error": "ERROR: [youtube] ccqg4h62PJs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
