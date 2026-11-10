@@ -847,3 +847,8 @@
 {"at":"2026-11-10T13:00:03.480Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1: 493 videos need transcripts (497 tracked)"}
 {"at":"2026-11-10T13:00:13.989Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1 done: 237/372 videos have transcripts"}
 {"at":"2026-11-10T13:00:14.596Z","source":"run-all","kind":"run-summary","id":"2026-11-10T12:56:59.723Z","title":"speedrun,reddit,youtube,discord: 3 new items"}
+{"at":"2026-11-10T20:39:09.430Z","source":"youtube","kind":"progress","id":"discover","title":"search found 10 new videos (466 discovered total)"}
+{"at":"2026-11-10T20:39:09.439Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1: 502 videos need transcripts (508 tracked)"}
+{"at":"2026-11-10T20:39:14.333Z","source":"youtube","kind":"transcript","id":"WpvNjqVmpVM","title":"SamFPlays: (Patched!)11 Min Full Kuldra Speedrun (Post-Patch 1.0.1) - Follow Along | RS Dragonwilds (1 lines, manual:en)"}
+{"at":"2026-11-10T20:39:18.932Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1 done: 237/372 videos have transcripts"}
+{"at":"2026-11-10T20:39:19.413Z","source":"run-all","kind":"run-summary","id":"2026-11-10T20:36:04.684Z","title":"speedrun,reddit,youtube,discord: 4 new items"}
