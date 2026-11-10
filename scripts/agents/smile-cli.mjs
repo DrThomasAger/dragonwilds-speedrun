@@ -25,6 +25,7 @@ const PROJECTS_DIR = firstExisting([
   process.env.SANGHA_PROJECTS_DIR,
   'D:\\projects',
   path.resolve(HERE, '..', '..'),
+  path.join(HOME, 'Claude', 'Projects'),
   path.join(HOME, 'projects'),
 ]) || 'D:\\projects';
 
@@ -32,6 +33,8 @@ const SMILE_REPO_DIR = firstExisting([
   process.env.SMILE_REPO_DIR,
   fs.existsSync(path.join(HERE, '..', 'Smile for VS Code')) ? path.resolve(HERE, '..') : null,
   path.join(PROJECTS_DIR, 'Smile-Prompt-Language'),
+  path.join(HOME, 'Claude', 'Projects', 'Smile'),
+  path.join(HOME, 'Claude', 'Projects', 'smile'),
   'D:\\projects\\Smile-Prompt-Language',
   'D:\\labyrinth\\Github\\Smile-Prompt-Language',
 ]) || path.join(PROJECTS_DIR, 'Smile-Prompt-Language');
@@ -42,6 +45,8 @@ const BB_EXE = firstExisting([
   process.env.BB_EXE,
   'D:\\scoop\\shims\\bb.exe',
   path.join(HOME, 'scoop', 'shims', 'bb.exe'),
+  path.join(HOME, 'AppData', 'Local', 'Microsoft', 'WinGet', 'Packages', 'Babashka.Babashka_Microsoft.Winget.Source_8wekyb3d8bbwe', 'bb.exe'),
+  path.join(HOME, 'AppData', 'Local', 'Microsoft', 'WinGet', 'Links', 'bb.exe'),
   'C:\\ProgramData\\chocolatey\\bin\\bb.exe',
 ]) || 'bb';
 
@@ -50,6 +55,7 @@ async function loadSearchLib() {
     path.join(HERE, 'search-lib.mjs'),
     path.join(PROJECTS_DIR, 'dragonwilds-speedrun', 'scripts', 'agents', 'search-lib.mjs'),
     path.join(PROJECTS_DIR, 'JaGeX', 'dragonwilds-speedrun', 'scripts', 'agents', 'search-lib.mjs'),
+    path.join(HOME, 'Claude', 'Projects', 'V1CT0RY', 'V1CT0R10U5', 'From GitHub', 'dragonwilds-speedrun', 'scripts', 'agents', 'search-lib.mjs'),
     'D:\\labyrinth\\Github\\JaGeX\\dragonwilds-speedrun\\scripts\\agents\\search-lib.mjs',
   ]);
   if (!candidate) {
@@ -121,7 +127,7 @@ if (cmd === 'library' || cmd === 'instances') {
 
 const { flags, positional } = parseFlags(rest);
 
-if (cmd === 'stats' || cmd === 'status') {
+if (cmd === 'stats' || cmd === 'status' || cmd === 'convos') {
   const { getStats } = await loadSearchLib();
   const s = getStats();
   if (flags.json) {
@@ -172,9 +178,9 @@ if (cmd === 'search' || cmd === 'history') {
 
 if (cmd === 'chat' || cmd === 'show') {
   const { getConversation } = await loadSearchLib();
-  const id = positional[0];
+  const id = positional.join(' ');
   if (!id) {
-    console.error('Usage: smile chat <conversation-id> [--max-turns=80] [--json]');
+    console.error('Usage: smile chat <conversation-id-or-title> [--max-turns=80] [--json]');
     process.exit(1);
   }
   const conv = getConversation(id, { maxTurns: Number(flags['max-turns'] || flags.limit || 80) });
@@ -198,6 +204,18 @@ if (cmd === 'chat' || cmd === 'show') {
       console.log(conv.harvestReport.summary);
     }
   }
+  process.exit(0);
+}
+
+if (cmd === 'continue') {
+  const { continueConversation } = await loadSearchLib();
+  const id = positional.join(' ');
+  if (!id) {
+    console.error('Usage: smile continue <conversation-id-or-title> [--max-turns=250]');
+    process.exit(1);
+  }
+  const text = continueConversation(id, { maxTurns: Number(flags['max-turns'] || flags.limit || 250) });
+  console.log(text);
   process.exit(0);
 }
 
@@ -243,6 +261,67 @@ if (cmd === 'sync') {
   process.exit(0);
 }
 
+if (cmd === 'hydrate' || cmd === 'resume') {
+  const { getConversation } = await loadSearchLib();
+  const id = positional.join(' ');
+  if (!id) {
+    console.error('Usage: smile hydrate <conversation-id-or-title> | smile resume <conversation-id-or-title>');
+    process.exit(1);
+  }
+  const conv = getConversation(id, { maxTurns: Number(flags['max-turns'] || 500) });
+  const tmpJson = path.join(TEMP_DIR, `hydrate-${Date.now()}.json`);
+  fs.writeFileSync(tmpJson, JSON.stringify(conv), 'utf8');
+  const unifyScript = path.join(SMILE_REPO_DIR, 'Smile Real Time', 'Unified CLI', 'unify.clj');
+  const r = spawnSync(BB_EXE, [unifyScript, 'hydrate-json', tmpJson], {
+    cwd: path.dirname(unifyScript),
+    encoding: 'utf8',
+    env: { ...process.env, TEMP: TEMP_DIR, TMP: TEMP_DIR },
+  });
+  try { fs.unlinkSync(tmpJson); } catch {}
+  if (r.status !== 0) {
+    console.error(r.stderr || r.stdout || 'Failed to hydrate conversation');
+    process.exit(r.status ?? 1);
+  }
+  const jsonlPath = (r.stdout || '').trim().split(/\r?\n/).pop();
+  console.log(`Hydrated v3 Pi session: ${jsonlPath}`);
+  if (cmd === 'resume' && !flags['no-launch']) {
+    const piCmd = firstExisting([
+      path.join(HOME, 'AppData', 'Roaming', 'npm', 'pi.cmd'),
+      'pi.cmd',
+      'pi',
+    ]) || 'pi';
+    const p = spawnSync('cmd.exe', ['/c', piCmd, '--session', jsonlPath], {
+      stdio: 'inherit',
+      env: { ...process.env, TEMP: TEMP_DIR, TMP: TEMP_DIR },
+    });
+    process.exit(p.status ?? 0);
+  }
+  process.exit(0);
+}
+
+if (cmd === 'unify') {
+  const unifyScript = path.join(SMILE_REPO_DIR, 'Smile Real Time', 'Unified CLI', 'unify.clj');
+  const r = spawnSync(BB_EXE, [unifyScript, ...rest], {
+    cwd: path.dirname(unifyScript),
+    stdio: 'inherit',
+    env: { ...process.env, TEMP: TEMP_DIR, TMP: TEMP_DIR },
+  });
+  process.exit(r.status ?? 0);
+}
+
+if (cmd === 'rt' || cmd === 'pi') {
+  const piCmd = firstExisting([
+    path.join(HOME, 'AppData', 'Roaming', 'npm', 'pi.cmd'),
+    'pi.cmd',
+    'pi',
+  ]) || 'pi';
+  const r = spawnSync('cmd.exe', ['/c', piCmd, ...rest], {
+    stdio: 'inherit',
+    env: { ...process.env, TEMP: TEMP_DIR, TMP: TEMP_DIR },
+  });
+  process.exit(r.status ?? 0);
+}
+
 if (cmd === 'gemini' || cmd === 'ask') {
   const promptText = positional.join(' ');
   const geminiArgs = promptText ? ['-p', promptText] : [];
@@ -267,11 +346,12 @@ Smile Language Commands:
   smile test                            Run Smile language test suite
 
 Conversation History & GitHub Repo Commands:
-  smile stats                           Show counts of all conversations & GitHub repos
-  smile search <query> [--source=...]   Search Claude Code, Harvests, ChatGPT, Gemini & Smile chats
+  smile stats / smile convos            Show counts of all conversations & GitHub repos
+  smile search <query> [--source=...]   Search Claude Code, Harvests, ChatGPT, Antigravity & Smile chats
   smile history [query]                 Alias for 'smile search' (empty query lists newest)
-  smile chat <id> [--max-turns=80]      Read full conversation transcript + harvest report
-  smile memory [query]                  Search CLAUDE.md, commands, memories & 449 harvest reports
+  smile chat <id-or-title>              Read full conversation transcript + harvest report
+  smile continue <id-or-title>          Format conversation with origin header ready to continue
+  smile memory [query]                  Search CLAUDE.md, commands, memories & harvest reports
   smile repos [filter]                  List/filter all local GitHub repos
   smile library <build|ask|serve|test>  Run Smile Instance Library (trigram SQLite + 127.0.0.1:4114)
   smile sync [--clone-missing]          Pull local GitHub repos & re-ingest conversations

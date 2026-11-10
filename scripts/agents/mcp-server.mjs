@@ -3,7 +3,7 @@
 // Exposes all ingested Claude / Claude Code / Instance Harvest / ChatGPT / Antigravity / Smile conversations,
 // standing memory, local GitHub repositories, and Smile Prompt Language lint/mend tools.
 import {
-  getStats, searchConversations, getConversation, searchMemory, listRepos, smileTask, runSync,
+  getStats, searchConversations, getConversation, continueConversation, searchMemory, listRepos, smileTask, runSync,
 } from './search-lib.mjs';
 
 const TOOLS = [
@@ -30,11 +30,11 @@ const TOOLS = [
   },
   {
     name: 'get_conversation',
-    description: 'Fetch the full normalised transcript (turns) and Instance Harvest report (if available) for a conversation by ID or filename.',
+    description: 'Fetch the full normalised transcript (turns) and Instance Harvest report (if available) for a conversation by ID, filename, or title words.',
     inputSchema: {
       type: 'object',
       properties: {
-        id: { type: 'string', description: 'Conversation ID (full or prefix) or filename from search_conversations.' },
+        id: { type: 'string', description: 'Conversation ID (full or prefix), filename, or title words from search_conversations.' },
         maxTurns: { type: 'number', description: 'Maximum turns to return (default 80).' },
       },
       required: ['id'],
@@ -42,8 +42,21 @@ const TOOLS = [
     handler: async ({ id, maxTurns = 80 } = {}) => getConversation(id, { maxTurns }),
   },
   {
+    name: 'continue_conversation',
+    description: 'Return a conversation formatted with its origin label line (service, model, project, date, title) followed by its verbatim turns and harvest report, ready to continue.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        id: { type: 'string', description: 'Conversation ID (full or prefix), filename, or title words.' },
+        maxTurns: { type: 'number', description: 'Maximum turns to include (default 250).' },
+      },
+      required: ['id'],
+    },
+    handler: async ({ id, maxTurns = 250 } = {}) => continueConversation(id, { maxTurns }),
+  },
+  {
     name: 'search_standing_memory',
-    description: 'Search standing agent instructions (CLAUDE.md, custom-prompt.md, project memory/*.md, slash commands) and the 449 Instance Harvest requirement/learning reports.',
+    description: 'Search standing agent instructions (CLAUDE.md, custom-prompt.md, project memory/*.md, slash commands) and the Instance Harvest requirement/learning reports.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -55,7 +68,7 @@ const TOOLS = [
   },
   {
     name: 'list_github_repos',
-    description: 'List or filter all local GitHub repositories cloned under D:\\projects and D:\\labyrinth\\Github.',
+    description: 'List or filter all local GitHub repositories cloned on this PC.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -72,7 +85,7 @@ const TOOLS = [
       type: 'object',
       properties: {
         text: { type: 'string', description: 'Smile text content to lint (or omit if filePath is provided).' },
-        filePath: { type: 'string', description: 'Path to an existing .smile or .md file on D: to lint.' },
+        filePath: { type: 'string', description: 'Path to an existing .smile or .md file to lint.' },
       },
     },
     handler: async ({ text, filePath } = {}) => {
@@ -88,7 +101,7 @@ const TOOLS = [
       type: 'object',
       properties: {
         text: { type: 'string', description: 'Smile text content to mend and return.' },
-        filePath: { type: 'string', description: 'Optional file path on D: to mend in place.' },
+        filePath: { type: 'string', description: 'Optional file path to mend in place.' },
       },
     },
     handler: async ({ text, filePath } = {}) => {
@@ -99,7 +112,7 @@ const TOOLS = [
   },
   {
     name: 'sync_repos_and_history',
-    description: 'Pull/clone GitHub repos onto D:\\projects, re-ingest all conversation histories, and refresh sangha-vault.',
+    description: 'Pull/clone GitHub repos, re-ingest conversation histories, and refresh sangha-vault.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -124,12 +137,13 @@ async function handleMessage(msg) {
   try {
     if (method === 'initialize') {
       return send({
+        jsonrpc: '20',
         jsonrpc: '2.0',
         id,
         result: {
           protocolVersion: params?.protocolVersion || '2024-11-05',
           capabilities: { tools: {} },
-          serverInfo: { name: 'sangha-history', version: '1.0.0' },
+          serverInfo: { name: 'sangha-history', version: '1.1.0' },
         },
       });
     }
@@ -196,4 +210,3 @@ process.stdin.on('data', chunk => {
     } catch {}
   }
 });
-

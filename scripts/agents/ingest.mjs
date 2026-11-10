@@ -662,6 +662,66 @@ function ingestOthers() {
   // SillyTavern
   const st = 'D:\\projects\\SillyTavern';
   sources.push({ source: 'sillytavern', location: st, status: 'found-empty', conversations: 0 });
+  // Pi Coding Agent + Ganapati + OpenCode sessions
+  const piRoots = [
+    { dir: path.join(HOME, '.pi', 'agent', 'sessions'), surface: 'pi-session' },
+    { dir: path.join(HOME, 'Claude', 'Projects', 'Ganapati', 'sessions'), surface: 'pi-session' },
+    { dir: path.join(HOME, '.local', 'share', 'opencode', 'sessions'), surface: 'opencode-session' },
+  ];
+  const seenPiIds = new Set();
+  let piCount = 0;
+  for (const { dir, surface } of piRoots) {
+    const files = exists(dir) ? ls(dir).flatMap(d => d.isDirectory() ? ls(path.join(dir, d.name)).filter(f => f.name.endsWith('.jsonl')).map(f => path.join(dir, d.name, f.name)) : (d.name.endsWith('.jsonl') ? [path.join(dir, d.name)] : [])) : [];
+    for (const sfile of files) {
+      const rows = readLines(sfile);
+      let sid = path.basename(sfile, '.jsonl');
+      let cwd = surface;
+      let model = surface === 'opencode-session' ? 'opencode' : 'pi-coding-agent';
+      const turns = [];
+      for (const r of rows) {
+        if (r.type === 'session') {
+          if (r.id) sid = r.id;
+          if (r.cwd) cwd = r.cwd;
+        } else if (r.type === 'model_change' && r.modelId) {
+          model = r.provider ? `${r.provider}/${r.modelId}` : r.modelId;
+        } else if (r.type === 'message' && r.message) {
+          const m = r.message;
+          const role = m.role;
+          const t = iso(r.timestamp || m.timestamp);
+          const c = m.content;
+          const txt = typeof c === 'string'
+            ? c.trim()
+            : Array.isArray(c)
+              ? c.map(b => typeof b === 'string' ? b : (b?.text || '')).join('\n').trim()
+              : '';
+          if (txt && (role === 'user' || role === 'assistant')) {
+            turns.push({ role, t, text: txt });
+          }
+        }
+      }
+      if (!turns.length || seenPiIds.has(sid)) continue;
+      seenPiIds.add(sid);
+      const firstUser = turns.find(t => t.role === 'user');
+      index.push(saveConversation({
+        source: surface,
+        model,
+        id: sid,
+        title: (firstUser?.text || sid).replace(/\s+/g, ' ').slice(0, 80),
+        project: cwd,
+        started: turns.find(t => t.t)?.t || null,
+        ended: [...turns].reverse().find(t => t.t)?.t || null,
+        turns,
+      }));
+      piCount++;
+    }
+  }
+  sources.push({
+    source: 'pi-session',
+    location: piRoots.map(x => x.dir).join(' ; '),
+    status: piCount ? 'ingested' : 'found-empty',
+    conversations: piCount,
+  });
+  log('pi-session', piCount, 'conversations');
   sources.push({ source: 'codex-cli', location: path.join(HOME, '.codex'), status: exists(path.join(HOME, '.codex')) ? 'found-unparsed' : 'not-found', conversations: 0 });
   sources.push({ source: 'chatgpt-2024+', location: 'chatgpt.com account', status: 'needs-user-export', conversations: 0,
     note: 'Newest ChatGPT export on disk is Nov 2023. See HOW-TO-EXPORT.md.' });
