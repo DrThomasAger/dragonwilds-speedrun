@@ -1,6 +1,6 @@
 # Raid source reviews
 
-95 reviewed · 24 with all five splits measured · generated 2026-11-08T13:51:11.339Z
+96 reviewed · 24 with all five splits measured · generated 2026-11-10T15:14:39.593Z
 
 | Video | Author | Status | Measured | Splits | Anomalies | Candidates | Transcript |
 |---|---|---|---|---|---|---|---|
@@ -74,6 +74,7 @@
 | [KULDRA BOSS GUIDE DRAGONWILDS ( KULDRA FIGHT OVERVIEW )](_nt4kXKqHHM.md) | AGENT LOPES | unsubmitted | — | 0 | 0 | 3 | whisper:small |
 | [RS Dragonwilds: Scorned Wilderness Raid Speedrun in 3:57 (Fo…](bJQqgsf2ikk.md) | heartlessedly | verified #2 | — | 0 | 1 | 2 | whisper:small |
 | [Kuldra SpeedRun 1.0.1 #runescapedragonwilds](bhLWdxo8SsA.md) | ClutchAndCrash | unsubmitted | — | 1 | 0 | 0 | youtube:en |
+| [RuneScape Dragonwilds: Solo Kuldra - No Skips (Scorned Wilde…](ccqg4h62PJs.md) | Trance | unsubmitted | — | 0 | 0 | 0 | none |
 | [How to "Skip" Regions in Runescape Dragonwilds 1.0](dMsS0uoIZR4.md) | ShadowStalkerTM | unsubmitted | — | 0 | 0 | 3 | none |
 | [How to Beat Kuldra Before Everyone Else / RuneScape: Dragonw…](dx1B3GZw_f4.md) | Tiger with the Bars | unsubmitted | — | 0 | 0 | 0 | youtube:en |
 | [I Broke the New Dragonwilds Raid / Kuldra Guide + Tricks](ewgak1mPu7A.md) | CrossRSDW | unsubmitted | — | 0 | 2 | 27 | youtube:en |
@@ -119,6 +120,7 @@
 - 7drO4EDaJTo: deferred — ERROR: [youtube] 7drO4EDaJTo: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
 - 7s3fgHwlRYA: error — ERROR: [youtube] 7s3fgHwlRYA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 7sVaG0JRlxc: error — ERROR: [youtube] 7sVaG0JRlxc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- 8NZUgtW6rkQ: deferred — ERROR: [youtube] 8NZUgtW6rkQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
 - 95xH_yTZX_w: error — ERROR: [youtube] 95xH_yTZX_w: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 9CTj9LgZJ5A: error — ERROR: [youtube] 9CTj9LgZJ5A: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - APwjC7fgnpg: deferred — ERROR: [youtube] APwjC7fgnpg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
@@ -172,7 +174,7 @@
 - bFOWvp4ZkPA: error — ERROR: [youtube] bFOWvp4ZkPA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - bQ56l-8xTl8: unavailable — ERROR: [youtube] bQ56l-8xTl8: Requested format is not available. Use --list-formats for a list of available formats
 - cA6J1J5s9X0: error — ERROR: [youtube] cA6J1J5s9X0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- ccqg4h62PJs: deferred — ERROR: [youtube] ccqg4h62PJs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
+- eo9CkrlBNIw: deferred — ERROR: [youtube] eo9CkrlBNIw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
 - f6aTIAnHDwA: error — ERROR: [youtube] f6aTIAnHDwA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - fO5YJeWqudE: error — ERROR: [youtube] fO5YJeWqudE: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - faQnPcZPaZ8: error — ERROR: [youtube] faQnPcZPaZ8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))

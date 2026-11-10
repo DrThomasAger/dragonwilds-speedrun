@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-08T13:51:11.339Z",
- "count": 202,
- "ok": 95,
+ "generatedAt": "2026-11-10T15:14:39.593Z",
+ "count": 204,
+ "ok": 96,
  "complete": 24,
  "rows": [
   {
@@ -1316,6 +1316,25 @@
    "error": "ERROR: [youtube] 7sVaG0JRlxc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))"
   },
   {
+   "id": "8NZUgtW6rkQ",
+   "title": "Defeating Kuldra in 15mins Runescape Dragonwilds",
+   "author": null,
+   "status": "deferred",
+   "runStatus": null,
+   "rank": null,
+   "level": "light",
+   "duration": null,
+   "statedTime": null,
+   "splits": [],
+   "complete": false,
+   "transcript": null,
+   "anomalies": 0,
+   "candidates": 0,
+   "commentary": 0,
+   "reviewedAt": "2026-11-10T15:14:33.503Z",
+   "error": "ERROR: [youtube] 8NZUgtW6rkQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
+  },
+  {
    "id": "95xH_yTZX_w",
    "title": "24 Hours to Kill Kuldra From Scratch | RuneScape: Dragonwilds - Part 2",
    "author": null,
@@ -1426,7 +1445,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-08T13:51:08.260Z",
+   "reviewedAt": "2026-11-10T15:14:35.101Z",
    "error": "ERROR: [youtube] BLE256IHblE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
@@ -2695,7 +2714,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-08T13:51:08.260Z",
+   "reviewedAt": "2026-11-10T15:14:33.503Z",
    "error": "ERROR: [youtube] b97w7z05QnA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
@@ -2796,21 +2815,20 @@
   {
    "id": "ccqg4h62PJs",
    "title": "RuneScape Dragonwilds: Solo Kuldra - No Skips (Scorned Wilderness Raid)",
-   "author": null,
-   "status": "deferred",
-   "runStatus": null,
+   "author": "Trance",
+   "status": "ok",
+   "runStatus": "unsubmitted",
    "rank": null,
    "level": "light",
    "duration": null,
    "statedTime": null,
    "splits": [],
    "complete": false,
-   "transcript": null,
+   "transcript": "none",
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-08T13:51:09.809Z",
-   "error": "ERROR: [youtube] ccqg4h62PJs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
+   "reviewedAt": "2026-11-10T15:14:35.275Z"
   },
   {
    "id": "dMsS0uoIZR4",
@@ -2847,6 +2865,25 @@
    "candidates": 0,
    "commentary": 2,
    "reviewedAt": "2026-11-03T18:40:40.522Z"
+  },
+  {
+   "id": "eo9CkrlBNIw",
+   "title": "RuneScape Dragonwilds: Solo Kuldra Speedrun [6:45]",
+   "author": null,
+   "status": "deferred",
+   "runStatus": null,
+   "rank": null,
+   "level": "light",
+   "duration": null,
+   "statedTime": null,
+   "splits": [],
+   "complete": false,
+   "transcript": null,
+   "anomalies": 0,
+   "candidates": 0,
+   "commentary": 0,
+   "reviewedAt": "2026-11-10T15:14:37.898Z",
+   "error": "ERROR: [youtube] eo9CkrlBNIw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
    "id": "ewgak1mPu7A",

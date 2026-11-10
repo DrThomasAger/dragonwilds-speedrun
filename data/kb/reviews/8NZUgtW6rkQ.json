@@ -1,0 +1,12 @@
+{
+ "id": "8NZUgtW6rkQ",
+ "url": "https://www.youtube.com/watch?v=8NZUgtW6rkQ",
+ "reviewedAt": "2026-11-10T15:14:33.503Z",
+ "pipelineVersion": 1,
+ "level": "light",
+ "status": "deferred",
+ "error": "ERROR: [youtube] 8NZUgtW6rkQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git",
+ "rateLimited": true,
+ "botBlock": true,
+ "title": "Defeating Kuldra in 15mins Runescape Dragonwilds"
+}
