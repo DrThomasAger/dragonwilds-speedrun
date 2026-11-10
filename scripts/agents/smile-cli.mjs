@@ -322,6 +322,40 @@ if (cmd === 'rt' || cmd === 'pi') {
   process.exit(r.status ?? 0);
 }
 
+if (cmd === 'ganapati' || cmd === 'anime') {
+  const ganapatiDir = firstExisting([
+    path.join(SMILE_REPO_DIR, 'Red Ganapati Anime Converter'),
+    path.join(HOME, 'Claude', 'Projects', 'V1CT0R10U5', 'Red Ganapati Anime Converter'),
+  ]);
+  const cljExe = firstExisting([
+    path.join(HOME, 'tools', 'clojure', 'bin', 'clojure.exe'),
+    'clojure',
+  ]);
+  const sub = rest[0] || 'server';
+  const subArgs = rest.slice(1);
+  const mainNs = sub === 'verify'
+    ? 'ganapati-anime.verify'
+    : sub === 'convert'
+      ? 'ganapati-anime.converter'
+      : sub === 'crayon-rig'
+        ? 'ganapati-anime.crayon'
+        : 'ganapati-anime.server';
+  const r = spawnSync(cljExe, ['-M', '-m', mainNs, ...subArgs], {
+    cwd: ganapatiDir,
+    stdio: 'inherit',
+    env: { ...process.env, TEMP: TEMP_DIR, TMP: TEMP_DIR },
+  });
+  process.exit(r.status ?? 0);
+}
+
+if (cmd === 'ui') {
+  for (const url of ['http://127.0.0.1:8090/', 'http://127.0.0.1:1717/', 'http://127.0.0.1:5151/']) {
+    spawnSync('cmd.exe', ['/c', 'start', '', url], { stdio: 'ignore' });
+  }
+  console.log('Opened Smile Chat (http://127.0.0.1:8090/), Red Ganapati Anime Studio (http://127.0.0.1:1717/), and THE MAP Viewer (http://127.0.0.1:5151/).');
+  process.exit(0);
+}
+
 if (cmd === 'gemini' || cmd === 'ask') {
   const promptText = positional.join(' ');
   const geminiArgs = promptText ? ['-p', promptText] : [];
