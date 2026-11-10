@@ -843,3 +843,7 @@
 {"at":"2026-11-10T04:21:35.572Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1: 490 videos need transcripts (492 tracked)"}
 {"at":"2026-11-10T04:21:41.945Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1 done: 237/372 videos have transcripts"}
 {"at":"2026-11-10T04:21:42.294Z","source":"run-all","kind":"run-summary","id":"2026-11-10T04:18:28.835Z","title":"speedrun,reddit,youtube,discord: 3 new items"}
+{"at":"2026-11-10T13:00:03.473Z","source":"youtube","kind":"progress","id":"discover","title":"search found 5 new videos (456 discovered total)"}
+{"at":"2026-11-10T13:00:03.480Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1: 493 videos need transcripts (497 tracked)"}
+{"at":"2026-11-10T13:00:13.989Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1 done: 237/372 videos have transcripts"}
+{"at":"2026-11-10T13:00:14.596Z","source":"run-all","kind":"run-summary","id":"2026-11-10T12:56:59.723Z","title":"speedrun,reddit,youtube,discord: 3 new items"}
