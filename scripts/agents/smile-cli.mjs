@@ -333,6 +333,17 @@ if (cmd === 'ganapati' || cmd === 'anime') {
   ]);
   const sub = rest[0] || 'server';
   const subArgs = rest.slice(1);
+  if (sub === 'speak') {
+    const text = subArgs.join(' ') || 'Om Gam Ganapataye Namaha! Victory to the Smile Sangha.';
+    const resp = await fetch('http://127.0.0.1:1717/api/tts-lipsync', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text, source: 'smile-cli', renderMp4: false }),
+    });
+    const out = await resp.json();
+    console.log(JSON.stringify({ ok: out.ok, seq: out.seq, engine: out.engine, duration: out.duration, wavUrl: out.wavUrl, cueCount: (out.cues || []).length }, null, 2));
+    process.exit(out.ok ? 0 : 1);
+  }
   const mainNs = sub === 'verify'
     ? 'ganapati-anime.verify'
     : sub === 'convert'
