@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-10T15:14:39.593Z",
+ "generatedAt": "2026-11-11T14:42:53.860Z",
  "count": 204,
- "ok": 96,
+ "ok": 97,
  "complete": 24,
  "rows": [
   {
@@ -1331,7 +1331,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-10T15:14:33.503Z",
+   "reviewedAt": "2026-11-11T14:42:48.419Z",
    "error": "ERROR: [youtube] 8NZUgtW6rkQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
@@ -1445,7 +1445,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-10T15:14:35.101Z",
+   "reviewedAt": "2026-11-11T14:42:50.409Z",
    "error": "ERROR: [youtube] BLE256IHblE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
@@ -1973,7 +1973,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-08T13:51:09.834Z",
+   "reviewedAt": "2026-11-11T14:42:52.059Z",
    "error": "ERROR: [youtube] LqWukJK43TA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
@@ -2701,21 +2701,20 @@
   {
    "id": "b97w7z05QnA",
    "title": "Runescape Dragonwilds - Kuldra speedrun",
-   "author": null,
-   "status": "deferred",
-   "runStatus": null,
+   "author": "Mr Nightshroud Gaming",
+   "status": "ok",
+   "runStatus": "unsubmitted",
    "rank": null,
    "level": "light",
    "duration": null,
    "statedTime": null,
    "splits": [],
    "complete": false,
-   "transcript": null,
+   "transcript": "none",
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-10T15:14:33.503Z",
-   "error": "ERROR: [youtube] b97w7z05QnA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
+   "reviewedAt": "2026-11-11T14:42:48.419Z"
   },
   {
    "id": "bFOWvp4ZkPA",
@@ -2882,7 +2881,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-10T15:14:37.898Z",
+   "reviewedAt": "2026-11-11T14:42:50.828Z",
    "error": "ERROR: [youtube] eo9CkrlBNIw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {

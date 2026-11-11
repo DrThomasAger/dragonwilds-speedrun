@@ -1,60 +1,60 @@
 {
- "at": "2026-11-10T15:14:33.482Z",
+ "at": "2026-11-11T14:42:48.398Z",
  "queries": {
   "scorned wilderness full run": {
-   "at": "2026-11-10T15:14:18.985Z",
+   "at": "2026-11-11T14:42:34.149Z",
    "n": 20
   },
   "kuldra raid full run": {
-   "at": "2026-11-10T15:14:20.165Z",
+   "at": "2026-11-11T14:42:35.287Z",
    "n": 20
   },
   "dragonwilds raid no commentary": {
-   "at": "2026-11-10T15:14:21.155Z",
+   "at": "2026-11-11T14:42:36.315Z",
    "n": 20
   },
   "dragonwilds raid full run": {
-   "at": "2026-11-10T15:14:22.243Z",
+   "at": "2026-11-11T14:42:37.412Z",
    "n": 20
   },
   "scorned wilderness raid": {
-   "at": "2026-11-10T15:14:23.400Z",
+   "at": "2026-11-11T14:42:38.619Z",
    "n": 20
   },
   "kuldra speedrun": {
-   "at": "2026-11-10T15:14:24.598Z",
+   "at": "2026-11-11T14:42:39.643Z",
    "n": 20
   },
   "dragonwilds kuldra first kill": {
-   "at": "2026-11-10T15:14:25.609Z",
+   "at": "2026-11-11T14:42:40.673Z",
    "n": 20
   },
   "scorned wilderness solo": {
-   "at": "2026-11-10T15:14:26.771Z",
+   "at": "2026-11-11T14:42:41.736Z",
    "n": 20
   },
   "kuldra raid solo": {
-   "at": "2026-11-10T15:14:27.800Z",
+   "at": "2026-11-11T14:42:42.724Z",
    "n": 20
   },
   "dragonwilds raid speedrun": {
-   "at": "2026-11-10T15:14:28.944Z",
+   "at": "2026-11-11T14:42:43.753Z",
    "n": 20
   },
   "kuldra raid gameplay": {
-   "at": "2026-11-10T15:14:30.015Z",
+   "at": "2026-11-11T14:42:44.806Z",
    "n": 20
   },
   "scorned wilderness walkthrough": {
-   "at": "2026-11-10T15:14:31.049Z",
+   "at": "2026-11-11T14:42:46.005Z",
    "n": 20
   },
   "dragonwilds kuldra skip": {
-   "at": "2026-11-10T15:14:32.271Z",
+   "at": "2026-11-11T14:42:47.163Z",
    "n": 20
   },
   "kuldra raid 1.0.1.2": {
-   "at": "2026-11-10T15:14:33.482Z",
+   "at": "2026-11-11T14:42:48.398Z",
    "n": 19
   }
  },
@@ -102,7 +102,7 @@
     "scorned wilderness walkthrough"
    ],
    "title": "Legacy World Record (9:37 ChiefWes) - Scorned Wilderness & Kuldra Speedrun | RS: Dragonwilds 1.0.0.6",
-   "author": "Tiger with the Bars and wes",
+   "author": "TigRS and wes",
    "duration": 579
   },
   "SmA7HV-ZlZ0": {
@@ -540,7 +540,7 @@
     "dragonwilds raid speedrun"
    ],
    "title": "Legacy Kuldra Skip with a Shortcut to the Heart (Patched?) | RS: Dragonwilds 1.0.0.6",
-   "author": "Tiger with the Bars",
+   "author": "TigRS",
    "duration": 46
   },
   "0z93qAiBols": {
@@ -548,7 +548,8 @@
    "firstSeen": "2026-11-03T06:46:47.653Z",
    "queries": [
     "kuldra raid full run",
-    "kuldra raid solo"
+    "kuldra raid solo",
+    "kuldra raid gameplay"
    ],
    "title": "Runescape Dragonwilds - Duo Raid Guide - Sub 10 minute Kuldra! (Feat. Special Guest UpperDeck67)",
    "author": "Northforge",
@@ -1136,7 +1137,7 @@
     "dragonwilds raid speedrun",
     "kuldra raid 1.0.1.2"
    ],
-   "title": "New FULL Kuldra Raid Skip 1.0.1",
+   "title": "New FULL Kuldra Raid Skip 1.0.2",
    "author": "FastTipsGaming",
    "duration": 699
   },
@@ -1184,7 +1185,8 @@
    "queries": [
     "kuldra raid gameplay",
     "kuldra raid full run",
-    "dragonwilds raid speedrun"
+    "dragonwilds raid speedrun",
+    "kuldra speedrun"
    ],
    "title": "RuneScape: Dragonwilds speed run Kuldra raid",
    "author": "Rhyno93",
@@ -1795,7 +1797,9 @@
    "firstSeen": "2026-11-05T14:57:19.350Z",
    "queries": [
     "kuldra speedrun",
-    "dragonwilds kuldra skip"
+    "dragonwilds kuldra skip",
+    "dragonwilds raid speedrun",
+    "kuldra raid gameplay"
    ],
    "title": "Kuldra Safespot Quick Run - Runescape Dragonwilds",
    "author": "beandon ",
@@ -1869,7 +1873,8 @@
    "id": "H6xvE26RxYA",
    "firstSeen": "2026-11-06T14:36:27.402Z",
    "queries": [
-    "dragonwilds raid full run"
+    "dragonwilds raid full run",
+    "kuldra raid gameplay"
    ],
    "title": "Runescape: Dragonwilds | Livestream | Farming The Kuldra Raid For Endgame Gear!",
    "author": "Metal Gamer Geek",
@@ -2113,9 +2118,19 @@
    "queries": [
     "dragonwilds kuldra skip"
    ],
-   "title": "Alternate FULL Kuldra Raid SKIP 1.0.1 (Unedited)",
+   "title": "New (Alternate) FULL Kuldra Raid SKIP 1.0.2 (Unedited)",
    "author": "FastTipsGaming",
    "duration": 525
+  },
+  "uh4--Jwj43c": {
+   "id": "uh4--Jwj43c",
+   "firstSeen": "2026-11-11T14:42:36.315Z",
+   "queries": [
+    "dragonwilds raid no commentary"
+   ],
+   "title": "Pure Wizard | RuneScape: Dragonwilds (#3) [No Commentary]",
+   "author": "Lights",
+   "duration": 11771
   }
  }
 }

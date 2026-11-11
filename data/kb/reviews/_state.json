@@ -1518,14 +1518,11 @@
    "title": "RuneScape: Dragonwilds 12:30 Kuldra Run"
   },
   "b97w7z05QnA": {
-   "status": "deferred",
+   "status": "ok",
    "level": "light",
+   "reviewedAt": "2026-11-11T14:42:48.419Z",
    "attempts": 0,
-   "deferredAt": "2026-11-10T15:14:35.099Z",
-   "lastError": "ERROR: [youtube] b97w7z05QnA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "title": "Runescape Dragonwilds - Kuldra speedrun",
-   "botBlocks": 3,
-   "retryAfter": "2026-11-10T18:14:35.099Z"
+   "title": "Runescape Dragonwilds - Kuldra speedrun"
   },
   "ccqg4h62PJs": {
    "status": "ok",
@@ -1538,41 +1535,41 @@
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "deferredAt": "2026-11-10T15:14:38.666Z",
+   "deferredAt": "2026-11-11T14:42:52.057Z",
    "lastError": "ERROR: [youtube] BLE256IHblE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
    "title": "DRAGONWILDS - 13:30 KULDRA + SCORNED WILDERNESS (CASUAL RUN)",
-   "botBlocks": 2,
-   "retryAfter": "2026-11-10T16:44:38.666Z"
+   "botBlocks": 3,
+   "retryAfter": "2026-11-11T17:42:52.057Z"
   },
   "LqWukJK43TA": {
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "botBlocks": 1,
-   "retryAfter": "2026-11-08T14:36:11.314Z",
-   "deferredAt": "2026-11-08T13:51:11.314Z",
+   "deferredAt": "2026-11-11T14:42:53.809Z",
    "lastError": "ERROR: [youtube] LqWukJK43TA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "title": "RuneScape: Dragonwilds Kuldra Solo Run"
+   "title": "RuneScape: Dragonwilds Kuldra Solo Run",
+   "botBlocks": 2,
+   "retryAfter": "2026-11-11T16:12:53.809Z"
   },
   "8NZUgtW6rkQ": {
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "botBlocks": 1,
-   "retryAfter": "2026-11-10T15:59:35.272Z",
-   "deferredAt": "2026-11-10T15:14:35.272Z",
+   "deferredAt": "2026-11-11T14:42:50.407Z",
    "lastError": "ERROR: [youtube] 8NZUgtW6rkQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "title": "Defeating Kuldra in 15mins Runescape Dragonwilds"
+   "title": "Defeating Kuldra in 15mins Runescape Dragonwilds",
+   "botBlocks": 2,
+   "retryAfter": "2026-11-11T16:12:50.407Z"
   },
   "eo9CkrlBNIw": {
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "botBlocks": 1,
-   "retryAfter": "2026-11-10T15:59:39.552Z",
-   "deferredAt": "2026-11-10T15:14:39.552Z",
+   "deferredAt": "2026-11-11T14:42:52.502Z",
    "lastError": "ERROR: [youtube] eo9CkrlBNIw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "title": "RuneScape Dragonwilds: Solo Kuldra Speedrun [6:45]"
+   "title": "RuneScape Dragonwilds: Solo Kuldra Speedrun [6:45]",
+   "botBlocks": 2,
+   "retryAfter": "2026-11-11T16:12:52.502Z"
   }
  }
 }

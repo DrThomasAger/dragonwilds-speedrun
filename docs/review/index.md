@@ -1,6 +1,6 @@
 # Raid source reviews
 
-96 reviewed · 24 with all five splits measured · generated 2026-11-10T15:14:39.593Z
+97 reviewed · 24 with all five splits measured · generated 2026-11-11T14:42:53.860Z
 
 | Video | Author | Status | Measured | Splits | Anomalies | Candidates | Transcript |
 |---|---|---|---|---|---|---|---|
@@ -72,6 +72,7 @@
 | [Fastest way to Kuldra / 22 min 35 sec to finish dungeon / Pa…](WIOk5DxP7kA.md) | David The Optimist Gaming | unsubmitted | — | 4 | 1 | 4 | whisper:small |
 | [Kuldra KC #2 — Back for More! / RuneScape: Dragonwilds](YP9pseIN0N4.md) | GamingFilmLLC | unsubmitted | — | 0 | 0 | 0 | youtube:en |
 | [KULDRA BOSS GUIDE DRAGONWILDS ( KULDRA FIGHT OVERVIEW )](_nt4kXKqHHM.md) | AGENT LOPES | unsubmitted | — | 0 | 0 | 3 | whisper:small |
+| [Runescape Dragonwilds - Kuldra speedrun](b97w7z05QnA.md) | Mr Nightshroud Gaming | unsubmitted | — | 0 | 0 | 0 | none |
 | [RS Dragonwilds: Scorned Wilderness Raid Speedrun in 3:57 (Fo…](bJQqgsf2ikk.md) | heartlessedly | verified #2 | — | 0 | 1 | 2 | whisper:small |
 | [Kuldra SpeedRun 1.0.1 #runescapedragonwilds](bhLWdxo8SsA.md) | ClutchAndCrash | unsubmitted | — | 1 | 0 | 0 | youtube:en |
 | [RuneScape Dragonwilds: Solo Kuldra - No Skips (Scorned Wilde…](ccqg4h62PJs.md) | Trance | unsubmitted | — | 0 | 0 | 0 | none |
@@ -170,7 +171,6 @@
 - a7iUnju_Vfk: error — ERROR: [youtube] a7iUnju_Vfk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - acNmZe953vs: error — ERROR: [youtube] acNmZe953vs: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - aySOue59SHI: error — ERROR: [youtube] aySOue59SHI: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- b97w7z05QnA: deferred — ERROR: [youtube] b97w7z05QnA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
 - bFOWvp4ZkPA: error — ERROR: [youtube] bFOWvp4ZkPA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - bQ56l-8xTl8: unavailable — ERROR: [youtube] bQ56l-8xTl8: Requested format is not available. Use --list-formats for a list of available formats
 - cA6J1J5s9X0: error — ERROR: [youtube] cA6J1J5s9X0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
