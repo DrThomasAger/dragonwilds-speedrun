@@ -1555,11 +1555,11 @@
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "deferredAt": "2026-11-11T14:42:50.407Z",
+   "deferredAt": "2026-11-12T15:36:00.960Z",
    "lastError": "ERROR: [youtube] 8NZUgtW6rkQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
    "title": "Defeating Kuldra in 15mins Runescape Dragonwilds",
-   "botBlocks": 2,
-   "retryAfter": "2026-11-11T16:12:50.407Z"
+   "botBlocks": 3,
+   "retryAfter": "2026-11-12T18:36:00.960Z"
   },
   "eo9CkrlBNIw": {
    "status": "deferred",
@@ -1570,6 +1570,36 @@
    "title": "RuneScape Dragonwilds: Solo Kuldra Speedrun [6:45]",
    "botBlocks": 2,
    "retryAfter": "2026-11-11T16:12:52.502Z"
+  },
+  "3Tut7hgfPNI": {
+   "status": "deferred",
+   "level": "light",
+   "attempts": 0,
+   "botBlocks": 1,
+   "retryAfter": "2026-11-12T16:21:01.118Z",
+   "deferredAt": "2026-11-12T15:36:01.118Z",
+   "lastError": "ERROR: [youtube] 3Tut7hgfPNI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "title": "RuneScape Dragonwilds - Solo Kuldra Grind"
+  },
+  "A6q-3eHUPtI": {
+   "status": "deferred",
+   "level": "light",
+   "attempts": 0,
+   "botBlocks": 1,
+   "retryAfter": "2026-11-12T16:21:02.750Z",
+   "deferredAt": "2026-11-12T15:36:02.750Z",
+   "lastError": "ERROR: [youtube] A6q-3eHUPtI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "title": "Kuldra Speed Run Runescape Dragonwilds"
+  },
+  "bdI9-orUvEY": {
+   "status": "deferred",
+   "level": "light",
+   "attempts": 0,
+   "botBlocks": 1,
+   "retryAfter": "2026-11-12T16:21:03.005Z",
+   "deferredAt": "2026-11-12T15:36:03.005Z",
+   "lastError": "ERROR: [youtube] bdI9-orUvEY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "title": "Speed running KULDRA, help me pass the time!"
   }
  }
 }

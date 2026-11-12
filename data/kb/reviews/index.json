@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-11T14:42:53.860Z",
- "count": 204,
+ "generatedAt": "2026-11-12T15:36:03.051Z",
+ "count": 207,
  "ok": 97,
  "complete": 24,
  "rows": [
@@ -954,6 +954,25 @@
    "error": "ERROR: [youtube] 2Zn04m-mq80: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))"
   },
   {
+   "id": "3Tut7hgfPNI",
+   "title": "RuneScape Dragonwilds - Solo Kuldra Grind",
+   "author": null,
+   "status": "deferred",
+   "runStatus": null,
+   "rank": null,
+   "level": "light",
+   "duration": null,
+   "statedTime": null,
+   "splits": [],
+   "complete": false,
+   "transcript": null,
+   "anomalies": 0,
+   "candidates": 0,
+   "commentary": 0,
+   "reviewedAt": "2026-11-12T15:35:59.307Z",
+   "error": "ERROR: [youtube] 3Tut7hgfPNI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
+  },
+  {
    "id": "3dBpsTAttVk",
    "title": "How to Defeat Kuldra the God Eater SOLO | RuneScape: Dragonwilds",
    "author": "Jacob Fox",
@@ -1331,7 +1350,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-11T14:42:48.419Z",
+   "reviewedAt": "2026-11-12T15:35:59.307Z",
    "error": "ERROR: [youtube] 8NZUgtW6rkQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
@@ -1371,6 +1390,25 @@
    "commentary": 0,
    "reviewedAt": "2026-11-03T21:45:01.984Z",
    "error": "ERROR: [youtube] 9CTj9LgZJ5A: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))"
+  },
+  {
+   "id": "A6q-3eHUPtI",
+   "title": "Kuldra Speed Run Runescape Dragonwilds",
+   "author": null,
+   "status": "deferred",
+   "runStatus": null,
+   "rank": null,
+   "level": "light",
+   "duration": null,
+   "statedTime": null,
+   "splits": [],
+   "complete": false,
+   "transcript": null,
+   "anomalies": 0,
+   "candidates": 0,
+   "commentary": 0,
+   "reviewedAt": "2026-11-12T15:36:00.962Z",
+   "error": "ERROR: [youtube] A6q-3eHUPtI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
    "id": "APwjC7fgnpg",
@@ -2771,6 +2809,25 @@
    "commentary": 0,
    "reviewedAt": "2026-11-03T21:46:55.293Z",
    "error": "ERROR: [youtube] bQ56l-8xTl8: Requested format is not available. Use --list-formats for a list of available formats"
+  },
+  {
+   "id": "bdI9-orUvEY",
+   "title": "Speed running KULDRA, help me pass the time!",
+   "author": null,
+   "status": "deferred",
+   "runStatus": null,
+   "rank": null,
+   "level": "light",
+   "duration": null,
+   "statedTime": null,
+   "splits": [],
+   "complete": false,
+   "transcript": null,
+   "anomalies": 0,
+   "candidates": 0,
+   "commentary": 0,
+   "reviewedAt": "2026-11-12T15:36:01.120Z",
+   "error": "ERROR: [youtube] bdI9-orUvEY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
    "id": "bhLWdxo8SsA",
