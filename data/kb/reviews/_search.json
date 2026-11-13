@@ -1,60 +1,60 @@
 {
- "at": "2026-11-12T15:35:59.283Z",
+ "at": "2026-11-13T14:55:22.126Z",
  "queries": {
   "scorned wilderness full run": {
-   "at": "2026-11-12T15:35:43.691Z",
+   "at": "2026-11-13T14:55:07.826Z",
    "n": 20
   },
   "kuldra raid full run": {
-   "at": "2026-11-12T15:35:45.062Z",
+   "at": "2026-11-13T14:55:08.758Z",
    "n": 20
   },
   "dragonwilds raid no commentary": {
-   "at": "2026-11-12T15:35:46.162Z",
+   "at": "2026-11-13T14:55:09.827Z",
    "n": 20
   },
   "dragonwilds raid full run": {
-   "at": "2026-11-12T15:35:47.448Z",
+   "at": "2026-11-13T14:55:10.934Z",
    "n": 20
   },
   "scorned wilderness raid": {
-   "at": "2026-11-12T15:35:48.479Z",
+   "at": "2026-11-13T14:55:11.987Z",
    "n": 20
   },
   "kuldra speedrun": {
-   "at": "2026-11-12T15:35:49.826Z",
+   "at": "2026-11-13T14:55:13.155Z",
    "n": 20
   },
   "dragonwilds kuldra first kill": {
-   "at": "2026-11-12T15:35:50.932Z",
+   "at": "2026-11-13T14:55:14.327Z",
    "n": 20
   },
   "scorned wilderness solo": {
-   "at": "2026-11-12T15:35:52.032Z",
+   "at": "2026-11-13T14:55:15.303Z",
    "n": 20
   },
   "kuldra raid solo": {
-   "at": "2026-11-12T15:35:53.169Z",
+   "at": "2026-11-13T14:55:16.417Z",
    "n": 20
   },
   "dragonwilds raid speedrun": {
-   "at": "2026-11-12T15:35:54.199Z",
+   "at": "2026-11-13T14:55:17.584Z",
    "n": 20
   },
   "kuldra raid gameplay": {
-   "at": "2026-11-12T15:35:55.867Z",
+   "at": "2026-11-13T14:55:18.603Z",
    "n": 20
   },
   "scorned wilderness walkthrough": {
-   "at": "2026-11-12T15:35:56.962Z",
+   "at": "2026-11-13T14:55:19.570Z",
    "n": 20
   },
   "dragonwilds kuldra skip": {
-   "at": "2026-11-12T15:35:58.042Z",
+   "at": "2026-11-13T14:55:20.688Z",
    "n": 20
   },
   "kuldra raid 1.0.1.2": {
-   "at": "2026-11-12T15:35:59.283Z",
+   "at": "2026-11-13T14:55:22.126Z",
    "n": 19
   }
  },
@@ -1246,7 +1246,8 @@
    "id": "_m9p6hKg0g0",
    "firstSeen": "2026-11-03T06:49:39.288Z",
    "queries": [
-    "kuldra raid gameplay"
+    "kuldra raid gameplay",
+    "dragonwilds raid no commentary"
    ],
    "title": "Runescape Dragonwilds: Scorned Wilderness RAID! Kuldra easy kill!",
    "author": "Randomize",
@@ -1864,7 +1865,8 @@
    "firstSeen": "2026-11-06T14:36:25.310Z",
    "queries": [
     "kuldra raid full run",
-    "kuldra raid gameplay"
+    "kuldra raid gameplay",
+    "dragonwilds raid full run"
    ],
    "title": "Runescape: Dragonwilds | Livestream | Kuldra Raid Has Been Fixed! Let's Farm Some Armor!",
    "author": "Metal Gamer Geek",
@@ -1951,7 +1953,8 @@
     "scorned wilderness raid",
     "scorned wilderness solo",
     "kuldra raid solo",
-    "scorned wilderness walkthrough"
+    "scorned wilderness walkthrough",
+    "kuldra raid full run"
    ],
    "title": "RuneScape Dragonwilds: Solo Kuldra - No Skips (Scorned Wilderness Raid)",
    "author": "Trance",
@@ -2186,6 +2189,46 @@
    "title": "Runescape Dragonwilds Kuldra Raid bugged",
    "author": "SeeThrough ",
    "duration": 1024
+  },
+  "rAiJ8HWcA-s": {
+   "id": "rAiJ8HWcA-s",
+   "firstSeen": "2026-11-13T14:55:09.827Z",
+   "queries": [
+    "dragonwilds raid no commentary"
+   ],
+   "title": "RuneScape Dragonwilds – Hunting ALL Dragon Bosses!",
+   "author": "Noobula Zone",
+   "duration": 1463
+  },
+  "YzJ9zwIQvhc": {
+   "id": "YzJ9zwIQvhc",
+   "firstSeen": "2026-11-13T14:55:09.827Z",
+   "queries": [
+    "dragonwilds raid no commentary"
+   ],
+   "title": "Runescape Dragonwilds - Fellhollow Final Boss (Solo, Melee, No Damage)",
+   "author": "Shadiochao",
+   "duration": 626
+  },
+  "FxnQ39Xzdhw": {
+   "id": "FxnQ39Xzdhw",
+   "firstSeen": "2026-11-13T14:55:10.934Z",
+   "queries": [
+    "dragonwilds raid full run"
+   ],
+   "title": "RuneScape: Dragonwilds_sub 15 min full raid run",
+   "author": "Pdot11 Gaming",
+   "duration": 732
+  },
+  "5u3CQ034wSY": {
+   "id": "5u3CQ034wSY",
+   "firstSeen": "2026-11-13T14:55:14.327Z",
+   "queries": [
+    "dragonwilds kuldra first kill"
+   ],
+   "title": "Runescape DragonWilds Solo Kuldra Challange Kill w/T8 Wooden Training Sword (NO CHESTPLATE&LEGS)",
+   "author": "TarenTheTurtle",
+   "duration": 787
   }
  }
 }

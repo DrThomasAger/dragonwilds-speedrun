@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-12T15:36:03.051Z",
- "count": 207,
+ "generatedAt": "2026-11-13T14:55:26.774Z",
+ "count": 208,
  "ok": 97,
  "complete": 24,
  "rows": [
@@ -969,7 +969,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-12T15:35:59.307Z",
+   "reviewedAt": "2026-11-13T14:55:22.143Z",
    "error": "ERROR: [youtube] 3Tut7hgfPNI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
@@ -1087,6 +1087,25 @@
    "commentary": 0,
    "reviewedAt": "2026-11-03T07:43:24.130Z",
    "error": "ERROR: [youtube] 5YGT2dJaPK8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))"
+  },
+  {
+   "id": "5u3CQ034wSY",
+   "title": "Runescape DragonWilds Solo Kuldra Challange Kill w/T8 Wooden Training Sword (NO CHESTPLATE&LEGS)",
+   "author": null,
+   "status": "deferred",
+   "runStatus": null,
+   "rank": null,
+   "level": "light",
+   "duration": null,
+   "statedTime": null,
+   "splits": [],
+   "complete": false,
+   "transcript": null,
+   "anomalies": 0,
+   "candidates": 0,
+   "commentary": 0,
+   "reviewedAt": "2026-11-13T14:55:22.143Z",
+   "error": "ERROR: [youtube] 5u3CQ034wSY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
    "id": "5u87_yT7zGA",
@@ -1350,7 +1369,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-12T15:35:59.307Z",
+   "reviewedAt": "2026-11-13T14:55:24.259Z",
    "error": "ERROR: [youtube] 8NZUgtW6rkQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
@@ -1407,7 +1426,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-12T15:36:00.962Z",
+   "reviewedAt": "2026-11-13T14:55:24.850Z",
    "error": "ERROR: [youtube] A6q-3eHUPtI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
