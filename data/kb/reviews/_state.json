@@ -1555,11 +1555,11 @@
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "deferredAt": "2026-11-13T14:55:25.746Z",
+   "deferredAt": "2026-11-14T13:47:19.991Z",
    "lastError": "ERROR: [youtube] 8NZUgtW6rkQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
    "title": "Defeating Kuldra in 15mins Runescape Dragonwilds",
-   "botBlocks": 4,
-   "retryAfter": "2026-11-13T20:55:25.746Z"
+   "botBlocks": 5,
+   "retryAfter": "2026-11-15T01:47:19.991Z"
   },
   "eo9CkrlBNIw": {
    "status": "deferred",
@@ -1575,11 +1575,11 @@
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "deferredAt": "2026-11-13T14:55:24.848Z",
+   "deferredAt": "2026-11-14T13:47:17.652Z",
    "lastError": "ERROR: [youtube] 3Tut7hgfPNI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
    "title": "RuneScape Dragonwilds - Solo Kuldra Grind",
-   "botBlocks": 2,
-   "retryAfter": "2026-11-13T16:25:24.848Z"
+   "botBlocks": 3,
+   "retryAfter": "2026-11-14T16:47:17.652Z"
   },
   "A6q-3eHUPtI": {
    "status": "deferred",
@@ -1605,11 +1605,21 @@
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "botBlocks": 1,
-   "retryAfter": "2026-11-13T15:40:24.257Z",
-   "deferredAt": "2026-11-13T14:55:24.257Z",
+   "deferredAt": "2026-11-14T13:47:19.157Z",
    "lastError": "ERROR: [youtube] 5u3CQ034wSY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "title": "Runescape DragonWilds Solo Kuldra Challange Kill w/T8 Wooden Training Sword (NO CHESTPLATE&LEGS)"
+   "title": "Runescape DragonWilds Solo Kuldra Challange Kill w/T8 Wooden Training Sword (NO CHESTPLATE&LEGS)",
+   "botBlocks": 2,
+   "retryAfter": "2026-11-14T15:17:19.157Z"
+  },
+  "45256p4Dnt8": {
+   "status": "deferred",
+   "level": "light",
+   "attempts": 0,
+   "botBlocks": 1,
+   "retryAfter": "2026-11-14T14:32:17.563Z",
+   "deferredAt": "2026-11-14T13:47:17.563Z",
+   "lastError": "ERROR: [youtube] 45256p4Dnt8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "title": "Speed running Scorned Wilderness and Kuldra raid! Fight cave? #osrs #rs3"
   }
  }
 }

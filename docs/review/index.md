@@ -1,6 +1,6 @@
 # Raid source reviews
 
-97 reviewed · 24 with all five splits measured · generated 2026-11-13T14:55:26.774Z
+97 reviewed · 24 with all five splits measured · generated 2026-11-14T13:47:20.034Z
 
 | Video | Author | Status | Measured | Splits | Anomalies | Candidates | Transcript |
 |---|---|---|---|---|---|---|---|
@@ -111,6 +111,7 @@
 - 1EmTyHx3UME: unavailable — ERROR: [youtube] 1EmTyHx3UME: Video unavailable. This video has been removed by the uploader
 - 2Zn04m-mq80: error — ERROR: [youtube] 2Zn04m-mq80: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 3Tut7hgfPNI: deferred — ERROR: [youtube] 3Tut7hgfPNI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
+- 45256p4Dnt8: deferred — ERROR: [youtube] 45256p4Dnt8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
 - 4C-7swCHEes: error — ERROR: [youtube] 4C-7swCHEes: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 5YGT2dJaPK8: error — ERROR: [youtube] 5YGT2dJaPK8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 5u3CQ034wSY: deferred — ERROR: [youtube] 5u3CQ034wSY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
