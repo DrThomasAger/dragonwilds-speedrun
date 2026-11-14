@@ -8,6 +8,10 @@ Scorned Wilderness raid speedrun lab for RuneScape: Dragonwilds, built to take t
 |---|---|---|
 | ![](docs/screens/phone/run-live.png) | ![](docs/screens/fold/route.png) | ![](docs/screens/desktop/hq.png) |
 
+## The Raid Lab Guide, for Gemini
+
+`guide/Raid Lab Guide.smile` is the whole app, and the way into the raid, written as a Smile prompt. Paste it into the Gemini app as the instructions of a Gem, or as the first message of a chat, pick any model in the model picker, and Gemini answers any question about using the app. ➊ Start here has a ✦ Copy the guide button that copies it in one tap.
+
 ## Aero, for any website
 
 `aero/` is the Frutiger Aero kit this site is dressed in, gathered so any other site can use it: `aero.css` (wallpaper, glass, 2.5D depth, controls, gradient and bubble text, the sea with dolphins), `aero.js` (the sea, tilt and parallax), and the Blog Template from drthomasager.com set on Aero glass. `aero/README.md` says how to use it, and the specimen page shows every piece: https://drthomasager.github.io/dragonwilds-speedrun/aero/

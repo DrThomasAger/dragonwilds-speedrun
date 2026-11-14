@@ -104,6 +104,18 @@ export function mount(root) {
     FROM.map(([k, label]) => h('option', { value: k, selected: k === (done().from || ALL[0]) }, label)));
   root.append(h('section', { class: 'card', style: { marginBottom: '14px' } }, h('h2', {}, 'Where are you now?'), fromSel,
     h('p', { class: 'note', style: { margin: '8px 0 0' } }, 'Steps before this place are left out. Change it at any time.')));
+  // The guide prompt for Gemini: guide/Raid Lab Guide.smile, copied whole in one tap.
+  const GUIDE = 'guide/Raid%20Lab%20Guide.smile';
+  const copyBtn = h('button', { class: 'btn pri', onclick: async () => {
+    try {
+      const text = await (await fetch(GUIDE)).text();
+      await navigator.clipboard.writeText(text);
+      fill(copyBtn, '✓ Copied, paste it into Gemini');
+    } catch (e) { fill(copyBtn, 'Copy did not work, open the guide instead'); }
+  } }, '✦ Copy the guide');
+  root.append(h('section', { class: 'card', style: { marginBottom: '14px' } }, h('h2', {}, 'Ask Gemini about this app'),
+    h('p', { class: 'note', style: { margin: '0 0 10px' } }, 'The Raid Lab Guide is this whole app, and the way into the raid, written as a prompt. Copy it, then in the Gemini app paste it as the instructions of a new Gem, or as the first message of a chat. Pick any model in Gemini\'s model picker and ask it anything about using the app.'),
+    h('div', { class: 'row', style: { gap: '8px', flexWrap: 'wrap' } }, copyBtn, h('a', { class: 'btn', href: GUIDE, target: '_blank', rel: 'noopener' }, 'Open the guide'))));
   root.append(h('div', { class: 'row', style: { marginBottom: '14px', gap: '10px', alignItems: 'center' } }, bar, count,
     h('button', { class: 'btn sm', onclick: () => { if (confirm('Untick every step?')) { store.update(s => (s.start = { from: (s.start || {}).from })); paintAll(); } } }, 'Reset')));
 
