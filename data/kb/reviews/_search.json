@@ -1,60 +1,60 @@
 {
- "at": "2026-11-16T16:24:36.108Z",
+ "at": "2026-11-17T16:28:48.309Z",
  "queries": {
   "scorned wilderness full run": {
-   "at": "2026-11-16T16:24:21.913Z",
+   "at": "2026-11-17T16:28:35.756Z",
    "n": 20
   },
   "kuldra raid full run": {
-   "at": "2026-11-16T16:24:22.819Z",
+   "at": "2026-11-17T16:28:36.782Z",
    "n": 20
   },
   "dragonwilds raid no commentary": {
-   "at": "2026-11-16T16:24:23.830Z",
+   "at": "2026-11-17T16:28:37.658Z",
    "n": 20
   },
   "dragonwilds raid full run": {
-   "at": "2026-11-16T16:24:24.854Z",
+   "at": "2026-11-17T16:28:38.689Z",
    "n": 20
   },
   "scorned wilderness raid": {
-   "at": "2026-11-16T16:24:26.299Z",
+   "at": "2026-11-17T16:28:39.697Z",
    "n": 20
   },
   "kuldra speedrun": {
-   "at": "2026-11-16T16:24:27.471Z",
+   "at": "2026-11-17T16:28:40.693Z",
    "n": 20
   },
   "dragonwilds kuldra first kill": {
-   "at": "2026-11-16T16:24:28.481Z",
+   "at": "2026-11-17T16:28:41.650Z",
    "n": 20
   },
   "scorned wilderness solo": {
-   "at": "2026-11-16T16:24:29.447Z",
+   "at": "2026-11-17T16:28:42.587Z",
    "n": 20
   },
   "kuldra raid solo": {
-   "at": "2026-11-16T16:24:30.362Z",
+   "at": "2026-11-17T16:28:43.483Z",
    "n": 20
   },
   "dragonwilds raid speedrun": {
-   "at": "2026-11-16T16:24:31.511Z",
+   "at": "2026-11-17T16:28:44.409Z",
    "n": 20
   },
   "kuldra raid gameplay": {
-   "at": "2026-11-16T16:24:32.519Z",
+   "at": "2026-11-17T16:28:45.331Z",
    "n": 20
   },
   "scorned wilderness walkthrough": {
-   "at": "2026-11-16T16:24:33.712Z",
+   "at": "2026-11-17T16:28:46.239Z",
    "n": 20
   },
   "dragonwilds kuldra skip": {
-   "at": "2026-11-16T16:24:34.804Z",
+   "at": "2026-11-17T16:28:47.183Z",
    "n": 20
   },
   "kuldra raid 1.0.1.2": {
-   "at": "2026-11-16T16:24:36.108Z",
+   "at": "2026-11-17T16:28:48.309Z",
    "n": 19
   }
  },
@@ -483,7 +483,9 @@
     "kuldra speedrun",
     "kuldra raid solo",
     "kuldra raid gameplay",
-    "dragonwilds raid full run"
+    "dragonwilds raid full run",
+    "dragonwilds raid speedrun",
+    "dragonwilds kuldra skip"
    ],
    "title": "(Patched - New Vid on Channel) 13 Min Full Kuldra Run – Follow Along | RuneScape Dragonwilds",
    "author": "SamFPlays",
@@ -525,7 +527,8 @@
    "firstSeen": "2026-11-03T06:46:47.652Z",
    "queries": [
     "kuldra raid full run",
-    "kuldra speedrun"
+    "kuldra speedrun",
+    "dragonwilds kuldra first kill"
    ],
    "title": "RuneScape Dragonwilds Kuldra Speedrun",
    "author": "Nazuya-",
@@ -618,7 +621,6 @@
     "kuldra raid gameplay"
    ],
    "title": "[23 min] RuneScape Dragonwilds Raid 1 Full Run patch 1.0.1 (Heart skip and Poison skip)",
-   "author": "loopuleasa",
    "duration": 1382
   },
   "0QX-lwBsTzs": {
@@ -750,7 +752,7 @@
    ],
    "title": "Runescape: Dragonwilds Kuldra Whole Raid World Record Speedrun 2 Man {WR: 09:48}",
    "author": "RandomGuy",
-   "duration": 626
+   "duration": 627
   },
   "q8YOiM8HO6U": {
    "id": "q8YOiM8HO6U",
@@ -769,7 +771,6 @@
     "dragonwilds raid full run"
    ],
    "title": "RuneScape Dragon Wilds: Complete Fight Cave Guide (Fire Cape)",
-   "author": "Primitive Nomad",
    "duration": 1304
   },
   "odV1jVa65mU": {
@@ -1782,7 +1783,7 @@
     "dragonwilds raid full run"
    ],
    "title": "RuneScape Dragonwilds: Complete Guide To Progression",
-   "author": "Primitive Nomad and RuneScape: Dragonwilds",
+   "author": "Primitive Nomad",
    "duration": 647
   },
   "SlHV_KRx7lQ": {
@@ -2365,6 +2366,16 @@
    "title": "Runescape Dragonwilds Kuldra Final Boss Fight 4k Gameplay (No Cheese)",
    "author": "Mysticshadowkingly.",
    "duration": 1020
+  },
+  "McETm8CJbWg": {
+   "id": "McETm8CJbWg",
+   "firstSeen": "2026-11-17T16:28:42.587Z",
+   "queries": [
+    "scorned wilderness solo"
+   ],
+   "title": "RuneScape Dragonwilds - [Part 20] Solo Run (Entering The Scorned Wilderness In The 1.0 Release)",
+   "author": "Animehunter2",
+   "duration": 11714
   }
  }
 }

@@ -1,6 +1,6 @@
 # Raid source reviews
 
-97 reviewed · 24 with all five splits measured · generated 2026-11-16T16:24:40.770Z
+97 reviewed · 24 with all five splits measured · generated 2026-11-17T16:28:53.107Z
 
 | Video | Author | Status | Measured | Splits | Anomalies | Candidates | Transcript |
 |---|---|---|---|---|---|---|---|
@@ -110,18 +110,18 @@
 - 14iJqjPKCEA: error — ERROR: [youtube] 14iJqjPKCEA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 1EmTyHx3UME: unavailable — ERROR: [youtube] 1EmTyHx3UME: Video unavailable. This video has been removed by the uploader
 - 2Zn04m-mq80: error — ERROR: [youtube] 2Zn04m-mq80: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- 3Tut7hgfPNI: deferred — ERROR: [youtube] 3Tut7hgfPNI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
-- 45256p4Dnt8: deferred — ERROR: [youtube] 45256p4Dnt8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
+- 3Tut7hgfPNI: deferred — ERROR: [youtube] 3Tut7hgfPNI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extract
+- 45256p4Dnt8: deferred — ERROR: [youtube] 45256p4Dnt8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extract
 - 4C-7swCHEes: error — ERROR: [youtube] 4C-7swCHEes: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 5YGT2dJaPK8: error — ERROR: [youtube] 5YGT2dJaPK8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- 5u3CQ034wSY: deferred — ERROR: [youtube] 5u3CQ034wSY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
+- 5u3CQ034wSY: deferred — ERROR: [youtube] 5u3CQ034wSY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extract
 - 5vqcrsspAcE: error — ERROR: [youtube] 5vqcrsspAcE: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 68ovg9A_PpA: error — ERROR: [youtube] 68ovg9A_PpA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 6LE1YW41OSA: error — ERROR: [youtube] 6LE1YW41OSA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 6XoozVNLdlI: error — ERROR: [youtube] 6XoozVNLdlI: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 6Xta0SaH3-k: error — ERROR: [youtube] 6Xta0SaH3-k: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 7XYvLtw4TS0: error — ERROR: [youtube] 7XYvLtw4TS0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- 7_htSZ7NtLA: deferred — ERROR: [youtube] 7_htSZ7NtLA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
+- 7_htSZ7NtLA: deferred — ERROR: [youtube] 7_htSZ7NtLA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extract
 - 7drO4EDaJTo: deferred — ERROR: [youtube] 7drO4EDaJTo: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
 - 7s3fgHwlRYA: error — ERROR: [youtube] 7s3fgHwlRYA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 7sVaG0JRlxc: error — ERROR: [youtube] 7sVaG0JRlxc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
