@@ -1,11 +1,11 @@
 {
  "id": "7_htSZ7NtLA",
  "url": "https://www.youtube.com/watch?v=7_htSZ7NtLA",
- "reviewedAt": "2026-11-17T16:28:50.803Z",
+ "reviewedAt": "2026-11-18T15:58:18.320Z",
  "pipelineVersion": 1,
  "level": "light",
  "status": "deferred",
- "error": "ERROR: [youtube] 7_htSZ7NtLA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extract",
+ "error": "ERROR: [youtube] 7_htSZ7NtLA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git",
  "rateLimited": true,
  "botBlock": true,
  "title": "RuneScape: Dragonwilds_Kuldra Solo"
