@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T15:58:21.151Z",
+ "generatedAt": "2026-11-19T16:03:16.250Z",
  "count": 211,
  "ok": 97,
  "complete": 24,
@@ -969,8 +969,8 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-17T16:28:48.324Z",
-   "error": "ERROR: [youtube] 3Tut7hgfPNI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extract"
+   "reviewedAt": "2026-11-19T16:03:12.812Z",
+   "error": "ERROR: [youtube] 3Tut7hgfPNI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
    "id": "3dBpsTAttVk",
@@ -1008,7 +1008,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-18T15:58:16.856Z",
+   "reviewedAt": "2026-11-19T16:03:12.812Z",
    "error": "ERROR: [youtube] 45256p4Dnt8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
@@ -1123,7 +1123,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-18T15:58:16.856Z",
+   "reviewedAt": "2026-11-19T16:03:14.581Z",
    "error": "ERROR: [youtube] 5u3CQ034wSY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
@@ -1313,7 +1313,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-18T15:58:18.320Z",
+   "reviewedAt": "2026-11-19T16:03:14.605Z",
    "error": "ERROR: [youtube] 7_htSZ7NtLA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
