@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-19T16:03:16.250Z",
- "count": 211,
+ "generatedAt": "2026-11-20T15:45:18.088Z",
+ "count": 212,
  "ok": 97,
  "complete": 24,
  "rows": [
@@ -1313,7 +1313,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-19T16:03:14.605Z",
+   "reviewedAt": "2026-11-20T15:45:14.430Z",
    "error": "ERROR: [youtube] 7_htSZ7NtLA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
@@ -1464,7 +1464,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-18T15:58:19.565Z",
+   "reviewedAt": "2026-11-20T15:45:14.430Z",
    "error": "ERROR: [youtube] 9_Y197bPwA4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
@@ -1483,7 +1483,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-13T14:55:24.850Z",
+   "reviewedAt": "2026-11-20T15:45:16.223Z",
    "error": "ERROR: [youtube] A6q-3eHUPtI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
@@ -1523,6 +1523,25 @@
    "commentary": 0,
    "reviewedAt": "2026-11-03T20:34:11.415Z",
    "error": "ERROR: [youtube] AbC4uyQRzcM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))"
+  },
+  {
+   "id": "Adf65cHhKwk",
+   "title": "RuneScape DRAGONWILDS  / FULL SCORNED WILDERNESS RUN / DRAGON PLATEBODY SOON??",
+   "author": null,
+   "status": "deferred",
+   "runStatus": null,
+   "rank": null,
+   "level": "light",
+   "duration": null,
+   "statedTime": null,
+   "splits": [],
+   "complete": false,
+   "transcript": null,
+   "anomalies": 0,
+   "candidates": 0,
+   "commentary": 0,
+   "reviewedAt": "2026-11-20T15:45:16.235Z",
+   "error": "ERROR: [youtube] Adf65cHhKwk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
    "id": "B4t1Vrgt6I8",

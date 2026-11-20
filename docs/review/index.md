@@ -1,6 +1,6 @@
 # Raid source reviews
 
-97 reviewed · 24 with all five splits measured · generated 2026-11-19T16:03:16.250Z
+97 reviewed · 24 with all five splits measured · generated 2026-11-20T15:45:18.088Z
 
 | Video | Author | Status | Measured | Splits | Anomalies | Candidates | Transcript |
 |---|---|---|---|---|---|---|---|
@@ -132,6 +132,7 @@
 - A6q-3eHUPtI: deferred — ERROR: [youtube] A6q-3eHUPtI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
 - APwjC7fgnpg: deferred — ERROR: [youtube] APwjC7fgnpg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
 - AbC4uyQRzcM: error — ERROR: [youtube] AbC4uyQRzcM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- Adf65cHhKwk: deferred — ERROR: [youtube] Adf65cHhKwk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
 - B4t1Vrgt6I8: error — ERROR: [youtube] B4t1Vrgt6I8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - BLE256IHblE: deferred — ERROR: [youtube] BLE256IHblE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
 - BvI39z_sW3o: error — ERROR: [youtube] BvI39z_sW3o: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))

@@ -1,0 +1,12 @@
+{
+ "id": "Adf65cHhKwk",
+ "url": "https://www.youtube.com/watch?v=Adf65cHhKwk",
+ "reviewedAt": "2026-11-20T15:45:16.235Z",
+ "pipelineVersion": 1,
+ "level": "light",
+ "status": "deferred",
+ "error": "ERROR: [youtube] Adf65cHhKwk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git",
+ "rateLimited": true,
+ "botBlock": true,
+ "title": "RuneScape DRAGONWILDS  / FULL SCORNED WILDERNESS RUN / DRAGON PLATEBODY SOON??"
+}

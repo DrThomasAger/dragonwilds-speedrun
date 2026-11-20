@@ -1583,11 +1583,11 @@
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "deferredAt": "2026-11-13T14:55:26.738Z",
+   "deferredAt": "2026-11-20T15:45:17.953Z",
    "lastError": "ERROR: [youtube] A6q-3eHUPtI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
    "title": "Kuldra Speed Run Runescape Dragonwilds",
-   "botBlocks": 2,
-   "retryAfter": "2026-11-13T16:25:26.738Z"
+   "botBlocks": 3,
+   "retryAfter": "2026-11-20T18:45:17.953Z"
   },
   "bdI9-orUvEY": {
    "status": "deferred",
@@ -1623,21 +1623,31 @@
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "deferredAt": "2026-11-19T16:03:16.194Z",
+   "deferredAt": "2026-11-20T15:45:16.221Z",
    "lastError": "ERROR: [youtube] 7_htSZ7NtLA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
    "title": "RuneScape: Dragonwilds_Kuldra Solo",
-   "botBlocks": 5,
-   "retryAfter": "2026-11-20T04:03:16.194Z"
+   "botBlocks": 6,
+   "retryAfter": "2026-11-21T15:45:16.221Z"
   },
   "9_Y197bPwA4": {
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "botBlocks": 1,
-   "retryAfter": "2026-11-18T16:43:21.126Z",
-   "deferredAt": "2026-11-18T15:58:21.126Z",
+   "deferredAt": "2026-11-20T15:45:16.232Z",
    "lastError": "ERROR: [youtube] 9_Y197bPwA4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "title": "RuneScape: Dragonwilds - Agility Update (Gold Medal Run, All Course Locations, & Scorned Wilderness)"
+   "title": "RuneScape: Dragonwilds - Agility Update (Gold Medal Run, All Course Locations, & Scorned Wilderness)",
+   "botBlocks": 2,
+   "retryAfter": "2026-11-20T17:15:16.232Z"
+  },
+  "Adf65cHhKwk": {
+   "status": "deferred",
+   "level": "light",
+   "attempts": 0,
+   "botBlocks": 1,
+   "retryAfter": "2026-11-20T16:30:18.062Z",
+   "deferredAt": "2026-11-20T15:45:18.062Z",
+   "lastError": "ERROR: [youtube] Adf65cHhKwk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "title": "RuneScape DRAGONWILDS  / FULL SCORNED WILDERNESS RUN / DRAGON PLATEBODY SOON??"
   }
  }
 }
