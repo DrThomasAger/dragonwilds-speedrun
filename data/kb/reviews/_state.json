@@ -1573,11 +1573,11 @@
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "deferredAt": "2026-11-19T16:03:14.602Z",
-   "lastError": "ERROR: [youtube] 3Tut7hgfPNI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "deferredAt": "2026-11-21T14:56:08.542Z",
+   "lastError": "ERROR: [youtube] 3Tut7hgfPNI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-",
    "title": "RuneScape Dragonwilds - Solo Kuldra Grind",
-   "botBlocks": 7,
-   "retryAfter": "2026-11-20T16:03:14.602Z"
+   "botBlocks": 8,
+   "retryAfter": "2026-11-22T14:56:08.542Z"
   },
   "A6q-3eHUPtI": {
    "status": "deferred",
@@ -1603,21 +1603,21 @@
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "deferredAt": "2026-11-19T16:03:16.213Z",
-   "lastError": "ERROR: [youtube] 5u3CQ034wSY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "deferredAt": "2026-11-21T14:56:10.667Z",
+   "lastError": "ERROR: [youtube] 5u3CQ034wSY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-",
    "title": "Runescape DragonWilds Solo Kuldra Challange Kill w/T8 Wooden Training Sword (NO CHESTPLATE&LEGS)",
-   "botBlocks": 7,
-   "retryAfter": "2026-11-20T16:03:16.213Z"
+   "botBlocks": 8,
+   "retryAfter": "2026-11-22T14:56:10.667Z"
   },
   "45256p4Dnt8": {
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "deferredAt": "2026-11-19T16:03:14.579Z",
-   "lastError": "ERROR: [youtube] 45256p4Dnt8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "deferredAt": "2026-11-21T14:56:08.337Z",
+   "lastError": "ERROR: [youtube] 45256p4Dnt8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-",
    "title": "Speed running Scorned Wilderness and Kuldra raid! Fight cave? #osrs #rs3",
-   "botBlocks": 6,
-   "retryAfter": "2026-11-20T16:03:14.579Z"
+   "botBlocks": 7,
+   "retryAfter": "2026-11-22T14:56:08.337Z"
   },
   "7_htSZ7NtLA": {
    "status": "deferred",
@@ -1633,11 +1633,11 @@
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "deferredAt": "2026-11-20T15:45:16.232Z",
-   "lastError": "ERROR: [youtube] 9_Y197bPwA4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "deferredAt": "2026-11-21T14:56:10.785Z",
+   "lastError": "ERROR: [youtube] 9_Y197bPwA4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-",
    "title": "RuneScape: Dragonwilds - Agility Update (Gold Medal Run, All Course Locations, & Scorned Wilderness)",
-   "botBlocks": 2,
-   "retryAfter": "2026-11-20T17:15:16.232Z"
+   "botBlocks": 3,
+   "retryAfter": "2026-11-21T17:56:10.785Z"
   },
   "Adf65cHhKwk": {
    "status": "deferred",
