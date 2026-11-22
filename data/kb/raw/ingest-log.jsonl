@@ -1006,3 +1006,6 @@
 {"at":"2026-11-22T10:17:54.926Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1: 718 videos need transcripts (729 tracked)"}
 {"at":"2026-11-22T10:17:58.544Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1 done: 237/372 videos have transcripts"}
 {"at":"2026-11-22T10:17:59.038Z","source":"run-all","kind":"run-summary","id":"2026-11-22T10:14:56.736Z","title":"speedrun,reddit,youtube,discord: 2 new items"}
+{"at":"2026-11-22T18:04:13.127Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1: 718 videos need transcripts (729 tracked)"}
+{"at":"2026-11-22T18:04:17.349Z","source":"youtube","kind":"progress","id":"transcripts","title":"phase 1 done: 237/372 videos have transcripts"}
+{"at":"2026-11-22T18:04:17.849Z","source":"run-all","kind":"run-summary","id":"2026-11-22T18:01:06.174Z","title":"speedrun,reddit,youtube,discord: 2 new items"}
