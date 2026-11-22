@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { StringDecoder } from 'node:string_decoder';
 import { ROOT, OUT, TEMP_ROOT, HOME, readJSON, exists, iso, trunc } from './lib.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
@@ -323,7 +324,9 @@ function matchesSourceFilter(convSource, filter) {
   return s.includes(f);
 }
 
-export function searchConversations({ query = '', source = 'all', project = '', role = '', limit = 15 } = {}) {
+// The word search as it was: opens every conversation file for each query. Kept so the store search below can be
+// checked against it, and as the way to answer when the store has not been built.
+export function searchConversationsScan({ query = '', source = 'all', project = '', role = '', limit = 15 } = {}) {
   const kb = resolveKbDir();
   const convDir = path.join(kb, 'conversations');
   const idx = loadIndex();
@@ -402,6 +405,182 @@ export function searchConversations({ query = '', source = 'all', project = '', 
       ended: meta.ended,
       turns: meta.turns,
       snippets,
+    });
+  }
+
+  scored.sort((a, b) => b.score - a.score || String(b.ended || b.started || '').localeCompare(String(a.ended || a.started || '')));
+  const top = scored.slice(0, maxResults);
+  return { totalMatched: scored.length, returned: top.length, results: top };
+}
+
+// The text store: the turn texts of every conversation file in one JSON-lines file beside the index, one line per
+// conversation with its file name, the file's modified time and size, and each turn's role, time and text. A word
+// search reads this one file in pieces instead of opening each conversation file. The manifest beside it maps each
+// file to the modified time and size it had when the store was written, so a changed file is found and the store
+// is written again. Lines are written with JSON escapes, so one line is one conversation.
+const TEXT_STORE = 'search-text.jsonl';
+const TEXT_MANIFEST = 'search-text.manifest.json';
+
+function textStorePaths(kb) {
+  return { store: path.join(kb, TEXT_STORE), manifest: path.join(kb, TEXT_MANIFEST) };
+}
+
+function statOrNull(p) {
+  try { return fs.statSync(p); } catch { return null; }
+}
+
+// Reads a file through in pieces, giving each complete line to fn. Multi-byte characters split between pieces are
+// joined by StringDecoder, so no text is cut.
+function forEachStoreLine(file, fn) {
+  const fd = fs.openSync(file, 'r');
+  const buf = Buffer.alloc(8 << 20);
+  const dec = new StringDecoder('utf8');
+  let carry = '';
+  try {
+    let n;
+    while ((n = fs.readSync(fd, buf, 0, buf.length, null)) > 0) {
+      const parts = (carry + dec.write(buf.subarray(0, n))).split('\n');
+      carry = parts.pop();
+      for (const p of parts) if (p) fn(p);
+    }
+    carry += dec.end();
+    if (carry) fn(carry);
+  } finally { fs.closeSync(fd); }
+}
+
+// Returns true when the store and its manifest match the conversation files of the index.
+function textStoreFresh(kb, direct) {
+  const { store, manifest } = textStorePaths(kb);
+  if (!exists(store) || !exists(manifest)) return false;
+  const have = readJSON(manifest) || {};
+  for (const c of direct) {
+    const st = statOrNull(path.join(kb, 'conversations', c.file));
+    if (!st) continue;
+    const m = have[c.file];
+    if (!m || m[0] !== st.mtimeMs || m[1] !== st.size) return false;
+  }
+  return true;
+}
+
+// Writes the store from every conversation file of the index. A file that cannot be read or parsed is left out.
+function writeTextStore(kb, direct) {
+  const { store, manifest } = textStorePaths(kb);
+  const convDir = path.join(kb, 'conversations');
+  const tmp = store + '.tmp';
+  const out = fs.openSync(tmp, 'w');
+  const written = {};
+  let pending = [];
+  const flush = () => { if (pending.length) { fs.writeSync(out, pending.join('')); pending = []; } };
+  try {
+    for (const c of direct) {
+      const st = statOrNull(path.join(convDir, c.file));
+      if (!st) continue;
+      let conv;
+      try { conv = JSON.parse(fs.readFileSync(path.join(convDir, c.file), 'utf8')); } catch { continue; }
+      const turns = (conv.turns || []).map(t => ({ r: t.role, t: t.t, x: String(t.text || '') }));
+      pending.push(JSON.stringify({ f: c.file, turns }) + '\n');
+      written[c.file] = [st.mtimeMs, st.size];
+      if (pending.length >= 500) flush();
+    }
+    flush();
+  } finally { fs.closeSync(out); }
+  fs.renameSync(tmp, store);
+  fs.writeFileSync(manifest, JSON.stringify(written));
+  return Object.keys(written).length;
+}
+
+export function ensureTextStore() {
+  const kb = resolveKbDir();
+  const direct = loadIndex().conversations.filter(c => !isLocalFile(c.file));
+  if (textStoreFresh(kb, direct)) return { built: false, files: direct.length };
+  return { built: true, files: writeTextStore(kb, direct) };
+}
+
+function isLocalFile(file) {
+  const f = String(file || '');
+  return f.startsWith('__local_agy__:') || f.startsWith('__local_pi__:');
+}
+
+// The word search over the text store. Scoring matches searchConversationsScan: the title, project, id and source
+// of each conversation, then the turns with the terms in them, and the same snippets, role filter and order.
+export function searchConversations({ query = '', source = 'all', project = '', role = '', limit = 15 } = {}) {
+  const kb = resolveKbDir();
+  const convDir = path.join(kb, 'conversations');
+  const idx = loadIndex();
+  const terms = String(query || '').toLowerCase().split(/\s+/).filter(Boolean);
+  const projFilter = String(project || '').toLowerCase().trim();
+  const maxResults = Math.max(1, Math.min(Number(limit) || 15, 100));
+
+  const candidates = idx.conversations.filter(c => {
+    if (!matchesSourceFilter(c.source, source)) return false;
+    if (projFilter && !String(c.project || '').toLowerCase().includes(projFilter)) return false;
+    return true;
+  });
+
+  if (!terms.length) {
+    const recent = [...candidates].sort((a, b) => String(b.ended || b.started || '').localeCompare(String(a.ended || a.started || ''))).slice(0, maxResults);
+    return { totalMatched: candidates.length, returned: recent.length, results: recent };
+  }
+
+  const scored = [];
+  // Scores one conversation from its meta and its turns, the same way the scan does.
+  const score = (meta, turns) => {
+    const hayMeta = `${meta.title || ''} ${meta.project || ''} ${meta.id || ''} ${meta.source || ''}`.toLowerCase();
+    let metaHits = 0;
+    for (const t of terms) if (hayMeta.includes(t)) metaHits++;
+    const snippets = [];
+    let turnHits = 0;
+    for (const turn of turns) {
+      if (role && turn.r !== role) continue;
+      const tl = String(turn.x || '').toLowerCase();
+      let matchedTerm = null;
+      for (const t of terms) {
+        if (tl.includes(t)) { matchedTerm = t; turnHits++; }
+      }
+      if (matchedTerm && snippets.length < 3) {
+        const pos = tl.indexOf(matchedTerm);
+        const start = Math.max(0, pos - 90);
+        const excerpt = String(turn.x).slice(start, start + 260).replace(/\s+/g, ' ').trim();
+        snippets.push({ role: turn.r, t: turn.t, excerpt: (start > 0 ? '…' : '') + excerpt });
+      }
+    }
+    if (role && !turnHits) return null;
+    return {
+      score: metaHits * 20 + Math.min(turnHits, 30) + (String(meta.source).startsWith('claude') ? 3 : 0),
+      id: meta.id, file: meta.file, source: meta.source, model: meta.model, project: meta.project, title: meta.title,
+      started: meta.started, ended: meta.ended, turns: meta.turns, snippets,
+    };
+  };
+  const allTermsIn = (meta, text) => {
+    const hayMeta = `${meta.title || ''} ${meta.project || ''} ${meta.id || ''} ${meta.source || ''}`.toLowerCase();
+    return terms.every(t => hayMeta.includes(t) || text.includes(t));
+  };
+
+  // Conversations of the local Antigravity and Pi transcripts are read as before.
+  for (const meta of candidates) {
+    if (!isLocalFile(meta.file)) continue;
+    const conv = readConvData(convDir, meta);
+    if (!conv) continue;
+    const text = JSON.stringify(conv).toLowerCase();
+    if (!allTermsIn(meta, text)) continue;
+    const r = score(meta, (conv.turns || []).map(t => ({ r: t.role, t: t.t, x: String(t.text || '') })));
+    if (r) scored.push(r);
+  }
+
+  // The conversation files: the store is written first if it is missing or out of date, then read once.
+  const direct = idx.conversations.filter(c => !isLocalFile(c.file));
+  if (!textStoreFresh(kb, direct)) writeTextStore(kb, direct);
+  const byFile = new Map(candidates.filter(c => !isLocalFile(c.file)).map(c => [c.file, c]));
+  if (byFile.size) {
+    forEachStoreLine(textStorePaths(kb).store, line => {
+      let rec;
+      try { rec = JSON.parse(line); } catch { return; }
+      const meta = byFile.get(rec.f);
+      if (!meta) return;
+      const text = rec.turns.map(t => t.x).join('\n').toLowerCase();
+      if (!allTermsIn(meta, text)) return;
+      const r = score(meta, rec.turns);
+      if (r) scored.push(r);
     });
   }
 
