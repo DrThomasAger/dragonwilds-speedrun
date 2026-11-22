@@ -1,60 +1,60 @@
 {
- "at": "2026-11-21T14:56:05.990Z",
+ "at": "2026-11-22T14:53:34.909Z",
  "queries": {
   "scorned wilderness full run": {
-   "at": "2026-11-21T14:55:53.299Z",
+   "at": "2026-11-22T14:53:22.637Z",
    "n": 20
   },
   "kuldra raid full run": {
-   "at": "2026-11-21T14:55:54.215Z",
+   "at": "2026-11-22T14:53:23.684Z",
    "n": 20
   },
   "dragonwilds raid no commentary": {
-   "at": "2026-11-21T14:55:55.283Z",
+   "at": "2026-11-22T14:53:24.689Z",
    "n": 20
   },
   "dragonwilds raid full run": {
-   "at": "2026-11-21T14:55:56.386Z",
+   "at": "2026-11-22T14:53:25.640Z",
    "n": 20
   },
   "scorned wilderness raid": {
-   "at": "2026-11-21T14:55:57.292Z",
+   "at": "2026-11-22T14:53:26.559Z",
    "n": 20
   },
   "kuldra speedrun": {
-   "at": "2026-11-21T14:55:58.271Z",
+   "at": "2026-11-22T14:53:27.431Z",
    "n": 20
   },
   "dragonwilds kuldra first kill": {
-   "at": "2026-11-21T14:55:59.243Z",
+   "at": "2026-11-22T14:53:28.450Z",
    "n": 20
   },
   "scorned wilderness solo": {
-   "at": "2026-11-21T14:56:00.196Z",
+   "at": "2026-11-22T14:53:29.364Z",
    "n": 20
   },
   "kuldra raid solo": {
-   "at": "2026-11-21T14:56:01.196Z",
+   "at": "2026-11-22T14:53:30.358Z",
    "n": 20
   },
   "dragonwilds raid speedrun": {
-   "at": "2026-11-21T14:56:02.224Z",
+   "at": "2026-11-22T14:53:31.291Z",
    "n": 20
   },
   "kuldra raid gameplay": {
-   "at": "2026-11-21T14:56:03.138Z",
+   "at": "2026-11-22T14:53:32.137Z",
    "n": 20
   },
   "scorned wilderness walkthrough": {
-   "at": "2026-11-21T14:56:04.042Z",
+   "at": "2026-11-22T14:53:33.120Z",
    "n": 20
   },
   "dragonwilds kuldra skip": {
-   "at": "2026-11-21T14:56:05.100Z",
+   "at": "2026-11-22T14:53:34.015Z",
    "n": 20
   },
   "kuldra raid 1.0.1.2": {
-   "at": "2026-11-21T14:56:05.990Z",
+   "at": "2026-11-22T14:53:34.909Z",
    "n": 20
   }
  },
@@ -70,7 +70,8 @@
     "dragonwilds raid full run"
    ],
    "title": "Runescape: Dragonwilds Scorned Wilderness Full Run",
-   "duration": 1435
+   "duration": 1435,
+   "author": "Sina A"
   },
   "WYqKsXTuqEc": {
    "id": "WYqKsXTuqEc",
@@ -85,7 +86,8 @@
     "dragonwilds raid full run"
    ],
    "title": "The ULTIMATE Scorned Wilderness Raid Guide | RuneScape: Dragonwilds 1.0! #runescapedragonwilds",
-   "duration": 799
+   "duration": 799,
+   "author": "Game Advisor"
   },
   "204hBIge5h0": {
    "id": "204hBIge5h0",
@@ -101,7 +103,7 @@
     "kuldra raid gameplay"
    ],
    "title": "Legacy World Record (9:37 ChiefWes) - Scorned Wilderness & Kuldra Speedrun | RS: Dragonwilds 1.0.0.6",
-   "author": "TigRS",
+   "author": "TigRS and wes",
    "duration": 579
   },
   "SmA7HV-ZlZ0": {
@@ -115,7 +117,8 @@
     "dragonwilds raid full run"
    ],
    "title": "RuneScape: Dragonwilds Scorned wilderness Walkthrough/Guide Part 1 of 2",
-   "duration": 2893
+   "duration": 2893,
+   "author": "BeamsOGaming"
   },
   "x908LHrcUtg": {
    "id": "x908LHrcUtg",
@@ -131,7 +134,8 @@
     "scorned wilderness walkthrough"
    ],
    "title": "The ONLY Kuldra Guide You'll Need RuneScape: Dragonwilds (Scorned Wilderness Complete Walkthrough)",
-   "duration": 1631
+   "duration": 1631,
+   "author": "Coryano"
   },
   "tXJFy-QkoBw": {
    "id": "tXJFy-QkoBw",
@@ -143,7 +147,8 @@
     "scorned wilderness walkthrough"
    ],
    "title": "RuneScape Dragonwilds: Scorned Wilderness Gear Guide",
-   "duration": 566
+   "duration": 566,
+   "author": "Primitive Nomad"
   },
   "7s3fgHwlRYA": {
    "id": "7s3fgHwlRYA",
@@ -162,7 +167,8 @@
     "kuldra speedrun"
    ],
    "title": "How to Beat Kuldra - Complete Raid Guide | Dragonwilds 1.0",
-   "duration": 1236
+   "duration": 1236,
+   "author": "SuperStooob"
   },
   "bJQqgsf2ikk": {
    "id": "bJQqgsf2ikk",
@@ -190,7 +196,8 @@
     "kuldra raid solo"
    ],
    "title": "Runescape Dragonwilds - Scorned Wilderness SOLO Raid Guide",
-   "duration": 3937
+   "duration": 3937,
+   "author": "Northforge"
   },
   "5vqcrsspAcE": {
    "id": "5vqcrsspAcE",
@@ -200,10 +207,12 @@
     "dragonwilds raid full run",
     "scorned wilderness raid",
     "scorned wilderness walkthrough",
-    "dragonwilds raid no commentary"
+    "dragonwilds raid no commentary",
+    "scorned wilderness solo"
    ],
    "title": "I Spent 100 Days in RuneScape Dragonwilds Scorned Wilderness... Here's What Happened!",
-   "duration": 4887
+   "duration": 4887,
+   "author": "Rised"
   },
   "1HqP4q2WERw": {
    "id": "1HqP4q2WERw",
@@ -260,7 +269,8 @@
     "dragonwilds kuldra first kill"
    ],
    "title": "RuneScape Dragon Wilds: How To Complete All Raid Puzzles (Guide)",
-   "duration": 1243
+   "duration": 1243,
+   "author": "Primitive Nomad"
   },
   "WpvNjqVmpVM": {
    "id": "WpvNjqVmpVM",
@@ -294,7 +304,8 @@
     "dragonwilds raid full run"
    ],
    "title": "Runescape Dragonwilds 1.0: FULL SCORNED WILDERNESS PLAYTHROUGH",
-   "duration": 13900
+   "duration": 13900,
+   "author": "Benny and the Chickenboy"
   },
   "k5a4WdqbpPs": {
    "id": "k5a4WdqbpPs",
@@ -304,7 +315,8 @@
     "scorned wilderness raid",
     "scorned wilderness walkthrough",
     "scorned wilderness solo",
-    "dragonwilds raid speedrun"
+    "dragonwilds raid speedrun",
+    "kuldra speedrun"
    ],
    "title": "Runescape: Dragonwilds: Scorned Wilderness Speedrun - 12 Minutes *UNPATCHED*",
    "duration": 527,
@@ -320,7 +332,8 @@
     "scorned wilderness walkthrough"
    ],
    "title": "How to Farm Discordant Residue EARLY | Scorned Wilderness – RuneScape Dragonwilds",
-   "duration": 252
+   "duration": 252,
+   "author": "RIOT GEAR GAMING"
   },
   "7XYvLtw4TS0": {
    "id": "7XYvLtw4TS0",
@@ -344,7 +357,8 @@
     "dragonwilds raid speedrun"
    ],
    "title": "RuneScape DragonWilds New raid skips found! Scorned wilderness Raid skips found after update 1.0.1!",
-   "duration": 894
+   "duration": 894,
+   "author": "Channel Xero"
   },
   "TkqrNQy8_CQ": {
    "id": "TkqrNQy8_CQ",
@@ -428,7 +442,8 @@
     "kuldra raid full run"
    ],
    "title": "Queen Kuldra Raid Full Guide — Quickest Run | RuneScape: Dragonwilds | Gelaham",
-   "duration": 2428
+   "duration": 2428,
+   "author": "Gelaham"
   },
   "6WEIHo7AUf0": {
    "id": "6WEIHo7AUf0",
@@ -575,7 +590,8 @@
     "dragonwilds raid no commentary"
    ],
    "title": "RuneScape Dragonwilds 1.0 Gameplay (No Commentary)",
-   "duration": 17708
+   "duration": 17708,
+   "author": "No Commentary Casas"
   },
   "5up2Jh2ZG34": {
    "id": "5up2Jh2ZG34",
@@ -587,7 +603,8 @@
     "dragonwilds kuldra first kill"
    ],
    "title": "Dragonwilds Kuldra solo boss fight no commentary",
-   "duration": 933
+   "duration": 933,
+   "author": "Hunterskills"
   },
   "xY4Ph8Zif6k": {
    "id": "xY4Ph8Zif6k",
@@ -597,7 +614,7 @@
     "dragonwilds raid full run"
    ],
    "title": "RuneScape: Dragonwilds How To Get Fire Cape (Complete Gameplay, No Commentary)",
-   "author": "More Coryano",
+   "author": "More Coryano and Coryano",
    "duration": 3755
   },
   "9AQrOYX103E": {
@@ -609,7 +626,8 @@
     "kuldra raid gameplay"
    ],
    "title": "[23 min] RuneScape Dragonwilds Raid 1 Full Run patch 1.0.1 (Heart skip and Poison skip)",
-   "duration": 1382
+   "duration": 1382,
+   "author": "loopuleasa"
   },
   "0QX-lwBsTzs": {
    "id": "0QX-lwBsTzs",
@@ -618,7 +636,8 @@
     "dragonwilds raid no commentary"
    ],
    "title": "Runescape Dragonwilds Kuldra Fight     no commentary",
-   "duration": 909
+   "duration": 909,
+   "author": "SeeThrough "
   },
   "08JUSshqMoo": {
    "id": "08JUSshqMoo",
@@ -627,7 +646,8 @@
     "dragonwilds raid no commentary"
    ],
    "title": "RuneScape: Dragonwilds Kuldra Final Boss Solo: Greataxe & Bow (No Commentary)",
-   "duration": 940
+   "duration": 940,
+   "author": "QUICK"
   },
   "BNrLFCloSfw": {
    "id": "BNrLFCloSfw",
@@ -641,7 +661,7 @@
     "dragonwilds kuldra skip"
    ],
    "title": "Runescape Dragonwilds | Kuldra Solo Walkthrough",
-   "duration": 1102,
+   "duration": 1020,
    "author": "Chickenboy"
   },
   "sG-Fu_CvvtY": {
@@ -664,7 +684,8 @@
     "dragonwilds raid no commentary"
    ],
    "title": "RuneScape: Dragonwilds fragments of ghornfell",
-   "duration": 1650
+   "duration": 1650,
+   "author": "kenny HD gaming no commentary"
   },
   "fO5YJeWqudE": {
    "id": "fO5YJeWqudE",
@@ -686,7 +707,8 @@
     "dragonwilds raid no commentary"
    ],
    "title": "RuneScape: Dragonwilds kuldra raid boss",
-   "duration": 954
+   "duration": 954,
+   "author": "kenny HD gaming no commentary"
   },
   "fdbr7wOys3c": {
    "id": "fdbr7wOys3c",
@@ -756,7 +778,8 @@
     "dragonwilds raid full run"
    ],
    "title": "RuneScape Dragon Wilds: Complete Fight Cave Guide (Fire Cape)",
-   "duration": 1304
+   "duration": 1304,
+   "author": "Primitive Nomad"
   },
   "odV1jVa65mU": {
    "id": "odV1jVa65mU",
@@ -768,7 +791,8 @@
     "dragonwilds raid full run"
    ],
    "title": "RuneScape Dragonwilds: Scorned Wilderness & Raid (Review)",
-   "duration": 1504
+   "duration": 1504,
+   "author": "Primitive Nomad"
   },
   "osZKPmm848U": {
    "id": "osZKPmm848U",
@@ -779,7 +803,8 @@
     "dragonwilds kuldra first kill"
    ],
    "title": "RuneScape Dragonwilds: Regicide Quest Guide – Quick & Easy for All Players!",
-   "duration": 3824
+   "duration": 3824,
+   "author": "RuneScape Universe"
   },
   "C_l5QfDmf6k": {
    "id": "C_l5QfDmf6k",
@@ -790,7 +815,8 @@
     "scorned wilderness solo"
    ],
    "title": "RuneScape Dragonwilds: Scorned Wilderness Preparation Guide! (1.0 & Kuldra)",
-   "duration": 901
+   "duration": 901,
+   "author": "Primitive Nomad"
   },
   "o-MCkMeNL1Q": {
    "id": "o-MCkMeNL1Q",
@@ -801,14 +827,16 @@
     "scorned wilderness solo"
    ],
    "title": "RuneScape Dragon Wilds: How To Craft Every New Resource! (Scorned Wilderness)",
-   "duration": 257
+   "duration": 257,
+   "author": "Primitive Nomad"
   },
   "qC2-PBENC2E": {
    "id": "qC2-PBENC2E",
    "firstSeen": "2026-11-03T06:47:15.839Z",
    "queries": [
     "scorned wilderness raid",
-    "scorned wilderness walkthrough"
+    "scorned wilderness walkthrough",
+    "scorned wilderness solo"
    ],
    "title": "Runescape Dragonwilds Scorned Wilderness Raid Cheese [7 MINUTE RAIDS]",
    "author": "Cow Wizard",
@@ -823,7 +851,8 @@
     "scorned wilderness walkthrough"
    ],
    "title": "Scorned Wilderness - Narrative Trailer | RuneScape: Dragonwilds",
-   "duration": 124
+   "duration": 124,
+   "author": "RuneScape: Dragonwilds"
   },
   "hs-v7QO7vao": {
    "id": "hs-v7QO7vao",
@@ -834,7 +863,8 @@
     "scorned wilderness walkthrough"
    ],
    "title": "SCORNED WILDERNESS RAID | Post patch QUICKRUN guide",
-   "duration": 1326
+   "duration": 1326,
+   "author": "ShootBlood"
   },
   "zNaUuRbbQPM": {
    "id": "zNaUuRbbQPM",
@@ -845,7 +875,8 @@
     "scorned wilderness full run"
    ],
    "title": "Scorned Wilderness Raid Boss KULDRA!! Easy Mode!!",
-   "duration": 1040
+   "duration": 1040,
+   "author": "Bo3TV_RS"
   },
   "1Pzu9MOwENY": {
    "id": "1Pzu9MOwENY",
@@ -857,7 +888,8 @@
     "scorned wilderness full run"
    ],
    "title": "RuneScape: Dragonwilds - Scorned Wilderness Fragments of Ghornfell Guide",
-   "duration": 519
+   "duration": 519,
+   "author": "Jacob Fox"
   },
   "WIOk5DxP7kA": {
    "id": "WIOk5DxP7kA",
@@ -1068,7 +1100,8 @@
     "dragonwilds raid speedrun",
     "dragonwilds kuldra skip",
     "dragonwilds raid full run",
-    "kuldra raid gameplay"
+    "kuldra raid gameplay",
+    "dragonwilds kuldra first kill"
    ],
    "title": "I Broke the New Dragonwilds Raid | Kuldra Guide + Tricks",
    "author": "CrossRSDW",
@@ -1081,7 +1114,8 @@
     "kuldra raid solo"
    ],
    "title": "RuneScape: DragonWilds Kuldra Final Boss Solo Kill",
-   "duration": 774
+   "duration": 774,
+   "author": "TarenTheTurtle"
   },
   "6N3NwYA5Zh0": {
    "id": "6N3NwYA5Zh0",
@@ -1097,7 +1131,8 @@
    "id": "hDT7if6f9Ug",
    "firstSeen": "2026-11-03T06:49:16.895Z",
    "queries": [
-    "dragonwilds raid speedrun"
+    "dragonwilds raid speedrun",
+    "scorned wilderness solo"
    ],
    "title": "RS Dragonwilds: Scorned Wilderness Raid Speedrun in 5:02 (Patched)",
    "duration": 348,
@@ -1168,7 +1203,8 @@
    "queries": [
     "kuldra raid gameplay",
     "dragonwilds kuldra skip",
-    "kuldra raid full run"
+    "kuldra raid full run",
+    "kuldra speedrun"
    ],
    "title": " Fastest Kuldra Run Runescape Dragonwilds post Patch 1.0.1 Raid skips!",
    "author": "That's So Wild Gaming",
@@ -1391,7 +1427,8 @@
     "dragonwilds raid no commentary"
    ],
    "title": "RuneScape: Dragonwilds kuldra raid boss fight again",
-   "duration": 952
+   "duration": 952,
+   "author": "kenny HD gaming no commentary"
   },
   "B4t1Vrgt6I8": {
    "id": "B4t1Vrgt6I8",
@@ -1400,7 +1437,8 @@
     "dragonwilds raid no commentary"
    ],
    "title": "RuneScape: Dragonwilds kuldra raid boss fight",
-   "duration": 1080
+   "duration": 1080,
+   "author": "kenny HD gaming no commentary"
   },
   "xKonn3vNEpg": {
    "id": "xKonn3vNEpg",
@@ -1756,10 +1794,11 @@
    "id": "HMlDp2GMmXk",
    "firstSeen": "2026-11-05T14:57:17.276Z",
    "queries": [
-    "dragonwilds raid full run"
+    "dragonwilds raid full run",
+    "dragonwilds kuldra first kill"
    ],
    "title": "RuneScape Dragonwilds: Complete Guide To Progression",
-   "author": "Primitive Nomad",
+   "author": "Primitive Nomad and RuneScape: Dragonwilds",
    "duration": 647
   },
   "SlHV_KRx7lQ": {
@@ -1923,7 +1962,8 @@
     "kuldra raid solo"
    ],
    "title": "Dragonwilds kuldra full fight SOLO",
-   "duration": 900
+   "duration": 900,
+   "author": "Matthew Walsh"
   },
   "rZTGVY3qRrA": {
    "id": "rZTGVY3qRrA",
@@ -2129,7 +2169,8 @@
    "queries": [
     "dragonwilds kuldra skip",
     "kuldra raid gameplay",
-    "kuldra raid 1.0.1.2"
+    "kuldra raid 1.0.1.2",
+    "kuldra raid full run"
    ],
    "title": "New (Alternate) FULL Kuldra Raid SKIP 1.0.2 (Unedited)",
    "author": "FastTipsGaming",
@@ -2272,7 +2313,8 @@
     "dragonwilds raid no commentary"
    ],
    "title": "RuneScape: Dragonwilds kuldra's lair",
-   "duration": 919
+   "duration": 919,
+   "author": "kenny HD gaming no commentary"
   },
   "14iJqjPKCEA": {
    "id": "14iJqjPKCEA",
@@ -2381,7 +2423,8 @@
     "dragonwilds raid no commentary"
    ],
    "title": "Runescape Dragonwilds Raid Complete Solo Guide",
-   "duration": 5128
+   "duration": 5128,
+   "author": "Gamer_By_Choice"
   },
   "HFT8C-LUms4": {
    "id": "HFT8C-LUms4",
@@ -2452,6 +2495,66 @@
    ],
    "title": "Runescape Dragonwilds - All Bosses (Solo, Melee, No Damage) (Outdated)",
    "duration": 3468
+  },
+  "WszLkzU2K4U": {
+   "id": "WszLkzU2K4U",
+   "firstSeen": "2026-11-22T14:53:27.431Z",
+   "queries": [
+    "kuldra speedrun"
+   ],
+   "title": "RuneScape: Dragonwilds 12:30 Kuldra Run",
+   "author": "Zlayxa",
+   "duration": 750
+  },
+  "lTG0EuXuqDs": {
+   "id": "lTG0EuXuqDs",
+   "firstSeen": "2026-11-22T14:53:27.431Z",
+   "queries": [
+    "kuldra speedrun"
+   ],
+   "title": "Jagex Patched the Raid Skip… So I Broke it Again",
+   "author": "CrossRSDW",
+   "duration": 327
+  },
+  "q1mvFUqCW34": {
+   "id": "q1mvFUqCW34",
+   "firstSeen": "2026-11-22T14:53:29.364Z",
+   "queries": [
+    "scorned wilderness solo"
+   ],
+   "title": "Can a Solo Player Survive the Scorned Wilderness Raid? Live Attempt 🌋",
+   "author": "Leinhto",
+   "duration": 939
+  },
+  "RfeJqHBpk9w": {
+   "id": "RfeJqHBpk9w",
+   "firstSeen": "2026-11-22T14:53:29.364Z",
+   "queries": [
+    "scorned wilderness solo"
+   ],
+   "title": "Runescape: Dragonwilds - Can a Solo Player Survive the Scorned Wilderness Raid? Live Attempt 🌋",
+   "author": "Leinhto",
+   "duration": 9201
+  },
+  "gdHgiFT6Izs": {
+   "id": "gdHgiFT6Izs",
+   "firstSeen": "2026-11-22T14:53:29.364Z",
+   "queries": [
+    "scorned wilderness solo"
+   ],
+   "title": "Can a Solo Player Survive the Scorned Wilderness Raid? Live Attempt 🌋",
+   "author": "Leinhto",
+   "duration": 4066
+  },
+  "gzmIs7QCP2o": {
+   "id": "gzmIs7QCP2o",
+   "firstSeen": "2026-11-22T14:53:34.015Z",
+   "queries": [
+    "dragonwilds kuldra skip"
+   ],
+   "title": "Runescape Dragonwilds - Kuldra Cheese",
+   "author": "TFFT_078",
+   "duration": 219
   }
  }
 }
