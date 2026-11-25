@@ -1573,11 +1573,11 @@
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "deferredAt": "2026-11-23T18:44:12.190Z",
+   "deferredAt": "2026-11-25T17:37:47.323Z",
    "lastError": "ERROR: [youtube] 3Tut7hgfPNI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
    "title": "RuneScape Dragonwilds - Solo Kuldra Grind",
-   "botBlocks": 9,
-   "retryAfter": "2026-11-24T18:44:12.190Z"
+   "botBlocks": 10,
+   "retryAfter": "2026-11-26T17:37:47.323Z"
   },
   "A6q-3eHUPtI": {
    "status": "deferred",
@@ -1603,31 +1603,31 @@
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "deferredAt": "2026-11-23T18:44:11.494Z",
+   "deferredAt": "2026-11-25T17:37:48.924Z",
    "lastError": "ERROR: [youtube] 5u3CQ034wSY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
    "title": "Runescape DragonWilds Solo Kuldra Challange Kill w/T8 Wooden Training Sword (NO CHESTPLATE&LEGS)",
-   "botBlocks": 9,
-   "retryAfter": "2026-11-24T18:44:11.494Z"
+   "botBlocks": 10,
+   "retryAfter": "2026-11-26T17:37:48.924Z"
   },
   "45256p4Dnt8": {
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "deferredAt": "2026-11-23T18:44:09.817Z",
+   "deferredAt": "2026-11-25T17:37:47.205Z",
    "lastError": "ERROR: [youtube] 45256p4Dnt8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
    "title": "Speed running Scorned Wilderness and Kuldra raid! Fight cave? #osrs #rs3",
-   "botBlocks": 8,
-   "retryAfter": "2026-11-24T18:44:09.817Z"
+   "botBlocks": 9,
+   "retryAfter": "2026-11-26T17:37:47.205Z"
   },
   "7_htSZ7NtLA": {
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "deferredAt": "2026-11-23T18:44:13.163Z",
+   "deferredAt": "2026-11-25T17:37:48.937Z",
    "lastError": "ERROR: [youtube] 7_htSZ7NtLA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
    "title": "RuneScape: Dragonwilds_Kuldra Solo",
-   "botBlocks": 8,
-   "retryAfter": "2026-11-24T18:44:13.163Z"
+   "botBlocks": 9,
+   "retryAfter": "2026-11-26T17:37:48.937Z"
   },
   "9_Y197bPwA4": {
    "status": "deferred",
