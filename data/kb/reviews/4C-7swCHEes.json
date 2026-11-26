@@ -1,11 +1,11 @@
 {
  "id": "4C-7swCHEes",
  "url": "https://www.youtube.com/watch?v=4C-7swCHEes",
- "reviewedAt": "2026-11-03T21:46:13.104Z",
+ "reviewedAt": "2026-11-26T17:19:17.162Z",
  "pipelineVersion": 1,
- "level": "full",
+ "level": "light",
  "status": "error",
- "error": "ERROR: [youtube] 4C-7swCHEes: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "error": "ERROR: [youtube] 4C-7swCHEes: This content isn’t available.",
  "rateLimited": false,
  "title": "RuneScape: Dragonwilds kuldra raid boss"
 }

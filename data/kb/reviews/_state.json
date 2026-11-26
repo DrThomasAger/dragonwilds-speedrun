@@ -440,15 +440,12 @@
    "title": "Runescape: Dragonwilds - Scorned Wilderness Cataclysm Keep Guide"
   },
   "7drO4EDaJTo": {
-   "status": "deferred",
-   "level": "full",
-   "reviewedAt": "2026-11-03T21:45:00.547Z",
-   "attempts": 2,
-   "lastError": "ERROR: [youtube] 7drO4EDaJTo: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "title": "RuneScape Dragonwilds 1.0 - Kuldra Is EASY! Raid Boss Guide",
-   "botBlocks": 1,
-   "retryAfter": "2026-11-04T15:37:24.349Z",
-   "deferredAt": "2026-11-04T14:52:24.349Z"
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:47.657Z",
+   "attempts": 3,
+   "lastError": "ERROR: [youtube] 7drO4EDaJTo: This content isn’t available.",
+   "title": "RuneScape Dragonwilds 1.0 - Kuldra Is EASY! Raid Boss Guide"
   },
   "7s3fgHwlRYA": {
    "status": "error",
@@ -476,10 +473,10 @@
   },
   "bFOWvp4ZkPA": {
    "status": "error",
-   "level": "full",
-   "reviewedAt": "2026-11-03T21:45:05.452Z",
-   "attempts": 2,
-   "lastError": "ERROR: [youtube] bFOWvp4ZkPA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:50.013Z",
+   "attempts": 3,
+   "lastError": "ERROR: [youtube] bFOWvp4ZkPA: This content isn’t available.",
    "title": "How to Defeat Kuldra – Final Boss Guide | RuneScape: Dragonwilds"
   },
   "C_l5QfDmf6k": {
@@ -604,58 +601,57 @@
   "uD8WCTsFiyY": {
    "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T21:45:10.437Z",
-   "attempts": 0,
-   "transcriptRetry": true,
-   "transcriptAttempts": 1,
+   "reviewedAt": "2026-11-26T17:18:54.901Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] uD8WCTsFiyY: This content isn’t available.",
    "title": "Queen Kuldra Raid Full Guide — Quickest Run | RuneScape: Dragonwilds | Gelaham"
   },
   "WYqKsXTuqEc": {
    "status": "error",
-   "level": "full",
-   "reviewedAt": "2026-11-03T21:45:17.351Z",
-   "attempts": 2,
-   "lastError": "ERROR: [youtube] WYqKsXTuqEc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:54.958Z",
+   "attempts": 3,
+   "lastError": "ERROR: [youtube] WYqKsXTuqEc: This content isn’t available.",
    "title": "The ULTIMATE Scorned Wilderness Raid Guide | RuneScape: Dragonwilds 1.0! #runescapedragonwilds"
   },
   "x908LHrcUtg": {
    "status": "error",
-   "level": "full",
-   "reviewedAt": "2026-11-03T21:45:24.049Z",
-   "attempts": 2,
-   "lastError": "ERROR: [youtube] x908LHrcUtg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:57.471Z",
+   "attempts": 3,
+   "lastError": "ERROR: [youtube] x908LHrcUtg: This content isn’t available.",
    "title": "The ONLY Kuldra Guide You'll Need RuneScape: Dragonwilds (Scorned Wilderness Complete Walkthrough)"
   },
   "ynjeXmaFyVU": {
    "status": "error",
-   "level": "full",
-   "reviewedAt": "2026-11-03T21:45:30.482Z",
-   "attempts": 2,
-   "lastError": "ERROR: [youtube] ynjeXmaFyVU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:19:00.046Z",
+   "attempts": 3,
+   "lastError": "ERROR: [youtube] ynjeXmaFyVU: This content isn’t available.",
    "title": "The BEST Gear Before Scorned Wilderness! | Dragonwilds Best-in-Slot Progression Guide"
   },
   "_m9p6hKg0g0": {
    "status": "error",
-   "level": "full",
-   "reviewedAt": "2026-11-03T21:45:45.601Z",
-   "attempts": 2,
-   "lastError": "ERROR: [youtube] _m9p6hKg0g0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:19:04.846Z",
+   "attempts": 3,
+   "lastError": "ERROR: [youtube] _m9p6hKg0g0: This content isn’t available.",
    "title": "Runescape Dragonwilds: Scorned Wilderness RAID! Kuldra easy kill!"
   },
   "0EyC3Sk7M-A": {
    "status": "error",
-   "level": "full",
-   "reviewedAt": "2026-11-03T21:46:00.420Z",
-   "attempts": 2,
-   "lastError": "ERROR: [youtube] 0EyC3Sk7M-A: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:19:07.699Z",
+   "attempts": 3,
+   "lastError": "ERROR: [youtube] 0EyC3Sk7M-A: This content isn’t available.",
    "title": "Defeat Kuldra in Runescape Dragonwilds!"
   },
   "4C-7swCHEes": {
    "status": "error",
-   "level": "full",
-   "reviewedAt": "2026-11-03T21:46:13.104Z",
-   "attempts": 2,
-   "lastError": "ERROR: [youtube] 4C-7swCHEes: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:19:17.162Z",
+   "attempts": 3,
+   "lastError": "ERROR: [youtube] 4C-7swCHEes: This content isn’t available.",
    "title": "RuneScape: Dragonwilds kuldra raid boss"
   },
   "68ovg9A_PpA": {
@@ -1212,38 +1208,33 @@
   "wvmXHt_gcws": {
    "status": "ok",
    "level": "full",
-   "reviewedAt": "2026-11-03T21:43:38.025Z",
-   "attempts": 0,
-   "transcriptRetry": true,
-   "transcriptAttempts": 1,
-   "title": "RuneScape: Dragonwilds Kuldra Solo",
-   "deferredAt": "2026-11-06T14:36:41.285Z",
-   "lastError": "ERROR: [youtube] wvmXHt_gcws: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "botBlocks": 3,
-   "retryAfter": "2026-11-06T17:36:41.285Z"
+   "reviewedAt": "2026-11-26T17:18:32.276Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] wvmXHt_gcws: This content isn’t available.",
+   "title": "RuneScape: Dragonwilds Kuldra Solo"
   },
   "_HjxuyYWoHQ": {
    "status": "error",
-   "level": "full",
-   "reviewedAt": "2026-11-03T21:45:37.533Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] _HjxuyYWoHQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:19:02.753Z",
+   "attempts": 2,
+   "lastError": "ERROR: [youtube] _HjxuyYWoHQ: This content isn’t available.",
    "title": "RuneScape: Dragonwilds kuldra raid boss fight again"
   },
   "-tUewC-WIdg": {
    "status": "error",
-   "level": "full",
-   "reviewedAt": "2026-11-03T21:45:52.983Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] -tUewC-WIdg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:19:07.178Z",
+   "attempts": 2,
+   "lastError": "ERROR: [youtube] -tUewC-WIdg: This content isn’t available.",
    "title": "KULDRA KILL (Mage) | RuneScape: Dragonwilds"
   },
   "14iJqjPKCEA": {
    "status": "error",
-   "level": "full",
-   "reviewedAt": "2026-11-03T21:46:06.626Z",
-   "attempts": 1,
-   "lastError": "ERROR: [youtube] 14iJqjPKCEA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:19:09.751Z",
+   "attempts": 2,
+   "lastError": "ERROR: [youtube] 14iJqjPKCEA: This content isn’t available.",
    "title": "The Fastest Possible Kuldra Raid With Boss Skips"
   },
   "a7iUnju_Vfk": {
@@ -1468,53 +1459,43 @@
    "title": "RuneScape Dragonwilds: Dragonwilds scorned wilderness  - Fragments of ghornfell messy walkthrough"
   },
   "pOhcjk1BAhM": {
-   "status": "deferred",
+   "status": "error",
    "level": "light",
-   "attempts": 0,
-   "deferredAt": "2026-11-07T13:32:04.426Z",
-   "lastError": "ERROR: [youtube] pOhcjk1BAhM: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "title": "Dragonwilds Raid Run! First Ever Attempt!",
-   "botBlocks": 4,
-   "retryAfter": "2026-11-07T19:32:04.426Z"
+   "reviewedAt": "2026-11-26T17:18:24.994Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] pOhcjk1BAhM: This content isn’t available.",
+   "title": "Dragonwilds Raid Run! First Ever Attempt!"
   },
   "APwjC7fgnpg": {
-   "status": "deferred",
+   "status": "error",
    "level": "light",
-   "attempts": 0,
-   "deferredAt": "2026-11-05T14:57:30.640Z",
-   "lastError": "ERROR: [youtube] APwjC7fgnpg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "title": "Runescape Dragonwilds raid and Kuldra full run solo",
-   "botBlocks": 2,
-   "retryAfter": "2026-11-05T16:27:30.640Z"
+   "reviewedAt": "2026-11-26T17:18:42.448Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] APwjC7fgnpg: This content isn’t available.",
+   "title": "Runescape Dragonwilds raid and Kuldra full run solo"
   },
   "xv55VjOI9ws": {
-   "status": "deferred",
+   "status": "error",
    "level": "light",
-   "attempts": 0,
-   "botBlocks": 1,
-   "retryAfter": "2026-11-05T15:42:30.500Z",
-   "deferredAt": "2026-11-05T14:57:30.500Z",
-   "lastError": "ERROR: [youtube] xv55VjOI9ws: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "reviewedAt": "2026-11-26T17:18:34.897Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] xv55VjOI9ws: This content isn’t available.",
    "title": "ISLAND HOPPING // BROKEN 6:58 UNPATCHED KULDRA SPEEDRUN"
   },
   "M2agf-VB6vg": {
-   "status": "deferred",
+   "status": "error",
    "level": "light",
-   "attempts": 0,
-   "deferredAt": "2026-11-07T13:32:04.260Z",
-   "lastError": "ERROR: [youtube] M2agf-VB6vg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "title": "13min KULDRA SOLO RUN!",
-   "botBlocks": 2,
-   "retryAfter": "2026-11-07T15:02:04.260Z"
+   "reviewedAt": "2026-11-26T17:18:20.207Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] M2agf-VB6vg: This content isn’t available.",
+   "title": "13min KULDRA SOLO RUN!"
   },
   "WszLkzU2K4U": {
-   "status": "deferred",
+   "status": "error",
    "level": "light",
-   "attempts": 0,
-   "botBlocks": 1,
-   "retryAfter": "2026-11-06T15:21:41.413Z",
-   "deferredAt": "2026-11-06T14:36:41.413Z",
-   "lastError": "ERROR: [youtube] WszLkzU2K4U: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "reviewedAt": "2026-11-26T17:18:30.089Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] WszLkzU2K4U: This content isn’t available.",
    "title": "RuneScape: Dragonwilds 12:30 Kuldra Run"
   },
   "b97w7z05QnA": {
@@ -1532,24 +1513,20 @@
    "title": "RuneScape Dragonwilds: Solo Kuldra - No Skips (Scorned Wilderness Raid)"
   },
   "BLE256IHblE": {
-   "status": "deferred",
+   "status": "error",
    "level": "light",
-   "attempts": 0,
-   "deferredAt": "2026-11-11T14:42:52.057Z",
-   "lastError": "ERROR: [youtube] BLE256IHblE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "title": "DRAGONWILDS - 13:30 KULDRA + SCORNED WILDERNESS (CASUAL RUN)",
-   "botBlocks": 3,
-   "retryAfter": "2026-11-11T17:42:52.057Z"
+   "reviewedAt": "2026-11-26T17:18:10.669Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] BLE256IHblE: This content isn’t available.",
+   "title": "DRAGONWILDS - 13:30 KULDRA + SCORNED WILDERNESS (CASUAL RUN)"
   },
   "LqWukJK43TA": {
-   "status": "deferred",
+   "status": "error",
    "level": "light",
-   "attempts": 0,
-   "deferredAt": "2026-11-11T14:42:53.809Z",
-   "lastError": "ERROR: [youtube] LqWukJK43TA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "title": "RuneScape: Dragonwilds Kuldra Solo Run",
-   "botBlocks": 2,
-   "retryAfter": "2026-11-11T16:12:53.809Z"
+   "reviewedAt": "2026-11-26T17:18:18.026Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] LqWukJK43TA: This content isn’t available.",
+   "title": "RuneScape: Dragonwilds Kuldra Solo Run"
   },
   "8NZUgtW6rkQ": {
    "status": "unavailable",
@@ -1560,14 +1537,12 @@
    "title": "Defeating Kuldra in 15mins Runescape Dragonwilds"
   },
   "eo9CkrlBNIw": {
-   "status": "deferred",
+   "status": "error",
    "level": "light",
-   "attempts": 0,
-   "deferredAt": "2026-11-11T14:42:52.502Z",
-   "lastError": "ERROR: [youtube] eo9CkrlBNIw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "title": "RuneScape Dragonwilds: Solo Kuldra Speedrun [6:45]",
-   "botBlocks": 2,
-   "retryAfter": "2026-11-11T16:12:52.502Z"
+   "reviewedAt": "2026-11-26T17:18:15.179Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] eo9CkrlBNIw: This content isn’t available.",
+   "title": "RuneScape Dragonwilds: Solo Kuldra Speedrun [6:45]"
   },
   "3Tut7hgfPNI": {
    "status": "deferred",
@@ -1580,24 +1555,20 @@
    "retryAfter": "2026-11-26T17:37:47.323Z"
   },
   "A6q-3eHUPtI": {
-   "status": "deferred",
+   "status": "error",
    "level": "light",
-   "attempts": 0,
-   "deferredAt": "2026-11-24T18:17:24.522Z",
-   "lastError": "ERROR: [youtube] A6q-3eHUPtI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "title": "Kuldra Speed Run Runescape Dragonwilds",
-   "botBlocks": 5,
-   "retryAfter": "2026-11-25T06:17:24.522Z"
+   "reviewedAt": "2026-11-26T17:18:07.903Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] A6q-3eHUPtI: This content isn’t available.",
+   "title": "Kuldra Speed Run Runescape Dragonwilds"
   },
   "bdI9-orUvEY": {
-   "status": "deferred",
+   "status": "error",
    "level": "light",
-   "attempts": 0,
-   "deferredAt": "2026-11-24T18:17:26.275Z",
-   "lastError": "ERROR: [youtube] bdI9-orUvEY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "title": "Speed running KULDRA, help me pass the time!",
-   "botBlocks": 2,
-   "retryAfter": "2026-11-24T19:47:26.275Z"
+   "reviewedAt": "2026-11-26T17:18:10.223Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] bdI9-orUvEY: This content isn’t available.",
+   "title": "Speed running KULDRA, help me pass the time!"
   },
   "5u3CQ034wSY": {
    "status": "deferred",
@@ -1630,24 +1601,300 @@
    "retryAfter": "2026-11-26T17:37:48.937Z"
   },
   "9_Y197bPwA4": {
-   "status": "deferred",
+   "status": "error",
    "level": "light",
-   "attempts": 0,
-   "deferredAt": "2026-11-24T18:17:24.612Z",
-   "lastError": "ERROR: [youtube] 9_Y197bPwA4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "title": "RuneScape: Dragonwilds - Agility Update (Gold Medal Run, All Course Locations, & Scorned Wilderness)",
-   "botBlocks": 5,
-   "retryAfter": "2026-11-25T06:17:24.612Z"
+   "reviewedAt": "2026-11-26T17:18:05.649Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] 9_Y197bPwA4: This content isn’t available.",
+   "title": "RuneScape: Dragonwilds - Agility Update (Gold Medal Run, All Course Locations, & Scorned Wilderness)"
   },
   "Adf65cHhKwk": {
-   "status": "deferred",
+   "status": "error",
    "level": "light",
-   "attempts": 0,
-   "deferredAt": "2026-11-24T18:17:26.612Z",
-   "lastError": "ERROR: [youtube] Adf65cHhKwk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-   "title": "RuneScape DRAGONWILDS  / FULL SCORNED WILDERNESS RUN / DRAGON PLATEBODY SOON??",
-   "botBlocks": 3,
-   "retryAfter": "2026-11-24T21:17:26.612Z"
+   "reviewedAt": "2026-11-26T17:18:40.010Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] Adf65cHhKwk: This content isn’t available.",
+   "title": "RuneScape DRAGONWILDS  / FULL SCORNED WILDERNESS RUN / DRAGON PLATEBODY SOON??"
+  },
+  "2A3-KabPLxU": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:05.649Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] 2A3-KabPLxU: This content isn’t available.",
+   "title": "Runescape Dragonwilds Kuldra speed run 1"
+  },
+  "ah2uk4q1KVw": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:08.357Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] ah2uk4q1KVw: This content isn’t available.",
+   "title": "RuneScape: Dragonwilds kuldra solo"
+  },
+  "EC48J7Tx6J4": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:12.761Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] EC48J7Tx6J4: This content isn’t available.",
+   "title": "Speed running KULDRA, help me pass the time!"
+  },
+  "EFFiwe6rrlI": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:13.036Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] EFFiwe6rrlI: This content isn’t available.",
+   "title": "Speed running KULDRA"
+  },
+  "FxnQ39Xzdhw": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:15.543Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] FxnQ39Xzdhw: This content isn’t available.",
+   "title": "RuneScape: Dragonwilds_sub 15 min full raid run"
+  },
+  "hDWArOambLY": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:17.735Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] hDWArOambLY: This content isn’t available.",
+   "title": "Raid Rerun Speedrun | RuneScape: Dragonwilds #200"
+  },
+  "mdwDaRj889w": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:20.354Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] mdwDaRj889w: This content isn’t available.",
+   "title": "RuneScape: Dragonwilds kuldra solo first attempt"
+  },
+  "mtSM06FEliU": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:22.571Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] mtSM06FEliU: This content isn’t available.",
+   "title": "Hard Difficulty Solo Kuldra / DragonWilds Review After"
+  },
+  "nh3DQ2ODfsE": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:22.819Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] nh3DQ2ODfsE: This content isn’t available.",
+   "title": "RuneScape Dragonwilds: Solo Kuldra Speedrun [7:15]"
+  },
+  "PU8woWC6fos": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:25.014Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] PU8woWC6fos: This content isn’t available.",
+   "title": "Kuldra speed run, no skips"
+  },
+  "q2swnvvkbTs": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:27.630Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] q2swnvvkbTs: This content isn’t available.",
+   "title": "KULDRA SOLO IN UNDER 3 MINUTES Runescape Dragonwilds 1.0"
+  },
+  "q1mvFUqCW34": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:27.560Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] q1mvFUqCW34: This content isn’t available.",
+   "title": "Can a Solo Player Survive the Scorned Wilderness Raid? Live Attempt 🌋"
+  },
+  "qxVf21XQxsw": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:29.974Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] qxVf21XQxsw: This content isn’t available.",
+   "title": "KULDRA RAID SUB 20! 19 MIN 24SEC"
+  },
+  "XnNOK74eDiY": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:32.514Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] XnNOK74eDiY: This content isn’t available.",
+   "title": "RuneScape DRAGONWILDS / SHORT STREAM / SCORNED WILDERNESS RUN"
+  },
+  "xx0vKHteU8o": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:35.133Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] xx0vKHteU8o: This content isn’t available.",
+   "title": "RuneScape: Dragonwilds Kuldra Solo"
+  },
+  "zblPBXFES0E": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:37.628Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] zblPBXFES0E: This content isn’t available.",
+   "title": "Speed running KULDRA"
+  },
+  "y4kwQBC0sMg": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:37.319Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] y4kwQBC0sMg: This content isn’t available.",
+   "title": "Runescape Dragonwilds Kuldra raid Speed Run!!!"
+  },
+  "GzTp4J7E8b4": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:39.987Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] GzTp4J7E8b4: This content isn’t available.",
+   "title": "Can a Solo Player Survive the Scorned Wilderness Raid? Live Attempt 🌋"
+  },
+  "gdHgiFT6Izs": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:42.729Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] gdHgiFT6Izs: This content isn’t available.",
+   "title": "Can a Solo Player Survive the Scorned Wilderness Raid? Live Attempt 🌋"
+  },
+  "McETm8CJbWg": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:44.820Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] McETm8CJbWg: This content isn’t available.",
+   "title": "RuneScape Dragonwilds - [Part 20] Solo Run (Entering The Scorned Wilderness In The 1.0 Release)"
+  },
+  "pfnpOpK8j4I": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:45.183Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] pfnpOpK8j4I: This content isn’t available.",
+   "title": "RuneScape DRAGONWILDS / SCORNED WILDERNESS RUN!"
+  },
+  "RfeJqHBpk9w": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:47.593Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] RfeJqHBpk9w: This content isn’t available.",
+   "title": "Runescape: Dragonwilds - Can a Solo Player Survive the Scorned Wilderness Raid? Live Attempt 🌋"
+  },
+  "aoh5tsGbApk": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:50.003Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] aoh5tsGbApk: This content isn’t available.",
+   "title": "Kuldra Guide"
+  },
+  "Rkwq5WUQUHU": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:52.379Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] Rkwq5WUQUHU: This content isn’t available.",
+   "title": "Where To Go From Fragments Of Ghornfell - Quick Guide - Scorned Wilderness"
+  },
+  "TpWwN2E1IwE": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:52.538Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] TpWwN2E1IwE: This content isn’t available.",
+   "title": "How to Actually Full Clear Kuldra Raid Guide (No Skips) "
+  },
+  "xT0b-uO_5Mg": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:18:57.538Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] xT0b-uO_5Mg: This content isn’t available.",
+   "title": "Runescape Dragonwilds - How to get to the Scorned Wilderness"
+  },
+  "_-aLNeawwik": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:19:00.124Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] _-aLNeawwik: This content isn’t available.",
+   "title": "Running Kuldra"
+  },
+  "_7KqY_gicLY": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:19:02.375Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] _7KqY_gicLY: This content isn’t available.",
+   "title": "RUNESCAPE DRAGONWILDS | SCORNED WILDERNESS | KULDRA THE RAID BOSS | PART 3/3"
+  },
+  "-1oT_ZORBLs": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:19:05.091Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] -1oT_ZORBLs: This content isn’t available.",
+   "title": "DIVING INTO THE SCORNED WILDERNESS!! (Live Stream)"
+  },
+  "1QXIJMi5vis": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:19:09.960Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] 1QXIJMi5vis: This content isn’t available.",
+   "title": "RuneScape: Dragonwilds Kuldra Raid"
+  },
+  "2LdTDDbEtWs": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:19:12.377Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] 2LdTDDbEtWs: This content isn’t available.",
+   "title": "First Kuldra Kill Dragonwilds"
+  },
+  "2IldgfTNkGo": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:19:12.373Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] 2IldgfTNkGo: This content isn’t available.",
+   "title": "Exploring Scorned Wilderness #3 | Runescape Dragonwilds"
+  },
+  "3-LAe-3Jons": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:19:14.661Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] 3-LAe-3Jons: This content isn’t available.",
+   "title": "RuneScape Dragonwilds | Kuldra Final Boss Fight"
+  },
+  "3P5t0O8WBQU": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:19:14.887Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] 3P5t0O8WBQU: This content isn’t available.",
+   "title": "Runescape Dragonwilds - Kuldra Raid, beating the 5 headed dragon - PS5"
+  },
+  "4RnZgkMVbco": {
+   "status": "error",
+   "level": "light",
+   "reviewedAt": "2026-11-26T17:19:17.429Z",
+   "attempts": 1,
+   "lastError": "ERROR: [youtube] 4RnZgkMVbco: This content isn’t available.",
+   "title": "RuneScape: Dragonwilds kuldra"
   }
  }
 }

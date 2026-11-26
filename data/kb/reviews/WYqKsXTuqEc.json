@@ -1,11 +1,11 @@
 {
  "id": "WYqKsXTuqEc",
  "url": "https://www.youtube.com/watch?v=WYqKsXTuqEc",
- "reviewedAt": "2026-11-03T21:45:17.351Z",
+ "reviewedAt": "2026-11-26T17:18:54.958Z",
  "pipelineVersion": 1,
- "level": "full",
+ "level": "light",
  "status": "error",
- "error": "ERROR: [youtube] WYqKsXTuqEc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "error": "ERROR: [youtube] WYqKsXTuqEc: This content isn’t available.",
  "rateLimited": false,
  "title": "The ULTIMATE Scorned Wilderness Raid Guide | RuneScape: Dragonwilds 1.0! #runescapedragonwilds"
 }

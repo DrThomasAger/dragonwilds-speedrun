@@ -1,11 +1,11 @@
 {
  "id": "_m9p6hKg0g0",
  "url": "https://www.youtube.com/watch?v=_m9p6hKg0g0",
- "reviewedAt": "2026-11-03T21:45:45.601Z",
+ "reviewedAt": "2026-11-26T17:19:04.846Z",
  "pipelineVersion": 1,
- "level": "full",
+ "level": "light",
  "status": "error",
- "error": "ERROR: [youtube] _m9p6hKg0g0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "error": "ERROR: [youtube] _m9p6hKg0g0: This content isn’t available.",
  "rateLimited": false,
  "title": "Runescape Dragonwilds: Scorned Wilderness RAID! Kuldra easy kill!"
 }

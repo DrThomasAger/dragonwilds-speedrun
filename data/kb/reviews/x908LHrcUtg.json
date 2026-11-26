@@ -1,11 +1,11 @@
 {
  "id": "x908LHrcUtg",
  "url": "https://www.youtube.com/watch?v=x908LHrcUtg",
- "reviewedAt": "2026-11-03T21:45:24.049Z",
+ "reviewedAt": "2026-11-26T17:18:57.471Z",
  "pipelineVersion": 1,
- "level": "full",
+ "level": "light",
  "status": "error",
- "error": "ERROR: [youtube] x908LHrcUtg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "error": "ERROR: [youtube] x908LHrcUtg: This content isn’t available.",
  "rateLimited": false,
  "title": "The ONLY Kuldra Guide You'll Need RuneScape: Dragonwilds (Scorned Wilderness Complete Walkthrough)"
 }

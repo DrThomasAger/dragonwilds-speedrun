@@ -1,11 +1,11 @@
 {
  "id": "-tUewC-WIdg",
  "url": "https://www.youtube.com/watch?v=-tUewC-WIdg",
- "reviewedAt": "2026-11-03T21:45:52.983Z",
+ "reviewedAt": "2026-11-26T17:19:07.178Z",
  "pipelineVersion": 1,
- "level": "full",
+ "level": "light",
  "status": "error",
- "error": "ERROR: [youtube] -tUewC-WIdg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))",
+ "error": "ERROR: [youtube] -tUewC-WIdg: This content isn’t available.",
  "rateLimited": false,
  "title": "KULDRA KILL (Mage) | RuneScape: Dragonwilds"
 }

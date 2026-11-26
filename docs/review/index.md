@@ -1,6 +1,6 @@
 # Raid source reviews
 
-97 reviewed · 24 with all five splits measured · generated 2026-11-25T17:37:48.979Z
+97 reviewed · 24 with all five splits measured · generated 2026-11-26T17:19:19.797Z
 
 | Video | Author | Status | Measured | Splits | Anomalies | Candidates | Transcript |
 |---|---|---|---|---|---|---|---|
@@ -104,15 +104,23 @@
 
 ## Not reviewable
 
-- -tUewC-WIdg: error — ERROR: [youtube] -tUewC-WIdg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- 0EyC3Sk7M-A: error — ERROR: [youtube] 0EyC3Sk7M-A: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- -1oT_ZORBLs: error — ERROR: [youtube] -1oT_ZORBLs: This content isn’t available.
+- -tUewC-WIdg: error — ERROR: [youtube] -tUewC-WIdg: This content isn’t available.
+- 0EyC3Sk7M-A: error — ERROR: [youtube] 0EyC3Sk7M-A: This content isn’t available.
 - 0HeTn4G7oVk: error — ERROR: [youtube] 0HeTn4G7oVk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- 14iJqjPKCEA: error — ERROR: [youtube] 14iJqjPKCEA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- 14iJqjPKCEA: error — ERROR: [youtube] 14iJqjPKCEA: This content isn’t available.
 - 1EmTyHx3UME: unavailable — ERROR: [youtube] 1EmTyHx3UME: Video unavailable. This video has been removed by the uploader
+- 1QXIJMi5vis: error — ERROR: [youtube] 1QXIJMi5vis: This content isn’t available.
+- 2A3-KabPLxU: error — ERROR: [youtube] 2A3-KabPLxU: This content isn’t available.
+- 2IldgfTNkGo: error — ERROR: [youtube] 2IldgfTNkGo: This content isn’t available.
+- 2LdTDDbEtWs: error — ERROR: [youtube] 2LdTDDbEtWs: This content isn’t available.
 - 2Zn04m-mq80: error — ERROR: [youtube] 2Zn04m-mq80: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- 3-LAe-3Jons: error — ERROR: [youtube] 3-LAe-3Jons: This content isn’t available.
+- 3P5t0O8WBQU: error — ERROR: [youtube] 3P5t0O8WBQU: This content isn’t available.
 - 3Tut7hgfPNI: deferred — ERROR: [youtube] 3Tut7hgfPNI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
 - 45256p4Dnt8: deferred — ERROR: [youtube] 45256p4Dnt8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
-- 4C-7swCHEes: error — ERROR: [youtube] 4C-7swCHEes: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- 4C-7swCHEes: error — ERROR: [youtube] 4C-7swCHEes: This content isn’t available.
+- 4RnZgkMVbco: error — ERROR: [youtube] 4RnZgkMVbco: This content isn’t available.
 - 5YGT2dJaPK8: error — ERROR: [youtube] 5YGT2dJaPK8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 5u3CQ034wSY: deferred — ERROR: [youtube] 5u3CQ034wSY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
 - 5vqcrsspAcE: error — ERROR: [youtube] 5vqcrsspAcE: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
@@ -122,25 +130,29 @@
 - 6Xta0SaH3-k: error — ERROR: [youtube] 6Xta0SaH3-k: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 7XYvLtw4TS0: error — ERROR: [youtube] 7XYvLtw4TS0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 7_htSZ7NtLA: deferred — ERROR: [youtube] 7_htSZ7NtLA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
-- 7drO4EDaJTo: deferred — ERROR: [youtube] 7drO4EDaJTo: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
+- 7drO4EDaJTo: error — ERROR: [youtube] 7drO4EDaJTo: This content isn’t available.
 - 7s3fgHwlRYA: error — ERROR: [youtube] 7s3fgHwlRYA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 7sVaG0JRlxc: error — ERROR: [youtube] 7sVaG0JRlxc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 8NZUgtW6rkQ: unavailable — ERROR: [youtube] 8NZUgtW6rkQ: Video unavailable. This video has been removed by the uploader
 - 95xH_yTZX_w: error — ERROR: [youtube] 95xH_yTZX_w: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - 9CTj9LgZJ5A: error — ERROR: [youtube] 9CTj9LgZJ5A: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- 9_Y197bPwA4: deferred — ERROR: [youtube] 9_Y197bPwA4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
-- A6q-3eHUPtI: deferred — ERROR: [youtube] A6q-3eHUPtI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
-- APwjC7fgnpg: deferred — ERROR: [youtube] APwjC7fgnpg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
+- 9_Y197bPwA4: error — ERROR: [youtube] 9_Y197bPwA4: This content isn’t available.
+- A6q-3eHUPtI: error — ERROR: [youtube] A6q-3eHUPtI: This content isn’t available.
+- APwjC7fgnpg: error — ERROR: [youtube] APwjC7fgnpg: This content isn’t available.
 - AbC4uyQRzcM: error — ERROR: [youtube] AbC4uyQRzcM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- Adf65cHhKwk: deferred — ERROR: [youtube] Adf65cHhKwk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
+- Adf65cHhKwk: error — ERROR: [youtube] Adf65cHhKwk: This content isn’t available.
 - B4t1Vrgt6I8: error — ERROR: [youtube] B4t1Vrgt6I8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- BLE256IHblE: deferred — ERROR: [youtube] BLE256IHblE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
+- BLE256IHblE: error — ERROR: [youtube] BLE256IHblE: This content isn’t available.
 - BvI39z_sW3o: error — ERROR: [youtube] BvI39z_sW3o: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- EC48J7Tx6J4: error — ERROR: [youtube] EC48J7Tx6J4: This content isn’t available.
+- EFFiwe6rrlI: error — ERROR: [youtube] EFFiwe6rrlI: This content isn’t available.
 - EvdQKZv4Cyo: error — ERROR: [youtube] EvdQKZv4Cyo: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - F3yv_tgJFJU: error — ERROR: [youtube] F3yv_tgJFJU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - F4vUWayKWbQ: error — ERROR: [youtube] F4vUWayKWbQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - F8p60k1co3U: error — ERROR: [youtube] F8p60k1co3U: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - FZpsGhI6AWw: error — ERROR: [youtube] FZpsGhI6AWw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- FxnQ39Xzdhw: error — ERROR: [youtube] FxnQ39Xzdhw: This content isn’t available.
+- GzTp4J7E8b4: error — ERROR: [youtube] GzTp4J7E8b4: This content isn’t available.
 - H1f_gXNdv3Y: error — ERROR: [youtube] H1f_gXNdv3Y: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - H2BWG4IrQIU: error — ERROR: [youtube] H2BWG4IrQIU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - HaHFmb88830: error — ERROR: [youtube] HaHFmb88830: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
@@ -154,45 +166,60 @@
 - L-dTDXJyFq0: error — ERROR: [youtube] L-dTDXJyFq0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - LGCddmk_TnM: error — ERROR: [youtube] LGCddmk_TnM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - LeVPNQQ-5dY: error — ERROR: [youtube] LeVPNQQ-5dY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- LqWukJK43TA: deferred — ERROR: [youtube] LqWukJK43TA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
-- M2agf-VB6vg: deferred — ERROR: [youtube] M2agf-VB6vg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
+- LqWukJK43TA: error — ERROR: [youtube] LqWukJK43TA: This content isn’t available.
+- M2agf-VB6vg: error — ERROR: [youtube] M2agf-VB6vg: This content isn’t available.
 - MUSMU0rpaLw: error — ERROR: [youtube] MUSMU0rpaLw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- McETm8CJbWg: error — ERROR: [youtube] McETm8CJbWg: This content isn’t available.
 - MnZ3zQdMlhc: error — ERROR: [youtube] MnZ3zQdMlhc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - O_xZR5Nj97U: error — ERROR: [youtube] O_xZR5Nj97U: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- PU8woWC6fos: error — ERROR: [youtube] PU8woWC6fos: This content isn’t available.
 - Qhc-9tFrs88: error — ERROR: [youtube] Qhc-9tFrs88: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- RfeJqHBpk9w: error — ERROR: [youtube] RfeJqHBpk9w: This content isn’t available.
+- Rkwq5WUQUHU: error — ERROR: [youtube] Rkwq5WUQUHU: This content isn’t available.
 - RzKDGz5YquQ: error — ERROR: [youtube] RzKDGz5YquQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - SrXo70-eOLg: error — ERROR: [youtube] SrXo70-eOLg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - TLJOpo8frns: error — ERROR: [youtube] TLJOpo8frns: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- TpWwN2E1IwE: error — ERROR: [youtube] TpWwN2E1IwE: This content isn’t available.
 - U0_KPXu28qw: error — ERROR: [youtube] U0_KPXu28qw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - VlBhicHlfl4: error — ERROR: [youtube] VlBhicHlfl4: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - WDG9aD2oBIc: error — ERROR: [youtube] WDG9aD2oBIc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- WYqKsXTuqEc: error — ERROR: [youtube] WYqKsXTuqEc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- WszLkzU2K4U: deferred — ERROR: [youtube] WszLkzU2K4U: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
+- WYqKsXTuqEc: error — ERROR: [youtube] WYqKsXTuqEc: This content isn’t available.
+- WszLkzU2K4U: error — ERROR: [youtube] WszLkzU2K4U: This content isn’t available.
 - WvXjQC9tB50: error — ERROR: [youtube] WvXjQC9tB50: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- XnNOK74eDiY: error — ERROR: [youtube] XnNOK74eDiY: This content isn’t available.
 - YNyqVxxeTtM: error — ERROR: [youtube] YNyqVxxeTtM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - YYNO7WNXDcA: error — ERROR: [youtube] YYNO7WNXDcA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - ZPFWG6gZnEY: error — ERROR: [youtube] ZPFWG6gZnEY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - ZrMNapU83Y8: error — ERROR: [youtube] ZrMNapU83Y8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- _HjxuyYWoHQ: error — ERROR: [youtube] _HjxuyYWoHQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- _m9p6hKg0g0: error — ERROR: [youtube] _m9p6hKg0g0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- _-aLNeawwik: error — ERROR: [youtube] _-aLNeawwik: This content isn’t available.
+- _7KqY_gicLY: error — ERROR: [youtube] _7KqY_gicLY: This content isn’t available.
+- _HjxuyYWoHQ: error — ERROR: [youtube] _HjxuyYWoHQ: This content isn’t available.
+- _m9p6hKg0g0: error — ERROR: [youtube] _m9p6hKg0g0: This content isn’t available.
 - a7iUnju_Vfk: error — ERROR: [youtube] a7iUnju_Vfk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - acNmZe953vs: error — ERROR: [youtube] acNmZe953vs: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- ah2uk4q1KVw: error — ERROR: [youtube] ah2uk4q1KVw: This content isn’t available.
+- aoh5tsGbApk: error — ERROR: [youtube] aoh5tsGbApk: This content isn’t available.
 - aySOue59SHI: error — ERROR: [youtube] aySOue59SHI: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- bFOWvp4ZkPA: error — ERROR: [youtube] bFOWvp4ZkPA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- bFOWvp4ZkPA: error — ERROR: [youtube] bFOWvp4ZkPA: This content isn’t available.
 - bQ56l-8xTl8: unavailable — ERROR: [youtube] bQ56l-8xTl8: Requested format is not available. Use --list-formats for a list of available formats
-- bdI9-orUvEY: deferred — ERROR: [youtube] bdI9-orUvEY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
+- bdI9-orUvEY: error — ERROR: [youtube] bdI9-orUvEY: This content isn’t available.
 - cA6J1J5s9X0: error — ERROR: [youtube] cA6J1J5s9X0: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- eo9CkrlBNIw: deferred — ERROR: [youtube] eo9CkrlBNIw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
+- eo9CkrlBNIw: error — ERROR: [youtube] eo9CkrlBNIw: This content isn’t available.
 - f6aTIAnHDwA: error — ERROR: [youtube] f6aTIAnHDwA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - fO5YJeWqudE: error — ERROR: [youtube] fO5YJeWqudE: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - faQnPcZPaZ8: error — ERROR: [youtube] faQnPcZPaZ8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - gZqT-p3e0uQ: error — ERROR: [youtube] gZqT-p3e0uQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- gdHgiFT6Izs: error — ERROR: [youtube] gdHgiFT6Izs: This content isn’t available.
 - goKfbT19nkk: error — ERROR: [youtube] goKfbT19nkk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- hDWArOambLY: error — ERROR: [youtube] hDWArOambLY: This content isn’t available.
 - jg_G6eAhM80: error — ERROR: [youtube] jg_G6eAhM80: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - kIFZmk5P6CQ: error — ERROR: [youtube] kIFZmk5P6CQ: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - kyr7N_QVFdg: error — ERROR: [youtube] kyr7N_QVFdg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - lTG0EuXuqDs: error — ERROR: [youtube] lTG0EuXuqDs: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- mdwDaRj889w: error — ERROR: [youtube] mdwDaRj889w: This content isn’t available.
+- mtSM06FEliU: error — ERROR: [youtube] mtSM06FEliU: This content isn’t available.
 - n5unPmnfP6A: error — ERROR: [youtube] n5unPmnfP6A: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- nh3DQ2ODfsE: error — ERROR: [youtube] nh3DQ2ODfsE: This content isn’t available.
 - nhTtRoKPE1E: error — ERROR: [youtube] nhTtRoKPE1E: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - oK0_U_I40DY: error — ERROR: [youtube] oK0_U_I40DY: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - odV1jVa65mU: error — ERROR: [youtube] odV1jVa65mU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
@@ -200,8 +227,12 @@
 - ou1gSrcvWGk: error — ERROR: [youtube] ou1gSrcvWGk: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - p-wFOJrQFRw: error — ERROR: [youtube] p-wFOJrQFRw: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - pNBJlwJOky8: unavailable — ERROR: [youtube] pNBJlwJOky8: This video is not available
-- pOhcjk1BAhM: deferred — ERROR: [youtube] pOhcjk1BAhM: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
+- pOhcjk1BAhM: error — ERROR: [youtube] pOhcjk1BAhM: This content isn’t available.
+- pfnpOpK8j4I: error — ERROR: [youtube] pfnpOpK8j4I: This content isn’t available.
 - pshWjGU1gG4: error — ERROR: [youtube] pshWjGU1gG4: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- q1mvFUqCW34: error — ERROR: [youtube] q1mvFUqCW34: This content isn’t available.
+- q2swnvvkbTs: error — ERROR: [youtube] q2swnvvkbTs: This content isn’t available.
+- qxVf21XQxsw: error — ERROR: [youtube] qxVf21XQxsw: This content isn’t available.
 - r1nrG2NlW-g: error — ERROR: [youtube] r1nrG2NlW-g: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - rNDeEKsKGeA: error — ERROR: [youtube] rNDeEKsKGeA: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - rq18FeCFl-8: error — ERROR: [youtube] rq18FeCFl-8: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
@@ -212,10 +243,14 @@
 - v08OscNsOEM: unavailable — ERROR: [youtube] v08OscNsOEM: Requested format is not available. Use --list-formats for a list of available formats
 - w4zztfeqroc: error — ERROR: [youtube] w4zztfeqroc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - wOF8HgyWj4Q: error — ERROR: [youtube] wOF8HgyWj4Q: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- x908LHrcUtg: error — ERROR: [youtube] x908LHrcUtg: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- x908LHrcUtg: error — ERROR: [youtube] x908LHrcUtg: This content isn’t available.
+- xT0b-uO_5Mg: error — ERROR: [youtube] xT0b-uO_5Mg: This content isn’t available.
 - xU3_1KirfDc: error — ERROR: [youtube] xU3_1KirfDc: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
-- xv55VjOI9ws: deferred — ERROR: [youtube] xv55VjOI9ws: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
-- ynjeXmaFyVU: error — ERROR: [youtube] ynjeXmaFyVU: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- xv55VjOI9ws: error — ERROR: [youtube] xv55VjOI9ws: This content isn’t available.
+- xx0vKHteU8o: error — ERROR: [youtube] xx0vKHteU8o: This content isn’t available.
+- y4kwQBC0sMg: error — ERROR: [youtube] y4kwQBC0sMg: This content isn’t available.
+- ynjeXmaFyVU: error — ERROR: [youtube] ynjeXmaFyVU: This content isn’t available.
 - yqAg8RPDD3o: error — ERROR: [youtube] yqAg8RPDD3o: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - z8pDoP0_l9U: error — ERROR: [youtube] z8pDoP0_l9U: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
 - zNaUuRbbQPM: error — ERROR: [youtube] zNaUuRbbQPM: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
+- zblPBXFES0E: error — ERROR: [youtube] zblPBXFES0E: This content isn’t available.

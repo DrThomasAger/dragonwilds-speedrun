@@ -1,12 +1,11 @@
 {
  "id": "9_Y197bPwA4",
  "url": "https://www.youtube.com/watch?v=9_Y197bPwA4",
- "reviewedAt": "2026-11-24T18:17:22.599Z",
+ "reviewedAt": "2026-11-26T17:18:05.649Z",
  "pipelineVersion": 1,
  "level": "light",
- "status": "deferred",
- "error": "ERROR: [youtube] 9_Y197bPwA4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git",
- "rateLimited": true,
- "botBlock": true,
+ "status": "error",
+ "error": "ERROR: [youtube] 9_Y197bPwA4: This content isn’t available.",
+ "rateLimited": false,
  "title": "RuneScape: Dragonwilds - Agility Update (Gold Medal Run, All Course Locations, & Scorned Wilderness)"
 }
