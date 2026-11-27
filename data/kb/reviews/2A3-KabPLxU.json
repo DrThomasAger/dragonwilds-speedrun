@@ -1,11 +1,12 @@
 {
  "id": "2A3-KabPLxU",
  "url": "https://www.youtube.com/watch?v=2A3-KabPLxU",
- "reviewedAt": "2026-11-26T17:18:05.649Z",
+ "reviewedAt": "2026-11-27T16:58:37.149Z",
  "pipelineVersion": 1,
  "level": "light",
- "status": "error",
- "error": "ERROR: [youtube] 2A3-KabPLxU: This content isn’t available.",
- "rateLimited": false,
+ "status": "deferred",
+ "error": "ERROR: [youtube] 2A3-KabPLxU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git",
+ "rateLimited": true,
+ "botBlock": true,
  "title": "Runescape Dragonwilds Kuldra speed run 1"
 }

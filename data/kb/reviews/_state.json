@@ -1548,11 +1548,11 @@
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "deferredAt": "2026-11-25T17:37:47.323Z",
+   "deferredAt": "2026-11-27T16:58:39.000Z",
    "lastError": "ERROR: [youtube] 3Tut7hgfPNI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
    "title": "RuneScape Dragonwilds - Solo Kuldra Grind",
-   "botBlocks": 10,
-   "retryAfter": "2026-11-26T17:37:47.323Z"
+   "botBlocks": 11,
+   "retryAfter": "2026-11-28T16:58:39.000Z"
   },
   "A6q-3eHUPtI": {
    "status": "error",
@@ -1574,21 +1574,21 @@
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "deferredAt": "2026-11-25T17:37:48.924Z",
+   "deferredAt": "2026-11-27T16:58:40.343Z",
    "lastError": "ERROR: [youtube] 5u3CQ034wSY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
    "title": "Runescape DragonWilds Solo Kuldra Challange Kill w/T8 Wooden Training Sword (NO CHESTPLATE&LEGS)",
-   "botBlocks": 10,
-   "retryAfter": "2026-11-26T17:37:48.924Z"
+   "botBlocks": 11,
+   "retryAfter": "2026-11-28T16:58:40.343Z"
   },
   "45256p4Dnt8": {
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "deferredAt": "2026-11-25T17:37:47.205Z",
+   "deferredAt": "2026-11-27T16:58:40.489Z",
    "lastError": "ERROR: [youtube] 45256p4Dnt8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
    "title": "Speed running Scorned Wilderness and Kuldra raid! Fight cave? #osrs #rs3",
-   "botBlocks": 9,
-   "retryAfter": "2026-11-26T17:37:47.205Z"
+   "botBlocks": 10,
+   "retryAfter": "2026-11-28T16:58:40.489Z"
   },
   "7_htSZ7NtLA": {
    "status": "deferred",
@@ -1617,12 +1617,15 @@
    "title": "RuneScape DRAGONWILDS  / FULL SCORNED WILDERNESS RUN / DRAGON PLATEBODY SOON??"
   },
   "2A3-KabPLxU": {
-   "status": "error",
+   "status": "deferred",
    "level": "light",
    "reviewedAt": "2026-11-26T17:18:05.649Z",
    "attempts": 1,
-   "lastError": "ERROR: [youtube] 2A3-KabPLxU: This content isn’t available.",
-   "title": "Runescape Dragonwilds Kuldra speed run 1"
+   "lastError": "ERROR: [youtube] 2A3-KabPLxU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "title": "Runescape Dragonwilds Kuldra speed run 1",
+   "botBlocks": 1,
+   "retryAfter": "2026-11-27T17:43:38.764Z",
+   "deferredAt": "2026-11-27T16:58:38.764Z"
   },
   "ah2uk4q1KVw": {
    "status": "error",

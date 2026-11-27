@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T17:19:19.797Z",
+ "generatedAt": "2026-11-27T16:58:40.529Z",
  "count": 247,
  "ok": 97,
  "complete": 24,
@@ -976,7 +976,7 @@
    "id": "2A3-KabPLxU",
    "title": "Runescape Dragonwilds Kuldra speed run 1",
    "author": null,
-   "status": "error",
+   "status": "deferred",
    "runStatus": null,
    "rank": null,
    "level": "light",
@@ -988,8 +988,8 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-26T17:18:05.649Z",
-   "error": "ERROR: [youtube] 2A3-KabPLxU: This content isn’t available."
+   "reviewedAt": "2026-11-27T16:58:37.149Z",
+   "error": "ERROR: [youtube] 2A3-KabPLxU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
    "id": "2IldgfTNkGo",
@@ -1102,7 +1102,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-25T17:37:45.648Z",
+   "reviewedAt": "2026-11-27T16:58:37.149Z",
    "error": "ERROR: [youtube] 3Tut7hgfPNI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
@@ -1141,7 +1141,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-25T17:37:45.648Z",
+   "reviewedAt": "2026-11-27T16:58:38.766Z",
    "error": "ERROR: [youtube] 45256p4Dnt8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {
@@ -1275,7 +1275,7 @@
    "anomalies": 0,
    "candidates": 0,
    "commentary": 0,
-   "reviewedAt": "2026-11-25T17:37:47.207Z",
+   "reviewedAt": "2026-11-27T16:58:39.002Z",
    "error": "ERROR: [youtube] 5u3CQ034wSY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git"
   },
   {

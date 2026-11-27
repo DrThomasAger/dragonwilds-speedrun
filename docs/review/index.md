@@ -1,6 +1,6 @@
 # Raid source reviews
 
-97 reviewed · 24 with all five splits measured · generated 2026-11-26T17:19:19.797Z
+97 reviewed · 24 with all five splits measured · generated 2026-11-27T16:58:40.529Z
 
 | Video | Author | Status | Measured | Splits | Anomalies | Candidates | Transcript |
 |---|---|---|---|---|---|---|---|
@@ -111,7 +111,7 @@
 - 14iJqjPKCEA: error — ERROR: [youtube] 14iJqjPKCEA: This content isn’t available.
 - 1EmTyHx3UME: unavailable — ERROR: [youtube] 1EmTyHx3UME: Video unavailable. This video has been removed by the uploader
 - 1QXIJMi5vis: error — ERROR: [youtube] 1QXIJMi5vis: This content isn’t available.
-- 2A3-KabPLxU: error — ERROR: [youtube] 2A3-KabPLxU: This content isn’t available.
+- 2A3-KabPLxU: deferred — ERROR: [youtube] 2A3-KabPLxU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://git
 - 2IldgfTNkGo: error — ERROR: [youtube] 2IldgfTNkGo: This content isn’t available.
 - 2LdTDDbEtWs: error — ERROR: [youtube] 2LdTDDbEtWs: This content isn’t available.
 - 2Zn04m-mq80: error — ERROR: [youtube] 2Zn04m-mq80: Unable to download API page: [Errno 11001] getaddrinfo failed (caused by TransportError('[Errno 11001] getaddrinfo failed'))
