@@ -1555,12 +1555,15 @@
    "retryAfter": "2026-11-28T16:58:39.000Z"
   },
   "A6q-3eHUPtI": {
-   "status": "error",
+   "status": "deferred",
    "level": "light",
    "reviewedAt": "2026-11-26T17:18:07.903Z",
    "attempts": 1,
-   "lastError": "ERROR: [youtube] A6q-3eHUPtI: This content isn’t available.",
-   "title": "Kuldra Speed Run Runescape Dragonwilds"
+   "lastError": "ERROR: [youtube] A6q-3eHUPtI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "title": "Kuldra Speed Run Runescape Dragonwilds",
+   "botBlocks": 1,
+   "retryAfter": "2026-11-28T16:34:39.986Z",
+   "deferredAt": "2026-11-28T15:49:39.986Z"
   },
   "bdI9-orUvEY": {
    "status": "error",
@@ -1594,19 +1597,22 @@
    "status": "deferred",
    "level": "light",
    "attempts": 0,
-   "deferredAt": "2026-11-25T17:37:48.937Z",
+   "deferredAt": "2026-11-28T15:49:38.372Z",
    "lastError": "ERROR: [youtube] 7_htSZ7NtLA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
    "title": "RuneScape: Dragonwilds_Kuldra Solo",
-   "botBlocks": 9,
-   "retryAfter": "2026-11-26T17:37:48.937Z"
+   "botBlocks": 10,
+   "retryAfter": "2026-11-29T15:49:38.372Z"
   },
   "9_Y197bPwA4": {
-   "status": "error",
+   "status": "deferred",
    "level": "light",
    "reviewedAt": "2026-11-26T17:18:05.649Z",
    "attempts": 1,
-   "lastError": "ERROR: [youtube] 9_Y197bPwA4: This content isn’t available.",
-   "title": "RuneScape: Dragonwilds - Agility Update (Gold Medal Run, All Course Locations, & Scorned Wilderness)"
+   "lastError": "ERROR: [youtube] 9_Y197bPwA4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+   "title": "RuneScape: Dragonwilds - Agility Update (Gold Medal Run, All Course Locations, & Scorned Wilderness)",
+   "botBlocks": 1,
+   "retryAfter": "2026-11-28T16:34:40.130Z",
+   "deferredAt": "2026-11-28T15:49:40.130Z"
   },
   "Adf65cHhKwk": {
    "status": "error",
@@ -1623,9 +1629,9 @@
    "attempts": 1,
    "lastError": "ERROR: [youtube] 2A3-KabPLxU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
    "title": "Runescape Dragonwilds Kuldra speed run 1",
-   "botBlocks": 1,
-   "retryAfter": "2026-11-27T17:43:38.764Z",
-   "deferredAt": "2026-11-27T16:58:38.764Z"
+   "deferredAt": "2026-11-28T15:49:38.407Z",
+   "botBlocks": 2,
+   "retryAfter": "2026-11-28T17:19:38.407Z"
   },
   "ah2uk4q1KVw": {
    "status": "error",
